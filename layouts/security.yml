@@ -1,0 +1,32 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 0.75in
+  height: 0.75in
+chit_text:
+  width: 300
+  height: 300
+  font: Sans Bold 25
+  align: center
+  valign: middle
+blank:
+  extends: chit_text
+  str:
+oneguard:
+  extends: chit_text
+  str: 1 Guard
+twoguards:
+  extends: chit_text
+  str: 2 Guards
+subdued:
+  extends: chit_text
+  str: Subdued
+camera:
+  extends: chit_text
+  str: Camera
+locked:
+  extends: chit_text
+  str: Locked
+unlocked:
+  extends: chit_text
+  str: Unlocked
