@@ -1,0 +1,92 @@
+{
+  "0": {
+    "Name": "Script Kiddie",
+    "Qty": "1",
+    "Level": "0"
+  },
+  "1": {
+    "Name": "n00b",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "2": {
+    "Name": "Angry Coder",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "3": {
+    "Name": "Hacktivist",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "4": {
+    "Name": "Black Hat",
+    "Qty": "1",
+    "Level": "2"
+  },
+  "5": {
+    "Name": "Disgruntled Locksmith",
+    "Qty": "1",
+    "Level": "0"
+  },
+  "6": {
+    "Name": "Safecracker",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "7": {
+    "Name": "Thug",
+    "Qty": "1",
+    "Level": "0"
+  },
+  "8": {
+    "Name": "Bag Man",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "9": {
+    "Name": "Operative",
+    "Qty": "1",
+    "Level": "2"
+  },
+  "10": {
+    "Name": "Persuasion Specialist",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "11": {
+    "Name": "Mastermind",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "12": {
+    "Name": "Evil Genius",
+    "Qty": "1",
+    "Level": "2"
+  },
+  "13": {
+    "Name": "Street Urchin",
+    "Qty": "1",
+    "Level": "0"
+  },
+  "14": {
+    "Name": "Con Artist",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "15": {
+    "Name": "Burglar",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "16": {
+    "Name": "Thief",
+    "Qty": "1",
+    "Level": "1"
+  },
+  "17": {
+    "Name": "Grease Man",
+    "Qty": "1",
+    "Level": "2"
+  }
+}
