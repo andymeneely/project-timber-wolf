@@ -14,15 +14,12 @@ Squib::Deck.new(cards: total) do
   info = data['Level'].zip(data['Cost'], data['Type']).map do |lvl, cost, type|
     "lvl#{lvl}\n$#{cost}\n#{type}"
   end
-  pp info
 
   text str: info, layout: :info
-  # text str: data['Level'].map { |s| "lvl#{s}" }, layout: :level
-  # text str: data['Cost'].map { |s| "$#{s}" }, layout: :cost
-  # text str: data['Type'].map { |s| "$#{s}" }, layout: :cost
   text str: data['Name'], layout: :name
   text str: data['Rolls'], layout: :rolls
 
   save_png prefix: 'skill_'
   save_sheet prefix: 'skill_sheet_', trim: '0.125in'
+  save_pdf file: 'skills.pdf', trim: '0.125in'
 end
