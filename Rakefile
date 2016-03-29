@@ -1,7 +1,7 @@
 require 'squib'
 
-task default: [:deck]
+task default: [:security]
 
-task :deck do
-  load 'deck.rb'
+task :security do
+  load 'src/security.rb'
 end
