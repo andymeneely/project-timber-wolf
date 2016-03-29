@@ -227,6 +227,7 @@ Security chits:
 Loot chits: different amounts of money to be revealed
 Macguffin chits - nothing to reveal
 Macguffin key chits - nothing to reveal
+Disturbed room chits
 
 # Allow for recon to be paid for at the beginning? Would need a rising cost of recon so you have to target
 
