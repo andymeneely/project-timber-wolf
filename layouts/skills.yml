@@ -1,0 +1,24 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+rolls:
+  x: 0.25in
+  y: 0.75in
+  font: Serif 27
+name:
+  x: 0.5in
+  y: 0.125in
+  width: 1.9in
+  height: 1in
+  font: Sans Bold 56
+  align: right
+info:
+  x: 0.25in
+  y: 0.125in
+  width: 2.4in
+  height: 1in
+  font: Sans Bold 42
+  align: left
+  spacing: -15
