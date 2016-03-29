@@ -12,6 +12,18 @@ Squib::Deck.new(cards: total) do
 
   text str: data['Name'], layout: :title
 
+  text layout: data['Skill1']
+  rect layout: data['Skill1']
+
+  text layout: data['Skill2']
+  rect layout: data['Skill2']
+
+  text layout: data['Skill3']
+  rect layout: data['Skill3']
+
+  text layout: data['Skill4']
+  rect layout: data['Skill4']
+
   save_png prefix: 'character_'
   save_sheet prefix: 'character_sheet_', trim: '0.125in'
 end
