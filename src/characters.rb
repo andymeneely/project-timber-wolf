@@ -26,4 +26,5 @@ Squib::Deck.new(cards: total) do
 
   save_png prefix: 'character_'
   save_sheet prefix: 'character_sheet_', trim: '0.125in'
+  save_pdf file: 'characters.pdf', trim: '0.125in'
 end

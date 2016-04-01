@@ -19,7 +19,16 @@ Squib::Deck.new(cards: total) do
   text str: data['Name'], layout: :name
   text str: data['Rolls'], layout: :rolls
 
-  save_png prefix: 'skill_'
-  save_sheet prefix: 'skill_sheet_', trim: '0.125in'
-  save_pdf file: 'skills.pdf', trim: '0.125in'
+  # save_png prefix: 'skill_'
+  # save_sheet prefix: 'skill_sheet_', trim: '0.125in'
+  # save_pdf file: 'skills.pdf', trim: '0.125in'
+
+  enable_build :lvl0
+  build :lvl0 do
+    lvl0s = data['Level'].each.with_index.inject([]) do |arr, (lvl, i)|
+      arr << i if lvl.to_i == 0
+      arr
+    end
+    save_pdf file: 'skills_lvl0.pdf', trim: '0.125in', range: lvl0s
+  end
 end
