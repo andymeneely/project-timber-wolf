@@ -30,5 +30,6 @@ Squib::Deck.new(cards: total) do
       arr
     end
     save_pdf file: 'skills_lvl0.pdf', trim: '0.125in', range: lvl0s
+    save_sheet prefix: 'skill_sheet_lvl0_', trim: '0.125in', range: lvl0s
   end
 end
