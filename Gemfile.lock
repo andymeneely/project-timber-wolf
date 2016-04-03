@@ -1,0 +1,87 @@
+GIT
+  remote: git://github.com/andymeneely/squib
+  revision: 2329a069d1001a8c22c0c90a86e41c1834efd878
+  branch: dev
+  specs:
+    squib (0.10.0a)
+      cairo (~> 1.14.3)
+      mercenary (~> 0.3.4)
+      nokogiri (~> 1.6.7)
+      pango (~> 3.0.1)
+      roo (~> 2.3.0)
+      rsvg2 (~> 3.0.0)
+      ruby-progressbar (~> 1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cairo (1.14.3-x86-mingw32)
+      pkg-config (>= 1.1.5)
+    coderay (1.1.1)
+    ffi (1.9.10-x86-mingw32)
+    formatador (0.2.5)
+    gdk_pixbuf2 (3.0.7-x86-mingw32)
+      glib2 (= 3.0.7)
+    glib2 (3.0.7-x86-mingw32)
+      cairo (>= 1.12.8)
+      pkg-config
+    guard (2.13.0)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, <= 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-rake (1.0.0)
+      guard
+      rake
+    listen (3.0.6)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9.7)
+    lumberjack (1.0.10)
+    mercenary (0.3.5)
+    method_source (0.8.2)
+    mini_portile2 (2.0.0)
+    nenv (0.3.0)
+    nokogiri (1.6.7.2-x86-mingw32)
+      mini_portile2 (~> 2.0.0.rc2)
+    notiffany (0.0.8)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
+    pango (3.0.7-x86-mingw32)
+      cairo (>= 1.14.0)
+      glib2 (= 3.0.7)
+    pkg-config (1.1.7)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rake (11.1.2)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
+      ffi (>= 0.5.0)
+    roo (2.3.2)
+      nokogiri (~> 1)
+      rubyzip (~> 1.1, < 2.0.0)
+    rsvg2 (3.0.7-x86-mingw32)
+      cairo (>= 1.12.8)
+      gdk_pixbuf2 (= 3.0.7)
+      pango (>= 3.0.7)
+    ruby-progressbar (1.7.5)
+    rubyzip (1.2.0)
+    shellany (0.0.1)
+    slop (3.6.0)
+    thor (0.19.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  guard
+  guard-rake
+  squib!
+
+BUNDLED WITH
+   1.10.6
