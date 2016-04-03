@@ -13,3 +13,11 @@ group :characters do
     watch %r{.*\.yml}
   end
 end
+
+group :skills do
+  guard 'rake', :task => 'skills' do
+    watch %r{.*\.xlsx$}
+    watch %r{.*\.rb$}
+    watch %r{.*\.yml}
+  end
+end

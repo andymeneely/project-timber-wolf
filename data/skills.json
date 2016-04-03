@@ -19,7 +19,8 @@
     "12": "BAM! 🔓🔊🔊🔊",
     "Rolls": "1: BAM! 🔓🔊🔊 ➜\n2: BAM! 🔓🔊🔊🔊➜\n3: THUD. 🔊\n4: BAM! 🔓🔊🔊🔊➜\n5: CRASH! 🔓🔊💥➜\n6: THUD. 🔊\n7: CRASH! 🔓🔊💥➜\n8: BAM! 🔓🔊🔊🔊➜\n9: CRASH! 🔓🔊💥\n10: CRASH! 🔓🔊💥\n11: CRACK! 🔓🔊\n12: BAM! 🔓🔊🔊🔊",
     "Description": "",
-    "Notes": "free, loud, disturbs rooms, no exp gained"
+    "Notes": "free, loud, disturbs rooms, no exp gained",
+    "": null
   },
   "1": {
     "Name": "Mule Kick",
@@ -41,7 +42,8 @@
     "12": "BAM! 🔓🔊🔊🔊",
     "Rolls": "1: BAM! 🔓🔊🔊 ➜\n2: BAM! 🔓🔊🔊🔊➜\n3: THUD. 🔊\n4: BAM! 🔓🔊🔊🔊➜\n5: CRASH! 🔓🔊💥➜\n6: THUD. 🔊\n7: CRASH! 🔓🔊💥➜\n8: BAM! 🔓🔊🔊🔊➜\n9: CRASH! 🔓🔊💥\n10: CRASH! 🔓🔊💥\n11: CRACK! 🔓🔊\n12: BAM! 🔓🔊🔊🔊",
     "Description": "",
-    "Notes": "free, loud, disturbs rooms, no exp gained"
+    "Notes": "free, loud, disturbs rooms, no exp gained",
+    "": null
   },
   "2": {
     "Name": "Cut Locks",
@@ -63,7 +65,8 @@
     "12": "ALMOST!💡💡",
     "Rolls": "1: OOF! 🔊\n2: ALMOST!💡💡\n3: CLUNK. 🔓🔊💥➜\n4: OOF! 🔊\n5: ALMOST!💡💡\n6: CLUNK. 🔓🔊💥➜\n7: OOF! 🔊\n8: CLUNK. 🔓🔊💥➜\n9: CLUNK. 🔓🔊💥➜\n10: CLUNK. 🔓🔊💥➜\n11: ALMOST!💡💡\n12: ALMOST!💡💡",
     "Description": "",
-    "Notes": "cheap, kinda loud, disturbs rooms, gains some experience, but less successful the first time"
+    "Notes": "cheap, kinda loud, disturbs rooms, gains some experience, but less successful the first time",
+    "": null
   },
   "3": {
     "Name": "Cut Locks",
@@ -85,13 +88,14 @@
     "12": "ALMOST!💡💡",
     "Rolls": "1: OOF! 🔊\n2: ALMOST!💡💡\n3: CLUNK. 🔓🔊💥➜\n4: OOF! 🔊\n5: ALMOST!💡💡\n6: CLUNK. 🔓🔊💥➜\n7: OOF! 🔊\n8: CLUNK. 🔓🔊💥➜\n9: CLUNK. 🔓🔊💥➜\n10: CLUNK. 🔓🔊💥➜\n11: ALMOST!💡💡\n12: ALMOST!💡💡",
     "Description": "",
-    "Notes": "cheap, kinda loud, disturbs rooms, gains some experience, but less successful the first time"
+    "Notes": "cheap, kinda loud, disturbs rooms, gains some experience, but less successful the first time",
+    "": null
   },
   "4": {
     "Name": "Rake Locks",
     "Type": "Unlock",
     "Qty": "2",
-    "Cost": "2",
+    "Cost": "3",
     "Level": "1",
     "1": "BYPASS! 🔓🔓➜",
     "2": null,
@@ -107,13 +111,14 @@
     "12": null,
     "Rolls": "1: BYPASS! 🔓🔓➜\n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "cheap, quiet, less disturbing, low success rate"
+    "Notes": "cheap, quiet, less disturbing, low success rate",
+    "": null
   },
   "5": {
     "Name": "Rake Locks",
     "Type": "Unlock",
     "Qty": "2",
-    "Cost": "2",
+    "Cost": "3",
     "Level": "1",
     "1": "BYPASS! 🔓🔓➜",
     "2": null,
@@ -129,13 +134,14 @@
     "12": null,
     "Rolls": "1: BYPASS! 🔓🔓➜\n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "cheap, quiet, less disturbing, low success rate"
+    "Notes": "cheap, quiet, less disturbing, low success rate",
+    "": null
   },
   "6": {
     "Name": "Pick Locks",
     "Type": "Unlock",
     "Qty": "2",
-    "Cost": "4",
+    "Cost": "5",
     "Level": "2",
     "1": null,
     "2": null,
@@ -151,13 +157,14 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "expensive, quiet, effective, out of reach for many crew members"
+    "Notes": "expensive, quiet, effective, out of reach for many crew members",
+    "": null
   },
   "7": {
     "Name": "Pick Locks",
     "Type": "Unlock",
     "Qty": "2",
-    "Cost": "4",
+    "Cost": "5",
     "Level": "2",
     "1": null,
     "2": null,
@@ -173,7 +180,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "expensive, quiet, effective, out of reach for many crew members"
+    "Notes": "expensive, quiet, effective, out of reach for many crew members",
+    "": null
   },
   "8": {
     "Name": "Inside Man",
@@ -181,8 +189,8 @@
     "Qty": "2",
     "Cost": "3",
     "Level": "1",
-    "1": null,
-    "2": null,
+    "1": "BRIBE! 👊 -$1k",
+    "2": "YOINK! +$1k",
     "3": null,
     "4": null,
     "5": null,
@@ -193,9 +201,10 @@
     "10": null,
     "11": null,
     "12": null,
-    "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
+    "Rolls": "1: BRIBE! 👊 -$1k\n2: YOINK! +$1k\n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "Does everything, no EXP"
+    "Notes": "Does everything, no EXP",
+    "": null
   },
   "9": {
     "Name": "Inside Man",
@@ -203,8 +212,8 @@
     "Qty": "2",
     "Cost": "3",
     "Level": "1",
-    "1": null,
-    "2": null,
+    "1": "BRIBE! 👊 -$1k",
+    "2": "YOINK! +$1k",
     "3": null,
     "4": null,
     "5": null,
@@ -215,9 +224,10 @@
     "10": null,
     "11": null,
     "12": null,
-    "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
+    "Rolls": "1: BRIBE! 👊 -$1k\n2: YOINK! +$1k\n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "Does everything, no EXP"
+    "Notes": "Does everything, no EXP",
+    "": null
   },
   "10": {
     "Name": "Masquerade",
@@ -239,7 +249,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "Does everything better, no EXP"
+    "Notes": "Does everything better, no EXP",
+    "": null
   },
   "11": {
     "Name": "Masquerade",
@@ -261,7 +272,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "Does everything better, no EXP"
+    "Notes": "Does everything better, no EXP",
+    "": null
   },
   "12": {
     "Name": "Self Defense",
@@ -283,7 +295,8 @@
     "12": "FIGHT! 👊🔊🔊➜",
     "Rolls": "1: SURPRISE. 👊➜\n2: FAIL! Busted.\n3: FIGHT! 👊🔊🔊➜\n4: FAIL! Busted.\n5: FIGHT! 👊🔊🔊➜\n6: HESITATE. 💡💡💡\n7: FIGHT! 👊🔊🔊➜\n8: HESITATE. 💡💡\n9: FIGHT! 👊🔊🔊➜\n10: FIGHT! 👊🔊🔊➜\n11: FIGHT! 👊🔊🔊➜\n12: FIGHT! 👊🔊🔊➜",
     "Description": "",
-    "Notes": "free, loud and unsuccessful"
+    "Notes": "free, loud and unsuccessful",
+    "": null
   },
   "13": {
     "Name": "Self Defense",
@@ -305,7 +318,8 @@
     "12": "FIGHT! 👊🔊🔊➜",
     "Rolls": "1: SURPRISE. 👊➜\n2: FAIL! Busted.\n3: FIGHT! 👊🔊🔊➜\n4: FAIL! Busted.\n5: FIGHT! 👊🔊🔊➜\n6: HESITATE. 💡💡💡\n7: FIGHT! 👊🔊🔊➜\n8: HESITATE. 💡💡\n9: FIGHT! 👊🔊🔊➜\n10: FIGHT! 👊🔊🔊➜\n11: FIGHT! 👊🔊🔊➜\n12: FIGHT! 👊🔊🔊➜",
     "Description": "",
-    "Notes": "free, loud and unsuccessful"
+    "Notes": "free, loud and unsuccessful",
+    "": null
   },
   "14": {
     "Name": "Ambush",
@@ -327,7 +341,8 @@
     "12": "FIGHT! 👊🔊🔊💥➜",
     "Rolls": "1: FIGHT! 👊🔊🔊💥➜\n2: FIGHT! 👊🔊🔊💥➜\n3: HESITATE. 💡\n4: FIGHT! 👊🔊🔊💥➜\n5: FIGHT! 👊🔊🔊💥➜\n6: FIGHT! 👊🔊🔊💥➜\n7: HESITATE. 💡\n8: FIGHT! 👊🔊🔊💥➜\n9: FIGHT! 👊🔊🔊💥➜\n10: HESITATE. 💡\n11: FIGHT! 👊🔊🔊💥➜\n12: FIGHT! 👊🔊🔊💥➜",
     "Description": null,
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "15": {
     "Name": "Ambush",
@@ -349,7 +364,8 @@
     "12": "FIGHT! 👊🔊🔊💥➜",
     "Rolls": "1: FIGHT! 👊🔊🔊💥➜\n2: FIGHT! 👊🔊🔊💥➜\n3: HESITATE. 💡\n4: FIGHT! 👊🔊🔊💥➜\n5: FIGHT! 👊🔊🔊💥➜\n6: FIGHT! 👊🔊🔊💥➜\n7: HESITATE. 💡\n8: FIGHT! 👊🔊🔊💥➜\n9: FIGHT! 👊🔊🔊💥➜\n10: HESITATE. 💡\n11: FIGHT! 👊🔊🔊💥➜\n12: FIGHT! 👊🔊🔊💥➜",
     "Description": null,
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "16": {
     "Name": "Hide",
@@ -369,9 +385,10 @@
     "10": "FIGHT! 👊🔊🔊➜",
     "11": "ACHOO! 🔊💡",
     "12": "FIGHT! 👊🔊🔊➜",
-    "Rolls": "#REF!",
+    "Rolls": "1: BUSTED!\n2: HESITATE. 💡💡\n3: LISTEN 👂\n4: LISTEN 👂\n5: LISTEN 👂\n6: HESITATE. 💡💡\n7: BUSTED!\n8: FIGHT! 👊🔊🔊➜\n9: ACHOO! 🔊💡\n10: FIGHT! 👊🔊🔊➜\n11: ACHOO! 🔊💡\n12: FIGHT! 👊🔊🔊➜",
     "Description": null,
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "17": {
     "Name": "Hide",
@@ -391,9 +408,10 @@
     "10": "FIGHT! 👊🔊🔊➜",
     "11": "ACHOO! 🔊💡",
     "12": "FIGHT! 👊🔊🔊➜",
-    "Rolls": "#REF!",
+    "Rolls": "1: BUSTED!\n2: HESITATE. 💡💡\n3: LISTEN 👂\n4: LISTEN 👂\n5: LISTEN 👂\n6: HESITATE. 💡💡\n7: BUSTED!\n8: FIGHT! 👊🔊🔊➜\n9: ACHOO! 🔊💡\n10: FIGHT! 👊🔊🔊➜\n11: ACHOO! 🔊💡\n12: FIGHT! 👊🔊🔊➜",
     "Description": null,
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "18": {
     "Name": "Assault",
@@ -415,7 +433,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "19": {
     "Name": "Assault",
@@ -437,7 +456,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "20": {
     "Name": "Conceal",
@@ -459,7 +479,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "21": {
     "Name": "Conceal",
@@ -481,7 +502,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "22": {
     "Name": "Ninja",
@@ -503,7 +525,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires AND Conceal",
-    "Notes": "great all around if you can get it"
+    "Notes": "great all around if you can get it",
+    "": null
   },
   "23": {
     "Name": "Ninja",
@@ -525,7 +548,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires AND Conceal",
-    "Notes": "great all around if you can get it"
+    "Notes": "great all around if you can get it",
+    "": null
   },
   "24": {
     "Name": "Slog",
@@ -547,7 +571,8 @@
     "12": "SPRINT! ➜➜ 🔊🔊",
     "Rolls": "1: WALK. ➜\n2: SPRINT! ➜➜ 🔊🔊\n3: WALK. ➜\n4: STUMBLE. ➜🔊\n5: TRIP. ➜💥\n6: HESITATE.💡💡\n7: WALK. ➜\n8: STUMBLE. ➜🔊\n9: WALK. ➜\n10: HESITATE.💡💡\n11: WALK. ➜\n12: SPRINT! ➜➜ 🔊🔊",
     "Description": "",
-    "Notes": "free, kinda loud, usually moves, might sprint, not much exp"
+    "Notes": "free, kinda loud, usually moves, might sprint, not much exp",
+    "": null
   },
   "25": {
     "Name": "Slog",
@@ -569,7 +594,8 @@
     "12": "SPRINT! ➜➜ 🔊🔊",
     "Rolls": "1: WALK. ➜\n2: SPRINT! ➜➜ 🔊🔊\n3: WALK. ➜\n4: STUMBLE. ➜🔊\n5: TRIP. ➜💥\n6: HESITATE.💡💡\n7: WALK. ➜\n8: STUMBLE. ➜🔊\n9: WALK. ➜\n10: HESITATE.💡💡\n11: WALK. ➜\n12: SPRINT! ➜➜ 🔊🔊",
     "Description": "",
-    "Notes": "free, kinda loud, usually moves, might sprint, not much exp"
+    "Notes": "free, kinda loud, usually moves, might sprint, not much exp",
+    "": null
   },
   "26": {
     "Name": "Dawdle",
@@ -591,7 +617,8 @@
     "12": "STUMBLE. ➜🔊",
     "Rolls": "1: HESITATE.💡\n2: WALK. ➜\n3: HESITATE.💡\n4: WALK. ➜\n5: HESITATE.💡\n6: STUMBLE. ➜🔊\n7: HESITATE.💡\n8: HESITATE.💡\n9: STUMBLE. ➜🔊\n10: STUMBLE. ➜🔊\n11: HESITATE.💡\n12: STUMBLE. ➜🔊",
     "Description": "",
-    "Notes": "free, slow, but gains exp"
+    "Notes": "free, slow, but gains exp",
+    "": null
   },
   "27": {
     "Name": "Dawdle",
@@ -613,7 +640,8 @@
     "12": "STUMBLE. ➜🔊",
     "Rolls": "1: HESITATE.💡\n2: WALK. ➜\n3: HESITATE.💡\n4: WALK. ➜\n5: HESITATE.💡\n6: STUMBLE. ➜🔊\n7: HESITATE.💡\n8: HESITATE.💡\n9: STUMBLE. ➜🔊\n10: STUMBLE. ➜🔊\n11: HESITATE.💡\n12: STUMBLE. ➜🔊",
     "Description": "",
-    "Notes": "free, slow, but gains exp"
+    "Notes": "free, slow, but gains exp",
+    "": null
   },
   "28": {
     "Name": "Tromp",
@@ -635,7 +663,8 @@
     "12": "SPRINT! ➜➜ 🔊🔊",
     "Rolls": "1: SHUFFLE! ➜🔊\n2: SHUFFLE! ➜🔊\n3: SPRINT! ➜➜ 🔊🔊\n4: SHUFFLE! ➜🔊\n5: SHUFFLE! ➜🔊\n6: HESITATE.💡💡\n7: SHUFFLE! ➜🔊\n8: SHUFFLE! ➜🔊\n9: HESITATE.💡\n10: SHUFFLE! ➜🔊\n11: SHUFFLE! ➜🔊\n12: SPRINT! ➜➜ 🔊🔊",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "29": {
     "Name": "Tromp",
@@ -657,7 +686,8 @@
     "12": "SPRINT! ➜➜ 🔊🔊",
     "Rolls": "1: SHUFFLE! ➜🔊\n2: SHUFFLE! ➜🔊\n3: SPRINT! ➜➜ 🔊🔊\n4: SHUFFLE! ➜🔊\n5: SHUFFLE! ➜🔊\n6: HESITATE.💡💡\n7: SHUFFLE! ➜🔊\n8: SHUFFLE! ➜🔊\n9: HESITATE.💡\n10: SHUFFLE! ➜🔊\n11: SHUFFLE! ➜🔊\n12: SPRINT! ➜➜ 🔊🔊",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "30": {
     "Name": "Roam",
@@ -679,7 +709,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires Slog",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "31": {
     "Name": "Roam",
@@ -701,7 +732,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires Slog",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "32": {
     "Name": "Prowl",
@@ -723,7 +755,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires Dawdle",
-    "Notes": "slow, but quiet"
+    "Notes": "slow, but quiet",
+    "": null
   },
   "33": {
     "Name": "Prowl",
@@ -745,7 +778,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires Dawdle",
-    "Notes": "slow, but quiet"
+    "Notes": "slow, but quiet",
+    "": null
   },
   "34": {
     "Name": "Rush",
@@ -767,7 +801,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires Tromp",
-    "Notes": "most options are fast, but loud and disturbing"
+    "Notes": "most options are fast, but loud and disturbing",
+    "": null
   },
   "35": {
     "Name": "Rush",
@@ -789,7 +824,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires Tromp",
-    "Notes": "most options are fast, but loud and disturbing"
+    "Notes": "most options are fast, but loud and disturbing",
+    "": null
   },
   "36": {
     "Name": "Observe",
@@ -811,7 +847,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "allows you to move your plan tiles sometimes, or do extra recon"
+    "Notes": "allows you to move your plan tiles sometimes, or do extra recon",
+    "": null
   },
   "37": {
     "Name": "Observe",
@@ -833,7 +870,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "allows you to move your plan tiles sometimes, or do extra recon"
+    "Notes": "allows you to move your plan tiles sometimes, or do extra recon",
+    "": null
   },
   "38": {
     "Name": "Yank Wires",
@@ -855,7 +893,8 @@
     "12": "NOTHING",
     "Rolls": "1: Zzzt. 📷\n2: NOTHING\n3: CRACK! 💥\n4: CLICK. 🔓\n5: NOTHING\n6: PANIC! ➜➜🔊🔊⚠\n7: Zzzt. 📷\n8: NOTHING\n9: BEEP! 🔊🔊🔊\n10: NOTHING\n11: FLICKER!🔊⚠⚠\n12: NOTHING",
     "Description": "",
-    "Notes": "free, but hardly successful"
+    "Notes": "free, but hardly successful",
+    "": null
   },
   "39": {
     "Name": "Yank Wires",
@@ -877,7 +916,8 @@
     "12": "NOTHING",
     "Rolls": "1: Zzzt. 📷\n2: NOTHING\n3: CRACK! 💥\n4: CLICK. 🔓\n5: NOTHING\n6: PANIC! ➜➜🔊🔊⚠\n7: Zzzt. 📷\n8: NOTHING\n9: BEEP! 🔊🔊🔊\n10: NOTHING\n11: FLICKER!🔊⚠⚠\n12: NOTHING",
     "Description": "",
-    "Notes": "free, but hardly successful"
+    "Notes": "free, but hardly successful",
+    "": null
   },
   "40": {
     "Name": "Yank Wires",
@@ -899,7 +939,8 @@
     "12": "NOTHING",
     "Rolls": "1: Zzzt. 📷\n2: NOTHING\n3: CRACK! 💥\n4: CLICK. 🔓\n5: NOTHING\n6: PANIC! ➜➜🔊🔊⚠\n7: Zzzt. 📷\n8: NOTHING\n9: BEEP! 🔊🔊🔊\n10: NOTHING\n11: FLICKER!🔊⚠⚠\n12: NOTHING",
     "Description": "",
-    "Notes": "free, but hardly successful"
+    "Notes": "free, but hardly successful",
+    "": null
   },
   "41": {
     "Name": "Yank Wires",
@@ -921,7 +962,8 @@
     "12": "NOTHING",
     "Rolls": "1: Zzzt. 📷\n2: NOTHING\n3: CRACK! 💥\n4: CLICK. 🔓\n5: NOTHING\n6: PANIC! ➜➜🔊🔊⚠\n7: Zzzt. 📷\n8: NOTHING\n9: BEEP! 🔊🔊🔊\n10: NOTHING\n11: FLICKER!🔊⚠⚠\n12: NOTHING",
     "Description": "",
-    "Notes": "free, but hardly successful"
+    "Notes": "free, but hardly successful",
+    "": null
   },
   "42": {
     "Name": "Splice In",
@@ -929,7 +971,7 @@
     "Qty": "2",
     "Cost": "2",
     "Level": "1",
-    "1": null,
+    "1": "YOINK! +$1k",
     "2": null,
     "3": null,
     "4": null,
@@ -941,9 +983,10 @@
     "10": null,
     "11": null,
     "12": null,
-    "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
+    "Rolls": "1: YOINK! +$1k\n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "43": {
     "Name": "Splice In",
@@ -951,7 +994,7 @@
     "Qty": "2",
     "Cost": "2",
     "Level": "1",
-    "1": null,
+    "1": "YOINK! +$1k",
     "2": null,
     "3": null,
     "4": null,
@@ -963,9 +1006,10 @@
     "10": null,
     "11": null,
     "12": null,
-    "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
+    "Rolls": "1: YOINK! +$1k\n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": null
+    "Notes": null,
+    "": null
   },
   "44": {
     "Name": "Sniff Packets",
@@ -987,7 +1031,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "lots of free recon, disables some cameras, lowers alerts"
+    "Notes": "lots of free recon, disables some cameras, lowers alerts",
+    "": "IDEA: Reveal (sit for multiple turns and reveal all turns. Must stay still)"
   },
   "45": {
     "Name": "Sniff Packets",
@@ -1009,7 +1054,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "",
-    "Notes": "lots of free recon, disables some cameras, lowers alerts"
+    "Notes": "lots of free recon, disables some cameras, lowers alerts",
+    "": "IDEA: Reveal (sit for multiple turns and reveal all turns. Must stay still)"
   },
   "46": {
     "Name": "Degrade & Deny",
@@ -1031,7 +1077,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires: Splice In",
-    "Notes": "much more destructive against cameras and guards, but raises alerts"
+    "Notes": "much more destructive against cameras and guards, but raises alerts",
+    "": null
   },
   "47": {
     "Name": "Degrade & Deny",
@@ -1053,7 +1100,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires: Splice In",
-    "Notes": "much more destructive against cameras and guards, but raises alerts"
+    "Notes": "much more destructive against cameras and guards, but raises alerts",
+    "": null
   },
   "48": {
     "Name": "Persistent Threat",
@@ -1075,7 +1123,8 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires: Sniff Packets",
-    "Notes": "does all kinds of stuff in the server room"
+    "Notes": "does all kinds of stuff in the server room",
+    "": null
   },
   "49": {
     "Name": "Persistent Threat",
@@ -1097,6 +1146,7 @@
     "12": null,
     "Rolls": "1: \n2: \n3: \n4: \n5: \n6: \n7: \n8: \n9: \n10: \n11: \n12:",
     "Description": "Requires: Sniff Packets",
-    "Notes": "does all kinds of stuff in the server room"
+    "Notes": "does all kinds of stuff in the server room",
+    "": null
   }
 }
