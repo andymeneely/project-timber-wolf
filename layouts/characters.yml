@@ -5,6 +5,7 @@ cut:
   height: 3.5in
 title:
   font: Sans Bold 64
+  spacing: -30
   width: 825
   height: 1in
   y: 1in
@@ -16,7 +17,7 @@ Move:
   height: 300
   stroke_width: 2
   radius: 30
-  font: Sans italic 42
+  font: Sans 42
   str: Move
   valign: middle
   align: right
@@ -27,7 +28,7 @@ Attack:
   height: 300
   stroke_width: 2
   radius: 30
-  font: Sans italic 42
+  font: Sans 42
   str: Attack
   valign: middle
   align: left
@@ -38,7 +39,7 @@ Hack:
   height: 300
   stroke_width: 2
   radius: 30
-  font: Sans italic 42
+  font: Sans 42
   str: Hack
   valign: top
   align: left
@@ -53,7 +54,37 @@ Unlock:
   height: 300
   stroke_width: 2
   radius: 30
-  font: Sans italic 42
+  font: Sans 42
   str: Unlock
   valign: top
   align: right
+Level:
+  font: Serif, Segoe UI Symbol, Dingbats, Bold 36
+  x: 0.25in
+  width: 2in
+  height: 1in
+  y: 1.6in
+  align: center
+Memory:
+  extends: Level
+  y: 1.8in
+Special:
+  extends: Level
+  y: 2.1in
+
+Skill1Exp:
+  x: 0.45in
+  y: 0.45in
+  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
+Skill2Exp:
+  x: 2.05in
+  y: 0.45in
+  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
+Skill3Exp:
+  x: 0.45in
+  y: 3.20in
+  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
+Skill4Exp:
+  x: 2.05in
+  y: 3.20in
+  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
