@@ -1,0 +1,13 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+
+Description:
+  font: Serif, Segoe UI Symbol, Dingbats, 30
+  spacing: 15
+  x: 0.25in
+  y: 0.25in
+  width: 2.4in
+  height: 3in

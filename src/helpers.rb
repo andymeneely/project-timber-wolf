@@ -1,4 +1,5 @@
 require 'json'
+require 'pp'
 
 # Generates a JSON output from deck data for easy Git tracking.
 def save_json(cards: 1, data: {}, to: 'data/data.json')
