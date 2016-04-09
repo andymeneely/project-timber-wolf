@@ -1,0 +1,26 @@
+%% Mermaid syntax: https://knsv.github.io/mermaid
+%% Can view this on http://knsv.github.io/mermaid/live_editor/
+%% Using Atom? Install plugin and see the preview: https://atom.io/packages/atom-mermaid
+
+graph BT
+
+  %%%%%% Level 1s to 2s %%%%%%
+  smg[Smash 'n' Grab] ==> Ambush;
+  smg[Smash 'n' Grab] ==> inside[Inside Man];
+  Improvise ==> inside[Inside Man];
+  Improvise ==> rake[Rake Locks];
+  Tinker ==> rake[Rake Locks];
+  Tinker ==> yank[Yank Wires];
+  Hurry ==> yank[Yank Wires];
+  Hurry ==> Prowl;
+  Self-Defense ==> Prowl;
+  Self-Defense ==> Ambush;
+
+  %%%%%% Level 2s to 3s %%%%%%
+
+  Prowl ==> Ninja;
+  Ambush ==> Ninja;
+
+  Ambush ==> Assault;
+  rake[Rake Locks]; ==> Pick Locks
+  yank[Yank Wires];
