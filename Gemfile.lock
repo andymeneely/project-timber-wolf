@@ -15,6 +15,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     cairo (1.15.2-x64-mingw32)
       pkg-config (>= 1.1.5)
     cairo (1.15.2-x86-mingw32)
@@ -45,6 +46,8 @@ GEM
     guard-rake (1.0.0)
       guard
       rake
+    launchy (2.4.3)
+      addressable (~> 2.3)
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
@@ -99,6 +102,7 @@ PLATFORMS
 DEPENDENCIES
   guard
   guard-rake
+  launchy
   squib!
 
 BUNDLED WITH

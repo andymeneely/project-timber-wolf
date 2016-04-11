@@ -1,4 +1,5 @@
 require 'squib'
+require 'launchy'
 
 task default: [:full, :security, :characters, :skills, :helps]
 
@@ -18,6 +19,8 @@ end
 
 task :characters do
   load 'src/characters.rb'
+  @launch ||= []
+  @launch << "file:///#{Dir.pwd}/_output/characters.pdf"
 end
 
 task :skills do
@@ -26,4 +29,12 @@ end
 
 task :helps do
   load 'src/helps.rb'
+end
+
+task :launch do
+  return unless @launch.respond_to? :each
+  @launch.each do |url|
+    puts "Launching #{url}"
+    Launchy.open url
+  end
 end
