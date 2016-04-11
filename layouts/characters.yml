@@ -72,19 +72,11 @@ Special:
   extends: Level
   y: 2.1in
 
-Skill1Exp:
-  x: 0.45in
-  y: 0.45in
-  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
-Skill2Exp:
-  x: 2.05in
-  y: 0.45in
-  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
-Skill3Exp:
+Skill1Ideas:
   x: 0.45in
   y: 3.20in
   font: Serif, Segoe UI Symbol, Dingbats, Bold 42
-Skill4Exp:
+Skill2Ideas:
   x: 2.05in
   y: 3.20in
   font: Serif, Segoe UI Symbol, Dingbats, Bold 42

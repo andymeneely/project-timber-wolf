@@ -38,3 +38,9 @@ task :launch do
     Launchy.open url
   end
 end
+
+task :data do
+  url = "file:///#{Dir.pwd}/data/data.xlsx"
+  puts "Launching #{url}"
+  Launchy.open url
+end

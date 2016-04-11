@@ -13,21 +13,11 @@ Squib::Deck.new(cards: total) do
   text str: data['Name'], layout: :title
   text layout: :Level, str: data['Level'].map { |i| "Level #{i}"}
 
-  text layout: data['Skill1']
-  text layout: :Skill1Exp, str: data['Skill1Exp'].map { |i| "#{i}💡"}
+  text layout: :Skill1Ideas, str: data['Skill1Ideas'].map { |i| "#{i}💡"}
   rect layout: data['Skill1']
 
-  text layout: data['Skill2']
-  text layout: :Skill2Exp, str: data['Skill2Exp'].map { |i| "#{i}💡"}
+  text layout: :Skill2Ideas, str: data['Skill2Ideas'].map { |i| "#{i}💡"}
   rect layout: data['Skill2']
-
-  text layout: data['Skill3']
-  text layout: :Skill3Exp, str: data['Skill3Exp'].map { |i| "#{i}💡"}
-  rect layout: data['Skill3']
-
-  text layout: data['Skill4']
-  text layout: :Skill4Exp, str: data['Skill4Exp'].map { |i| "#{i}💡"}
-  rect layout: data['Skill4']
 
   text layout: :Memory, str: data['Memory'].map { |i| "Memory: #{i}" }
   text layout: :Special, str: data['Special']
