@@ -14,3 +14,14 @@ def save_json(cards: 1, data: {}, to: 'data/data.json')
     f.write(JSON.pretty_generate(h))
   end
 end
+
+# process XLSX data and just replace %n with a newline
+def newlineate(col, item)
+  return nil if item.nil?
+  case col
+  when /Special*/
+    item.to_s.gsub "%n", "\n"
+  else
+    item
+  end
+end

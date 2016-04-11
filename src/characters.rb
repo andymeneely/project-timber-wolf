@@ -1,7 +1,7 @@
 require 'squib'
 require_relative 'helpers'
 
-data = Squib.xlsx file: 'data/data.xlsx'
+data = Squib.xlsx(file: 'data/data.xlsx') { |col, item| newlineate(col, item) }
 total = data['Name'].size
 save_json data: data, cards: total, to: 'data/characters.json'
 
@@ -14,10 +14,10 @@ Squib::Deck.new(cards: total) do
   text layout: :Level, str: data['Level'].map { |i| "Level #{i}"}
 
   text layout: :Skill1Ideas, str: data['Skill1Ideas'].map { |i| "#{i}💡"}
-  rect layout: data['Skill1']
+  rect layout: :Skill1
 
   text layout: :Skill2Ideas, str: data['Skill2Ideas'].map { |i| "#{i}💡"}
-  rect layout: data['Skill2']
+  rect layout: :Skill2
 
   text layout: :Memory, str: data['Memory'].map { |i| "Memory: #{i}" }
   text layout: :Special, str: data['Special']

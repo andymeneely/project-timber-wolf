@@ -10,54 +10,6 @@ title:
   height: 1in
   y: 1in
   align: center
-Move:
-  x: -50
-  y: -50
-  width: 300
-  height: 300
-  stroke_width: 2
-  radius: 30
-  font: Sans 42
-  str: Move
-  valign: middle
-  align: right
-Attack:
-  x: 575
-  y: -50
-  width: 300
-  height: 300
-  stroke_width: 2
-  radius: 30
-  font: Sans 42
-  str: Attack
-  valign: middle
-  align: left
-Hack:
-  x: 575
-  y: 875
-  width: 300
-  height: 300
-  stroke_width: 2
-  radius: 30
-  font: Sans 42
-  str: Hack
-  valign: top
-  align: left
-ExtraHack:
-  extends: Hack
-  y: -50
-  valign: middle
-Unlock:
-  x: -50
-  y: 875
-  width: 300
-  height: 300
-  stroke_width: 2
-  radius: 30
-  font: Sans 42
-  str: Unlock
-  valign: top
-  align: right
 Level:
   font: Serif, Segoe UI Symbol, Dingbats, Bold 36
   x: 0.25in
@@ -72,11 +24,26 @@ Special:
   extends: Level
   y: 2.1in
 
+Skill1:
+  x: -50
+  y: 875
+  width: 300
+  height: 300
+  stroke_width: 2
+  radius: 30
+Skill2:
+  x: 575
+  y: 875
+  width: 300
+  height: 300
+  stroke_width: 2
+  radius: 30
+
 Skill1Ideas:
   x: 0.45in
-  y: 3.20in
+  y: 3.00in
   font: Serif, Segoe UI Symbol, Dingbats, Bold 42
 Skill2Ideas:
   x: 2.05in
-  y: 3.20in
+  y: 3.00in
   font: Serif, Segoe UI Symbol, Dingbats, Bold 42

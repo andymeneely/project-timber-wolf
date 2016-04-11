@@ -10,7 +10,7 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "PICKER: Gain 💡 on 🔓",
+    "Special": "PICKER\nGain 💡 on 🔓",
     "Snark": null
   },
   "1": {
@@ -24,40 +24,26 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "ADRENALINE: Gain 💡 on 👊",
+    "Special": "ADRENALINE\nGain 💡 on 👊",
     "Snark": null
   },
   "2": {
-    "Name": "Bag Man",
-    "Class": "Fighter",
-    "Qty": "1",
-    "Level": "1",
-    "Memory": "9",
-    "Skill1Ideas": "2",
-    "Skill2Ideas": "2",
-    "Skill2MaxLevel": "2",
-    "Skill3MaxLevel": "2",
-    "Skill4MaxLevel": "2",
-    "Special": null,
-    "Snark": null
-  },
-  "3": {
     "Name": "Street Urchin",
     "Class": "Grifter",
     "Qty": "1",
     "Level": "1",
     "Memory": "11",
-    "Skill1Ideas": "1",
+    "Skill1Ideas": "2",
     "Skill2Ideas": "1",
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "SLIPPERY: 2 free💡when escaping",
+    "Special": "SLIPPERY\n2 free💡when escaping",
     "Snark": null
   },
-  "4": {
+  "3": {
     "Name": "Burglar",
-    "Class": "Mover",
+    "Class": "Looter",
     "Qty": "1",
     "Level": "1",
     "Memory": "8",
@@ -66,10 +52,10 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "LOOTER: Gain $1k each time character takes HESITATE.",
+    "Special": "LOOTER\nGain $1k each time character takes HESITATE.",
     "Snark": null
   },
-  "5": {
+  "4": {
     "Name": "Thief",
     "Class": "Mover",
     "Qty": "1",
@@ -80,10 +66,10 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "OBSERVANT: After planning and before heist, uncover two security tokens for free.",
+    "Special": "OBSERVANT\nAfter planning and before heist, may 🔍🔍",
     "Snark": null
   },
-  "6": {
+  "5": {
     "Name": "Script Kiddie",
     "Class": "Hacker",
     "Qty": "1",
@@ -94,10 +80,10 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "HAZ TEH CODES? Once per turn, may 🔍but gain 🔊🔊",
+    "Special": "HAZ TEH CODES?\nOnce per turn, may 🔍but gain 🔊🔊",
     "Snark": null
   },
-  "7": {
+  "6": {
     "Name": "Safecracker",
     "Class": "Picker",
     "Qty": "1",
@@ -111,7 +97,7 @@
     "Special": null,
     "Snark": null
   },
-  "8": {
+  "7": {
     "Name": "Operative",
     "Class": "Fighter",
     "Qty": "1",
@@ -125,7 +111,7 @@
     "Special": null,
     "Snark": null
   },
-  "9": {
+  "8": {
     "Name": "Persuasion Specialist",
     "Class": "Fighter",
     "Qty": "1",
@@ -136,10 +122,10 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "EXTORT GUARDS: Gain $2k from first subdued guard.",
+    "Special": "EXTORT GUARDS\nGain $2k from first subdued guard.",
     "Snark": null
   },
-  "10": {
+  "9": {
     "Name": "Con Artist",
     "Class": "Grifter",
     "Qty": "1",
@@ -150,10 +136,10 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "ADRENALINE: May purchase up to 3💡for $1k each in planning phase on skills with 👊",
+    "Special": "ADRENALINE\nMay purchase up to 3💡for $1k each in planning phase on skills with 👊",
     "Snark": null
   },
-  "11": {
+  "10": {
     "Name": "Disgruntled Coder",
     "Class": "Hacker",
     "Qty": "1",
@@ -164,10 +150,10 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": "PHISHING: If character gets any cash in the heist, gain $2k upon heist success.",
+    "Special": "PHISHING\nIf character gets any cash in the heist, gain $2k upon heist success.",
     "Snark": null
   },
-  "12": {
+  "11": {
     "Name": "Hacktivist",
     "Class": "Hacker",
     "Qty": "1",
@@ -181,7 +167,7 @@
     "Special": null,
     "Snark": null
   },
-  "13": {
+  "12": {
     "Name": "Mastermind",
     "Class": "Grifter",
     "Qty": "1",
@@ -195,7 +181,7 @@
     "Special": null,
     "Snark": null
   },
-  "14": {
+  "13": {
     "Name": "Grease Man",
     "Class": "Mover",
     "Qty": "1",
@@ -209,7 +195,7 @@
     "Special": null,
     "Snark": null
   },
-  "15": {
+  "14": {
     "Name": "Black Hat",
     "Class": "Hacker",
     "Qty": "1",
