@@ -1,7 +1,6 @@
-Name,Qty
-blank,10
-guard,10
-subdued,10
-camera,10
-locked,10
-unlocked,10
+Name,Qty,Image
+guard,9,guard.svg
+subdued,9,subdued.svg
+camera,9,camera.svg
+locked,9,locked.svg
+unlocked,9,unlocked.svg

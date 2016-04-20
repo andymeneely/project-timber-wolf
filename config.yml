@@ -21,6 +21,7 @@ progress_bars: true
 #For reading image file command (e.g. png and svg), read from this directory instead
 #img_dir: img-color
 #img_dir: img-bw
+img_dir: img
 
 # Use a SVG cairo back end, instead of an in-memory buffer
 # backend: :memory # default

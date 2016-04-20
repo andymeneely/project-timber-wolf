@@ -2,16 +2,14 @@ require 'squib'
 require_relative 'save_custom_sheet'
 
 data = Squib.csv file: 'data/security.csv'
-
-Squib::Deck.new(width: '0.8125in', height: '0.8125in', cards: data['Name'].size) do
+size = '0.8125in'
+Squib::Deck.new(width: size, height: size, cards: data['Name'].size) do
   use_layout file: 'layouts/security.yml'
   background color: :white
-  # rect layout: :cut
 
   # background color: '#ccc'
-  circle x: 121.875, y: 121.875, radius: 112.5
-
-  # text layout: data['Name']
+  # circle x: 121.875, y: 121.875, radius: 112.5
+  svg file: data['Image'], width: width, height: height
 
   save_avery_5408
 

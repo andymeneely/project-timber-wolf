@@ -10,54 +10,54 @@ coords:
   # Row 1
   - x: 0.25in
     y: 0.5625in
-  - x: 1.0625in
+  - x: 1.125in
     y: 0.5625in
-  - x: 1.875in
+  - x: 2.0in
     y: 0.5625in
-  - x: 2.6875in
+  - x: 2.875in
     y: 0.5625in
   # Row 2
   - x: 0.25in
     y: 1.375in
-  - x: 1.0625in
+  - x: 1.125in
     y: 1.375in
-  - x: 1.875in
+  - x: 2.0in
     y: 1.375in
-  - x: 2.6875in
+  - x: 2.875in
     y: 1.375in
   # Row 3
   - x: 0.25in
     y: 2.1875in
-  - x: 1.0625in
+  - x: 1.125in
     y: 2.1875in
-  - x: 1.875in
+  - x: 2.0in
     y: 2.1875in
-  - x: 2.6875in
+  - x: 2.875in
     y: 2.1875in
   # Row 4
   - x: 0.25in
     y: 3.0in
-  - x: 1.0625in
+  - x: 1.125in
     y: 3.0in
-  - x: 1.875in
+  - x: 2.0in
     y: 3.0in
-  - x: 2.6875in
+  - x: 2.875in
     y: 3.0in
   # Row 5
   - x: 0.25in
     y: 3.8125in
-  - x: 1.0625in
+  - x: 1.125in
     y: 3.8125in
-  - x: 1.875in
+  - x: 2.0in
     y: 3.8125in
-  - x: 2.6875in
+  - x: 2.875in
     y: 3.8125in
   # Row 6
   - x: 0.25in
     y: 4.625in
-  - x: 1.0625in
+  - x: 1.125in
     y: 4.625in
-  - x: 1.875in
+  - x: 2.0in
     y: 4.625in
-  - x: 2.6875in
+  - x: 2.875in
     y: 4.625in
