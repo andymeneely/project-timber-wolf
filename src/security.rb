@@ -1,16 +1,22 @@
 require 'squib'
+require_relative 'save_custom_sheet'
 
 data = Squib.csv file: 'data/security.csv'
 
-Squib::Deck.new(width: 300, height: 300, cards: data['Name'].size) do
+Squib::Deck.new(width: '0.8125in', height: '0.8125in', cards: data['Name'].size) do
   use_layout file: 'layouts/security.yml'
   background color: :white
-  rect layout: :cut
+  # rect layout: :cut
 
-  text layout: data['Name']
+  # background color: '#ccc'
+  circle x: 121.875, y: 121.875, radius: 112.5
 
-  save_sheet prefix: 'security_sheet_', trim: '0.125in'
-  save_pdf file: 'security.pdf', trim: '0.125in'
+  # text layout: data['Name']
+
+  save_avery_5408
+
+  # save_sheet prefix: 'security_sheet_', trim: '0.125in'
+  # save_pdf file: 'security.pdf' #, trim: '0.125in'
   save_png prefix: 'security_'
 
 end
