@@ -164,7 +164,7 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": null,
+    "Special": "DENIAL OF SERVICE\nOnce per heist, disconnect all known cameras, and lower alert by 1.",
     "Snark": null
   },
   "12": {
@@ -178,7 +178,7 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Special": null,
+    "Special": "INSPIRE\nEach turn, gain a free 💡 and give it to player.",
     "Snark": null
   },
   "13": {
@@ -207,6 +207,20 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Special": null,
+    "Snark": null
+  },
+  "15": {
+    "Name": "Sewer Rat",
+    "Class": "Mover",
+    "Qty": "1",
+    "Level": "3",
+    "Memory": "8",
+    "Skill1Ideas": "3",
+    "Skill2Ideas": "1",
+    "Skill2MaxLevel": null,
+    "Skill3MaxLevel": null,
+    "Skill4MaxLevel": null,
+    "Special": "TUNNEL\nMay begin the heist on any tile on the outside of the map for  🔊🔊🔊",
     "Snark": null
   }
 }
