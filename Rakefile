@@ -25,6 +25,8 @@ end
 
 task :skills do
   load 'src/skills.rb'
+  @launch ||= []
+  @launch << "file:///#{Dir.pwd}/_output/skills.pdf"
 end
 
 task :helps do

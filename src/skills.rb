@@ -11,7 +11,7 @@ Squib::Deck.new(cards: total) do
   background color: :white
   rect layout: :cut
 
-  info = data['Level'].zip(data['Cost'], data['Type']).map do |lvl, cost, type|
+  info = data['Level'].zip(data['Cost']).map do |lvl, cost, type|
     "lvl#{lvl}\n$#{cost}\n#{type}"
   end
 
