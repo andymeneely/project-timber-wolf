@@ -4,15 +4,15 @@
     "Class": "Picker",
     "Qty": "1",
     "Level": "1",
-    "Memory": "8",
+    "Memory": "7",
     "Skill1Ideas": "3",
     "Skill2Ideas": "1",
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
-    "Special": "PICKER\nGain 💡 on 🔓",
+    "Default 2": "PICK  🔓",
+    "Special": "PICKER\nGain 💡 when you 🔓\nMASTER KEY\nWhen outdoors, may use  💡💡 to enable one player to 🔓",
     "Snark": null,
     "Total Ideas": "4"
   },
@@ -28,7 +28,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "ADRENALINE\nGain 💡 on 👊",
     "Snark": null,
     "Total Ideas": "4"
@@ -45,7 +45,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "SLIPPERY\n2 free💡when escaping",
     "Snark": null,
     "Total Ideas": "3"
@@ -62,7 +62,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Crawl ➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "LOOTER\nGain $1k each time you take HESITATE.",
     "Snark": null,
     "Total Ideas": "3"
@@ -79,7 +79,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "I CAN HAZ TEH CODES?\nOnce per turn, may  🔊🔊🔍.\nI CAN HEARTBLEED\nIf outdoors, may spend 💡💡 to 🔍",
     "Snark": null,
     "Total Ideas": "6"
@@ -95,8 +95,8 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 1": "Crawl ➜",
+    "Default 2": "Shimmy  🔊➜➜",
     "Special": "OBSERVANT\nAfter planning and before heist, may 🔍🔍",
     "Snark": null,
     "Total Ideas": "6"
@@ -113,7 +113,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "KNOWS A GUY\nCan sell an extra $1k for each jewel or painting the team acquires",
     "Snark": null,
     "Total Ideas": "7"
@@ -130,7 +130,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Crawl ➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "REPORT IN\nWhen  👊, lower the noise level by 3. Do not change the ⚠ level.",
     "Snark": null,
     "Total Ideas": "6"
@@ -147,7 +147,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "EXTORT GUARDS\nGain $2k from first subdued guard.",
     "Snark": null,
     "Total Ideas": "6"
@@ -164,7 +164,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "DENIAL OF SERVICE\nOnce per heist, disconnect all known cameras, and lower alert by 1.",
     "Snark": null,
     "Total Ideas": "6"
@@ -181,7 +181,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "INSPIRE\nEach turn, gain a free 💡 and give it to player.",
     "Snark": null,
     "Total Ideas": "8"
@@ -198,7 +198,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "BOLT\nMay spend 💡for ➜",
     "Snark": null,
     "Total Ideas": "9"
@@ -215,7 +215,7 @@
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "COMMAND & CONTROL\nMay spend 💡for 🔍, up to three times per turn.",
     "Snark": null,
     "Total Ideas": "8"
@@ -232,7 +232,7 @@
     "Skill3MaxLevel": null,
     "Skill4MaxLevel": null,
     "Default 1": "Walk 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 2": "HESITATE  💡",
     "Special": "TUNNEL\nMay begin the heist on any tile on the outside of the map for  🔊🔊🔊",
     "Snark": null,
     "Total Ideas": "7"
@@ -248,8 +248,8 @@
     "Skill2MaxLevel": "2",
     "Skill3MaxLevel": "2",
     "Skill4MaxLevel": "2",
-    "Default 1": "Saunter 🔊➜",
-    "Default 2": "HESISTATE  💡",
+    "Default 1": "Saunter 🔊➜➜",
+    "Default 2": "HESITATE  💡",
     "Special": "DISGUISE\nMay spend 💡 to enter space with guards.",
     "Snark": null,
     "Total Ideas": "7"
