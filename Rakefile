@@ -1,7 +1,7 @@
 require 'squib'
 require 'launchy'
 
-task default: [:full, :security, :characters, :skills, :helps]
+task default: [:full, :security, :characters, :skills, :skill_backs, :helps]
 
 task :full do
   ENV['SQUIB_BUILD'] ||= ''
