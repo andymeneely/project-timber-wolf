@@ -53,5 +53,5 @@ die_roll_5:
   width: 200
 die_roll_6:
   extends: die_roll
-  x: 293
+  x: 285
   y: 222
