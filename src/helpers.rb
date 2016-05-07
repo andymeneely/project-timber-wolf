@@ -18,10 +18,5 @@ end
 # process XLSX data and just replace %n with a newline
 def newlineate(col, item)
   return nil if item.nil?
-  case col
-  when /Special*/
-    item.to_s.gsub "%n", "\n"
-  else
-    item
-  end
+  item.to_s.gsub "%n", "\n"
 end

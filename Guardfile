@@ -3,6 +3,7 @@ group :default do
     watch %r{.*\.xlsx$}
     watch %r{.*\.rb$}
     watch %r{.*\.yml}
+    watch %r{img/.*}
   end
 end
 
@@ -11,6 +12,7 @@ group :characters do
     watch %r{.*\.xlsx$}
     watch %r{.*\.rb$}
     watch %r{.*\.yml}
+    watch %r{img/.*}
   end
 end
 
@@ -19,5 +21,6 @@ group :skills do
     watch %r{.*\.xlsx$}
     watch %r{.*\.rb$}
     watch %r{.*\.yml}
+    watch %r{img/.*}
   end
 end

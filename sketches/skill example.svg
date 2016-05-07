@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="357.3193"
-     inkscape:cy="375.26559"
+     inkscape:cx="493.74787"
+     inkscape:cy="432.40845"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -342,8 +342,8 @@
          y="463.60858"
          x="714.11945"
          sodipodi:role="line"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'"
-   id="tspan4394">RUN!</tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'"
+           id="tspan4394">RUN!</tspan></tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft YaHei UI';-inkscape-font-specification:'Microsoft YaHei UI';text-align:center;text-anchor:middle"
          y="534.43262"
          x="714.11945"
@@ -361,8 +361,8 @@
          y="463.60858"
          id="tspan4402"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft YaHei UI';-inkscape-font-specification:'Microsoft YaHei UI';text-align:center;text-anchor:middle"><tspan
-   id="tspan4404"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'">RUN!</tspan></tspan><tspan
+           id="tspan4404"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'">RUN!</tspan></tspan><tspan
          id="tspan4406"
          sodipodi:role="line"
          x="355.51529"
@@ -429,5 +429,16 @@
        cx="530.71429"
        cy="700.2193"
        r="93.462547" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:65.24087524px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="941.98096"
+       y="989.505"
+       id="text7012"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7014"
+         x="941.98096"
+         y="989.505">lvl 1</tspan></text>
   </g>
 </svg>
