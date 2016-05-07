@@ -5,7 +5,6 @@ require 'pp'
 data = Squib.xlsx(file: 'data/data.xlsx', sheet: 1) do |col, item|
   newlineate(col, item)
 end
-puts data['1']
 total = data['Name'].size
 save_json data: data, cards: total, to: 'data/skills.json'
 

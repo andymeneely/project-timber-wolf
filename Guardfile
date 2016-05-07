@@ -24,3 +24,12 @@ group :skills do
     watch %r{img/.*}
   end
 end
+
+group :skill_backs do
+  guard 'rake', :task => 'skill_backs' do
+    watch %r{.*\.xlsx$}
+    watch %r{.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+  end
+end

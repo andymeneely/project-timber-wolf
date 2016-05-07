@@ -29,6 +29,12 @@ task :skills do
   @launch << "file:///#{Dir.pwd}/_output/skills.pdf"
 end
 
+task :skill_backs do
+  load 'src/skill_backs.rb'
+  @launch ||= []
+  @launch << "file:///#{Dir.pwd}/_output/skill_backs.pdf"
+end
+
 task :helps do
   load 'src/helps.rb'
 end

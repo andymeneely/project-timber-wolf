@@ -1,0 +1,40 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 3.5in
+  height: 2.5in
+name:
+  font: Archivo Black, 52
+  x: 0.25in
+  y: 478
+  width: 3.5in
+  height: 1in
+  align: center
+name_summary:
+  extends: name
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 21
+  y: += 100
+upgrade1:
+  extends: name
+  x: 75
+  y: 75
+  width: 400
+  height: 200
+  hint: black
+up1_sum:
+  extends: upgrade1
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 21
+  y: += 100
+  hint: '#0000'
+upgrade2:
+  extends: name
+  x: 600
+  y: 75
+  width: 400
+  height: 200
+  hint: black
+up2_sum:
+  extends: upgrade2
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 21
+  y: += 100
+  hint: '#0000'

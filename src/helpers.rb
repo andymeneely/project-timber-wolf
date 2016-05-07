@@ -20,3 +20,8 @@ def newlineate(col, item)
   return nil if item.nil?
   item.to_s.gsub "%n", "\n"
 end
+
+def summarize_skill(str)
+  return nil if str.nil?
+  str.gsub(/[^💡🔊➜📷👊🔓$]/,'').chars.sort.join
+end
