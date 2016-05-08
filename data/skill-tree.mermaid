@@ -17,13 +17,13 @@ graph BT
   Self-Defense ==> Ambush
 
   %%%%%% Level 2s to 3s %%%%%%
-  %% Ambush ==> Ninja
-  %% Ambush ==> Assault
-  %% Bypass
-  %% Bypass
-  %% splice[Splice In] ==> deny[Deny & Degrade]
-  %% splice[Splice In] ==> persist[Persistent Threat]
-  %% Prowl ==> pick[Pick Locks]
-  %% Prowl ==> Ninja
-  %% inside[Inside Man] ==> persist[Persistent Threat]
-  %% inside[Inside Man] ==> Assault
+  Ambush ==> Ninja
+  Ambush ==> Assault
+  Bypass ==> Assault
+  Bypass ==> remote[Remote Exploit]
+  splice[Splice In] ==> remote[Remote Exploit]
+  splice[Splice In] ==> Circumvent
+  inside[Inside Man] ==> Circumvent
+  inside[Inside Man] ==> Masquerade
+  Prowl ==> Masquerade
+  Prowl ==> Ninja

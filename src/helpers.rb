@@ -23,5 +23,16 @@ end
 
 def summarize_skill(str)
   return nil if str.nil?
-  str.gsub(/[^💡🔊➜📷👊🔓$]/,'').chars.sort.join
+  str.gsub(/[^💡🔊➜📷🔍👊🔓$]/,'').chars.sort.join
+end
+
+# this isn't working for some stupid reason
+module Squib
+  module ArrayExtras
+    refine Array do
+      def select_indices
+        self.map.with_index { |x, i| yield(x) ? i : nil }.compact
+      end
+    end
+  end
 end
