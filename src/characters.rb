@@ -9,17 +9,16 @@ Squib::Deck.new(cards: total) do
   use_layout file: 'layouts/characters.yml'
   background color: :white
   rect layout: :cut
+  svg file: 'character.svg'
 
   text str: data['Name'], layout: :title
-  text layout: :Level, str: data['Level'].map { |i| "Level #{i}"}
-
+  text layout: :Level, str: data['Level']
+  text layout: :Memory, str: data['Memory']
   text layout: :Skill1Ideas, str: data['Skill1Ideas'].map { |i| "#{i}💡"}
-  rect layout: :Skill1
-
   text layout: :Skill2Ideas, str: data['Skill2Ideas'].map { |i| "#{i}💡"}
-  rect layout: :Skill2
+  text layout: :Default1, str: data['Default1']
+  text layout: :Default2, str: data['Default2']
 
-  text layout: :Memory, str: data['Memory'].map { |i| "Memory: #{i}" }
   text layout: :Special, str: data['Special']
 
   save_png prefix: 'character_'

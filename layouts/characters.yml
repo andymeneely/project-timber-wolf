@@ -4,46 +4,60 @@ cut:
   width: 2.5in
   height: 3.5in
 title:
-  font: Sans Bold 64
+  font: Archivo Black, 53
   spacing: -30
-  width: 825
-  height: 1in
-  y: 1in
+  width: 590
+  height: 200
+  x: 160
+  y: 55
   align: center
+  valign: middle
 Level:
-  font: Serif, Segoe UI Symbol, Dingbats, Bold 36
-  x: 0.25in
-  width: 2in
-  height: 1in
-  y: 1.6in
-  align: center
+  font: Archivo Black, 30
+  x: 75
+  y: 95
+  width: 100
+  height: 75
+  align: left
+  color: white
 Memory:
   extends: Level
-  y: 1.8in
-Special:
-  extends: Level
-  y: 2.1in
+  y: += 70
 
-Skill1:
-  x: -50
-  y: 875
-  width: 300
-  height: 300
-  stroke_width: 2
-  radius: 30
-Skill2:
-  x: 575
-  y: 875
-  width: 300
-  height: 300
-  stroke_width: 2
-  radius: 30
+Special:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
+  color: black
+  width: 2.25in
+  x: 75
+  y: 225
+  align: center
+  valign: middle
+  height: 1.75in
 
 Skill1Ideas:
-  x: 0.45in
-  y: 3.00in
-  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
+  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
+  x: 75
+  y: 3.20in
+  width: 325
+  align: center
 Skill2Ideas:
-  x: 2.05in
-  y: 3.00in
-  font: Serif, Segoe UI Symbol, Dingbats, Bold 42
+  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
+  x: 430
+  width: 325
+  align: center
+  y: 3.20in
+
+DefaultSkill:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
+  y: 800
+  width: 165
+  height: 104
+  color: black
+  align: center
+  valign: middle
+Default1:
+  extends: DefaultSkill
+  x: 75
+Default2:
+  extends: DefaultSkill
+  x: 585
