@@ -22,7 +22,11 @@ Level:
   color: white
 Memory:
   extends: Level
-  y: += 70
+  font: Archivo Black, 30
+  font_size: 22
+  width: 50
+  align: center
+  y: += 60
 
 Special:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
