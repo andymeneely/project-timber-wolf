@@ -8,7 +8,7 @@ str = data['Icon'].zip(data['Description']).inject("") do |s, r|
 end
 
 
-Squib::Deck.new(cards: 4) do
+Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   use_layout file: 'layouts/helps.yml'
   background color: :white
   rect layout: :cut
