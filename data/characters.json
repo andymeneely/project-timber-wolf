@@ -107,7 +107,7 @@
     "Default2": "Pick\n🔓",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "KNOWS A GUY\nCan sell an extra $1k for each jewel or painting the team acquires\n \nPACKS A SQUIB\nIf busted, fakes death and escapes (still counts toward busted count).",
+    "Special": "KNOWS A GUY\nCan sell an extra $1k for each jewel or painting the team acquires",
     "Snark": null,
     "Total Ideas": "7"
   },
@@ -123,7 +123,7 @@
     "Default2": "Hesitate \n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "SEWER CRAWL\nMay begin the heist on any tile on the outside of the map for 🔊🔊🔊🔊",
+    "Special": "TUNNEL\nMay begin the heist on any tile on the outside of the map for 🔊🔊🔊🔊",
     "Snark": null,
     "Total Ideas": "7"
   },
@@ -136,7 +136,7 @@
     "Skill1Ideas": "3",
     "Skill2Ideas": "2",
     "Default1": "Walk\n🔊➜",
-    "Default2": "False Alarm\n💡👣",
+    "Default2": "Hesitate \n💡",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "EXTORT GUARDS\nGain $1k from each subdued guard.",
@@ -171,7 +171,7 @@
     "Default2": "Hesitate \n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DISGUISE\nMay spend 💡 to enter space with guards.\n \nSWAP DUFFEL BAGS\nIf busted, team still gains loot.",
+    "Special": "DISGUISE\nMay spend 💡 to enter space with guards.",
     "Snark": null,
     "Total Ideas": "7"
   },
@@ -184,15 +184,15 @@
     "Skill1Ideas": "4",
     "Skill2Ideas": "4",
     "Default1": "Walk\n🔊➜",
-    "Default2": "Toss Pebble\n🔊👣",
+    "Default2": "Hesitate \n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "INSPIRE\nWhen outdoors, give 💡 to a player of your choosing.",
+    "Special": "INSPIRE\nEach turn, gain a free 💡 and give it to player.",
     "Snark": null,
     "Total Ideas": "8"
   },
   "12": {
-    "Name": "Tunneler Master",
+    "Name": "Thief",
     "Class": "Mover",
     "Qty": "1",
     "Level": "2",
@@ -203,7 +203,7 @@
     "Default2": "Shimmy\n🔊➜➜",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DIG!\nFor 🔊🔊⚠, may treat a tile across 1 empty hex space as adjacent.",
+    "Special": "OBSERVANT\nWhen outdoors, may spend $1k for 🔍🔍🔍",
     "Snark": null,
     "Total Ideas": "6"
   },
@@ -267,12 +267,12 @@
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "GREAT IN A PINCH\nMay prevent a gate from shutting for 💡💡💡\n \nPACKS A SQUIB\nIf busted, loses loot but continues to next heist.",
+    "Special": "GREAT IN A PINCH\nMay prevent a gate from shutting for 💡💡💡",
     "Snark": null,
     "Total Ideas": "6"
   },
   "17": {
-    "Name": "Guy on the Inside",
+    "Name": "Inside Man",
     "Class": "Support",
     "Qty": "1",
     "Level": "2",
@@ -283,7 +283,7 @@
     "Default2": "Key In\n🔍🔓",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "THEY TRUST ME\nMay start on any space without a security token.",
+    "Special": "ESCAPE ARTIST\nGain 💡💡💡 when escaping",
     "Snark": null,
     "Total Ideas": "4"
   }
