@@ -171,7 +171,7 @@
     "Default2": "Spy Stuff\n🔓👊",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DENIAL OF SERVICE\nOnce per heist, disconnect all known cameras, and lower alert by 1.",
+    "Special": "DENIAL OF SERVICE\nOnce per heist, disconnect all known cameras, and lower alert by 1.\n \nACTIVATE SPRINKLERS\nWhen outdoors, may use a 🚶 on any known guard without being on or adjacent to him",
     "Snark": null,
     "Total Ideas": "6"
   },
@@ -229,15 +229,15 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "12",
-    "Skill1Ideas": "4",
-    "Skill2Ideas": "3",
+    "Skill1Ideas": "2",
+    "Skill2Ideas": "2",
     "Default1": "Crawl\n➜",
     "Default2": "Hesitate \n💡",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "BOLT\nMay spend 💡for ➜",
     "Snark": null,
-    "Total Ideas": "7"
+    "Total Ideas": "4"
   },
   "15": {
     "Name": "Lookout",

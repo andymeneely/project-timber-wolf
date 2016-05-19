@@ -54,7 +54,7 @@ Skill2Ideas:
 DefaultSkill:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
   y: 800
-  width: 165
+  width: 270
   height: 104
   color: black
   align: center
@@ -64,4 +64,4 @@ Default1:
   x: 75
 Default2:
   extends: DefaultSkill
-  x: 585
+  x: 475

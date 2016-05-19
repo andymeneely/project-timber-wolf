@@ -1,22 +1,22 @@
-Back when I was Angry Locksmith, I could never keep quiet.
+Back when I was Angry Locksmith, I thought I knew it all.
 
-Every turn I took made noise.
+Just Smash 'n' Grab and call it a day.
+
+But I never realized how everything did made noise.
 
 Punch a guard? Noise.
 
 Unplug a camera? Noise.
 
-And boy was my team getting into trouble.
+Before I knew it, we had alerts going up from all the guards we subdued.
 
-We had alerts going up from all the guards we subdued.
+A gate closed and we lost our Burglar.
 
-We had gates closing.
-
-We even reinforcements come in and block our exit.
+We even reinforcements come in and block my exit.
 
 Then, I had an idea.
 
-What if I take care of the locks and build up my ideas for escape?
+What if I take care of the locks study the room to get escape ideas?
 
 Meanwhile, our Street Urchin can dash ahead to get the goods.
 
@@ -24,7 +24,7 @@ That could work.
 
 And it did. We got the artwork we needed, the payout we needed, and most importantly.
 
-We got out.
+I got out.
 
 And you know what? I have no regrets.
 
