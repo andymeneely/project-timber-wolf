@@ -1,6 +1,7 @@
 Name,Qty,Image
-guard,9,guard.svg
-subdued,9,subdued.svg
+guard,12,guard.svg
+guard-suspicious,4,guard-suspicious.svg
+subdued,16,subdued.svg
 camera,9,camera.svg
 disconnected,9,disconnected.svg
 locked,9,locked.svg
