@@ -63,12 +63,11 @@ Skill2:
 
 DefaultSkill:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
-  y: 800
+  y: 755
   width: 270
-  height: 104
+  height: 154
   color: black
   align: center
-  valign: middle
 Default1:
   extends: DefaultSkill
   x: 75

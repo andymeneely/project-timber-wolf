@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="34.521188"
-     inkscape:cy="952.48642"
+     inkscape:zoom="0.7"
+     inkscape:cx="143.21948"
+     inkscape:cy="520.78581"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -144,27 +144,50 @@
          ry="79.731812" />
     </g>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.10078728;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect5081"
-       width="302.71762"
-       height="127.96449"
-       x="-362.66461"
-       y="-842.39014"
-       ry="28.577463"
-       transform="scale(-1,-1)" />
-    <rect
-       ry="28.577463"
-       y="714.42548"
+       ry="41.976868"
+       y="654.42548"
        x="462.33539"
-       height="127.96449"
+       height="187.96449"
        width="302.71762"
        id="rect4424"
-       style="fill:none;stroke:#000000;stroke-width:1.10078728;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:none;stroke:#000000;stroke-width:1.101;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        style="fill:#000000"
        d="m 116.54591,163.09179 c 0.16118,-0.26085 0.51918,-2.25761 0.79554,-4.43731 0.27637,-2.17971 -0.6568,-5.20296 -0.37604,-5.48374 0.34061,-0.34055 3.41745,1.44043 6.46985,1.07686 7.91033,-0.9422 11.83816,-1.37787 10.23663,-7.62671 -0.60671,-2.36726 -0.57707,-2.57269 0.54353,-3.76543 0.98029,-1.04353 1.30658,-1.62324 0.5889,-2.21655 -1.18855,-0.98257 -1.43092,-0.66801 0.17586,-1.59568 0.6397,-0.36933 0.68416,-1.16193 0.43861,-2.61535 -0.32765,-1.93942 -0.29624,-1.98914 1.76563,-2.79915 3.77671,-1.48349 3.51623,-2.87686 -2.11384,-11.30841 -1.78823,-2.67803 -3.10613,-4.19961 -2.6913,-4.56178 1.21938,-14.53831 -8.66827,-26.891582 -19.51169,-30.594913 -22.164328,-4.843779 -43.517554,5.361132 -43.982664,26.934703 0,7.7106 2.058767,13.03931 7.859043,20.34164 4.100658,5.16266 4.55218,8.1178 4.547011,15.0669 -0.0028,4.18481 0.676388,4.54011 -0.677028,8.31786 -0.871244,2.43173 -2.03941,5.28312 -2.03941,5.44578 0,0.50874 37.655998,0.3318 37.971368,-0.17835 z"
        id="path4149"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssssssssscccscsssc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="55.714287"
+       y="929.50507"
+       id="text4761"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4763"
+         x="55.714287"
+         y="929.50507"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'archivo narrow';-inkscape-font-specification:'archivo narrow'">Place skill card here</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4769"
+       y="929.50507"
+       x="487.14285"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'archivo narrow';-inkscape-font-specification:'archivo narrow'"
+         y="929.50507"
+         x="487.14285"
+         id="tspan4771"
+         sodipodi:role="line">Place skill card here</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.10099995;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4775"
+       width="302.71762"
+       height="187.96449"
+       x="58.049675"
+       y="654.42548"
+       ry="41.976868" />
   </g>
 </svg>
