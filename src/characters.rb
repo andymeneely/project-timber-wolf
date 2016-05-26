@@ -14,8 +14,8 @@ Squib::Deck.new(cards: total) do
   text str: data['Name'], layout: :title
   text layout: :Level, str: data['Level']
   text layout: :Memory, str: data['Memory']
-  text layout: :Skill1Ideas, str: data['Skill1Ideas'].map { |i| "#{i}💡"}
-  text layout: :Skill2Ideas, str: data['Skill2Ideas'].map { |i| "#{i}💡"}
+  text layout: :Ideas, str: data['Ideas'].map { |i| "#{i}💡"}
+
   text layout: :Default1, str: data['Default1']
   text layout: :Default2, str: data['Default2']
 

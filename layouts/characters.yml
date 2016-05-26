@@ -27,6 +27,14 @@ Memory:
   width: 50
   align: center
   y: += 60
+Ideas:
+  extends: Memory
+  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
+  font_size: 28
+  width: 75
+  align: left
+  color: black
+  y: += 80
 
 Special:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
@@ -38,13 +46,15 @@ Special:
   valign: middle
   height: 1.75in
 
-Skill1Ideas:
+
+
+Skill1:
   font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
   x: 75
   y: 3.20in
   width: 325
   align: center
-Skill2Ideas:
+Skill2:
   font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
   x: 430
   width: 325

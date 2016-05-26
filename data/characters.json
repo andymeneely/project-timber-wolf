@@ -5,15 +5,13 @@
     "Qty": "1",
     "Level": "1",
     "Memory": "8",
-    "Skill1Ideas": "3",
-    "Skill2Ideas": "1",
+    "Ideas": "3",
     "Default1": "Walk\n🔊➜",
     "Default2": "Pick\n🔓",
     "LevelUp1": "Safecracker",
     "LevelUp2": "Sewer Rat",
     "Special": "PICKER\nGain 💡 when you 🔓\n \nMASTER KEY\nWhen outdoors, may use  💡💡 to enable one player to 🔓",
-    "Snark": null,
-    "Total Ideas": "4"
+    "Snark": ""
   },
   "1": {
     "Name": "Safecracker",
@@ -21,15 +19,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "8",
-    "Skill1Ideas": "5",
-    "Skill2Ideas": "2",
+    "Ideas": "5",
     "Default1": "Walk\n🔊➜",
     "Default2": "Pick\n🔓",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "KNOWS A GUY\nCan sell an extra $1k for each jewel or painting the team acquires\n \nPACKS A SQUIB\nIf busted, fakes death and escapes (still counts toward busted count).",
-    "Snark": null,
-    "Total Ideas": "7"
+    "Snark": ""
   },
   "2": {
     "Name": "Tunnel Master",
@@ -37,15 +33,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "9",
-    "Skill1Ideas": "4",
-    "Skill2Ideas": "3",
+    "Ideas": "4",
     "Default1": "Walk\n🔊➜",
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "DIG!\nMay begin the heist on any tile on the outside of the map for 🔊🔊🔊🔊",
-    "Snark": null,
-    "Total Ideas": "7"
+    "Snark": ""
   },
   "3": {
     "Name": "Thug",
@@ -53,15 +47,13 @@
     "Qty": "1",
     "Level": "1",
     "Memory": "7",
-    "Skill1Ideas": "3",
-    "Skill2Ideas": "1",
+    "Ideas": "3",
     "Default1": "Walk\n🔊➜",
     "Default2": "Bash\n🔊🔊👊",
     "LevelUp1": "Persuasion Specialist",
     "LevelUp2": "Operative",
     "Special": "ADRENALINE\nGain 💡 on 👊",
-    "Snark": null,
-    "Total Ideas": "4"
+    "Snark": ""
   },
   "4": {
     "Name": "Persuasion Specialist",
@@ -69,15 +61,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "9",
-    "Skill1Ideas": "3",
-    "Skill2Ideas": "2",
+    "Ideas": "4",
     "Default1": "Walk\n🔊➜",
-    "Default2": "False Alarm\n👣",
+    "Default2": "False Alarm\n🚶",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "EXTORT GUARDS\nGain $1k on 👊",
-    "Snark": null,
-    "Total Ideas": "5"
+    "Snark": ""
   },
   "5": {
     "Name": "Operative",
@@ -85,15 +75,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "9",
-    "Skill1Ideas": "2",
-    "Skill2Ideas": "2",
+    "Ideas": "4",
     "Default1": "Walk\n🔊➜",
     "Default2": "Spy Stuff\n🔓👊",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "YOU WILL REPORT IN\nWhen  👊, lower the noise level by 3. Do not change the ⚠ level.",
-    "Snark": null,
-    "Total Ideas": "4"
+    "Snark": ""
   },
   "6": {
     "Name": "Street Urchin",
@@ -101,15 +89,13 @@
     "Qty": "1",
     "Level": "1",
     "Memory": "9",
-    "Skill1Ideas": "2",
-    "Skill2Ideas": "1",
+    "Ideas": "2",
     "Default1": "Walk\n🔊➜",
     "Default2": "Hesitate \n💡",
     "LevelUp1": "Con Artist",
     "LevelUp2": "Mastermind",
     "Special": "SLIPPERY\nGain💡when escaping",
-    "Snark": null,
-    "Total Ideas": "3"
+    "Snark": ""
   },
   "7": {
     "Name": "Con Artist",
@@ -117,15 +103,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "11",
-    "Skill1Ideas": "4",
-    "Skill2Ideas": "3",
+    "Ideas": "6",
     "Default1": "Dash\n🔊➜➜",
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "DISGUISE\nMay spend 💡 to enter space with guards.\n \nSWAP DUFFEL BAGS\nIf busted, team still gains loot.",
-    "Snark": null,
-    "Total Ideas": "7"
+    "Snark": ""
   },
   "8": {
     "Name": "Mastermind",
@@ -133,15 +117,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "10",
-    "Skill1Ideas": "4",
-    "Skill2Ideas": "4",
+    "Ideas": "5",
     "Default1": "Walk\n🔊➜",
-    "Default2": "False Alarm\n👣",
+    "Default2": "False Alarm\n🚶",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "INSPIRE\nEach turn, give a free💡 to a player of your choosing.",
-    "Snark": null,
-    "Total Ideas": "8"
+    "Snark": ""
   },
   "9": {
     "Name": "Script Kiddie",
@@ -149,15 +131,13 @@
     "Qty": "1",
     "Level": "1",
     "Memory": "6",
-    "Skill1Ideas": "5",
-    "Skill2Ideas": "1",
+    "Ideas": "5",
     "Default1": "Walk\n🔊➜",
     "Default2": "Hesitate \n💡",
     "LevelUp1": "Hacktivist",
     "LevelUp2": "Black Hat",
     "Special": "I CAN HAZ TEH CODES?\nOnce per turn, may  🔊🔊🔍\n \nI CAN HEARTBLEED\nIf outdoors, may spend 💡💡 to 🔍",
-    "Snark": null,
-    "Total Ideas": "6"
+    "Snark": ""
   },
   "10": {
     "Name": "Hacktivist",
@@ -165,15 +145,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "8",
-    "Skill1Ideas": "5",
-    "Skill2Ideas": "1",
+    "Ideas": "6",
     "Default1": "Walk\n🔊➜",
     "Default2": "Spy Stuff\n🔓👊",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "DENIAL OF SERVICE\nOnce per heist, disconnect all known cameras, and lower alert by 1.\n \nACTIVATE SPRINKLERS\nWhen outdoors, may use a 🚶 on any known guard without being on or adjacent to him",
-    "Snark": null,
-    "Total Ideas": "6"
+    "Snark": ""
   },
   "11": {
     "Name": "Black Hat",
@@ -181,15 +159,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "8",
-    "Skill1Ideas": "7",
-    "Skill2Ideas": "1",
+    "Ideas": "6",
     "Default1": "Walk\n🔊➜",
     "Default2": "Reveal\n🔍",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "COMMAND & CONTROL\nMay spend 💡for 🔍, up to three times per turn.\n \nINTERCEPT\nFor 💡💡💡⚠⚠, may prevent reinforcements.",
-    "Snark": null,
-    "Total Ideas": "8"
+    "Special": "INTERCEPT\nFor 💡💡💡⚠⚠, may prevent reinforcements.",
+    "Snark": ""
   },
   "12": {
     "Name": "Burglar",
@@ -197,15 +173,13 @@
     "Qty": "1",
     "Level": "1",
     "Memory": "8",
-    "Skill1Ideas": "2",
-    "Skill2Ideas": "1",
+    "Ideas": "2",
     "Default1": "Crawl\n➜",
     "Default2": "Hesitate \n💡",
     "LevelUp1": "Thief",
     "LevelUp2": "Grease Man",
     "Special": "LOOTER\nGain $1k each time you take \"Hestitate\"",
-    "Snark": null,
-    "Total Ideas": "3"
+    "Snark": ""
   },
   "13": {
     "Name": "Sewer Rat",
@@ -213,15 +187,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "8",
-    "Skill1Ideas": "4",
-    "Skill2Ideas": "2",
+    "Ideas": "4",
     "Default1": "Crawl\n➜",
     "Default2": "Dash\n🔊➜➜",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "SEWER CRAWL\nFor 🔊🔊⚠, may treat a tile directly across 1 empty hex space as adjacent.",
-    "Snark": null,
-    "Total Ideas": "6"
+    "Snark": ""
   },
   "14": {
     "Name": "Grease Man",
@@ -229,15 +201,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "12",
-    "Skill1Ideas": "2",
-    "Skill2Ideas": "2",
+    "Ideas": "2",
     "Default1": "Crawl\n➜",
     "Default2": "Hesitate \n💡",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "BOLT\nMay spend 💡for ➜",
-    "Snark": null,
-    "Total Ideas": "4"
+    "Snark": ""
   },
   "15": {
     "Name": "Lookout",
@@ -245,15 +215,13 @@
     "Qty": "1",
     "Level": "1",
     "Memory": "6",
-    "Skill1Ideas": "2",
-    "Skill2Ideas": "2",
+    "Ideas": "4",
     "Default1": "Walk\n🔊➜",
     "Default2": "Hesitate \n💡",
     "LevelUp1": "Veteran",
     "LevelUp2": "Inside Man",
-    "Special": "EARLY WARNING\nOnce per turn, may 🔍\n \nMISDIRECT\nWhen outdoors, may use 💡💡💡 to change the security roll by 1.",
-    "Snark": null,
-    "Total Ideas": "4"
+    "Special": "EARLY WARNING\nOnce per turn, may 🔍\n \nMISDIRECT\nMay use 💡💡💡 to change the security roll by 1.",
+    "Snark": ""
   },
   "16": {
     "Name": "Veteran",
@@ -261,15 +229,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "9",
-    "Skill1Ideas": "3",
-    "Skill2Ideas": "3",
+    "Ideas": "3",
     "Default1": "Crawl\n➜",
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "GREAT IN A PINCH\nMay prevent a gate from shutting for 💡💡💡\n \nPACKS A SQUIB\nIf busted, fakes death and escapes (still counts toward busted count).",
-    "Snark": null,
-    "Total Ideas": "6"
+    "Snark": ""
   },
   "17": {
     "Name": "Guy on the Inside",
@@ -277,14 +243,12 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "10",
-    "Skill1Ideas": "3",
-    "Skill2Ideas": "1",
+    "Ideas": "5",
     "Default1": "Walk\n🔊➜",
     "Default2": "Key In\n🔍🔓",
     "LevelUp1": null,
     "LevelUp2": null,
     "Special": "THEY TRUST ME\nMay start the heist on any space without a security token.",
-    "Snark": null,
-    "Total Ideas": "4"
+    "Snark": ""
   }
 }
