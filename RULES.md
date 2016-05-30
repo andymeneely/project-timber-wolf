@@ -5,19 +5,35 @@
 
 # The Game
 
-_Your Last Heist_ is a cooperative, multi-stage heist game. Each player is playing the role of a criminal and you must work as a team to do traverse the building and steal items, all while dealing with obstacles like closing gates, guards, locks, cameras.
-
-The game has two modes:
-  * Standard: Pull 3 heists.
+_Your Last Heist_ is a cooperative, multi-stage heist game. You are playing the role of a uniquely skilled criminal. You must work with other skilled criminals to quietly traverse the building and steal items, all while dealing with obstacles like closing gates, guards, locks, and cameras. The game has two modes:
+  * Standard: Pull 3 heists. Playable in 60-90 minutes.
   * Campaign: Pull 9 heists. See the end of this instructions for campaign instructions
 
-During each heist, players will collaborate during a simultaneous action phase to coordinate their movements to minimize risk and maximize loot.
+During each heist, you will collaborate with teammates during a simultaneous action phase to coordinate your movements. You will begin each turn by rolling a die to determine which actions are available to you. You use Ideas💡 to modify that die roll, too. But don't spend too many - you'll need those Ideas💡 to escape, too!
 
 ## The Characters
 
+The game comes with 18 unique characters, each with special skills and stats. Each card has:
+
+  * **Level.** There are 6 level 1 characters and 12 level 2 characters.
+  * **Planning Memory.** Some characters are better at remembering complex plans. This is the number of hexes your character may move through during a heist.
+  * **Initial Ideas**. The number of Ideas💡 you start with initially.
+  * **Default Actions**. These are Actions that are available regardless of your die roll.
+  * **Special Skill(s)**. These are attributes or abilities that your character can uniquely do.
+
+Between Heists, your team will get a chance to level up some of your characters. Each character is given two choices to level into.
+
 ## The Skills
 
+Each player can have two Skills. The game comes with 18 unique Skills, 6 level 1 and 12 level 2 Skills.
+
+Between Heists, your team will get a chance to level up some of your skills. Each Skill, like characters, can Level Up to one of two Skills. There are two copies of each skill in the deck.
+
+A Skill card defines six Actions, each corresponding to a die roll. In the Roll for Skill phase of the heist, your die roll will determine which Actions are available to your for that turn.
+
 ## The Board
+
+The board is a set of modular double-sided hex tiles. Each tile is Blank on one side, and is a Security tile on the other side. The instructions for setting up each board can be found in The Configurations
 
 # The Set-Up
 
@@ -27,14 +43,14 @@ During each heist, players will collaborate during a simultaneous action phase t
 
 **If this is your first game**, we recommend skipping the "Character Building" phase and using the following characters and skills:
 
-  * Street Urchin with and Improvise and Hurry
+  * Street Urchin with Improvise and Hurry
   * Angry Locksmith with Self-Defense and Hurry
   * Thug with Smash 'n' Grab and Break 'n' Enter
   * Lookout with Self-Defense and Tinker
 
 # Gameplay
 
-The game is structured in a series of small heists with increasing difficulty. The structure of each heist is in three parts:
+The game is structured in a series of small heists with increasing difficulty. The structure of each heist is:
 
   1. The Plan
     * Plot movement
@@ -50,6 +66,12 @@ The game is structured in a series of small heists with increasing difficulty. T
     * Level up Characters
 
 ## Part 1: The Plan
+
+This is your opportunity to come up with a rough plan of how you will pull this Heist. Every time you do a Move➜, you must move onto a hex that you have Planned. Thus, mark off every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you (may or may not) move onto.
+
+Players may purchase any number of Reveal🔍 for $1k of team loot each.
+
+Players may purchase any number of Ideas💡 for $1k of team loot each. Place each Idea💡 on a character immediately.
 
 ## Part 2: The Heist
 
@@ -96,3 +118,20 @@ If a player is still in the building after using up all 💡 to move toward an e
 *For example .*
 
 Players may NOT use skills that cost 🔊 or ⚠ during this phase. *For example, SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed*.
+
+# The Campaign
+
+In Campaign mode, all of the rules apply the same way, with the following exceptions:
+  * Play 3 level 1 Boards, then 3 Level 2 Boards, then 3 Level 3 Boards.
+  * After each Heist, one non-Busted player may level up 1 Skill.
+  * After each even-numbered heist, one non-Busted player may level up a Character.
+
+We also recommend the following campaigns:
+  * **The Art of the Heist**. In order, the boards are:
+  * **The Vault Job**
+
+# The Legacy
+
+The final heist of any Standard or Campaign game does not need any extra loot. However, as a measure of your team's effectiveness for all of time, we ask that you record your loot. Because, after all, you're only as good as Your Last Heist!
+
+# The Configurations
