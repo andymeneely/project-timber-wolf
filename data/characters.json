@@ -38,7 +38,7 @@
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DIG!\nMay begin the heist on any non-security tile on the outside of the map for 🔊🔊🔊🔊",
+    "Special": "DIG!\nMay begin the heist on any non-security tile on bordering the outside of the map for 🔊🔊",
     "Snark": ""
   },
   "3": {
@@ -49,7 +49,7 @@
     "Memory": "7",
     "Ideas": "3",
     "Default1": "Walk\n🔊➜",
-    "Default2": "Bash\n👊🔊",
+    "Default2": "Bash\n👊👊🔊",
     "LevelUp1": "Persuasion Specialist",
     "LevelUp2": "Operative",
     "Special": "ADRENALINE\nGain 💡 on 👊",
@@ -66,7 +66,7 @@
     "Default2": "Kick\n👊🔊➜➜",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "EXTORT GUARDS\nMay use 💡💡 to change security roll by 1",
+    "Special": "EXTORT GUARDS\nMay use 💡💡 to change security roll by 1\n \nMANIPULATE\nOnce per turn, on an auto-Reveal, may draw two tokens from the bag and choose the next one for 💡",
     "Snark": ""
   },
   "5": {
@@ -108,8 +108,8 @@
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DISGUISE\nMay spend 💡 to enter space with guards.\n \nSWAP DUFFEL BAGS\nIf busted, team still gains loot.",
-    "Snark": ""
+    "Special": "SWAP DUFFEL BAGS\nIf busted, may transfer loot to another player in the building within ➜➜➜\n \nALWAYS HAVE A GETAWAY\nIf busted, leaves heist but remains for next heist.",
+    "Snark": "Or was it the backpacks?"
   },
   "8": {
     "Name": "Mastermind",
@@ -117,12 +117,12 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "10",
-    "Ideas": "5",
+    "Ideas": "3",
     "Default1": "Walk\n🔊➜",
-    "Default2": "Misdirect\n🚶",
+    "Default2": "Dash\n🔊➜➜",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "INSPIRE\nEach turn, give a free💡 to a player of your choosing.",
+    "Special": "INSPIRE\nOnce per turn, give a free💡 to a player of your choosing.",
     "Snark": ""
   },
   "9": {
@@ -136,7 +136,7 @@
     "Default2": "Hesitate\n💡",
     "LevelUp1": "Hacktivist",
     "LevelUp2": "Black Hat",
-    "Special": "I CAN HAZ TEH CODES?\nOnce per turn, may  🔊🔊🔍\n \nI CAN HEARTBLEED\nIf outdoors, may spend 💡💡 to 🔍",
+    "Special": "I CAN HAZ TEH CODES?\nMay spend 💡💡 to prevent Power Cycle event \n \nI CAN HEARTBLEED\nIf outdoors, may spend 💡💡 to 🔍",
     "Snark": ""
   },
   "10": {
@@ -144,13 +144,13 @@
     "Class": "Hacker",
     "Qty": "1",
     "Level": "2",
-    "Memory": "8",
+    "Memory": "7",
     "Ideas": "6",
     "Default1": "Walk\n🔊➜",
     "Default2": "Spy Stuff\n🔓👊",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DENIAL OF SERVICE\nOnce per heist, disconnect all known cameras, and lower alert by 1.\n \nACTIVATE SPRINKLERS\nWhen outdoors, may use a 🚶 on any known guard without being on or adjacent to him",
+    "Special": "DENIAL OF SERVICE\nFor 💡💡💡, disconnect all known cameras\n \nACTIVATE SPRINKLERS\nWhen outdoors, may use a 💡💡to 👊 any known guard without being on or adjacent to him",
     "Snark": ""
   },
   "11": {
@@ -158,13 +158,13 @@
     "Class": "Hacker",
     "Qty": "1",
     "Level": "2",
-    "Memory": "8",
+    "Memory": "7",
     "Ideas": "6",
     "Default1": "Walk\n🔊➜",
-    "Default2": "Reveal\n🔍",
+    "Default2": "Discover\n🔍🔍",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "INTERCEPT\nFor 💡💡💡⚠, may prevent reinforcements.",
+    "Special": "REROUTE\nOnce per turn, may spend 💡 to re-place any player's planning token\n \nINTERCEPT\nFor 💡💡💡, may prevent a security event that places a guard on a player's space",
     "Snark": ""
   },
   "12": {
@@ -178,7 +178,7 @@
     "Default2": "Hesitate\n💡",
     "LevelUp1": "Thief",
     "LevelUp2": "Grease Man",
-    "Special": "LOOTER\nGain $1k each time you take \"Hestitate\"",
+    "Special": "LOOTER\n💰 each time you take \"Hestitate\"",
     "Snark": ""
   },
   "13": {
@@ -202,11 +202,11 @@
     "Level": "2",
     "Memory": "12",
     "Ideas": "2",
-    "Default1": "Crawl\n➜",
+    "Default1": "Reveal\n🔍",
     "Default2": "Hesitate\n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "BOLT\nMay spend 💡for ➜",
+    "Special": "BOLT\nMay spend 💡for ➜ up to four times in a turn.",
     "Snark": ""
   },
   "15": {
@@ -242,13 +242,13 @@
     "Class": "Support",
     "Qty": "1",
     "Level": "2",
-    "Memory": "10",
+    "Memory": "8",
     "Ideas": "5",
     "Default1": "Walk\n🔊➜",
     "Default2": "Key In\n🔍🔓",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "THEY TRUST ME\nMay start the heist on any space without a security token.",
+    "Special": "THEY TRUST ME\nMay start the heist on any blank space (i.e. without security tokens, security systems, or loot) for 🔊🔊",
     "Snark": ""
   }
 }
