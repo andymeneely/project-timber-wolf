@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.58515625"
-     inkscape:cx="665.8595"
-     inkscape:cy="593.85519"
+     inkscape:cx="795.73934"
+     inkscape:cy="542.58683"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2304,13 +2304,13 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:65.28337097px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="394.88297"
-       y="234.61488"
+       y="239.74171"
        id="text5741"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5743"
          x="394.88297"
-         y="234.61488"
+         y="239.74171"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT'">$2k</tspan></text>
     <g
        id="g6243"
@@ -2997,7 +2997,7 @@
          id="tspan5532"
          x="1243.3704"
          y="492.77084"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'">Level 1. </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'">Level 2. </tspan><tspan
          sodipodi:role="line"
          x="1243.3704"
          y="522.00079"
@@ -3192,5 +3192,17 @@
            y="108.23009"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';fill:#ffffff">E</tspan></text>
     </g>
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccsssss"
+       id="path8402"
+       d="m 666.58222,41.464501 0,26.51344 3.5356,0 0,-26.51344 z m 9.4286,18.77657 0,7.73687 3.5359,0 0,-7.73687 z m -12.1787,9.18088 0,19.49632 3.1429,3.14186 0,36.673649 21.6075,0 0,-36.673649 3.1431,-3.14186 0,-19.49632 z m 29.4284,1.37412 0,15.71233 3.2278,0 0,-15.71233 z m -24.9106,1.37474 18.8577,0 0,3.53566 -18.8577,0 z m 0,6.28575 18.8577,0 0,3.53464 -18.8577,0 z m 0,6.28473 18.8577,0 0,3.53464 -18.8577,0 z m 6.286,8.05143 c 2.6036,0 4.7142,2.1104 4.7142,4.71421 0,2.602799 -2.1106,4.712579 -4.7142,4.712579 -2.6036,0 -4.7144,-2.10978 -4.7144,-4.712579 0,-2.60381 2.1108,-4.71421 4.7144,-4.71421 z"
+       style="fill:#000000"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000"
+       d="m 687.08956,572.94648 0,26.51344 3.5356,0 0,-26.51344 z m 9.4286,18.77657 0,7.73687 3.5359,0 0,-7.73687 z m -12.1787,9.18088 0,19.49632 3.1429,3.14186 0,36.67365 21.6075,0 0,-36.67365 3.1431,-3.14186 0,-19.49632 z m 29.4284,1.37412 0,15.71233 3.2278,0 0,-15.71233 z m -24.9106,1.37474 18.8577,0 0,3.53566 -18.8577,0 z m 0,6.28575 18.8577,0 0,3.53464 -18.8577,0 z m 0,6.28473 18.8577,0 0,3.53464 -18.8577,0 z m 6.286,8.05143 c 2.6036,0 4.7142,2.1104 4.7142,4.71421 0,2.6028 -2.1106,4.71258 -4.7142,4.71258 -2.6036,0 -4.7144,-2.10978 -4.7144,-4.71258 0,-2.60381 2.1108,-4.71421 4.7144,-4.71421 z"
+       id="path9868"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccsssss" />
   </g>
 </svg>
