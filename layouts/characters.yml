@@ -6,32 +6,30 @@ cut:
 title:
   font: Archivo Black, 53
   spacing: -30
-  width: 590
+  width: 580
   height: 200
-  x: 160
+  x: 170
   y: 55
   align: center
   valign: middle
 Level:
-  font: Archivo Black, 30
+  font: Archivo Narrow, 28
   x: 75
   y: 95
-  width: 100
+  width: 150
   height: 75
   align: left
 Memory:
   extends: Level
   font: Archivo Black, 30
-  font_size: 26
-  width: 50
+  width: 70
   align: center
-  y: += 65
+  y: += 55
   color: white
 Ideas:
   extends: Memory
-  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
-  font_size: 26
-  width: 75
+  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 32
+  width: 100
   align: left
   color: black
   y: += 85

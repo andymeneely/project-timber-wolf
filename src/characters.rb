@@ -12,7 +12,7 @@ Squib::Deck.new(cards: total) do
   svg file: 'character.svg'
 
   text str: data['Name'], layout: :title
-  text layout: :Level, str: data['Level']
+  text layout: :Level, str: data['Level'].map { |l| "Level #{l}"}
   text layout: :Memory, str: data['Memory']
   text layout: :Ideas, str: data['Ideas'].map { |i| "#{i}💡"}
 
