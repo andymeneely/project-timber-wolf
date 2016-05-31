@@ -4,39 +4,48 @@ cut:
   width: 3.5in
   height: 2.5in
 name:
-  font: Archivo Black, 42
+  font: Archivo Black, 36
   x: 320
   y: 478
   width: 480
-  height: 200
-  align: center
+  height: 250
   hint: black
+  align: center
 name_summary:
   extends: name
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 25
-  y: += 100
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 33
+  y: += 75
+  x: += 10
+  width: -= 20
   hint: '#0000'
+  align: left
 upgrade1:
   extends: name
   x: 75
-  y: 75
+  y: 125
   width: 480
-  height: 200
+  height: 250
   hint: black
 up1_sum:
   extends: upgrade1
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 25
-  y: += 100
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 33
+  y: += 75
+  x: += 10
+  width: -= 20
   hint: '#0000'
+  align: left
 upgrade2:
   extends: name
   x: 580
-  y: 75
+  y: 125
   width: 480
-  height: 200
+  height: 250
   hint: black
 up2_sum:
   extends: upgrade2
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 25
-  y: += 100
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 33
+  y: += 75
+  x: += 10
+  width: -= 20
   hint: '#0000'
+  align: left

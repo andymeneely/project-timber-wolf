@@ -23,7 +23,7 @@ end
 
 def summarize_skill(str)
   return nil if str.nil?
-  str.gsub(/[^💡🔊➜📷🔍👊🔓$]/,'').chars.sort.join
+  str.gsub(/[^💡🔊➜📷🔍👊🔓⚠]/,'').chars.sort.join
 end
 
 # this isn't working for some stupid reason

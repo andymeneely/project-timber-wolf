@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="493.04262"
-     inkscape:cy="412.38909"
+     inkscape:cx="352.97346"
+     inkscape:cy="338.04028"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -54,21 +54,29 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-227.36216)">
-    <g
-       id="g4166"
-       transform="translate(42.5,21.428571)">
-      <path
-         sodipodi:nodetypes="cccccccc"
-         inkscape:connector-curvature="0"
-         id="rect4138"
-         d="m 702.68078,501.64101 -83.58115,11.58634 23.81217,23.81218 -110.63317,110.63317 24.37046,24.37045 110.63317,-110.63317 23.81218,23.81218 z"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.2005558;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <path
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.2005558;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 337.31922,501.64101 83.58115,11.58634 -23.81217,23.81218 110.63317,110.63317 -24.37046,24.37045 -110.63317,-110.63317 -23.81218,23.81218 z"
-         id="path4144"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccccc" />
-    </g>
+    <path
+       style="fill:#000000"
+       d="m 285.06421,841.24757 c -131.26193,0 -141.79903,-85.78001 -141.79903,-170.21399 l -23.1073,0 -23.107315,0 46.214645,-28.02326 46.21465,-28.02325 45.9685,27.8622 45.9685,27.8622 -22.85206,0.17362 -22.85205,0.17361 0.0166,27.44546 c 0,37.00576 11.41519,49.85265 50.57397,49.85265 z"
+       id="path4165"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4167"
+       d="m 832.57538,841.24757 c 131.26191,0 141.79901,-85.78001 141.79901,-170.21399 l 23.1073,0 23.10731,0 -46.21464,-28.02326 -46.21465,-28.02325 -45.9685,27.8622 -45.96853,27.8622 22.85209,0.17362 22.85205,0.17361 -0.0166,27.44546 c 0,37.00576 -11.41519,49.85265 -50.57394,49.85265 z"
+       style="fill:#000000" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="328.57144"
+       y="662.36218"
+       id="text4169"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4171"
+         x="328.57144"
+         y="662.36218"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'">Choose which skill to upgrade to</tspan></text>
   </g>
 </svg>
