@@ -16,6 +16,15 @@ group :characters do
   end
 end
 
+group :character_backs do
+  guard 'rake', :task => 'character_backs' do
+    watch %r{.*\.xlsx$}
+    watch %r{src/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+  end
+end
+
 group :skills do
   guard 'rake', :task => 'skills' do
     watch %r{.*\.xlsx$}

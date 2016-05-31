@@ -1,0 +1,23 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+name:
+  font: Archivo Black, 32
+  x: 175
+  y: 850
+  width: 475
+  height: 85
+  hint: black
+  align: center
+upgrade1:
+  extends: name
+  x: 75
+  y: 450
+  width: 300
+  height: 85
+  hint: black
+upgrade2:
+  extends: upgrade1
+  x: += 375

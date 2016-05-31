@@ -1,7 +1,7 @@
 require 'squib'
 require 'launchy'
 
-task default: [:full, :security, :characters, :skills, :skill_backs, :helps]
+task default: [:full, :security, :characters, :character_backs, :skills, :skill_backs, :helps]
 
 task :full do
   ENV['SQUIB_BUILD'] ||= ''
@@ -21,6 +21,12 @@ task :characters do
   load 'src/characters.rb'
   @launch ||= []
   @launch << "file:///#{Dir.pwd}/_output/characters.pdf"
+end
+
+task :character_backs do
+  load 'src/character_backs.rb'
+  @launch ||= []
+  @launch << "file:///#{Dir.pwd}/_output/character_backs.pdf"
 end
 
 task :skills do
