@@ -21,7 +21,7 @@ A second difference, which is a little less original, is the **campaign-style se
   * You can play longer, multi-night campaigns where individual characters level up one-at-a-time, the boards get increasingly tougher, and the teams are more diverse level-wise
   * A rich storyline emerges about characters (and players!) getting better and better a coordinating great heists and applying that knowledge immediately to the next heist.
 
-Finally, this game is unique in its use of **theme for co-ops**. I was surprised to see this, but while crime is a widely-used theme for board games, none of the BoardGameGeek's top 300 board games involve a cooperative heist game (i.e. where players take on the role of a criminal and work with other criminals to pull a heist). _Your Last Heist_ borrows elements from heist movies, (and real heists too!), to makes the gameplay immersive and unique.
+Finally, this game is unique in its use of **theme for co-ops**. I was surprised to see this, but while crime is a widely-used theme for board games, none of the BoardGameGeek's top 300 board games involve a cooperative heist game (i.e. where players take on the role of a criminal and work with other criminals to pull a heist). None. While many co-op games involve heist-like qualities, none of them have it as its explicit theme. _Your Last Heist_ borrows elements from heist movies (and real heists) to make the gameplay immersive and unique.
 
 ## What does this game do to minimize downtime?
 
