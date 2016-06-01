@@ -21,8 +21,18 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     text str: data[i.to_s], layout: "die_roll_#{i}"
   end
 
-  save_png prefix: 'skill_'
-  save_sheet prefix: 'skill_sheet_', trim: '0.125in'
-  save_pdf file: 'skills.pdf', trim: '0.125in'
+  # save_png prefix: 'skill_'
+  # save_sheet prefix: 'skill_sheet_', trim: '0.125in'
+  # save_pdf file: 'skills.pdf', trim: '0.125in'
 
+  build :rulebook_figures do
+    rect layout: :border
+    %i(Action SubAction DieRoll Level).each do |fig|
+      text layout: "Figure#{fig}"
+    end
+    showcase range: 0,
+             dir: 'rules', file: 'skill_example.png',
+             trim: 37.5, fill_color: '#0000', scale: 0.9
+
+  end
 end

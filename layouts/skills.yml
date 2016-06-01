@@ -55,3 +55,33 @@ die_roll_6:
   extends: die_roll
   x: 215
   y: 222
+
+border:
+  extends: cut
+  radius: 37.5
+  stroke_width: 2.5
+
+FigureAction:
+  extends:
+  font: Sans Bold 36
+  color: red
+  str: ①
+
+FigureSubAction:
+  font: Sans Bold 36
+  color: red
+  str: ①
+
+FigureDieRoll:
+  extends: die_roll_6
+  font: Sans Bold 36
+  color: red
+  str: ②
+
+
+FigureLevel:
+  extends: level
+  font: Sans Bold 36
+  color: red
+  str: ①
+  y: -= 65

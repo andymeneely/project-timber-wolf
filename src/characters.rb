@@ -26,12 +26,12 @@ Squib::Deck.new(cards: total) do
   # save_pdf file: 'characters.pdf', trim: '0.125in'
 
   build :rulebook_figures do
+    rect layout: :border
     %i(Level Memory Ideas Action1 Action2 Special Skill1 Skill2).each do |fig|
       text layout: "Figure#{fig}"
     end
     showcase range: 0,
              dir: 'rules', file: 'character_example.png',
-             trim: 39, fill_color: '#fff0'
-
+             trim: 37.5, fill_color: '#0000', scale: 0.9
   end
 end
