@@ -7,21 +7,24 @@
 
 _Your Last Heist_ is a cooperative, multi-stage heist game. You are playing the role of a uniquely skilled criminal. You must work with other skilled criminals to quietly traverse the building and steal items, all while dealing with obstacles like closing gates, guards, locks, and cameras. The game has two modes:
   * Standard: Pull 3 heists. Playable in 60-90 minutes.
-  * Campaign: Pull 9 heists. See the end of this instructions for campaign instructions
+  * Campaign: Pull 9 heists. See the _The Campaign_ section for instructions
 
 During each heist, you will collaborate with teammates during a simultaneous action phase to coordinate your movements. You will begin each turn by rolling a die to determine which actions are available to you. You use Ideas💡 to modify that die roll, too. But don't spend too many - you'll need those Ideas💡 to escape, too!
 
 ## The Characters
 
+<img src="./character_example.png" width="300" style="float: right">
+
 The game comes with 18 unique characters, each with special skills and stats. Each card has:
 
-  * **Level.** There are 6 level 1 characters and 12 level 2 characters.
-  * **Planning Memory.** Some characters are better at remembering complex plans. This is the number of hexes your character may move through during a heist.
-  * **Initial Ideas**. The number of Ideas💡 you start with initially.
-  * **Default Actions**. These are Actions that are available regardless of your die roll.
-  * **Special Skill(s)**. These are attributes or abilities that your character can uniquely do.
+  * ① **Level.** There are 6 level 1 characters and 12 level 2 characters.
+  * ②	**Planning Memory.** This is the number of hexes your character may move through during a heist. Some characters have more mobility than others.
+  * ③	**Initial Ideas**. The number of Ideas💡 you start with at the beginning of each heist.
+  * ④	**Default Actions**. These are Actions that are available regardless of your die roll.
+  * ⑤	**Special Ability**. These are attributes or abilities that your character can uniquely do.
+  * ⑥ **Place for Skills**. You will be placing a Skill card in each of these locations, which will provide additional actions.
 
-Between Heists, your team will get a chance to level up some of your characters. Each character is given two choices to level into.
+Between Heists, your team will get a chance to level up some of your characters. Each character is given two choices to level into, as indicated on the back of their card.
 
 ## The Skills
 

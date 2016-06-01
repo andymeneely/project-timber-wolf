@@ -21,7 +21,17 @@ Squib::Deck.new(cards: total) do
 
   text layout: :Special, str: data['Special']
 
-  save_png prefix: 'character_'
-  save_sheet prefix: 'character_sheet_', trim: '0.125in'
-  save_pdf file: 'characters.pdf', trim: '0.125in'
+  # save_png prefix: 'character_'
+  # save_sheet prefix: 'character_sheet_', trim: '0.125in'
+  # save_pdf file: 'characters.pdf', trim: '0.125in'
+
+  build :rulebook_figures do
+    %i(Level Memory Ideas Action1 Action2 Special Skill1 Skill2).each do |fig|
+      text layout: "Figure#{fig}"
+    end
+    showcase range: 0,
+             dir: 'rules', file: 'character_example.png',
+             trim: 39, fill_color: '#fff0'
+
+  end
 end

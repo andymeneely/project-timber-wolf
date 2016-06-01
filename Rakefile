@@ -1,7 +1,16 @@
 require 'squib'
 require 'launchy'
 
-task default: [:full, :security, :characters, :character_backs, :skills, :skill_backs, :helps]
+task default: [
+  :full,
+  :rulebook_figures,
+  :security,
+  :characters,
+  :character_backs,
+  :skills,
+  :skill_backs,
+  :helps
+]
 
 task :full do
   ENV['SQUIB_BUILD'] ||= ''
@@ -11,6 +20,11 @@ end
 task :lvl1 do
   ENV['SQUIB_BUILD'] ||= ''
   ENV['SQUIB_BUILD'] += ',lvl1'
+end
+
+task :rulebook_figures do
+  ENV['SQUIB_BUILD'] ||= ''
+  ENV['SQUIB_BUILD'] += ',rulebook_figures'
 end
 
 task :security do
