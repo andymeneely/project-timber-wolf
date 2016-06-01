@@ -13,7 +13,7 @@ During each heist, you will collaborate with teammates during a simultaneous act
 
 ## The Characters
 
-<img src="./character_example.png" width="300" style="float: right">
+<img src="./character_example.png" width="300" align="right">
 
 The game comes with 18 unique characters, each with special skills and stats. Each card has:
 
@@ -28,7 +28,9 @@ Between Heists, your team will get a chance to level up some of your characters.
 
 ## The Skills
 
-Each player can have two Skills. The game comes with 18 unique Skills, 6 level 1 and 12 level 2 Skills.
+Each character has two Skills. The game has 6 level 1 and 12 level 2 Skills.
+
+Each Skill has six Actions that correspond to a die roll.
 
 Between Heists, your team will get a chance to level up some of your skills. Each Skill, like characters, can Level Up to one of two Skills. There are two copies of each skill in the deck.
 
@@ -37,6 +39,9 @@ A Skill card defines six Actions, each corresponding to a die roll. In the Roll 
 ## The Board
 
 The board is a set of modular double-sided hex tiles. Each tile is Blank on one side, and is a Security tile on the other side. The instructions for setting up each board can be found in The Configurations
+
+## The Actions and Sub-Actions
+
 
 # The Set-Up
 
@@ -88,9 +93,13 @@ In this phase, each player uses their die to execution one action. Each player h
 
 During this time, players are working collaboratively and simultaneously. (That is, they are *not* taking turns!) Players decide which action to take, and how to execute their sub-actions. *For example, a player may choose to take the PUNCH 👊🔊🔊➜ action, which has sub-actions of Subdue(👊), 2 Noises(🔊🔊), and Move(➜).*
 
-Players may execute their sub-actions in any order. Players may interleave their actions with the actions of other players.
+Players may execute their sub-actions in any order.
 
 *For example, Kelly takes REVEAL🔍 and reveals a guard one space away from Tim. Tim, with this new information, then chooses to take PUNCH👊🔊🔊➜, and does a ➜ then a 👊 on the newly-discovered guard, then increases the 🔊 by 2.*
+
+Players may interleave their sub-actions with the sub-actions of other players. (Note: doing this effectively take teamwork and is the key to victory!)
+
+*For example, Jacob takes SNEAK🔍➜➜ and Derek takes PICK🔓.*
 
 The Noise(🔊) sub-action is **required**, but all other sub-actions are not required. *For example, you not need to unlock two locks to take Rake🔓🔓🔊➜, but it costs you a 🔊 regardless.*
 
@@ -118,7 +127,7 @@ Each leftover 💡 that a character has may be used for 1 move➜ toward an exit
 
 If a player is still in the building after using up all 💡 to move toward an exit, they may roll their skill die. The number shown on the die is equal to the number of moves they may use to exit. If they still cannot exit, they are Busted.
 
-*For example .*
+*For example (write an example here).*
 
 Players may NOT use skills that cost 🔊 or ⚠ during this phase. *For example, SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed*.
 
