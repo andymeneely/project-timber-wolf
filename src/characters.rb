@@ -21,9 +21,9 @@ Squib::Deck.new(cards: total) do
 
   text layout: :Special, str: data['Special']
 
-  # save_png prefix: 'character_'
-  # save_sheet prefix: 'character_sheet_', trim: '0.125in'
-  # save_pdf file: 'characters.pdf', trim: '0.125in'
+  save_png prefix: 'character_'
+  save_sheet prefix: 'character_sheet_', trim: '0.125in'
+  save_pdf file: 'characters.pdf', trim: '0.125in'
 
   build :rulebook_figures do
     rect layout: :border

@@ -9,8 +9,8 @@
     "Default1": "Walk\n🔊➜",
     "Default2": "Pick\n🔓",
     "LevelUp1": "Safecracker",
-    "LevelUp2": "Sewer Rat",
-    "Special": "PICKER\nGain 💡 when you 🔓\n \nMASTER KEY\nWhen outdoors, may use  💡💡 to enable one player to 🔓",
+    "LevelUp2": "Tunnel Master",
+    "Special": "PICKER\nGain 💡 when you 🔓",
     "Snark": ""
   },
   "1": {
@@ -24,7 +24,7 @@
     "Default2": "Pick\n🔓",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "KNOWS A GUY\nCan sell an extra $1k for each jewel or painting the team acquires",
+    "Special": "PICKER\nGain 💡 when you 🔓\n \nI'LL WALK YOU THROUGH IT\nMay use  💡💡 to enable one player to 🔓",
     "Snark": ""
   },
   "2": {
@@ -34,11 +34,11 @@
     "Level": "2",
     "Memory": "9",
     "Ideas": "4",
-    "Default1": "Walk\n🔊➜",
-    "Default2": "Study\n💡💡",
+    "Default1": "Crawl\n➜",
+    "Default2": "Pick\n🔓",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DIG!\nMay begin the heist on any non-security tile on bordering the outside of the map for 🔊🔊",
+    "Special": "PICKER\nGain 💡 when you 🔓\n \nBREACH\nFor 💡💡💡, may create a new Exit on current tile if it has an open side. Initiate Escape phase when this happens.",
     "Snark": ""
   },
   "3": {
@@ -56,17 +56,17 @@
     "Snark": ""
   },
   "4": {
-    "Name": "Persuasion Specialist",
+    "Name": "Bruiser",
     "Class": "Fighter",
     "Qty": "1",
     "Level": "2",
     "Memory": "9",
     "Ideas": "4",
     "Default1": "Walk\n🔊➜",
-    "Default2": "Kick\n👊🔊➜➜",
+    "Default2": "Bash\n👊👊🔊",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "EXTORT GUARDS\nMay use 💡💡 to change security roll by 1\n \nMANIPULATE\nOnce per turn when anyone 🔍, may spend 💡 to draw two tokens from the bag and choose the next one",
+    "Special": "ADRENALINE\nGain 💡 on 👊\n \nBRING IT ON\nGain 💡💡💡 if standing on a Reinforcements beacon when Reinforcements is triggered.",
     "Snark": ""
   },
   "5": {
@@ -80,7 +80,7 @@
     "Default2": "Spy Stuff\n🔓👊",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "YOU WILL REPORT IN\nWhen  👊, lower the noise level by 2. Do not change the ⚠ level.",
+    "Special": "ADRENALINE\nGain 💡 on 👊\n \nYOU WILL REPORT IN\nWhen  👊, lower the noise level by 2. Do not change the ⚠ level.",
     "Snark": ""
   },
   "6": {
@@ -103,13 +103,13 @@
     "Qty": "1",
     "Level": "2",
     "Memory": "11",
-    "Ideas": "6",
+    "Ideas": "3",
     "Default1": "Dash\n🔊➜➜",
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "SWAP DUFFEL BAGS\nIf busted, may transfer loot to another player in the building within ➜➜➜\n \nALWAYS HAVE A GETAWAY\nIf busted, leaves heist but remains for next heist.",
-    "Snark": "Or was it the backpacks?"
+    "Special": "SLIPPERY\nGain💡when escaping\n \nTHERE ARE BETTER WAYS\n \nCannot 👊. May escape a guard with 💡(Escape phase unaffected).",
+    "Snark": null
   },
   "8": {
     "Name": "Mastermind",
@@ -122,7 +122,7 @@
     "Default2": "Dash\n🔊➜➜",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "INSPIRE\nOnce per turn, give a free💡 to a player of your choosing.",
+    "Special": "SLIPPERY\nGain💡when escaping\n \nINSPIRE\nOnce per turn, give a free💡 to a player of your choosing.",
     "Snark": ""
   },
   "9": {
@@ -136,8 +136,8 @@
     "Default2": "Hesitate\n💡",
     "LevelUp1": "Hacktivist",
     "LevelUp2": "Black Hat",
-    "Special": "I CAN HAZ TEH CODES?\nMay spend 💡💡 to prevent Power Cycle event \n \nI CAN HEARTBLEED\nIf outdoors, may spend 💡💡 to 🔍",
-    "Snark": ""
+    "Special": "I CAN HAZ TEH CODES?\nOnce per turn, may spend 💡💡💡 to re-position 1 planning token of any player",
+    "Snark": null
   },
   "10": {
     "Name": "Hacktivist",
@@ -147,10 +147,10 @@
     "Memory": "7",
     "Ideas": "6",
     "Default1": "Walk\n🔊➜",
-    "Default2": "Spy Stuff\n🔓👊",
+    "Default2": "Discover\n🔍🔍",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DENIAL OF SERVICE\nFor 💡💡💡, disconnect all known cameras\n \nACTIVATE SPRINKLERS\nWhen outdoors, may use a 💡💡to 👊 any known guard without being on or adjacent to him",
+    "Special": "I CAN HAZ TEH CODES?\nOnce per turn, may spend 💡💡💡 to re-position 1 planning token of any player\n \nDENIAL OF SERVICE\nWhen outdoors, may use 💡💡 to disconnect all known cameras",
     "Snark": ""
   },
   "11": {
@@ -161,10 +161,10 @@
     "Memory": "7",
     "Ideas": "6",
     "Default1": "Walk\n🔊➜",
-    "Default2": "Discover\n🔍🔍",
+    "Default2": "Yoink\n💰🔊",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "REROUTE\nOnce per turn, may spend 💡 to re-place any player's planning token\n \nINTERCEPT\nFor 💡💡💡, may prevent a security event that places a guard on a player's space",
+    "Special": "HAS THE CODE\nOnce per turn, may spend 💡💡 to re-position 1 planning token of any player\n \nACTIVATE SPRINKLERS\nWhen outdoors, may use a 💡💡to give a free 👊 to any player",
     "Snark": ""
   },
   "12": {
@@ -174,11 +174,11 @@
     "Level": "1",
     "Memory": "8",
     "Ideas": "2",
-    "Default1": "Crawl\n➜",
+    "Default1": "Yoink\n💰🔊",
     "Default2": "Hesitate\n💡",
     "LevelUp1": "Thief",
     "LevelUp2": "Grease Man",
-    "Special": "LOOTER\n💰 each time you take \"Hestitate\"",
+    "Special": "DART\nMay spend 💡for ➜ once per turn",
     "Snark": ""
   },
   "13": {
@@ -189,10 +189,10 @@
     "Memory": "8",
     "Ideas": "4",
     "Default1": "Crawl\n➜",
-    "Default2": "Hesitate\n💡",
+    "Default2": "Dash\n🔊➜➜",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "SEWER CRAWL\nFor 🔊🔊⚠, may treat a tile directly across 1 empty hex space as adjacent.",
+    "Special": "DART\nMay spend 💡for ➜ once per turn\n \nSEWER CRAWL\nFor 🔊🔊⚠, may treat a tile directly across 1 non-tiled gap as adjacent.",
     "Snark": ""
   },
   "14": {
@@ -202,7 +202,7 @@
     "Level": "2",
     "Memory": "12",
     "Ideas": "2",
-    "Default1": "Reveal\n🔍",
+    "Default1": "Yoink\n💰🔊",
     "Default2": "Hesitate\n💡",
     "LevelUp1": null,
     "LevelUp2": null,
@@ -220,7 +220,7 @@
     "Default2": "Hesitate\n💡",
     "LevelUp1": "Veteran",
     "LevelUp2": "Inside Man",
-    "Special": "EARLY WARNING\nOnce per turn, may 🔍\n \nMISDIRECT\nMay use 💡💡💡 to change the security roll by 1.",
+    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nMISDIRECT\nOnce per heist, may use 💡💡💡 to change the security roll by 1.",
     "Snark": ""
   },
   "16": {
@@ -230,15 +230,15 @@
     "Level": "2",
     "Memory": "9",
     "Ideas": "3",
-    "Default1": "Crawl\n➜",
+    "Default1": "Dash\n🔊➜➜",
     "Default2": "Study\n💡💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "GREAT IN A PINCH\nMay prevent a gate from shutting for 💡💡💡\n \nPACKS A SQUIB\nIf busted, fakes death and plays next heist, but loses loot.",
+    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nGREAT IN A PINCH\nMay prevent a gate from shutting for 💡💡💡",
     "Snark": ""
   },
   "17": {
-    "Name": "Guy on the Inside",
+    "Name": "Inside Man",
     "Class": "Support",
     "Qty": "1",
     "Level": "2",
@@ -248,7 +248,7 @@
     "Default2": "Key In\n🔍🔓",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "THEY TRUST ME\nMay start the heist on any blank space (i.e. without security tokens, security systems, or loot) for 🔊🔊",
+    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nTHEY TRUST ME\nMay start the heist on any blank space (i.e. without security tokens, security systems, or loot) for 🔊🔊",
     "Snark": ""
   }
 }
