@@ -44,6 +44,7 @@ The board is a set of modular double-sided hex tiles. Each tile is Blank on one 
 
 ## Noise and Alert Trackers
 
+(explain how these work)
 
 
 ## Security
@@ -76,7 +77,7 @@ Skills and Characters allow players to take Actions. Every action is just a grou
 
 The Sub-Actions are:
 | | |
-|-|-|
+|---|---|
 | ➜ | **Move** to an adjacent, planned, not locked tile |
 | 🔓 | **Unlock** 1 locked, adjacent tile |
 | 👊 | **Subdue** 1 guard on or adjacent to your tile |
@@ -85,9 +86,7 @@ The Sub-Actions are:
 | 🔍 | **Reveal** 1 security token anywhere on the board |
 | 💰 | **Loot:** Gain $1k and place it on your character. |
 | 🔊 | Increase the **Noise** level by 1 (Required) |
-| ⚠ | Increase alert level by 1 (Required) |
-
-
+| ⚠ | Increase Alert bar by 1 (Required) |
 
 # Set-Up
 
@@ -138,33 +137,46 @@ Players simultaneously roll the die according to the color of their player.
 
 ### Character Action
 
-In this phase, each player uses their die to execute one Action. Each player has four options for their action: two actions from the Character and one action from each Skill . *For example, the Angry Locksmith may always take PICK🔓 or WALK🔊➜ regardless of what he rolled. Suppose he has the Self-Defense and Hurry skills, and he rolled a 1, then he may take either STUDY💡💡 or RUN🔊🔊➜➜ as his action.*
+In this phase, each player uses their die to execute one Action. Each player has a minimum of four options for their action: two actions from the Character and one action from each Skill. Players may also use any number of their Ideas💡 to modify the die roll by 1 💡 each. Players may "wrap around", that is, spend an 💡 to go from a 6 to a 1 and vice versa.
 
-During this time, players are working collaboratively and simultaneously. (That is, they are *not* taking turns!) Players decide which action to take, and how to execute their sub-actions. *For example, a player may choose to take the PUNCH 👊🔊🔊➜ action, which has sub-actions of Subdue(👊), 2 Noises(🔊🔊), and Move(➜).*
+*For example, Phil as the Angry Locksmith may always take Pick🔓 or Walk🔊➜ regardless of what was rolled. Suppose he has the Self-Defense and Hurry Skills, and rolled a 1, then he also has Study💡💡 and Run🔊🔊➜➜ as options for his action. Suppose he has 1💡, then he also has Sprint🔊🔊➜➜➜ and Punch👊🔊🔊➜ available multiple ways *
 
-Players may execute their sub-actions in any order.
+During this time, players are working collaboratively and simultaneously. (They are *__not__* taking turns!) Players decide which action to take, and how to execute their sub-actions. You may execute your sub-actions in any order. You may interleave your sub-actions with the sub-actions of other players. (Note: doing this effectively takes teamwork and is the key to victory!)
 
-*For example, Kelly takes REVEAL🔍 and reveals a guard one space away from Tim. Tim, with this new information, then chooses to take PUNCH👊🔊🔊➜, and does a ➜ then a 👊 on the newly-discovered guard, then increases the 🔊 by 2.*
+When you begin an action, you must place your die on the Skill or Character card to indicate that commitment. If unknown information is revealed after you commit to an action, that action cannot be undone.
 
-Players may interleave their sub-actions with the sub-actions of other players. (Note: doing this effectively take teamwork and is the key to victory!)
+*For example, Kelly takes REVEAL🔍 and reveals a guard one space away from Tim. Tim, with this new information, then chooses to take PUNCH👊🔊🔊➜, and does a ➜ first, then a 👊 on the newly-discovered guard, then increases the 🔊 by 2.*
 
-*For example, Jacob takes SNEAK🔍➜➜ and Derek takes PICK🔓.*
+*Another example: Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he auto-reveals a Lock in his path. He cannot undo his action now that he's committed. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.*
 
-The Noise(🔊) sub-action is **required**, but all other sub-actions are not required. *For example, you not need to unlock two locks to take Rake🔓🔓🔊➜, but it costs you a 🔊 regardless.*
+The Noise(🔊) and the Alert(⚠) sub-actions are **required**, but all other sub-actions are not required. *For example, you do not need to be able to unlock two locks to take Rake🔓🔓🔊➜, but it costs you a 🔊 regardless.*
 
-Each player has the final say about what to do with their own character.
+You have the final say about what to do with your own character.
 
-Players may use any number of their Ideas💡 to modify the die roll by 1. Players may "wrap around", that is, spend an 💡 to go from a 6 to a 1.
-
-Players may opt to simply PASS on their turn, and take no actions and not increase noise.
-
-When a player has finished their action, they place their die on the action they have taken to indicate they are finished (i.e. on the square on the character card or the square on the appropriate skill card).
+You may opt to simply PASS on your turn, and take no actions with no noise penalty.
 
 ### Roll for Security
 
-When all players have finished their actions, they place their die on the skill they have taken to indicate they are finished. When all players are finished, one player must roll the four-sided security die. (The number on the bottom is the number that is rolled)
+When all players have finished their actions, indicated by their die on the action they have taken, one player must roll the four-sided security die. (The number on the bottom is the number that is rolled.) The event the occurs is the one counted along the track from the alert bar.
 
-The event the occurs is the one counted from the alert bar.
+Below is the translation of the event iconography:
+
+| Icon(s) | Description |
+|---|---|
+| (noise one) | Increase the noise by 2/3. |
+| (adjacent to camera) | | For each player adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a player is adjacent to multiple cameras, increase for each camera. |
+| (adjacent to guard) | | For each player next to a Guard, increase ⚠ by 1. |
+| (on a subdued guard) | | For every player on a space with a Subdued Guard, increase Alert(⚠) bar by 1. |
+| (on a disconnected camera) | | For every player on a Disconnected Camera, increase Alert(⚠) bar by 1. |
+| (power on) | | Make every Disconnected Camera Live, and increase ⚠ every time you do this |
+| (close gate) | | Close the A-Gate. Remove the tile from the board. If a player is on the gate, or if it is impossible for a player to reach an exit, they are Busted. If the A-Gate has already been closed, then increase ⚠ by 2. |
+| (guard on adjacent to guard) | For every player adjacent to a Guard, add a Guard to the player's current tile. If a Security token is already on the player's tile, replace it with a Guard. |
+| (guard on a subdued guard) | For every player on a tile with a Subdued Guard, Un-Subdue that guard. |
+| (guard on a disconnected camear) | Replace every Disconnected Camera with a Guard. |
+
+Whenever an Event calls for a new Guard to be place, take it from the supply (not the bag).
+
+*__Strategy Note:__* Most events increase alerts by being next to a security token that is not handled. Colloquially, this is called "raising suspicion". This phrase might help in your collaboration, as in *I don't want to take that move because it raises suspicion on these three tiles*
 
 ### The Escape Phase
 
