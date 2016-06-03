@@ -1,7 +1,7 @@
 require 'squib'
 require_relative 'save_custom_sheet'
 
-data = Squib.csv file: 'data/security.csv'
+data = Squib.csv file: 'data/security-backs.csv'
 size = '0.8125in'
 Squib::Deck.new(width: size, height: size, cards: data['Name'].size) do
   use_layout file: 'layouts/security.yml'

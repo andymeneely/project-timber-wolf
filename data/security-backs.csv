@@ -1,0 +1,11 @@
+Name,Qty,Image
+security,27,security.svg
+gate_a,1,gate-a.svg
+gate_b,1,gate-b.svg
+gate_c,1,gate-c.svg
+gate_d,1,gate-d.svg
+gate_e,1,gate-e.svg
+locked,4,locked.svg
+unlocked,4,unlocked.svg
+camera,4,camera.svg
+disconnected,4,disconnected.svg
