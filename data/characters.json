@@ -28,7 +28,7 @@
     "Snark": ""
   },
   "2": {
-    "Name": "Tunnel Master",
+    "Name": "Tunneler",
     "Class": "Bypasser",
     "Qty": "1",
     "Level": "2",
@@ -50,7 +50,7 @@
     "Ideas": "3",
     "Default1": "Walk\n🔊➜",
     "Default2": "Bash\n👊👊🔊",
-    "LevelUp1": "Persuasion Specialist",
+    "LevelUp1": "Bruiser",
     "LevelUp2": "Operative",
     "Special": "ADRENALINE\nGain 💡 on 👊",
     "Snark": ""
