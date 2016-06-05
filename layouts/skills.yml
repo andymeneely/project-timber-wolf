@@ -24,14 +24,15 @@ level:
   align: right
 
 die_roll:
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 30
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 32
   width: 310
   height: 100
   align: center
   spacing: -10
+  hint: red
 die_roll_1:
   extends: die_roll
-  x: 615
+  x: 605
   y: 222
 die_roll_2:
   extends: die_roll

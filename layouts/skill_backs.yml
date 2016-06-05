@@ -22,13 +22,13 @@ name_summary:
 upgrade1:
   extends: name
   x: 75
-  y: 125
+  y: 75
   width: 480
   height: 250
   hint: black
 up1_sum:
   extends: upgrade1
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 33
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 28
   y: += 75
   x: += 10
   width: -= 20
@@ -37,7 +37,7 @@ up1_sum:
 upgrade2:
   extends: name
   x: 580
-  y: 125
+  y: 75
   width: 480
   height: 250
   hint: black

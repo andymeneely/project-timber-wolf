@@ -33,6 +33,10 @@ module Squib
       def select_indices
         self.map.with_index { |x, i| yield(x) ? i : nil }.compact
       end
+
+      def merge(other, op)
+        self.zip(other).map { |a| a.inject(op) }
+      end      
     end
   end
 end

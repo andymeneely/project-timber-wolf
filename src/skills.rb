@@ -21,9 +21,9 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     text str: data[i.to_s], layout: "die_roll_#{i}"
   end
 
-  # save_png prefix: 'skill_'
-  # save_sheet prefix: 'skill_sheet_', trim: '0.125in'
-  # save_pdf file: 'skills.pdf', trim: '0.125in'
+  save_png prefix: 'skill_'
+  save_sheet prefix: 'skill_sheet_', trim: '0.125in'
+  save_pdf file: 'skills.pdf', trim: '0.125in'
 
   build :rulebook_figures do
     # rect layout: :border
