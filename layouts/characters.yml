@@ -35,8 +35,9 @@ Ideas:
   y: += 85
 
 Special:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 33
   color: black
+  spacing: -4
   width: 2.25in
   x: 75
   y: 225
