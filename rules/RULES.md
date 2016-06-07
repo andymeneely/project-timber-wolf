@@ -65,9 +65,9 @@ Throughout the game, you will be (finish this thought later)
 
 | Name | Icon | Behavior |
 |---|---|---|
-| Gate | | A player may enter or exit this space freely. Security Events may remove this tile from the board. |
-| Sensors | | Some boards will have a security system in place where a series of rings will surround some Loot. Players may not steal Loot if there are any Sensor Rings around it. A corresponding Control Panel exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Security Rings may be removed *__only__* if they are the outermost ring at the time. |
-| Reinforcements | <img src="../img/beacon.svg" width="575px">| When triggered, Reveal all Security Tokens adjacent to the Reinforcements chit. Un-Subdue any Guards adjacent to the Reinforcements chit. Place new Guard tokens from the supply onto any tiles adjacent to the Reinforcements chit that are without a Security Token. Replace the Reinforcements chit with a Guard. Reinforcements are triggered at the *__end__* of the Roll for Security phase. |
+| Gate | (gate icon here) | A player may enter or exit this space freely. Security Events may remove this tile from the board. |
+| Sensors | (sensor icon here) | Some boards will have a security system in place where a series of rings will surround some Loot. Players may not steal Loot if there are any Sensor Rings around it. A corresponding Control Panel exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Security Rings may be removed *__only__* if they are the outermost ring at the time. |
+| Reinforcements |  (reinforcements icon here) | When triggered, Reveal all Security Tokens adjacent to the Reinforcements chit. Un-Subdue any Guards adjacent to the Reinforcements chit. Place new Guard tokens from the supply onto any tiles adjacent to the Reinforcements chit that are without a Security Token. Replace the Reinforcements chit with a Guard. Reinforcements are triggered at the *__end__* of the Roll for Security phase. |
 
 _For example_ (provide an example for remote locks)
 
