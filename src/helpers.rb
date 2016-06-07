@@ -26,6 +26,10 @@ def summarize_skill(str)
   str.gsub(/[^💡🔊➜📷🔍👊🔓⚠]/,'').chars.sort.join
 end
 
+def skill_lacks(str)
+  "Lacks\n" + ('💡➜📷🔍👊🔓'.chars - str.chars).join
+end
+
 # this isn't working for some stupid reason
 module Squib
   module ArrayExtras
@@ -36,7 +40,7 @@ module Squib
 
       def merge(other, op)
         self.zip(other).map { |a| a.inject(op) }
-      end      
+      end
     end
   end
 end

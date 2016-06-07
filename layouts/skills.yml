@@ -16,12 +16,19 @@ name:
   height: 1in
   align: center
 level:
-  x: 3.0in
-  y: 2.2in
+  x: 0.25in
+  y: 2.25in
   width: 0.5in
   height: 0.5in
   font: Archivo Black, 32
-  align: right
+  align: left
+lacks:
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 28
+  x: 3.1in
+  y: 1.9in
+  width: 0.5in
+  height: 0.5in
+  align: center
 
 die_roll:
   font: Archivo Narrow, Segoe UI Symbol, Dingbats, 31

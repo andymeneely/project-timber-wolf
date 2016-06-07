@@ -16,6 +16,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   svg file: 'skill.svg'
 
   text str: data['Level'].map { |l| "lvl #{l}"}, layout: :level
+  text str: data['Rolls'].map { |s| skill_lacks(s) }, layout: :lacks
   text str: data['Name'], layout: :name
   (1..6).each do |i|
     text str: data[i.to_s], layout: "die_roll_#{i}"
