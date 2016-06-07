@@ -55,9 +55,9 @@ Throughout the game, you will be (finish this thought later)
 
 | Name | Active | Inactive | Behavior |
 |---|---|---|---|
-| Guard | <img src="../img/guard.svg" width=75> Guard | <img src="../img/subdued.svg" width="75">Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may walk into a space with a Guard. |
-| Camera | <img src="../img/camera.svg" width=75> Live | <img src="../img/disconnected.svg" width=75> Disconnected | _Increases Alerts._ You may walk onto a camera that is On, but it increases the Alert (⚠) by 1  |
-| Lock | <img src="../img/locked.svg" width=75> Locked | <img src="../img/unlocked.svg" width=75> Unlocked | _Prevents passage._ You may not enter a Locked space.  |
+| Guard | <img src="../img/guard.svg"> Guard | <img src="../img/subdued.svg">Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may walk into a space with a Guard. |
+| Camera | <img src="../img/camera.svg"> Live | <img src="../img/disconnected.svg"> Disconnected | _Increases Alerts._ You may walk onto a camera that is On, but it increases the Alert (⚠) by 1  |
+| Lock | <img src="../img/locked.svg"> Locked | <img src="../img/unlocked.svg"> Unlocked | _Prevents passage._ You may not enter a Locked space.  |
 
 (describe Reveal and Auto-Reveal)
 
@@ -76,7 +76,7 @@ _For example_ (provide an example for remote locks)
 Skills and Characters allow players to take Actions. Every action is just a grouping of Sub-Actions with a name (e.g. )
 
 The Sub-Actions are:
-| | |
+| Icon | Description |
 |---|---|
 | ➜ | **Move** to an adjacent, planned, not locked tile |
 | 🔓 | **Unlock** 1 locked, adjacent tile |
