@@ -76,6 +76,7 @@ _For example_ (provide an example for remote locks)
 Skills and Characters allow players to take Actions. Every action is just a grouping of Sub-Actions with a name (e.g. )
 
 The Sub-Actions are:
+
 | Icon | Description |
 |---|---|
 | ➜ | **Move** to an adjacent, planned, not locked tile |
