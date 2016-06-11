@@ -1,8 +1,8 @@
 cut:
   x: 0.125in
   y: 0.125in
-  width: 0.75in
-  height: 0.75in
+  width: 1in
+  height: 1in
 chit_text:
   width: 300
   height: 300
