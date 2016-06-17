@@ -22,48 +22,35 @@ Level:
 Memory:
   extends: Level
   font: Archivo Black, 30
+  x: 85
   width: 70
   align: center
   y: += 55
   color: white
 Ideas:
   extends: Memory
-  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 32
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 38
   width: 100
   align: left
   color: black
   y: += 85
 
 Special:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 33
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
   color: black
   spacing: -4
-  width: 2.25in
-  x: 75
-  y: 225
+  x: 280
+  y: 235
+  width: 470
+  height: 590
+  hint: red
   align: center
   valign: middle
-  height: 1.75in
-
-
-
-Skill1:
-  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
-  x: 75
-  y: 3.20in
-  width: 325
-  align: center
-Skill2:
-  font: Archivo Black, Serif, Segoe UI Symbol, Dingbats, Bold 42
-  x: 430
-  width: 325
-  align: center
-  y: 3.20in
 
 DefaultSkill:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 34
-  y: 755
-  width: 270
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 36
+  y: 900
+  width: 310
   height: 154
   color: black
   align: center
@@ -72,7 +59,7 @@ Default1:
   x: 75
 Default2:
   extends: DefaultSkill
-  x: 475
+  x: 435
 
 FigureLevel:
   font: Sans Bold 36
