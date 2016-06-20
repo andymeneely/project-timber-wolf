@@ -39,11 +39,10 @@ Special:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
   color: black
   spacing: -4
-  x: 280
+  x: 300
   y: 235
   width: 470
   height: 590
-  hint: red
   align: center
   valign: middle
 
