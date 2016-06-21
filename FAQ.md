@@ -50,17 +50,44 @@ Also, since everyone has their own set of rotating skills, the Alpha can't reall
 
 ## Why no traitor mechanic? Seems perfect given the theme!
 
-Yes, this game satisfies the two of the three Gamehole Gauntlet challenge criteria (RPG-style and extensive use of chits), and the third traitor mechanic falls right in line with the theme of heists. Perfect, right?
+Yes, this game satisfies the two of the three Gamehole Gauntlet challenge criteria (RPG-style and extensive use of chits), and the third traitor mechanic falls right in line with the theme of heists. I could even get an extra point. Perfect, right?
 
 Truthfully, the game designer (Andy) doesn't like traitor mechanics. He finds them stressful. And he didn't want to spend hundreds of playtesting hours on a mechanic that gives him anxiety even if it's done well.
 
 But maybe someday he'll build it into an expansion if people really want it.
 
+## Is this game color-blind accessible?
+
+I believe so. One of our main playtesters is red-green color-blind and provided feedback throughout the process. We have also tested our artwork with the Daltonize colorblindness simulation algorithm to ensure that the information is properly transmitted. In particular, the Planning tokens are different enough that a colorblind player can distinguish them easily on the board.
+
+## What was your playtesting process?
+
+Early, often, and diverse. For five months straight, I ran 1-3 game nights per week playing the game. I got feedback from non-gamers and hardcore gamers. All friends, some were friends-of-friends. The ages ranged from mid-twenties to sixties. Professions ranged from artists to doctors to academics to software testers. We had X% men and Y% women across our Z playtesters.
+
+Blind playtesting is the next step in my development process.
+
+## We take much longer than 30-40 minutes on a heist. What gives?
+
+The first few times you play the game, especially if *everyone* at the table is new, a heist might take closer to an hour. As you play more, you'll find ways of communicating efficiently and effectively and the heists will take less time. That being said, some groups are just a little slower than others. Even when it's slower, our playtesters report that they lose track of time anyway and don't notice the time passing.
+
+Here are some tips for speeding up collaboration:
+  * Share with the table what *problems* you can solve, rather than your *options*. For example, "I can unlock this lock over here for one Idea" is better than "Ok, I've got an unlock, a subdue, and two moves, but if I...".
+  * Most boards tend to have a natural pairing off of players. Feel free to just work with the people who are near you on the board. Change your seat at the table if it's easier than talking across the table.
+  * Don't be afraid of multiple conversations going on at once.
+  * Don't bother talking about strategy during the *Roll for Security* phase - wait until everyone has done *Roll for Skill*.
+  * Not everything needs to be cleared by the whole table. If your move is obvious, just take it.
+  * No need to share with everyone what you just rolled - translate it into how you can help.
+
+## Do you really expect people to read all of these FAQs?
+
+Nope. But some people will. I'm trying to do something different here by being transparent about my design process so you can make the best purchasing and/or judging decision.
+
 # Questions about the Rules of _Your Last Heist_
 
-(fill these in when the game gets more mature)
+## What if I'm standing on an Unlocked tile and Reinforcements are called?
 
-*What if I'm standing on an Unlocked tile and Reinforcements are called?*
-You may exit a locked tile, but you may never enter a locked tile. The Unlock sub-action does not apply to your current tile.
+You may *exit* a Locked tile, but you may never *enter* a Locked tile. The Unlock sub-action does not apply to your current tile.
 
-*Can a hex tile have more than one Security chit on it?* Yes. In this case the effects and sub-actions necessary to pass through those tiles stack.
+## Can a hex tile have more than one Security chit on it?
+
+Yes. In this case the effects and sub-actions necessary to pass through those tiles stack. *For example, a hex with two Locks on it needs 🔓🔓 to make it passable.*
