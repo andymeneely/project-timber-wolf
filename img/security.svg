@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="19.80681"
-     inkscape:cy="50.502281"
+     inkscape:zoom="16"
+     inkscape:cx="39.028303"
+     inkscape:cy="39.054754"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="1672"
+     inkscape:window-y="185"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -55,9 +55,9 @@
      id="layer1"
      transform="translate(0,-984.86215)">
     <path
-       inkscape:connector-curvature="0"
-       id="path5693"
-       d="m 17.42253,1002.2377 c 0,19.5283 3.3606,25.8435 16.24541,32.66 l 0,0.089 c 0.028,-0.015 0.0541,-0.03 0.0821,-0.044 0.0279,0.015 0.054,0.029 0.082,0.044 l 0,-0.089 c 12.88483,-6.8165 16.24543,-13.1317 16.24543,-32.66 -4.00559,1.0598 -10.42299,1.7913 -16.32748,1.798 -5.9045,-0.01 -12.32187,-0.7382 -16.32746,-1.798 z"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.67869741;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.67869741;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 32.607422 13.195312 L 32.607422 13.222656 C 26.988198 16.714997 17.222203 17.172814 16.357422 17.53125 C 17.427548 41.395223 22.632866 44.783376 32.607422 50.210938 L 32.607422 50.236328 C 32.615586 50.231887 32.622702 50.227094 32.630859 50.222656 C 32.639017 50.227094 32.646133 50.231887 32.654297 50.236328 L 32.654297 50.210938 C 42.628853 44.783376 47.834171 41.395223 48.904297 17.53125 C 48.039516 17.172814 38.273521 16.715026 32.654297 13.222656 L 32.654297 13.195312 C 32.646773 13.200029 32.638398 13.204279 32.630859 13.208984 C 32.62332 13.204279 32.614946 13.200029 32.607422 13.195312 z "
+       transform="translate(0,984.86215)"
+       id="path5544" />
   </g>
 </svg>
