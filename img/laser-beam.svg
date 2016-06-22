@@ -38,7 +38,7 @@
      showgrid="false"
      inkscape:zoom="4.6354778"
      inkscape:cx="-15.809425"
-     inkscape:cy="20.133295"
+     inkscape:cy="11.504195"
      inkscape:window-x="1672"
      inkscape:window-y="185"
      inkscape:window-maximized="1"
@@ -62,4 +62,17 @@
        id="guide4542" /><sodipodi:guide
        position="29.231075,9.2223503"
        orientation="0,1"
-       id="guide4544" /></sodipodi:namedview></svg>
+       id="guide4544" /></sodipodi:namedview><rect
+     style="fill:#d9c787;fill-opacity:1;stroke:none"
+     id="rect4558"
+     width="36.242218"
+     height="71.837257"
+     x="0"
+     y="0.16274495" /><rect
+     style="fill:#d9c787;fill-opacity:1;stroke:none"
+     id="rect5146"
+     width="11.21783"
+     height="31.280487"
+     x="-118.21867"
+     y="26.265772"
+     ry="5.6089149" /></svg>

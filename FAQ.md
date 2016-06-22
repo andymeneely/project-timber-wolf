@@ -80,7 +80,7 @@ Here are some tips for speeding up collaboration:
 
 ## Do you really expect people to read all of these FAQs?
 
-Nope. But some people will. I'm trying to do something different here by being transparent about my design process so you can make the best purchasing and/or judging decision.
+Nope. But some people will. (Hi there!) I'm trying to do something different here by being transparent about my design process so you can make the best purchasing and/or judging decision.
 
 # Questions about the Rules of _Your Last Heist_
 
