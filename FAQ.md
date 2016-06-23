@@ -91,3 +91,7 @@ You may *exit* a Locked tile, but you may never *enter* a Locked tile. The Unloc
 ## Can a hex tile have more than one Security chit on it?
 
 Yes. In this case the effects and sub-actions necessary to pass through those tiles stack. *For example, a hex with two Locks on it needs 🔓🔓 to make it passable.*
+
+## Can MISDIRECT or GREAT IN A PINCH modify a security roll from 4 to 1?
+
+Yes. And vice versa.
