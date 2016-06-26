@@ -116,13 +116,13 @@
     "Class": "Grifter",
     "Qty": "1",
     "Level": "2",
-    "Memory": "11",
+    "Memory": "10",
     "Ideas": "3",
     "Default1": "Dash\n🔊➜➜",
     "Default2": "Inspire\n(see above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "THERE ARE BETTER WAYS\nCannot 👊. May exit a space with guard(s) for 💡 each (does not apply to Escape phase).\n \nINSPIRE\nUse this action to give a free💡💡  to a player of your choosing",
+    "Special": "THERE ARE BETTER WAYS\nCannot 👊. May exit a space with guard(s) for 💡 each (does not apply to Escape phase).\n \nINSPIRE\nUse this action and a 🔊 to give a free💡💡  to a player of your choosing.",
     "Snark": ""
   },
   "9": {
@@ -136,7 +136,7 @@
     "Default2": "Exploit\n(see above)",
     "LevelUp1": "Hacktivist",
     "LevelUp2": "Black Hat",
-    "Special": "I CAN HAZ TEH CODES?\nOnce per turn, may spend 💡💡 to re-position up to 3 planning tokens of any one player\n \nEXPLOIT\nUse this Action and a 💡 to enable another player to 👊🔊, 📷🔊, or 🔓🔊",
+    "Special": "I CAN HAZ TEH CODES?\nOnce per heist may spend 💡💡 to re-position up to 3 planning tokens of any player(s)\n \nEXPLOIT\nUse this Action and a 💡 to enable another player to 👊🔊, 📷🔊, or 🔓🔊",
     "Snark": null
   },
   "10": {
@@ -150,7 +150,7 @@
     "Default2": "Exploit\n(see above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "I CAN HAZ TEH CODES?\nOnce per turn, may spend 💡💡 to re-position up to 3 planning tokens of any one player\n \nEXPLOIT\nUse this Action and a 💡 to enable another player to 👊🔊, 📷🔊, or 🔓🔊",
+    "Special": "I CAN HAZ TEH CODES?\nOnce per heist may spend 💡💡 to re-position up to 3 planning tokens any player(s)\n \nEXPLOIT\nUse this Action and a 💡 to enable another player to 👊🔊, 📷🔊, or 🔓🔊",
     "Snark": ""
   },
   "11": {
@@ -164,7 +164,7 @@
     "Default2": "Exploit II\n(see above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "HAS THE CODE\nOnce per turn, may spend 💡💡 to re-position up to 4 planning tokens of any one player\n \nEXPLOIT II\nUse this Action to enable another player to 👊🔊, 📷🔊, or 🔓🔊",
+    "Special": "HAS THE CODE\nOnce per heist may spend 💡💡 to re-position up to 4 planning tokens any player(s)\n \nEXPLOIT II\nUse this Action to enable another player to 👊🔊, 📷🔊, or 🔓🔊",
     "Snark": ""
   },
   "12": {
@@ -174,11 +174,11 @@
     "Level": "1",
     "Memory": "8",
     "Ideas": "2",
-    "Default1": "Yoink\n💰🔊",
+    "Default1": "Smash\n📷🔊🔊➜",
     "Default2": "Hesitate\n💡",
     "LevelUp1": "Thief",
     "LevelUp2": "Grease Man",
-    "Special": "DART\nMay spend 💡for ➜ once per turn",
+    "Special": "DART\nMay spend 💡for 🔊➜ once per turn (in addition to your action)",
     "Snark": ""
   },
   "13": {
@@ -188,11 +188,11 @@
     "Level": "2",
     "Memory": "9",
     "Ideas": "4",
-    "Default1": "Yoink\n💰🔊",
+    "Default1": "Smash\n📷🔊🔊➜",
     "Default2": "Hesitate\n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DART\nMay spend 💡for ➜ once per turn\n \nSEWER CRAWL\nFor 🔊🔊⚠, may treat a tile directly across 1 non-tiled gap as adjacent.",
+    "Special": "DART\nMay spend 💡for 🔊➜ once per turn(in addition to your action)\n \nSEWER CRAWL\nFor 🔊🔊⚠, may treat a tile directly across 1 non-tiled gap as adjacent.",
     "Snark": ""
   },
   "14": {
@@ -202,11 +202,11 @@
     "Level": "2",
     "Memory": "12",
     "Ideas": "2",
-    "Default1": "Yoink\n💰🔊",
+    "Default1": "Bolt\n(see above)",
     "Default2": "Hesitate\n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "BOLT\nMay spend 💡for ➜ up to four times in a turn.",
+    "Special": "BOLT\nUse this action and a 🔊 to spend 💡for ➜ up to four times.",
     "Snark": ""
   },
   "15": {
