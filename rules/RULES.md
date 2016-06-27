@@ -1,7 +1,7 @@
 
 # _Your Last Heist_
 
-_Your Last Heist_ is a cooperative, multi-stage heist game. You are playing the role of a uniquely skilled criminal who works with other skilled criminals to quietly traverse the building and steal items, all while dealing with obstacles like closing gates, guards, locks, lasers, sensors, and cameras.
+_Your Last Heist_ is a cooperative, multi-stage heist game. You are playing the role of a uniquely skilled criminal who works with other skilled criminals to quietly traverse the building and steal items, all while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
 A single heist takes 30-40 minutes, and is part of a series of scenarios where your character improves skills and abilities. The scenarios are story-driven, highly replayable, and allow you to "save" your game between heists.
 
@@ -20,7 +20,6 @@ During each heist, you will collaborate with teammates with simultaneous gamepla
 * 5 Artwork chits (square)
 * 5 Entrance chits (square)
 * 4 Jewel chits (circular)
-* 20 Laser Beam chits (arrow-shaped)
 * 6 Security System chits
 * 8 Pressure Sensors (ring-shaped chits)
 * 48 planning chits (12x4 player colors)
@@ -72,16 +71,17 @@ For most tiles, each tile is Blank on one side, and is a Security tile on the ot
 Each board has one or more **Entrances**. These Entrances (they are also Exits) represent a space. If a player is on one of these spaces, they are considered to be Outdoors, otherwise they are Indoors. Entrances have a limit on the number of characters that can be on them at the same time at the beginning of a heist. This limit does not apply to the Escape phase, although some scenarios may impose additional limits.
 
 ## Security Chits
+Security Chits are randomized obstacles that your team will encounter. They are:
 
 | Name | Active | Inactive | Behavior |
 |---|---|---|---|
 | Guard | <img src="../img/guard.svg"> Guard | <img src="../img/subdued.svg">Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may walk into a space with a Guard. |
-| Camera | <img src="../img/camera.svg"> Live | <img src="../img/disconnected.svg"> Disconnected | _Increases Alerts._ You may walk onto a camera that is Live, but increase the Alert (⚠) by 1  |
+| Camera | <img src="../img/camera.svg"> Live | <img src="../img/disconnected.svg"> Disconnected | _Increases Alerts._ You enter a space with a Live Camera, but increase the Alert (⚠) by 1  |
 | Lock | <img src="../img/locked.svg"> Locked | <img src="../img/unlocked.svg"> Unlocked | _Prevents passage._ You may not enter a Locked tile.  |
 
 Note: throughout these rules, a "Guard" is considered to be an "Un-Subdued" Guard.
 
-Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a player is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit can also be placed with a Reveal (🔍) sub-action (see below).
+Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a player is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit can also be placed with a **Reveal** (🔍) sub-action (see below).
 
 ## Actions and Sub-Actions
 
@@ -101,57 +101,51 @@ Skills and Characters allow players to take Actions. Every Action is just a grou
 
 ## Noise Tracker & Alert Bar
 
-The Noise tracker is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon entering a Noise level with an Alert ⚠, increase the Alert Bar by 1. If the Noise marker gets to the final slot, increase ⚠ for each 🔊.
+The Noise tracker is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon entering a Noise level with an Alert ⚠, increase the Alert Bar by 1. If the Noise marker gets to the final slot, increase ⚠ for each 🔊 incurred.
 
 The Alert Bar represents the potential Security Events you will encounter in the near future. The Alert Bar marker (a long wooden bar) is only ever placed *between* events. The Alert Bar represents a lower-bound of what events could possibly occur, so nothing happens immediately when you increase the Alert bar. If the Alert bar goes beyond its final slot, then the Escape phase is initiated in the *Roll for Security* stage no matter what is rolled.
 
-Details on the event iconography is in *Roll for Security*.
+Details on the event iconography is in the *Roll for Security* section.
 
 ## Security Systems
 
 **Gate** (gate icon here). A player may enter or exit this space freely. Security Events may remove this tile from the board.
 
-**Pressure Sensors** (sensor icons here). You may not enter a tile with a Pressure Sensor chit on it. A corresponding Control Panel exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Security Rings may be removed *__only__* if they are the outermost ring at the time.
+**Pressure Sensors** (sensor icons here). You may not enter or exit a tile with a Pressure Sensor chit on it. A corresponding Control Panel exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Security Rings may be removed *__only__* if they are the outermost ring at the time.
 
 **Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. When triggered, Reveal all Security Tokens adjacent to the Reinforcements chit. Un-Subdue any Guards adjacent to the Reinforcements chit, Re-lock any Locks, and re-activate any disabled Cameras. Place a new Guard token from the supply onto any tile adjacent to the Reinforcements chit that was without a Security Token. Replace the Reinforcements chit with two Guards.
 
-**Laser Tripwire** (laser icons here). Represented by a series of Laser Beams directly across multiple tiles, with Laser Sensors at each end. If a player enters a tile with a Laser Beam, increase one ⚠. If two players are standing on opposing Laser Sensors at the same time, remove the Laser Beam and Laser Sensor chits from the board. A Laser Sensor does not have a Laser Beam on it. (The direction of the arrow-shaped Laser Beam chit does not matter.)
-
 ## Loot Chits
 
-The objective of the heist is (often) to steal Loot chits, which can be Artwork, Jewels, or Cash. When a player enters a space with Loot, immediately place that Loot chit on the Character card. When a player with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Loot tracker accordingly.
+The objective of the heist is (often) to steal Loot chits, which can be Artwork, Jewels, or Cash. When a player is on a space with Loot, immediately place that Loot chit on the Character card. When a player with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Loot tracker accordingly. (TRANSFERS and DROPS)
 
 ## Prisoner
 
 Some heists have a **Prisoner** token. A Prisoner is a non-player Character that your team can "remotely" control. A Prisoner is not Freed until their Pressure Sensor space is fully disabled. A Freed Prisoner has one Action available: Crawl➜, cannot carry Ideas💡, and needs no planning tokens. As a team, you must decide how to use the prisoner's Crawl Action.
 
-In every other way, treat a Freed Prisoner like a regular character. Freed Prisoners may carry Loot and may be given sub-actions *(e.g. Script Kiddie's Exploit)*. They Auto-Reveal, will impact Security Events, and might need a die roll of their own during the Escape Phase.
+In every other way, treat a Freed Prisoner like a regular character. Freed Prisoners may carry Loot and may be given sub-actions *(e.g. Script Kiddie's Exploit)*. They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase.
 
 # Setting Up
 
-As a team, decide upon a scenario. Some scenarios are designed for one evening's play, others can be played over the course of multiple evenings. Each heist in the scenario will consist of Chapters, which involve one Heist. Read the story text, then begin setting up the board and characters.
+**Step 1. As a team, decide upon a scenario.** Some scenarios are designed for one evening's play, others can be played over the course of multiple evenings. Each heist in the scenario will consist of Chapters, which involve one Heist. Read the story text, then begin setting up the board and characters.
 
-Decided on player colors. There is no gameplay difference between the colors. take the planning tokens, 6-sided die, and pawn according to your color.
+**Step 2. Decided on player colors.** There is no gameplay difference between the colors. Take the planning tokens, 6-sided die, and pawn according to your color.
 
-If the scenario says "Suggested Characters", then you are allowed (and encouraged!) to explore other options for Character-Skill pairings. If the scenario says "Required", then the storyline requires that those characters and skills are used.
+**Step 3. Build Characters.** If the scenario says "Suggested Characters", then you are allowed (and encouraged!) to explore other options for Character-Skill pairings. If the scenario says "Required", then the storyline requires that those characters and skills are used. Place the two Skill cards below the Character card (make a figure of this).
 
-Place the two Skill cards below the Character card (make a figure of this).
+**Step 4. Distribute the Planning tokens** to each character according to their color and Planning Memory. *For example, the Lookout has a Planning Memory of 6, so she gets 6 planning tokens*. Place remaining Planning tokens back in the box.
 
-Distribute the Planning tokens to the character according to their Planning Memory. *For example, the Lookout has a Planning Memory of 6, so she gets 6 planning tokens*. Place remaining Planning tokens back in the box.
+**Step 5. Distribute initial Ideas💡** to each player according to their character.
 
-Distribute initial Ideas💡 to each player according to their character.
+**Step 6. Set up the board** in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. *(Tip: to verify the layout, match the shapes of the Gaps between tiles).* Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. Some boards have already-revealed security chits. The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board (they are "the supply").
 
-Set up the board in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. *(Tip: to verify the layout, match the shapes of the Gaps between tiles).* Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. Do not place Security chits (i.e. Guards, Cameras, Locks).
+**Step 7. Place the Noise Tracker marker** on its starting Place.
 
-The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board.
+**Step 8. Place the Alert Bar** marker on its starting place.
 
-Place the Noise Tracker marker on its starting Place.
+**Step 9. Place the Team Loot tracker** on the starting place according to the scenario.
 
-Place the Alert Bar on its starting place.
-
-Place the Team Loot tracker on the starting place according to the scenario.
-
-On the provided Document, record your team. Determine a Team Name. Players are encouraged to make up a name for their characters too.
+**Step 10. Record your team on the provided document**. Determine a Team Name. Players are encouraged to make up a name for their characters too.
 
 # Gameplay
 
@@ -159,8 +153,8 @@ The game is structured in a series of small heists. The structure of each heist 
 
   1. The Plan
     * Plot movement
-    * Purchase extra Reveals 🔍
-    * Purchase extra Ideas 💡
+    * Purchase and use extra Reveals 🔍
+    * Purchase and place extra Ideas 💡
   2. The Heist
     1. Roll for Skill
     2. Character Actions
@@ -172,11 +166,11 @@ The game is structured in a series of small heists. The structure of each heist 
 
 ## Part 1: The Plan
 
-This is your opportunity to come up with a rough plan of how you will pull this Heist. Every time you do a Move➜, you must move onto a hex that you have Planned. Thus, mark off every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you (may or may not) move onto. Entrance tiles do not need a token. *__Note:__* Unless special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
+With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned**. Thus, mark off every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token. *__Note:__* Unless special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
 
 During this phase, you may purchase and immediately use any number of Reveal🔍 for $1k of team loot each. You may also purchase any number of Ideas💡 for $1k of team loot each. Place each purchased Idea💡 on a character immediately.
 
-Place your Character pawn on the Entrance space where you will plan to start.
+Place your Character pawn on the Entrance space where you will plan to start. Remember that some entrance tiles have a limit on the number of starting players.
 
 ## Part 2: The Heist
 
@@ -206,7 +200,7 @@ You may opt to simply PASS on your turn, and take no actions with no noise penal
 
 You may opt to Initiate Escape Phase at any time (see below).
 
-**Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player. You may do this as many times as you like. This does not apply to the Escape phase.
+You may also **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player. You may do this as many times as you like. (**__This does not apply to the Escape phase!__**)
 
 ### Roll for Security
 
@@ -242,9 +236,9 @@ Whenever an Event calls for a new Guard to be place, take it from the supply (no
 
 When the Escape Phase is initiated, all Gates close and all Security chits are revealed.
 
-Then, each player who has not reached an exit determines if they can reach it. Determine the minimum number of Escape Moves from the player to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard costs two Moves(➜➜) per guard. Cameras, Lasers, and Pressure Sensors have no effect during Escape. Each leftover 💡 that a character has may be used for for an Escape Move ➜.
+Then, each player who has not reached an exit determines if they can reach it. Determine the minimum number of Escape Moves from the player to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard costs two Escape Moves per guard. Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 that a character has may be used for 1 Escape Move.
 
-If you are still Indoors after using up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves ➜ you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
+If you are still Indoors after using up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
 
 *For example Andy needs (draw an example here) 5 Moves to exit: one to enter the space with Guards, two to exit the Guards, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out.*
 
@@ -254,11 +248,6 @@ You may *__not__* use abilities that cost 🔊 or ⚠ during this phase. *For ex
 
 When you are Busted, you are out of gameplay for the rest of this heist. All loot on your character is lost. You cannot level up for the next heist (if the scenario allows it anyway). Instead, you choose a new Amateur character and two Amateur skills for the next heist.
 
-# Leveling Up
+# Losing a Heist
 
-Follow the instructions on each scenario. (need some more guidance here)
-
-
-# The Legacy
-
-(saving games, achievements)
+Each Heist has an objective built into it. If your team does not complete their objective, the campaign is lost. Record the loss on your sheet. Your may retry a heist (i.e. restore from a previous "saved game"). If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
