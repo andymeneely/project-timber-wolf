@@ -39,13 +39,19 @@ During each heist, you will collaborate with teammates with simultaneous gamepla
 
 The game comes with 18 unique characters. Each card has:
 
-  * ① **Level.** There are 6 level 1 characters and 12 level 2 characters.
+  * ① **Level.** There are 6 Amateur characters and 12 Pro characters.
   * ②	**Planning Memory.** This is the number of pre-planned hex tiles your character may move through during a heist.
   * ③	**Initial Ideas**. The number of Ideas💡 you start with at the beginning of each heist.
   * ④	**Default Actions**. Actions that are available regardless of your die roll.
   * ⑤	**Special Ability**. Abilities that your character can uniquely do.
 
-Between Heists, your team will get a chance to level up some of your Characters. Each character is given two choices to level into, as indicated on the back of their card.
+For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
+
+Some Special Abilities will *limit* a character's abilities (e.g. *THERE ARE BETTER WAYS*).
+
+Some abilities have a "Once per heist..." ability. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
+
+Between Heists, your scenario may give you an opportunity to level up some of your characters. Each character is given two choices to level into, as indicated on the back of their card. Discard your Amateur card and choose one Pro card as your new character.
 
 ## Skills
 
@@ -63,7 +69,7 @@ The board is a set of modular double-sided hex tiles. All hexes are considered s
 
 For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
 
-Each board has one or more Entrances. These Entrances (they are also Exits) represent a space. If a player is on one of these spaces, they are considered to be Outdoors, otherwise they are Indoors.
+Each board has one or more **Entrances**. These Entrances (they are also Exits) represent a space. If a player is on one of these spaces, they are considered to be Outdoors, otherwise they are Indoors. Entrances have a limit on the number of characters that can be on them at the same time at the beginning of a heist. This limit does not apply to the Escape phase, although some scenarios may impose additional limits.
 
 ## Security Chits
 
@@ -107,7 +113,7 @@ Details on the event iconography is in *Roll for Security*.
 
 **Pressure Sensors** (sensor icons here). You may not enter a tile with a Pressure Sensor chit on it. A corresponding Control Panel exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Security Rings may be removed *__only__* if they are the outermost ring at the time.
 
-**Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. When triggered, Reveal all Security Tokens adjacent to the Reinforcements chit. Un-Subdue any Guards adjacent to the Reinforcements chit, Re-lock any Locks, and re-activate any disabled Cameras. Place new Guard tokens from the supply onto any tiles adjacent to the Reinforcements chit that are without a Security Token. Replace the Reinforcements chit with two Guards.  
+**Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. When triggered, Reveal all Security Tokens adjacent to the Reinforcements chit. Un-Subdue any Guards adjacent to the Reinforcements chit, Re-lock any Locks, and re-activate any disabled Cameras. Place a new Guard token from the supply onto any tile adjacent to the Reinforcements chit that was without a Security Token. Replace the Reinforcements chit with two Guards.
 
 **Laser Tripwire** (laser icons here). Represented by a series of Laser Beams directly across multiple tiles, with Laser Sensors at each end. If a player enters a tile with a Laser Beam, increase one ⚠. If two players are standing on opposing Laser Sensors at the same time, remove the Laser Beam and Laser Sensor chits from the board. A Laser Sensor does not have a Laser Beam on it. (The direction of the arrow-shaped Laser Beam chit does not matter.)
 

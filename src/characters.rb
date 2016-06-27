@@ -12,12 +12,15 @@ Squib::Deck.new(cards: total) do
   svg file: 'character.svg'
 
   text str: data['Name'], layout: :title
-  text layout: :Level, str: data['Level'].map { |l| "Level #{l}"}
+  levels = data['Level'].map { |l| l == '1' ? "Amateur" : "Pro" }
+  text layout: :Level, str: levels
   text layout: :Memory, str: data['Memory']
   text layout: :Ideas, str: data['Ideas'].map { |i| "#{i}💡"}
 
   text layout: :Default1, str: data['Default1']
   text layout: :Default2, str: data['Default2']
+  text layout: :Default3, str: data['Default3']
+  rect range: non_nil_indices(data['Default3']), layout: :Default3Rect
 
   text layout: :Special, str: data['Special']
 

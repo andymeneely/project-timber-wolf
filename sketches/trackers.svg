@@ -64,8 +64,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7130768"
-     inkscape:cx="468.20517"
-     inkscape:cy="250.64442"
+     inkscape:cx="345.61872"
+     inkscape:cy="505.74098"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -138,13 +138,13 @@
          id="flowPara3625" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="68.63121"
+       x="34.190254"
        y="397.46368"
        id="text4258"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4260"
-         x="68.63121"
+         x="34.190254"
          y="397.46368">🔊</tspan></text>
     <rect
        ry="8.2220984"
@@ -4187,5 +4187,13 @@
          id="path6944"
          inkscape:connector-curvature="0" />
     </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5355"
+       width="44.193771"
+       height="44.193771"
+       x="76.506165"
+       y="363.96863"
+       ry="8.2220984" />
   </g>
 </svg>

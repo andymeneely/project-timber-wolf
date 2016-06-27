@@ -49,16 +49,28 @@ Special:
 DefaultSkill:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 36
   y: 900
-  width: 310
+  width: 215
   height: 154
   color: black
   align: center
+  markup: true
 Default1:
   extends: DefaultSkill
   x: 75
 Default2:
   extends: DefaultSkill
-  x: 435
+  x: 535
+Default3:
+  extends: DefaultSkill
+  x: 305.5
+
+Default3Rect:
+  extends: Default3
+  y: 860
+  height: 190
+  radius: 40
+  stroke_width: 2.5
+  stroke_color: black
 
 FigureLevel:
   font: Sans Bold 36

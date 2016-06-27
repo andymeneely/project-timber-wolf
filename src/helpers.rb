@@ -30,6 +30,11 @@ def skill_lacks(str)
   "Lacks\n" + ('💡➜📷🔍👊🔓'.chars - str.chars).join
 end
 
+# Return the indices of the array that are non-nil
+def non_nil_indices(arr)
+  arr.each.with_index.inject([]) { |ids, (x, i)| ids << i unless x.nil?; ids }
+end
+
 # this isn't working for some stupid reason
 module Squib
   module ArrayExtras
