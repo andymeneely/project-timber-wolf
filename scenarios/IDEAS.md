@@ -32,10 +32,18 @@ The Embassy
 The Forum
 The Cult Compound
 
+The Fall Guys
+=============
+(3 heists)
 
+Flagship storyline about a bunch of criminals who get in over their head
 
-The Venetian Swap
-=================
+The Docks - all amateurs, can free a Prisoner
+The Warehouse - all level up, pull off a huge heist
+
+The Venetian Swap (6-heists)
+============================
+The Meet - everyone breaks out of prison at once. Maybe have different players be locked in a Pressure Sensor and one player has to free them.
 The Gallery - steal some paintings
 The Mansion - find out they are forgeries, so we steal original paintings from the forger
 The Archives - need to fence the paintings properly, so we steal the provenance
@@ -44,4 +52,26 @@ The Gallery - fence goes south, so we get hired break in to swap your originals 
 
 The Smugglers
 =============
-A storyline about the smugglers from The Fall Guys, and the competitors they have which are known as The Forum.
+(2 heists)
+A storyline about the smugglers from The Fall Guys, and the competitors they have which are known as The Forum. They have a Tunneler with them to start with.
+
+The Station - steal a couple of items and get out the other side. Gates close behind them.
+The Compound - steal more stuff and get to the other side, with more pressure sensors. Gates close behind them again.
+
+The Money Tree
+==============
+(2 heist)
+All about running around and stealing lots of things. Money is usually the objective, with a few intricate coordinations along the way.
+
+The Bank Job - amateur characters, lots of money everywhere and you have to decide on greed
+The Vault Job - intricate pressure sensors and you have to really coordinate to get them
+
+The Veteran
+===========
+(6 heists)
+All about learning from a veteran. This one would have the death or betrayal of a character in the middle and you get a new character tree.
+
+The Collector - free a prisoner who trains you up
+The University - get records
+The Yacht - free another prisoner who gets you a new character tree
+The Choice - must sacrifice a character
