@@ -95,3 +95,11 @@ Yes. In this case the effects and sub-actions necessary to pass through those ti
 ## Can MISDIRECT or GREAT IN A PINCH modify a security roll from 4 to 1?
 
 Yes. And vice versa.
+
+## Can EXPLOIT be used on yourself?
+
+No. It must be *another* (different) character.
+
+## Can a Street Urchin get a 👊 from Script Kiddie's Exploit?
+
+No. Any player with "Cannot 👊" may not be given that skill.
