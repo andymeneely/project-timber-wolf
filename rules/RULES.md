@@ -44,13 +44,15 @@ The game comes with 18 unique characters. Each card has:
   * ④	**Default Actions**. Actions that are available regardless of your die roll.
   * ⑤	**Special Ability**. Abilities that your character can uniquely do.
 
+Some Characters have two Default Actions, others have three. Actions are described more in the *Actions and Sub-Actions* section.
+
 For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
 
-Some Special Abilities will *limit* a character's abilities (e.g. *THERE ARE BETTER WAYS*).
+A Special Abilities may also *limit* a character's abilities (e.g. *THERE ARE BETTER WAYS*).
 
-Some abilities have a "Once per heist..." ability. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
+Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
 
-Between Heists, your scenario may give you an opportunity to level up some of your characters. Each character is given two choices to level into, as indicated on the back of their card. Discard your Amateur card and choose one Pro card as your new character.
+Between Heists, your scenario may give you an opportunity to level up some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur card in the box and choose one Pro card as your new character.
 
 ## Skills
 
@@ -60,13 +62,13 @@ Each character has two Skills. Each Skill has six Actions(①) that each corresp
 
 On your turn, you will be rolling a die to determine which Actions are available to you (more details on this in Roll for Skill and Character Actions).
 
-Between Heists, your team will get a chance to level up some of your Skills in addition to Characters. Each Skill, like Characters, can Level Up to one of two Skills. The back of the Level 1 Skill cards provides a brief summary of the Skill tree.
+Between Heists, your team will get a chance to level up some of your Skills in addition to Characters. Each Skill, like Characters, can Level Up to one of two Skills. The back of an Amateur Skill card provides a brief summary of the Skill tree.
 
 ## The Board
 
-The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). A player is considered **adjacent** to something if they are on a tile that shares a border with another tile. Being on the same tile is *not* considered adjacent.
+The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). You are considered **adjacent** to something if your are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
 
-For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
+For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security Chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
 
 Each board has one or more **Entrances**. These Entrances (they are also Exits) represent a space. If a player is on one of these spaces, they are considered to be Outdoors, otherwise they are Indoors. Entrances have a limit on the number of characters that can be on them at the same time at the beginning of a heist. This limit does not apply to the Escape phase, although some scenarios may impose additional limits.
 
@@ -111,13 +113,13 @@ Details on the event iconography is in the *Roll for Security* section.
 
 **Gate** (gate icon here). A player may enter or exit this space freely. Security Events may remove this tile from the board.
 
-**Pressure Sensors** (sensor icons here). You may not enter or exit a tile with a Pressure Sensor chit on it. A corresponding Control Panel exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Security Rings may be removed *__only__* if they are the outermost ring at the time.
+**Pressure Sensors** (sensor icons here). You may not enter or exit a tile with a Pressure Sensor chit on it. A corresponding Control Panel exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Security Rings may be immediately removed *__only__* if they are the outermost ring at the time.
 
-**Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. When triggered, Reveal all Security Tokens adjacent to the Reinforcements chit. Un-Subdue any Guards adjacent to the Reinforcements chit, Re-lock any Locks, and re-activate any disabled Cameras. Place a new Guard token from the supply onto any tile adjacent to the Reinforcements chit that was without a Security Token. Replace the Reinforcements chit with two Guards.
+**Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. When triggered, Reveal all Security Tokens adjacent to the Reinforcements chit. Un-Subdue any Guards adjacent to the Reinforcements chit, re-lock any Locks, and re-activate any disabled Cameras. Place a new Guard token from the supply onto any tile adjacent to the Reinforcements chit that was without a Security Token. Replace the Reinforcements chit with two Guards.
 
 ## Loot Chits
 
-The objective of the heist is (often) to steal Loot chits, which can be Artwork, Jewels, or Cash. When a player is on a space with Loot, immediately place that Loot chit on the Character card. When a player with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Loot tracker accordingly. (TRANSFERS and DROPS)
+The objective of the heist is (often) to steal Loot chits, which can be Artwork, Jewels, or Cash. When a player is on a space with Loot, immediately place that Loot chit on the Character card. You may also "drop" loot on your current space (which means that you may effectively "transfer" loot from one character to another when sharing a space). When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Loot tracker accordingly.
 
 ## Prisoner
 
