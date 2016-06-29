@@ -238,13 +238,17 @@ Whenever an Event calls for a new Guard to be place, take it from the supply (no
 
 When the Escape Phase is initiated, all Gates close and all Security chits are revealed.
 
-Then, each player who has not reached an exit determines if they can reach it. Determine the minimum number of Escape Moves from the player to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard costs two Escape Moves per guard. Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 that a character has may be used for 1 Escape Move.
+Then, each player who has not reached an exit (Entrance tile) determines if they can reach it. Determine the number of Escape Moves from the player to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard costs two Escape Moves per guard. Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 that a character has may be used for 1 Escape Move.
 
-If you are still Indoors after using up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
+After your use up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
 
 *For example Andy needs (draw an example here) 5 Moves to exit: one to enter the space with Guards, two to exit the Guards, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out.*
 
 You may *__not__* use abilities that cost 🔊 or ⚠ during this phase. *For example, SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed*.
+
+You may pick up or drop off loot during the Escape Phase.
+
+You may NOT use Help out during the Escape phase.
 
 ### Busted
 

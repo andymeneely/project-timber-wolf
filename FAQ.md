@@ -66,7 +66,7 @@ Early, often, and diverse. For five months straight, I ran 1-3 game nights per w
 
 Blind playtesting is the next step in my development process.
 
-## We take much longer than 30-40 minutes on a heist. What gives?
+## We took much longer than 30-40 minutes on a heist. What gives?
 
 The first few times you play the game, especially if *everyone* at the table is new, a heist might take closer to an hour. As you play more, you'll find ways of communicating efficiently and effectively and the heists will take less time. That being said, some groups are just a little slower than others. Even when it's slower, our playtesters report that they lose track of time anyway and don't notice the time passing.
 
@@ -75,8 +75,7 @@ Here are some tips for speeding up collaboration:
   * Most boards tend to have a natural pairing off of players. Feel free to just work with the people who are near you on the board. Change your seat at the table if it's easier than talking across the table.
   * Don't be afraid of multiple conversations going on at once.
   * Don't bother talking about strategy during the *Roll for Security* phase - wait until everyone has done *Roll for Skill*.
-  * Not everything needs to be cleared by the whole table. If your move is obvious, just take it.
-  * No need to share with everyone what you just rolled - translate it into how you can help.
+  * Not everything needs to be cleared by the whole table. If your move is obvious, just take it and most people will be fine with that.
 
 ## Do you really expect people to read all of these FAQs?
 
@@ -103,3 +102,15 @@ No. It must be *another* (different) character.
 ## Can a Street Urchin get a 👊 from Script Kiddie's Exploit?
 
 No. Any player with "Cannot 👊" may not be given that skill.
+
+## Can you use the Help Out rule during the Escape Phase?
+
+Sadly, no.
+
+## For the Tunneler's BREACH action, can other characters use the exit?
+
+Yes! It's just a regular exit.
+
+## Can I pick up loot during the Escape phase?
+
+Yes! And you may drop loot if you want to transfer to someone else. Note that you CANNOT roll your die, then determine if you have enough ideas + die roll to loot. You must use your ideas, THEN roll your die for Escape Moves.
