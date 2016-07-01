@@ -27,7 +27,7 @@ def summarize_skill(str)
 end
 
 def skill_lacks(str)
-  "Lacks\n" + ('💡➜📷🔍👊🔓'.chars - str.chars).join
+  "Lacks " + ('💡➜📷🔍👊🔓'.chars - str.chars).join
 end
 
 # Return the indices of the array that are non-nil

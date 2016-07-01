@@ -9,58 +9,59 @@ rolls:
   width: 2.4in
   font: Serif, Segoe UI Symbol, Dingbats, 36
 name:
-  font: Archivo Black, 64
-  x: 0.25in
-  y: 0.25in
-  width: 3.5in
+  font: Archivo Black, 48
+  x: 0
+  y: 75
+  width: 1125
   height: 1in
   align: center
 level:
-  x: 0.25in
-  y: 1.9in
+  x: 859
+  y: 75
   width: 0.4in
   height: 0.5in
-  font: Archivo Black, 32
+  font: Archivo Narrow, 25
   align: center
+  width: 190
 lacks:
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 28
-  x: 0.25in
-  y: 2.15in
-  width: 0.4in
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 25
+  x: 859
+  y: 105
+  width: 190
   height: 0.5in
   align: center
 
 die_roll:
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 31
-  width: 310
-  height: 100
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 36
+  width: 360
+  height: 160
   align: center
   spacing: -10
 die_roll_1:
   extends: die_roll
-  x: 605
+  x: 595
   y: 222
 die_roll_2:
   extends: die_roll
-  x: 730
+  x: 685
   y: 415
-  width: 240
+  width: 340
 die_roll_3:
   extends: die_roll
-  x: 615
-  y: 621
+  x: 595
+  y: 600
 die_roll_4:
   extends: die_roll
-  x: 215
-  y: 621
+  x: 155
+  y: 600
 die_roll_5:
   extends: die_roll
-  x: 150
+  x: 75
   y: 415
-  width: 250
+  width: 340
 die_roll_6:
   extends: die_roll
-  x: 215
+  x: 155
   y: 222
 
 border:

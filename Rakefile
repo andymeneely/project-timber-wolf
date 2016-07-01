@@ -19,6 +19,11 @@ end
 
 task color: [:with_color, :default]
 
+task :with_color do
+  ENV['SQUIB_BUILD'] ||= ''
+  ENV['SQUIB_BUILD'] += ',color'
+end
+
 task :lvl1 do
   ENV['SQUIB_BUILD'] ||= ''
   ENV['SQUIB_BUILD'] += ',lvl1'
