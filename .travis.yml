@@ -6,7 +6,7 @@ rvm:
 
 script:
   - mkdir ~/.fonts
-  - cp fonts/*.ttf ~/.fonts
+  - cp fonts/*.otf ~/.fonts
   - fc-cache -f -v
-  - bundle exec rake
-  - bundle exec rake color
+  - bundle exec rake travis
+  - bundle exec rake color travis
