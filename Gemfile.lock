@@ -4,22 +4,14 @@ GEM
     addressable (2.4.0)
     cairo (1.15.2-x64-mingw32)
       pkg-config (>= 1.1.5)
-    cairo (1.15.2-x86-mingw32)
-      pkg-config (>= 1.1.5)
     coderay (1.1.1)
     dropbox-sdk (1.6.5)
       json
     ffi (1.9.10-x64-mingw32)
-    ffi (1.9.10-x86-mingw32)
     formatador (0.2.5)
     gdk_pixbuf2 (3.0.8-x64-mingw32)
       glib2 (= 3.0.8)
-    gdk_pixbuf2 (3.0.8-x86-mingw32)
-      glib2 (= 3.0.8)
     glib2 (3.0.8-x64-mingw32)
-      cairo (>= 1.12.8)
-      pkg-config
-    glib2 (3.0.8-x86-mingw32)
       cairo (>= 1.12.8)
       pkg-config
     guard (2.14.0)
@@ -49,16 +41,10 @@ GEM
     nokogiri (1.6.8-x64-mingw32)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
-    nokogiri (1.6.8-x86-mingw32)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
     notiffany (0.1.0)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pango (3.0.8-x64-mingw32)
-      cairo (>= 1.14.0)
-      glib2 (= 3.0.8)
-    pango (3.0.8-x86-mingw32)
       cairo (>= 1.14.0)
       glib2 (= 3.0.8)
     pkg-config (1.1.7)
@@ -74,10 +60,6 @@ GEM
       nokogiri (~> 1)
       rubyzip (~> 1.1, < 2.0.0)
     rsvg2 (3.0.8-x64-mingw32)
-      cairo (>= 1.12.8)
-      gdk_pixbuf2 (= 3.0.8)
-      pango (>= 3.0.8)
-    rsvg2 (3.0.8-x86-mingw32)
       cairo (>= 1.12.8)
       gdk_pixbuf2 (= 3.0.8)
       pango (>= 3.0.8)
@@ -98,7 +80,6 @@ GEM
 
 PLATFORMS
   x64-mingw32
-  x86-mingw32
 
 DEPENDENCIES
   dropbox-sdk
