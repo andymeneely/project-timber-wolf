@@ -1,0 +1,12 @@
+language: ruby
+sudo: false # taking advantage of container-based infrastructure
+cache: bundler # cache bundled gems from build to build
+rvm:
+  - 2.2
+
+script:
+  - mkdir ~/.fonts
+  - cp fonts/*.ttf ~/.fonts
+  - fc-cache -f -v
+  - bundle exec rake
+  - bundle exec rake color

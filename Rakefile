@@ -79,3 +79,11 @@ task :data do
   puts "Launching #{url}"
   Launchy.open url
 end
+
+desc 'Post to dropbox'
+task :dropbox do
+  puts "=== Uploading to Dropbox ==="
+  load 'src/upload_dropbox.rb'
+end
+
+task travis: [:default, :dropbox]

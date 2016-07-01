@@ -7,6 +7,8 @@ GEM
     cairo (1.15.2-x86-mingw32)
       pkg-config (>= 1.1.5)
     coderay (1.1.1)
+    dropbox-sdk (1.6.5)
+      json
     ffi (1.9.10-x64-mingw32)
     ffi (1.9.10-x86-mingw32)
     formatador (0.2.5)
@@ -32,6 +34,7 @@ GEM
     guard-rake (1.0.0)
       guard
       rake
+    json (1.8.3)
     launchy (2.4.3)
       addressable (~> 2.3)
     listen (3.1.5)
@@ -98,6 +101,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  dropbox-sdk
   guard
   guard-rake
   launchy
