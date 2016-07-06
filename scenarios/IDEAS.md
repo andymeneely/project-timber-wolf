@@ -43,12 +43,18 @@ The Warehouse - all level up, pull off a huge heist
 
 The Venetian Swap (6-heists)
 ============================
-The Meet - everyone breaks out of prison at once. Maybe have different players be locked in a Pressure Sensor and one player has to free them.
-The Gallery - steal some paintings
-The Mansion - find out they are forgeries, so we steal original paintings from the forger
-The Archives - need to fence the paintings properly, so we steal the provenance
-The Embassy - the provenance involves someone from who knows something. Steal evidence and break someone out of the Embassy.
-The Gallery - fence goes south, so we get hired break in to swap your originals with the gallery's. But security is much stiffer now. Nobody can be busted and you have to clear a high payroll to succeed.
+The Fence - everyone breaks out of prison at once. Maybe have different players be locked in a Pressure Sensor and one player has to free them.
+
+The Gallery - steal some paintings, classic need vs. greed.
+
+The Provenance -  to fence the paintings properly, so we steal the provenance
+  Ok, I've got a buyer lined up. Here's the rub, though. He's a little squeamish about this particular collection. Says he needs documented proof that these are authentic. Now, unless one of you is forger, we're gonna need to acquire the original provenance record. The records are deep within the Gallery archives. Security is a little heavier - watch out for those pressure sensors. As for our money - don't worry - I'll front us the team loot we've earned so far for this next job.
+
+The Collector - find out they are forgeries, so we steal original paintings from the forger
+
+The Incident - the provenance involves someone from who knows something. Steal evidence and break someone out of the Embassy.
+
+The Venetian Swap - fence goes south, so we get hired break in to swap your originals with the gallery's. But security is much stiffer now. Nobody can be busted and you have to clear a high payroll to succeed.
 
 The Smugglers
 =============
