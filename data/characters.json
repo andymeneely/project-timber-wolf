@@ -41,7 +41,7 @@
     "Default3": "Breach\n(above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "PICKER\nGain 💡 when you 🔓\n \nBREACH\nUse this action and💡💡💡💡 to create a new Exit on an open, external side of the current tile. Initiate Escape phase immediately.",
+    "Special": "PICKER\nGain 💡 when you 🔓\n \nBREACH\nMay spend your action and💡💡💡💡 to create a new Exit on an open, external side of the current tile. Initiate Escape phase immediately.",
     "Snark": ""
   },
   "3": {
@@ -71,7 +71,7 @@
     "Default3": null,
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "ADRENALINE\nGain 💡 when you 👊\n \nBRING IT ON\nBash gets an 🔓 after Reinforcements event triggered.",
+    "Special": "ADRENALINE\nGain 💡 when you 👊\n \nBRING IT ON\nBash gets an additional 🔓 after Reinforcements event triggered.",
     "Snark": ""
   },
   "5": {
@@ -101,7 +101,7 @@
     "Default3": null,
     "LevelUp1": "Con Artist",
     "LevelUp2": "Mastermind",
-    "Special": "THERE ARE BETTER WAYS\nCannot 👊. May exit a space with guard(s) for 💡. In Escape, requires only 1 Escape Move to exit a space with guards.",
+    "Special": "THERE ARE BETTER WAYS\nCannot 👊. For 💡, may exit space(s) with guard(s) for the rest of your turn. In Escape, you require only 1 Escape Move to exit a space with guards.",
     "Snark": ""
   },
   "7": {
@@ -116,7 +116,7 @@
     "Default3": null,
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "THERE ARE BETTER WAYS\nCannot 👊. May exit a space with guard(s) for 💡. In Escape, requires only 1 Escape Move to exit a space with guards.",
+    "Special": "THERE ARE BETTER WAYS\nCannot 👊. For 💡, may exit space(s) with guard(s) for the rest of your turn. In Escape, you require only 1 Escape Move to exit a space with guards.",
     "Snark": null
   },
   "8": {
@@ -131,7 +131,7 @@
     "Default3": null,
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "THERE ARE BETTER WAYS\nCannot 👊. May exit a space with guard(s) for 💡. In Escape, requires only 1 Escape Move to exit a space with guards.\n \nINSPIRE\nUse this action and a 🔊 to give a free💡💡  to a player of your choosing.",
+    "Special": "THERE ARE BETTER WAYS\nCannot 👊. For 💡, may exit space(s) with guard(s) for the rest of your turn. In Escape, you require only 1 Escape Move to exit a space with guards.\n \nINSPIRE\nUse this action and a 🔊 to give a free💡💡  to a player of your choosing.",
     "Snark": ""
   },
   "9": {
@@ -221,7 +221,7 @@
     "Default3": "Hesitate\n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "BOLT\nUse this action to spend 💡for 🔊➜➜, or 💡💡 for 🔊➜➜➜",
+    "Special": "BOLT\nUse this action to spend 💡for 🔊➜➜, \nor 💡💡 for 🔊➜➜➜",
     "Snark": ""
   },
   "15": {
