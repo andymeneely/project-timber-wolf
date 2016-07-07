@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="352.97346"
-     inkscape:cy="338.04028"
+     inkscape:cx="353.27469"
+     inkscape:cy="338.20638"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,7 +36,9 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -56,27 +58,31 @@
      transform="translate(0,-227.36216)">
     <path
        style="fill:#000000"
-       d="m 285.06421,841.24757 c -131.26193,0 -141.79903,-85.78001 -141.79903,-170.21399 l -23.1073,0 -23.107315,0 46.214645,-28.02326 46.21465,-28.02325 45.9685,27.8622 45.9685,27.8622 -22.85206,0.17362 -22.85205,0.17361 0.0166,27.44546 c 0,37.00576 11.41519,49.85265 50.57397,49.85265 z"
+       d="m 180.26098,451.56311 c 0,-93.75261 35.67765,-101.27863 82.90886,-101.27863 l 0,-16.50418 0,-16.50418 15.67583,33.00838 15.67582,33.00838 -15.58573,32.83257 -15.58573,32.83258 -0.0971,-16.32187 -0.0971,-16.32187 -15.35261,0.0119 c -20.70052,0 -15.58039,8.15319 -15.58039,36.12199 z"
        id="path4165"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
+    <rect
+       style="fill:none;fill-opacity:0.99215686;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8.00000036, 4.00000018;stroke-dashoffset:0.60000002;stroke-opacity:1"
+       id="rect4145"
+       width="761.42859"
+       height="319.00415"
+       x="302.85715"
+       y="308.07645"
+       ry="18.565634" />
+    <rect
+       ry="18.565634"
+       y="657.6438"
+       x="302.85715"
+       height="319.00415"
+       width="761.42859"
+       id="rect4155"
+       style="fill:none;fill-opacity:0.99215686;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8.00000036, 4.00000018;stroke-dashoffset:0.60000002;stroke-opacity:1" />
     <path
        sodipodi:nodetypes="ccccccccccccc"
        inkscape:connector-curvature="0"
-       id="path4167"
-       d="m 832.57538,841.24757 c 131.26191,0 141.79901,-85.78001 141.79901,-170.21399 l 23.1073,0 23.10731,0 -46.21464,-28.02326 -46.21465,-28.02325 -45.9685,27.8622 -45.96853,27.8622 22.85209,0.17362 22.85205,0.17361 -0.0166,27.44546 c 0,37.00576 -11.41519,49.85265 -50.57394,49.85265 z"
+       id="path4157"
+       d="m 180.26098,826.73264 c 0,93.75261 35.67765,101.27863 82.90886,101.27863 l 0,16.50418 0,16.50418 15.67583,-33.00838 15.67582,-33.00838 -15.58573,-32.83257 -15.58573,-32.83258 -0.0971,16.32187 -0.0971,16.32187 -15.35261,-0.0119 c -20.70052,0 -15.58039,-8.15319 -15.58039,-36.12199 z"
        style="fill:#000000" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="328.57144"
-       y="662.36218"
-       id="text4169"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4171"
-         x="328.57144"
-         y="662.36218"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'">Choose which skill to upgrade to</tspan></text>
   </g>
 </svg>

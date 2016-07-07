@@ -16,15 +16,39 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   svg file: 'skill_back.svg'
 
   text str: data['Name'], layout: :name
-  text str: data['Rolls'].map { |s| summarize_skill(s) }, layout: :name_summary
+  rolls1 = data['Rolls'].zip(data['Upgrade1Rolls']).map do |(amateur,pro)|
+    arr = amateur.split('/').zip(pro.split('/')).map do | (am_act, pro_act) |
+      if am_act == pro_act
+        ''
+      else
+        str1 = am_act.to_s.gsub("\n",'')
+        str2 = pro_act.to_s.gsub("\n",'')
+        "<s>#{str1}</s> ⇒ #{str2}\n"
+       end
+    end
+    arr.join
+  end
+
+  rolls2 = data['Rolls'].zip(data['Upgrade2Rolls']).map do |(amateur,pro)|
+    arr = amateur.split('/').zip(pro.split('/')).map do | (am_act, pro_act) |
+      if am_act == pro_act
+        ''
+      else
+        str1 = am_act.to_s.gsub("\n",'')
+        str2 = pro_act.to_s.gsub("\n",'')
+        "<s>#{str1}</s> ⇒ #{str2}\n"
+       end
+    end
+    arr.join
+  end
 
   text str: data['Upgrade1'], layout: :upgrade1
   text str: data['Upgrade1'].map { |s| summarize_skill(s) }, layout: :up1_sum
-  text str: data['Upgrade1Rolls'].map { |s| summarize_skill(s) }, layout: :up1_sum
+  text str: rolls1, layout: :up1_sum, markup: true
 
   text str: data['Upgrade2'], layout: :upgrade2
   text str: data['Upgrade2'].map { |s| summarize_skill(s) }, layout: :up1_sum
-  text str: data['Upgrade2Rolls'].map { |s| summarize_skill(s) }, layout: :up2_sum
+  text str: rolls2, layout: :up2_sum, markup: true  
 
   save_png prefix: 'skill_back_'
 
