@@ -12,21 +12,21 @@ During each heist, you will collaborate with teammates with simultaneous gamepla
 * 32 double-sided hex tiles.
   * 28 Blank/Security tiles
   * 4 Gate tiles
-* 18 character cards (6 Amateurs, 12 Pros)
-* 36 Skill cards (6 Amateurs, 12 Pros, 2 copies of each)
+* 12 character cards: 6 Amateurs, 6 double-sided Pros
+* 24 Skill cards: 6 Amateurs, 12 Pros, 2 copies of each)
 * 6 Lock chits
 * 6 Camera chits
 * 21 Guard chits
 * 5 Artwork chits (square)
 * 5 Entrance chits (square)
 * 4 Jewel chits (circular)
-* 6 Security System chits
+* 3 Control Panel chits (square)
 * 8 Pressure Sensors (ring-shaped chits)
-* 48 planning chits (12x4 player colors)
-* 36 Idea chits (small circle)
+* 48 Planning chits (12x4 player colors)
+* 36 Idea💡 chits (small circle)
 * 4 Player pawns (red, green, blue, black)
 * 4 Player six-sided dice (red, green, blue, black)
-* 1 four-sided die (white)
+* 1 Security Die (white, four-sided die)
 * 1 Prisoner pawn (white)
 * 12 Petty Cash chits ($1k and $3k)
 * 1 Alert Bar marker (white wooden stick)
@@ -34,12 +34,10 @@ During each heist, you will collaborate with teammates with simultaneous gamepla
 
 ## Characters
 
-<img src="character_example.png" width="300" align="right">
+<img src="./character_example.png" width="200" align="right">The game comes with 18 unique characters. Each card has:
 
-The game comes with 18 unique characters. Each card has:
-
-  * ① **Level.** There are 6 Amateur characters and 12 Pro characters.
-  * ②	**Planning Memory.** This is the number of pre-planned hex tiles your character may move through during a heist.
+  * ① **Level.** There are Amateur characters and Pro characters.
+  * ②	**Planning Memory.** The number of pre-planned hex tiles your character may move through during a heist.
   * ③	**Initial Ideas**. The number of Ideas💡 you start with at the beginning of each heist.
   * ④	**Default Actions**. Actions that are available regardless of your die roll.
   * ⑤	**Special Ability**. Abilities that your character can uniquely do.
@@ -52,15 +50,15 @@ A Special Abilities may also *limit* a character's abilities (e.g. *THERE ARE BE
 
 Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
 
-Between Heists, your scenario may give you an opportunity to **promote** (i.e. "level up") some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character.
+Between Heists, your scenario may give you an opportunity to **promote** (i.e. "level up") some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Pro characters cannot be promoted.
 
 ## Skills
 
-<img src="skill_example.png" width="300" align="right">
+<img src="skill_example.png" width="250" align="right">
 
 Each character gets two Skills. Each Skill has six Actions(①) that each correspond to a die roll(②). During a heist, you will be rolling your die to determine which Actions are available to you (more details on this in Roll for Skill and Character Actions).
 
-Between Heists, your team will get a chance to **refine** (i.e. level up) some of your Skills. Each Skill, like Characters, can be refined to one of two Skills, as summarized on the back of the Amateur skill cards. When refining, choose which Pro skill to refine and place the Amateur one back in the box.
+Between Heists, your team will get a chance to **refine** (i.e. "level up") some of your Skills. Each Skill, like Characters, can be refined to one of two Skills, as summarized on the back of the Amateur skill cards. When refining, choose which Pro skill to refine and place the Amateur one back in the box. Pro skills cannot be refined.
 
 ## The Board
 
@@ -76,26 +74,26 @@ By default, unless the scenario specifies otherwise, Entrances are limited to 2 
 Security Chits are randomized obstacles that your team will encounter. They are:
 
 | Name | Active | Inactive | Behavior |
-|---|---|---|---|
-| Guard | <img src="../img/guard.svg"> Guard | <img src="../img/subdued.svg">Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may walk into a space with a Guard. |
-| Camera | <img src="../img/camera.svg"> Live | <img src="../img/disconnected.svg"> Disconnected | _Increases Alerts._ You may enter a space with a Live Camera, but increase the Alert (⚠) by 1. If a Disconnected camera is powered back on while a player is on it, increase the Alert (⚠) by 1.  |
-| Lock | <img src="../img/locked.svg"> Locked | <img src="../img/unlocked.svg"> Unlocked | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile if it was re-locked while you were on it.  |
+|:----:|:------:|:--------:|---|
+| Guard | <img src="../img/guard.svg" width="50"> Guard | <img src="../img/subdued.svg" width="50"> Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may walk into a space with a Guard. |
+| Camera | <img src="../img/camera.svg" width="50"> Live | <img src="../img/disconnected.svg" width="50"> Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but increase the Alert (⚠) by 1. If a Disabled camera is powered back on while a player is on it, increase the Alert (⚠) by 1.  |
+| Lock | <img src="../img/locked.svg" width="50"> Locked | <img src="../img/unlocked.svg" width="50"> Unlocked | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile if it was re-locked while you were on it.  |
 
 Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a player is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
 
 ## Actions and Sub-Actions
 
-Skills and Characters allow players to take Actions. Every Action is just a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
+Skills and Characters allow you to take Actions. Every Action is just a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
 
 | Icon | Description |
-|---|---|
-| ➜ | **Move** to an adjacent, planned, not locked tile |
+|:--:|---|
+| ➜ | **Move** to an adjacent, planned, not locked, non-pressure sensored tile |
 | 🔓 | **Unlock** 1 locked, adjacent tile |
 | 👊 | **Subdue** 1 guard on or adjacent to your tile |
 | 📷 | **Disable** 1 camera on or adjacent to your tile |
 | 💡 | Add 1 **Idea** to your character |
 | 🔍 | **Reveal** 1 security token anywhere on the board |
-| 💰 | **Loot:** Gain $1k and place it on your character. |
+| 💰 | **Loot:** Gain $1k from the supply and place it on your character. |
 | 🔊 | Increase the **Noise** level by 1 (Required) |
 | ⚠ | Increase Alert bar by 1 (Required) |
 
@@ -222,9 +220,9 @@ When all players have finished their Actions, one player rolls the four-sided se
 
 **Let Me Go!** (on a subdued guard). For each player on a Subdued Guard, increase Alert(⚠) bar by 1.
 
-**Electrocute** (on a disconnected camera). For each player on a Disconnected Camera, increase Alert(⚠) bar by 1.
+**Electrocute** (on a Disabled camera). For each player on a Disabled Camera, increase Alert(⚠) bar by 1.
 
-**Power On** (power on icon). Make every Disconnected Camera Live, and increase ⚠ every time you do this
+**Power On** (power on icon). Make every Disabled Camera Live, and increase ⚠ every time you do this
 
 **Gate Close**. (close gate). Close the next Gate (starting with "A"). Remove the tile from the board. If a player is on the gate, or if it is impossible for a player to reach an exit, they are Busted. Increase ⚠ twice (if applicable).
 
@@ -232,7 +230,7 @@ When all players have finished their Actions, one player rolls the four-sided se
 
 **Hey You!** (adjacent to a guard) For each player adjacent to a Guard, add a Guard to the player's current tile.
 
-**Call It In**. Replace every Disconnected Camera with a Guard.
+**Call It In**. Replace every Disabled Camera with a Guard.
 
 **Alarm** (Alarm) Initiate Escape Phase.
 

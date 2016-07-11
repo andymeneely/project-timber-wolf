@@ -1,5 +1,6 @@
 require 'squib'
 require 'launchy'
+require 'erb'
 
 task default: [
   :full,
@@ -87,3 +88,13 @@ task :dropbox do
 end
 
 task travis: [:default, :dropbox]
+
+desc 'Build the rules sheet'
+task :rules do
+  erb = ERB.new(File.read('rules/RULES_TEMPLATE.html.erb'))
+  File.open('rules/RULES.html', 'w+') do |html|
+    html.write(erb.result)
+  end
+  @launch ||= []
+  @launch << "file:///#{Dir.pwd}/rules/RULES.html"
+end
