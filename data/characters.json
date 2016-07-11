@@ -11,7 +11,7 @@
     "Default3": null,
     "LevelUp1": "Safecracker",
     "LevelUp2": "Tunneler",
-    "Special": "PICKER\nGain 💡 when you 🔓",
+    "Special": "EFFICIENT PICKER\nIf your action has a 🔓, you may spend 💡 for an additional ➜🔊",
     "Snark": ""
   },
   "1": {
@@ -26,7 +26,7 @@
     "Default3": null,
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "PICKER\nGain 💡 when you 🔓\n \nI'LL WALK YOU THROUGH IT\nMay use  💡💡 to enable one player to 🔓",
+    "Special": "EFFICIENT PICKER\nIf your action has a 🔓, you may spend 💡 for an additional ➜🔊",
     "Snark": ""
   },
   "2": {
@@ -41,7 +41,7 @@
     "Default3": "Breach\n(above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "PICKER\nGain 💡 when you 🔓\n \nBREACH\nMay spend your action and💡💡💡💡 to create a new Exit on an open, external side of the current tile. Initiate Escape phase immediately.",
+    "Special": "EFFICIENT PICKER\nIf your action has a 🔓, you may spend 💡 for an additional ➜🔊\n \nBREACH\nMay spend your action and💡💡💡💡 to create a new Exit on an open, external side of the current tile. Initiate Escape phase immediately.",
     "Snark": ""
   },
   "3": {
