@@ -101,16 +101,28 @@ No. It must be *another* (different) character.
 
 ## Can a Street Urchin get a 👊 from Script Kiddie's Exploit?
 
-No. Any player with "Cannot 👊" may not be given that skill.
+No. Any player with "Cannot 👊" may not be given that sub-action.
 
 ## Can you use the Help Out rule during the Escape Phase?
 
-Sadly, no.
+No.
 
 ## For the Tunneler's BREACH action, can other characters use the exit?
 
 Yes! It's just a regular exit.
 
+## For the Tunneler's BREACH action, what if we run out of entrance/exit chits?
+
+You may still use the action, just improvise an exit tile (e.g. move one that is irrelevant to your situation).
+
 ## Can I pick up loot during the Escape phase?
 
-Yes! And you may drop loot if you want to transfer to someone else. Note that you CANNOT roll your die, then determine if you have enough ideas + die roll to loot. You must use your ideas, THEN roll your die for Escape Moves.
+Yes! And you may drop loot if you want to transfer to someone else. Note that you CANNOT first roll your die, AND THEN determine if you have enough ideas + die roll to loot. You must use your ideas, THEN roll your die for Escape Moves.
+
+## Does my path out of the Escape phase need to be the shortest path?
+
+Nope. Sometimes going out of your way to get some loot is an option.
+
+## Is there any possible way to unlock a lock in the Escape phase?
+
+No.
