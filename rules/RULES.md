@@ -214,7 +214,7 @@ You may opt to Initiate Escape Phase at any time (see below).
 
 When all players have finished their Actions, one player rolls the four-sided security die. (The number on the bottom is the number that is rolled.) The event the occurs is the one counted along the track starting with the first event after the alert bar. Below is the translation of the event iconography:
 
-**Watch Where You're Going!** (neighboring). If a tile has exactly 2/3/4 characters on it, increase the alert bar by 2/3/4.
+**Watch Where You're Going!** (neighboring). For each hex tile or entrance tile with at least 2 characters on it, increase the alert bar by 2.
 
 **Caught in a Reflection** (adjacent to camera). For each player adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a player is adjacent to multiple cameras, increase for each camera.
 
@@ -226,9 +226,9 @@ When all players have finished their Actions, one player rolls the four-sided se
 
 **Power On** (power on icon). Make every Disconnected Camera Live, and increase ⚠ every time you do this
 
-**Gate Close**. (close gate). Close the next Gate (starting with "A"). Remove the tile from the board. If a player is on the gate, or if it is impossible for a player to reach an exit, they are Busted. Increase ⚠ twice.
+**Gate Close**. (close gate). Close the next Gate (starting with "A"). Remove the tile from the board. If a player is on the gate, or if it is impossible for a player to reach an exit, they are Busted. Increase ⚠ twice (if applicable).
 
-**Oops**. For each player on a tile with a Subdued Guard, Un-Subdue that guard. Do the same for sharing a space with Unlocked Locks and Disconnected Cameras. Increase ⚠ every time you do this.
+**I Thought I Had Him**. For each player on a tile with a Subdued Guard, Un-Subdue that guard.  Increase ⚠ twice (if applicable).
 
 **Hey You!** (adjacent to a guard) For each player adjacent to a Guard, add a Guard to the player's current tile.
 
