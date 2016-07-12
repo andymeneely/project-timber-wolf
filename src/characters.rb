@@ -10,8 +10,27 @@ Squib::Deck.new(cards: total) do
   background color: :white
   rect layout: :cut
   svg file: 'character.svg'
+  build :color do
+    grits = data['Level'].map do |level|
+      level == '1' ? "gritty amateur.png" : "gritty pro.png"
+    end
+    png file: grits
+    svg file: 'character-color.svg'#, range: 0
+    thirdskills = data['Default3'].map do |default|
+      default.nil? ? nil : 'thirdskill.svg'
+    end
+    svg file: thirdskills
+  end
 
-  text str: data['Name'], layout: :title
+  titlesizes = data['Name'].map do |name|
+    case name.length
+    when 0..7 then 60
+    when 8..10 then 50
+    when 10..50 then 45
+    end
+  end
+  text str: data['Name'], layout: :title, font_size: titlesizes
+
   levels = data['Level'].map { |l| l == '1' ? "Amateur" : "Pro" }
   text layout: :Level, str: levels
   text layout: :Memory, str: data['Memory']
@@ -20,13 +39,12 @@ Squib::Deck.new(cards: total) do
   text layout: :Default1, str: data['Default1']
   text layout: :Default2, str: data['Default2']
   text layout: :Default3, str: data['Default3']
-  rect range: non_nil_indices(data['Default3']), layout: :Default3Rect
+  # rect range: non_nil_indices(data['Default3']), layout: :Default3Rect
 
   text layout: :Special, str: data['Special']
 
   save_png prefix: 'character_'
-  save_sheet prefix: 'character_sheet_', trim: '0.125in'
-  save_pdf file: 'characters.pdf', trim: '0.125in'
+  save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
 
   build :rulebook_figures do
     rect layout: :border

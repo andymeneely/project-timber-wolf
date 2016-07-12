@@ -4,42 +4,40 @@ cut:
   width: 2.5in
   height: 3.5in
 title:
-  font: Archivo Black, 53
+  font: Archivo Black, 40
   spacing: -30
-  width: 580
+  width: 450
   height: 200
-  x: 170
-  y: 55
+  x: 295
+  y: 15
   align: center
   valign: middle
 Level:
-  font: Archivo Narrow, 28
+  font: Archivo Narrow, 32
   x: 75
-  y: 95
+  y: 85
   width: 150
   height: 75
-  align: left
-Memory:
-  extends: Level
-  font: Archivo Black, 30
-  x: 85
-  width: 70
   align: center
-  y: += 55
-  color: white
+Memory:
+  font: Archivo Narrow, 58
+  x: 90
+  y: 180
+  width: 115
+  align: center
 Ideas:
-  extends: Memory
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 38
   width: 100
-  align: left
+  align: center
   color: black
-  y: += 85
+  x: 105
+  y: 312
 
 Special:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 28
   color: black
   spacing: -4
-  x: 300
+  x: 275
   y: 235
   width: 470
   height: 590
@@ -48,7 +46,7 @@ Special:
 
 DefaultSkill:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 36
-  y: 900
+  y: 920
   width: 215
   height: 154
   color: black
