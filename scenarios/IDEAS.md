@@ -32,6 +32,10 @@ The Embassy
 The Forum
 The Cult Compound
 
+SOMEWHERE we need to have the ability to create entrances at 2-3 pre-defined spaces. Like you tunnel in or something.
+
+SOMEWHERE we should have a stack of ideas in the middle of the board. Help with escaping or something.
+
 The Fall Guys
 =============
 (3 heists)
@@ -77,7 +81,7 @@ The Vault Job - intricate pressure sensors and you have to really coordinate to 
 The Veteran
 ===========
 (6 heists, hard difficulty)
-All about learning from a veteran (aka The Collector) who pulls heists by himself. This one would have the death or betrayal of a character in the middle and you get a new character tree.
+All about learning from a veteran (aka The Collector) who pulls heists by himself. This one would have the death or betrayal of a character in the middle and you get a new character tree
 
 The Collector - free a prisoner who offers to train you up
 The University - get records
