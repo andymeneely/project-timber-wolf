@@ -126,3 +126,7 @@ Nope. Sometimes going out of your way to get some loot is an option.
 ## Is there any possible way to unlock a lock in the Escape phase?
 
 No.
+
+## For the Angry Locksmith EFFICIENT PICKER ability, can you use it if you don't actually USE the Unlock sub-action but take the action nonetheless?
+
+Yes. The wording says you may spend an idea if the action you take *has* an Unlock.
