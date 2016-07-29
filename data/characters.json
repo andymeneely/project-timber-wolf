@@ -142,11 +142,11 @@
     "Memory": "6",
     "Ideas": "5",
     "Default1": "Stride\n🔊➜🔍",
-    "Default2": "Exploit\n(above)",
+    "Default2": "Autopwn\n(above)",
     "Default3": null,
     "LevelUp1": "Hacktivist",
     "LevelUp2": "Black Hat",
-    "Special": "I CAN HAZ TEH CODES?\nOnce per heist may spend 💡💡 to re-position up to 3 planning tokens of any color(s)\n \nEXPLOIT\nUse this Action and a 💡 to enable another character to 👊🔊, 📷🔊, or 🔓🔊",
+    "Special": "I CAN HAZ TEH CODES?\nOnce per heist may spend 💡💡 to re-position up to 3 planning tokens of any color(s)\n \nAUTOPWN\nUse this Action and a 💡 to enable another character to 👊🔊, 📷🔊, or 🔓🔊",
     "Snark": null
   },
   "10": {
@@ -157,11 +157,11 @@
     "Memory": "10",
     "Ideas": "6",
     "Default1": "Run\n🔊🔊➜➜",
-    "Default2": "Exploit\n(above)",
+    "Default2": "Autopwn\n(above)",
     "Default3": null,
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "I CAN HAZ TEH CODES?\nOnce per heist may spend 💡💡 to re-position up to 3 planning tokens of any color(s)\n \nEXPLOIT\nUse this Action and a 💡 to enable another character to 👊🔊, 📷🔊, or 🔓🔊",
+    "Special": "I CAN HAZ TEH CODES?\nOnce per heist may spend 💡💡 to re-position up to 3 planning tokens of any color(s)\n \nAUTOPWN\nUse this Action and a 💡 to enable another character to 👊🔊, 📷🔊, or 🔓🔊",
     "Snark": ""
   },
   "11": {
@@ -172,11 +172,11 @@
     "Memory": "8",
     "Ideas": "6",
     "Default1": "Stride\n🔊➜🔍",
-    "Default2": "Exploit II\n(above)",
+    "Default2": "Exploit\n(above)",
     "Default3": null,
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "HAS THE CODE\nOnce per heist may spend 💡💡 to re-position up to 4 planning tokens of any color(s)\n \nEXPLOIT II\nUse this Action to enable another character to 👊🔊, 📷🔊, or 🔓🔊",
+    "Special": "HAS THE CODE\nOnce per heist may spend 💡💡 to re-position up to 4 planning tokens of any color(s)\n \nEXPLOIT\nUse this Action to enable another character to 👊🔊, 📷🔊, or 🔓🔊",
     "Snark": ""
   },
   "12": {

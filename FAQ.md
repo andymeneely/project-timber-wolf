@@ -95,17 +95,25 @@ Yes. In this case the effects and sub-actions necessary to pass through those ti
 
 Yes. And vice versa.
 
-## Can EXPLOIT be used on yourself?
+## Can AUTOPWN or EXPLOIT be used on yourself?
 
 No. It must be *another* (different) character.
 
-## Can a Street Urchin get a 👊 from Script Kiddie's Exploit?
+## How am I supposed to pronounce AUTOPWN?
+
+There is no widely accepted pronunciation, so you can't go wrong. We don't recommend pronouncing it "auto-pawn" because that could be confused with a game pawn. The origin is from "owning" someone's computer, and typing it so fast that you hit the "p" key instead of the "o" key. I (Andy) pronounces with the "p" and it rhymes with "own".
+
+## Can a Street Urchin get a 👊 from a Script Kiddie's AUTOPWN?
 
 No. Any player with "Cannot 👊" may not be given that sub-action.
 
+## Does a character with ADRENALINE get an idea with a AUTOPWN or EXPLOIT?
+
+Yes! Because the sub-action was "given" to that character.
+
 ## Can you use the Help Out rule during the Escape Phase?
 
-No.
+No. Sorry.
 
 ## For the Tunneler's BREACH action, can other characters use the exit?
 
@@ -129,4 +137,4 @@ No.
 
 ## For the Angry Locksmith EFFICIENT PICKER ability, can you use it if you don't actually USE the Unlock sub-action but take the action nonetheless?
 
-Yes. The wording says you may spend an idea if the action you take *has* an Unlock.
+Yes. The wording says you may spend an idea if the action you take *has* an Unlock - not necessarily that you take it.
