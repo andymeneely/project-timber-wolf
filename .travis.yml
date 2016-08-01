@@ -9,5 +9,7 @@ script:
   - cp fonts/*.otf ~/.fonts
   - cp fonts/*.ttf ~/.fonts
   - fc-cache -f -v
+  - rm -f Gemfile.lock # http://stackoverflow.com/questions/34604839/corrupt-gemfile-lock-error-with-capistrano
+  - bundle install
   - bundle exec rake travis
   - bundle exec rake color travis
