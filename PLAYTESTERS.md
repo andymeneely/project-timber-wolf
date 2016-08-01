@@ -11,4 +11,5 @@
   * Brad "Pack o Nabs" Burr
   * Ethan Hackett
   * Ryan Krebs
-  * Kurt Mosiejczuk
+  * Kurt "Two Cents" Mosiejczuk
+  * Bennie McDonald
