@@ -16,7 +16,10 @@
 * Make color chits
   * Pressure sensors
   * Control panels
-  * Artwork
+  * Real Artwork
+  * Fake Artwork
+  * Documents
+  * Story interruption asterisk
   * Reinforcements
   * $1k
   * $3k
