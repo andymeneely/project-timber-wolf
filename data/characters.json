@@ -191,7 +191,7 @@
     "Default3": "Hesitate\n💡",
     "LevelUp1": "Sewer Rat",
     "LevelUp2": "Grease Man",
-    "Special": "DART\nUse this action to spend 💡for 🔊➜➜",
+    "Special": "DART\nUse this action to spend\n💡for 🔊➜➜",
     "Snark": ""
   },
   "13": {
@@ -206,7 +206,7 @@
     "Default3": "Hesitate\n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "DART\nUse this action to spend 💡for 🔊➜➜\n \nSEWER CRAWL\nFor 🔊🔊⚠, may treat a tile directly across 1 non-tiled gap as adjacent.",
+    "Special": "DART\nUse this action to spend\n💡for 🔊➜➜\n \nSEWER CRAWL\nFor 🔊🔊⚠, may treat a tile directly across 1 non-tiled gap as adjacent.",
     "Snark": ""
   },
   "14": {
@@ -221,7 +221,7 @@
     "Default3": "Hesitate\n💡",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "BOLT\nUse this action to spend 💡for 🔊➜➜, \nor 💡💡 for 🔊➜➜➜",
+    "Special": "BOLT\nUse this action to spend\n💡for 🔊➜➜, \nor 💡💡 for 🔊➜➜➜",
     "Snark": ""
   },
   "15": {

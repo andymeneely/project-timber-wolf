@@ -20,12 +20,21 @@ Squib::Deck.new(cards: total) do
       default.nil? ? nil : 'thirdskill.svg'
     end
     svg file: thirdskills
+    svg file: data['Name'].map { |n| "shadows/#{n.downcase}.svg" }
+    special_bubbles = data['Special'].map do |special|
+      case special.length
+      when 0..100 then 'special-sm.svg'
+      when 100..200 then 'special-md.svg'
+      when 201..1000 then 'special-lg.svg'
+      end
+    end
+    svg file: special_bubbles
   end
 
   titlesizes = data['Name'].map do |name|
     case name.length
-    when 0..7 then 60
-    when 8..10 then 50
+    when 0..7 then 64
+    when 8..9 then 50
     when 10..50 then 45
     end
   end
@@ -43,8 +52,8 @@ Squib::Deck.new(cards: total) do
 
   text layout: :Special, str: data['Special']
 
-  save_png prefix: 'character_'
-  save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
+  save_png prefix: 'character_'#, range: 0
+  # save_pdf file: 'characters.pdf', trim: '0.125in'
   build :color do
     showcase range: [9,8], file: 'character_showcase.png'
     showcase range: [0,1,2], file: 'levelup_showcase.png'
