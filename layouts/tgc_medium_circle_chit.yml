@@ -1,0 +1,14 @@
+# These are intended to be used as circles
+cut:
+  x: 150
+  y: 150
+  radius: 112.5
+  color: red
+  stroke_color: red
+safe:
+  x: 150
+  y: 150
+  radius: 75
+  color: blue
+  stroke_color: blue
+  dash: 1 1

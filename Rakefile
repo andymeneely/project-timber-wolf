@@ -35,8 +35,8 @@ task :rulebook_figures do
   ENV['SQUIB_BUILD'] += ',rulebook_figures'
 end
 
-task :security do
-  load 'src/security.rb'
+task :chits do
+  load 'src/chits.rb'
 end
 
 task :characters do
