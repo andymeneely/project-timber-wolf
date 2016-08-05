@@ -56,6 +56,7 @@ Squib::Deck.new(cards: total) do
   save_pdf file: 'characters.pdf', trim: '0.125in'
   build :color do
     showcase range: [9,8], file: 'character_showcase.png'
+    showcase range: [11], file: 'kelly_showcase.png'
     showcase range: [0,1,2], file: 'levelup_showcase.png'
   end
 
