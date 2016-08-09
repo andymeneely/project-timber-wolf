@@ -43,6 +43,7 @@ end
 ################################################
 ## Based on TGC's Large Circle & Square Chits ##
 ################################################
+puts 'Building large chits...'
 data = Squib.xlsx file: 'data/security_tokens.xlsx', explode: '', sheet: 1
 Squib::Deck.new(width: 375, height: 375, cards: data['Name'].size) do
   background color: data['BGColor']
@@ -56,15 +57,20 @@ Squib::Deck.new(width: 375, height: 375, cards: data['Name'].size) do
   #png file: 'large-square-chit.png', alpha: 0.5
   save_png prefix: 'lg', count_format: data['File']
 end
-#
-# data = Squib.csv file: 'data/square-chits.csv'
-# Squib::Deck.new(width: 375, height: 375, cards: data['Name'].size) do
-#   use_layout file: 'layouts/square-chits.yml'
-#   background color: :white
-#   rect layout: :cut
-#
-#     file: data['Image'], width: width, height: height
-#
-#   save_pdf file: 'square.pdf', trim: '0.125in', width: '4in', height: '6in'
-#   save_png prefix: 'square_'
-# end
+
+#######################################
+## Based on TGC's Small Circle Chits ##
+#######################################
+puts 'Building small chits...'
+data = Squib.xlsx file: 'data/security_tokens.xlsx', explode: '', sheet: 2
+Squib::Deck.new(width: 225, height: 225, cards: data['Name'].size) do
+  background color: data['BGColor']
+
+  svgdata = data['Img'].map.with_index do |svg, i|
+    File.read("img/#{svg}").gsub('fill:#000000', "fill:#{data['FGColor'][i]}")
+  end
+  svg data: svgdata
+  png file: data['Overlay']
+  # png file: 'small-circle-chit.png', alpha: 0.5
+  save_png prefix: 'sm', count_format: data['File']
+end
