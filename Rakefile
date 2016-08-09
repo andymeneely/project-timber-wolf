@@ -5,7 +5,7 @@ require 'erb'
 task default: [
   :full,
   :rulebook_figures,
-  :security,
+  :chits,
   :characters,
   :character_backs,
   :skills,
