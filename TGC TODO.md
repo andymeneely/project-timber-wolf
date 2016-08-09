@@ -4,8 +4,6 @@
 * Make color backs for skills
 * Make colors backs for characters
 * Make color chits
-  * Pressure sensors
-  * Control panels
   * Real Artwork
   * Fake Artwork
   * Documents

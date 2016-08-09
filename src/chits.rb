@@ -37,8 +37,24 @@ Squib::Deck.new(width: 375, height: 900, cards: 4) do
   background color: [cyan, purple, yellow, gray]
   rect fill_color: '#42290d', width: width, height: 200
   svg file: 'jewel-chit.svg'
-  # png file: 'Bullseye-Chit.png', alpha: 0.5
   save_png prefix: 'pressure_token_', count_format: '%02d_[all]'
+end
+
+################################################
+## Based on TGC's Large Circle & Square Chits ##
+################################################
+data = Squib.xlsx file: 'data/security_tokens.xlsx', explode: '', sheet: 1
+Squib::Deck.new(width: 375, height: 375, cards: data['Name'].size) do
+  background color: data['BGColor']
+
+  svgdata = data['Img'].map.with_index do |svg, i|
+    File.read("img/#{svg}").gsub('fill:#000000', "fill:#{data['FGColor'][i]}")
+  end
+  svg data: svgdata
+  png file: data['Overlay']
+  # png file: 'large-circle-chit.png', alpha: 0.5
+  #png file: 'large-square-chit.png', alpha: 0.5
+  save_png prefix: 'lg', count_format: data['File']
 end
 #
 # data = Squib.csv file: 'data/square-chits.csv'
