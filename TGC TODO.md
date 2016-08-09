@@ -1,19 +1,47 @@
+# TODO List for TGC Prototype
+* Make color noise tracker
+* Make color event tracker
+* Make color backs for skills
+* Make colors backs for characters
+* Make color chits
+  * Pressure sensors
+  * Control panels
+  * Real Artwork
+  * Fake Artwork
+  * Documents
+  * Story interruption asterisk
+  * Reinforcements
+  * $1k
+  * $3k
+  * Once-per-heist
+  * Live / Disconnected
+  * Guard / Subdued
+  * Locked / Unlocked
+  * Ideas
+  * Planning tokens
+
+These were taken off of the current store page to just get the prototype printed:  
+  * Rules booklet (Jumbo, 8 pages)
+  * Scenario booklet (Jumbo, 8 pages)
+  * Large box top wrap
+  * Game helps (2x Skinny Mats)
+  * Campaign ledger
+
 # TODO List for TGC Contest
 
-* Finish shadows for characters
 * Make all the figures for rules
 * Make color rules
 * Make color scenario booklet
 * Make box top wrap
-* Make color backs for skills
-* Make colors backs for characters
-* Make color noise tracker
-* Make color event tracker
+* Finish color backs for skills
+* Finish colors backs for characters
+* Finish color noise tracker
+* Finish color event tracker
 * Make game helps (optional)
 * Make document
-* Make color tiles: Security / Blanks
-* Make color tiles: Gates
-* Make color chits
+* Finish color tiles: Security / Blanks
+* Finish color tiles: Gates
+* Finish color chits
   * Pressure sensors
   * Control panels
   * Real Artwork
@@ -39,6 +67,8 @@
 * Make "how to set up" video
 * Make shop backdrop
 * Make game logo
+* Make full PDF of rules and FAQ
 * Shop ad
 * Submit for sanity testing
   - Do I need a video for that first?
+* Make instructions for how to vote for the game (buying points, etc.)
