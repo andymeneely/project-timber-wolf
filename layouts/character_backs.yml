@@ -9,7 +9,7 @@ name:
   y: 850
   width: 475
   height: 85
-  hint: black
+  # hint: black
   align: center
 upgrade1:
   extends: name
@@ -17,7 +17,7 @@ upgrade1:
   y: 450
   width: 300
   height: 85
-  hint: black
+  # hint: black
 upgrade2:
   extends: upgrade1
   x: += 375

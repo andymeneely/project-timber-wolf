@@ -15,6 +15,14 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
 
   svg file: 'skill_back.svg'
 
+  build :color do
+    grits = data['Level'].map do |level|
+      level == '1' ? "gritty amateur.png" : "gritty pro.png"
+    end
+    png file: grits, angle: Math::PI/2, x: 1125, y: 0
+    svg file: 'skill-back-color.svg'#, range: 0
+  end
+
   text str: data['Name'], layout: :name
   rolls1 = data['Rolls'].zip(data['Upgrade1Rolls']).map do |(amateur,pro)|
     arr = amateur.split('/').zip(pro.split('/')).map do | (am_act, pro_act) |
@@ -23,7 +31,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
       else
         str1 = am_act.to_s.gsub("\n",'')
         str2 = pro_act.to_s.gsub("\n",'')
-        "<s>#{str1}</s> ⇒ #{str2}\n"
+        "#{str1} ⇒ #{str2}\n"
        end
     end
     arr.join
@@ -36,7 +44,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
       else
         str1 = am_act.to_s.gsub("\n",'')
         str2 = pro_act.to_s.gsub("\n",'')
-        "<s>#{str1}</s> ⇒ #{str2}\n"
+        "#{str1} ⇒ #{str2}\n"
        end
     end
     arr.join
@@ -48,9 +56,9 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
 
   text str: data['Upgrade2'], layout: :upgrade2
   text str: data['Upgrade2'].map { |s| summarize_skill(s) }, layout: :up1_sum
-  text str: rolls2, layout: :up2_sum, markup: true  
+  text str: rolls2, layout: :up2_sum, markup: true
 
-  save_png prefix: 'skill_back_'
+  save_png prefix: 'skill_back_', rotate: true
 
   only_lvl1_2 = data['Level'].map.with_index { |x,i| [1].include?(x.to_i) ? i : nil }.compact
   save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: only_lvl1_2

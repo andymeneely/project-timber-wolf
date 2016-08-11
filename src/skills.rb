@@ -31,7 +31,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     text str: data[i.to_s], layout: "die_roll_#{i}"
   end
 
-  save_png prefix: 'skill_'
+  save_png prefix: 'skill_', rotate: true
   save_pdf file: 'skills.pdf', trim: '0.125in'
   build :color do
     showcase range: [26,16], file: 'skill_showcase.png'

@@ -1,23 +1,3 @@
-# TODO List for TGC Prototype
-* Make color noise tracker
-* Make color event tracker
-* Make color backs for skills
-* Make colors backs for characters
-* Make color chits
-  * Real Artwork
-  * Fake Artwork
-  * Documents
-  * Story interruption asterisk
-  * Reinforcements
-  * $1k
-  * $3k
-  * Once-per-heist
-  * Live / Disconnected
-  * Guard / Subdued
-  * Locked / Unlocked
-  * Ideas
-  * Planning tokens
-
 These were taken off of the current store page to just get the prototype printed:  
   * Rules booklet (Jumbo, 8 pages)
   * Scenario booklet (Jumbo, 8 pages)
