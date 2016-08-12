@@ -3,3 +3,4 @@ _output/*.pdf
 ~$*
 .DS_Store
 Gemfile.lock
+rules/RULES.html
