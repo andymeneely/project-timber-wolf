@@ -10,7 +10,7 @@
     "Default2": "Pick\n🔓🔊",
     "Default3": null,
     "LevelUp1": "Safecracker",
-    "LevelUp2": "Tunneler",
+    "LevelUp2": "Demolitions Guy",
     "Special": "EFFICIENT PICKER\nIf your action has a 🔓, you may spend 💡 for an additional ➜🔊",
     "Snark": ""
   },
@@ -30,7 +30,7 @@
     "Snark": ""
   },
   "2": {
-    "Name": "Tunneler",
+    "Name": "Demolitions Guy",
     "Class": "Bypasser",
     "Qty": "1",
     "Level": "2",
