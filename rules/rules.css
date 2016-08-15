@@ -7,7 +7,7 @@
 }
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 10pt;
+  font-size: 11pt;
 }
 p{
   margin-top: 0;
@@ -86,4 +86,8 @@ ol.gameplay-structure{
 
 .gameplay-structure{
   line-height: 1.0;
+}
+
+.alerts img{
+  width: 100;
 }

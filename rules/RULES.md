@@ -278,43 +278,44 @@ Like other sub-actions, noise may be increased at any time during Character acti
 *Tip: wait to account for noise until the end of Character Action phase and everyone holds up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
 </div>
 
-You have the final say about what to do with your own character.
-
 You may opt to simply PASS, and take no actions with no noise penalty.
 
-You may also **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times. **__This does not apply to the Escape phase!__** (Sorry.)
+You may **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. **__This does not apply to the Escape phase!__** (Sorry.)
 
 You may opt to Initiate Escape Phase at any time (see below).
 
+You have the final say about what to do with your own character.
+
 ### Phase 3. Roll for Security
 
-When all players have finished their Actions, one player rolls that four-sided security die. (The number on the bottom is the number that is rolled.) The event the occurs is the one counted along the track starting with the first event after the alert bar. Below is the translation of the event iconography. (Note that these are examples - some of these events are combined on the actual alert tracker)
+When all players have finished their Actions, one player rolls the four-sided security die. Trigger the event denoted by the number of squares away from the alert bar.
 
-<div class="flex-container">
+Below is the translation of the event iconography. (Note that these are examples - some of these events are combined on the actual alert tracker)
 
-  * <img src="http://placehold.it/75x75"><br>
-        **Watch Where You're Going!** (neighboring). For each hex tile or entrance tile with at least 2 characters on it, increase the alert bar by 1. 2 alerts for Entrance tiles.
-  * <img src="http://placehold.it/75x75"><br>
+<div class="flex-container alerts">
+
+  * <img src="../img/figure_alerts_neighboring.svg"><br>
+        **Outta My Way!**<br/> For each hex tile with at least 2 characters on it, increase the alert bar by 1. For Entrance tiles, 2 alerts.
+  * <img src="../img/figure_alerts_adj_camera.svg"><br>
         **Caught in a Reflection** (adjacent to camera). For each character adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a character is adjacent to multiple cameras, increase for each camera.
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_adj_guard.svg"><br>
         **Suspicious Guards** (adjacent to guard icon). For each character adjacent to a Guard, increase ⚠ by 1. If a character is adjacent to multiple Guards, increase for each Guard.
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_on_subdued.svg"><br>
         **Let Me Go!** (on a subdued guard). For each player on a Subdued Guard, increase Alert(⚠) bar by 1.
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_on_disabled.svg"><br>
         **Electrocute** (on a Disabled camera). For each player on a Disabled Camera, increase Alert(⚠) bar by 1.
-  * <img src="http://placehold.it/75x75"><br>
-        **Power On** (power on icon). Make every Disabled Camera Live. Increase ⚠ every time you do this only if it has an "⚠:" on it.
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_power_on.svg"><br>
+        **Reboot** (power on icon). Make every Disabled Camera Live. Increase ⚠ every time you do this only if it has an "⚠:" on it.
+  * <img src="../img/figure_alerts_lockdown.svg"><br>
         **Lockdown**. Close the next Gate, starting with "A". Remove the tile. If a character is on it, they are immediately Busted. Increase alert for each ⚠ shown.
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_unsubdue.svg"><br>
         **I Thought I Had Him**. For each player on a tile with a Subdued Guard, Un-Subdue that guard.  Increase ⚠ twice (if applicable).
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_hey_you.svg"><br>
         **Hey You!** (adjacent to a guard) For each player adjacent to a Live Camera, add a Guard to the player's current tile.
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_call_it_in.svg"><br>
         **Call It In**. Replace every Disabled Camera with a Guard.
-  * <img src="http://placehold.it/75x75"><br>
+  * <img src="../img/figure_alerts_alarm.svg"><br>
         **Alarm** (Alarm) Initiate Escape Phase.
-
 
 </div>
 
