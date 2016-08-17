@@ -5,11 +5,7 @@
 </head>
 <body>
 
-<%
-  require 'kramdown'
-  rules_md = File.read "rules/RULES.md"
-%>
-<%= Kramdown::Document.new(rules_md, parse_block_html: true).to_html %>
+<%= File.read "rules/RULES.md.html" %>
 
 </body>
 </html>

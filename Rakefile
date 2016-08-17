@@ -91,6 +91,7 @@ task travis: [:default, :dropbox]
 
 desc 'Build the rules sheet'
 task :rules do
+  load 'src/rules.rb' # convert markdown
   erb = ERB.new(File.read('rules/RULES_TEMPLATE.html.erb'))
   File.open('rules/RULES.html', 'w+') do |html|
     html.write(erb.result)
