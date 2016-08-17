@@ -10,8 +10,6 @@ A single heist takes 30-40 minutes, and is part of a narrative where your team i
 
 During each heist, you will collaborate with teammates with simultaneous gameplay to coordinate your movements. Each round begins with everyone rolling a die to determine which actions are available. You use Ideas💡 to modify that die roll, but don't spend too many - you'll need those Ideas💡 to escape, too!
 
-
-
 ## The Pieces
 
 * 32 double-sided hex tiles.
@@ -20,19 +18,20 @@ During each heist, you will collaborate with teammates with simultaneous gamepla
 * 12 character cards: 6 Amateurs, 6 double-sided Pros
 * 24 Skill cards: 6 Amateurs, 12 Pros, 2 copies of each)
 * 6 Lock chits
-* 6 Camera chits
-* 21 Guard chits
+* 6 Camera chits (circle)
+* 21 Guard chits (circle)
 * 5 Artwork chits (square)
 * 5 Entrance chits (square)
-* 4 Jewel chits (circular)
-* 3 Control Panel chits (square)
-* 8 Pressure Sensors (ring-shaped chits)
-* 48 Planning chits (12x4 player colors)
-* 36 Idea💡 chits (small circle)
+* 4 Jewel chits (circle)
+* 4 Control Panel chits (circle)
+* 8 Pressure Sensors (ring)
+* 1 Story chit (circle)
+* 36 Idea💡 chits (circle)
 * 4 Player pawns (red, green, blue, black)
-* 4 Player six-sided dice (red, green, blue, black)
-* 1 Security Die (white, four-sided die)
 * 1 Prisoner pawn (white)
+* 48 Planning chits (by player colors)
+* 4 Player D6 dice (by player colors)
+* 1 Security Die (white, four-sided die)
 * 12 Petty Cash chits ($1k and $3k)
 * 1 Alert Bar marker (white wooden stick)
 * 1 Noise Tracker marker (white wooden cylinder)
@@ -69,7 +68,10 @@ Between Heists, your team will get a chance to **refine** (i.e. "level up") some
 
 ## The Board
 
-<img src="http://placehold.it/300x150" align="right">
+<div class="example-right">
+  <img src="../img/figure_board.svg"><br>
+  Blue is adjacent to a Camera. Blue is NOT adjacent to a Guard.
+</div>
 
 The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). You are considered **adjacent** to something if your are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
 
@@ -98,8 +100,6 @@ Security chits are generally unknown at the beginning of the heist, and are plac
 ## Actions and Sub-Actions
 
 Skills and Characters allow you to take Actions. Every Action is just a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
-
-<br><br><br>
 
 | Icon | Sub-Action Description |
 |:--:|---|
@@ -139,14 +139,7 @@ These mats also have spaces for team loot and some prisoner-related tracking (de
 
 For each Pressure Sensor, A corresponding Control Panel (control panel icon here) exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
 
-**Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. When triggered:
-
-  * _Reveal_ all Security Tokens adjacent to the Reinforcements chit.
-  * _Un-Subdue_ any Guards adjacent to the Reinforcements chit,
-  * _Re-lock_ any Locks adjacent to the Reinforcements chit,
-  * _Re-activate_ any disabled Cameras adjacent to the Reinforcements chit. Increase ⚠ for each character on one of these Cameras.
-  * _Place a new Guard token_ from the supply onto any tile adjacent to the Reinforcements chit that was without a Security Token.
-  * _Replace the Reinforcements_ chit with two Guards.
+**Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
 
 ## Loot Chits
 
@@ -179,7 +172,7 @@ Tip: If this is your first game, we recommend playing *The Fall Guys*.
 **Step 3. Set up the board** in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. If the diagram depicts a shield, then use the Security side of the tile, in all other cases use the Blank side.
 
 <div class="tip">
-*Tip: to verify the layout, match the shapes of the Gaps between tiles*
+Tip: to verify the layout, match the shapes of the Gaps between tiles
 </div>
 
 Some boards have already-revealed security chits. The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board (they are **the supply**).
@@ -207,19 +200,14 @@ Some boards have already-revealed security chits. The Chapter will also indicate
 The structure of each heist is:
 
   <ol class="gameplay-structure">
-    <li>The Plan
-      <ul>
-        <li>Place planning tokens</li>
-        <li>Purchase and use extra reveals 🔍</li>
-        <li>Purchase and place extra Ideas 💡</li>
-      </ul>
+    <li>The Plan: Place planning tokens, Purchase Extra reveals 🔍, Purchase Extra Ideas 💡
     </li>
     <li>The Heist
       <ol>
         <li>Roll for Skill</li>
         <li>Character Action</li>
         <li>Roll for Security</li>
-        <li>Escape Phase</li>
+        <li style="list-style-type: disc">Escape Phase</li>
       </ol>
     </li>
     <li>Promote Characters &amp; Refine Skills</li>
@@ -228,13 +216,23 @@ The structure of each heist is:
 
 ## Part I: The Plan
 
-<img src="http://placehold.it/150x150" align="right">
 
-With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token. *__Note:__* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
+<div class="example-right">
+  <img src="../img/figure_planning.svg"><br>
+  Blue and Red place their planning tokens.
+</div>
+
+With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
+
+<div class="tip">
+*Note:* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
+</div>
 
 During this phase, you may purchase and immediately use any number of Reveal🔍 for $1k of team loot each. You may also purchase any number of Ideas💡 for $1k of team loot each. Place each purchased Idea💡 on a character immediately.
 
-Place your Character pawn on the Entrance space where you will plan to start. Remember that some entrance tiles have a limit on the number of starting players.
+Place your Character pawn on the Entrance space where you will plan to start. The default limit character limit per Entrance is 2 (unlimited during Escape phase.) *Note:* some scenarios dictate a different a limits on this.
+
+<div class="clear-both"/>
 
 ## Part II: The Heist
 
@@ -263,7 +261,7 @@ When you begin an Action, you must place your die on that Action to indicate you
 If unknown information is revealed after you commit to an Action, that Action cannot be undone.
 
 <div class="example">
-*For example: Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. He cannot undo his action now that he's committed. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.*
+*For example: Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.*
 </div>
 
 The Noise(🔊) and the Alert(⚠) sub-actions are **required**, but all other sub-actions are not required.
@@ -275,14 +273,14 @@ The Noise(🔊) and the Alert(⚠) sub-actions are **required**, but all other s
 Like other sub-actions, noise may be increased at any time during Character action (just don't forget!).
 
 <div class="tip">
-*Tip: wait to account for noise until the end of Character Action phase and everyone holds up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
+*Tip: wait to account for noise until the end of Character Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
 </div>
 
 You may opt to simply PASS, and take no actions with no noise penalty.
 
-You may **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. **__This does not apply to the Escape phase!__** (Sorry.)
+You may **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. **This does not apply to the Escape phase!** (Sorry.)
 
-You may opt to Initiate Escape Phase at any time (see below).
+You may opt to Initiate Escape Phase at any time (see *Escape Phase*).
 
 You have the final say about what to do with your own character.
 
@@ -295,46 +293,75 @@ Below is the translation of the event iconography. (Note that these are examples
 <div class="flex-container alerts">
 
   * <img src="../img/figure_alerts_neighboring.svg"><br>
-        **Outta My Way!**<br/> For each hex tile with at least 2 characters on it, increase the alert bar by 1. For Entrance tiles, 2 alerts.
+        **Outta My Way!**<br>
+        For each hex tile with at least 2 characters on it, increase the alert bar by 1. For Entrance tiles, 2 alerts.
   * <img src="../img/figure_alerts_adj_camera.svg"><br>
-        **Caught in a Reflection** (adjacent to camera). For each character adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a character is adjacent to multiple cameras, increase for each camera.
+        **Caught in a Reflection**<br>
+        (adjacent to camera). For each character adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a character is adjacent to multiple cameras, increase for each camera.
   * <img src="../img/figure_alerts_adj_guard.svg"><br>
-        **Suspicious Guards** (adjacent to guard icon). For each character adjacent to a Guard, increase ⚠ by 1. If a character is adjacent to multiple Guards, increase for each Guard.
-  * <img src="../img/figure_alerts_on_subdued.svg"><br>
-        **Let Me Go!** (on a subdued guard). For each player on a Subdued Guard, increase Alert(⚠) bar by 1.
+        **Suspicious Guards**<br>
+        (adjacent to guard icon). For each character adjacent to a Guard, increase ⚠ by 1. If a character is adjacent to multiple Guards, increase for each Guard.
   * <img src="../img/figure_alerts_on_disabled.svg"><br>
-        **Electrocute** (on a Disabled camera). For each player on a Disabled Camera, increase Alert(⚠) bar by 1.
+        **Let Me Go!**<br>
+        For each character on a Subdued Guard, increase Alert(⚠) bar by 1. For each character on a Disabled Camera, increase Alert(⚠) bar by 1.
   * <img src="../img/figure_alerts_power_on.svg"><br>
-        **Reboot** (power on icon). Make every Disabled Camera Live. Increase ⚠ every time you do this only if it has an "⚠:" on it.
+        **Reboot**<br>
+        Make every Disabled Camera Live. Increase ⚠ every time you do this only if it has an "⚠:" on it.
   * <img src="../img/figure_alerts_lockdown.svg"><br>
-        **Lockdown**. Close the next Gate, starting with "A". Remove the tile. If a character is on it, they are immediately Busted. Increase alert for each ⚠ shown.
+        **Lockdown**<br>
+        Close the next Gate, starting with "A". Remove the tile. If a character is on it, they are immediately Busted. Increase alert for each ⚠ shown.
   * <img src="../img/figure_alerts_unsubdue.svg"><br>
-        **I Thought I Had Him**. For each player on a tile with a Subdued Guard, Un-Subdue that guard.  Increase ⚠ twice (if applicable).
+        **I Thought I Had Him**<br>
+        For each character on a tile with a Subdued Guard, Un-Subdue that guard.  Increase ⚠ twice (if applicable).
   * <img src="../img/figure_alerts_hey_you.svg"><br>
-        **Hey You!** (adjacent to a guard) For each player adjacent to a Live Camera, add a Guard to the player's current tile.
+        **Hey You!**<br>
+        For each character adjacent to at least one Guard, add a Guard to the character's current tile.
   * <img src="../img/figure_alerts_call_it_in.svg"><br>
-        **Call It In**. Replace every Disabled Camera with a Guard.
+        **Call It In**<br>
+        Replace every Disabled Camera with a Guard.
   * <img src="../img/figure_alerts_alarm.svg"><br>
-        **Alarm** (Alarm) Initiate Escape Phase.
+        **Alarm**<br>
+        Initiate Escape Phase.
 
 </div>
 
 Whenever an Event calls for a new Guard to be placed, take it from the supply (not the bag).
 
-*__After__* the Security Event has been resolved, check to see if Reinforcements needs to be triggered (see *Security Systems* for explanation).
+<div class="reinforcements">
 
-### The Escape Phase
+<img src="../img/figure_reinforcements.svg" class="para_header">
 
-When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each player who has not reached an exit (Entrance tile) determines if they can reach it.
+**Reinforcements**. *After* the Security Event has been resolved, check to see if the Alert Bar is on or beyond the Reinforcements space. If so:
 
-Declare the number of Escape Moves you will take to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (i.e. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 that a character has may be used for 1 Escape Move.
+  1. _Reveal_ all Security Chits adjacent to the Reinforcements chit.
+  2. _Un-Subdue_ any Guards adjacent to the Reinforcements chit,
+  3. _Re-lock_ any Locks adjacent to the Reinforcements chit,
+  4. _Re-activate_ any disabled Cameras adjacent to the Reinforcements chit. Increase ⚠ for each character on one of these Cameras.
+  5. _Place a new Guard token_ from the supply onto any tile adjacent to the Reinforcements chit that was without a Security Token.
+  6. _Replace the Reinforcements_ chit with two Guards.
 
-After you use up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
+</div>
 
-<img src="http://placehold.it/250x75" align="right">
+<div class="clear-both"/>
+
+### Escape Phase
+
+When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.
+
+Declare the number of Escape Moves you will take to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 that a character has may be used for 1 Escape Move.
+
+After you have declared your Escape moves and used up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
+
 
 <div class="example">
-*For example Andy needs (DRAW EXAMPLE HERE) 5 Moves to exit: one to enter the space with Guards, two to exit the Guards, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out.*
+
+<div class="example-right">
+<img src="../img/figure_escape.svg"><br>
+Blue needs 5 Escape Moves. Red and Green are Busted.
+</div>
+
+
+*For example Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out.*
 </div>
 
 You may *__not__* use abilities that cost 🔊 or ⚠ during the Escape Phase.
@@ -343,16 +370,16 @@ You may *__not__* use abilities that cost 🔊 or ⚠ during the Escape Phase.
 *For example, SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed*
 </div>
 
-You may pick up or drop off loot during the Escape Phase.
+You MAY pick up or drop off loot during the Escape Phase.
 
-You may NOT use Help Out during the Escape phase.
+You MAY NOT use Help Out during the Escape phase.
 
 ### Busted
 
-When you are Busted, you are out of gameplay for the rest of this heist. All loot on your character is lost. You cannot be promoted for the next heist (if the scenario allows it anyway). Instead, you choose an available Amateur character and two Amateur skills for the next heist.
+When you are Busted, you are out of gameplay for the rest of this Heist. All loot on your character is lost. You may not be promoted for the next heist (if the scenario allows it anyway). Instead, you choose an available Amateur character and two Amateur skills for the next heist. You may not choose an Amateur version of a Pro who is already on the team.
 
 # Losing a Heist
 
-Each Heist has an objective built into it. If your team does not complete their objective, the campaign is lost. Some scenarios may define what to do if the heist is lost.
+Each Heist has an objective built into it. If your team does not complete its objective, the campaign is lost. Some scenarios may define what to do if the heist is lost. If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
 
-Your may retry a heist from the original conditions (i.e. restore from a previous "saved game"). If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
+You may retry a heist from the original conditions (i.e. restore from a previous "saved game").
