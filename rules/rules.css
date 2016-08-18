@@ -15,6 +15,7 @@ p{
 }
 table{
   font-size: inherit;
+  page-break-inside: avoid;
 }
 th,td{
   border: 1px solid black;
@@ -37,8 +38,8 @@ h3{
 }
 
 .security-table table{
-  float: right;
-  width: 65%;
+  /*float: right;*/
+  width: 100%;
 }
 
 .subaction-table table{
@@ -70,7 +71,7 @@ h3{
   flex-flow: row wrap;
   justify-content: space-around;
   text-align: center;
-  page-break-inside: always;
+  page-break-inside: avoid;
 }
 
 .flex-container li{
@@ -113,4 +114,25 @@ ol.gameplay-structure{
 .example-right{
   float: right;
   text-align: center;
+}
+
+.characters{
+}
+
+.characters img{
+  float: right;
+  width: 180px;
+}
+
+.skills{
+}
+
+.skills img{
+  float: right;
+  width: 200px;
+}
+
+.security_systems img{
+  float: right;
+  width: 125px;
 }

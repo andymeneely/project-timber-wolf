@@ -2,7 +2,6 @@
 
 # <span class="title">Rules for _Your Last Heist_</span>
 
-<img src="http://placehold.it/250x250" align="right"/>
 
 _Your Last Heist_ is a cooperative, multi-stage heist game. You are playing the role of a uniquely skilled criminal who works with other skilled criminals to quietly traverse the building and steal items, all while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
@@ -14,7 +13,7 @@ During each heist, you will collaborate with teammates with simultaneous gamepla
 
 * 32 double-sided hex tiles.
   * 28 Blank/Security tiles
-  * 4 Gate tiles
+  * 4 Gate tiles (A,B,C,D)
 * 12 character cards: 6 Amateurs, 6 double-sided Pros
 * 24 Skill cards: 6 Amateurs, 12 Pros, 2 copies of each)
 * 6 Lock chits
@@ -34,11 +33,14 @@ During each heist, you will collaborate with teammates with simultaneous gamepla
 * 1 Security Die (white, four-sided die)
 * 12 Petty Cash chits ($1k and $3k)
 * 1 Alert Bar marker (white wooden stick)
-* 1 Noise Tracker marker (white wooden cylinder)
+* 4 Noise Tracker & Team Cash Markers (white wooden cylinders)
+
+<div class="characters">
+<img src="./character_example.png">
 
 ## Characters
 
-<img src="./character_example.png" width="200" align="right">The game comes with 18 unique characters. Each card has:
+The game comes with 18 unique characters. Each card has:
 
   * ① **Level.** There are Amateur characters and Pro characters.
   * ②	**Planning Memory.** The number of pre-planned hex tiles your character may move through during a heist.
@@ -56,7 +58,13 @@ Some abilities have a "Once per heist..." sentence. Place the once-per-heist tok
 
 Between Heists, your scenario may give you an opportunity to **promote** (i.e. "level up") some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Pro characters cannot be promoted.
 
-<img src="skill_example.png" width="200" align="right">
+</div>
+
+<div class="clear-both"/>
+
+
+<div class="skills">
+<img src="skill_example.png">
 
 ## Skills
 
@@ -64,24 +72,34 @@ Each character gets two Skills. Each Skill has six Actions(①) that each corres
 
 Between Heists, your team will get a chance to **refine** (i.e. "level up") some of your Skills. Each Skill, like Characters, can be refined to one of two Skills, as summarized on the back of the Amateur skill cards. When refining, choose which Pro skill to refine and place the Amateur one back in the box. Pro skills cannot be refined.
 
+</div>
+
 <div class="clear-both"/>
 
 ## The Board
 
 <div class="example-right">
   <img src="../img/figure_board.svg"><br>
-  Blue is adjacent to a Camera. Blue is NOT adjacent to a Guard.
+  Blue is adjacent to a Camera, but not to a Guard.
 </div>
 
-The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). You are considered **adjacent** to something if your are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
+The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security Chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
 
-For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security Chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
+ You are considered **adjacent** to something if your are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
 
 Each board has one or more **Entrances**. These Entrances (they are also Exits) represent a space. If a player is on one of these spaces, they are considered to be Outdoors, otherwise they are Indoors.
 
-By default, unless the scenario specifies otherwise, Entrances are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, although the scenario may impose additional limits.
+By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, although the scenario may impose additional limits.
+
+Some abilities refer to **external sides**, which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure).
+
+Some abilities refer to a **non-tiled gap**, which is a hex-spaced area between two hex tiles that does *not* have a hex (see figure).
 
 ## Security Chits
+
+Security Chits are randomized obstacles that your team will encounter. They are shown to the right.
+
+Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a player is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
 
 <div class="security-table">
 
@@ -93,9 +111,7 @@ By default, unless the scenario specifies otherwise, Entrances are limited to 2 
 
 </div>
 
-Security Chits are randomized obstacles that your team will encounter. They are shown to the right.
-
-Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a player is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
+<div class="clear-both"/>
 
 ## Actions and Sub-Actions
 
@@ -116,9 +132,9 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 
 ## Trackers: Noise, Alerts, Loot
 
-<img src="http://placehold.it/175x175" align="right">
+<img src="../img/figure_trackers.svg" align="right">
 
-The Noise tracker is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon entering a Noise level with an Alert ⚠, increase the Alert Bar by 1. If the Noise marker gets to the final slot, increase ⚠ for each 🔊 incurred.
+The Noise tracker mat is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon entering a Noise level with an Alert ⚠, increase the Alert Bar by 1. If the Noise marker gets to the final slot, increase ⚠ for each 🔊 incurred.
 
 The Alert Bar represents the potential Security Events you will encounter in the near future. The Alert Bar marker (a long wooden bar) is only ever placed *between* events. The Alert Bar represents a lower-bound of what events could possibly occur, so nothing happens immediately when you increase the Alert bar.
 
@@ -129,17 +145,21 @@ Details on the Security Event iconography is in the *Roll for Security* section.
 These mats also have spaces for team loot and some prisoner-related tracking (described later).
 
 
+<div class="security_systems">
+<img src="../img/figure_security.svg">
+
 ## Security Systems
 
-<img src="http://placehold.it/75x250" align="right">
 
-**Gate** (gate icon here). A player may enter or exit this space freely. Security Events may remove this tile from the board.
+**Gate**. A character may enter or exit this space freely. Security Events may remove this tile from the board.
 
-**Pressure Sensors** (sensor icons here). You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍 and 🔊⚠ are still required.
+**Pressure Sensors**. You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍 and 🔊⚠ are still required.
 
-For each Pressure Sensor, A corresponding Control Panel (control panel icon here) exists somewhere else on the board. If a player is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
+For each Pressure Sensor, a corresponding **Control Panel** of the same color exists somewhere else on the board. If a character is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
 
-**Reinforcements** (reinforcements icon here). Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
+**Reinforcements**. Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
+
+</div>
 
 ## Loot Chits
 
@@ -153,11 +173,9 @@ When a character with Loot gets Outdoors, the team has acquired that loot for th
 
 ## Prisoner
 
-<img src="http://placehold.it/100x100" align="right">
+Some heists have a **Prisoner**, represented by a white pawn. A Prisoner is a non-Player Character that your team can "remotely" control. A Prisoner is not Freed until their Pressure Sensor space is fully disabled. A Freed Prisoner has one Action available (Crawl➜), cannot carry Ideas💡, and needs no planning tokens. As a team, you must decide how to use the prisoner's Crawl Action.
 
-Some heists have a **Prisoner** token. A Prisoner is a non-Player Character that your team can "remotely" control. A Prisoner is not Freed until their Pressure Sensor space is fully disabled. A Freed Prisoner has one Action available (Crawl➜), cannot carry Ideas💡, and needs no planning tokens. As a team, you must decide how to use the prisoner's Crawl Action.
-
-In every other way, treat a Freed Prisoner like a regular character. Freed Prisoners may carry Loot and may be given sub-actions (e.g. Script Kiddie's Exploit). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase (use a player die for this).
+In every other way, treat a Freed Prisoner like a regular character. Freed Prisoners may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase (use a player die for this).
 
 # Setting Up
 
