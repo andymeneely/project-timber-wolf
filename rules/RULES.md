@@ -157,7 +157,7 @@ These mats also have spaces for team loot and some prisoner-related tracking (de
 
 For each Pressure Sensor, a corresponding **Control Panel** of the same color exists somewhere else on the board. If a character is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
 
-**Reinforcements**. Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
+**Reinforcements**. This is an open tile while it is on the board - but bad things will happen here later! Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
 
 </div>
 
@@ -254,6 +254,8 @@ Place your Character pawn on the Entrance space where you will plan to start. Th
 
 ## Part II: The Heist
 
+Repeat Phase 1 through 3 until the Escape Phase is initiated.
+
 ### Phase 1. Roll for Skill
 
 Everybody simultaneously rolls their die. Place the Noise Tracker Ring on the noise Tracker Marker.
@@ -268,7 +270,7 @@ You may also use any number of your Ideas💡 to modify the die roll by 1 each. 
 *For example, Phil as the Angry Locksmith may always take Pick🔓🔊 or Walk🔊➜ regardless of what he rolled. Suppose he has the Wing It and Smash 'n' Grab Skills, and rolled a 1, then he also has Punch👊🔊🔊➜ and Discover🔍🔍 as options. If he spends an 💡, then he also has Smash📷🔊🔊➜, Grab💰🔊, Strongarm🔓👊🔊🔊➜, and Scamper🔊🔊🔊➜➜ available.*
 </div>
 
-During this time, everyone is working collaboratively and simultaneously. (You are *__not__* taking turns!!) You decide which Action to take, and how to execute your sub-actions. You may execute your sub-actions in any order. You may interleave your sub-actions with the sub-actions of other players. (Note: doing this effectively takes teamwork and is the key to victory!)
+During this time, everyone is working collaboratively and simultaneously. (You are *__not__* taking turns!!) You decide which Action to take, and how to execute your sub-actions. You may execute your sub-actions in any order. You may interleave your sub-actions with the sub-actions of other players. Doing this part effectively takes teamwork and is the key to victory!
 
 When you begin an Action, you must place your die on that Action to indicate your commitment.
 
@@ -315,10 +317,10 @@ Below is the translation of the event iconography. (Note that these are examples
         For each hex tile with at least 2 characters on it, increase the alert bar by 1. For Entrance tiles, 2 alerts.
   * <img src="../img/figure_alerts_adj_camera.svg"><br>
         **Caught in a Reflection**<br>
-        (adjacent to camera). For each character adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a character is adjacent to multiple cameras, increase for each camera.
+        For each character adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a character is adjacent to multiple cameras, increase for each camera.
   * <img src="../img/figure_alerts_adj_guard.svg"><br>
         **Suspicious Guards**<br>
-        (adjacent to guard icon). For each character adjacent to a Guard, increase ⚠ by 1. If a character is adjacent to multiple Guards, increase for each Guard.
+        For each character adjacent to a Guard, increase ⚠ by 1. If a character is adjacent to multiple Guards, increase for each Guard.
   * <img src="../img/figure_alerts_on_disabled.svg"><br>
         **Let Me Go!**<br>
         For each character on a Subdued Guard, increase Alert(⚠) bar by 1. For each character on a Disabled Camera, increase Alert(⚠) bar by 1.
