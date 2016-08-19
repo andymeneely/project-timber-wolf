@@ -7,31 +7,7 @@ These were taken off of the current store page to just get the prototype printed
 
 # TODO List for TGC Contest
 * Put stuff back on the TGC print for the final print
-* Make all the figures for rules
-* Make color rules
-  * Rules figure: Opening page introducing pieces
-  * Rules figure: Watch Where You're Going!
-  * Rules figure: Caught in a Reflection
-  * Rules figure: Suspicious Guards
-  * Rules figure: Let Me Go!
-  * Rules figure: Electrocute
-  * Rules figure: Power On
-  * Rules figure: Lockdown
-  * Rules figure: I Thought I Had Him
-  * Rules figure: Hey You!
-  * Rules figure: Call It In
-  * Rules figure: Board figure for "adjacent", "gap" , "blank", "security", "gate", "entrance tile"
-  * Rules figure: Noise tracker
-  * Rules figure: Alert Tracker
-  * Rules figure: Loot chits
-  * Rules figure: Prisoner stuff
-  * Rules figure: Security systems
-  * Rules figure: The Plan (from website?)
-  * Rules figure: Character Action (from website?)
-  * Rules figure: Gate icon
-  * Rules figure: Sensor icons
-  * Rules figure: Reinforcements
-  * Rules figure: Example escape
+* Make document
 * Make color scenario booklet
 * Finish box top wrap
 * Finish color backs for skills
@@ -39,7 +15,6 @@ These were taken off of the current store page to just get the prototype printed
 * Finish color noise tracker
 * Finish color event tracker
 * Make game helps (optional)
-* Make document
 * Finish color tiles: Security / Blanks
 * Finish color tiles: Gates
 * Finish color chits
@@ -58,8 +33,6 @@ These were taken off of the current store page to just get the prototype printed
   * Locked / Unlocked
   * Ideas
   * Planning tokens
-
-* Get a color prototype printed
 * Create action shots
   * Perspective shots of the cards
   * Take pictures of the prototype
