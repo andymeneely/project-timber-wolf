@@ -41,7 +41,7 @@
     "Default3": "Breach\n(above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "EFFICIENT PICKER\nIf your action has a 🔓, you may spend 💡 for an additional ➜🔊\n \nBREACH\nMay spend your action and💡💡💡💡 to create a new Exit on an open, external side of the current tile. Initiate Escape phase immediately.",
+    "Special": "EFFICIENT PICKER\nIf your action has a 🔓, you may spend 💡 for an additional ➜🔊\n \nBREACH\nMay spend your action and💡💡💡💡 to create a new Exit on an external side of the current tile. Initiate Escape phase immediately.",
     "Snark": ""
   },
   "3": {
@@ -255,18 +255,18 @@
     "Snark": ""
   },
   "17": {
-    "Name": "Inside Man",
+    "Name": "Tunneler",
     "Class": "Support",
     "Qty": "1",
     "Level": "2",
     "Memory": "8",
-    "Ideas": "5",
+    "Ideas": "1",
     "Default1": "Run\n🔊🔊➜➜",
-    "Default2": "Key In\n🔍🔓🔊",
-    "Default3": null,
+    "Default2": "Hesitate\n💡",
+    "Default3": "Tunnel\n(above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "THEY TRUST ME\nMay start the heist on any Reinforcements space for 🔊🔊. Security events involving adjacency to Active Guards and Live Cameras do not apply to this character.",
+    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nMISDIRECT\nOnce per heist, may use 💡💡💡 to change the security roll by 1.\n \nTUNNEL\nIf outdoors, use this action and 💡💡💡 to teleport to the tile of any other player.",
     "Snark": ""
   }
 }
