@@ -8,6 +8,7 @@
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
   font-size: 11pt;
+  background-color: #f2ebd6;
 }
 p{
   margin-top: 0;
@@ -133,6 +134,11 @@ ol.gameplay-structure{
 }
 
 .security_systems img{
-  float: right;
+  float: left;
   width: 125px;
+}
+
+.loot img{
+  float: right;
+  width: 150px;
 }

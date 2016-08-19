@@ -236,7 +236,7 @@
     "Default3": null,
     "LevelUp1": "Watchman",
     "LevelUp2": "Inside Man",
-    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nMISDIRECT\nOnce per heist, may use 💡💡💡 to change the security roll by 1.",
+    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nMISDIRECT\nOnce per heist, may use💡💡💡 to change the security roll by 1.",
     "Snark": ""
   },
   "16": {
@@ -266,7 +266,7 @@
     "Default3": "Tunnel\n(above)",
     "LevelUp1": null,
     "LevelUp2": null,
-    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nMISDIRECT\nOnce per heist, may use 💡💡💡 to change the security roll by 1.\n \nTUNNEL\nIf outdoors, use this action and 💡💡💡 to teleport to the tile of any other player.",
+    "Special": "EARLY WARNING\nWhen outdoors, may 🔍 once per turn\n \nMISDIRECT\nOnce per heist, may use 💡💡💡 to change the security roll by 1.\n \nTUNNEL\nIf outdoors, use this action and 💡💡💡🔊 to teleport to the tile of any other player.",
     "Snark": ""
   }
 }

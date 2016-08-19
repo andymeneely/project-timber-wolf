@@ -145,11 +145,9 @@ Details on the Security Event iconography is in the *Roll for Security* section.
 These mats also have spaces for team loot and some prisoner-related tracking (described later).
 
 
+## Security Systems
 <div class="security_systems">
 <img src="../img/figure_security.svg">
-
-## Security Systems
-
 
 **Gate**. A character may enter or exit this space freely. Security Events may remove this tile from the board.
 
@@ -161,15 +159,22 @@ For each Pressure Sensor, a corresponding **Control Panel** of the same color ex
 
 </div>
 
+<div class="clear-both"/>
+
+<div class="loot">
+
 ## Loot Chits
 
-<img src="http://placehold.it/100x100" align="right">
+<img src="../img/figure_loot.svg">
 
 The objective of the heist is (usually) to steal Loot chits, which can be Artwork, Jewels, Documents, or Cash. At any time when a character shares a space with Loot, they may immediately place that Loot chit on their Character card.
 
 You may also "drop" loot on your current space, which means that you may effectively "insta-transfer" loot from one character to another when sharing a space.
 
 When a character with Loot gets Outdoors, the team has acquired that loot for the heist - place it on the Team Loot square. For Cash, increase the Team Cash tracker accordingly.
+
+A special loot chit is the **Story Beacon**, denoted by an asterisk. When a character enters a space with the Beacon for the first time,  refer to the scenario for what to do and remove the chit.
+</div>
 
 ## Prisoner
 
@@ -220,25 +225,21 @@ The structure of each heist is:
   <ol class="gameplay-structure">
     <li>The Plan: Place planning tokens, Purchase Extra reveals 🔍, Purchase Extra Ideas 💡
     </li>
-    <li>The Heist
-      <ol>
-        <li>Roll for Skill</li>
-        <li>Character Action</li>
-        <li>Roll for Security</li>
-        <li style="list-style-type: disc">Escape Phase</li>
-      </ol>
+    <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Roll for Security. Escape Phase.
     </li>
     <li>Promote Characters &amp; Refine Skills</li>
   </ol>
 
 
-## Part I: The Plan
-
+<div>
 
 <div class="example-right">
-  <img src="../img/figure_planning.svg"><br>
-  Blue and Red place their planning tokens.
+<img src="../img/figure_planning.svg"><br>
+Blue and Red place their planning tokens.
 </div>
+
+## Part I: The Plan
+
 
 With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
 
@@ -249,6 +250,8 @@ With your team, you will collaboratively come up with a plan of how you will pul
 During this phase, you may purchase and immediately use any number of Reveal🔍 for $1k of team loot each. You may also purchase any number of Ideas💡 for $1k of team loot each. Place each purchased Idea💡 on a character immediately.
 
 Place your Character pawn on the Entrance space where you will plan to start. The default limit character limit per Entrance is 2 (unlimited during Escape phase.) *Note:* some scenarios dictate a different a limits on this.
+
+</div>
 
 <div class="clear-both"/>
 
@@ -368,11 +371,9 @@ Whenever an Event calls for a new Guard to be placed, take it from the supply (n
 
 When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.
 
-Declare the number of Escape Moves you will take to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 that a character has may be used for 1 Escape Move.
+Declare the number of Escape Moves your character will take to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 you have may be used for 1 Escape Move.
 
 After you have declared your Escape moves and used up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
-
-
 <div class="example">
 
 <div class="example-right">
@@ -384,7 +385,7 @@ Blue needs 5 Escape Moves. Red and Green are Busted.
 *For example Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out.*
 </div>
 
-You may *__not__* use abilities that cost 🔊 or ⚠ during the Escape Phase.
+You MAY NOT use abilities that cost 🔊 or ⚠ during the Escape Phase.
 
 <div class="example">
 *For example, SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed*
