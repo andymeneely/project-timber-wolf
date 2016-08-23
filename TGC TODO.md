@@ -1,20 +1,15 @@
-These were taken off of the current store page to just get the prototype printed:  
-  * Rules booklet (Jumbo, 8 pages)
-  * Scenario booklet (Jumbo, 8 pages)
-  * Large box top wrap
-  * Game helps (2x Skinny Mats)
-  * Campaign ledger
-
 # TODO List for TGC Contest
 * Put stuff back on the TGC print for the final print
-* Make document
+* Make campaign ledger
 * Make color scenario booklet
 * Finish box top wrap
 * Finish color backs for skills
 * Finish colors backs for characters
 * Finish color noise tracker
 * Finish color event tracker
-* Make game helps (optional)
+* Make game helps:
+  - Security events guide
+  - Sub-actions, security, and other rules guide
 * Finish color tiles: Security / Blanks
 * Finish color tiles: Gates
 * Finish color chits
@@ -37,12 +32,9 @@ These were taken off of the current store page to just get the prototype printed
   * Perspective shots of the cards
   * Take pictures of the prototype
   * Some other marketing pictures
-* Make promo video
-* Make "how to set up" video
+* Change the Security mat to just say "use other side"
 * Make shop backdrop
 * Make game logo
-* Make full PDF of rules and FAQ
+* Make full PDF of Rules + FAQ for downloadable
 * Shop ad
-* Submit for sanity testing
-  - Do I need a video for that first?
 * Make instructions for how to vote for the game (buying points, etc.)

@@ -261,7 +261,7 @@ Repeat Phase 1 through 3 until the Escape Phase is initiated.
 
 ### Phase 1. Roll for Skill
 
-Everybody simultaneously rolls their die. Place the Noise Tracker Ring on the noise Tracker Marker.
+Everybody simultaneously rolls their die.
 
 ### Phase 2. Character Action
 
@@ -404,3 +404,7 @@ When you are Busted, you are out of gameplay for the rest of this Heist. All loo
 Each Heist has an objective built into it. If your team does not complete its objective, the campaign is lost. Some scenarios may define what to do if the heist is lost. If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
 
 You may retry a heist from the original conditions (i.e. restore from a previous "saved game").
+
+# Winning a Heist
+
+If you have completed your objective, your team advances to the next chapter. Leftover 💡 are lost. Any cash on a Character is added to the Team Cash tracker, as well as any loot. Be sure to note everything in your Campaign History.

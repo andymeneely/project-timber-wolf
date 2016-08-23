@@ -15,23 +15,21 @@ These coordinations are something that can be decided by everyone at the table, 
 
 Contrast this to many co-op games that are turn-based, and you'll find there's a lot of downtime, tons of indecision, and the awkwardness that everyone else at the table is discussing _your move_.
 
-A second difference, which is a little less original, is the **campaign-style series** structure. A standard scenario of 2-3 heists can be completed in one night. But you can also play longer. During this time, your players and skills will level up and you'll carry various bonuses from one game to the next. These smaller heists mean that:
+A second difference is the **campaign-style series** structure. A standard scenario of 2-3 heists can be completed in one night. But you can also play longer. During this time, your players and skills will level up and you'll carry various bonuses from one game to the next. These smaller heists mean that:
   * You get the benefits of a role-playing game without a long-term commitment required
   * If you make a poor decision in one heist, you only have to live with it for this one heist instead of the entire game
   * You can play longer, multi-night campaigns where individual characters level up one-at-a-time, the boards get increasingly tougher, and the teams are more diverse level-wise
   * A rich storyline emerges about characters (and players!) getting better and better a coordinating great heists and applying that knowledge immediately to the next heist.
 
-Finally, this game is unique in its use of **theme for co-ops**. I was surprised to see this, but while crime is a widely-used theme for board games, none of the BoardGameGeek's top 300 board games involve a cooperative heist game (i.e. where players take on the role of a criminal and work with other criminals to pull a heist). None. While many co-op games involve heist-like qualities, none of them have it as its explicit theme. _Your Last Heist_ borrows elements from heist movies (and real heists) to make the gameplay immersive and unique.
+Finally, this game is unique in its use of **theme for co-ops**. I was surprised to see this, but while crime is a widely-used theme for board games, none of the BoardGameGeek's top 300 board games involve a cooperative heist game (i.e. where players take on the role of a criminal and work with other criminals to pull a heist). None. While many co-op games involve heist-like qualities, none of them have it as its explicit theme. _Your Last Heist_ borrows elements from heist movies and real heists to make the gameplay immersive and unique.
 
 ## What does this game do to minimize downtime?
 
-This was crucial in my design and we carefully timed our games throughout playtesting. The following chart shows one playtesting session broken down by time.
-
-(playtesting session timed)
+This was crucial in my design and we carefully timed our games throughout playtesting.
 
 The vast majority of the time in this game are in the Character Actions phase where players are deciding what to do. Rather than a turn-based system, _Your Last Heist_ uses a *simultaneous action coordination* mechanic (see above question). Due to the board designs, players often finding themselves "pairing off" with similar objectives. Players paired off can coordinate with each other without having to bother the rest of the table with most of their decisions. Some decisions need to be made jointly by the table, too. This Character Action phase tends to be quite chatty with plenty of crosstalk. Nobody is waiting for their own turn!
 
-The other phases, such as Roll for Security, are very fast. Roll for Security is under a minute usually. Roll for Skill is instantaneous. The Escape Phase is under 3 minutes because it comes down to just one die roll for each player (and not usually every player needs an Escape roll). All of these phases are intentionally short to get back to Character Actions, which is where the fun is.
+The other phases, such as Roll for Security, are very fast. Roll for Security is under a minute, usually. Roll for Skill is instantaneous. The Escape Phase is under 3 minutes because it comes down to just one die roll for each player (and not usually every player needs an Escape roll). All of these phases are intentionally short to get back to Character Actions, which is where the fun is.
 
 We also have some downtime in setting up the next heist after one is finished. During this time, we have done the following to assist downtime:
   * Players are leveling up their skills and characters _while_ 1-2 people are setting up the board. The table is usually quite chatty during this time as people are discussing their decisions.
@@ -50,7 +48,7 @@ Also, since everyone has their own set of rotating skills, the Alpha can't reall
 
 ## Why no traitor mechanic? Seems perfect given the theme!
 
-Yes, this game satisfies the two of the three Gamehole Gauntlet challenge criteria (RPG-style and extensive use of chits), and the third traitor mechanic falls right in line with the theme of heists. I could even get an extra point. Perfect, right?
+Yes, this game satisfies the two of the three Gamehole Gauntlet challenge criteria (RPG-style and extensive use of chits), and the third traitor mechanic falls right in line with the theme of heists. I could even get an extra point from the judges. Perfect, right?
 
 Truthfully, the game designer (Andy) doesn't like traitor mechanics. He finds them stressful. And he didn't want to spend hundreds of playtesting hours on a mechanic that gives him anxiety even if it's done well.
 
@@ -62,7 +60,7 @@ I believe so. One of our main playtesters is red-green color-blind and provided 
 
 ## What was your playtesting process?
 
-Early, often, and diverse. For five months straight, I ran 1-3 game nights per week playing the game. I got feedback from non-gamers and hardcore gamers. All friends, some were friends-of-friends. The ages ranged from mid-twenties to sixties. Professions ranged from artists to doctors to academics to software testers. We had X% men and Y% women across our Z playtesters.
+Early, often, and diverse. For five months straight, I ran 1-3 game nights per week playing the game. I got feedback from non-gamers and hardcore gamers. All friends, some were friends-of-friends. The ages ranged from mid-twenties to sixties. Professions ranged from artists to doctors to academics to software testers. Our list of playtesters can be found on our GitHub page in the PLAYTESTERS.md file.
 
 Blind playtesting is the next step in my development process.
 
@@ -125,7 +123,7 @@ You may still use the action, just improvise an exit tile (e.g. move one that is
 
 ## Can I pick up loot during the Escape phase?
 
-Yes! And you may drop loot if you want to transfer to someone else. Note that you CANNOT first roll your die, AND THEN determine if you have enough ideas + die roll to loot. You must use your ideas, THEN roll your die for Escape Moves.
+Yes! And you may drop loot if you want to transfer to someone else. Note that you CANNOT first roll your die, AND THEN determine if you have enough ideas + die roll to loot. You must use your ideas and declare your escape plan, THEN roll your die to see if you got enough Escape Moves.
 
 ## Does my path out of the Escape phase need to be the shortest path?
 
