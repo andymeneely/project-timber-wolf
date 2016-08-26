@@ -1,7 +1,6 @@
 # TODO List for TGC Contest
 * Make color scenario booklet
 * Finish color backs for skills
-* Finish colors backs for characters
 * Finish color noise tracker
 * Finish color event tracker
 * Make game helps:
@@ -29,6 +28,7 @@
   * Perspective shots of the cards
   * Take pictures of the prototype
   * Some other marketing pictures
+* Proof everything
 * Change the Security mat to just say "use other side"
 * Make shop backdrop
 * Make game logo
