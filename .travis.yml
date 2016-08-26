@@ -4,6 +4,11 @@ cache: bundler # cache bundled gems from build to build
 rvm:
   - 2.2.5
 
+addons:
+  apt:
+    packages:
+      - libgirepository1.0-dev # for gobject-introspection
+
 script:
   - mkdir ~/.fonts
   - cp fonts/*.otf ~/.fonts
