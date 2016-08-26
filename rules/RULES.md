@@ -311,7 +311,7 @@ You have the final say about what to do with your own character.
 
 When all players have finished their Actions, one player rolls the four-sided security die. Trigger the event denoted by the number of squares away from the alert bar.
 
-Below is the translation of the event iconography. (Note that these are examples - some of these events are combined on the actual alert tracker)
+Below is the translation of the event iconography. (Note that these are examples - some of these events are combined on the actual alert tracker). A comprehensive guide can be found on the game help titled "Security Events".
 
 <div class="flex-container alerts">
 
@@ -338,7 +338,7 @@ Below is the translation of the event iconography. (Note that these are examples
         For each character on a tile with a Subdued Guard, Un-Subdue that guard.  Increase ⚠ twice (if applicable).
   * <img src="../img/figure_alerts_hey_you.svg"><br>
         **Hey You!**<br>
-        For each character adjacent to at least one Guard, add a Guard to the character's current tile.
+        For each character adjacent to at least one Guard, add a Guard to the character's current tile. (Maximum one Guard per character.)
   * <img src="../img/figure_alerts_call_it_in.svg"><br>
         **Call It In**<br>
         Replace every Disabled Camera with a Guard.

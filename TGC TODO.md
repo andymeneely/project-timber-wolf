@@ -1,11 +1,8 @@
 # TODO List for TGC Contest
+* Make game helps:
+  - Sub-actions, security, and other rules guide
 * Make color scenario booklet
 * Finish color backs for skills
-* Finish color noise tracker
-* Finish color event tracker
-* Make game helps:
-  - Security events guide
-  - Sub-actions, security, and other rules guide
 * Finish color tiles: Security / Blanks
 * Finish color tiles: Gates
 * Finish color chits
@@ -29,7 +26,6 @@
   * Take pictures of the prototype
   * Some other marketing pictures
 * Proof everything
-* Change the Security mat to just say "use other side"
 * Make shop backdrop
 * Make game logo
 * Make full PDF of Rules + FAQ for downloadable
