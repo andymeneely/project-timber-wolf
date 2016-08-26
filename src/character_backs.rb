@@ -21,7 +21,7 @@ Squib::Deck.new(cards: total) do
     png file: grits
     svg file: 'character-back-color.svg'#, range: 0
     svg file: data['Name'].map { |n| "shadows/#{n.downcase}.svg" },
-        x: 330, y: 320, width: 450, height: :scale
+        x: 330, y: 170, width: 450, height: :scale
   end
 
   text str: data['Name'], layout: :name

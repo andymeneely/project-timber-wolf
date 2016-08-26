@@ -6,17 +6,21 @@ cut:
 name:
   font: Archivo Black, 32
   x: 175
-  y: 850
+  y: 700
   width: 475
-  height: 85
-  # hint: black
+  height: 100
+  # hint: red
   align: center
+  valign: middle
 upgrade1:
   extends: name
   x: 75
-  y: 450
+  font_size: 28
+  spacing: -10
+  y: 300
   width: 300
-  height: 85
+  height: 100
+  ellipsize: false
   # hint: black
 upgrade2:
   extends: upgrade1
