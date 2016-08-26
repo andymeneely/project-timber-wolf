@@ -52,7 +52,6 @@ Squib::Deck.new(width: 375, height: 375, cards: data['Name'].size) do
     File.read("img/#{svg}").gsub('fill:#000000', "fill:#{data['FGColor'][i]}")
   end
   svg data: svgdata
-  png file: data['Overlay']
   # png file: 'large-circle-chit.png', alpha: 0.5
   #png file: 'large-square-chit.png', alpha: 0.5
   save_png prefix: 'lg', count_format: data['File']
@@ -70,7 +69,6 @@ Squib::Deck.new(width: 225, height: 225, cards: data['Name'].size) do
     File.read("img/#{svg}").gsub('fill:#000000', "fill:#{data['FGColor'][i]}")
   end
   svg data: svgdata
-  png file: data['Overlay']
   # png file: 'small-circle-chit.png', alpha: 0.5
   save_png prefix: 'sm', count_format: data['File']
 end
