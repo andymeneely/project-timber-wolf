@@ -2,7 +2,6 @@
 * Put stuff back on the TGC print for the final print
 * Make campaign ledger
 * Make color scenario booklet
-* Finish box top wrap
 * Finish color backs for skills
 * Finish colors backs for characters
 * Finish color noise tracker
