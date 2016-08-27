@@ -240,9 +240,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42826922"
-     inkscape:cx="497.84065"
-     inkscape:cy="355.46224"
+     inkscape:zoom="0.21413461"
+     inkscape:cx="-815.4561"
+     inkscape:cy="2272.9894"
      inkscape:document-units="in"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -1903,7 +1903,7 @@
            height="350.02899"
            x="-409.46786"
            y="-81.865128" /></flowRegion><flowPara
-         id="flowPara10580"></flowPara></flowRoot>    <flowRoot
+         id="flowPara10580" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot10582"
        style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:'Archivo Narrow';font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Archivo Narrow, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowRegion
@@ -1913,7 +1913,7 @@
            height="1053.389"
            x="-2694.5627"
            y="855.94836" /></flowRegion><flowPara
-         id="flowPara10588"></flowPara></flowRoot>    <text
+         id="flowPara10588" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="868.46814"
@@ -1923,10 +1923,10 @@
          sodipodi:role="line"
          id="tspan10616"
          x="868.46814"
-         y="-929.90778"></tspan></text>
+         y="-929.90778" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:131.9155426px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#42290d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:131.9155426px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="70.304573"
        y="-1490.7112"
        id="text10618"
@@ -1935,7 +1935,7 @@
          id="tspan10620"
          x="70.304573"
          y="-1490.7112"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';fill:#42290d;fill-opacity:1">Security Events</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';fill:#000000;fill-opacity:1;">Security Events</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1946,7 +1946,7 @@
          sodipodi:role="line"
          id="tspan10725"
          x="1013.7632"
-         y="800.42407"></tspan></text>
+         y="800.42407" /></text>
   </g>
   <g
      inkscape:groupmode="layer"

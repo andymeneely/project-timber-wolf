@@ -105,7 +105,7 @@ Security chits are generally unknown at the beginning of the heist, and are plac
 
 | Name | Active | Inactive | Behavior |
 |:----:|:------:|:--------:|---|
-| Guard | <img src="../img/guard.svg" width="40"><br>Guard | <img src="../img/subdued.svg" width="40"><br>Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may walk into a space with a Guard. |
+| Guard | <img src="../img/guard.svg" width="40"><br>Guard | <img src="../img/subdued.svg" width="40"><br>Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may move into a space with a Guard. |
 | Camera | <img src="../img/camera.svg" width="40"><br>Live | <img src="../img/disconnected.svg" width="40"><br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but increase the Alert (⚠) by 1. If a Disabled camera is powered back on while a player is on it, increase the Alert (⚠) by 1.  |
 | Lock | <img src="../img/locked.svg" width="40"><br>Locked | <img src="../img/unlocked.svg" width="40"><br>Unlocked | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile if it was re-locked while you were on it.  |
 
@@ -119,7 +119,7 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 
 | Icon | Sub-Action Description |
 |:--:|---|
-| ➜ | **Move** to an adjacent, planned, not locked, non-pressure sensored tile |
+| ➜ | **Move** to an adjacent, planned, not locked, tile |
 | 🔓 | **Unlock** 1 locked, adjacent tile |
 | 👊 | **Subdue** 1 guard on or adjacent to your tile |
 | 📷 | **Disable** 1 camera on or adjacent to your tile |
@@ -200,23 +200,17 @@ Tip: to verify the layout, match the shapes of the Gaps between tiles
 
 Some boards have already-revealed security chits. The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board (they are **the supply**).
 
-**Step 4. Decide on player colors.** Distribute the 6-sided die, and pawn according to your color.
+**Step 4. Distribute player tokens.** Distribute the 6-sided die, and pawn according to your color.
 
-**Step 5. Build Characters.** Assign characters to each player according to preference. If the scenario says "Suggested Characters", then you are allowed (and encouraged!) to explore other options for Character-Skill pairings. If the scenario says "Required", then the storyline requires that those characters and/or skills are used. Place the two Skill cards below the Character card.
+**Step 5. Build Characters.** Assign a character to each player according to preference. If the scenario says "Suggested Characters", then you are allowed (and encouraged!) to explore other options for Character-Skill pairings. If the scenario says "Required", then the storyline requires that those characters and/or skills are used. Place the two Skill cards below the Character card.
 
 **Step 6. Distribute the Planning tokens** to each character according to their color and Planning Memory. *For example, the Lookout has a Planning Memory of 6, so she gets 6 planning tokens*. Place remaining Planning tokens back in the box.
 
 **Step 7. Distribute initial Ideas💡** to each player according to their character.
 
-**Step 8. Place the Noise and Alert trackers** in view of everyone and according to the number of players (3- or 4-player).
+**Step 8. Set up Noise and Alert trackers** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place. Place Team Cash markers on their starting places. Place Alert bar on its starting place.
 
-**Step 9. Place the Noise Tracker markers** on their starting place. Place both cylinders on top of each other.
-
-**Step 10. Place the Alert Bar** marker on its starting place.
-
-**Step 11. Place the Team Cash trackers** on the starting place according to the scenario.
-
-**Step 12. Record your team on the provided document**. Determine a name for your team. Players are encouraged name their characters.
+**Step 9. Record your team on the ledger**. Determine a name for your team. Players are encouraged name their characters.
 
 # Heist Gameplay
 
@@ -369,9 +363,9 @@ Whenever an Event calls for a new Guard to be placed, take it from the supply (n
 
 ### Escape Phase
 
-When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.
+When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.--
 
-Declare the number of Escape Moves your character will take to an exit. Ignore Plan tokens. Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 you have may be used for 1 Escape Move.
+Declare the number of Escape Moves your character will take to an exit. Ignore Plan tokens (Escape Moves do not need prior planning). Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 you have may be used for 1 Escape Move.
 
 After you have declared your Escape moves and used up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
 <div class="example">
