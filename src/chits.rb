@@ -33,8 +33,8 @@ end
 ###################################
 puts "Building bullseye chits..."
 Squib::Deck.new(width: 375, height: 900, cards: 4) do
-  cyan = '#40bfbd'; purple = '#bf40ba'; yellow = '#c8cc31'; gray = '#888888'
-  background color: [cyan, purple, yellow, gray]
+  cyan = '#40bfbd'; purple = '#bf40ba'; yellow = '#c8cc31'
+  background color: [cyan, purple, yellow, yellow]
   rect fill_color: '#42290d', width: width, height: 200
   svg file: 'jewel-chit.svg'
   save_png prefix: 'pressure_token_', count_format: '%02d_[all]'
