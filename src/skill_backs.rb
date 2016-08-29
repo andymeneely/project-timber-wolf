@@ -58,7 +58,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   text str: data['Upgrade2'].map { |s| summarize_skill(s) }, layout: :up1_sum
   text str: rolls2, layout: :up2_sum, markup: true
 
-  save_png prefix: 'skill_back_', rotate: true
+  save_png prefix: 'skill_back_', rotate: true#, range: 0
 
   only_lvl1_2 = data['Level'].map.with_index { |x,i| [1].include?(x.to_i) ? i : nil }.compact
   save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: only_lvl1_2

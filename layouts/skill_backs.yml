@@ -5,13 +5,15 @@ cut:
   height: 2.5in
 name:
   font: Archivo Black, 42
-  x: 255
+  spacing: -20
+  x: 275
   y: 235
   angle: 1.57079633
   width: 355
-  height: 380
+  height: 175
   align: center
-  valign: top
+  valign: middle
+  # hint: red
 upgrade1:
   font: Archivo Black, 36
   x: 305

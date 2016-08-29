@@ -7,7 +7,7 @@ _Your Last Heist_ is a cooperative, multi-stage heist game. You are playing the 
 
 A single heist takes 30-40 minutes, and is part of a narrative where your team improves their skills and characters over time. The scenarios are story-driven, highly replayable, and allow you to "save" your game between heists.
 
-During each heist, you will collaborate with teammates with simultaneous gameplay to coordinate your movements. Each round begins with everyone rolling a die to determine which actions are available. You use Ideas💡 to modify that die roll, but don't spend too many - you'll need those Ideas💡 to escape, too!
+During each heist, you will collaborate with your teammates in simultaneous gameplay. Each round begins with everyone rolling a die to determine which actions are available. You use Ideas💡 to modify that die roll, but don't spend too many - you'll need those Ideas💡 to escape, too!
 
 ## The Pieces
 
@@ -62,6 +62,7 @@ Between Heists, your scenario may give you an opportunity to **promote** (i.e. "
 
 <div class="clear-both"/>
 
+<br><br>
 
 <div class="skills">
 <img src="skill_example.png">
@@ -87,7 +88,7 @@ The board is a set of modular double-sided hex tiles. All hexes are considered s
 
  You are considered **adjacent** to something if your are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
 
-Each board has one or more **Entrances**. These Entrances (they are also Exits) represent a space. If a player is on one of these spaces, they are considered to be Outdoors, otherwise they are Indoors.
+Each board has one or more **Entrances**. These Entrances represent a space. If a character is on one of these spaces they are considered to be Outdoors, otherwise they are Indoors. An Entrance tile is also considered an Exit.
 
 By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, although the scenario may impose additional limits.
 
@@ -97,9 +98,9 @@ Some abilities refer to a **non-tiled gap**, which is a hex-spaced area between 
 
 ## Security Chits
 
-Security Chits are randomized obstacles that your team will encounter. They are shown to the right.
+Security Chits are randomized obstacles that your team will encounter. They are shown below.
 
-Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a player is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
+Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a character is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
 
 <div class="security-table">
 
@@ -107,7 +108,7 @@ Security chits are generally unknown at the beginning of the heist, and are plac
 |:----:|:------:|:--------:|---|
 | Guard | <img src="../img/guard.svg" width="40"><br>Guard | <img src="../img/subdued.svg" width="40"><br>Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may move into a space with a Guard. |
 | Camera | <img src="../img/camera.svg" width="40"><br>Live | <img src="../img/disconnected.svg" width="40"><br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but increase the Alert (⚠) by 1. If a Disabled camera is powered back on while a player is on it, increase the Alert (⚠) by 1.  |
-| Lock | <img src="../img/locked.svg" width="40"><br>Locked | <img src="../img/unlocked.svg" width="40"><br>Unlocked | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile if it was re-locked while you were on it.  |
+| Lock | <img src="../img/locked.svg" width="40"><br>Locked | <img src="../img/unlocked.svg" width="40"><br>Unlocked | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile in any direction if it was re-locked while you were on it.  |
 
 </div>
 
@@ -119,7 +120,7 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 
 | Icon | Sub-Action Description |
 |:--:|---|
-| ➜ | **Move** to an adjacent, planned, not locked, tile |
+| ➜ | **Move** to an adjacent, planned, not locked tile |
 | 🔓 | **Unlock** 1 locked, adjacent tile |
 | 👊 | **Subdue** 1 guard on or adjacent to your tile |
 | 📷 | **Disable** 1 camera on or adjacent to your tile |
@@ -134,16 +135,17 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 
 <img src="../img/figure_trackers.svg" align="right">
 
-The Noise tracker mat is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon entering a Noise level with an Alert ⚠, increase the Alert Bar by 1. If the Noise marker gets to the final slot, increase ⚠ for each 🔊 incurred.
+The Noise Tracker mat is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon entering a Noise level with an Alert ⚠, increase the Alert Bar by 1. If the Noise marker gets to the final slot, increase ⚠ for each 🔊 incurred.
 
-The Alert Bar represents the potential Security Events you will encounter in the near future. The Alert Bar marker (a long wooden bar) is only ever placed *between* events. The Alert Bar represents a lower-bound of what events could possibly occur, so nothing happens immediately when you increase the Alert bar.
+The Alert Tracker represents the potential Security Events you will encounter in the near future. The Alert Bar (white wooden bar) is only ever placed *between* events. The Alert Bar represents a lower bound of what events could possibly occur, so nothing happens immediately when you increase the Alert bar.
 
-The Alert bar does not go beyond its final slot. Thus if the team runs out of alerts, the Escape phase is initiated in the *Roll for Security* stage no matter what is rolled.
+The Alert bar does not go beyond its final slot. If the team runs out of alerts, the Escape phase is initiated in the *Roll for Security* stage no matter what is rolled.
 
 Details on the Security Event iconography is in the *Roll for Security* section.
 
 These mats also have spaces for team loot and some prisoner-related tracking (described later).
 
+<br><br>
 
 ## Security Systems
 <div class="security_systems">
@@ -151,7 +153,7 @@ These mats also have spaces for team loot and some prisoner-related tracking (de
 
 **Gate**. A character may enter or exit this space freely. Security Events may remove this tile from the board.
 
-**Pressure Sensors**. You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍 and 🔊⚠ are still required.
+**Pressure Sensors**. You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍, and 🔊⚠ are still required.
 
 For each Pressure Sensor, a corresponding **Control Panel** of the same color exists somewhere else on the board. If a character is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
 
@@ -173,14 +175,15 @@ You may also "drop" loot on your current space, which means that you may effecti
 
 When a character with Loot gets Outdoors, the team has acquired that loot for the heist - place it on the Team Loot square. For Cash, increase the Team Cash tracker accordingly.
 
-A special loot chit is the **Story Beacon**, denoted by an asterisk. When a character enters a space with the Beacon for the first time,  refer to the scenario for what to do and remove the chit.
+A special loot chit is the **Story Beacon**, denoted by an asterisk. When a character enters a space with the Beacon for the first time,  refer to the scenario for what to do, then remove the chit.
 </div>
 
 ## Prisoner
 
-Some heists have a **Prisoner**, represented by a white pawn. A Prisoner is a non-Player Character that your team can "remotely" control. A Prisoner is not Freed until their Pressure Sensor space is fully disabled. A Freed Prisoner has one Action available (Crawl➜), cannot carry Ideas💡, and needs no planning tokens. As a team, you must decide how to use the prisoner's Crawl Action.
+Some heists have a **Prisoner**, represented by a white pawn. A Prisoner is a non-Player Character that your team can "remotely" control. A Prisoner is not Freed until their Pressure Sensor space is fully disabled. A Freed Prisoner has one Action available (Crawl➜), cannot carry Ideas💡, and needs no planning tokens. As a team, you must decide how to use the prisoner's Crawl Action. To track when the Prisoner has completed a move, place the white cube on the Crawl space on the Noise tracker.
 
 In every other way, treat a Freed Prisoner like a regular character. Freed Prisoners may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase (use a player die for this).
+
 
 # Setting Up
 
@@ -219,11 +222,10 @@ The structure of each heist is:
   <ol class="gameplay-structure">
     <li>The Plan: Place planning tokens, Purchase Extra reveals 🔍, Purchase Extra Ideas 💡
     </li>
-    <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Roll for Security. Escape Phase.
+    <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Roll for Security. Repeat until Escape Phase.
     </li>
     <li>Promote Characters &amp; Refine Skills</li>
   </ol>
-
 
 <div>
 
@@ -241,7 +243,7 @@ With your team, you will collaboratively come up with a plan of how you will pul
 *Note:* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
 </div>
 
-During this phase, you may purchase and immediately use any number of Reveal🔍 for $1k of team loot each. You may also purchase any number of Ideas💡 for $1k of team loot each. Place each purchased Idea💡 on a character immediately.
+During this phase, you may purchase and immediately use any number of Reveal🔍 for $1k of team loot each. You may also purchase any number of Ideas💡 for $1k of team loot each. Place each purchased Idea💡 on a character card immediately.
 
 Place your Character pawn on the Entrance space where you will plan to start. The default limit character limit per Entrance is 2 (unlimited during Escape phase.) *Note:* some scenarios dictate a different a limits on this.
 
@@ -256,6 +258,10 @@ Repeat Phase 1 through 3 until the Escape Phase is initiated.
 ### Phase 1. Roll for Skill
 
 Everybody simultaneously rolls their die.
+
+<div class="tip">
+Tip: If you have a Freed Prisoner, have one player roll the white cube like a die alongside their regular die
+</div>
 
 ### Phase 2. Character Action
 
@@ -290,7 +296,7 @@ The Noise(🔊) and the Alert(⚠) sub-actions are **required**, but all other s
 Like other sub-actions, noise may be increased at any time during Character action (just don't forget!).
 
 <div class="tip">
-*Tip: wait to account for noise until the end of Character Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
+*Tip: Wait to account for noise until the end of Character Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
 </div>
 
 You may opt to simply PASS, and take no actions with no noise penalty.
@@ -303,9 +309,9 @@ You have the final say about what to do with your own character.
 
 ### Phase 3. Roll for Security
 
-When all players have finished their Actions, one player rolls the four-sided security die. Trigger the event denoted by the number of squares away from the alert bar.
+When all players have finished their Actions, one player rolls the four-sided security die. Trigger the event by counting the number of squares from the alert bar.
 
-Below is the translation of the event iconography. (Note that these are examples - some of these events are combined on the actual alert tracker). A comprehensive guide can be found on the game help titled "Security Events".
+Below is the translation of the event iconography. (Note that these are examples - some of these events are combined on the actual alert tracker.) A comprehensive guide can be found on the game help titled "Security Events".
 
 <div class="flex-container alerts">
 
@@ -323,7 +329,7 @@ Below is the translation of the event iconography. (Note that these are examples
         For each character on a Subdued Guard, increase Alert(⚠) bar by 1. For each character on a Disabled Camera, increase Alert(⚠) bar by 1.
   * <img src="../img/figure_alerts_power_on.svg"><br>
         **Reboot**<br>
-        Make every Disabled Camera Live. Increase ⚠ every time you do this only if it has an "⚠:" on it.
+        Make every Disabled Camera Live. Increase ⚠ every time you do this.
   * <img src="../img/figure_alerts_lockdown.svg"><br>
         **Lockdown**<br>
         Close the next Gate, starting with "A". Remove the tile. If a character is on it, they are immediately Busted. Increase alert for each ⚠ shown.
@@ -332,7 +338,7 @@ Below is the translation of the event iconography. (Note that these are examples
         For each character on a tile with a Subdued Guard, Un-Subdue that guard.  Increase ⚠ twice (if applicable).
   * <img src="../img/figure_alerts_hey_you.svg"><br>
         **Hey You!**<br>
-        For each character adjacent to at least one Guard, add a Guard to the character's current tile. (Maximum one Guard per character.)
+        For each character adjacent to at least one Camera, add a Guard to the character's current tile. (Maximum one Guard per character.)
   * <img src="../img/figure_alerts_call_it_in.svg"><br>
         **Call It In**<br>
         Replace every Disabled Camera with a Guard.
@@ -342,7 +348,7 @@ Below is the translation of the event iconography. (Note that these are examples
 
 </div>
 
-Whenever an Event calls for a new Guard to be placed, take it from the supply (not the bag).
+Whenever an Event calls for a new Guard to be placed, take it from the **supply** (not the bag).
 
 <div class="reinforcements">
 
@@ -358,6 +364,9 @@ Whenever an Event calls for a new Guard to be placed, take it from the supply (n
   6. _Replace the Reinforcements_ chit with two Guards.
 
 </div>
+<div class="tip">
+Note that Reinforcements are only called once per heist.
+</div>
 
 <div class="clear-both"/>
 
@@ -365,7 +374,7 @@ Whenever an Event calls for a new Guard to be placed, take it from the supply (n
 
 When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.--
 
-Declare the number of Escape Moves your character will take to an exit. Ignore Plan tokens (Escape Moves do not need prior planning). Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 you have may be used for 1 Escape Move.
+Determine and declare the number of Escape Moves your character will take to an exit. Ignore Plan tokens (Escape Moves do not need prior planning). Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 you have may be used for 1 Escape Move.
 
 After you have declared your Escape moves and used up all of your 💡, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
 <div class="example">

@@ -239,9 +239,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="153.837"
-     inkscape:cy="129.63307"
+     inkscape:zoom="3.959798"
+     inkscape:cx="99.010158"
+     inkscape:cy="81.384134"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -590,26 +590,26 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker17866)" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#a7000c;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 120.01597,984.45676 17.6777,-29.41037"
+       d="m 119.51089,985.59318 17.6777,-29.41037"
        id="path17900"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
        sodipodi:linespacing="125%"
        id="text17902"
-       y="956.06323"
-       x="174.09476"
+       y="951.26501"
+       x="176.87268"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.20003414px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="956.06323"
-         x="174.09476"
+         y="951.26501"
+         x="176.87268"
          id="tspan17904"
          sodipodi:role="line">NOT external side</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path17912"
-       d="m 173.94418,953.59115 -35.38911,9.53436"
+       d="M 175.71195,946.52008 140.0703,958.83236"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker17914)" />
     <text
        xml:space="preserve"

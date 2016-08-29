@@ -113,9 +113,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3723109"
-     inkscape:cx="445.92532"
-     inkscape:cy="450.01504"
+     inkscape:zoom="0.68615547"
+     inkscape:cx="354.62751"
+     inkscape:cy="647.2583"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -4113,31 +4113,41 @@
        xml:space="preserve"
        id="flowRoot6749"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(337.93897,22.114439)"><flowRegion
+       transform="translate(30.839734,106.61826)"><flowRegion
          id="flowRegion6751"><rect
            id="rect6753"
-           width="219.03"
-           height="243.35651"
+           width="559.76611"
+           height="144.4252"
            x="74.751289"
            y="600.5"
            style="font-size:15px;text-align:start;text-anchor:start" /></flowRegion><flowPara
-         id="flowPara6755">If you want to try out a chapter by itself, we provide game state suggestions for the following chapters:</flowPara><flowPara
-         id="flowPara15285">The Venetian Swap: </flowPara><flowPara
-         id="flowPara15287">  Ch. 5 The Long Swap</flowPara><flowPara
+         id="flowPara6755">If you want to try out a chapter by itself without going through the campaign, try these standalone challenges:</flowPara><flowPara
+         id="flowPara15287"><flowSpan
+   id="flowSpan18060"
+   style="font-weight:bold">The Fall Guys: </flowSpan>Ch. 3 Your Last Heist</flowPara><flowPara
+         id="flowPara18066"><flowSpan
+   style="font-weight:bold"
+   id="flowSpan18068">The Venetian Swap: </flowSpan>Ch. 5 The Long Swap</flowPara><flowPara
+         id="flowPara18072"><flowSpan
+   style="font-weight:bold"
+   id="flowSpan18074">The Venetian Swap:</flowSpan> Ch. 3 The Provenance</flowPara><flowPara
+         id="flowPara18062"><flowSpan
+   style="font-weight:bold"
+   id="flowSpan18064">The Smugglers</flowSpan>: Ch. 3 The Backdoor Job</flowPara><flowPara
          id="flowPara15289" /><flowPara
          id="flowPara15291" /><flowPara
          id="flowPara15283" /><flowPara
          id="flowPara6783" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.46452713px;line-height:125%;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="520.95453"
-       y="618.86652"
+       x="242.71025"
+       y="703.37036"
        id="text6819"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6821"
-         x="520.95453"
-         y="618.86652">Special Challenges</tspan></text>
+         x="242.71025"
+         y="703.37036">Standalone Challenges</tspan></text>
     <g
        id="g15165"
        transform="translate(19.040154,18.408974)">
@@ -4196,16 +4206,16 @@
          style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <rect
-       ry="14.953866"
-       y="595.80176"
-       x="401.85519"
-       height="342.23679"
-       width="238.14661"
+       ry="12.78874"
+       y="680.3056"
+       x="94.755959"
+       height="292.68533"
+       width="562.76495"
        id="rect6835"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <g
        id="g15310"
-       transform="translate(293.70229,-170.03817)">
+       transform="translate(293.70229,-127.78626)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -4315,61 +4325,5 @@
          x="355.55283"
          y="522.6557"
          id="tspan13154">Hard</tspan></text>
-    <g
-       id="g15266"
-       transform="translate(-288.54962,-46.788343)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:125%;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="484.14349"
-         y="800.82648"
-         id="text15185"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan15187"
-           x="484.14349"
-           y="800.82648">The Vault Jobs</tspan></text>
-      <flowRoot
-         transform="translate(282.44539,666.72396)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="flowRoot15189"
-         xml:space="preserve"><flowRegion
-           id="flowRegion15191"><rect
-             style="font-size:15px;text-align:start;text-anchor:start"
-             y="142.50002"
-             x="99"
-             height="203.59694"
-             width="284.98456"
-             id="rect15193" /></flowRegion><flowPara
-           id="flowPara15195"
-           style="font-style:italic">An elite group of criminals must precisely move through a maze of pressure sensors.</flowPara><flowPara
-           id="flowPara15197" /><flowPara
-           id="flowPara15199">Chapter 1. </flowPara><flowPara
-           id="flowPara15201">Chapter 2. (~35min)</flowPara><flowPara
-           id="flowPara15203">...to be continued...</flowPara><flowPara
-           id="flowPara15205" /></flowRoot>      <rect
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect15207"
-         width="290.19354"
-         height="160.91974"
-         x="374.13037"
-         y="775.18707"
-         ry="10.457642" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="655.90808"
-         y="790.50671"
-         id="text15209"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="655.90808"
-           y="790.50671"
-           id="tspan15213">pgs 6-7</tspan><tspan
-           id="tspan15264"
-           sodipodi:role="line"
-           x="655.90808"
-           y="809.25671">Normal</tspan></text>
-    </g>
   </g>
 </svg>
