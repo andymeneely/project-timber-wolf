@@ -2,16 +2,12 @@
 * Make color scenario booklet
   - Front page
   - Standalone suggestions
-* Finish color tiles: Security / Blanks
-* Finish color tiles: Gates
 * Create action shots
   * Perspective shots of the cards
   * Take pictures of the prototype
   * Some other marketing pictures
 * Finish rules
-  * Incorporate feedback
-  * Make rule PNGs
-  * Skill Figure should have numbering
+  * Skill Figure should have numbering in script
 * Proof everything
 * Make shop backdrop
 * Make game logo
