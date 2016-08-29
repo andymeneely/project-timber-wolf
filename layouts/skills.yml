@@ -69,26 +69,16 @@ border:
   radius: 37.5
   stroke_width: 2.5
 
-# FigureAction:
-#   extends:
-#   font: Sans Bold 36
-#   color: red
-#   str: ①
-#
-# FigureSubAction:
-#   font: Sans Bold 36
-#   color: red
-#   str: ①
-#
-# FigureDieRoll:
-#   extends: die_roll_6
-#   font: Sans Bold 36
-#   color: red
-#   str: ②
+FigureAction:
+  x: 155
+  y: 180
+  font: Sans Bold 48
+  color: red
+  str: ①
 
-# FigureLevel:
-#   font: Sans Bold 36
-#   color: red
-#   str: ①
-#   x: 3.0in
-#   y: 2.2in
+FigureDieRoll:
+  x: 420
+  y: 290
+  font: Sans Bold 48
+  color: red
+  str: ②
