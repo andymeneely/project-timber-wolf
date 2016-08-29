@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="p5 the venetian swap act 3.svg">
+   sodipodi:docname="p5 the venetian swap act 3.svg"
+   inkscape:export-filename="G:\code\timber-wolf\scenarios\p5 the venetian swap act 3.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4">
     <marker
@@ -113,9 +116,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="336.73458"
-     inkscape:cy="535.6716"
+     inkscape:zoom="4.0000001"
+     inkscape:cx="615.19614"
+     inkscape:cy="115.40049"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -168,7 +171,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6233,5 +6236,16 @@
        x="77.617676"
        y="437.4798"
        ry="9.743639" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="657"
+       y="973.86212"
+       id="text13474"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan13476"
+         x="657"
+         y="973.86212">5</tspan></text>
   </g>
 </svg>

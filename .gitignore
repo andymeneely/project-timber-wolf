@@ -5,3 +5,5 @@ _output/*.pdf
 Gemfile.lock
 rules/RULES.html
 rules/RULES.md.html
+rules/FAQ.html
+rules/FAQ.md.html

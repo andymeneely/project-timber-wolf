@@ -142,3 +142,7 @@ ol.gameplay-structure{
   float: right;
   width: 150px;
 }
+
+.pagebreak{
+  page-break-after: always;
+}

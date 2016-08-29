@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="p6 the smugglers act 1.svg">
+   sodipodi:docname="p6 the smugglers act 1.svg"
+   inkscape:export-filename="G:\code\timber-wolf\scenarios\p6 the smugglers act 1.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="309.38848"
-     inkscape:cy="526.17329"
+     inkscape:zoom="5.6568544"
+     inkscape:cx="620.46454"
+     inkscape:cy="108.70214"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -80,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5611,5 +5614,27 @@
          id="flowPara9568"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'" /><flowPara
          id="flowPara9570"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'" /></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:110.00000238%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="158.39191"
+       y="471.82751"
+       id="text25768"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan25770"
+         x="158.39191"
+         y="471.82751">t</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="657.60925"
+       y="974.53369"
+       id="text25772"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan25774"
+         x="657.60925"
+         y="974.53369">6</tspan></text>
+  </g>
 </svg>

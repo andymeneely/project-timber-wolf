@@ -16,6 +16,7 @@ These coordinations are something that can be decided by everyone at the table, 
 Contrast this to many co-op games that are turn-based, and you'll find there's a lot of downtime, tons of indecision, and the awkwardness that everyone else at the table is discussing _your move_.
 
 A second difference is the **campaign-style series** structure. A standard scenario of 2-3 heists can be completed in one night. But you can also play longer. During this time, your players and skills will level up and you'll carry various bonuses from one game to the next. These smaller heists mean that:
+
   * You get the benefits of a role-playing game without a long-term commitment required
   * If you make a poor decision in one heist, you only have to live with it for this one heist instead of the entire game
   * You can play longer, multi-night campaigns where individual characters level up one-at-a-time, the boards get increasingly tougher, and the teams are more diverse level-wise
@@ -32,8 +33,9 @@ The vast majority of the time in this game are in the Character Actions phase wh
 The other phases, such as Roll for Security, are very fast. Roll for Security is under a minute, usually. Roll for Skill is instantaneous. The Escape Phase is under 3 minutes because it comes down to just one die roll for each player (and not usually every player needs an Escape roll). All of these phases are intentionally short to get back to Character Actions, which is where the fun is.
 
 We also have some downtime in setting up the next heist after one is finished. During this time, we have done the following to assist downtime:
+
   * Players are leveling up their skills and characters _while_ 1-2 people are setting up the board. The table is usually quite chatty during this time as people are discussing their decisions.
-  * Tiles are all double-sided and they are all the same. So you don't have to _sort_ and _then_ place them. Just flip them to the side you need and place them where you need them.
+  * Tiles are all double-sided and they are all the same (mostly). So you don't have to _sort_ and _then_ place them. Just flip them to the side you need and place them where you need them.
   * Security tokens go in a bag, so they don't need to be sorted either. Just keep them in a pile next to the board and place what you need in the bag at the beginning of the heist.
 
 Our playtests indicate that, once you're familiar with the game, board set-up takes 4-6 minutes.
@@ -44,7 +46,7 @@ Alpha Player syndrome is where an experienced (or simply a confident) gamer trie
 
 Interestingly, we have not seen Alpha Player problems in _Your Last Heist_. This has to do with the way collaboration is structured: since all players are simultaneously working together, people are often working with other nearby players. There's a lot of chatter between two players to coordinate their sub-actions, and some chatter to the whole table like "I have a reveal, can anyone use it?".
 
-Also, since everyone has their own set of rotating skills, the Alpha can't really follow everyone's possible moves at once. When someone gets stuck, there's usually an Alpha-like moment where someone suggests a move, but this has been a pleasant experience.
+Also, since everyone has their own set of actions and sub-actions, the Alpha can't really follow everyone's possible moves at once. When someone gets stuck, there's usually an Alpha-like moment where someone suggests a move, but this has been a pleasant experience.
 
 ## Why no traitor mechanic? Seems perfect given the theme!
 
@@ -69,6 +71,7 @@ Blind playtesting is the next step in my development process.
 The first few times you play the game, especially if *everyone* at the table is new, a heist might take closer to an hour. As you play more, you'll find ways of communicating efficiently and effectively and the heists will take less time. That being said, some groups are just a little slower than others. Even when it's slower, our playtesters report that they lose track of time anyway and don't notice the time passing.
 
 Here are some tips for speeding up collaboration:
+
   * Share with the table what *problems* you can solve, rather than your *options*. For example, "I can unlock this lock over here for one Idea" is better than "Ok, I've got an unlock, a subdue, and two moves, but if I...".
   * Most boards tend to have a natural pairing off of players. Feel free to just work with the people who are near you on the board. Change your seat at the table if it's easier than talking across the table.
   * Don't be afraid of multiple conversations going on at once.
@@ -78,6 +81,14 @@ Here are some tips for speeding up collaboration:
 ## Do you really expect people to read all of these FAQs?
 
 Nope. But some people will. (Hi there!) I'm trying to do something different here by being transparent about my design process so you can make the best purchasing and/or judging decision.
+
+## How is this related to _Masters of the Heist_?
+
+_Masters of the Heist_ is another of my own creations that I submitted to TGC's Micro-game contest back in 2013. In fact, I've been making lots of these heist games for years. I view them all in the same universe. _Masters of the Heist_ has a similar artistic style, but it's a completely different game. It's a head-to-head micro-game whereas this is a cooperative big box game.
+
+_Masters of the Heist_ is currently not available for purchase, but I will be revisiting it someday.
+
+<div class="pagebreak"/>
 
 # Questions about the Rules of _Your Last Heist_
 

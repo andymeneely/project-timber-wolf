@@ -99,3 +99,14 @@ task :rules do
   @launch ||= []
   @launch << "file:///#{Dir.pwd}/rules/RULES.html"
 end
+
+desc 'Build FAQ sheet'
+task :faq do
+  load 'src/faq.rb' # convert markdown
+  erb = ERB.new(File.read('rules/FAQ_TEMPLATE.html.erb'))
+  File.open('rules/FAQ.html', 'w+') do |html|
+    html.write(erb.result)
+  end
+  @launch ||= []
+  @launch << "file:///#{Dir.pwd}/rules/FAQ.html"
+end
