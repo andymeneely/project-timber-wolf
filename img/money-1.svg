@@ -34,8 +34,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="-5.7291514"
-     inkscape:cy="12.364795"
+     inkscape:cx="14.270849"
+     inkscape:cy="19.507652"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,18 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="17.142857,31.071429"
+       orientation="1,0"
+       id="guide4136" />
+    <sodipodi:guide
+       position="50.357144,30.000001"
+       orientation="1,0"
+       id="guide4138" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -64,15 +75,15 @@
      transform="translate(0,-984.86215)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:16.98628616px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="16.169724"
-       y="1024.4639"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="9.7022657"
+       y="1030.4071"
        id="text4139"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4141"
-         x="16.169724"
-         y="1024.4639"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, '">$1k</tspan></text>
+         x="9.7022657"
+         y="1030.4071"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow'">$1k</tspan></text>
   </g>
 </svg>
