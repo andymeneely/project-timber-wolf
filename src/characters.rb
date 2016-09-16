@@ -55,9 +55,14 @@ Squib::Deck.new(cards: total) do
   save_png prefix: 'character_'#, range: 0
   save_pdf file: 'characters.pdf', trim: '0.125in'
   build :color do
+    showcase range: [0,3,6,9,12,15], file: 'amateurs_showcase.png',
+             fill_color: :black
+    showcase range: [0,1,2], file: 'levelup_showcase.png',
+             fill_color: :black
+    showcase range: [9,10,11], file: 'levelup_showcase2.png',
+             fill_color: :black
     showcase range: [9,8], file: 'character_showcase.png'
     showcase range: [11], file: 'kelly_showcase.png'
-    showcase range: [0,1,2], file: 'levelup_showcase.png'
   end
 
   build :rulebook_figures do

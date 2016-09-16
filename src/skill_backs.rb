@@ -62,4 +62,8 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
 
   only_lvl1_2 = data['Level'].map.with_index { |x,i| [1].include?(x.to_i) ? i : nil }.compact
   save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: only_lvl1_2
+
+  build :color do
+    showcase file: 'skill_back_showcase.png', range: [2,4,6], fill_color: :black
+  end
 end

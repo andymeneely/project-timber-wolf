@@ -19,7 +19,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
       level == '1' ? "gritty amateur.png" : "gritty pro.png"
     end
     png file: grits, angle: Math::PI/2, x: 1125, y: 0
-    svg file: 'skill-color.svg', range: 0
+    svg file: 'skill-color.svg' #, range: 0
   end
 
   text str: data['Level'].map { |l| l == '1' ? "Amateur Skill" : "Pro Skill" },
@@ -31,15 +31,17 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     text str: data[i.to_s], layout: "die_roll_#{i}"
   end
 
-  # save_png prefix: 'skill_', rotate: true
-  # save_pdf file: 'skills.pdf', trim: '0.125in'
-  # build :color do
-  #   showcase range: [26,16], file: 'skill_showcase.png'
-  # end
+  save_png prefix: 'skill_', rotate: true
+  save_pdf file: 'skills.pdf', trim: '0.125in'
+  build :color do
+    showcase file: 'skill_showcase.png', range: [0,2,4], fill_color: :black
+    showcase file: 'skill_showcase2.png', range: [6,8,10], fill_color: :black
+    showcase file: 'skill_showcase_levelup.png', range: [4,21,22],
+            fill_color: :black
+  end
 
 
   build :rulebook_figures do
-    puts "HI!!"
     rect layout: :border
     %i(Action DieRoll).each do |fig|
       text layout: "Figure#{fig}"
