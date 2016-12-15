@@ -10,6 +10,16 @@ Squib::Deck.new(cards: total) do
   background color: :white
   rect layout: :cut
   svg file: 'character.svg'
+
+  # puts (data['Default3'].map do |default|
+  #       default.to_s.empty? ? nil : 'thirdskill_bw.svg'
+  #     end).to_a
+
+  thirdskill_box = data['Default3'].map do |default|
+                     default.to_s.empty? ? nil : 'thirdskill_bw.svg'
+                   end
+  svg file: thirdskill_box
+
   build :color do
     grits = data['Level'].map do |level|
       level == '1' ? "gritty amateur.png" : "gritty pro.png"
