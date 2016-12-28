@@ -90,14 +90,22 @@ end
 task travis: [:default, :dropbox]
 
 desc 'Build the rules sheet'
-task :rules do
-  load 'src/rules.rb' # convert markdown
-  erb = ERB.new(File.read('rules/RULES_TEMPLATE.html.erb'))
-  File.open('rules/RULES.html', 'w+') do |html|
-    html.write(erb.result)
+task rules: ['rules:html_to_pdf']
+
+namespace :rules do
+  task :md_to_html do
+    load 'src/rules.rb' # convert markdown
+    erb = ERB.new(File.read('rules/RULES_TEMPLATE.html.erb'))
+    File.open('rules/RULES.html', 'w+') do |html|
+      html.write(erb.result)
+    end
   end
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/rules/RULES.html"
+
+  task html_to_pdf: [:md_to_html] do
+    sh 'wkhtmltopdf --page-size Letter rules/RULES.html _output/RULES.pdf'
+    @launch ||= []
+    @launch << "file:///#{Dir.pwd}/_output/RULES.pdf"
+  end
 end
 
 desc 'Build FAQ sheet'

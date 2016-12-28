@@ -11,6 +11,8 @@ During each heist, you will collaborate with your teammates in simultaneous game
 
 ## The Pieces
 
+<div class="cols">
+
 * 32 double-sided hex tiles.
   * 28 Blank/Security tiles
   * 4 Gate tiles (A,B,C,D)
@@ -35,12 +37,14 @@ During each heist, you will collaborate with your teammates in simultaneous game
 * 1 Alert Bar marker (white wooden stick)
 * 4 Noise Tracker & Team Cash Markers (white wooden cylinders)
 
+</div>
+
 <div class="characters">
 <img src="./character_example.png">
 
 ## Characters
 
-The game comes with 18 unique characters. Each card has:
+The game comes with 21 unique Character cards. Each card has:
 
   * ① **Level.** There are Amateur characters and Pro characters.
   * ②	**Planning Memory.** The number of pre-planned hex tiles your character may move through during a heist.
@@ -52,7 +56,7 @@ Some Characters have two Default Actions, others have three. Actions are describ
 
 For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
 
-A Special Abilities may also *limit* a character's abilities (e.g. *THERE ARE BETTER WAYS*).
+A Special Ability may also *limit* a character's abilities (e.g. *THERE ARE BETTER WAYS*).
 
 Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
 

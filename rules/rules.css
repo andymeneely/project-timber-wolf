@@ -7,8 +7,8 @@
 }
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 11pt;
-  background-color: #f2ebd6;
+  font-size: 13pt;
+  /*background-color: #f2ebd6;*/ /* Focusing on mostly bw for the moment */
 }
 p{
   margin-top: 0;
@@ -23,7 +23,11 @@ th,td{
 }
 #the-pieces + ul{
   columns: 3;
-  font-size: 90%;
+  font-size: 50pt;
+}
+.cols ul{
+  columns: 3;
+  /*font-size: 90%;*/
 }
 h1{
   margin-top: 0.5em;
@@ -68,7 +72,9 @@ h3{
 }
 
 .flex-container ul{
-  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
   flex-flow: row wrap;
   justify-content: space-around;
   text-align: center;
