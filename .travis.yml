@@ -1,13 +1,8 @@
 language: ruby
-sudo: false # taking advantage of container-based infrastructure
+sudo: required # taking advantage of container-based infrastructure
 cache: bundler # cache bundled gems from build to build
 rvm:
-  - 2.4
-
-addons:
-  apt:
-    packages:
-      - libgirepository1.0-dev # for gobject-introspection
+  - 2.3
 
 script:
   - mkdir ~/.fonts
