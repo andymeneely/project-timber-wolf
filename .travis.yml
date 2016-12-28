@@ -1,8 +1,8 @@
 language: ruby
-sudo: required # taking advantage of container-based infrastructure
+sudo: required
 cache: bundler # cache bundled gems from build to build
 rvm:
-  - 2.3
+  - 2.3.3
 
 script:
   - mkdir ~/.fonts
