@@ -4,11 +4,9 @@ cache: bundler # cache bundled gems from build to build
 rvm:
   - 2.3.2
 
-addons:
-  apt:
-    packages:
-      - wkhtmltopdf
 script:
+  - wget -P /var/cache/apt/archives https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-precise-amd64.deb
+  - sudo apt-get install wkhtmltox
   - mkdir ~/.fonts
   - cp fonts/*.otf ~/.fonts
   - cp fonts/*.ttf ~/.fonts
