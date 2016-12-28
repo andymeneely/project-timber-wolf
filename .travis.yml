@@ -2,8 +2,12 @@ language: ruby
 sudo: required
 cache: bundler # cache bundled gems from build to build
 rvm:
-  - 2.3.3
+  - 2.3.2
 
+addons:
+  apt:
+    packages:
+      - wkhtmltopdf
 script:
   - mkdir ~/.fonts
   - cp fonts/*.otf ~/.fonts
