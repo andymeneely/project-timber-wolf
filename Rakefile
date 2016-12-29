@@ -1,6 +1,10 @@
 require 'squib'
 require 'launchy'
 require 'erb'
+require 'rake/clean'
+
+# Add Rake's clean & clobber tasks
+CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 task default: [
   :full,
@@ -65,6 +69,10 @@ end
 
 task :helps do
   load 'src/helps.rb'
+end
+
+task :events do
+  load 'src/events.rb'
 end
 
 task :launch do
