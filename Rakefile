@@ -87,7 +87,7 @@ task :dropbox do
   load 'src/upload_dropbox.rb'
 end
 
-task travis: [:default, :rules, :dropbox]
+task travis: [:default, :dropbox]
 
 desc 'Build the rules sheet'
 task rules: ['rules:html_to_pdf']
