@@ -313,44 +313,9 @@ You have the final say about what to do with your own character.
 
 ### Phase 3. Roll for Security
 
+UPDATE THIS FOR THE NEW RULES.
+
 When all players have finished their Actions, one player rolls the four-sided security die. Trigger the event by counting the number of squares from the alert bar.
-
-Below is the translation of the event iconography. (Note that these are examples - some of these events are combined on the actual alert tracker.) A comprehensive guide can be found on the game help titled "Security Events".
-
-<div class="flex-container alerts">
-
-  * <img src="../img/figure_alerts_neighboring.svg"><br>
-        **Outta My Way!**<br>
-        For each hex tile with at least 2 characters on it, increase the alert bar by 1. For Entrance tiles, 2 alerts.
-  * <img src="../img/figure_alerts_adj_camera.svg"><br>
-        **Caught in a Reflection**<br>
-        For each character adjacent to a Live Camera, increase Alert(⚠) bar by 1. If a character is adjacent to multiple cameras, increase for each camera.
-  * <img src="../img/figure_alerts_adj_guard.svg"><br>
-        **Suspicious Guards**<br>
-        For each character adjacent to a Guard, increase ⚠ by 1. If a character is adjacent to multiple Guards, increase for each Guard.
-  * <img src="../img/figure_alerts_on_disabled.svg"><br>
-        **Let Me Go!**<br>
-        For each character on a Subdued Guard, increase Alert(⚠) bar by 1. For each character on a Disabled Camera, increase Alert(⚠) bar by 1.
-  * <img src="../img/figure_alerts_power_on.svg"><br>
-        **Reboot**<br>
-        Make every Disabled Camera Live. Increase ⚠ every time you do this.
-  * <img src="../img/figure_alerts_lockdown.svg"><br>
-        **Lockdown**<br>
-        Close the next Gate, starting with "A". Remove the tile. If a character is on it, they are immediately Busted. Increase alert for each ⚠ shown.
-  * <img src="../img/figure_alerts_unsubdue.svg"><br>
-        **I Thought I Had Him**<br>
-        For each character on a tile with a Subdued Guard, Un-Subdue that guard.  Increase ⚠ twice (if applicable).
-  * <img src="../img/figure_alerts_hey_you.svg"><br>
-        **Hey You!**<br>
-        For each character adjacent to at least one Camera, add a Guard to the character's current tile. (Maximum one Guard per character.)
-  * <img src="../img/figure_alerts_call_it_in.svg"><br>
-        **Call It In**<br>
-        Replace every Disabled Camera with a Guard.
-  * <img src="../img/figure_alerts_alarm.svg"><br>
-        **Alarm**<br>
-        Initiate Escape Phase.
-
-</div>
 
 Whenever an Event calls for a new Guard to be placed, take it from the **supply** (not the bag).
 
