@@ -42,3 +42,12 @@ group :skill_backs do
     watch %r{img/.*}
   end
 end
+
+group :events do
+  guard 'rake', :task => 'events' do
+    watch %r{.*\.xlsx$}
+    watch %r{src/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+  end
+end

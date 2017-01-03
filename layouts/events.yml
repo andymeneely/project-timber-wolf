@@ -22,11 +22,11 @@ safe:
   dash: 5 3
 Name:
   font: Archivo Black, 40
-  spacing: -10
-  width: 375
+  spacing: -15
+  width: 450
   height: 200
   x: 75
-  y: 15
+  y: 25
   align: center
   valign: middle
 
@@ -50,8 +50,8 @@ Description:
 
 Order:
   font: Archivo Black, 20
-  x: 1.5in
-  y: 0.25in
+  x: 0.25in
+  y: 2.35in
   width: 37.5
   height: 37.5
   align: center

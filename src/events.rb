@@ -1,4 +1,5 @@
 require 'squib'
+
 require_relative 'helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx', sheet: 2) do |col, item|
@@ -24,5 +25,5 @@ Squib::Deck.new(width: 600, height: 825, cards: data['Name'].size) do
   save_png prefix: 'event_'
 
   rect layout: :cut
-  save_pdf file: 'events.pdf', trim: '0.125in', range: 6
+  save_pdf file: 'events.pdf', trim: '0.125in'#, range: 6
 end
