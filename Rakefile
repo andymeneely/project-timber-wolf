@@ -110,7 +110,15 @@ namespace :rules do
   end
 
   task html_to_pdf: [:md_to_html] do
-    sh 'wkhtmltopdf --page-size Letter rules/RULES.html _output/RULES.pdf'
+    sh <<-EOS.gsub(/\n/, '')
+      wkhtmltopdf
+        --page-size Letter
+        --margin-left   0.75in
+        --margin-right  0.75in
+        --margin-bottom 0.75in
+        --margin-top    0.75in
+        rules/RULES.html _output/RULES.pdf
+    EOS
     @launch ||= []
     @launch << "file:///#{Dir.pwd}/_output/RULES.pdf"
   end
