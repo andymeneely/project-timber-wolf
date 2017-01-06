@@ -6,9 +6,14 @@ rvm:
   - 2.4.0
 
 script:
+  - apt-get install xvfb
+  - wget https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+  - dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+  - apt-get install -f
   - mkdir ~/.fonts
   - cp fonts/*.otf ~/.fonts
   - cp fonts/*.ttf ~/.fonts
   - fc-cache -f -v
   - bundle exec rake travis
   - bundle exec rake color travis
+  - bundle exec rake rules
