@@ -2,7 +2,7 @@ language: ruby
 sudo: required
 cache: bundler # cache bundled gems from build to build
 rvm:
-  - 2.3.2
+  - 2.4.0
 
 script:
   - mkdir ~/.fonts
