@@ -100,6 +100,10 @@ task travis: [:default, :dropbox]
 desc 'Build the rules sheet'
 task rules: ['rules:html_to_pdf']
 
+task 'travis_rules' do
+  sh 'xvfb-run wkhtmltopdf --page-size Letter rules/RULES.html _output/RULES.pdf'
+end
+
 namespace :rules do
   task :md_to_html do
     load 'src/rules.rb' # convert markdown

@@ -16,4 +16,4 @@ script:
   - fc-cache -f -v
   - bundle exec rake travis
   - bundle exec rake color travis
-  - bundle exec rake rules
+  - bundle exec rake travis_rules
