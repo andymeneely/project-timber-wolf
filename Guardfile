@@ -51,3 +51,12 @@ group :events do
     watch %r{img/.*}
   end
 end
+
+group :scenarios do
+  guard 'rake', :task => 'scenarios' do
+    watch %r{.*\.xlsx$}
+    watch %r{src/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+  end
+end

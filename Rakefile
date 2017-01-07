@@ -14,7 +14,8 @@ task default: [
   :character_backs,
   :skills,
   :skill_backs,
-  :helps
+  :helps,
+  :scenarios
 ]
 
 task :full do
@@ -73,6 +74,11 @@ end
 
 task :events do
   load 'src/events.rb'
+end
+
+desc 'Build the scenario booklet'
+task :scenarios do
+  load 'src/scenarios.rb'
 end
 
 task :launch do
