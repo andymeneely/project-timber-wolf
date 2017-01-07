@@ -14,7 +14,7 @@
    viewBox="0 0 742.50001 922.50002"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r15299"
    sodipodi:docname="p4 the venetian swap chapter 2.svg"
    inkscape:export-filename="G:\code\timber-wolf\scenarios\p3 the venetian swap act 1.png"
    inkscape:export-xdpi="300"
@@ -116,35 +116,43 @@
     <sodipodi:guide
        position="74.751289,889.43934"
        orientation="1,0"
-       id="guide4138" />
+       id="guide4138"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="36.769552,470.93311"
        orientation="1,0"
-       id="guide4140" />
+       id="guide4140"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="147.5,885.00002"
        orientation="0,1"
-       id="guide4142" />
+       id="guide4142"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="171.42857,849.64288"
        orientation="0,1"
-       id="guide4144" />
+       id="guide4144"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="665.35715,730.00002"
        orientation="1,0"
-       id="guide4146" />
+       id="guide4146"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="704.28572,740.35716"
        orientation="1,0"
-       id="guide4148" />
+       id="guide4148"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="319.28572,75.000002"
        orientation="0,1"
-       id="guide4150" />
+       id="guide4150"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="341.07143,36.785715"
        orientation="0,1"
-       id="guide4152" />
+       id="guide4152"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -168,15 +176,13 @@
        style="font-style:normal;font-weight:normal;font-size:45.92040634px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="77.665886"
        y="240.4715"
-       id="text5141"
-       sodipodi:linespacing="125%"><tspan
+       id="text5141"><tspan
          sodipodi:role="line"
          x="77.665886"
          y="240.4715"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, '"
          id="tspan5321">The Venetian Swap</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text5173"
        y="306.94135"
        x="78.557304"
@@ -212,8 +218,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="211.42857"
        y="373.43356"
-       id="text5197"
-       sodipodi:linespacing="125%"><tspan
+       id="text5197"><tspan
          sodipodi:role="line"
          id="tspan5199"
          x="211.42857"
@@ -223,8 +228,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="165"
        y="498.86215"
-       id="text5297"
-       sodipodi:linespacing="125%"><tspan
+       id="text5297"><tspan
          sodipodi:role="line"
          id="tspan5299"
          x="165"
@@ -234,8 +238,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="98"
        y="263.36215"
-       id="text7089"
-       sodipodi:linespacing="125%"><tspan
+       id="text7089"><tspan
          sodipodi:role="line"
          id="tspan7091"
          x="98"
@@ -249,8 +252,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.54349041px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="569.09924"
        y="220.88371"
-       id="text7813"
-       sodipodi:linespacing="125%"><tspan
+       id="text7813"><tspan
          sodipodi:role="line"
          id="tspan7815"
          x="569.09924"
@@ -297,8 +299,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="121.62236"
        y="799.2179"
-       id="text7904"
-       sodipodi:linespacing="125%"><tspan
+       id="text7904"><tspan
          sodipodi:role="line"
          id="tspan7906"
          x="121.62236"
@@ -308,8 +309,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="161.5"
        y="817.36212"
-       id="text9323"
-       sodipodi:linespacing="125%"><tspan
+       id="text9323"><tspan
          sodipodi:role="line"
          id="tspan9325"
          x="161.5"
@@ -359,7 +359,6 @@
          id="path8050"
          inkscape:connector-curvature="0" />
       <text
-         sodipodi:linespacing="125%"
          id="text8052"
          y="521.50031"
          x="-138.901"
@@ -400,8 +399,7 @@
          style="font-style:normal;font-weight:normal;font-size:12.54209709px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-138.901"
          y="521.50031"
-         id="text8062"
-         sodipodi:linespacing="125%"><tspan
+         id="text8062"><tspan
            sodipodi:role="line"
            id="tspan8064"
            x="-138.901"
@@ -433,7 +431,6 @@
          id="path8070"
          inkscape:connector-curvature="0" />
       <text
-         sodipodi:linespacing="125%"
          id="text8072"
          y="521.50031"
          x="-138.901"
@@ -474,8 +471,7 @@
          style="font-style:normal;font-weight:normal;font-size:12.54209709px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-138.901"
          y="521.50031"
-         id="text8082"
-         sodipodi:linespacing="125%"><tspan
+         id="text8082"><tspan
            sodipodi:role="line"
            id="tspan8084"
            x="-138.901"
@@ -971,8 +967,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5411377px;line-height:125%;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="237.52972"
        y="711.79163"
-       id="text9271"
-       sodipodi:linespacing="125%"><tspan
+       id="text9271"><tspan
          sodipodi:role="line"
          id="tspan9273"
          x="237.52972"
@@ -1069,15 +1064,13 @@
        style="font-style:normal;font-weight:normal;font-size:28.07353973px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="341.75476"
        y="891.98273"
-       id="text9348"
-       sodipodi:linespacing="125%"><tspan
+       id="text9348"><tspan
          sodipodi:role="line"
          x="341.75476"
          y="891.98273"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, '"
          id="tspan9350">The Gallery</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text9354"
        y="817.69958"
        x="239.57245"
@@ -1095,7 +1088,6 @@
        x="239.22443"
        y="848.67603"
        id="text9358"
-       sodipodi:linespacing="125%"
        transform="scale(1.000059,0.999941)"><tspan
          sodipodi:role="line"
          id="tspan9360"
@@ -1113,7 +1105,6 @@
        style="fill:#000000"
        inkscape:connector-curvature="0" />
     <text
-       sodipodi:linespacing="125%"
        id="text9366"
        y="873.03949"
        x="239.22443"
