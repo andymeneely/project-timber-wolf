@@ -101,7 +101,7 @@ desc 'Build the rules sheet'
 task rules: ['rules:html_to_pdf']
 
 task 'travis_rules' do
-  sh 'xvfb-run wkhtmltopdf --page-size Letter --load-error-handling ignore ./rules/RULES.html ./_output/RULES.pdf'
+  sh 'xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf --page-size Letter ./rules/RULES.html ./_output/RULES.pdf'
 end
 
 namespace :rules do
