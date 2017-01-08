@@ -104,7 +104,11 @@ end
 task travis: [:default, :dropbox]
 
 desc 'Build the rules sheet'
-task rules: ['rules:html_to_pdf']
+task rules: ['rules:md_to_html','rules:html_to_pdf']
+
+task 'travis_rules' => ['rules:md_to_html'] do
+  sh 'xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf --page-size Letter ./rules/RULES.html ./_output/RULES.pdf'
+end
 
 namespace :rules do
   task :md_to_html do
