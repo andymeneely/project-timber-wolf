@@ -1,7 +1,7 @@
 require 'squib'
 require_relative 'helpers'
 
-data = Squib.xlsx file: 'data/data.xlsx', sheet: 3
+data = Squib.xlsx file: 'data/data.xlsx', sheet: 5
 # combine the entire text into one string - not using row-per card here
 str = data['Icon'].zip(data['Description']).inject("") do |s, r|
   s + "#{r[0]} #{r[1]}\n"

@@ -42,7 +42,7 @@ Description | Raise ⚠ for each Character adjacen |
         Img | figure_alerts_adj_guard.svg        |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Guard Spills Beans                 |
+       Name | Guard Starts Blabbing              |
       Order | 5                                  |
       Story | Fearful of what might happen to hi |
             | m, a guard begins blabbing. He's n |
@@ -87,7 +87,7 @@ Description | Raise ⚠ for each Character adjacen |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Guard Spills Beans                 |
+       Name | Guard Starts Blabbing              |
       Order | 9                                  |
       Story | Fearful of what might happen to hi |
             | m, a guard begins blabbing. He's n |
@@ -119,7 +119,7 @@ Description | Raise ⚠⚠.                          |
         Img | figure_alerts_unsubdue_alerts.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Increased Suspician                |
+       Name | Increased Suspicion                |
       Order | 12                                 |
       Story | More movement gets noticed.        |
 Description | Raise ⚠ for each Character adjacen |
@@ -142,7 +142,7 @@ Description | Close the next Gate, starting with |
             | svg                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Guard Spills Beans                 |
+       Name | Guard Starts Blabbing              |
       Order | 14                                 |
       Story | Fearful of what might happen to hi |
             | m, a guard begins blabbing. He's n |
