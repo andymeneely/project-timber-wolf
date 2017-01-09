@@ -7,4 +7,6 @@ rules/RULES.html
 rules/RULES.md.html
 rules/FAQ.html
 rules/FAQ.md.html
+scenarios/scenarios.html
+scenarios/scenarios.md.html
 _output/*.svg

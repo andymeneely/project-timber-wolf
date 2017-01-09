@@ -23,7 +23,7 @@ Squib::Deck.new(width: 300, height: 300, cards: data['Name'].size) do
     circle layout: :safe
   end
 
-  # save_avery_5408
+  save_avery_5408
 
   save_png prefix: 'security_token_', count_format: data['File']
 end

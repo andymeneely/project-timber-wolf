@@ -103,7 +103,7 @@ end
 
 task travis: [:default, :dropbox]
 
-desc 'Build the rules sheet'
+desc 'Build the rules PDF'
 task rules: ['rules:md_to_html','rules:html_to_pdf']
 
 task 'travis_rules' => ['rules:md_to_html'] do
@@ -131,6 +131,33 @@ namespace :rules do
     EOS
     @launch ||= []
     @launch << "file:///#{Dir.pwd}/_output/RULES.pdf"
+  end
+end
+
+desc 'Build the scenarios PDF'
+task scenarios: ['scenarios:md_to_html','scenarios:html_to_pdf']
+
+namespace :scenarios do
+  task :md_to_html do
+    load 'src/scenarios.rb' # convert markdown
+    erb = ERB.new(File.read('scenarios/scenarios_template.html.erb'))
+    File.open('scenarios/scenarios.html', 'w+') do |html|
+      html.write(erb.result)
+    end
+  end
+
+  task html_to_pdf: [:md_to_html] do
+    sh <<-EOS.gsub(/\n/, '')
+      wkhtmltopdf
+        --page-size Letter
+        --margin-left   0.75in
+        --margin-right  0.75in
+        --margin-bottom 0.75in
+        --margin-top    0.75in
+        scenarios/scenarios.html _output/scenarios.pdf
+    EOS
+    @launch ||= []
+    @launch << "file:///#{Dir.pwd}/_output/scenarios.pdf"
   end
 end
 
