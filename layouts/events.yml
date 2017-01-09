@@ -1,13 +1,13 @@
 cut:
   x: 0.125in
   y: 0.125in
-  width: 1.75in
-  height: 2.5in
+  width: 2.5in
+  height: 3.5in
 proof_cut:
   x: 0.125in
   y: 0.125in
-  width: 1.75in
-  height: 2.5in
+  width: 2.5in
+  height: 3.5in
   radius: 37.5
   stroke_color: red
   stroke_width: 2.0
@@ -15,45 +15,57 @@ proof_cut:
 safe:
   x: 0.25in
   y: 0.25in
-  width: 1.5in
-  height: 2.25in
+  width: 2.25in
+  height: 3.25in
   radius: 37.5
   stroke_color: blue
   dash: 5 3
 Name:
-  font: Archivo Black, 40
-  spacing: -15
-  width: 450
+  font: Archivo Black, 50
+  spacing: -35
+  width: 2.25in
   height: 200
   x: 75
-  y: 25
+  y: 55
   align: center
   valign: middle
 
 Img:
-  x: 75
-  y: 200
-  width: 450
-  height: 325
+  x: 0.375in
+  y: 220
+  width: 2.00in
+  height: 1.44in
 
-Description:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 26
+Story:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 30
   color: black
   spacing: -4
   x: 75
-  y: 550
-  width: 450
+  y: 600
+  width: 2.25in
+  height: 200
+  ellipsize: false
+  align: center
+  valign: middle
+
+Description:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
+  color: black
+  spacing: -4
+  x: 75
+  y: 800
+  width: 2.25in
   height: 200
   ellipsize: false
   align: center
   valign: middle
 
 Order:
-  font: Archivo Black, 20
+  font: Archivo Black, 35
   x: 0.25in
-  y: 2.35in
-  width: 37.5
-  height: 37.5
+  y: 3.25in
+  width: 75
+  height: 75
   align: center
   valign: middle
   color: :white

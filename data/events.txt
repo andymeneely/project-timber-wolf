@@ -1,0 +1,227 @@
+            ╭------------------------------------╮
+       Name | Get Outta My Way!                  |
+      Order | 1                                  |
+      Story | Teammates in the same spots get an |
+            | xious and start bickering as they  |
+            | get started, raising suspicion.    |
+Description | Raise ⚠ for each hex tile with at  |
+            | least two Characters.              |
+            |  Raise ⚠ ⚠ for each Entrance tile  |
+            | with at least two Characters.      |
+        Img | figure_alerts_neighboring.svg      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Get Outta My Way!                  |
+      Order | 2                                  |
+      Story | Teammates in the same spots get an |
+            | xious and start bickering as they  |
+            | get started, raising suspicion.    |
+Description | Raise ⚠ for each hex tile with at  |
+            | least two Characters.              |
+            |  Raise ⚠ ⚠ for each Entrance tile  |
+            | with at least two Characters.      |
+        Img | figure_alerts_neighboring.svg      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Caught in a Reflection             |
+      Order | 3                                  |
+      Story | The guard monitoring the cameras s |
+            | ees movement in a reflection and l |
+            | ooks a little closer.              |
+Description | Raise ⚠ for each Live Camera adjac |
+            | ent to a character.                |
+        Img | figure_alerts_adj_camera.svg       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Suspicious Guards                  |
+      Order | 4                                  |
+      Story | Guards are getting suspcious of mo |
+            | vement.                            |
+Description | Raise ⚠ for each Character adjacen |
+            | t to an Unsubuded Guard            |
+        Img | figure_alerts_adj_guard.svg        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Guard Spills Beans                 |
+      Order | 5                                  |
+      Story | Fearful of what might happen to hi |
+            | m, a guard begins blabbing. He's n |
+            | oisy, but provides useful intel.   |
+Description | Raise ⚠ for each Character on a Su |
+            | bdued Guard.                       |
+            | Give 💡💡 to each of those Character |
+            | s too.                             |
+        Img | figure_alerts_on_disabled.svg      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | System Reboot                      |
+      Order | 6                                  |
+      Story | The Guards notice that some camera |
+            | s are not working. They turning th |
+            | em off and on again.               |
+Description | Make every Disabled Camera Live. R |
+            | aise ⚠ every time you do this.     |
+        Img | figure_alerts_power_on.svg         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gate!                     |
+      Order | 7                                  |
+      Story | An automatic system initiates, clo |
+            | sing the next lockdown gate.       |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a Charac |
+            | ter is on it, they are Busted.     |
+            | Raise ⚠⚠.                          |
+        Img | figure_alerts_lockdown_two_alerts. |
+            | svg                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Increased Suspicion                |
+      Order | 8                                  |
+      Story | More movement gets noticed.        |
+Description | Raise ⚠ for each Character adjacen |
+            | t to an Unsubdued Guard. Also, Rai |
+            | se ⚠ for each Character adjacent t |
+            | o a Live Camera.                   |
+        Img | figure_alerts_adj_camera_guard.svg |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Guard Spills Beans                 |
+      Order | 9                                  |
+      Story | Fearful of what might happen to hi |
+            | m, a guard begins blabbing. He's n |
+            | oisy, but provides useful intel.   |
+Description | Raise ⚠ for each Character on a Su |
+            | bdued Guard.                       |
+            | Give 💡💡 to each of those Character |
+            | s too.                             |
+        Img | figure_alerts_on_disabled.svg      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | System Reboot                      |
+      Order | 10                                 |
+      Story | The Guards notice that some camera |
+            | s are not working. They turning th |
+            | em off and on again.               |
+Description | Make every Disabled Camera Live. R |
+            | aise ⚠ every time you do this.     |
+        Img | figure_alerts_power_on.svg         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | I Thought I Had Him                |
+      Order | 11                                 |
+      Story | Subduing guards got a little slopp |
+            | y.                                 |
+Description | Raise ⚠⚠.                          |
+            | Un-Subdue every Subdued Guard that |
+            |  shares a tile with a Character.   |
+        Img | figure_alerts_unsubdue_alerts.svg  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Increased Suspician                |
+      Order | 12                                 |
+      Story | More movement gets noticed.        |
+Description | Raise ⚠ for each Character adjacen |
+            | t to an Unsubdued Guard. Also, Rai |
+            | se ⚠ for each Character adjacent t |
+            | o a Live Camera.                   |
+        Img | figure_alerts_adj_camera_guard.svg |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gate!                     |
+      Order | 13                                 |
+      Story | An automatic system initiates, clo |
+            | sing the next lockdown gate.       |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a Charac |
+            | ter is on it, they are Busted.     |
+            | Raise ⚠⚠.                          |
+        Img | figure_alerts_lockdown_two_alerts. |
+            | svg                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Guard Spills Beans                 |
+      Order | 14                                 |
+      Story | Fearful of what might happen to hi |
+            | m, a guard begins blabbing. He's n |
+            | oisy, but provides useful intel.   |
+Description | Raise ⚠ for each Character on a Su |
+            | bdued Guard.                       |
+            | Give 💡💡 to each of those Character |
+            | s too.                             |
+        Img | figure_alerts_on_disabled.svg      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Hey You!                           |
+      Order | 15                                 |
+      Story | Guards are studying the cameras mo |
+            | re closely now.                    |
+Description | Add a Guard from the supply to eac |
+            | h tile that has a Character adjace |
+            | nt to at least one Live Camera.    |
+        Img | figure_alerts_hey_you.svg          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Increased Suspicion                |
+      Order | 16                                 |
+      Story | Guards are shouting at each other  |
+            | now, about ready to pull the alarm |
+            | .                                  |
+Description | Raise ⚠ for each Character adjacen |
+            | t to an Unsubdued Guard. Also, Rai |
+            | se ⚠ for each Character adjacent t |
+            | o a Live Camera.                   |
+        Img | figure_alerts_adj_camera_guard.svg |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gate!                     |
+      Order | 17                                 |
+      Story | An automatic system initiates, clo |
+            | sing the next lockdown gate.       |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a Charac |
+            | ter is on it, they are Busted.     |
+            | Raise ⚠.                           |
+        Img | figure_alerts_lockdown_one_alert.s |
+            | vg                                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Ties Broke!                        |
+      Order | 18                                 |
+      Story | Emboldened by the alerts that have |
+            |  been raised, the Guards begin esc |
+            | aping their bonds.                 |
+Description | Un-Subdue every Subdued Guard that |
+            |  shares a tile with a Character.   |
+        Img | figure_alerts_unsubdue.svg         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Go Check on It                     |
+      Order | 19                                 |
+      Story | Guards begin showing up to investi |
+            | gate all of the broken cameras.    |
+Description | Replace every Disabled Camera with |
+            |  a Guard.                          |
+        Img | figure_alerts_call_it_in.svg       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gates!                    |
+      Order | 20                                 |
+      Story | An automatic system initiates, clo |
+            | sing the next two lockdown gates.  |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a charac |
+            | ter is on it, they are immediately |
+            |  Busted.                           |
+        Img | figure_alerts_lockdown.svg         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Sound the Alarm!                   |
+      Order | 21                                 |
+      Story | This is it.                        |
+Description | Initiate Escape Phase.             |
+        Img | figure_alerts_alarm.svg            |
+            ╰------------------------------------╯
