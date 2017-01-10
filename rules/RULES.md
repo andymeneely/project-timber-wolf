@@ -147,7 +147,7 @@ The Event cards represent the potential Security Events you will encounter in th
 
 **TODO: FIGURE FOR SHOWING EVENT PILES**
 
-If your Alert token lands on a pile with a Special Event on it, set the Special Event card aside - you will be following this card in addition to the regular Event (see Event Phase of Gameplay).
+When your Alert token reaches a pile with a Special Event card on it, immediately set the Special Event card aside - you will be following this card in addition to the regular Event (see Event Phase of Gameplay).
 
 The Alert Token does not go beyond the final Event card.
 
