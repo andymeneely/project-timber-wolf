@@ -12,6 +12,10 @@ Squib::Deck.new(cards: total) do
   background color: :white
   rect layout: :cut
 
+  # Trying this hack
+  Pango::FontDescription.new('Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold')
+  Pango::FontDescription.new('Archivo Black, 32')
+
   svg file: 'character_back.svg'
 
   build :color do
@@ -29,6 +33,7 @@ Squib::Deck.new(cards: total) do
   text str: data['LevelUp1Desc'], layout: :upgrade1desc
   text str: data['LevelUp2'], layout: :upgrade2
   text str: data['LevelUp2Desc'], layout: :upgrade2desc
+
 
   save_png prefix: 'character_back_'
   only_lvl1_2 = data['Level'].map.with_index do |x,i|
