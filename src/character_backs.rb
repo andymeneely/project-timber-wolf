@@ -26,7 +26,9 @@ Squib::Deck.new(cards: total) do
 
   text str: data['Name'], layout: :name
   text str: data['LevelUp1'], layout: :upgrade1
+  text str: data['LevelUp1Desc'], layout: :upgrade1desc
   text str: data['LevelUp2'], layout: :upgrade2
+  text str: data['LevelUp2Desc'], layout: :upgrade2desc
 
   save_png prefix: 'character_back_'
   only_lvl1_2 = data['Level'].map.with_index do |x,i|

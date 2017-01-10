@@ -1,434 +1,544 @@
-          ╭------------------------------------╮
-     Name | Angry Locksmith                    |
-Archetype | Bypasser                           |
-    Level | 1                                  |
-   Memory | 8                                  |
-    Ideas | 3                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Pick                               |
-          | 🔓🔊                                 |
- Default3 |                                    |
- LevelUp1 | Safecracker                        |
- LevelUp2 | Demolitions Guy                    |
-  Special | EFFICIENT PICKER                   |
-          | If your action has a 🔓, you may sp |
-          | end 💡 for an additional ➜🔊         |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Safecracker                        |
-Archetype | Bypasser                           |
-    Level | 2                                  |
-   Memory | 10                                 |
-    Ideas | 5                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Pick II                            |
-          | 🔓🔓🔊                                |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | EFFICIENT PICKER                   |
-          | If your action has a 🔓, you may sp |
-          | end 💡 for an additional ➜🔊         |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Demolitions Guy                    |
-Archetype | Bypasser                           |
-    Level | 2                                  |
-   Memory | 8                                  |
-    Ideas | 4                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Pick                               |
-          | 🔓🔊                                 |
- Default3 | Breach                             |
-          | (above)                            |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | EFFICIENT PICKER                   |
-          | If your action has a 🔓, you may sp |
-          | end 💡 for an additional ➜🔊         |
-          |                                    |
-          | BREACH                             |
-          | May spend your action and💡💡💡💡 to c |
-          | reate a new Exit on an external si |
-          | de of the current tile. Initiate E |
-          | scape phase immediately.           |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Thug                               |
-Archetype | Fighter                            |
-    Level | 1                                  |
-   Memory | 7                                  |
-    Ideas | 0                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Punch                              |
-          | 👊🔊🔊➜                               |
- Default3 |                                    |
- LevelUp1 | Bruiser                            |
- LevelUp2 | Operative                          |
-  Special | ADRENALINE                         |
-          | Gain 💡 when you 👊                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Bruiser                            |
-Archetype | Fighter                            |
-    Level | 2                                  |
-   Memory | 9                                  |
-    Ideas | 2                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Punch                              |
-          | 👊🔊🔊➜                               |
- Default3 | Bash                               |
-          | 👊👊🔊                                |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | ADRENALINE                         |
-          | Gain 💡 when you 👊                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Operative                          |
-Archetype | Fighter                            |
-    Level | 2                                  |
-   Memory | 9                                  |
-    Ideas | 4                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Punch                              |
-          | 👊🔊🔊➜                               |
- Default3 | Spy Stuff                          |
-          | 🔓👊🔊                                |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | ADRENALINE                         |
-          | Gain 💡  when you 👊                 |
-          |                                    |
-          | YOU WILL REPORT IN                 |
-          | When you  👊, lower the noise level |
-          |  by 1. Do not change the ⚠ level.  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Street Urchin                      |
-Archetype | Rogue                              |
-    Level | 1                                  |
-   Memory | 9                                  |
-    Ideas | 2                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Hesitate                           |
-          | 💡                                  |
- Default3 |                                    |
- LevelUp1 | Con Artist                         |
- LevelUp2 | Mastermind                         |
-  Special | THERE ARE BETTER WAYS              |
-          | Cannot 👊. For 💡, may exit space(s) |
-          |  with guard(s) for the rest of you |
-          | r turn. In Escape, you require onl |
-          | y 1 Escape Move to exit a space wi |
-          | th guards.                         |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Grifter                            |
-Archetype | Rogue                              |
-    Level | 2                                  |
-   Memory | 12                                 |
-    Ideas | 3                                  |
- Default1 | Dash                               |
-          | 🔊➜➜                                |
- Default2 | Study                              |
-          | 💡💡                                 |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | THERE ARE BETTER WAYS              |
-          | Cannot 👊. For 💡, may exit space(s) |
-          |  with guard(s) for the rest of you |
-          | r turn. In Escape, you require onl |
-          | y 1 Escape Move to exit a space wi |
-          | th guards.                         |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Mastermind                         |
-Archetype | Rogue                              |
-    Level | 2                                  |
-   Memory | 10                                 |
-    Ideas | 3                                  |
- Default1 | Run                                |
-          | 🔊🔊➜➜                               |
- Default2 | Inspire                            |
-          | (above)                            |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | THERE ARE BETTER WAYS              |
-          | Cannot 👊. For 💡, may exit space(s) |
-          |  with guard(s) for the rest of you |
-          | r turn. In Escape, you require onl |
-          | y 1 Escape Move to exit a space wi |
-          | th guards.                         |
-          |                                    |
-          | INSPIRE                            |
-          | Use this action and a 🔊 to give a  |
-          | free💡💡  to a player of your choosi |
-          | ng.                                |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Script Kiddie                      |
-Archetype | Hacker                             |
-    Level | 1                                  |
-   Memory | 6                                  |
-    Ideas | 5                                  |
- Default1 | Stride                             |
-          | 🔊➜🔍                                |
- Default2 | Autopwn                            |
-          | (above)                            |
- Default3 |                                    |
- LevelUp1 | Hacktivist                         |
- LevelUp2 | Black Hat                          |
-  Special | I CAN HAZ TEH CODES?               |
-          | Once per heist may spend 💡💡 to re- |
-          | position up to 3 planning tokens o |
-          | f any color(s)                     |
-          |                                    |
-          | AUTOPWN                            |
-          | Use this Action and a 💡 to enable  |
-          | another character to 👊🔊, 📷🔊, or 🔓🔊 |
-          |                                    |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Hacktivist                         |
-Archetype | Hacker                             |
-    Level | 2                                  |
-   Memory | 10                                 |
-    Ideas | 6                                  |
- Default1 | Run                                |
-          | 🔊🔊➜➜                               |
- Default2 | Autopwn                            |
-          | (above)                            |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | I CAN HAZ TEH CODES?               |
-          | Once per heist may spend 💡💡 to re- |
-          | position up to 3 planning tokens o |
-          | f any color(s)                     |
-          |                                    |
-          | AUTOPWN                            |
-          | Use this Action and a 💡 to enable  |
-          | another character to 👊🔊, 📷🔊, or 🔓🔊 |
-          |                                    |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Black Hat                          |
-Archetype | Hacker                             |
-    Level | 2                                  |
-   Memory | 8                                  |
-    Ideas | 6                                  |
- Default1 | Stride                             |
-          | 🔊➜🔍                                |
- Default2 | Exploit                            |
-          | (above)                            |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | HAS THE CODE                       |
-          | Once per heist may spend 💡💡 to re- |
-          | position up to 4 planning tokens o |
-          | f any color(s)                     |
-          |                                    |
-          | EXPLOIT                            |
-          | Use this Action to enable another  |
-          | character to 👊🔊, 📷🔊, or 🔓🔊         |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Burglar                            |
-Archetype | Mover                              |
-    Level | 1                                  |
-   Memory | 8                                  |
-    Ideas | 2                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Dart                               |
-          | (above)                            |
- Default3 | Hesitate                           |
-          | 💡                                  |
- LevelUp1 | Sewer Rat                          |
- LevelUp2 | Grease Man                         |
-  Special | DART                               |
-          | Use this action to spend           |
-          | 💡for 🔊➜➜                           |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Sewer Rat                          |
-Archetype | Mover                              |
-    Level | 2                                  |
-   Memory | 9                                  |
-    Ideas | 4                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Dart                               |
-          | (above)                            |
- Default3 | Hesitate                           |
-          | 💡                                  |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | DART                               |
-          | Use this action to spend           |
-          | 💡for 🔊➜➜                           |
-          |                                    |
-          | SEWER CRAWL                        |
-          | For 🔊🔊⚠, may treat a tile directly |
-          |  across 1 non-tiled gap as adjacen |
-          | t.                                 |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Grease Man                         |
-Archetype | Mover                              |
-    Level | 2                                  |
-   Memory | 12                                 |
-    Ideas | 2                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Bolt                               |
-          | (above)                            |
- Default3 | Hesitate                           |
-          | 💡                                  |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | BOLT                               |
-          | Use this action to spend           |
-          | 💡for 🔊➜➜,                          |
-          | or 💡💡 for 🔊➜➜➜                     |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Lookout                            |
-Archetype | Support                            |
-    Level | 1                                  |
-   Memory | 6                                  |
-    Ideas | 4                                  |
- Default1 | Run                                |
-          | 🔊🔊➜➜                               |
- Default2 | Hesitate                           |
-          | 💡                                  |
- Default3 |                                    |
- LevelUp1 | Watchman                           |
- LevelUp2 | Tunneler                           |
-  Special | EARLY WARNING                      |
-          | When outdoors, may 🔍 once per turn |
-          |                                    |
-          | MISDIRECT                          |
-          | Once per heist, may use💡💡💡 to chan |
-          | ge the security roll by 1.         |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Watchman                           |
-Archetype | Support                            |
-    Level | 2                                  |
-   Memory | 9                                  |
-    Ideas | 3                                  |
- Default1 | Run                                |
-          | 🔊🔊➜➜                               |
- Default2 | Study                              |
-          | 💡💡                                 |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | EARLY WARNING                      |
-          | When outdoors, may 🔍 once per turn |
-          |                                    |
-          | GREAT IN A PINCH                   |
-          | May use 💡💡💡 to change the security |
-          |  roll by 1. During Escape, may pre |
-          | vent a gate from shutting for 💡💡💡  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Tunneler                           |
-Archetype | Support                            |
-    Level | 2                                  |
-   Memory | 8                                  |
-    Ideas | 1                                  |
- Default1 | Run                                |
-          | 🔊🔊➜➜                               |
- Default2 | Hesitate                           |
-          | 💡                                  |
- Default3 | Tunnel                             |
-          | (above)                            |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | EARLY WARNING                      |
-          | When outdoors, may 🔍 once per turn |
-          |                                    |
-          | MISDIRECT                          |
-          | Once per heist, may use 💡💡💡 to cha |
-          | nge the security roll by 1.        |
-          |                                    |
-          | TUNNEL                             |
-          | If outdoors, use this action and 💡 |
-          | 💡💡🔊 to teleport to the tile of any |
-          |  other player.                     |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Pickpocket                         |
-Archetype | Looter                             |
-    Level | 1                                  |
-   Memory | 7                                  |
-    Ideas | 2                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Smash                              |
-          | 📷🔊🔊➜                               |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | LARCENIST                          |
-          | You may pick up items in an adjace |
-          | nt tile as if it were on your tile |
-          | .                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Con Artist                         |
-Archetype | Looter                             |
-    Level | 2                                  |
-   Memory | 8                                  |
-    Ideas | 3                                  |
- Default1 | Walk                               |
-          | 🔊➜                                 |
- Default2 | Smash                              |
-          | 📷🔊🔊➜                               |
- Default3 | Toss Loot                          |
-          | (above)                            |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | SWINDLER                           |
-          | You may pick up items in an adjace |
-          | nt tile, and may drop items on an  |
-          | adjacent tile as if it were on you |
-          | r tile.                            |
-          |                                    |
-          | TOSS LOOT                          |
-          | Use this action to place any of yo |
-          | ur loot up to two tiles away in a  |
-          | single direction. You may not toss |
-          |  over locked tiles or gaps.        |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Tinkerer                           |
-Archetype | Looter                             |
-    Level | 2                                  |
-   Memory | 9                                  |
-    Ideas | 3                                  |
- Default1 | Disable                            |
-          | 📷🔊➜                                |
- Default2 | Hesitate                           |
-          | 💡                                  |
- Default3 |                                    |
- LevelUp1 |                                    |
- LevelUp2 |                                    |
-  Special | LARCENIST                          |
-          | You may pick up items in an adjace |
-          | nt tile as if it were on your tile |
-          | .                                  |
-          ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Angry Locksmith                    |
+   Archetype | Bypasser                           |
+       Level | 1                                  |
+      Memory | 8                                  |
+       Ideas | 3                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Pick                               |
+             | 🔓🔊                                 |
+    Default3 |                                    |
+    LevelUp1 | Safecracker                        |
+    LevelUp2 | Demolitions Guy                    |
+     Special | EFFICIENT PICKER                   |
+             | If your action has a 🔓, you may sp |
+             | end 💡 for an additional ➜🔊         |
+LevelUp1Desc | +2 Memory                          |
+             |                                    |
+             | + 2 Initial 💡                      |
+             |                                    |
+             | Pick🔓🔊 ⇒                           |
+             | Pick II🔓🔓🔊                         |
+LevelUp2Desc | +1 Initial 💡                       |
+             |                                    |
+             | +BREACH                            |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Safecracker                        |
+   Archetype | Bypasser                           |
+       Level | 2                                  |
+      Memory | 10                                 |
+       Ideas | 5                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Pick II                            |
+             | 🔓🔓🔊                                |
+    Default3 |                                    |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | EFFICIENT PICKER                   |
+             | If your action has a 🔓, you may sp |
+             | end 💡 for an additional ➜🔊         |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Demolitions Guy                    |
+   Archetype | Bypasser                           |
+       Level | 2                                  |
+      Memory | 8                                  |
+       Ideas | 4                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Pick                               |
+             | 🔓🔊                                 |
+    Default3 | Breach                             |
+             | (above)                            |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | EFFICIENT PICKER                   |
+             | If your action has a 🔓, you may sp |
+             | end 💡 for an additional ➜🔊         |
+             |                                    |
+             | BREACH                             |
+             | May spend your action and💡💡💡💡 to c |
+             | reate a new Exit on an external si |
+             | de of the current tile. Initiate E |
+             | scape phase immediately.           |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Thug                               |
+   Archetype | Fighter                            |
+       Level | 1                                  |
+      Memory | 7                                  |
+       Ideas | 0                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Punch                              |
+             | 👊🔊🔊➜                               |
+    Default3 |                                    |
+    LevelUp1 | Bruiser                            |
+    LevelUp2 | Operative                          |
+     Special | ADRENALINE                         |
+             | Gain 💡 when you 👊                  |
+LevelUp1Desc | +2 Memory                          |
+             |                                    |
+             | + 2 Initial 💡                      |
+             |                                    |
+             | +Bash👊👊🔊                           |
+LevelUp2Desc | +2 Memory                          |
+             |                                    |
+             | + 4 Initial 💡                      |
+             |                                    |
+             | +Spy Stuff🔓👊🔊                      |
+             |                                    |
+             | +YOU WILL REPORT IN                |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Bruiser                            |
+   Archetype | Fighter                            |
+       Level | 2                                  |
+      Memory | 9                                  |
+       Ideas | 2                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Punch                              |
+             | 👊🔊🔊➜                               |
+    Default3 | Bash                               |
+             | 👊👊🔊                                |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | ADRENALINE                         |
+             | Gain 💡 when you 👊                  |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Operative                          |
+   Archetype | Fighter                            |
+       Level | 2                                  |
+      Memory | 9                                  |
+       Ideas | 4                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Punch                              |
+             | 👊🔊🔊➜                               |
+    Default3 | Spy Stuff                          |
+             | 🔓👊🔊                                |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | ADRENALINE                         |
+             | Gain 💡  when you 👊                 |
+             |                                    |
+             | YOU WILL REPORT IN                 |
+             | When you  👊, lower the noise level |
+             |  by 1. Do not change the ⚠ level.  |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Street Urchin                      |
+   Archetype | Rogue                              |
+       Level | 1                                  |
+      Memory | 9                                  |
+       Ideas | 2                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Hesitate                           |
+             | 💡                                  |
+    Default3 |                                    |
+    LevelUp1 | Con Artist                         |
+    LevelUp2 | Mastermind                         |
+     Special | THERE ARE BETTER WAYS              |
+             | Cannot 👊. For 💡, may exit Guarded  |
+             | spaces for the rest of your turn.  |
+             | In Escape, you require only 1 Esca |
+             | pe Move to exit a space with guard |
+             | s.                                 |
+LevelUp1Desc | +3 Memory                          |
+             | +1 Initial 💡                       |
+             |                                    |
+             | Walk🔊➜ ⇒                           |
+             | Dash🔊➜➜                            |
+             |                                    |
+             | Heistate 💡⇒                        |
+             | Study💡💡                            |
+LevelUp2Desc | +1 Memory                          |
+             | +1 Initial 💡                       |
+             |                                    |
+             | Walk🔊➜ ⇒                           |
+             | Run🔊🔊➜➜                            |
+             |                                    |
+             | Hesistate 💡⇒                       |
+             | INSPIRE                            |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Grifter                            |
+   Archetype | Rogue                              |
+       Level | 2                                  |
+      Memory | 12                                 |
+       Ideas | 3                                  |
+    Default1 | Dash                               |
+             | 🔊➜➜                                |
+    Default2 | Study                              |
+             | 💡💡                                 |
+    Default3 |                                    |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | THERE ARE BETTER WAYS              |
+             | Cannot 👊. For 💡, may exit Guarded  |
+             | spaces for the rest of your turn.  |
+             | In Escape, you require only 1 Esca |
+             | pe Move to exit a space with guard |
+             | s.                                 |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Mastermind                         |
+   Archetype | Rogue                              |
+       Level | 2                                  |
+      Memory | 10                                 |
+       Ideas | 3                                  |
+    Default1 | Run                                |
+             | 🔊🔊➜➜                               |
+    Default2 | Inspire                            |
+             | (above)                            |
+    Default3 |                                    |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | THERE ARE BETTER WAYS              |
+             | Cannot 👊. For 💡, may exit Guarded  |
+             | spaces for the rest of your turn.  |
+             | In Escape, you require only 1 Esca |
+             | pe Move to exit a space with guard |
+             | s.                                 |
+             |                                    |
+             | INSPIRE                            |
+             | Use this action and a 🔊 to give a  |
+             | free💡💡  to a player of your choosi |
+             | ng.                                |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Script Kiddie                      |
+   Archetype | Hacker                             |
+       Level | 1                                  |
+      Memory | 6                                  |
+       Ideas | 5                                  |
+    Default1 | Stride                             |
+             | 🔊➜🔍                                |
+    Default2 | Autopwn                            |
+             | (above)                            |
+    Default3 |                                    |
+    LevelUp1 | Hacktivist                         |
+    LevelUp2 | Black Hat                          |
+     Special | I CAN HAZ TEH CODES?               |
+             | Once per heist may spend 💡💡 to re- |
+             | position up to 3 planning tokens o |
+             | f any color(s)                     |
+             |                                    |
+             | AUTOPWN                            |
+             | Use this Action and a 💡 to enable  |
+             | another character to 👊🔊, 📷🔊, or 🔓🔊 |
+             |                                    |
+LevelUp1Desc | +4 Memory                          |
+             | +1 Initial 💡                       |
+             |                                    |
+             | Stride🔊➜🔍 ⇒                        |
+             | Run🔊🔊➜➜                            |
+LevelUp2Desc | +2 Memory                          |
+             | +1 Initial 💡                       |
+             |                                    |
+             | AUTOPWN⇒                           |
+             | EXPLOIT                            |
+             |                                    |
+             | I CAN HAZ TEH CODES?⇒              |
+             | HAS THE CODE                       |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Hacktivist                         |
+   Archetype | Hacker                             |
+       Level | 2                                  |
+      Memory | 10                                 |
+       Ideas | 6                                  |
+    Default1 | Run                                |
+             | 🔊🔊➜➜                               |
+    Default2 | Autopwn                            |
+             | (above)                            |
+    Default3 |                                    |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | I CAN HAZ TEH CODES?               |
+             | Once per heist may spend 💡💡 to re- |
+             | position up to 3 planning tokens o |
+             | f any color(s)                     |
+             |                                    |
+             | AUTOPWN                            |
+             | Use this Action and a 💡 to enable  |
+             | another character to 👊🔊, 📷🔊, or 🔓🔊 |
+             |                                    |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Black Hat                          |
+   Archetype | Hacker                             |
+       Level | 2                                  |
+      Memory | 8                                  |
+       Ideas | 6                                  |
+    Default1 | Stride                             |
+             | 🔊➜🔍                                |
+    Default2 | Exploit                            |
+             | (above)                            |
+    Default3 |                                    |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | HAS THE CODE                       |
+             | Once per heist may spend 💡💡 to re- |
+             | position up to 4 planning tokens o |
+             | f any color(s)                     |
+             |                                    |
+             | EXPLOIT                            |
+             | Use this Action to enable another  |
+             | character to 👊🔊, 📷🔊, or 🔓🔊         |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Burglar                            |
+   Archetype | Mover                              |
+       Level | 1                                  |
+      Memory | 8                                  |
+       Ideas | 2                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Dart                               |
+             | (above)                            |
+    Default3 | Hesitate                           |
+             | 💡                                  |
+    LevelUp1 | Sewer Rat                          |
+    LevelUp2 | Grease Man                         |
+     Special | DART                               |
+             | Use this action to spend           |
+             | 💡for 🔊➜➜                           |
+LevelUp1Desc | +1 Memory                          |
+             | +4 Initial 💡                       |
+             |                                    |
+             | +SEWER CRAWL                       |
+LevelUp2Desc | +4 Memory                          |
+             |                                    |
+             | DART⇒                              |
+             | BOLT                               |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Sewer Rat                          |
+   Archetype | Mover                              |
+       Level | 2                                  |
+      Memory | 9                                  |
+       Ideas | 4                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Dart                               |
+             | (above)                            |
+    Default3 | Hesitate                           |
+             | 💡                                  |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | DART                               |
+             | Use this action to spend           |
+             | 💡for 🔊➜➜                           |
+             |                                    |
+             | SEWER CRAWL                        |
+             | For 🔊🔊⚠, may treat a tile directly |
+             |  across 1 non-tiled gap as adjacen |
+             | t.                                 |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Grease Man                         |
+   Archetype | Mover                              |
+       Level | 2                                  |
+      Memory | 12                                 |
+       Ideas | 2                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Bolt                               |
+             | (above)                            |
+    Default3 | Hesitate                           |
+             | 💡                                  |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | BOLT                               |
+             | Use this action to spend           |
+             | 💡for 🔊➜➜,                          |
+             | or 💡💡 for 🔊➜➜➜                     |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Lookout                            |
+   Archetype | Support                            |
+       Level | 1                                  |
+      Memory | 6                                  |
+       Ideas | 3                                  |
+    Default1 | Run                                |
+             | 🔊🔊➜➜                               |
+    Default2 | Observe                            |
+             | 💡🔍🔊                                |
+    Default3 |                                    |
+    LevelUp1 | Watchman                           |
+    LevelUp2 | Tunneler                           |
+     Special | VANTAGE POINT                      |
+             | When outdoors, may 🔍 once per turn |
+             |                                    |
+             | GOOD IN A PINCH                    |
+             | During Escape, may spend           |
+             | 💡💡 to give 💡 to any player, one ti |
+             | me.                                |
+LevelUp1Desc | +3 Memory                          |
+             | +1 Initial 💡                       |
+             |                                    |
+             | GOOD IN A PINCH⇒                   |
+             | GREAT IN A PINCH                   |
+LevelUp2Desc | +2 Memory                          |
+             |                                    |
+             | +TUNNEL                            |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Watchman                           |
+   Archetype | Support                            |
+       Level | 2                                  |
+      Memory | 9                                  |
+       Ideas | 4                                  |
+    Default1 | Run                                |
+             | 🔊🔊➜➜                               |
+    Default2 | Observe                            |
+             | 💡🔍🔊                                |
+    Default3 |                                    |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | VANTAGE POINT                      |
+             | When outdoors, may 🔍 once per turn |
+             |                                    |
+             | GREAT IN A PINCH                   |
+             | During Escape, may spend           |
+             | 💡💡 to give 💡 to any player, any nu |
+             | mber of times.                     |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Tunneler                           |
+   Archetype | Support                            |
+       Level | 2                                  |
+      Memory | 8                                  |
+       Ideas | 3                                  |
+    Default1 | Run                                |
+             | 🔊🔊➜➜                               |
+    Default2 | Observe                            |
+             | 💡🔍🔊                                |
+    Default3 | Tunnel                             |
+             | (above)                            |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | VANTAGE POINT                      |
+             | When outdoors, may 🔍 once per turn |
+             |                                    |
+             | GOOD IN A PINCH                    |
+             | During Escape, may spend           |
+             | 💡💡 to give 💡 to any player, one ti |
+             | me.                                |
+             |                                    |
+             | TUNNEL                             |
+             | If outdoors, use this action and 💡 |
+             | 💡💡🔊 to teleport to the tile of any |
+             |  other player.                     |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Pickpocket                         |
+   Archetype | Looter                             |
+       Level | 1                                  |
+      Memory | 7                                  |
+       Ideas | 2                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Smash                              |
+             | 📷🔊🔊➜                               |
+    Default3 |                                    |
+    LevelUp1 | Con Artist                         |
+    LevelUp2 | Tinkerer                           |
+     Special | LARCENIST                          |
+             | You may pick up items in an adjace |
+             | nt tile as if it were on your tile |
+             | .                                  |
+LevelUp1Desc | +1 Memory                          |
+             | +1 Initial 💡                       |
+             |                                    |
+             | LARCENIST⇒                         |
+             | SWINDLER                           |
+             |                                    |
+             | +TOSS LOOT                         |
+LevelUp2Desc | +2 Memory                          |
+             | +1 Initial 💡                       |
+             |                                    |
+             | Walk🔊➜⇒                            |
+             | Disable📷🔊➜                         |
+             |                                    |
+             | +Spy Stuff🔓👊🔊                      |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Con Artist                         |
+   Archetype | Looter                             |
+       Level | 2                                  |
+      Memory | 8                                  |
+       Ideas | 3                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Smash                              |
+             | 📷🔊🔊➜                               |
+    Default3 | Toss Loot                          |
+             | (above)                            |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | SWINDLER                           |
+             | You may pick up items in an adjace |
+             | nt tile, and may drop items on an  |
+             | adjacent tile as if it were on you |
+             | r tile.                            |
+             |                                    |
+             | TOSS LOOT                          |
+             | Use this action to place any of yo |
+             | ur loot up to two tiles away in a  |
+             | single direction. You may not toss |
+             |  over locked tiles or gaps.        |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Tinkerer                           |
+   Archetype | Looter                             |
+       Level | 2                                  |
+      Memory | 9                                  |
+       Ideas | 3                                  |
+    Default1 | Disable                            |
+             | 📷🔊➜                                |
+    Default2 | Spy Stuff                          |
+             | 🔓👊🔊                                |
+    Default3 |                                    |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | LARCENIST                          |
+             | You may pick up items in an adjace |
+             | nt tile as if it were on your tile |
+             | .                                  |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
