@@ -15,8 +15,7 @@ task default: [
   :skills,
   :skill_backs,
   :events,
-  :helps,
-  :scenarios
+  :helps
 ]
 
 task :full do
@@ -102,7 +101,12 @@ task :dropbox do
   load 'src/upload_dropbox.rb'
 end
 
-task travis: [:default, :dropbox]
+task travis: [
+  :default,
+  'travis_rules',
+  'travis_scenarios',
+  :dropbox
+]
 
 desc 'Build the rules PDF'
 task rules: ['rules:md_to_html','rules:html_to_pdf']
@@ -137,6 +141,12 @@ end
 
 desc 'Build the scenarios PDF'
 task scenarios: ['scenarios:md_to_html','scenarios:html_to_pdf']
+
+
+desc 'Build the scenarios on travis'
+task 'travis_scenarios' => ['scenarios:md_to_html'] do
+  sh 'xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf --page-size Letter ./scenarios/scenarios.html ./_output/scenarios.pdf'
+end
 
 namespace :scenarios do
   task :md_to_html do

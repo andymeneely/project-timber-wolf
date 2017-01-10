@@ -14,6 +14,5 @@ script:
   - cp fonts/*.otf ~/.fonts
   - cp fonts/*.ttf ~/.fonts
   - fc-cache -f -v
-  - bundle exec rake travis_rules
   - bundle exec rake travis
   - bundle exec rake color travis
