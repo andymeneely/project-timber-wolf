@@ -12,10 +12,6 @@ Squib::Deck.new(cards: total) do
   background color: :white
   rect layout: :cut
 
-  # Trying this hack
-  Pango::FontDescription.new('Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold')
-  Pango::FontDescription.new('Archivo Black, 32')
-
   svg file: 'character_back.svg'
 
   build :color do
