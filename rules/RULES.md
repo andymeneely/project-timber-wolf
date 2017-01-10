@@ -56,9 +56,9 @@ Some Characters have two Default Actions, others have three. Actions are describ
 
 For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
 
-A Special Ability may also *limit* a character's abilities (e.g. *THERE ARE BETTER WAYS*).
-
 Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
+
+Special abilities override any rules in this document.
 
 Between Heists, your scenario may give you an opportunity to **promote** (i.e. "level up") some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Pro characters cannot be promoted.
 
@@ -90,7 +90,7 @@ Between Heists, your team will get a chance to **refine** (i.e. "level up") some
 
 The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security Chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
 
- You are considered **adjacent** to something if your are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
+ You are considered **adjacent** to something if you are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
 
 Each board has one or more **Entrances**. These Entrances represent a space. If a character is on one of these spaces they are considered to be Outdoors, otherwise they are Indoors. An Entrance tile is also considered an Exit.
 
@@ -132,24 +132,26 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 | 🔍 | **Reveal** 1 security token anywhere on the board |
 | 💰 | **Loot:** Gain $1k from the supply and place it on your character. |
 | 🔊 | Increase the **Noise** level by 1 (Required) |
-| ⚠ | Increase Alert bar by 1 (Required) |
+| ⚠ | Raise **Alert** by 1 (Required) |
 
 
-## Trackers: Noise, Alerts, Loot
+## Trackers: Noise Tracker, Alerts, and Events
 
 <img src="../img/figure_trackers.svg" align="right">
 
-The Noise Tracker mat is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon entering a Noise level with an Alert ⚠, increase the Alert Bar by 1. If the Noise marker gets to the final slot, increase ⚠ for each 🔊 incurred.
+The Noise Tracker mat is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon moving your Noise level token, Raise an Alert ⚠. If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (more on that later).
 
-The Alert Tracker represents the potential Security Events you will encounter in the near future. The Alert Bar (white wooden bar) is only ever placed *between* events. The Alert Bar represents a lower bound of what events could possibly occur, so nothing happens immediately when you increase the Alert bar.
+The Event cards represent the potential Security Events you will encounter in the near future. Every time you "Raise ⚠", move the token to the pile with the next-highest Event number on it. Discard any cards that have a lower Event number on it
 
-The Alert bar does not go beyond its final slot. If the team runs out of alerts, the Escape phase is initiated in the *Roll for Security* stage no matter what is rolled.
+**TODO: PUT IN AN EVENT CARD HERE*
 
-Details on the Security Event iconography is in the *Roll for Security* section.
+**TODO: FIGURE FOR SHOWING EVENT PILES**
 
-These mats also have spaces for team loot and some prisoner-related tracking (described later).
+If your Alert token lands on a pile with a Special Event on it, set the Special Event card aside - you will be following this card in addition to the regular Event (see Event Phase of Gameplay).
 
-<br><br>
+The Alert Token does not go beyond the final Event card.
+
+<div class="pagebreak"/>
 
 ## Security Systems
 <div class="security_systems">
@@ -160,6 +162,9 @@ These mats also have spaces for team loot and some prisoner-related tracking (de
 **Pressure Sensors**. You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍, and 🔊⚠ are still required.
 
 For each Pressure Sensor, a corresponding **Control Panel** of the same color exists somewhere else on the board. If a character is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
+
+
+**CHANGE FOR SPECIAL EVENTS**
 
 **Reinforcements**. This is an open tile while it is on the board - but bad things will happen here later! Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
 
@@ -183,6 +188,8 @@ A special loot chit is the **Story Beacon**, denoted by an asterisk. When a char
 </div>
 
 ## Prisoner
+
+**CHANGE THIS TO NPCS**
 
 Some heists have a **Prisoner**, represented by a white pawn. A Prisoner is a non-Player Character that your team can "remotely" control. A Prisoner is not Freed until their Pressure Sensor space is fully disabled. A Freed Prisoner has one Action available (Crawl➜), cannot carry Ideas💡, and needs no planning tokens. As a team, you must decide how to use the prisoner's Crawl Action. To track when the Prisoner has completed a move, place the white cube on the Crawl space on the Noise tracker.
 
@@ -217,7 +224,7 @@ Some boards have already-revealed security chits. The Chapter will also indicate
 
 **Step 8. Set up Noise and Alert trackers** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place. Place Team Cash markers on their starting places. Place Alert bar on its starting place.
 
-**Step 9. Record your team on the ledger**. Determine a name for your team. Players are encouraged name their characters.
+**Step 9. Record your team on the ledger**. Determine a name for your team. Players are encouraged to name their characters.
 
 # Heist Gameplay
 
@@ -226,7 +233,7 @@ The structure of each heist is:
   <ol class="gameplay-structure">
     <li>The Plan: Place planning tokens, Purchase Extra reveals 🔍, Purchase Extra Ideas 💡
     </li>
-    <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Roll for Security. Repeat until Escape Phase.
+    <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Events. Repeat until Escape Phase.
     </li>
     <li>Promote Characters &amp; Refine Skills</li>
   </ol>
@@ -239,7 +246,6 @@ Blue and Red place their planning tokens.
 </div>
 
 ## Part I: The Plan
-
 
 With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
 
@@ -279,13 +285,11 @@ You may also use any number of your Ideas💡 to modify the die roll by 1 each. 
 
 During this time, everyone is working collaboratively and simultaneously. (You are *__not__* taking turns!!) You decide which Action to take, and how to execute your sub-actions. You may execute your sub-actions in any order. You may interleave your sub-actions with the sub-actions of other players. Doing this part effectively takes teamwork and is the key to victory!
 
-When you begin an Action, you must place your die on that Action to indicate your commitment.
-
 <div class="example">
 *For example, Kelly takes Discover🔍🔍 and reveals a guard one space away from Tim. Tim, with this new information, then chooses to take Punch👊🔊🔊➜, and does a ➜ first, then a 👊 on the newly-discovered guard, then increases the 🔊 by 2.*
 </div>
 
-If unknown information is revealed after you commit to an Action, that Action cannot be undone.
+When you begin an Action, place your die on that Action to indicate your commitment. If unknown information is revealed after you commit to an Action, your Action cannot be undone.
 
 <div class="example">
 *For example: Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.*
@@ -303,41 +307,27 @@ Like other sub-actions, noise may be increased at any time during Character acti
 *Tip: Wait to account for noise until the end of Character Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
 </div>
 
-You may opt to simply PASS, and take no actions with no noise penalty.
+You may opt to simply **Pass**, and take no actions with no noise penalty. However, at most one Character may Pass each round.
 
-You may **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. **This does not apply to the Escape phase!** (Sorry.)
+You may **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. _**This does not apply to the Escape phase!**_ (Sorry.)
 
-You may opt to Initiate Escape Phase at any time (see *Escape Phase*).
+You may opt to **Initiate Escape Phase** at any time (see *Escape Phase*).
 
 You have the final say about what to do with your own character.
 
-### Phase 3. Roll for Security
+### Phase 3. Events
 
-UPDATE THIS FOR THE NEW RULES.
+When all players have finished their Actions and all noise has been accounted for on the Noise Tracker, the team enters the Event phase.
 
-When all players have finished their Actions, one player rolls the four-sided security die. Trigger the event by counting the number of squares from the alert bar.
+During this phase, the team will do exactly _one_ Event, then possibly one or more Special Events.
 
-Whenever an Event calls for a new Guard to be placed, take it from the **supply** (not the bag).
+First, follow the Event card the pile that your Alert Tracker token is currently on. Read the text and raise the alerts as instructed by the card as you would during the Character Action phase.
 
-<div class="reinforcements">
+Second, follow any Special Event cards you have set aside. Multiple Special Events should be executed in the order they were encountered.
 
-<img src="../img/figure_reinforcements.svg" class="para_header">
+Characters may not use their abilities during this phase.
 
-**Reinforcements**. *After* the Security Event has been resolved, check to see if the Alert Bar is on or beyond the Reinforcements space. If so:
-
-  1. _Reveal_ all Security Chits adjacent to the Reinforcements chit.
-  2. _Un-Subdue_ any Guards adjacent to the Reinforcements chit,
-  3. _Re-lock_ any Locks adjacent to the Reinforcements chit,
-  4. _Re-activate_ any disabled Cameras adjacent to the Reinforcements chit. Increase ⚠ for each character on one of these Cameras.
-  5. _Place a new Guard token_ from the supply onto any tile adjacent to the Reinforcements chit that was without a Security Token.
-  6. _Replace the Reinforcements_ chit with two Guards.
-
-</div>
-<div class="tip">
-Note that Reinforcements are only called once per heist.
-</div>
-
-<div class="clear-both"/>
+Whenever an Event or Special Event card calls for a new security tokens to be placed, take the chit from the **supply** (not the bag).
 
 ### Escape Phase
 
