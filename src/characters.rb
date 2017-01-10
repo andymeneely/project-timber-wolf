@@ -3,7 +3,8 @@ require_relative 'helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx') { |col, item| newlineate(col, item) }
 total = data['Name'].size
-# save_json data: data, cards: total, to: 'data/characters.json'
+
+File.open('data/characters.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 Squib::Deck.new(cards: total) do
   use_layout file: 'layouts/characters.yml'
