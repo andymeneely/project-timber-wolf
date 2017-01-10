@@ -1,5 +1,19 @@
             ╭------------------------------------╮
        Name | Reinforcements                     |
+        Qty | 2                                  |
+      Story | A group of guards rally at one of  |
+            | their waypoints.                   |
+Description | Unsubdue/Re-lock/Re-enable every G |
+            | uard/Lock/Camera adjacent to each  |
+            | Reinforcement token. Add a Guard t |
+            | o empty spaces adjacent to the tok |
+            | en. Replace the token with two Gua |
+            | rds.                               |
+        Img | special_events_reinforcements.svg  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Reinforcements                     |
+        Qty | 2                                  |
       Story | A group of guards rally at one of  |
             | their waypoints.                   |
 Description | Unsubdue/Re-lock/Re-enable every G |
@@ -12,6 +26,17 @@ Description | Unsubdue/Re-lock/Re-enable every G |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Watchtower Sweep                   |
+        Qty | 2                                  |
+      Story | The Watchtower performs a sweep in |
+            |  every direction.                  |
+Description | Add a Guard to every hex with a Ch |
+            | aracter on it in a direct line ori |
+            | ginating from a Watchtower token.  |
+        Img | special_events_watchtower.svg      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Watchtower Sweep                   |
+        Qty | 2                                  |
       Story | The Watchtower performs a sweep in |
             |  every direction.                  |
 Description | Add a Guard to every hex with a Ch |
@@ -21,6 +46,7 @@ Description | Add a Guard to every hex with a Ch |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guards at the Exit                 |
+        Qty | 1                                  |
       Story |                                    |
 Description | Add a Guard token to every hex adj |
             | acent to an Exit                   |
@@ -28,12 +54,14 @@ Description | Add a Guard token to every hex adj |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Move the Paintings!                |
+        Qty | 1                                  |
       Story |                                    |
 Description |                                    |
         Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Lock the Goods!                    |
+        Qty | 1                                  |
       Story |                                    |
 Description | Add a Lock to any loot not yet sto |
             | len                                |
@@ -41,6 +69,7 @@ Description | Add a Lock to any loot not yet sto |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Prisoners Panic!                   |
+        Qty | 1                                  |
       Story |                                    |
 Description | Flip the prisoner cards over       |
         Img |                                    |
