@@ -1,13 +1,12 @@
 
 
-# <span class="title">Rules for _Your Last Heist_</span>
+# <span class="title">How to Play _Your Last Heist_</span>
 
+_Your Last Heist_ is a cooperative, multi-stage heist game. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
-_Your Last Heist_ is a cooperative, multi-stage heist game. You are playing the role of a uniquely skilled criminal who works with other skilled criminals to quietly traverse the building and steal items, all while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
+During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
-A single heist takes 30-40 minutes, and is part of a narrative where your team improves their skills and characters over time. The scenarios are story-driven, highly replayable, and allow you to "save" your game between heists.
-
-During each heist, you will collaborate with your teammates in simultaneous gameplay. Each round begins with everyone rolling a die to determine which actions are available. You use Ideas💡 to modify that die roll, but don't spend too many - you'll need those Ideas💡 to escape, too!
+You will start as an amateur criminal with amateur skills. But over time, and with good decisions along the way, you and your teammates will level up your characters and skills as you make your way through a set of story-driven campaigns. Each heist is highly replayable, with various outcomes.
 
 ## The Pieces
 
@@ -16,12 +15,13 @@ During each heist, you will collaborate with your teammates in simultaneous game
 * 32 double-sided hex tiles.
   * 28 Blank/Security tiles
   * 4 Gate tiles (A,B,C,D)
-* 12 character cards: 6 Amateurs, 6 double-sided Pros
+* 14 character cards: 7 Amateurs, 7 double-sided Pros
 * 24 Skill cards: 6 Amateurs, 12 Pros, 2 copies of each)
-* 6 Lock chits
-* 6 Camera chits (circle)
-* 21 Guard chits (circle)
-* 5 Artwork chits (square)
+* 24 Event cards, including 6 Special Event cards
+* 10 Lock chits
+* 10 Camera chits (circle)
+* 14 Guard chits (circle)
+* 10 Artwork chits (square)
 * 5 Entrance chits (square)
 * 4 Jewel chits (circle)
 * 4 Control Panel chits (circle)
@@ -34,7 +34,8 @@ During each heist, you will collaborate with your teammates in simultaneous game
 * 4 Player D6 dice (by player colors)
 * 1 Security Die (white, four-sided die)
 * 12 Petty Cash chits ($1k and $3k)
-* 1 Alert Bar marker (white wooden stick)
+* Noise tracker card
+* 4 Game Helps
 * 4 Noise Tracker & Team Cash Markers (white wooden cylinders)
 
 </div>
