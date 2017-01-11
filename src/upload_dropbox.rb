@@ -22,7 +22,7 @@ puts '--- Uploading Files ---'
 Dir['_output/*.pdf'].each do |pdf|
   version = `git describe --tags`
   dropbox_file = "/Your Last Heist Builds/#{version}/#{File.basename(pdf)}"
-  response = client.put_file(dropbox_file, open(pdf))
+  response = client.put_file(dropbox_file, open(pdf), true)
   pp "  uploaded:", response.inspect
 end
 puts '--- Done Uploading Files ---'
