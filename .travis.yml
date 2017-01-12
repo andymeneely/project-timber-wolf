@@ -1,17 +1,37 @@
 dist: trusty
 language: ruby
 sudo: required
-cache: bundler # cache bundled gems from build to build
+cache: bundler
 rvm:
-  - 2.4.0
+- 2.4.0
 env:
-  - QT_XKB_CONFIG_ROOT=/usr/share/X11/xkb
+- QT_XKB_CONFIG_ROOT=/usr/share/X11/xkb
 script:
-  - wget https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
-  - sudo dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb ; sudo apt-get install -f
-  - mkdir ~/.fonts
-  - cp fonts/*.otf ~/.fonts
-  - cp fonts/*.ttf ~/.fonts
-  - fc-cache -f -v
-  - bundle exec rake travis
-  - bundle exec rake color travis
+- wget https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+- sudo dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb ; sudo apt-get
+  install -f
+- mkdir ~/.fonts
+- cp fonts/*.otf ~/.fonts
+- cp fonts/*.ttf ~/.fonts
+- fc-cache -f -v
+- bundle exec rake travis
+- bundle exec rake color travis
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: mxHebJte+ZTKz9GGQrlOo0khDxF9j1OmggY6U97I6q2n5vlezA//aoGfFdVjGUx8N3g0kQ/LkMcgCpJlTFl/5w+R9mW5Tf+hKMgjl0b/foW9w3xzI7Ok+lCtrSc4lulvSP4Jjlye8JFXxFR2bXzGmvSSqnMA3eJWf9SaPjn2VgsDkTCY317RgOMR6oGjGJ9qeBDdIxYdc0WmMifJwSUrKbZ2a3mVfS8hUvcy+Dk8urm4GtaCszfFKCu62HOrjN+fIGHMOwRY20kwOPw8kNUMdTL6CyGHo0bBICLRoxrg19yUP77RHc552sKkcmv0WbGAjKjccEXoQMymS4257r1jN0+mt3jeiQ96WYoE9gdQef+Y0uQ8W9k+nPKrz7/8KMUOs7jhkmJJptah8ZLURpg5ZNCwxdrch3mJd2uJrZRerc6Ym7VIDjmux9XsNcRCknNCILcM26Q3RKQHTUBdFXfb4HoIRjyKuTYlX+kqPkD7zlgXTo5MBp5wnqDRLeMr7pjN2NdlEAtiRmRua4sM2lxun5N3rVNliZ1uWUm5GdA6bTWhaPYeJDT4R6S7pTKFfetlyicbWMhBL6+AvV0ZrbsgB8t9/P1cDEYsieHA3u5luwp9AB7OlVgzh28sno2BTONDV8/Ca8RhMXj4aXzwEYkIIheGZdyRLrYqhhydHxudl78=
+  file:
+    - _output/RULES.pdf
+    - _output/scenarios.pdf
+    - _output/noise_tracker.pdf
+    - _output/characters.pdf
+    - _output/character_backs.pdf
+    - _output/events.pdf
+    - _output/helps.pdf
+    - _output/skills.pdf
+    - _output/skill_backs.pdf
+    - _output/special_events.pdf
+  on:
+    tags: true
+    repo: andymeneely/project-timber-wolf
