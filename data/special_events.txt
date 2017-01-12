@@ -33,6 +33,30 @@ Description | Add a Guard to every hex with a Ch |
         Img | special_events_watchtower.svg      |
             ╰------------------------------------╯
             ╭------------------------------------╮
+       Name | Shut Two Gates!!                   |
+        Qty | 2                                  |
+      Story | In an attempt to isolate your team |
+            | , the guards shut two lockdown gat |
+            | es.                                |
+Description | Close the next two Gates, starting |
+            |  with "A". Remove the tile. If a c |
+            | haracter is on it, they are immedi |
+            | ately Busted.                      |
+        Img | special_events_gates.svg           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut Two Gates!!                   |
+        Qty | 2                                  |
+      Story | In an attempt to isolate your team |
+            | , the guards shut two lockdown gat |
+            | es.                                |
+Description | Close the next two Gates, starting |
+            |  with "A". Remove the tile. If a c |
+            | haracter is on it, they are immedi |
+            | ately Busted.                      |
+        Img | special_events_gates.svg           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
        Name | Guards at the Exit                 |
         Qty | 1                                  |
       Story |                                    |
@@ -58,7 +82,7 @@ Description | Add a Lock to any loot not yet sto |
             ╭------------------------------------╮
        Name | Prisoners Panic!                   |
         Qty | 1                                  |
-      Story |                                    |
-Description | Flip the prisoner cards over       |
+      Story | The                                |
+Description | Flip the prisoner cards over.      |
         Img |                                    |
             ╰------------------------------------╯

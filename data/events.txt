@@ -212,10 +212,10 @@ Description | Replace every Disabled Camera with |
       Order | 20                                 |
       Story | An automatic system initiates, clo |
             | sing the next two lockdown gates.  |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a charac |
-            | ter is on it, they are immediately |
-            |  Busted.                           |
+Description | Close the next two Gates, starting |
+            |  with "A". Remove the tile. If a c |
+            | haracter is on it, they are immedi |
+            | ately Busted.                      |
         Img | figure_alerts_lockdown.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
