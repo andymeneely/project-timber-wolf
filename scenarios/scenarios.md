@@ -100,3 +100,36 @@ Try this scenario with these conditions:
 * Operative + Splice In + Extract
 * Grease Man + Concoct + Assault
 * Black Hat + Prowl + Blast
+
+# Chapter 6. The Redemption Job
+
+<img class="map" src="venetian swap ch 6 the redemption job.svg">
+
+_I've been studying these documents. As it turns out, they belong to the ancestors of the Gallery's curator. He won't let these go. I figure if I turn them in this curator will still pursue extradition on me. If we can return the rightful paintings without a trace we can all call it even. Your objective is to swap in at least three real paintings in for their originals. Sadly, as you would expect, The Gallery has tightened up their security quite a bit given this recent streak of heists. But I'm confident you're up to the task._
+
+_After this, I need to lay low for a while. You should find another source for jobs until I come and find you. Best of luck!_
+
+
+## Setup
+
+* EVENTS: Use Events 1-20, then Event 20a, 20b, and 20c, then 21.
+* SPECIAL EVENTS: Place Reinforcements on top of Event 16, and Watchtower on top of Event 10 and 18.
+
+## Planning Phase
+
+* You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
+* You may purchase 🔍 for $1k each
+* A maximum of two Characters may start on a given Entrance tile
+* No maximum on the number of Characters per Exit during Escape
+
+## Standalone Challenge
+
+Try this scenario with the following conditions:
+
+* $5k of Team Cash
+* All of the paintings in your team's possession
+* TODO FIGURE OUT SKILL CARDS
+* Tunneler
+* Demolitions Guy
+* Grifter
+* Bruiser

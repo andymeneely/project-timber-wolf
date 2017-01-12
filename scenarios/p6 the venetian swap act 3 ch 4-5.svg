@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.0 r15299"
-   sodipodi:docname="p6 the venetian swap act 3.svg"
+   sodipodi:docname="p6 the venetian swap act 3 ch 4-5.svg"
    inkscape:export-filename="G:\code\timber-wolf\scenarios\p5 the venetian swap act 3.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
@@ -75,8 +75,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.3535534"
-     inkscape:cx="1340.0576"
-     inkscape:cy="2402.3815"
+     inkscape:cx="1022.3594"
+     inkscape:cy="938.48183"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -85,8 +85,8 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="1672"
+     inkscape:window-y="156"
      inkscape:window-maximized="1">
     <sodipodi:guide
        position="74.751289,889.43934"
@@ -2792,5 +2792,10 @@
        x="121.95814"
        y="1070.5076"
        ry="35.568672" />
+    <path
+       style="fill:#ffffff;stroke-width:0.20613264"
+       inkscape:connector-curvature="0"
+       d="m 760.84706,3053.0123 -19.78869,9.8943 h 4.74096 v 14.6354 h -6.59626 v 10.3067 h 6.37882 l -5.48005,49.316 -0.13455,0.098 0.10772,0.1482 -0.86064,7.7436 -0.20523,1.8438 3.68761,0.4102 0.20523,-1.844 0.54936,-4.9464 h 34.79096 l 0.5494,4.9459 0.20522,1.844 3.68769,-0.4103 -0.20523,-1.8437 -0.86041,-7.7437 0.10772,-0.1482 -0.13455,-0.098 -5.48002,-49.3156 h 6.37898 v -10.3066 h -6.59622 v -14.6355 h 4.74104 z m -9.89434,13.1925 h 6.59622 v 9.8943 h -6.59622 z m 13.19244,0 h 6.59625 v 9.8943 h -6.59625 z m -21.23165,15.0476 h 2.88582 v 2.8859 h -2.88582 z m 6.59622,0 h 2.88582 v 2.8859 h -2.88582 z m 6.59622,0 h 2.8859 v 2.8859 h -2.8859 z m 6.59626,0 h 2.88586 v 2.8859 h -2.88586 z m 6.59622,0 h 2.88589 v 2.8859 h -2.88589 z m 6.5963,0 h 2.88582 v 2.8859 h -2.88582 z m -23.36058,6.5963 h 16.6258 l -8.31289,7.3894 z m -3.43216,1.9135 8.51498,7.5685 h -9.35535 l 0.84105,-7.5685 z m 23.48988,0 0.84098,7.5685 h -9.35535 z m -24.74252,11.2789 h 6.46903 l -7.17792,6.3805 0.70907,-6.3805 z m 12.054,0 h 1.88735 l 10.66734,9.4822 h -23.22202 z m 7.47228,0 h 6.46912 l 0.70907,6.3805 -7.17857,-6.3805 z m -17.3139,13.1926 h 21.57059 l -10.78526,7.844 z m -3.87526,1.7698 10.60448,7.7123 h -11.461 l 0.85693,-7.7123 z m 29.32089,0 0.85697,7.7123 h -11.461 l 10.60426,-7.7123 z m -30.58949,11.4227 h 8.57522 l -9.32958,6.7846 z m 14.88385,0 h 2.09106 l 13.03786,9.4821 h -28.167 l 13.03789,-9.4821 z m 8.39993,0 h 8.57507 l 0.75405,6.7846 -9.32931,-6.7846 z"
+       id="path1063" />
   </g>
 </svg>
