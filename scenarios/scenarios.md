@@ -2,6 +2,70 @@
   Scenarios for Your Last Heist
 </div>
 
+
+# Chapter 1. The Fence
+
+_Look around. You might see a bunch of lowlife criminals putting in their time, but me? I see a business opportunity. See, I've got a bunch of... connections. I know how to find people who are willing to purchase the world's greatest artwork with no questions asked. I simply lack the means of... acquisition. That's where you all come in. I've hand-picked this team for your talents and potential. First, let's get out of here._
+
+_Our objective is to get me out of here. If some of you don't make it, we can find a replacement but I'd rather not have that happen. Now the only way to pull this off is to have a maximum of two characters at each exit. You may notice that our locksmith friend here is specially equipped to get this party started. But first, let's do a little recon._
+
+## Suggested Characters & Skills
+
+* RED: Angry Locksmith with Hurry and Smash 'n' Grab
+* GREEN: Thug with Yank Wires and Bypass
+* BLUE: Burglar with Wing It and Hit 'n' Run
+* BLACK: Script Kiddie with Hit 'n' Run and Hurry (4 players)
+
+## Planning Phase
+
+* As a team take 🔍🔍🔍
+* Team Cash starts at $0k
+* A maximum of two Characters may exit a given Exit tile, including the Fence
+
+<img class="map-full-width" src="venetian swap ch 1 the fence.svg">
+
+## Upon Success
+
+_Well done! I think this is gonna work out. Ok I'll map out our first job. Meanwhile, everyone study up and refine one of your skills._
+
+* Every non-Busted Character may Refine one Skill.
+
+# Chapter 2. The Gallery Job
+
+<img class="map" src="venetian swap ch 2 the gallery.svg">
+
+_Our first mark will be our friendly local art gallery. They're expecting a new exhibit of paintings coming in from Venice, Italy tomorrow. Gorgeous collection. Even the museum curators have underappreciated - and undervalued - this collection. Security is pretty lax but, just to be cautious, you cannot have more than two players per entrance to start with. Exit however you want, just make sure you remember those gates close when the alarm goes off._
+
+_To make payroll, I just need three paintings. Now, you should know that these pieces will sell better if we have them in sets. Both fruit paintings will sell for an extra $2k and all three building portraits will get us an extra $4k. We can use any bonus money for the next job._
+
+_Good luck and don't forget: getting in is the easy
+part._
+
+## Setup
+
+* EVENTS: Use Events 1-21
+* SPECIAL EVENTS: Place Reinforcements on top of Event 14
+
+## Planning Phase
+
+* You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
+* You may purchase 🔍 for $1k each
+* A maximum of two Characters may start on a given Entrance tile
+* No maximum on the number of Characters per Exit during Escape
+
+## Upon Success
+
+_Excellent work! Wow these are even more beautiful in person. These'll sell for a pretty penny I'm sure. Now I'll go look for a potential buyer. While I'm gone, I want one of you to level up. One of you who actually stole a painting this heist is eligible. I'll let the team decide who gets this promotion._
+
+* One non-Busted Character may be promoted
+
+Be sure to record the following on your campaign history:
+
+* Team Cash
+* Which paintings you stole in Team Loot
+* Characters who were busted
+* Character Promotion
+
 # Chapter 3. The Provenance
 
 <img class="map" src="venetian swap ch 3 the archives.svg">
@@ -26,14 +90,16 @@ _Best of luck and don't get greedy._
 
 ## Upon Success
 _Excellent! I think this will be a good relationship. Here's
-$6k for team loot, plus payout for extra jewels. At this point I'll let you
-promote any non-Busted characters for $3k each and $2k for each Skill._
+$6k for team loot, plus payout for extra jewels. At this point I'd be willing to support some "professional development"._
+
 
 _Huh. That's funny. These records have some authentication facts about these
 paintings. They don't match. We stole some fakes!! Ok let me do some
 digging and figure what happened._
 
-Change the painting tokens in your Team Loot to their fake counterparts.
+* You may Promote non-Busted Characters for $3k each
+* You may Refine the Skills of any non-Busted Character for $2k each
+* Change the painting tokens in your Team Loot to their fake counterparts. If you have any unused fake paintings, return them to the supply.
 
 Be sure to record the following on your Campaign ledger:
 
@@ -66,8 +132,8 @@ _**Your objective is to swap in at least three painting fakes we have and steal 
 ## Upon Success
 _This crew sure never ceases to impress me. Here's another $6k for your time and an extra $3k for every extra painting swapped out. Go ahead and train up for the next one._
 
-* You may Refine Skills of any non-Busted Character for $2k each
-* You may Promote Characters of any non-Busted Character for $3k each
+* You may Promote non-Busted Characters for $3k each
+* You may Refine the Skills of any non-Busted Character for $2k each
 * If you have any unused fake paintings, return them to the supply.
 
 # Chapter 5. The Long Swap
@@ -132,4 +198,4 @@ Try this scenario with the following conditions:
 * Tunneler
 * Demolitions Guy
 * Grifter
-* Bruiser
+* Sewer Rat

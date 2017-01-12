@@ -42,14 +42,17 @@ ul{
 
 .map{
   float: right;
-  width: 4in;
-  height: 4in;
+  width: 4.5in;
+  height: 4.5in;
+}
+.map-big{
+  float: right;
+  width: 5.5in;
+  height: 5.5in;
 }
 
-.map-big{
-  width: 5in;
-  float: right;
-
+.map-full-width{
+  width: 100%;
 }
 
 .pagebreak{
