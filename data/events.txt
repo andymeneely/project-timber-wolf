@@ -225,3 +225,34 @@ Description | Close the next Gate, starting with |
 Description | Initiate Escape Phase.             |
         Img | figure_alerts_alarm.svg            |
             ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Ties Broke!                        |
+      Order | 20a                                |
+      Story | Emboldened by the alerts that have |
+            |  been raised, the Guards begin esc |
+            | aping their bonds.                 |
+Description | Un-Subdue every Subdued Guard that |
+            |  shares a tile with a Character.   |
+        Img | figure_alerts_unsubdue.svg         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Hey You!                           |
+      Order | 20b                                |
+      Story | Guards are studying the cameras mo |
+            | re closely now.                    |
+Description | Add a Guard from the supply to eac |
+            | h tile that has a Character adjace |
+            | nt to at least one Live Camera.    |
+        Img | figure_alerts_hey_you.svg          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gates!                    |
+      Order | 20c                                |
+      Story | An automatic system initiates, clo |
+            | sing the next two lockdown gates.  |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a charac |
+            | ter is on it, they are immediately |
+            |  Busted.                           |
+        Img | figure_alerts_lockdown.svg         |
+            ╰------------------------------------╯

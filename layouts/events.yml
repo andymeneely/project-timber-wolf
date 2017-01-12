@@ -61,7 +61,7 @@ Description:
   valign: middle
 
 Order:
-  font: Archivo Black, 35
+  font: Archivo Narrow, Serif Bold 35
   x: 0.25in
   y: 3.25in
   width: 75
