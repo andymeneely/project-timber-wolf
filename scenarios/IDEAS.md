@@ -32,9 +32,13 @@ The Embassy
 The Forum
 The Cult Compound
 
-SOMEWHERE we need to have the ability to create entrances at 2-3 pre-defined spaces. Like you tunnel in or something.
+SOMEWHERE we need to have the ability to create entrances at 2-3 pre-defined spaces. Like you tunnel in or something. Make it part of the planning phase
 
 SOMEWHERE we should have a stack of ideas in the middle of the board. Help with escaping or something.
+
+SOMEWHERE we should have heists where the jewels are the same size as the security chits - so we don't know where the jewels are until we do a lot of reveals. Make the security chits by the door be already open so you can't get too lucky
+
+SOMWHERE we should have a set of stories with a couple of NPCs. The special events could involve prisoner panic, etc. It's more to manage but it could be considered a "hard" scenario because you're managing more things. Also: add more events to these because the prisoners get noisy. (Maybe this could be for the Veteran thing?)
 
 The Fall Guys
 =============

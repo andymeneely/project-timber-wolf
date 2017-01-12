@@ -7,7 +7,7 @@
 }
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 13pt;
+  font-size: 14pt;
   /*background-color: #f2ebd6;*/ /* Focusing on mostly bw for the moment */
 }
 p{
@@ -23,6 +23,7 @@ th,td{
 }
 
 h1{
+  page-break-before: always;
   margin-top: 0.5em;
   margin-bottom: 0;
 }
@@ -34,11 +35,21 @@ h2{
 h3{
   margin-bottom: 0;
 }
+ul{
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
 
 .map{
   float: right;
   width: 4in;
   height: 4in;
+}
+
+.map-big{
+  width: 5in;
+  float: right;
+
 }
 
 .pagebreak{
