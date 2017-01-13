@@ -90,16 +90,16 @@ _Best of luck and don't get greedy._
 
 ## Upon Success
 _Excellent! I think this will be a good relationship. Here's
-$6k for team loot, plus payout for extra jewels. At this point I'd be willing to support some "professional development"._
-
+$4k for team loot, plus payout for extra jewels. At this point I'd be willing to support some "professional development"._
 
 _Huh. That's funny. These records have some authentication facts about these
 paintings. They don't match. We stole some fakes!! Ok let me do some
 digging and figure what happened._
 
+* Add $4k to your Team Cash, plus $3k/$7k if you stole 1/2 jewels.
 * You may Promote non-Busted Characters for $3k each
 * You may Refine the Skills of any non-Busted Character for $2k each
-* Change the painting tokens in your Team Loot to their fake counterparts. If you have any unused fake paintings, return them to the supply.
+* Change the painting tokens in your Team Loot to their fake counterparts.
 
 Be sure to record the following on your Campaign ledger:
 
@@ -122,15 +122,13 @@ _**Your objective is to swap in at least three painting fakes we have and steal 
 
 ## Planning Phase
 
-* You may Refine Skills for $2k each
-* You may Promote Characters for $3k each
 * You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
 * You may purchase 🔍 for $1k each
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
 
 ## Upon Success
-_This crew sure never ceases to impress me. Here's another $6k for your time and an extra $3k for every extra painting swapped out. Go ahead and train up for the next one._
+_This crew sure never ceases to impress me. Here's another $5k for your time and an extra $3k for every extra painting swapped out. Go ahead and train up for the next one._
 
 * You may Promote non-Busted Characters for $3k each
 * You may Refine the Skills of any non-Busted Character for $2k each

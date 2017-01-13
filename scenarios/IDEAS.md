@@ -40,6 +40,8 @@ SOMEWHERE we should have heists where the jewels are the same size as the securi
 
 SOMWHERE we should have a set of stories with a couple of NPCs. The special events could involve prisoner panic, etc. It's more to manage but it could be considered a "hard" scenario because you're managing more things. Also: add more events to these because the prisoners get noisy. (Maybe this could be for the Veteran thing?)
 
+SOMEWHERE we can take a hostage. He does lots of things for you until he panics and causes problems. Maybe steal a hostage who then becomes our ally in the next heist. So maybe he won't know us so it's not a bad thing that we're stealing him, and then the next time he's a more helpful. Then he helps us get more prisoners out and such. The whole campaign would be about getting together another crew.
+
 The Fall Guys
 =============
 (3 heists)
