@@ -14,3 +14,4 @@
   * Kurt "Two Cents" Mosiejczuk
   * Bennie McDonald
   * Chris Noel
+  * Marc Priddy
