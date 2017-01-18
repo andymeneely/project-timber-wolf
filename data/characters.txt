@@ -150,7 +150,7 @@ LevelUp2Desc |                                    |
     Default2 | Hesitate                           |
              | 💡                                  |
     Default3 |                                    |
-    LevelUp1 | Con Artist                         |
+    LevelUp1 | Grifter                            |
     LevelUp2 | Mastermind                         |
      Special | THERE ARE BETTER WAYS              |
              | Cannot 👊. For 💡, may exit Guarded  |
@@ -389,7 +389,7 @@ LevelUp2Desc |                                    |
        Ideas | 3                                  |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
-    Default2 | Observe                            |
+    Default2 | Report                             |
              | 💡🔍🔊                                |
     Default3 |                                    |
     LevelUp1 | Watchman                           |
@@ -418,7 +418,7 @@ LevelUp2Desc | +2 Memory                          |
        Ideas | 4                                  |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
-    Default2 | Observe                            |
+    Default2 | Report                             |
              | 💡🔍🔊                                |
     Default3 |                                    |
     LevelUp1 |                                    |
@@ -441,7 +441,7 @@ LevelUp2Desc |                                    |
        Ideas | 3                                  |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
-    Default2 | Observe                            |
+    Default2 | Report                             |
              | 💡🔍🔊                                |
     Default3 | Tunnel                             |
              | (above)                            |
@@ -470,15 +470,16 @@ LevelUp2Desc |                                    |
        Ideas | 2                                  |
     Default1 | Walk                               |
              | 🔊➜                                 |
-    Default2 | Smash                              |
-             | 📷🔊🔊➜                               |
+    Default2 | Hit                                |
+             | 👊🔊                                 |
     Default3 |                                    |
     LevelUp1 | Con Artist                         |
-    LevelUp2 | Tinkerer                           |
+    LevelUp2 | Thief                              |
      Special | LARCENIST                          |
-             | You may pick up items in an adjace |
-             | nt tile as if it were on your tile |
-             | .                                  |
+             | For 💡, you may pick up items in an |
+             |  adjacent, not locked tile as if i |
+             | t were on your tile for the rest o |
+             | f the phase.                       |
 LevelUp1Desc | +1 Memory                          |
              | +1 Initial 💡                       |
              |                                    |
@@ -499,20 +500,20 @@ LevelUp2Desc | +2 Memory                          |
    Archetype | Looter                             |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 3                                  |
+       Ideas | 2                                  |
     Default1 | Walk                               |
              | 🔊➜                                 |
-    Default2 | Smash                              |
-             | 📷🔊🔊➜                               |
+    Default2 | Hit                                |
+             | 👊🔊                                 |
     Default3 | Toss Loot                          |
              | (above)                            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | SWINDLER                           |
-             | You may pick up items in an adjace |
-             | nt tile, and may drop items on an  |
-             | adjacent tile as if it were on you |
-             | r tile.                            |
+             | For 💡, you may pick up or drop ite |
+             | ms in an adjacent, not locked tile |
+             |  as if it were on your tile for th |
+             | e rest of the phase.               |
              |                                    |
              | TOSS LOOT                          |
              | Use this action to place any of yo |
@@ -523,22 +524,94 @@ LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
-        Name | Tinkerer                           |
+        Name | Thief                              |
    Archetype | Looter                             |
        Level | 2                                  |
       Memory | 9                                  |
        Ideas | 3                                  |
-    Default1 | Disable                            |
-             | 📷🔊➜                                |
-    Default2 | Spy Stuff                          |
-             | 🔓👊🔊                                |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Hit                                |
+             | 👊🔊                                 |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | LARCENIST                          |
-             | You may pick up items in an adjace |
-             | nt tile as if it were on your tile |
-             | .                                  |
+             | For 💡, you may pick up items in an |
+             |  adjacent, not locked tile as if i |
+             | t were on your tile for the rest o |
+             | f the phase.                       |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Shutter Bug                        |
+   Archetype | Surveillance                       |
+       Level | 1                                  |
+      Memory | 7                                  |
+       Ideas | 3                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
+    Default2 | Smash                              |
+             | 📷🔊🔊➜                               |
+    Default3 | Patch In                           |
+             | (above)                            |
+    LevelUp1 | Technician                         |
+    LevelUp2 | Tinkerer                           |
+     Special | PATCH IN                           |
+             | When adjacent to a live camera, us |
+             | e this action for 💡💡🔍🔊             |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Technician                         |
+   Archetype | Surveillance                       |
+       Level | 2                                  |
+      Memory | 9                                  |
+       Ideas | 4                                  |
+    Default1 | Disable                            |
+             | 📷🔊➜                                |
+    Default2 | Loop Footage                       |
+             | (above)                            |
+    Default3 | Patch In                           |
+             | (above)                            |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | LOOP FOOTAGE                       |
+             | For 💡💡, use this action to allow a |
+             | ll characters to avoid raising ⚠ d |
+             | ue to cameras this action and even |
+             | t phase.                           |
+             |                                    |
+             | PATCH IN                           |
+             | When adjacent to a live camera, us |
+             | e this action for 💡💡🔍🔊             |
+LevelUp1Desc |                                    |
+LevelUp2Desc |                                    |
+             ╰------------------------------------╯
+             ╭------------------------------------╮
+        Name | Tinkerer                           |
+   Archetype | Surveillance                       |
+       Level | 2                                  |
+      Memory | 8                                  |
+       Ideas | 5                                  |
+    Default1 | Spy Stuff                          |
+             | 🔓👊🔊                                |
+    Default2 | Short                              |
+             | 📷📷🔊                                |
+    Default3 | Patch In                           |
+             | (above)                            |
+    LevelUp1 |                                    |
+    LevelUp2 |                                    |
+     Special | FOLLOWER                           |
+             | For 💡, may 🔊➜ as long as the desti |
+             | nation of the move has another cha |
+             | racter at the time of the move.    |
+             |                                    |
+             | PATCH IN                           |
+             | When adjacent to a live camera, us |
+             | e this action for 💡💡🔍🔊             |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
