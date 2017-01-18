@@ -42,6 +42,10 @@ SOMWHERE we should have a set of stories with a couple of NPCs. The special even
 
 SOMEWHERE we can take a hostage. He does lots of things for you until he panics and causes problems. Maybe steal a hostage who then becomes our ally in the next heist. So maybe he won't know us so it's not a bad thing that we're stealing him, and then the next time he's a more helpful. Then he helps us get more prisoners out and such. The whole campaign would be about getting together another crew.
 
+SOMEWHERE we need a story-security chit, which is helpful for all kinds of stuff.
+
+SOMEWHERE we need an "Inside Man" job where you need to take a guy hostage but you don't know where he is. He's going to be in one of the security chits that you reveal in the heist itself, and you have to escort him out. (He panics, of course.)
+
 The Fall Guys
 =============
 (3 heists)
