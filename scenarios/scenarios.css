@@ -29,10 +29,11 @@ h1{
 }
 
 h2{
-  margin-top: 0.5em;
+  margin-top: 0.25em;
   margin-bottom: 0;
 }
 h3{
+  margin-top: 0.125em;
   margin-bottom: 0;
 }
 ul{
@@ -52,7 +53,7 @@ ul{
 }
 
 .map-full-width{
-  width: 100%;
+  width: 95%;
 }
 
 .pagebreak{

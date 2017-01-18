@@ -58,5 +58,7 @@ group :scenarios do
     watch %r{src/.*\.rb$}
     watch %r{.*\.yml}
     watch %r{img/.*}
+    watch %r{scenarios/.*\.md$}
+    watch %r{scenarios/.*\.svg$}
   end
 end
