@@ -2,6 +2,8 @@
   Scenarios for Your Last Heist
 </div>
 
+
+
 # The Fall Guys
 
 ## Chapter 1. The Smuggler Tip
@@ -19,9 +21,9 @@ _Last week we caught wind of a big shipment of various stolen artifacts coming i
 We suggest using these characters & skills:
 
 * Angry Locksmith with Hit 'n' Run and Yank Wires
-* Script Kiddie with Bypass and Hit 'n' Run
 * Burglar with Wing It and Yank Wires
-* Street Urchin with Hurry and Wing It (4-players)
+* Shutter Bug with Hurry and Bypass
+* Script Kiddie with Bypass and Hit 'n' Run (4-players)
 
 ### Planning Phase
 
@@ -87,17 +89,37 @@ Try this scenario with the following conditions:
 
 ## Chapter 3. Your Last Heist
 
+<img class="map" src="the fall guys ch 3 cell block c.svg">
+
 _Well folks, I guess those double-crossing smuggling bastards have the feds in their pockets, too. But when they got us pinched, they made some key mistakes. For one, they put us all in the same jail cell. For another, I still have our money._
 
 _Time to bust out of here. **Our objective is to get out of this place, each to a different exit**, then, we go our separate ways and never speak of this fiasco again. God speed. And remember... you are only ever as good as your last heist._
 
+### Setup
 
-Special rules:
-  - Players start on the indicated tile instead of an Entrance
-  - Maximum 1 player per Exit
+* Events: Use Events 1-21
+* Special Events: Place the Reinforcements card on top of Event 14.
+* Players all start on the indicated hex.
 
-IF PRISONER WAS FREED IN CH.1: Turns out that
-prisoner was a retired fed! Gain 🔍🔍🔍💡💡
+### Planning Phase
+
+* You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
+* You may purchase 🔍 for $1k each
+* A maximum of 1 Character per Exit tile is allowed at any time.
+
+### Upon Success
+
+Congratulations! You have completed _The Fall Guys_ campaign! There is so much more of this game to experience in other campaigns. We hope you check them out!
+
+### Standalone Challenge: The Skillful Specialists
+
+Try this scenario with the following conditions:
+
+* Team Cash of $6k
+* Watchman with Concoct and Ninja
+* Bruiser with Prowl and Tinker
+* Mastermind with Extract and Splice In
+* Thief with Circumvent and Improvise
 
 # The Venetian Swap
 
@@ -171,6 +193,16 @@ Be sure to record the following on your campaign history:
 * Which paintings you stole in Team Loot
 * Characters who were busted
 * Character Promotion
+
+### Standalone Challenge: TODO
+
+Try this scenario with the following conditions:
+
+* TODO
+* TODO
+* TODO
+* TODO
+* TODO
 
 # The Venetian Swap
 
@@ -269,7 +301,7 @@ _Fantastic! Here's another $8k for your time. Now that I have done a favor to ou
 
 ### Standalone Challenge
 
-Try this scenario with these conditions:
+Try this scenario with these conditions: (TODO: REDO with different characters)
 
 * Team cash: $6k (no team loot)
 * Safecracker + Ninja + Steal
@@ -312,9 +344,6 @@ Try this scenario with the following conditions:
 * Grifter
 * Sewer Rat
 
-</section>
-
-<section id="the-smugglers">
 
 # The Smugglers
 
@@ -331,5 +360,3 @@ _Story is going to be about getting into a castle and we can only get in through
 ### After the Heist
 
 ### Standalone Challenge
-
-</section>
