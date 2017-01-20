@@ -6,7 +6,7 @@
 
 # The Fall Guys
 
-## Chapter 1. The Smuggler Tip
+## Chapter 1. The Tip
 
 <img class="map" src="the fall guys ch 1 the docks.svg">
 
@@ -40,7 +40,7 @@ up and we'll see what's next. Don't wory, I can handle myself._
 
 * Add $3k to the Team Cash.
 * Add $2k to Team Cash if all three paintings were stolen.
-* Everyone who is not busted, promote character and refine skills.
+* Promote all characters who are not busted, and refine their skills.
 
 # The Fall Guys
 
@@ -48,16 +48,16 @@ up and we'll see what's next. Don't wory, I can handle myself._
 
 <img class="map" src="the fall guys ch 2 the warehouse.svg">
 
-_Met with the Smugglers. Sounds they were impressed by our little stunt. I was expecting retaliation, instead they're offering us some more work! Good to see our talents being appreciated._
+_I met with the Smugglers. Sounds like they were impressed by our little stunt. I was expecting retaliation, instead they're offering us some more work! Good to see our talents are being appreciated._
 
-_Here's the job. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by the competitors of the Smugglers, The Forum. Security is pretty intricate on this one. They've got a thermal imaging system called The Watchtower, plus some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job._
+_Here's the job. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got a thermal imaging system called The Watchtower, plus some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job._
 
-_Let's show them what we're made of._
+_I told the Smugglers that we won't let them down... and I intend to keep my promise._
 
 ### Setup
 
 * Events: Use Events 1-21
-* Special Events: Place the Reinforcements card on top of Event 14. Place the Watchtower token on top of Events 10 and 17.
+* Special Events: Place the Reinforcements card on top of Event 14. Place the Watchtower card on top of Events 10 and 17.
 
 ### Planning Phase
 * You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
@@ -164,7 +164,7 @@ _Well done! I think this is gonna work out. Ok I'll map out our first job. Meanw
 
 _Our first mark will be our friendly local art gallery. They're expecting a new exhibit of paintings coming in from Venice, Italy tomorrow. Gorgeous collection. Even the museum curators have underappreciated - and undervalued - this collection. Security is pretty lax but, just to be cautious, you cannot have more than two players per entrance to start with. Exit however you want, just make sure you remember those gates close when the alarm goes off._
 
-_To make payroll, I just need three paintings. Now, you should know that these pieces will sell better if we have them in sets. Both fruit paintings will sell for an extra $2k and all three building portraits will get us an extra $4k. We can use any bonus money for the next job._
+_To make payroll, I just need three paintings. Now, you should know that these pieces will sell better if we have them in sets. Both fruit paintings will sell for an extra $2k and all three buildings will get us an extra $4k. We can use any bonus money for the next job._
 
 _Good luck and don't forget: getting in is the easy
 part._
@@ -232,9 +232,7 @@ _Best of luck and don't get greedy._
 _Excellent! I think this will be a good relationship. Here's
 $4k for team loot, plus payout for extra jewels. At this point I'd be willing to support some "professional development"._
 
-_Huh. That's funny. These records have some authentication facts about these
-paintings. They don't match. We stole some fakes!! Ok let me do some
-digging and figure what happened._
+_Huh. That's funny. These provenance records have some authentication facts about these paintings. They don't match the pieces we have. We stole some fakes!! Ok let me do some digging and figure what happened._
 
 * Add $4k to your Team Cash, plus $3k/$7k if you stole 1/2 jewels.
 * You may Promote non-Busted Characters for $3k each
@@ -347,11 +345,130 @@ Try this scenario with the following conditions:
 
 # The Smugglers
 
-## Chapter 5: The Courtyard Split
+## Chapter 1: The Demolitions Guy
+
+<img class="map" src="the smugglers ch 1 the estate.svg">
+
+_Nobody ever said this career was easy. You gotta keep moving, keep innovating. Get in, get out, get paid. Don't get greedy. That's what I learned from my last crew, and that is what I intend to teach all of you today._
+
+_They say that getting out is hardest part of any heist. Well, that's where I come in. You see... I create exits where there are none. As a result of my abilities, however, marks that would otherwise be too risky for most crew become available. You're welcome. Only thing is... I'm a bit noisy... so just be ready to split when I hit the button._
+
+_Ok, now I owe some money and a jewel to this pretentious art fence, so this job is about learning the method. I hear we've got some money stashed over at the old estate. Our objective is to pick up the jewel and $7k worth of cash. Anything we pick up beyond that is ours. And I'll promote whoever picks up that jewel._
+
+
+## Setup
+
+* Events: Use Events 1-21
+* Special Events: Place the Reinforcements card on top of Event 14.
+* Team Cash starts at $0k
+
+This campaign **requires** The Demolitions Guy for every chapter. He must start with Amateur skills. We suggest Smash 'n' Grab and Hit 'n' Run.
+
+We suggest the following characters and skills:
+
+* Pickpocket with Hurry and Hit 'n' Run
+* Thug with Bypass and Wing It
+* Street Urchin with Hurry and Bypass (4-players)
+
+## Upon Success
+
+_See how nicely that worked out? Let's train up and keep this going. Kudos to the one who grabbed that jewel._
+
+* You may upgrade Skills for $2k each.
+* The character who stole the jewel may be promoted.
+
+# The Smugglers
+
+## Chapter 2: The Jeweler
+
+_Ok let's put this method to work. I've got this tip that this jeweler keeps his personal stash all in one place in the center of his house. Sure, it's surrounded completely with guards and lockdown gates designed to trap a bunch of amateurs. But he won't expect our escape plan._
+
+_Our objective is to steal two jewels. A third jewel is worth $4k. Any of the cash goes toward this team and helps us train up for the next big job._
+
+
+### Setup
+
+### Planning Phase
+
+### After the Heist
+
+UPON SUCCESS: _Well done! Let's train up and keep this going._
+
+* You may refine Skills for $2k each
+* You may promote Characters for $4k each
+
+### Standalone Challenge
+
+To try Ch. 3 directly without doing the entire
+campaign, use these conditions:
+
+* Team cash: $3k (no team loot)
+* Demolitions Guy + Smash 'n' Grab + Hit 'n' Run
+* Tunneler + Improvise + Tinker
+* Con Artist + Ninja + Bypass
+* Thug + Assault + Yank Wires
+
+# The Smugglers
+
+## Chapter 3: The Backdoor Job
+
+### Setup
+
+### Planning Phase
+
+### After the Heist
+
+### Standalone Challenge
+
+# The Smugglers
+
+## Chapter 4: The Courtyard Split
 
 _Story is going to be about getting into a castle and we can only get in through a secret entrance in the courtyard_
 
 <img class="map" src="the smugglers ch 5 the castle.svg">
+
+### Setup
+
+### Planning Phase
+
+### After the Heist
+
+### Standalone Challenge
+
+
+# The Smugglers
+
+## Chapter 5: The Forum
+
+_Alright this is what we've been training for. There's this
+cult that's taken over my neighborhood. Now I'm an
+accepting person of alternative beliefs, but this whole
+charity is just a front for money laundering. Let's hit
+'em hard. Our objective is to steal the jewel. Maximize
+your profits - I'll be finding more work for you if we
+succeed._
+
+_UPON SUCCESS: Excellent! Ok let me find you more
+work. Lay low for a while. You may refine Skills for $2k
+each, and promote Characters for $3k each._
+
+### Setup
+
+### Planning Phase
+
+### After the Heist
+
+### Standalone Challenge
+
+# The Smugglers
+
+## Chapter 6: The Vault Job
+
+<img class="map" src="the smugglers ch 6 the vault.svg">
+
+* You may choose two locations to create your entrances. Do not auto-reveal during the planning phase.
+* 
 
 ### Setup
 

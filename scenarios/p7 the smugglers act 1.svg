@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25000001"
-     inkscape:cx="1961.3759"
-     inkscape:cy="1167.8613"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="1486.918"
+     inkscape:cy="1813.3009"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,8 +39,8 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="1672"
+     inkscape:window-y="156"
      inkscape:window-maximized="1">
     <sodipodi:guide
        position="74.751289,889.43934"
@@ -2389,5 +2389,15 @@
          y="0"
          id="tspan961"
          style="font-size:38.66666794px;stroke-width:3.54404879px" /></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4803"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:'Archivo Narrow';font-style:normal;font-weight:normal;font-size:12.5px;line-height:25px;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Archivo Narrow, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowRegion
+         id="flowRegion4805"><rect
+           id="rect4807"
+           width="1114"
+           height="1080"
+           x="1286"
+           y="505.00009" /></flowRegion><flowPara
+         id="flowPara4809"></flowPara></flowRoot>  </g>
 </svg>
