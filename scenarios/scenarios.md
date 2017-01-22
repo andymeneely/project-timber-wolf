@@ -351,10 +351,9 @@ Try this scenario with the following conditions:
 
 _Nobody ever said this career was easy. You gotta keep moving, keep innovating. Get in, get out, get paid. Don't get greedy. That's what I learned from my last crew, and that is what I intend to teach all of you today._
 
-_They say that getting out is hardest part of any heist. Well, that's where I come in. You see... I create exits where there are none. As a result of my abilities, however, marks that would otherwise be too risky for most crew become available. You're welcome. Only thing is... I'm a bit noisy... so just be ready to split when I hit the button._
+_They say that getting out is hardest part of any heist. Well, that's where I come in. You see... I create exits where there are none. As a result of my abilities, however, marks that would otherwise be too risky for most crews become available. Only thing is... I'm a bit noisy... so just be ready to split when I hit the button._
 
 _Ok, now I owe some money and a jewel to this pretentious art fence, so this job is about learning the method. I hear we've got some money stashed over at the old estate. Our objective is to pick up the jewel and $7k worth of cash. Anything we pick up beyond that is ours. And I'll promote whoever picks up that jewel._
-
 
 ## Setup
 
@@ -362,7 +361,7 @@ _Ok, now I owe some money and a jewel to this pretentious art fence, so this job
 * Special Events: Place the Reinforcements card on top of Event 14.
 * Team Cash starts at $0k
 
-This campaign **requires** The Demolitions Guy for every chapter. He must start with Amateur skills. We suggest Smash 'n' Grab and Hit 'n' Run.
+This campaign **requires** The Demolitions Guy. He must start with Amateur skills, but you may choose his Skills. We suggest Smash 'n' Grab and Hit 'n' Run.
 
 We suggest the following characters and skills:
 
@@ -383,12 +382,18 @@ _See how nicely that worked out? Let's train up and keep this going. Kudos to th
 
 _Ok let's put this method to work. I've got this tip that this jeweler keeps his personal stash all in one place in the center of his house. Sure, it's surrounded completely with guards and lockdown gates designed to trap a bunch of amateurs. But he won't expect our escape plan._
 
-_Our objective is to steal two jewels. A third jewel is worth $4k. Any of the cash goes toward this team and helps us train up for the next big job._
+_I also happen to know that our jeweler will be in tonight and he is a bit of a pushover. If we want, we can use him to get the goods. We just can't let him out of our sight until that alarm goes off. My only warning is this: whenever you're dealing with hostages, remember that they do have a breaking point._
 
+_**Our objective is to steal two jewels.** A third jewel is worth $4k. Any of the cash goes toward this team and helps us train up for the next big job._
 
 ### Setup
 
+* Events: Use Events 1-20, then 20a, 20b, then 21.
+* Special Events: Place _Panic!_ on top of Event 12, and _Reinforcements_ on top of Event 16.
+
 ### Planning Phase
+
+* If a character enters the space with the Jeweler, immediately take out the Hostage card and an extra die and follow those directions.
 
 ### After the Heist
 
@@ -399,8 +404,7 @@ UPON SUCCESS: _Well done! Let's train up and keep this going._
 
 ### Standalone Challenge
 
-To try Ch. 3 directly without doing the entire
-campaign, use these conditions:
+Try this scenario with the following conditions:
 
 * Team cash: $3k (no team loot)
 * Demolitions Guy + Smash 'n' Grab + Hit 'n' Run
@@ -467,8 +471,7 @@ each, and promote Characters for $3k each._
 
 <img class="map" src="the smugglers ch 6 the vault.svg">
 
-* You may choose two locations to create your entrances. Do not auto-reveal during the planning phase.
-* 
+* You may choose two locations to create your entrances. You may not auto-reveal during the planning phase.
 
 ### Setup
 
