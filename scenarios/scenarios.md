@@ -22,7 +22,7 @@ We suggest using these characters & skills:
 
 * Angry Locksmith with Hit 'n' Run and Yank Wires
 * Burglar with Wing It and Yank Wires
-* Shutter Bug with Hurry and Bypass
+* Shutter Bug with Hurry and Wing It
 * Script Kiddie with Bypass and Hit 'n' Run (4-players)
 
 ### Planning Phase
