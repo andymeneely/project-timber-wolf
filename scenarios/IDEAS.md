@@ -44,9 +44,11 @@ SOMEWHERE we can take a hostage. He does lots of things for you until he panics 
 
 SOMEWHERE we need a story-security chit, which is helpful for all kinds of stuff.
 
-SOMEWHERE we need an "Inside Man" job where you need to take a guy hostage but you don't know where he is. He's going to be in one of the security chits that you reveal in the heist itself, and you have to escort him out. (He panics, of course.)
+SOMEWHERE we need an "Inside Man" job where you need to take a guy hostage but you don't know where he is. He's going to be in one of the security chits that you reveal in the heist itself, and you have to escort him out. (He panics, of course.) Maybe the final boss fight where you rescue the Demo Guy and the Fence?
 
 SOMEWHERE we need the sacrifice of a character and the introduction of a new character of a different class. Maybe in The Smugglers you lose your demolition guy. This allows you to delay the campaign into a longer campaign. (This does lead to problems, though, because there may not be enough skills?)
+
+SOMEWHERE we should be able to bring back an old character from a prior campaign. You can pay to give them new skill cards if you want (or need to).
 
 The Fall Guys
 =============
