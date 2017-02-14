@@ -60,5 +60,6 @@ group :scenarios do
     watch %r{img/.*}
     watch %r{scenarios/.*\.md$}
     watch %r{scenarios/.*\.svg$}
+    watch %r{scenarios/.*\.css$}
   end
 end

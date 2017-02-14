@@ -2,47 +2,51 @@
   _Your Last Heist_ Scenarios
 </div>
 
-The following is a collection of scenarios that take you through the world of _Your Last Heist_. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator, a different crew, but they are all part of one storyline. The stories occur in parallel, and take place over seven days.
+The following is a collection of scenarios that take you through the world of _Your Last Heist_. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator and a different crew, but they are all part of one storyline. The stories occur in parallel, and take place over seven days.
 
 The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome.
 
 Most scenarios also have a **standalone challenge**. These are reasonable conditions under which one could play the chapter directly without going through the entire campaign. Most standalone challenges are no more difficult than the regular campaign conditions, but might require clever gameplay that might not otherwise be easily achievable using the suggested crew compositions.
 
+<div class="toc">
+
 ## Act I: _The Fall Guys_
 
 _A bunch of fast-learning amateurs come across a hot tip._
 
-* Chapter 1. _The Tip_
-* Chapter 2. _The Warehouse Job_
-* Chapter 3. _Your Last Heist_
+* **Chapter 1. _The Tip_** **2**
+* **Chapter 2. _The Warehouse Job_** **3**
+* **Chapter 3. _Your Last Heist_** **4**
 
 ## Act II: _The Venetian Swap_
 
 _A mysterious man guides you through a series of unconventional art heists._
 
-* Chapter 1. _The Fence_
-* Chapter 2. _The Gallery Job_
-* Chapter 3. _The Provenance_
-* Chapter 4. _The Collector_
-* Chapter 5. _The Redemption Job_
+* **Chapter 1. _The Fence_** **5**
+* **Chapter 2. _The Gallery Job_** **6**
+* **Chapter 3. _The Provenance_** **7**
+* **Chapter 4. _The Collector_** **8**
+* **Chapter 5. _The Restoration Job_** **9**
 
 ## Act III: _The Long Con_
 
 _There's always a bigger play._
 
-* Chapter 1. _The Demolitions Guy_
-* Chapter 2. _The War Veterans_
-* Chapter 3. _Calling the Shots_
-* Chapter 4. _The Hostage Job_
-* Chapter 5. _The Bait_
-* Chapter 6. _The Vault Job_
+* **Chapter 1. _The Demolitions Guy_** **10**
+* **Chapter 2. _The War Veterans_** **11**
+* **Chapter 3. _Calling the Shots_** **12**
+* **Chapter 4. _The Hostage Job_** **13**
+* **Chapter 5. _The Bait_** **14**
+* **Chapter 6. _The Vault Job_** **15**
 
 ## Rebuilding Scenarios
 
-_For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Under the guise of "centering your posture" they prey on the weak-minded in an extortion and gambling racket. Lately, they've expanded to using their "charities" as money-laundering fronts. They have a few cash filled locations that make for great targets. Don't worry worry about retribution, we hear they're a non-violent cult._
+_For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Under the guise of "centering your posture" they prey on the weak-minded in an extortion and gambling racket. Lately, they've expanded to using their "charities" as money-laundering fronts. They have a few cash filled locations that make for great targets. Don't worry about retribution... we hear they're a non-violent cult._
 
-* _The Laundromat_
-* _The Charity Front_
+* **_The Laundromat_**  **16**
+* **_The Charity Front_** **16**
+
+</div>
 
 # The Fall Guys
 
@@ -52,7 +56,9 @@ _For a friendly neighborhood self-help group, The Forum sure knows how to stay i
 
 _5 days before The Vault Job._
 
-_"Last week we caught wind of a big shipment of various stolen artifacts coming in from overseas. My buddy in customs would love to bust these guys the legal way, but he just found out his boss is working for these smugglers. Way I see it, we hit them at the transfer to prove ourselves as a new crew, my buddy gets paid for his tip but his nose stays clean, and maybe that leads us to a bigger job down the line. The shipment includes three paintings and a rare jewel. **Our objective is to steal the jewel and two paintings.** If we steal all three paintings, we can get an extra $2k to help out with our next job."_
+_"You don't know me but I hear you're hungry for employment. I'm over at customs and I see a lot of stuff come and go. Normally I just watch but this time I've caught wind of smugglers bringing in some stolen jewels. I could bust them the regular way but I gotta have these beauties for myself. Let's hit them at The Docks. **Steal three jewels**, and if you get all four I'll give you an additional $3k."_
+
+_"Prove to me that you know what you're doing. If so, I'll find you another job."_
 
 ### Setup
 
@@ -75,13 +81,10 @@ We suggest using these characters & skills:
 
 ### Upon Success
 
-_Well done! Unfortunately when I tried to fence that jewel my guy tipped off the Smugglers. Can't trust anyone in this business. I assume they were impressed by our work, otherwise we wouldn't be alive right now._
-
-_I'm meeting up with the Smugglers tomorrow. For now, train
-up and we'll see what's next. Don't wory, I can handle myself._
+_Well done! These will look great in my collection! Now I've got a bigger job for you. Let me do some recon and I'll come back. For now, train up and we'll see what's next._
 
 * Add $3k to the Team Cash.
-* Add $2k to Team Cash if all three paintings were stolen.
+* Add $3k to Team Cash if four jewels were stolen
 * Promote all characters who are not busted, and refine their skills.
 
 # The Fall Guys
@@ -90,11 +93,9 @@ up and we'll see what's next. Don't wory, I can handle myself._
 
 <img class="map" src="the fall guys ch 2 the warehouse.svg">
 
-_I met with the Smugglers. Sounds like they were impressed by our little stunt. I was expecting retaliation, instead they're offering us some more work! Good to see our talents are being appreciated._
+_Wow you all are fast learners! Here's the job. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got a thermal imaging system called The Watchtower, plus some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job._
 
-_Here's the job. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got a thermal imaging system called The Watchtower, plus some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job._
-
-_I told the Smugglers that we won't let them down... and I intend to keep my promise._
+_"I'll be outside here waiting for you"._
 
 ### Setup
 
@@ -109,13 +110,17 @@ _I told the Smugglers that we won't let them down... and I intend to keep my pro
 
 ### Upon Success
 
-_(A dozen federal agents in SWAT gear are awaiting your exit.) We've
-been double-crossed!_
+_A dozen federal agents in SWAT gear are awaiting your exit. You've
+been double-crossed! Your "friend" is standing there with them, smirking. He takes the jewels out of your hands. "Let me bag this into evidence for you boys", he says, and the agents laugh as he carefully places the jewels in a velvet bag._
+
+_"Thanks for the hard work. You learned this gig faster than I thought. Real naturals. Just remember - you're no good if you're caught. You're only ever as good as your last heist."_
+
+_Everyone is arrested and taken to prison._
 
 * Add $3k to Team Cash
 * Add $3k to Team Cash if all three jewels were stolen
-* Level up any characters and skills of anyone who is not Busted.
-* If any characters were Busted, keep them for the next heist, but do not promote them or refine their skills.
+* Promote any characters and refine skills of anyone who made reached an Exit.
+* If any characters were failed to reach an exit (i.e. Busted), keep them for the next heist, but do not promote them or refine their skills.
 
 ### Standalone Challenge
 
@@ -131,11 +136,17 @@ Try this scenario with the following conditions:
 
 ## Chapter 3. Your Last Heist
 
+_3 days before The Vault Job._
+
 <img class="map" src="the fall guys ch 3 cell block c.svg">
 
-_Well folks, I guess those double-crossing smuggling bastards have the feds in their pockets, too. But when they got us pinched, they made some key mistakes. For one, they put us all in the same jail cell. For another, I still have our money._
+_Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with a US Marines tattoo and eight fingers approaches you._
 
-_Time to bust out of here. **Our objective is to get out of this place, each to a different exit**, then, we go our separate ways and never speak of this fiasco again. God speed. And remember... you are only ever as good as your last heist._
+_"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands._
+
+_"But you... you don't know what you have. You have some real skill. And these feds? They made one huge mistake. They put you all in the same jail cell. Use it. We had some total amateurs break out of here a few days ago and they did it by each getting to a different exit at once. Security is tighter now but I'll help you out if you promise me some funding when I get out. God speed."_
+
+_Time to bust out of here. **Your objective is to get out of this place, each to a different exit**, then, you go your separate ways and never speak of this fiasco again._
 
 ### Setup
 
@@ -167,9 +178,11 @@ Try this scenario with the following conditions:
 
 ## Chapter 1. The Fence
 
-_Look around. You might see a bunch of lowlife criminals putting in their time, but me? I see a business opportunity. See, I've got a bunch of... connections. I know how to find people who are willing to purchase the world's greatest artwork with no questions asked. I simply lack the means of... acquisition. That's where you all come in. I've hand-picked this team for your talents and potential. First, let's get out of here._
+_7 days before The Vault Job_
 
-_Our objective is to get me out of here. If some of you don't make it, we can find a replacement but I'd rather not have that happen. Now the only way to pull this off is to have a maximum of two characters at each exit. You may notice that our locksmith friend here is specially equipped to get this party started. But first, let's do a little recon._
+_"Look around. You might see a bunch of lowlife criminals putting in their time, but me? I see a business opportunity. See, I've got a bunch of... connections. I know how to find people who are willing to purchase the world's greatest artwork with no questions asked. I simply lack the means of... acquisition. That's where you all come in. I've hand-picked this team for your talents and potential. First, let's get out of here."_
+
+_"**Our objective is to get me out of here**. If some of you don't make it, we can find a replacement but I'd rather not have that happen. Now the only way to pull this off is to have a maximum of two characters at each exit. You may notice that our locksmith friend here is specially equipped to get this party started. But first, let's do a little recon."_
 
 ### Setup
 
@@ -187,7 +200,6 @@ We suggest using these Character & Skill combinations:
 ### Planning Phase
 
 * As a team take 🔍🔍🔍
-* Team Cash starts at $0k
 * A maximum of two Characters may exit a given Exit tile, including the Fence
 
 <img class="map-full-width" src="venetian swap ch 1 the fence.svg">
@@ -318,42 +330,11 @@ _This crew sure never ceases to impress me. Here's another $5k for your time and
 
 # The Venetian Swap
 
-## Chapter 5. The Long Swap
-
-<img class="map-big" src="venetian swap ch 5 the long swap.svg">
-
-_Ok I got tip on a big job. I know this hobbyist art forger who works for the upcoming exhibition. He's been working on the Grapes of Venice painting between shifts. He finished his masterpiece. All we have to do is the switch. He got the piece as close as he could... which is to say not very close. We need to take the fake painting and swap it with the original. As soon as you reach the real painting, I'll detonate some C4 on a nearby wall and you can all escape._
-
-When a character reaches the story beacon, create an exit on this hex and initiate escape phase immediately. This may also be done during the Escape phase.
-
-### Planning Phase
-
-* You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
-* You may purchase 🔍 for $1k each
-* A maximum of two Characters may start on a given Entrance tile
-* No maximum on the number of Characters per Exit during Escape
-
-### Upon Success
-_Fantastic! Here's another $8k for your time. Now that I have done a favor to our forger friend, he's given me some inside information about that Gallery heist a while back. TODO FINISH THIS. Let's prep for the next one._
-
-* You may Refine Skills of any non-Busted Character for $2k each
-* You may Promote Characters of any non-Busted Character for $3k each
-
-### Standalone Challenge
-
-Try this scenario with these conditions: (TODO: REDO with different characters)
-
-* Team cash: $6k (no team loot)
-* Safecracker + Ninja + Steal
-* Operative + Splice In + Extract
-* Grease Man + Concoct + Assault
-* Black Hat + Prowl + Blast
-
-# The Venetian Swap
-
-## Chapter 6. The Redemption Job
+## Chapter 5. The Restoration Job
 
 <img class="map" src="venetian swap ch 6 the redemption job.svg">
+
+REDO THIS. NEED A BETTER REASON. Bounty on our heads? The Collector knows? "I've made a deal with the Gallery's curator to get these back, no questions asked in exchange for a bigger play."
 
 _I've been studying these documents. As it turns out, they belong to the ancestors of the Gallery's curator. He won't let these go. I figure if I turn them in this curator will still pursue extradition on me. If we can return the rightful paintings without a trace we can all call it even. Your objective is to swap in at least three real paintings in for their originals. Sadly, as you would expect, The Gallery has tightened up their security quite a bit given this recent streak of heists. But I'm confident you're up to the task._
 
@@ -385,7 +366,7 @@ Try this scenario with the following conditions:
 * Sewer Rat
 
 
-# The Smugglers
+# The Long Con
 
 ## Chapter 1: The Demolitions Guy
 
@@ -418,9 +399,15 @@ _See how nicely that worked out? Let's train up and keep this going. Kudos to th
 * You may upgrade Skills for $2k each.
 * The character who stole the jewel may be promoted.
 
-# The Smugglers
+# The Long Con
 
-## Chapter 2: The Jeweler
+## Chapter 2: The War Veterans
+
+REDO ALL THIS
+
+<img class="map" src="the smugglers ch 5 the castle.svg">
+
+_Story is going to be about getting into a castle and we can only get in through a secret entrance in the courtyard_
 
 _Ok let's put this method to work. I've got this tip that this jeweler keeps his personal stash all in one place in the center of his house. Sure, it's surrounded completely with guards and lockdown gates designed to trap a bunch of amateurs. But he won't expect our escape plan._
 
@@ -454,25 +441,11 @@ Try this scenario with the following conditions:
 * Con Artist + Ninja + Bypass
 * Thug + Assault + Yank Wires
 
-# The Smugglers
+# The Long Con
 
-## Chapter 3: The Backdoor Job
+## Chapter 3: Calling the Shots
 
-### Setup
-
-### Planning Phase
-
-### After the Heist
-
-### Standalone Challenge
-
-# The Smugglers
-
-## Chapter 4: The Courtyard Split
-
-_Story is going to be about getting into a castle and we can only get in through a secret entrance in the courtyard_
-
-<img class="map" src="the smugglers ch 5 the castle.svg">
+Escape. Cell block C.
 
 ### Setup
 
@@ -482,18 +455,51 @@ _Story is going to be about getting into a castle and we can only get in through
 
 ### Standalone Challenge
 
+# The Long Con
 
-# The Smugglers
+## Chapter 4: The Hostage Job
 
-## Chapter 5: The Forum
+### Setup
 
-_Alright this is what we've been training for. There's this
-cult that's taken over my neighborhood. Now I'm an
-accepting person of alternative beliefs, but this whole
-charity is just a front for money laundering. Let's hit
-'em hard. Our objective is to steal the jewel. Maximize
-your profits - I'll be finding more work for you if we
-succeed._
+### Planning Phase
+
+### After the Heist
+
+### Standalone Challenge
+
+
+# The Long Con
+
+## Chapter 5: The Bait
+
+<img class="map-big" src="venetian swap ch 5 the long swap.svg">
+
+_Ok I got tip on a big job. I know this hobbyist art forger who works for the upcoming exhibition. He's been working on the Grapes of Venice painting between shifts. He finished his masterpiece. All we have to do is the switch. He got the piece as close as he could... which is to say not very close. We need to take the fake painting and swap it with the original. As soon as you reach the real painting, I'll detonate some C4 on a nearby wall and you can all escape._
+
+When a character reaches the story beacon, create an exit on this hex and initiate escape phase immediately. This may also be done during the Escape phase.
+
+### Planning Phase
+
+* You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
+* You may purchase 🔍 for $1k each
+* A maximum of two Characters may start on a given Entrance tile
+* No maximum on the number of Characters per Exit during Escape
+
+### Upon Success
+_Fantastic! Here's another $8k for your time. Now that I have done a favor to our forger friend, he's given me some inside information about that Gallery heist a while back. TODO FINISH THIS. Let's prep for the next one._
+
+* You may Refine Skills of any non-Busted Character for $2k each
+* You may Promote Characters of any non-Busted Character for $3k each
+
+### Standalone Challenge
+
+Try this scenario with these conditions: (TODO: REDO with different characters)
+
+* Team cash: $6k (no team loot)
+* Safecracker + Ninja + Steal
+* Operative + Splice In + Extract
+* Grease Man + Concoct + Assault
+* Black Hat + Prowl + Blast
 
 _UPON SUCCESS: Excellent! Ok let me find you more
 work. Lay low for a while. You may refine Skills for $2k
@@ -505,12 +511,11 @@ each, and promote Characters for $3k each._
 
 ### After the Heist
 
-### Standalone Challenge
+# The Long Con
 
-# The Smugglers
+## Chapter 6. The Vault Job
 
-## Chapter 6: The Vault Job
-
+NEED NEW MAP!!
 <img class="map" src="the smugglers ch 6 the vault.svg">
 
 * You may choose two locations to create your entrances. You may not auto-reveal during the planning phase.
@@ -522,3 +527,18 @@ each, and promote Characters for $3k each._
 ### After the Heist
 
 ### Standalone Challenge
+
+# Rebuilding Scenarios
+
+
+_Alright this is what we've been training for. There's this
+cult that's taken over my neighborhood. Now I'm an
+accepting person of alternative beliefs, but this whole
+charity is just a front for money laundering. Let's hit
+'em hard. Our objective is to steal the jewel. Maximize
+your profits - I'll be finding more work for you if we
+succeed._
+
+## The Laundromat
+
+## The Charity Front
