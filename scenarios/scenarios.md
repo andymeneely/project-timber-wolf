@@ -1,8 +1,48 @@
 <div class="title">
-  Scenarios for Your Last Heist
+  _Your Last Heist_ Scenarios
 </div>
 
+The following is a collection of scenarios that take you through the world of _Your Last Heist_. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator, a different crew, but they are all part of one storyline. The stories occur in parallel, and take place over seven days.
 
+The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome.
+
+Most scenarios also have a **standalone challenge**. These are reasonable conditions under which one could play the chapter directly without going through the entire campaign. Most standalone challenges are no more difficult than the regular campaign conditions, but might require clever gameplay that might not otherwise be easily achievable using the suggested crew compositions.
+
+## Act I: _The Fall Guys_
+
+_A bunch of fast-learning amateurs come across a hot tip._
+
+* Chapter 1. _The Tip_
+* Chapter 2. _The Warehouse Job_
+* Chapter 3. _Your Last Heist_
+
+## Act II: _The Venetian Swap_
+
+_A mysterious man guides you through a series of unconventional art heists._
+
+* Chapter 1. _The Fence_
+* Chapter 2. _The Gallery Job_
+* Chapter 3. _The Provenance_
+* Chapter 4. _The Collector_
+* Chapter 5. _The Redemption Job_
+
+## Act III: _The Long Con_
+
+_There's always a bigger play._
+
+* Chapter 1. _The Demolitions Guy_
+* Chapter 2. _The War Veterans_
+* Chapter 3. _Calling the Shots_
+* Chapter 4. _The Hostage Job_
+* Chapter 5. _The Bait_
+* Chapter 6. _The Vault Job_
+
+## Rebuilding Scenarios
+
+_For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Under the guise of "centering your posture" they prey on the weak-minded in an extortion and gambling racket. Lately, they've expanded to using their "charities" as money-laundering fronts. They have a few cash filled locations that make for great targets. Don't worry worry about retribution, we hear they're a non-violent cult._
+
+* _The Laundromat_
+* _The Charity Front_
 
 # The Fall Guys
 
@@ -10,7 +50,9 @@
 
 <img class="map" src="the fall guys ch 1 the docks.svg">
 
-_Last week we caught wind of a big shipment of various stolen artifacts coming in from overseas. My buddy in customs would love to bust these guys the legal way, but he just found out his boss is working for these smugglers. Way I see it, we hit them at the transfer to prove ourselves as a new crew, my buddy gets paid for his tip but his nose stays clean, and maybe that leads us to a bigger job down the line. The shipment includes three paintings and a rare jewel. **Our objective is to steal the jewel and two paintings.** If we steal all three paintings, we can get an extra $2k to help out with our next job._
+_5 days before The Vault Job._
+
+_"Last week we caught wind of a big shipment of various stolen artifacts coming in from overseas. My buddy in customs would love to bust these guys the legal way, but he just found out his boss is working for these smugglers. Way I see it, we hit them at the transfer to prove ourselves as a new crew, my buddy gets paid for his tip but his nose stays clean, and maybe that leads us to a bigger job down the line. The shipment includes three paintings and a rare jewel. **Our objective is to steal the jewel and two paintings.** If we steal all three paintings, we can get an extra $2k to help out with our next job."_
 
 ### Setup
 

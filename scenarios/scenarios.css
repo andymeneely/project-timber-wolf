@@ -59,3 +59,9 @@ ul{
 .pagebreak{
   page-break-after: always;
 }
+
+.title{
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
