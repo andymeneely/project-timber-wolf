@@ -494,6 +494,8 @@ _Hanging from his rearview mirror is a keychain with a severed pinky finger. He 
 
 _"Here's the thing," he continues "you gotta do this my way. I'll be calling the shots on this one."_
 
+* Promote and refine skills of any character who reached an Exit.
+
 # The Long Con
 
 ## Chapter 4: The Hostage Job
@@ -504,15 +506,15 @@ _2 days before The Vault Job. Your new boss has not allowed you to leave his hou
 
 _"Okay here's the gig. I've got this pawn shop that is bursting good merchandise. They have these two jewels that would be perfect for my collection. **Your objective is to steal the two jewels**, and anything else you take is yours."_
 
-_"Thing is, with all these prison breakouts the owners have put in a special security system that only they can deactivate. Now I know they both work late tonight so you need to get in there and take them hostage."_
+_"Thing is, with all these prison breakouts lately the owner has put in a special security system that only he can deactivate. Now I know he works late tonight so you need to get in there and take them hostage. I don't know where he'll be, precisely, so you'll have to plan around that."_
 
-_Read "When the First Hostage is Taken" below when you take your first hostage_
+_Read "When the Hostage is Taken" below when you take the hostage_
 
 ### Setup
 
 * Events: Use Events 1-20, 20a, 20b, 20c, 21.
 * Special Events: Place _Panic!_ on top of Event 12, and _Reinforcements_ on top of Event 16.
-* Use the White and Yellow meeples for the two owners. When a Character lands on the same space, take the "Hostage" non-player character card and use the same-colored die for his actions.
+* Use the white meeple for the Owner. Place the non-player character token in the security bag. When a Character lands on the Owner's space, take the "Hostage" non-player character card and use the white die for his actions.
 
 ### Planning Phase
 
@@ -521,24 +523,38 @@ _Read "When the First Hostage is Taken" below when you take your first hostage_
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
 
-### When a Hostage Is Taken
+### When the Hostage is Taken
 
-_"Don't shoot! I'll do what you want. By the way, I'm supposed to deliver a message to you. My buddy The Fence sends his regards, do you know him? He says he knows your boss is making you pull this twisted job and that your boss has made plenty of enemies." The hostage shoves a letter in your pocket_.
+_"Don't shoot! I'll do whatever you want. By the way, I'm supposed to deliver a message to you. My buddy The Fence sends his regards, do you know him? He says he knows your boss is making you pull this twisted job and that your boss has made plenty of enemies." The hostage shoves a letter in your pocket_.
 
 * Place a Document token on the first character to reach a Hostage. **New additional objective is to get this document out during Escape.**
 
 ### Upon Success
 
+_"Excellent! I know just the place for these." As he is admiring the jewels, a guard stumbles out into the street trying to dial his phone. The Collector pulls out a gun and shoots the guard in the head. "Great! Now lets get you paid."_
+
+* Add $8k to Team Loot.
 
 # The Long Con
 
 ## Chapter 5: The Bait
 
-_The day before The Vault Job._
+<img class="map" src="the long con ch 5 the bait.svg">
 
-<img class="map-big" src="venetian swap ch 5 the long swap.svg">
+_The day before The Vault Job. Your crew reads the letter from The Fence._
 
-_Ok I got tip on a big job. I know this hobbyist art forger who works for the upcoming exhibition. He's been working on the Grapes of Venice painting between shifts. He finished his masterpiece. All we have to do is the switch. He got the piece as close as he could... which is to say not very close. We need to take the fake painting and swap it with the original. As soon as you reach the real painting, I'll detonate some C4 on a nearby wall and you can all escape._
+_"As I'm sure you've seen, The Collector is not just bad business, he's bad for society. You should also know that his house shows only part of his real collection. The Demo Guy and myself needed locate his collection, so we let ourselves get captured back at The Forgery Studio. He's got a beef with us so we knew he wouldn't risk throwing us in jail. So we got put right next to his vault and got this text message out to the Jeweler."_
+
+_"First, we need you to finish a job we couldn't. Assemble your best crew from all the enemies this scumbag has made. Head over to The Collector's Exhibition Hall and **move the jewel we left behind to the drop site**. Make it look like you dropped it. At the drop site, flip the light switch and the wall will blast open. The Collector will think it was a botched robbery and bring it down to his vault for safekeeping. The jewel is actually an explosive, which we can detonate with your help. Once you're done, head over to the storage containers near The Docks and come rescue us and his collection."_
+
+### Setup
+* You may use any Character from the prior campaigns who ended up Free. You cannot have two members that had the same Amateur class on your crew (_e.g. a Hacktivist and Script Kiddie cannot be on the same Crew_).
+  * New crew members may obtain new Skill cards for $2k/$4k for each Amateur/Pro skill.
+  * You may keep their original Skill cards, if available.
+* Events: 1-20, 20a, 20b, 20c, 21
+* Special Events: Place _Reinforcements_ on top of Event 17.
+
+### When story beacon is reached
 
 When a character reaches the story beacon, create an exit on this hex and initiate escape phase immediately. This may also be done during the Escape phase.
 
@@ -550,58 +566,41 @@ When a character reaches the story beacon, create an exit on this hex and initia
 * No maximum on the number of Characters per Exit during Escape
 
 ### Upon Success
-_Fantastic! Here's another $8k for your time. Now that I have done a favor to our forger friend, he's given me some inside information about that Gallery heist a while back. TODO FINISH THIS. Let's prep for the next one._
 
 * You may Refine Skills of any non-Busted Character for $2k each
 * You may Promote Characters of any non-Busted Character for $3k each
-
-### Standalone Challenge
-
-Try this scenario with these conditions: (TODO: REDO with different characters)
-
-* Team cash: $6k (no team loot)
-* Safecracker + Ninja + Steal
-* Operative + Splice In + Extract
-* Grease Man + Concoct + Assault
-* Black Hat + Prowl + Blast
-
-_UPON SUCCESS: Excellent! Ok let me find you more
-work. Lay low for a while. You may refine Skills for $2k
-each, and promote Characters for $3k each._
-
-### Setup
-
-### Planning Phase
-
-### After the Heist
 
 # The Long Con
 
 ## Chapter 6. The Vault Job
 
-NEED NEW MAP!!
-<img class="map" src="the smugglers ch 6 the vault.svg">
+<img class="map" src="tbd map.svg">
 
-* You may choose two locations to create your entrances. You may not auto-reveal during the planning phase.
+_This is what it all comes down to. **Your objective is to get your friends out of there**. Any loot you can grab is an added benefit for your next job - because there's always another job._
 
 ### Setup
 
+* Events 1-20, 20a, 20b, 20c, 21.
+* Special Events: Place _Watchtower_ cards on top of Events 10 and 16, _Reinforcements_ on top of Event 12, and _Panic!_ on top of Event 17.
+* You may use any Character from the prior campaigns, as described in the prior chapter. Same rules for Skills.
+
 ### Planning Phase
 
-### After the Heist
+* TBD
+* TBD
 
-### Standalone Challenge
+### Upon Success
+
+_A dozen federal agents in SWAT gear are awaiting your exit. Their captain approaches your team "Oh good you're safe! Just how many prisoners did he have in there!?! Luckily you got out on your own or he would have taken care of you soon." You look around and see The Collector with several agents in handcuffs._
+
+_"We came as fast as we could. We've been tracking our corrupt colleagues for some time, but we never knew the extent of their collaborations. Looks like you got caught up in another one of The Collector's schemes. Glad we got that anonymous tip."_
+
+_In the backyard you see Tat leaning against a tree looking on. He smiles._
 
 # Rebuilding Scenarios
 
 
-_Alright this is what we've been training for. There's this
-cult that's taken over my neighborhood. Now I'm an
-accepting person of alternative beliefs, but this whole
-charity is just a front for money laundering. Let's hit
-'em hard. Our objective is to steal the jewel. Maximize
-your profits - I'll be finding more work for you if we
-succeed._
+_There's this cult that's taken over my neighborhood. Now I'm an accepting person of alternative beliefs, but this whole charity is just a front for money laundering. Let's hit 'em hard. Our objective is to steal the jewel. Maximize your profits - I'll be finding more work for you if we succeed._
 
 ## The Laundromat
 
