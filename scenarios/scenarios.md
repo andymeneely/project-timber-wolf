@@ -6,7 +6,7 @@ The following is a collection of scenarios that take you through the world of _Y
 
 The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome.
 
-Most scenarios also have a **standalone challenge**. These are reasonable conditions under which one could play the chapter directly without going through the entire campaign. Most standalone challenges are no more difficult than the regular campaign conditions, but might require clever gameplay that might not otherwise be easily achievable using the suggested crew compositions.
+Many scenarios also have a **standalone challenge**. These are reasonable conditions under which one could play the chapter directly without going through the entire campaign. Most standalone challenges are no more difficult than the regular campaign conditions, but might require clever gameplay that might not otherwise be easily achievable using the suggested crew compositions.
 
 <div class="toc">
 
@@ -54,9 +54,9 @@ _For a friendly neighborhood self-help group, The Forum sure knows how to stay i
 
 <img class="map" src="the fall guys ch 1 the docks.svg">
 
-_5 days before The Vault Job._
+_5 days before The Vault Job. Your crew is eating breakfast at a diner, discussing your next job. You are approached by well-dressed man._
 
-_"You don't know me but I hear you're hungry for employment. I'm over at customs and I see a lot of stuff come and go. Normally I just watch but this time I've caught wind of smugglers bringing in some stolen jewels. I could bust them the regular way but I gotta have these beauties for myself. Let's hit them at The Docks. **Steal three jewels**, and if you get all four I'll give you an additional $3k."_
+_"You don't know me but I hear you're hungry for employment. I'm over at customs near The Docks and I see a lot of stuff come and go. Normally I just watch but this time I've caught wind of smugglers bringing in some stolen jewels. I could bust them the regular way but I gotta have these beauties for myself. **Steal three jewels**, and if you get all four I'll give you an additional $3k."_
 
 _"Prove to me that you know what you're doing. If so, I'll find you another job."_
 
@@ -136,17 +136,15 @@ Try this scenario with the following conditions:
 
 ## Chapter 3. Your Last Heist
 
-_3 days before The Vault Job._
 
 <img class="map" src="the fall guys ch 3 cell block c.svg">
+_3 days before The Vault Job. Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with an intricate US Marines tattoo on his arm._
 
-_Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with a US Marines tattoo and eight fingers approaches you._
+_"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands. He has eight fingers._
 
-_"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands._
+_"But you... you don't know what you have. You have some real skill. And these feds? They made a huge mistake. They put you all in the same jail cell. Use it. We had some total amateurs break out of here a few days ago and they did it by each getting to a different exit at once. Security is tighter now but I'll help you if you promise me some funding when I get out. God speed."_
 
-_"But you... you don't know what you have. You have some real skill. And these feds? They made one huge mistake. They put you all in the same jail cell. Use it. We had some total amateurs break out of here a few days ago and they did it by each getting to a different exit at once. Security is tighter now but I'll help you out if you promise me some funding when I get out. God speed."_
-
-_Time to bust out of here. **Your objective is to get out of this place, each to a different exit**, then, you go your separate ways and never speak of this fiasco again._
+_Your team agrees. **Your objective is to get out of this place, each to a different exit**, then, you go your separate ways, hoping to never speak of this fiasco again._
 
 ### Setup
 
@@ -220,7 +218,7 @@ _6 days until The Vault Job. The Fence gathers your new crew around some bluepri
 
 _"Our first mark will be our friendly local art gallery. They're expecting a new exhibit of paintings coming in from Venice, Italy tomorrow. Gorgeous collection. Even the museum curators have underappreciated - and undervalued - this collection. Security is pretty lax but, just to be cautious, you cannot have more than two players per entrance to start with. Exit however you want, just make sure you remember those gates close when the alarm goes off."_
 
-_"To make payroll, I just need three paintings. Now, you should know that these pieces will sell better if we have them in sets. Both fruit paintings will sell for an extra $2k and all three buildings will get us an extra $4k. We can use any bonus money for the next job."_
+_"To make payroll, **I just need three paintings**. Now, you should know that these pieces will sell better if we have them in sets. Both fruit paintings will sell for an extra $2k and all three buildings will get us an extra $4k. We can use any bonus money for the next job."_
 
 _"Good luck and don't forget: getting in is the easy
 part."_
@@ -266,7 +264,7 @@ Try this scenario with the following conditions:
 
 <img class="map" src="venetian swap ch 3 the archives.svg">
 
-_5 days before The Vault Job. You meet The Fence in a diner. He's eating a giant omelet and has a manila folder of papers for you._
+_5 days before The Vault Job. You meet The Fence in a diner. He's eating a giant omelet and slides folder of papers across the table to you._
 
 _"Good news! I've got a buyer lined up. Here's the problem. He's a little squeamish about this particular collection. Says he needs documented proof that these are authentic. Now, unless one of you is forger, we're gonna need to acquire those provenance records from deep within the Gallery archives. Security is a little heavier down there - watch out for those pressure sensors and for the new long-range thermal imaging system they call the Watchtower."_
 
@@ -288,9 +286,9 @@ _Best of luck and don't get greedy._
 
 ### Upon Success
 _"Excellent! I think this will be a good relationship. Here's
-$4k for team loot, plus payout for extra jewels. At this point I'd be willing to support some 'professional development'."_
+$4k for team loot, plus payout for extra jewels. At this point I'd be willing to support some professional development."_
 
-_"Huh. That's funny. These provenance records have some authentication facts about these paintings. They don't match the pieces we have. We stole some fakes!! Ok let me figure what happened."_
+_"Huh. That's funny. These provenance records describe identifying features of these paintings. They don't match the pieces we have. We stole some fakes!! Ok let me figure what happened."_
 
 * Add $4k to your Team Cash, plus $3k/$7k if you stole 1/2 jewels.
 * You may Promote non-Busted Characters for $3k each
@@ -329,11 +327,11 @@ _"**Your objective is to swap in at least three painting fakes we have and steal
 ### Upon Success
 _"This crew sure never ceases to impress me. Here's another $5k for your time and an extra $3k for every extra painting swapped out. Go ahead and train up for the next one."_
 
-_"Hey, while you were in there, I did some poking around this guy's house too. I know him. It's a long story, but suffice to say, we need a bigger play. Get ready because this next job will be your toughest yet. Feel free to bring in a new pro if you like."_
+_"Hey, while you were in there, I did some poking around this guy's house too. I know him. It's a long story, but suffice to say, he gets special treatment. Get ready because this next job will be your toughest yet. Feel free to bring in a new pro if we can afford it."_
 
 * You may Promote non-Busted Characters for $3k each
 * You may Refine the Skills of any non-Busted Character for $2k each
-* You may replace one character with any available pro character with any available pro skills for $8k.
+* You may replace one character with any available pro character with any available pro skills for $10k.
 * If you have any unused fake paintings, return them to the supply.
 
 # The Venetian Swap
@@ -341,13 +339,15 @@ _"Hey, while you were in there, I did some poking around this guy's house too. I
 ## Chapter 5. The Restoration Job
 
 <img class="map" src="venetian swap ch 6 the redemption job.svg">
-_3 days before The Vault Job. The Fence calls a meeting at the safe house but isn't there. A letter is sitting on a table next to the blueprints of The Gallery._
+_3 days before The Vault Job. The crew is chatting about how the prison had another breakout this morning._
 
-_"Back along the way I had two friends who were the best in the business. They acquired, I sold. Then one day we had a customer who was bad news from the start. Tried to keep his money and get the goods. We got mixed up, and then it all went down. One of us escaped, and I ended up in jail whole. But my buddy Tat was not so lucky. The Collector took Tat's pinkies with those psycho feds he has on his payroll."_
+_The Fence calls a meeting at the safe house but isn't there. A letter is sitting on a table next to the blueprints of The Gallery._
+
+_"Back along the way I had two friends who were the best in the business. They acquired, I sold. One day we had a customer who was bad news from the start. Tried to keep his money and run off with the goods. We got mixed up, and then it all went down. One of us escaped. I ended up in jail, whole. But my buddy Tat was not so lucky. The Collector took Tat's pinkies with those psycho feds he has on his payroll."_
 
 _"When you were back at the Collector's Estate, I did some poking around his house and came across my buddy's 'trophies'. I knew I had found my guy."_
 
-_"See, this is why I busted you out and mentored you. I was looking for this Collector so we can hit him on the only things he cares about: his collection."_
+_"It's time for me to come clean with you. I busted you out and groomed you because I was looking for this Collector so we can hit him on the only thing he cares about: his collection."_
 
 _"There's one thing that will drive this guy nuts: to see the real paintings sitting in a museum, so secure he can't afford to get them. The Gallery has had two heists already, and it's about get a third. **Get these paintings back in and the museum in their rightful places**."_
 
@@ -423,7 +423,7 @@ _"Great! We're all here. Let me introduce to you an old friend from my platoon. 
 
 _"Anyway, he's up for a new heist with my method. We're going after some artwork this time, but there's a twist. We hear there's a good forger out there so my buddy needs to verify the artwork in person. He's going in with you and needs to stay with one of you at all times. Don't worry, he won't screw things up."_
 
-_"**Your objective is to steal the one painting**. The Fence must validate the painting before it can be moved. He just need to look at it up close to authenticate. Once you get it, bust out of there. No sense lingering."_
+_"**Your objective is to steal the one painting**. The Fence must validate the painting before it can be moved. He just needs to look at it up close to authenticate. Once you get it, we breach our way out. No sense lingering."_
 
 ### Setup
 
