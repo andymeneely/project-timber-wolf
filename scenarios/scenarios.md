@@ -48,7 +48,7 @@ _For a friendly neighborhood self-help group, The Forum sure knows how to stay i
 
 </div>
 
-# The Fall Guys
+# Act I. The Fall Guys
 
 ## Chapter 1. The Tip
 
@@ -87,7 +87,7 @@ _Well done! These will look great in my collection! Now I've got a bigger job fo
 * Add $3k to Team Cash if four jewels were stolen
 * Promote all characters who are not busted, and refine their skills.
 
-# The Fall Guys
+# Act I. The Fall Guys
 
 ## Chapter 2. The Pro Job
 
@@ -95,7 +95,7 @@ _Well done! These will look great in my collection! Now I've got a bigger job fo
 
 _"Wow you are some fast learners! Here's a pro job for a pro crew. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got a thermal imaging system called The Watchtower, plus some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job."_
 
-_"I'll be outside here waiting for you"._
+_"I'll be outside waiting for you"._
 
 ### Setup
 
@@ -117,9 +117,7 @@ _"Thanks for the hard work. You learned this gig faster than I thought. Real nat
 
 _Everyone is arrested and taken to prison._
 
-* Add $3k to Team Cash
-* Add $3k to Team Cash if all three jewels were stolen
-* Promote any characters and refine skills of anyone who made reached an Exit.
+* Promote any characters and refine skills of anyone who reached an Exit.
 * If any characters failed to reach an exit (i.e. Busted), keep them for the next heist, but do not promote them or refine their skills.
 
 ### Standalone Challenge: NAME TBD
@@ -132,19 +130,19 @@ Try this scenario with the following conditions:
 * TODO
 * TODO
 
-# The Fall Guys
+# Act I. The Fall Guys
 
 ## Chapter 3. Your Last Heist
 
 
 <img class="map" src="the fall guys ch 3 cell block c.svg">
-_3 days before The Vault Job. Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with an intricate US Marines tattoo on his arm._
+_3 days before The Vault Job. Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with an intricate US Marines tattoo on his arm approaches you._
 
 _"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands. He has eight fingers._
 
 _"But you... you don't know what you have. You have some real skill. And these feds? They made a huge mistake. They put you all in the same jail cell. Use it. We had some total amateurs break out of here a few days ago and they did it by each getting to a different exit at once. Security is tighter now but I'll help you if you promise me some funding when I get out. God speed."_
 
-_Your team agrees. **Your objective is to get out of this place, each to a different exit**, then, you go your separate ways, hoping to never speak of this fiasco again._
+_Your team agrees to go their separate ways. **Your objective is to get out of this place, each to a different exit**._
 
 ### Setup
 
@@ -160,7 +158,7 @@ _Your team agrees. **Your objective is to get out of this place, each to a diffe
 
 ### Upon Success
 
-Congratulations! You have completed _The Fall Guys_ campaign! There is so much more of this game to experience in other campaigns. We hope you check them out!
+_Several crew members run into each other at the diner later that day. Nobody acknowledges one another._
 
 ### Standalone Challenge: The Skillful Specialists
 
@@ -172,7 +170,7 @@ Try this scenario with the following conditions:
 * Mastermind with Extract and Splice In
 * Thief with Circumvent and Improvise
 
-# The Venetian Swap
+# Act II. The Venetian Swap
 
 ## Chapter 1. The Fence
 
@@ -185,7 +183,7 @@ _"**Our objective is to get me out of this prison**. If some of you don't make i
 ### Setup
 
 * Events: Use Events 1-21
-* Special Events: Place Reinforcements on top of Event 14
+* Special Events: Place _Reinforcements_ on top of Event 14. Place _Panic!_ on top of Event 17.
 
 We suggest using these Character & Skill combinations:
 
@@ -208,7 +206,7 @@ _Well done! I think this is gonna work out. Ok I'll map out our first job. Meanw
 
 * Every non-Busted Character may Refine one Skill.
 
-# The Venetian Swap
+# Act II. The Venetian Swap
 
 ## Chapter 2. The Gallery Job
 
@@ -258,7 +256,7 @@ Try this scenario with the following conditions:
 * TODO
 * TODO
 
-# The Venetian Swap
+# Act II. The Venetian Swap
 
 ## Chapter 3. The Provenance
 
@@ -266,7 +264,7 @@ Try this scenario with the following conditions:
 
 _5 days before The Vault Job. You meet The Fence in a diner. He's eating a giant omelet and slides folder of papers across the table to you._
 
-_"Good news! I've got a buyer lined up. Here's the problem. He's a little squeamish about this particular collection. Says he needs documented proof that these are authentic. Now, unless one of you is forger, we're gonna need to acquire those provenance records from deep within the Gallery archives. Security is a little heavier down there - watch out for those pressure sensors and for the new long-range thermal imaging system they call the Watchtower."_
+_"Good news! I've got a buyer lined up. Here's the problem. He's a little squeamish about this particular collection. Says he needs documented proof that these are authentic. We're gonna need to acquire those provenance records from deep within the Gallery archives. Security is a little heavier down there - watch out for those pressure sensors and for the new long-range thermal imaging system they call the Watchtower."_
 
 _"**Your objective is to get both documents**. But, it also looks like the archives have a set of jewels awaiting appraisal. If you bring back one jewel, I'll provide $3k. For both, I'll pay you $7k."_
 
@@ -302,7 +300,7 @@ Be sure to record the following on your Campaign ledger:
 * Character Promotions
 * Skill Refinements
 
-# The Venetian Swap
+# Act II. The Venetian Swap
 
 ## Chapter 4. The Collector
 
@@ -334,7 +332,7 @@ _"Hey, while you were in there, I did some poking around this guy's house too. I
 * You may replace one character with any available pro character with any available pro skills for $10k.
 * If you have any unused fake paintings, return them to the supply.
 
-# The Venetian Swap
+# Act II. The Venetian Swap
 
 ## Chapter 5. The Restoration Job
 
@@ -378,7 +376,7 @@ Try this scenario with the following conditions:
 * Sewer Rat
 
 
-# The Long Con
+# Act III. The Long Con
 
 ## Chapter 1: The Demolitions Guy
 
@@ -406,30 +404,33 @@ We suggest the following characters and skills:
 
 ## Upon Success
 
-_See how nicely that worked out? Let's train up and keep this going. Kudos to the one who grabbed that jewel._
+_"See how nicely that worked out? Let's train up and keep this going. Kudos to the one who grabbed that jewel."_
 
 * You may upgrade Skills for $2k each.
 * The character who stole the jewel may be promoted.
 
-# The Long Con
+# Act III. The Long Con
 
 ## Chapter 2: The War Veterans
 
-<img class="map" src="tbd map.svg">
+<img class="map" src="the long con ch 2 the studio.svg">
 
 _4 days before The Vault Job. The Demolitions Guy meets up with the crew in his workshop again. A tall, thin man is joking with him as the group gathers._
 
-_"Great! We're all here. Let me introduce to you an old friend from my platoon. We call him The Fence because he's the only one in the business you'll need to offload your goods. Not only that, he's got a great eye for marks."_
+_"Great! We're all here. Let me introduce to you an old friend from my platoon. We call him The Fence because he's the only one in the business you'll need to offload your goods. Plus, he's got a great eye for marks."_
 
-_"Anyway, he's up for a new heist with my method. We're going after some artwork this time, but there's a twist. We hear there's a good forger out there so my buddy needs to verify the artwork in person. He's going in with you and needs to stay with one of you at all times. Don't worry, he won't screw things up."_
+_"The mark is this petulant art forger we call Bristle. The Fence here has done plenty of business with him, but it seems Bristle is freelancing without giving proper notice. Let's remind him of common courtesy by blasting a hole in his wall and taking his original._
 
-_"**Your objective is to steal the one painting**. The Fence must validate the painting before it can be moved. He just needs to look at it up close to authenticate. Once you get it, we breach our way out. No sense lingering."_
+_We know his studio has both the original and the forgery. None of you will be able to tell which is which, so The Fence is going to have to see the piece up close. He's going in with you and needs to stay with one of you at all times. Don't worry, he won't screw things up."_
+
+_"**Your objective is to steal the one real painting**. The Fence must validate the painting before it can be moved. Once you get it, we breach our way out."_
 
 ### Setup
 
 * Events: Use Events 1-20, then 20a, 20b, then 21.
-* Special Events: Place _Panic!_ on top of Event 12, and _Reinforcements_ on top of Event 16.
+* Special Events: Place _Lockdown!_ on top of Event 12 and _Panic!_ on top of Event 16.
 * Use the White meeple for The Fence. Use the "Guide" non-player character card and the white die for his movement.
+* Shuffle the real and fake _Grapes of Venice_ paintings face-down. Place each one at each indicated location. When The Fence reaches a space with a painting, flip it over to reveal if it is real or fake.
 
 ### Planning Phase
 
@@ -437,44 +438,38 @@ _"**Your objective is to steal the one painting**. The Fence must validate the p
 
 ### Upon Success
 
-_A dozen federal agents in SWAT gear are awaiting your exit. You've been double-crossed! A man comes up to your crew and takes your painting. He starts rambling about his collection and lectures you on the value of preparedness. Nobody is listening though._
+_A dozen federal agents in SWAT gear are awaiting your exit. You've been double-crossed! A well-dressed man comes up to your crew and takes the painting. He starts rambling about his collection and lectures you on the value of preparedness. Nobody is listening though._
 
-_The Fence and the Demolitions Guy are nowhere to be found._
+_Your crew is handcuffed and thrown in jail. The Fence and the Demolitions Guy are nowhere to be found._
 
-* Add $4k to Team Cash
 * Promote any characters and refine skills of anyone who made reached an Exit.
 * If any characters failed to reach an exit (i.e. Busted), keep them for the next heist, but do not promote them or refine their skills.
 
-
 ### Standalone Challenge: NAME TBD
 
-Try this scenario with the following conditions:
-
-* TBD
 * TBD
 * TBD
 * TBD
 * TBD
 
-# The Long Con
+# Act III. The Long Con
 
 ## Chapter 3: Calling the Shots
 
 <img class="map" src="tbd map.svg">
 
-_3 days before the Vault Job. Your crew is placed in Cell Block C. Guards are everywhere and seem to be on edge. A fellow inmate strikes up a conversation._
+_3 days before the Vault Job. Your crew is placed in Cell Block C. Guards are everywhere and seem to be on edge. A chatty inmate strikes up a conversation._
 
 _"Yeah, everything has been crazy here. We've had two breakouts just this week. One was this morning. Apparently the secret is to just go out the front doors all at once and nobody knows how to react. "_
 
-_Your team discusses the possibility of escape. Everyone is in and the day is clear: today. This prison clearly has a vulnerability and it isn't fixed yet. You're down a crew member, though, so you reach out for anyone who is available. **Your objective is to get at least one character to break out of prison**, but the more characters you break out, the more you have available for the next job._
+_Your team discusses the possibility of escape. Everyone is in and the day is clear: today. This prison clearly has a vulnerability and it isn't fixed yet. You're down a crew member, though, so you reach out for anyone who is available. **Your objective is to get at least one character to break out of prison**._
 
 ### Setup
 
 * You may add one new Character to your crew who has appeared at any time in a prior campaign. Both campaigns have ended by this time in the narrative. You cannot have two members that had the same Amateur class on your crew (_e.g. a Hacktivist and Script Kiddie cannot be on the same Crew_).
   * If the Character ended up Busted, add them to your starting point inside the prison with the rest of the team.
   * If the Character ended up Free, add them to any entrance of your choice to aid in the escape.
-  * The new crew member may obtain new Skill cards for $2k/$4k for each Amateur/Pro skill.
-  * You may keep their original Skill cards, if available.
+  * The new crew member may obtain new Amateur Skill cards, or keep their original Skill cards if available.
 * Events: Use Events 1-21
 * Special Events: Place the Reinforcements card on top of Event 14.
 
@@ -496,7 +491,7 @@ _"Here's the thing," he continues "you gotta do this my way. I'll be calling the
 
 * Promote and refine skills of any character who reached an Exit.
 
-# The Long Con
+# Act III. The Long Con
 
 ## Chapter 4: The Hostage Job
 
@@ -535,7 +530,7 @@ _"Excellent! I know just the place for these." As he is admiring the jewels, a g
 
 * Add $8k to Team Loot.
 
-# The Long Con
+# Act III. The Long Con
 
 ## Chapter 5: The Bait
 
@@ -570,7 +565,7 @@ When a character reaches the story beacon, create an exit on this hex and initia
 * You may Refine Skills of any non-Busted Character for $2k each
 * You may Promote Characters of any non-Busted Character for $3k each
 
-# The Long Con
+# Act III. The Long Con
 
 ## Chapter 6. The Vault Job
 
