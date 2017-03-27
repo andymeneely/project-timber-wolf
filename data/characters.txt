@@ -561,8 +561,23 @@ LevelUp2Desc |                                    |
      Special | PATCH IN                           |
              | When adjacent to a live camera, us |
              | e this action for 💡💡🔍🔊             |
-LevelUp1Desc |                                    |
-LevelUp2Desc |                                    |
+LevelUp1Desc | +2 Memory                          |
+             | + 1 Initial 💡                      |
+             |                                    |
+             | Walk & Smash⇒                      |
+             | Disable📷🔊➜                         |
+             |                                    |
+             | +Loop Footage                      |
+LevelUp2Desc | +1 Memory                          |
+             | +2 Initial 💡                       |
+             |                                    |
+             | Walk🔊➜⇒                            |
+             | Spy Stuff🔓👊🔊                       |
+             |                                    |
+             | Smash📷🔊🔊➜⇒                         |
+             | Short📷📷🔊                           |
+             |                                    |
+             | +Follower                          |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Technician                         |
