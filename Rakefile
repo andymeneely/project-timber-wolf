@@ -160,11 +160,12 @@ namespace :scenarios do
   task html_to_pdf: [:md_to_html] do
     sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
-        --page-size Letter
+        --page-width    5.5in
+        --page-height   8.5in
         --margin-left   0.75in
-        --margin-right  0.75in
-        --margin-bottom 0.75in
-        --margin-top    0.75in
+        --margin-right  0.55in
+        --margin-bottom 0.55in
+        --margin-top    0.55in
         scenarios/scenarios.html _output/scenarios.pdf
     EOS
     @launch ||= []

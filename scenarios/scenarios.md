@@ -1,12 +1,27 @@
-<div class="title">
-  _Your Last Heist_ Scenarios
+<div class="title-page">
+  Scenarios
 </div>
 
-The following is a collection of scenarios that take you through the world of _Your Last Heist_. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator and a different crew, but they are all part of one storyline. The stories occur in parallel, and take place over seven days.
+<div class="title">
+  _Your Last Heist:_ <br>
+ Learning the Art
+</div>
 
-The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome.
+This is main campaign to take you through the world of _Your Last Heist_. The story is broken into three Acts. These are parallel stories that take place over seven days. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator and a different suggested starting crew, but they are all part of one story.
+
+Since the stories occur in parallel, you may play the campaigns in parallel as well. This might be useful if you have multiple gaming groups playing the same game. To play these stories in parallel, you will need to unlock the packets of any chapter from a prior act.
+
+The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome. Play them as often as you like.
 
 Many scenarios also have a **standalone challenge**. These are reasonable conditions under which one could play the chapter directly without going through the entire campaign. Most standalone challenges are no more difficult than the regular campaign conditions, but might require clever gameplay that might not otherwise be easily achievable using the suggested crew compositions.
+
+I hope you enjoy these campaigns! And I hope that you are inspired to make your own heist scenarios. Feel free to share your work over at yourlastheist.com
+
+And, to get started, go ahead and open up the packet for Act I Chapter I.
+
+-Andy
+
+<div class="page-break"/>
 
 <div class="toc">
 
@@ -15,7 +30,7 @@ Many scenarios also have a **standalone challenge**. These are reasonable condit
 _A bunch of fast-learning amateurs come across a hot tip._
 
 * **Chapter 1. _The Tip_** **2**
-* **Chapter 2. _The Pro Job_** **3**
+* **Chapter 2. _Fast Learners_** **3**
 * **Chapter 3. _Your Last Heist_** **4**
 
 ## Act II: _The Venetian Swap_
@@ -35,24 +50,22 @@ _There's always a bigger play._
 * **Chapter 1. _The Demolitions Guy_** **10**
 * **Chapter 2. _The War Veterans_** **11**
 * **Chapter 3. _Calling the Shots_** **12**
-* **Chapter 4. _The Hostage Job_** **13**
+* **Chapter 4. _The Jeweler_** **13**
 * **Chapter 5. _The Bait_** **14**
 * **Chapter 6. _The Vault Job_** **15**
 
 ## Rebuilding Scenarios
 
-_For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Under the guise of "centering your posture" they prey on the weak-minded in an extortion and gambling racket. Lately, they've expanded to using their "charities" as money-laundering fronts. They have a few cash filled locations that make for great targets. Don't worry about retribution... we hear they're a non-violent cult._
+_For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Under the guise of "centering your posture" they prey on the weak-minded in an extortion racket. Lately, they've expanded to using their "charities" as money-laundering fronts, so you know they're loaded up with loot. Don't worry about retribution... we hear they're a non-violent cult._
 
 * **_The Laundromat_**  **16**
-* **_The Charity Front_** **16**
+* **_The Childrens' Project_** **16**
 
 </div>
 
 # Act I. The Fall Guys
 
 ## Chapter 1. The Tip
-
-<img class="map" src="the fall guys ch 1 the docks.svg">
 
 _5 days before The Vault Job. Your crew is eating breakfast at a diner, discussing your next job. You are approached by well-dressed man._
 
@@ -79,6 +92,10 @@ We suggest using these characters & skills:
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
 
+<div class="page-break"/>
+
+<img class="map" src="the fall guys ch 1 the docks.svg">
+
 ### Upon Success
 
 _Well done! These will look great in my collection! Now I've got a bigger job for you. Let me do some recon and I'll come back. For now, train up and we'll see what's next._
@@ -86,10 +103,31 @@ _Well done! These will look great in my collection! Now I've got a bigger job fo
 * Add $3k to the Team Cash.
 * Add $3k to Team Cash if four jewels were stolen
 * Promote all characters who are not busted, and refine their skills.
+* Open up Act I Chapter II packet and place it in your binder
+
+<div class="page-break"/>
+
+### Standalone Challenge: All the Things
+
+To complete this challenge, you must get all of the loot items. You must use the following crew and skills:
+
+* TBD
+* TBD
+* TBD
+* TBD
+
+If you complete this challenge, then...
+
+<div class="page-break"/>
+
+<div class="title-page">
+  II.2<br>
+  Fast Learners
+</div>
 
 # Act I. The Fall Guys
 
-## Chapter 2. The Pro Job
+## Chapter 2. Fast Learners
 
 <img class="map" src="the fall guys ch 2 the warehouse.svg">
 
@@ -493,7 +531,7 @@ _"Here's the thing," he continues "you gotta do this my way. I'll be calling the
 
 # Act III. The Long Con
 
-## Chapter 4: The Hostage Job
+## Chapter 4: The Jeweler
 
 <img class="map" src="tbd map.svg">
 
@@ -501,9 +539,15 @@ _2 days before The Vault Job. Your new boss has not allowed you to leave his hou
 
 _"Okay here's the gig. I've got this pawn shop that is bursting good merchandise. They have these two jewels that would be perfect for my collection. **Your objective is to steal the two jewels**, and anything else you take is yours."_
 
-_"Thing is, with all these prison breakouts lately the owner has put in a special security system that only he can deactivate. Now I know he works late tonight so you need to get in there and take them hostage. I don't know where he'll be, precisely, so you'll have to plan around that."_
+_"Thing is, with all these prison breakouts lately the owner has put in a special security system that only he can deactivate. Now I know he works late tonight so you need to get in there and take him hostage. I don't know where he'll be, precisely, so you'll have to plan around that."_
 
 _Read "When the Hostage is Taken" below when you take the hostage_
+
+### Unlock
+
+TBD
+* Unlock the Hostage card
+* Unlock the Meeple security token
 
 ### Setup
 

@@ -1,13 +1,6 @@
-@page{
-  size: 8.5in 11in;
-  margin-top: 0.75in;
-  margin-bottom: 0.75in;
-  margin-left: 0.75in;
-  margin-right: 0.75in;
-}
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 14pt;
+  font-size: 16pt;
   /*background-color: #f2ebd6;*/ /* Focusing on mostly bw for the moment */
 }
 p{
@@ -41,10 +34,21 @@ ul{
   margin-bottom: 0.5em;
 }
 
+.title-page{
+  font-family: 'Acknowledgement';
+  letter-spacing: 8px;
+  padding-top: 4in;
+  text-align: center;
+  font-size: 200%;
+  page-break-after: always;
+}
+
 .map{
-  float: right;
-  width: 4.5in;
-  height: 4.5in;
+  /*float: right;*/
+  width: 5.5in;
+  height: 5.5in;
+  margin-left: auto;
+  margin-right: auto;
 }
 .map-big{
   float: right;
@@ -56,7 +60,7 @@ ul{
   width: 90%;
 }
 
-.pagebreak{
+.page-break{
   page-break-after: always;
 }
 
