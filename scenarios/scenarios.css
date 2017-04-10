@@ -1,6 +1,6 @@
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 16pt;
+  font-size: 14pt;
   /*background-color: #f2ebd6;*/ /* Focusing on mostly bw for the moment */
 }
 p{
@@ -34,7 +34,7 @@ ul{
   margin-bottom: 0.5em;
 }
 
-.title-page{
+.cover{
   font-family: 'Acknowledgement';
   letter-spacing: 8px;
   padding-top: 4in;
@@ -43,10 +43,19 @@ ul{
   page-break-after: always;
 }
 
+.title-page{
+  font-family: 'Acknowledgement';
+  letter-spacing: 8px;
+  padding-top: 4in;
+  text-align: center;
+  font-size: 200%;
+  page-break-before: always;
+}
+
 .map{
   /*float: right;*/
-  width: 5.5in;
-  height: 5.5in;
+  width: 5in;
+  height: 5in;
   margin-left: auto;
   margin-right: auto;
 }

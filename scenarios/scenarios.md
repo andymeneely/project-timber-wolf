@@ -1,4 +1,4 @@
-<div class="title-page">
+<div class="cover">
   Scenarios
 </div>
 
@@ -86,15 +86,15 @@ We suggest using these characters & skills:
 * Shutter Bug with Hurry and Wing It
 * Script Kiddie with Bypass and Hit 'n' Run (4-players)
 
+<div class="page-break"/>
+
+<img class="map" src="the fall guys ch 1 the docks.svg">
+
 ### Planning Phase
 
 * As a team take 🔍🔍🔍
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
-
-<div class="page-break"/>
-
-<img class="map" src="the fall guys ch 1 the docks.svg">
 
 ### Upon Success
 
@@ -116,20 +116,16 @@ To complete this challenge, you must get all of the loot items. You must use the
 * TBD
 * TBD
 
-If you complete this challenge, then...
-
-<div class="page-break"/>
+If you complete this challenge, then TBD
 
 <div class="title-page">
-  II.2<br>
-  Fast Learners
+  I.2<br>
+  Your Last Heist
 </div>
 
 # Act I. The Fall Guys
 
 ## Chapter 2. Fast Learners
-
-<img class="map" src="the fall guys ch 2 the warehouse.svg">
 
 _"Wow you are some fast learners! Here's a pro job for a pro crew. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got a thermal imaging system called The Watchtower, plus some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job."_
 
@@ -145,6 +141,12 @@ _"I'll be outside waiting for you"._
 * You may purchase 🔍 for $1k each
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
+
+<div class="page-break"/>
+
+<img class="map" src="the fall guys ch 2 the warehouse.svg">
+
+<div class="page-break"/>
 
 ### Upon Success
 
@@ -168,12 +170,15 @@ Try this scenario with the following conditions:
 * TODO
 * TODO
 
+<div class="title-page">
+  I.3<br>
+  Fast Learners
+</div>
+
 # Act I. The Fall Guys
 
 ## Chapter 3. Your Last Heist
 
-
-<img class="map" src="the fall guys ch 3 cell block c.svg">
 _3 days before The Vault Job. Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with an intricate US Marines tattoo on his arm approaches you._
 
 _"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands. He has eight fingers._
@@ -181,6 +186,10 @@ _"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocke
 _"But you... you don't know what you have. You have some real skill. And these feds? They made a huge mistake. They put you all in the same jail cell. Use it. We had some total amateurs break out of here a few days ago and they did it by each getting to a different exit at once. Security is tighter now but I'll help you if you promise me some funding when I get out. God speed."_
 
 _Your team agrees to go their separate ways. **Your objective is to get out of this place, each to a different exit**._
+
+<div class="page-break"/>
+
+<img class="map" src="the fall guys ch 3 cell block c.svg">
 
 ### Setup
 
@@ -193,6 +202,8 @@ _Your team agrees to go their separate ways. **Your objective is to get out of t
 * You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
 * You may purchase 🔍 for $1k each
 * A maximum of 1 Character per Exit tile is allowed at any time.
+
+<div class="page-break"/>
 
 ### Upon Success
 
@@ -208,6 +219,15 @@ Try this scenario with the following conditions:
 * Mastermind with Extract and Splice In
 * Thief with Circumvent and Improvise
 
+<div class="title-page">
+  Act II<br>
+  The Venetian<br>
+  Swap<br>
+  <br>
+  Chapter 1<br>
+  The Fence
+</div>
+
 # Act II. The Venetian Swap
 
 ## Chapter 1. The Fence
@@ -217,6 +237,10 @@ _7 days before The Vault Job. A bunch of apprehensive strangers are summoned by 
 _"Look around. You might see a bunch of lowlife criminals putting in their time, but me? I see a business opportunity. See, I've got a bunch of... connections. I know how to find people who are willing to purchase the world's greatest artwork with no questions asked. I simply lack the means of  acquisition. That's where you all come in. I've hand-picked this team for your talents and potential. First, let's get out of here."_
 
 _"**Our objective is to get me out of this prison**. If some of you don't make it, we can find a replacement but I'd rather not have that happen. Now the only way to pull this off is to have a maximum of two characters at each exit. You may notice that our locksmith friend here is specially equipped to get this party started. But first, let's do a little recon."_
+
+<div class="page-break"/>
+
+<img class="map-full-width" src="venetian swap ch 1 the fence.svg">
 
 ### Setup
 
@@ -230,13 +254,12 @@ We suggest using these Character & Skill combinations:
 * BLUE: Burglar with Wing It and Hit 'n' Run
 * BLACK: Script Kiddie with Hit 'n' Run and Hurry (4 players)
 
-
 ### Planning Phase
 
 * As a team take 🔍🔍🔍
 * A maximum of two Characters may exit a given Exit tile, including the Fence
 
-<img class="map-full-width" src="venetian swap ch 1 the fence.svg">
+<div class="page-break"/>
 
 ### Upon Success
 
@@ -244,11 +267,15 @@ _Well done! I think this is gonna work out. Ok I'll map out our first job. Meanw
 
 * Every non-Busted Character may Refine one Skill.
 
+<div class="title-page">
+  II.2<br>
+  The Gallery Job
+</div>
+
 # Act II. The Venetian Swap
 
 ## Chapter 2. The Gallery Job
 
-<img class="map" src="venetian swap ch 2 the gallery.svg">
 
 _6 days until The Vault Job. The Fence gathers your new crew around some blueprints._
 
@@ -258,6 +285,10 @@ _"To make payroll, **I just need three paintings**. Now, you should know that th
 
 _"Good luck and don't forget: getting in is the easy
 part."_
+
+<div class="page-break"/>
+
+<img class="map" src="venetian swap ch 2 the gallery.svg">
 
 ### Setup
 
@@ -270,6 +301,8 @@ part."_
 * You may purchase 🔍 for $1k each
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
+
+<div class="page-break"/>
 
 ### Upon Success
 
@@ -294,11 +327,15 @@ Try this scenario with the following conditions:
 * TODO
 * TODO
 
+<div class="title-page">
+  II.3<br>
+  The Provenance
+</div>
+
 # Act II. The Venetian Swap
 
 ## Chapter 3. The Provenance
 
-<img class="map" src="venetian swap ch 3 the archives.svg">
 
 _5 days before The Vault Job. You meet The Fence in a diner. He's eating a giant omelet and slides folder of papers across the table to you._
 
@@ -307,6 +344,10 @@ _"Good news! I've got a buyer lined up. Here's the problem. He's a little squeam
 _"**Your objective is to get both documents**. But, it also looks like the archives have a set of jewels awaiting appraisal. If you bring back one jewel, I'll provide $3k. For both, I'll pay you $7k."_
 
 _Best of luck and don't get greedy._
+
+<div class="page-break"/>
+
+<img class="map" src="venetian swap ch 3 the archives.svg">
 
 ### Setup
 
@@ -319,6 +360,8 @@ _Best of luck and don't get greedy._
 * You may purchase 🔍 for $1k each
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
+
+<div class="page-break"/>
 
 ### Upon Success
 _"Excellent! I think this will be a good relationship. Here's
@@ -338,16 +381,24 @@ Be sure to record the following on your Campaign ledger:
 * Character Promotions
 * Skill Refinements
 
+<div class="title-page">
+  II.4<br>
+  The Collector
+</div>
+
 # Act II. The Venetian Swap
 
 ## Chapter 4. The Collector
 
-<img class="map" src="venetian swap ch 4 the collector.svg">
 _4 days before The Vault Job. The Fence calls a meeting at the safe house._
 
 _"Turns out there's a bigger fan of these paintings than me. I have no idea who he hired for the job, but he managed to beat us to the Gallery. He doesn't show up on the provenance, so he clearly didn't acquire these paintings legally. Let's liberate his collection. Plus, we might as well put these fakes to good use."_
 
 _"**Your objective is to swap in at least three painting fakes we have and steal the authentic ones**. Don't steal anything we don't have a fake for. Any swaps beyond the three I'll give an extra $3k. Choose carefully who carries in those fake paintings. And feel free to take as much money from this classless art hoarder as you can."_
+
+<div class="page-break"/>
+
+<img class="map" src="venetian swap ch 4 the collector.svg">
 
 ### Setup
 * EVENTS: Use Standard Events 1-21.
@@ -360,6 +411,9 @@ _"**Your objective is to swap in at least three painting fakes we have and steal
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
 
+
+<div class="page-break"/>
+
 ### Upon Success
 _"This crew sure never ceases to impress me. Here's another $5k for your time and an extra $3k for every extra painting swapped out. Go ahead and train up for the next one."_
 
@@ -370,11 +424,15 @@ _"Hey, while you were in there, I did some poking around this guy's house too. I
 * You may replace one character with any available pro character with any available pro skills for $10k.
 * If you have any unused fake paintings, return them to the supply.
 
+<div class="title-page">
+  II.5<br>
+  The Restoration Job
+</div>
+
 # Act II. The Venetian Swap
 
 ## Chapter 5. The Restoration Job
 
-<img class="map" src="venetian swap ch 6 the redemption job.svg">
 _3 days before The Vault Job. The crew is chatting about how the prison had another breakout this morning._
 
 _The Fence calls a meeting at the safe house but isn't there. A letter is sitting on a table next to the blueprints of The Gallery._
@@ -389,6 +447,10 @@ _"There's one thing that will drive this guy nuts: to see the real paintings sit
 
 _"Sorry to disappear on you for this one. I'm working on a bigger play. Once you succeed, stay available and keep those skills honed. Best of luck!"_
 
+<div class="page-break"/>
+
+<img class="map" src="venetian swap ch 6 the redemption job.svg">
+
 ### Setup
 
 * EVENTS: Use Events 1-20, then Event 20a, 20b, and 20c, then 21.
@@ -400,6 +462,8 @@ _"Sorry to disappear on you for this one. I'm working on a bigger play. Once you
 * You may purchase 🔍 for $1k each
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
+
+<div class="page-break"/>
 
 ### Standalone Challenge
 
@@ -413,12 +477,15 @@ Try this scenario with the following conditions:
 * Grifter
 * Sewer Rat
 
+<div class="title-page">
+  III.1<br>
+  The Demolitions Guy
+</div>
 
 # Act III. The Long Con
 
 ## Chapter 1: The Demolitions Guy
 
-<img class="map" src="the smugglers ch 1 the estate.svg">
 _5 days before The Vault Job. A short, stocky, grim-faced man meets with some new recruits in his workshop._
 
 _"Nobody ever said this career was easy. You gotta keep moving, keep innovating. Get in, get out, get paid. Don't get greedy. That's what I learned from my last crew, and that is what I intend to teach all of you today."_
@@ -426,6 +493,8 @@ _"Nobody ever said this career was easy. You gotta keep moving, keep innovating.
 _"They say that getting out is hardest part of any heist. Well, that's where I come in. You see, I create exits where there are none. As a result of my abilities, however, marks that would otherwise be too risky for most crews become available. Only thing is... I'm a bit noisy... so just be ready to split when I hit the button."_
 
 _"Ok, now I owe some money and a jewel to this pretentious art fence, so this job is about learning the method. I hear we've got some money stashed over at the old estate. **Our objective is to pick up the jewel and $7k worth of cash.** Anything we pick up beyond that is ours. And I'll promote whoever picks up that jewel."_
+
+<img class="map" src="the smugglers ch 1 the estate.svg">
 
 ## Setup
 
@@ -440,6 +509,8 @@ We suggest the following characters and skills:
 * Thug with Bypass and Wing It
 * Street Urchin with Hurry and Bypass (4-players)
 
+<div class="page-break"/>
+
 ## Upon Success
 
 _"See how nicely that worked out? Let's train up and keep this going. Kudos to the one who grabbed that jewel."_
@@ -447,11 +518,15 @@ _"See how nicely that worked out? Let's train up and keep this going. Kudos to t
 * You may upgrade Skills for $2k each.
 * The character who stole the jewel may be promoted.
 
+<div class="title-page">
+  III.2<br>
+  The War Veterans
+</div>
+
 # Act III. The Long Con
 
 ## Chapter 2: The War Veterans
 
-<img class="map" src="the long con ch 2 the studio.svg">
 
 _4 days before The Vault Job. The Demolitions Guy meets up with the crew in his workshop again. A tall, thin man is joking with him as the group gathers._
 
@@ -463,6 +538,10 @@ _We know his studio has both the original and the forgery. None of you will be a
 
 _"**Your objective is to steal the one real painting**. The Fence must validate the painting before it can be moved. Once you get it, we breach our way out."_
 
+<div class="page-break"/>
+
+<img class="map" src="the long con ch 2 the studio.svg">
+
 ### Setup
 
 * Events: Use Events 1-20, then 20a, 20b, then 21.
@@ -473,6 +552,8 @@ _"**Your objective is to steal the one real painting**. The Fence must validate 
 ### Planning Phase
 
 * The Fence does not use planning tokens.
+
+<div class="page-break"/>
 
 ### Upon Success
 
@@ -490,17 +571,25 @@ _Your crew is handcuffed and thrown in jail. The Fence and the Demolitions Guy a
 * TBD
 * TBD
 
+<div class="title-page">
+  III.3<br>
+  Calling the Shots
+</div>
+
 # Act III. The Long Con
 
 ## Chapter 3: Calling the Shots
 
-<img class="map" src="tbd map.svg">
 
 _3 days before the Vault Job. Your crew is placed in Cell Block C. Guards are everywhere and seem to be on edge. A chatty inmate strikes up a conversation._
 
 _"Yeah, everything has been crazy here. We've had two breakouts just this week. One was this morning. Apparently the secret is to just go out the front doors all at once and nobody knows how to react. "_
 
 _Your team discusses the possibility of escape. Everyone is in and the day is clear: today. This prison clearly has a vulnerability and it isn't fixed yet. You're down a crew member, though, so you reach out for anyone who is available. **Your objective is to get at least one character to break out of prison**._
+
+<div class="page-break"/>
+
+<img class="map" src="tbd map.svg">
 
 ### Setup
 
@@ -517,6 +606,8 @@ _Your team discusses the possibility of escape. Everyone is in and the day is cl
 * You may purchase 🔍 for $1k each
 * A maximum of 1 Character per Exit tile is allowed at any time.
 
+<div class="page-break"/>
+
 ### Upon Success
 
 _Outside of the prison, chaos reigns. Police are everywhere rounding up inmates who have followed you out. Your crew is about to head into the woods when a beat-up car pulls up. A man in a suit throws open the door and says "Get in!". You decide to take a chance and you all cram into the backseat. The car speeds away into an empty quarry._
@@ -529,11 +620,16 @@ _"Here's the thing," he continues "you gotta do this my way. I'll be calling the
 
 * Promote and refine skills of any character who reached an Exit.
 
+
+<div class="title-page">
+  III.4<br>
+  The Jeweler
+</div>
+
 # Act III. The Long Con
 
 ## Chapter 4: The Jeweler
 
-<img class="map" src="tbd map.svg">
 
 _2 days before The Vault Job. Your new boss has not allowed you to leave his house. It's filled with artwork, jewels, and strange mementos in shadowbox frames like dogtags and a bloody fedora._
 
@@ -543,11 +639,16 @@ _"Thing is, with all these prison breakouts lately the owner has put in a specia
 
 _Read "When the Hostage is Taken" below when you take the hostage_
 
+
 ### Unlock
 
 TBD
 * Unlock the Hostage card
 * Unlock the Meeple security token
+
+<div class="page-break"/>
+
+<img class="map" src="tbd map.svg">
 
 ### Setup
 
@@ -568,23 +669,33 @@ _"Don't shoot! I'll do whatever you want. By the way, I'm supposed to deliver a 
 
 * Place a Document token on the first character to reach a Hostage. **New additional objective is to get this document out during Escape.**
 
+<div class="page-break"/>
+
 ### Upon Success
 
 _"Excellent! I know just the place for these." As he is admiring the jewels, a guard stumbles out into the street trying to dial his phone. The Collector pulls out a gun and shoots the guard in the head. "Great! Now lets get you paid."_
 
 * Add $8k to Team Loot.
 
+<div class="title-page">
+  III.5<br>
+  The Bait
+</div>
+
 # Act III. The Long Con
 
 ## Chapter 5: The Bait
 
-<img class="map" src="the long con ch 5 the bait.svg">
 
 _The day before The Vault Job. Your crew reads the letter from The Fence._
 
 _"As I'm sure you've seen, The Collector is not just bad business, he's bad for society. You should also know that his house shows only part of his real collection. The Demo Guy and myself needed locate his collection, so we let ourselves get captured back at The Forgery Studio. He's got a beef with us so we knew he wouldn't risk throwing us in jail. So we got put right next to his vault and got this text message out to the Jeweler."_
 
 _"First, we need you to finish a job we couldn't. Assemble your best crew from all the enemies this scumbag has made. Head over to The Collector's Exhibition Hall and **move the jewel we left behind to the drop site**. Make it look like you dropped it. At the drop site, flip the light switch and the wall will blast open. The Collector will think it was a botched robbery and bring it down to his vault for safekeeping. The jewel is actually an explosive, which we can detonate with your help. Once you're done, head over to the storage containers near The Docks and come rescue us and his collection."_
+
+<div class="page-break"/>
+
+<img class="map" src="the long con ch 5 the bait.svg">
 
 ### Setup
 * You may use any Character from the prior campaigns who ended up Free. You cannot have two members that had the same Amateur class on your crew (_e.g. a Hacktivist and Script Kiddie cannot be on the same Crew_).
@@ -604,18 +715,28 @@ When a character reaches the story beacon, create an exit on this hex and initia
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
 
+<div class="page-break"/>
+
 ### Upon Success
 
 * You may Refine Skills of any non-Busted Character for $2k each
 * You may Promote Characters of any non-Busted Character for $3k each
 
+<div class="title-page">
+  III.6<br>
+  The Bait
+</div>
+
 # Act III. The Long Con
 
 ## Chapter 6. The Vault Job
 
-<img class="map" src="tbd map.svg">
 
 _This is what it all comes down to. **Your objective is to get your friends out of there**. Any loot you can grab is an added benefit for your next job - because there's always another job._
+
+<div class="page-break"/>
+
+<img class="map" src="tbd map.svg">
 
 ### Setup
 
@@ -628,6 +749,8 @@ _This is what it all comes down to. **Your objective is to get your friends out 
 * TBD
 * TBD
 
+<div class="page-break"/>
+
 ### Upon Success
 
 _A dozen federal agents in SWAT gear are awaiting your exit. Their captain approaches your team "Oh good you're safe! Just how many prisoners did he have in there!?! Luckily you got out on your own or he would have taken care of you soon." You look around and see The Collector with several agents in handcuffs._
@@ -635,6 +758,10 @@ _A dozen federal agents in SWAT gear are awaiting your exit. Their captain appro
 _"We came as fast as we could. We've been tracking our corrupt colleagues for some time, but we never knew the extent of their collaborations. Looks like you got caught up in another one of The Collector's schemes. Glad we got that anonymous tip."_
 
 _In the backyard you see Tat leaning against a tree looking on. He smiles._
+
+<div class="title-page">
+  Rebuilding Scenarios
+</div>
 
 # Rebuilding Scenarios
 

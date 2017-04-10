@@ -64,7 +64,7 @@ Squib::Deck.new(cards: total) do
   text layout: :Special, str: data['Special']
 
   save_png prefix: 'character_'#, range: 0
-  save_pdf file: 'characters.pdf', trim: '0.125in'
+  save_pdf file: 'characters.pdf', trim: '0.125in', range: 0
   build :color do
     showcase range: [0,3,6,9,12,15], file: 'amateurs_showcase.png',
              fill_color: :black
