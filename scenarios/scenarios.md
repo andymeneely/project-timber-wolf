@@ -439,22 +439,22 @@ _The Fence calls a meeting at the safe house but isn't there. A letter is sittin
 
 _"Back along the way I had two friends who were the best in the business. They acquired, I sold. One day we had a customer who was bad news from the start. Tried to keep his money and run off with the goods. We got mixed up, and then it all went down. One of us escaped. I ended up in jail, whole. But my buddy Tat was not so lucky. The Collector took Tat's pinkies with those psycho feds he has on his payroll."_
 
-_"When you were back at the Collector's Estate, I did some poking around his house and came across my buddy's 'trophies'. I knew I had found my guy."_
+_"When you were back at the Collector's Estate, I did some poking around his house and came across my buddy's 'trophies'. I knew I found my guy."_
 
 _"It's time for me to come clean with you. I busted you out and groomed you because I was looking for this Collector so we can hit him on the only thing he cares about: his collection."_
 
-_"There's one thing that will drive this guy nuts: to see the real paintings sitting in a museum, so secure he can't afford to get them. The Gallery has had two heists already, and it's about get a third. **Get these paintings back in and the museum in their rightful places**."_
+_"There's one thing that will drive this guy nuts: to see the real paintings sitting in a museum, so secure he can't afford to get them. The Gallery has had two heists already, and it's about get a third. **Get these paintings back into the museum, in their rightful places**. Unfortunately, security is a bit tighter this time around."_
 
 _"Sorry to disappear on you for this one. I'm working on a bigger play. Once you succeed, stay available and keep those skills honed. Best of luck!"_
 
 <div class="page-break"/>
 
-<img class="map" src="venetian swap ch 6 the redemption job.svg">
+<img class="map" src="venetian swap ch 5 the restoration job.svg">
 
 ### Setup
 
 * EVENTS: Use Events 1-20, then Event 20a, 20b, and 20c, then 21.
-* SPECIAL EVENTS: Place Reinforcements on top of Event 16, and Watchtower on top of Event 10 and 18.
+* SPECIAL EVENTS: Place Reinforcements on top of Event 14, and Watchtower on top of Event 10 and 18, and Release the Hounds on top of Event 19.
 
 ### Planning Phase
 
