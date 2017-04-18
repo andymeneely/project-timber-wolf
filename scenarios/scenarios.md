@@ -4,12 +4,12 @@
 
 <div class="title">
   _Your Last Heist:_ <br>
- Learning the Art
+The Campaign
 </div>
 
-This is main campaign to take you through the world of _Your Last Heist_. The story is broken into three Acts. These are parallel stories that take place over seven days. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator and a different suggested starting crew, but they are all part of one story.
+This is the main campaign to take you through the world of _Your Last Heist_. The story is broken into three Acts. These are parallel stories that take place over seven days. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator and a different suggested starting crew, but they are all part of one story.
 
-Since the stories occur in parallel, you may play the campaigns in parallel as well. This might be useful if you have multiple gaming groups playing the same game. To play these stories in parallel, you will need to unlock the packets of any chapter from a prior act.
+Since the Acts occur in parallel, you may play the campaigns in parallel as well. This might be useful if you have multiple gaming groups playing the same game. To play these stories in parallel, you will need to unlock the packets of any chapter from a prior act. We also recommend that at least one person remain common between the teams.
 
 The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome. Play them as often as you like.
 
@@ -17,7 +17,7 @@ Many scenarios also have a **standalone challenge**. These are reasonable condit
 
 I hope you enjoy these campaigns! And I hope that you are inspired to make your own heist scenarios. Feel free to share your work over at yourlastheist.com
 
-And, to get started, go ahead and open up the packet for Act I Chapter I.
+And now, it's time to get started. Go ahead and open up the packet for Act I Chapter I.
 
 -Andy
 
@@ -56,7 +56,7 @@ _There's always a bigger play._
 
 ## Rebuilding Scenarios
 
-_For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Under the guise of "centering your posture" they prey on the weak-minded in an extortion racket. Lately, they've expanded to using their "charities" as money-laundering fronts, so you know they're loaded up with loot. Don't worry about retribution... we hear they're a non-violent cult._
+_For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Don't worry about retribution, we hear they're a non-violent cult._
 
 * **_The Laundromat_**  **16**
 * **_The Childrens' Project_** **16**
@@ -119,8 +119,12 @@ To complete this challenge, you must get all of the loot items. You must use the
 If you complete this challenge, then TBD
 
 <div class="title-page">
-  I.2<br>
-  Your Last Heist
+  Act I<br>
+  Chapter 2<br>
+  <br>
+  <br>
+  <br>
+  Fast Learners
 </div>
 
 # Act I. The Fall Guys
@@ -171,8 +175,12 @@ Try this scenario with the following conditions:
 * TODO
 
 <div class="title-page">
-  I.3<br>
-  Fast Learners
+  Act I<br>
+  Chapter 2<br>
+  <br>
+  <br>
+  <br>
+  Your Last Heist
 </div>
 
 # Act I. The Fall Guys
@@ -221,10 +229,10 @@ Try this scenario with the following conditions:
 
 <div class="title-page">
   Act II<br>
-  The Venetian<br>
-  Swap<br>
-  <br>
   Chapter 1<br>
+  <br>
+  <br>
+  <br>
   The Fence
 </div>
 
@@ -268,7 +276,11 @@ _Well done! I think this is gonna work out. Ok I'll map out our first job. Meanw
 * Every non-Busted Character may Refine one Skill.
 
 <div class="title-page">
-  II.2<br>
+  Act II<br>
+  Chapter 2<br>
+  <br>
+  <br>
+  <br>
   The Gallery Job
 </div>
 
@@ -328,7 +340,11 @@ Try this scenario with the following conditions:
 * TODO
 
 <div class="title-page">
-  II.3<br>
+  Act II<br>
+  Chapter 3<br>
+  <br>
+  <br>
+  <br>
   The Provenance
 </div>
 
@@ -382,7 +398,11 @@ Be sure to record the following on your Campaign ledger:
 * Skill Refinements
 
 <div class="title-page">
-  II.4<br>
+  Act II<br>
+  Chapter 4<br>
+  <br>
+  <br>
+  <br>
   The Collector
 </div>
 
@@ -425,7 +445,11 @@ _"Hey, while you were in there, I did some poking around this guy's house too. I
 * If you have any unused fake paintings, return them to the supply.
 
 <div class="title-page">
-  II.5<br>
+  Act II<br>
+  Chapter 5<br>
+  <br>
+  <br>
+  <br>
   The Restoration Job
 </div>
 
@@ -478,7 +502,11 @@ Try this scenario with the following conditions:
 * Sewer Rat
 
 <div class="title-page">
-  III.1<br>
+  Act III<br>
+  Chapter 1<br>
+  <br>
+  <br>
+  <br>
   The Demolitions Guy
 </div>
 
@@ -519,7 +547,11 @@ _"See how nicely that worked out? Let's train up and keep this going. Kudos to t
 * The character who stole the jewel may be promoted.
 
 <div class="title-page">
-  III.2<br>
+  Act III<br>
+  Chapter 2<br>
+  <br>
+  <br>
+  <br>
   The War Veterans
 </div>
 
@@ -572,7 +604,11 @@ _Your crew is handcuffed and thrown in jail. The Fence and the Demolitions Guy a
 * TBD
 
 <div class="title-page">
-  III.3<br>
+  Act III<br>
+  Chapter 3<br>
+  <br>
+  <br>
+  <br>
   Calling the Shots
 </div>
 
@@ -622,7 +658,11 @@ _"Here's the thing," he continues "you gotta do this my way. I'll be calling the
 
 
 <div class="title-page">
-  III.4<br>
+  Act III<br>
+  Chapter 4<br>
+  <br>
+  <br>
+  <br>
   The Jeweler
 </div>
 
@@ -678,7 +718,11 @@ _"Excellent! I know just the place for these." As he is admiring the jewels, a g
 * Add $8k to Team Loot.
 
 <div class="title-page">
-  III.5<br>
+  Act III<br>
+  Chapter 5<br>
+  <br>
+  <br>
+  <br>
   The Bait
 </div>
 
@@ -723,7 +767,11 @@ When a character reaches the story beacon, create an exit on this hex and initia
 * You may Promote Characters of any non-Busted Character for $3k each
 
 <div class="title-page">
-  III.6<br>
+  Act III<br>
+  Chapter 6<br>
+  <br>
+  <br>
+  <br>
   The Bait
 </div>
 
@@ -760,14 +808,66 @@ _"We came as fast as we could. We've been tracking our corrupt colleagues for so
 _In the backyard you see Tat leaning against a tree looking on. He smiles._
 
 <div class="title-page">
+  <br>
+  <br>
+  <br>
   Rebuilding Scenarios
 </div>
 
-# Rebuilding Scenarios
+# Rebuilding Scenario
 
-
-_There's this cult that's taken over my neighborhood. Now I'm an accepting person of alternative beliefs, but this whole charity is just a front for money laundering. Let's hit 'em hard. Our objective is to steal the jewel. Maximize your profits - I'll be finding more work for you if we succeed._
+_Under the guise of "fixing your posture", the crooked leaders of The Forum prey on the weak-minded to line their pockets. Now I'm an accepting person of alternative beliefs, they're using their "charities" as a front for money laundering. Fair game. These heists have no specific objectives - just get out whole and take as much as you can in preparation for the next heist._
 
 ## The Laundromat
 
+_A laundromat. How perfect. Let's clean 'em out._
+
+* Take as much cash as you like
+* 1 Jewel: $3k
+* 2 Jewels: $7k
+
+### Setup
+
+* Events: Use Events 1-21.
+* Special Events: Place _Lockdown!_ on top of Event 9 and _Reinforcements_ on top of Event 16.
+
+### Planning Phase
+
+* You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
+* You may purchase 🔍 for $1k each
+* A maximum of two Characters may start on a given Entrance tile
+* No maximum on the number of Characters per Exit during Escape
+
+<div class="page-break"/>
+
+<img class="map" src="rebuilding - the laundromat.svg">
+
+# Rebuilding Scenario
+
+_Under the guise of "fixing your posture", the crooked leaders of The Forum prey on the weak-minded to line their pockets. Now I'm an accepting person of alternative beliefs, they're using their "charities" as a front for money laundering. Fair game. These heists have no specific objectives - just get out whole and take as much as you can in preparation for the next heist._
+
 ## The Charity Front
+
+_Don't let the posters of dirt-faced children fool you. This place is all about the money. They won't even notice._
+
+### Setup
+
+* Events: Use Events 1-21.
+* Special Events: Place _Lockdown!_ on top of Event 9 and _Reinforcements_ on top of Event 16.
+
+### Planning Phase
+
+* You may purchase 💡 for $1k each of your Team Cash and give it to any Character to start with
+* You may purchase 🔍 for $1k each
+* A maximum of two Characters may start on a given Entrance tile
+* No maximum on the number of Characters per Exit during Escape
+
+<div class="page-break"/>
+<img class="map" src="tbd map.svg">
+
+### Upon Success
+
+_The experience has made you stronger._
+
+* You may Promote non-Busted Characters for $3k each
+* You may Refine the Skills of any non-Busted Character for $2k each

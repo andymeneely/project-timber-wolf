@@ -1,6 +1,6 @@
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 14pt;
+  font-size: 15pt;
   /*background-color: #f2ebd6;*/ /* Focusing on mostly bw for the moment */
 }
 p{
@@ -46,7 +46,7 @@ ul{
 .title-page{
   font-family: 'Acknowledgement';
   letter-spacing: 8px;
-  padding-top: 4in;
+  padding-top: 2in;
   text-align: center;
   font-size: 200%;
   page-break-before: always;
@@ -83,6 +83,7 @@ ul{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .toc h2{
@@ -90,6 +91,7 @@ ul{
 }
 
 .toc ul{
+  text-align: left;
   padding: 0;
   overflow-x: hidden;
   list-style: none;
