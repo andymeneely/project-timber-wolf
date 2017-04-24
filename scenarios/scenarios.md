@@ -863,7 +863,7 @@ _Don't let the posters of dirt-faced children fool you. This place is all about 
 * No maximum on the number of Characters per Exit during Escape
 
 <div class="page-break"/>
-<img class="map" src="tbd map.svg">
+<img class="map" src="rebuilding - the charity front.svg">
 
 ### Upon Success
 
