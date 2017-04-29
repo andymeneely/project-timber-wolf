@@ -15,14 +15,16 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
 
   svg file: 'skill.svg' # black-and-white
   build :color do
-    grits = data['Level'].map do |level|
-      level == '1' ? "gritty amateur.png" : "gritty pro.png"
-    end
-    png file: grits, angle: Math::PI/2, x: 1125, y: 0
+    png file: 'cork.png'
+    png file: 'skill shadows.png'
+    # grits = data['Level'].map do |level|
+    #   level == '1' ? "gritty amateur.png" : "gritty pro.png"
+    # end
+    # png file: grits, angle: Math::PI/2, x: 1125, y: 0
     svg file: 'skill-color.svg' #, range: 0
   end
 
-  text str: data['Level'].map { |l| l == '1' ? "Amateur Skill" : "Pro Skill" },
+  text str: data['Level'].map { |l| l == '1' ? "Amateur" : "Pro" },
        layout: :level
 
   text str: data['Rolls'].map { |s| skill_lacks(s) }, layout: :lacks
@@ -31,8 +33,9 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     text str: data[i.to_s], layout: "die_roll_#{i}"
   end
 
-  save_png prefix: 'skill_', rotate: true
-  save_pdf file: 'skills.pdf', trim: '0.125in'
+  save_png prefix: 'skill_'#, rotate: true
+  # save_pdf file: 'skills.pdf', trim: '0.125in'
+
   build :color do
     showcase file: 'skill_showcase.png', range: [0,2,4], fill_color: :black
     showcase file: 'skill_showcase2.png', range: [6,8,10], fill_color: :black
