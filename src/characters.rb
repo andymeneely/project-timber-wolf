@@ -22,31 +22,31 @@ Squib::Deck.new(cards: total) do
   svg file: thirdskill_box
 
   build :color do
-    grits = data['Level'].map do |level|
-      level == '1' ? "gritty amateur.png" : "gritty pro.png"
-    end
-    png file: grits
+    png file: 'cork.png', x: width, angle: Math::PI / 2
+    png file: 'character shadows.png'
     svg file: 'character-color.svg'#, range: 0
-    thirdskills = data['Default3'].map do |default|
-      default.nil? ? nil : 'thirdskill.svg'
-    end
-    svg file: thirdskills
-    svg file: data['Name'].map { |n| "shadows/#{n.downcase}.svg" }
-    special_bubbles = data['Special'].map do |special|
-      case special.length
-      when 0..100 then 'special-sm.svg'
-      when 100..200 then 'special-md.svg'
-      when 201..1000 then 'special-lg.svg'
-      end
-    end
-    svg file: special_bubbles
+    # thirdskills = data['Default3'].map do |default|
+    #   default.nil? ? nil : 'thirdskill.svg'
+    # end
+    # svg file: thirdskills
+    # svg file: data['Name'].map { |n| "shadows/#{n.downcase}.svg" }
+    # special_bubbles = data['Special'].map do |special|
+    #   case special.length
+    #   when 0..100 then 'special-sm.svg'
+    #   when 100..200 then 'special-md.svg'
+    #   when 201..1000 then 'special-lg.svg'
+    #   end
+    # end
+    # svg file: special_bubbles
   end
 
   titlesizes = data['Name'].map do |name|
     case name.length
-    when 0..7 then 64
+    when 0..7 then 62
     when 8..9 then 50
-    when 10..50 then 45
+    when 10..12 then 46
+    when 13..14 then 42
+    when 12..50 then 34
     end
   end
   text str: data['Name'], layout: :title, font_size: titlesizes
@@ -64,7 +64,7 @@ Squib::Deck.new(cards: total) do
   text layout: :Special, str: data['Special']
 
   save_png prefix: 'character_'#, range: 0
-  save_pdf file: 'characters.pdf', trim: '0.125in', range: 0
+  save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
   build :color do
     showcase range: [0,3,6,9,12,15], file: 'amateurs_showcase.png',
              fill_color: :black
