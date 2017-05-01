@@ -12,27 +12,26 @@ title:
   y: 15
   align: center
   valign: middle
-  hint: red
 Level:
   font: Archivo Narrow, 32
-  x: 75
-  y: 85
-  width: 150
+  x: 330
+  y: 200
+  width: 200
   height: 75
   align: center
 Memory:
-  font: Archivo Narrow, 45
-  x: 90
-  y: 170
-  width: 115
-  align: center
+  font: Archivo Narrow, 42
+  x: 570
+  y: 172
+  width: 65
+  align: right
 Ideas:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 38
-  width: 100
-  align: center
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, 42
+  width: 65
+  align: right
   color: black
-  x: 105
-  y: 275
+  x: 570
+  y: 230
 
 Special:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
@@ -44,7 +43,6 @@ Special:
   height: 550
   align: center
   valign: middle
-  hint: red
 
 DefaultSkill:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 36

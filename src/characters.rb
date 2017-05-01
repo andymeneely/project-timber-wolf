@@ -25,10 +25,14 @@ Squib::Deck.new(cards: total) do
     png file: 'cork.png', x: width, angle: Math::PI / 2
     png file: 'character shadows.png'
     svg file: 'character-color.svg'#, range: 0
-    # thirdskills = data['Default3'].map do |default|
-    #   default.nil? ? nil : 'thirdskill.svg'
-    # end
-    # svg file: thirdskills
+    thirdskills = data['Default3'].map do |default|
+      default.nil? ? nil : 'thirdskill shadow.png'
+    end
+    png file: thirdskills
+    thirdskills = data['Default3'].map do |default|
+      default.nil? ? nil : 'thirdskill.svg'
+    end
+    svg file: thirdskills
     # svg file: data['Name'].map { |n| "shadows/#{n.downcase}.svg" }
     # special_bubbles = data['Special'].map do |special|
     #   case special.length
@@ -54,7 +58,7 @@ Squib::Deck.new(cards: total) do
   levels = data['Level'].map { |l| l == '1' ? "Amateur" : "Pro" }
   text layout: :Level, str: levels
   text layout: :Memory, str: data['Memory']
-  text layout: :Ideas, str: data['Ideas'].map { |i| "#{i}💡"}
+  text layout: :Ideas, str: data['Ideas']
 
   text layout: :Default1, str: data['Default1']
   text layout: :Default2, str: data['Default2']
