@@ -45,12 +45,13 @@ Special:
   valign: middle
 
 DefaultSkill:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 36
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 32
   y: 920
   width: 215
-  height: 154
+  height: 140
   color: black
   align: center
+  valign: middle
   markup: true
 Default1:
   extends: DefaultSkill

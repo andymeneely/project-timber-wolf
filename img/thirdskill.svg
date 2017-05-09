@@ -194,11 +194,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.43133514"
-     inkscape:cx="-218.29442"
-     inkscape:cy="430.1123"
+     inkscape:zoom="2.44"
+     inkscape:cx="463.83262"
+     inkscape:cy="164.21357"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -259,7 +259,7 @@
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path4578"
-       d="m 613.01059,582.16464 315.70739,-14.77619 4.0407,34.68302 8.74987,153.48897 H 613.01059 V 614.82736 Z"
+       d="m 608.13083,548.22258 320.58715,19.16587 -2.34211,34.77581 6.16807,151.57644 -333.09264,-0.93134 6.40259,-173.26987 z"
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.00477457;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5434)"
        transform="matrix(0.64195578,0.0091659,-0.00943865,0.63049542,-71.03933,571.13506)" />
   </g>
@@ -276,14 +276,14 @@
        id="path4801" />
     <path
        style="fill:#f1feae;fill-opacity:1;stroke:none;stroke-width:1.91184127;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 309.85793,607.62709 212.40012,5.37025 -0.8116,21.6602 1.4078,118.75417 c -71.18173,-2.13567 -142.36345,-2.5669 -213.54518,-2.53375 2.38866,-40.74497 0.58595,-81.48993 -0.0789,-122.2349 z"
+       d="m 311.08744,605.97135 212.40012,5.37025 -0.8116,21.6602 -1.05122,117.11483 c -72.00948,-1.7218 -146.35829,-3.0285 -216.82386,-3.35343 2.38866,-40.74497 6.32365,-79.03091 5.6588,-119.77588 z"
        id="path4580"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <g
        style="display:inline;stroke-width:1.38033044"
        id="g4459"
-       transform="matrix(0.72085148,-0.07243378,0.07243679,0.72081628,-73.498003,340.5524)">
+       transform="matrix(0.72085148,-0.07243378,0.07243679,0.72081628,-80.382835,333.9701)">
       <g
          id="g4457"
          style="stroke-width:1.38033044">

@@ -54,7 +54,6 @@ LevelUp2Desc |                                    |
     Default2 | Pick                               |
              | 🔓🔊                                 |
     Default3 | Breach                             |
-             | (above)                            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | EFFICIENT PICKER                   |
@@ -62,10 +61,10 @@ LevelUp2Desc |                                    |
              | end 💡 for an additional ➜🔊         |
              |                                    |
              | BREACH                             |
-             | May spend your action and💡💡💡💡 to c |
-             | reate a new Exit on an external si |
-             | de of the current tile. Initiate E |
-             | scape phase immediately.           |
+             | May spend your action and          |
+             | 💡💡💡💡 to create a new Exit on an ex |
+             | ternal side of the current tile. I |
+             | nitiate Escape phase immediately.  |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -113,6 +112,11 @@ LevelUp2Desc | +2 Memory                          |
     LevelUp2 |                                    |
      Special | ADRENALINE                         |
              | Gain 💡 when you 👊                  |
+             |                                    |
+             | ANGER THERAPY                      |
+             | Gain 💡for each Unsubdued Guard on  |
+             | your tile when Escape is initiated |
+             | .                                  |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -133,9 +137,9 @@ LevelUp2Desc |                                    |
      Special | ADRENALINE                         |
              | Gain 💡  when you 👊                 |
              |                                    |
-             | YOU WILL REPORT IN                 |
-             | When you  👊, lower the noise level |
-             |  by 1. Do not change the ⚠ level.  |
+             | PRESSURE POINTS                    |
+             | Guards cannot be unsubdued on or a |
+             | djacent to this character.         |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -206,7 +210,6 @@ LevelUp2Desc |                                    |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
     Default2 | Inspire                            |
-             | (above)                            |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
@@ -233,7 +236,6 @@ LevelUp2Desc |                                    |
     Default1 | Stride                             |
              | 🔊➜🔍                                |
     Default2 | Autopwn                            |
-             | (above)                            |
     Default3 |                                    |
     LevelUp1 | Hacktivist                         |
     LevelUp2 | Black Hat                          |
@@ -252,7 +254,6 @@ LevelUp1Desc | +4 Memory                          |
              | Stride🔊➜🔍 ⇒                        |
              | Run🔊🔊➜➜                            |
 LevelUp2Desc | +2 Memory                          |
-             | +1 Initial 💡                       |
              |                                    |
              | AUTOPWN⇒                           |
              | EXPLOIT                            |
@@ -269,7 +270,6 @@ LevelUp2Desc | +2 Memory                          |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
     Default2 | Autopwn                            |
-             | (above)                            |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
@@ -290,11 +290,10 @@ LevelUp2Desc |                                    |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 6                                  |
+       Ideas | 5                                  |
     Default1 | Stride                             |
              | 🔊➜🔍                                |
     Default2 | Exploit                            |
-             | (above)                            |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
@@ -318,7 +317,6 @@ LevelUp2Desc |                                    |
     Default1 | Walk                               |
              | 🔊➜                                 |
     Default2 | Dart                               |
-             | (above)                            |
     Default3 | Hesitate                           |
              | 💡                                  |
     LevelUp1 | Sewer Rat                          |
@@ -344,7 +342,6 @@ LevelUp2Desc | +4 Memory                          |
     Default1 | Walk                               |
              | 🔊➜                                 |
     Default2 | Dart                               |
-             | (above)                            |
     Default3 | Hesitate                           |
              | 💡                                  |
     LevelUp1 |                                    |
@@ -369,7 +366,6 @@ LevelUp2Desc |                                    |
     Default1 | Walk                               |
              | 🔊➜                                 |
     Default2 | Bolt                               |
-             | (above)                            |
     Default3 | Hesitate                           |
              | 💡                                  |
     LevelUp1 |                                    |
@@ -395,20 +391,22 @@ LevelUp2Desc |                                    |
     LevelUp1 | Watchman                           |
     LevelUp2 | Tunneler                           |
      Special | VANTAGE POINT                      |
-             | When outdoors, may 🔍 once per turn |
+             | May 🔍 once per turn if outdoors    |
              |                                    |
              | GOOD IN A PINCH                    |
              | During Escape, may spend           |
-             | 💡💡 to give 💡 to any player, one ti |
-             | me.                                |
+             | 💡💡 to give 💡 to any character, one |
+             |  time.                             |
 LevelUp1Desc | +3 Memory                          |
              | +1 Initial 💡                       |
              |                                    |
              | GOOD IN A PINCH⇒                   |
              | GREAT IN A PINCH                   |
-LevelUp2Desc | +2 Memory                          |
+LevelUp2Desc | +1 Memory                          |
              |                                    |
              | +TUNNEL                            |
+             |                                    |
+             | -GOOD IN A PINCH                   |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Watchman                           |
@@ -420,16 +418,17 @@ LevelUp2Desc | +2 Memory                          |
              | 🔊🔊➜➜                               |
     Default2 | Report                             |
              | 💡🔍🔊                                |
-    Default3 |                                    |
+    Default3 | Walk                               |
+             | 🔊➜                                 |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | VANTAGE POINT                      |
-             | When outdoors, may 🔍 once per turn |
+             | May 🔍 once per turn if outdoors    |
              |                                    |
              | GREAT IN A PINCH                   |
              | During Escape, may spend           |
-             | 💡💡 to give 💡 to any player, any nu |
-             | mber of times.                     |
+             | 💡💡 to give 💡 to any character, any |
+             |  number of times.                  |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -437,27 +436,28 @@ LevelUp2Desc |                                    |
         Name | Tunneler                           |
    Archetype | Support                            |
        Level | 2                                  |
-      Memory | 8                                  |
+      Memory | 7                                  |
        Ideas | 3                                  |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
     Default2 | Report                             |
              | 💡🔍🔊                                |
     Default3 | Tunnel                             |
-             | (above)                            |
+             | 🔊                                  |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | VANTAGE POINT                      |
-             | When outdoors, may 🔍 once per turn |
-             |                                    |
-             | GOOD IN A PINCH                    |
-             | During Escape, may spend           |
-             | 💡💡 to give 💡 to any player, one ti |
-             | me.                                |
+             | May 🔍 once per turn if outdoors    |
              |                                    |
              | TUNNEL                             |
-             | Move character to the Tunnel token |
-             | .                                  |
+             | In planning, place tunnel token on |
+             |  a planning token of your color on |
+             |  an external tile and place 3 Dig  |
+             | tokens on this card. In gameplay,  |
+             | use this action and 🔊 to remove 1  |
+             | Dig token. If there are no more Di |
+             | g tokens, use this action and 🔊 to |
+             |  move character to tunnel token.   |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -505,7 +505,6 @@ LevelUp2Desc | +2 Memory                          |
     Default2 | Hit                                |
              | 👊🔊                                 |
     Default3 | Toss Loot                          |
-             | (above)                            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | SWINDLER                           |
@@ -554,7 +553,6 @@ LevelUp2Desc |                                    |
     Default2 | Smash                              |
              | 📷🔊🔊➜                               |
     Default3 | Patch In                           |
-             | (above)                            |
     LevelUp1 | Technician                         |
     LevelUp2 | Tinkerer                           |
      Special | PATCH IN                           |
@@ -587,9 +585,7 @@ LevelUp2Desc | +1 Memory                          |
     Default1 | Disable                            |
              | 📷🔊➜                                |
     Default2 | Loop Footage                       |
-             | (above)                            |
     Default3 | Patch In                           |
-             | (above)                            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | LOOP FOOTAGE                       |
@@ -615,7 +611,6 @@ LevelUp2Desc |                                    |
     Default2 | Short                              |
              | 📷📷🔊                                |
     Default3 | Patch In                           |
-             | (above)                            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | FOLLOWER                           |
