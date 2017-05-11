@@ -37,8 +37,8 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   # save_pdf file: 'skills.pdf', trim: '0.125in'
 
   build :color do
-    showcase file: 'skill_showcase.png', range: [0,2,4], fill_color: :black
-    showcase file: 'skill_showcase2.png', range: [6,8,10], fill_color: :black
+    showcase file: 'skill_showcase.png', range: [0,2,4], fill_color: :white
+    showcase file: 'skill_showcase2.png', range: [6,8,10], fill_color: :white
     showcase file: 'skill_showcase_levelup.png', range: [4,21,22],
             fill_color: :black
   end
