@@ -57,7 +57,33 @@
        id="guide4143"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
-  </sodipodi:namedview>
+  <sodipodi:guide
+   position="95.964491,1050.5586"
+   orientation="1,0"
+   id="guide1471"
+   inkscape:locked="false"
+   inkscape:label=""
+   inkscape:color="rgb(0,0,255)" />
+<sodipodi:guide
+   position="191.92898,1033.8911"
+   orientation="0,1"
+   id="guide1473"
+   inkscape:locked="false"
+   inkscape:label=""
+   inkscape:color="rgb(0,0,255)" />
+<sodipodi:guide
+   position="280.82241,997.02056"
+   orientation="1,0"
+   id="guide1475"
+   inkscape:locked="false" />
+<sodipodi:guide
+   position="186.87822,865.19565"
+   orientation="0,1"
+   id="guide1477"
+   inkscape:locked="false"
+   inkscape:label=""
+   inkscape:color="rgb(0,0,255)" />
+   </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
