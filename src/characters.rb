@@ -12,10 +12,6 @@ Squib::Deck.new(cards: total) do
   rect layout: :cut
   svg file: 'character.svg'
 
-  # puts (data['Default3'].map do |default|
-  #       default.to_s.empty? ? nil : 'thirdskill_bw.svg'
-  #     end).to_a
-
   thirdskill_box = data['Default3'].map do |default|
                      default.to_s.empty? ? nil : 'thirdskill_bw.svg'
                    end
@@ -25,6 +21,8 @@ Squib::Deck.new(cards: total) do
     png file: 'cork.png', x: width, angle: Math::PI / 2
     png file: 'character shadows.png'
     svg file: 'character-color.svg'#, range: 0
+    svg file: data.name.map { |n| "polaroids/#{n.downcase}.svg"}
+    
     thirdskills = data['Default3'].map do |default|
       default.nil? ? nil : 'thirdskill shadow.png'
     end
@@ -33,15 +31,6 @@ Squib::Deck.new(cards: total) do
       default.nil? ? nil : 'thirdskill.svg'
     end
     svg file: thirdskills
-    # svg file: data['Name'].map { |n| "shadows/#{n.downcase}.svg" }
-    # special_bubbles = data['Special'].map do |special|
-    #   case special.length
-    #   when 0..100 then 'special-sm.svg'
-    #   when 100..200 then 'special-md.svg'
-    #   when 201..1000 then 'special-lg.svg'
-    #   end
-    # end
-    # svg file: special_bubbles
   end
 
   titlesizes = data['Name'].map do |name|
@@ -63,19 +52,19 @@ Squib::Deck.new(cards: total) do
   text layout: :Default1, str: data['Default1']
   text layout: :Default2, str: data['Default2']
   text layout: :Default3, str: data['Default3']
-  # rect range: non_nil_indices(data['Default3']), layout: :Default3Rect
 
   text layout: :Special, str: data['Special']
 
   save_png prefix: 'character_'#, range: 0
   save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
   build :color do
-    showcase range: [0,3,6,9,12,15], file: 'amateurs_showcase.png',
-             fill_color: :black
-    showcase range: [0,1,2], file: 'levelup_showcase.png',
-             fill_color: :black
-    showcase range: [9,10,11], file: 'levelup_showcase2.png',
-             fill_color: :black
+    showcase range: [0,3,6,9,12,15], file: 'characters_amateurs_showcase.png',
+             fill_color: :white
+    showcase range: [0,1,2], file: 'characters_levelup_showcase.png',
+             fill_color: :white
+    showcase range: [9,10,11], file: 'characters_levelup_showcase2.png',
+             fill_color: :white
+
     showcase range: [9,8], file: 'character_showcase.png'
     showcase range: [11], file: 'kelly_showcase.png'
   end
