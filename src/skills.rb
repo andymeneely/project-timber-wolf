@@ -34,7 +34,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   end
 
   save_png prefix: 'skill_'#, rotate: true
-  # save_pdf file: 'skills.pdf', trim: '0.125in'
+  save_pdf file: 'skills.pdf', trim: '0.125in'
 
   build :color do
     showcase file: 'skill_showcase.png', range: [0,2,4], fill_color: :white
