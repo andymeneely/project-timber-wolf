@@ -119,12 +119,13 @@ To complete this challenge, you must get all of the loot items. You must use the
 If you complete this challenge, then TBD
 
 <div class="title-page">
-  Act I<br>
-  Chapter 2<br>
-  <br>
-  <br>
-  <br>
-  Fast Learners
+  <div class="title-numbers">
+Act I<br>
+Chapter 2<br>
+  </div>
+  <div class="title-page-name">
+  <p>Fast Learners</p>
+  </div>
 </div>
 
 # Act I. The Fall Guys
@@ -175,12 +176,13 @@ Try this scenario with the following conditions:
 * TODO
 
 <div class="title-page">
-  Act I<br>
-  Chapter 2<br>
-  <br>
-  <br>
-  <br>
-  Your Last Heist
+  <div class="title-numbers">
+Act I<br>
+Chapter 3<br>
+  </div>
+  <div class="title-page-name">
+  <p>Your Last Heist</p>
+  </div>
 </div>
 
 # Act I. The Fall Guys
@@ -228,12 +230,13 @@ Try this scenario with the following conditions:
 * Thief with Circumvent and Improvise
 
 <div class="title-page">
-  Act II<br>
-  Chapter 1<br>
-  <br>
-  <br>
-  <br>
-  The Fence
+  <div class="title-numbers">
+Act II<br>
+Chapter 1<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Fence</p>
+  </div>
 </div>
 
 # Act II. The Venetian Swap
@@ -276,12 +279,13 @@ _Well done! I think this is gonna work out. Ok I'll map out our first job. Meanw
 * Every non-Busted Character may Refine one Skill.
 
 <div class="title-page">
-  Act II<br>
-  Chapter 2<br>
-  <br>
-  <br>
-  <br>
-  The Gallery Job
+  <div class="title-numbers">
+Act II<br>
+Chapter 2<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Gallery Job</p>
+  </div>
 </div>
 
 # Act II. The Venetian Swap
@@ -340,12 +344,13 @@ Try this scenario with the following conditions:
 * TODO
 
 <div class="title-page">
-  Act II<br>
-  Chapter 3<br>
-  <br>
-  <br>
-  <br>
-  The Provenance
+  <div class="title-numbers">
+Act II<br>
+Chapter 3<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Provenance</p>
+  </div>
 </div>
 
 # Act II. The Venetian Swap
@@ -398,12 +403,13 @@ Be sure to record the following on your Campaign ledger:
 * Skill Refinements
 
 <div class="title-page">
-  Act II<br>
-  Chapter 4<br>
-  <br>
-  <br>
-  <br>
-  The Collector
+  <div class="title-numbers">
+Act II<br>
+Chapter 4<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Collector</p>
+  </div>
 </div>
 
 # Act II. The Venetian Swap
@@ -445,12 +451,13 @@ _"Hey, while you were in there, I did some poking around this guy's house too. I
 * If you have any unused fake paintings, return them to the supply.
 
 <div class="title-page">
-  Act II<br>
-  Chapter 5<br>
-  <br>
-  <br>
-  <br>
-  The Restoration Job
+  <div class="title-numbers">
+Act II<br>
+Chapter 5<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Restoration Job</p>
+  </div>
 </div>
 
 # Act II. The Venetian Swap
@@ -502,12 +509,13 @@ Try this scenario with the following conditions:
 * Sewer Rat
 
 <div class="title-page">
-  Act III<br>
-  Chapter 1<br>
-  <br>
-  <br>
-  <br>
-  The Demolitions Guy
+  <div class="title-numbers">
+Act III<br>
+Chapter 1<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Demolitions Guy</p>
+  </div>
 </div>
 
 # Act III. The Long Con
@@ -547,12 +555,13 @@ _"See how nicely that worked out? Let's train up and keep this going. Kudos to t
 * The character who stole the jewel may be promoted.
 
 <div class="title-page">
-  Act III<br>
-  Chapter 2<br>
-  <br>
-  <br>
-  <br>
-  The War Veterans
+  <div class="title-numbers">
+Act III<br>
+Chapter 2<br>
+  </div>
+  <div class="title-page-name">
+  <p>The War Veterans</p>
+  </div>
 </div>
 
 # Act III. The Long Con
@@ -604,12 +613,13 @@ _Your crew is handcuffed and thrown in jail. The Fence and the Demolitions Guy a
 * TBD
 
 <div class="title-page">
-  Act III<br>
-  Chapter 3<br>
-  <br>
-  <br>
-  <br>
-  Calling the Shots
+  <div class="title-numbers">
+Act III<br>
+Chapter 3<br>
+  </div>
+  <div class="title-page-name">
+  <p>Calling the Shots</p>
+  </div>
 </div>
 
 # Act III. The Long Con
@@ -658,12 +668,13 @@ _"Here's the thing," he continues "you gotta do this my way. I'll be calling the
 
 
 <div class="title-page">
-  Act III<br>
-  Chapter 4<br>
-  <br>
-  <br>
-  <br>
-  The Jeweler
+  <div class="title-numbers">
+Act III<br>
+Chapter 4<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Jeweler</p>
+  </div>
 </div>
 
 # Act III. The Long Con
@@ -718,12 +729,13 @@ _"Excellent! I know just the place for these." As he is admiring the jewels, a g
 * Add $8k to Team Loot.
 
 <div class="title-page">
-  Act III<br>
-  Chapter 5<br>
-  <br>
-  <br>
-  <br>
-  The Bait
+  <div class="title-numbers">
+Act III<br>
+Chapter 5<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Bait</p>
+  </div>
 </div>
 
 # Act III. The Long Con
@@ -767,12 +779,13 @@ When a character reaches the story beacon, create an exit on this hex and initia
 * You may Promote Characters of any non-Busted Character for $3k each
 
 <div class="title-page">
-  Act III<br>
-  Chapter 6<br>
-  <br>
-  <br>
-  <br>
-  The Bait
+  <div class="title-numbers">
+Act III<br>
+Chapter 6<br>
+  </div>
+  <div class="title-page-name">
+  <p>The Bait</p>
+  </div>
 </div>
 
 # Act III. The Long Con
@@ -808,12 +821,13 @@ _"We came as fast as we could. We've been tracking our corrupt colleagues for so
 _In the backyard you see Tat leaning against a tree looking on. He smiles._
 
 <div class="title-page">
-  <br>
-  <br>
-  <br>
-  Rebuilding Scenarios
+  <div class="title-numbers">
+<br>
+<br>
+  </div>
+  <div class="title-page-name">
+  <p></p>
 </div>
-
 # Rebuilding Scenario
 
 _Under the guise of "fixing your posture", the crooked leaders of The Forum prey on the weak-minded to line their pockets. Now I'm an accepting person of alternative beliefs, they're using their "charities" as a front for money laundering. Fair game. These heists have no specific objectives - just get out whole and take as much as you can in preparation for the next heist._

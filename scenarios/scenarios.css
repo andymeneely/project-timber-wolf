@@ -3,14 +3,17 @@ body{
   font-size: 14pt;
   /*background-color: #f2ebd6;*/ /* Focusing on mostly bw for the moment */
 }
+
 p{
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+
 table{
   font-size: inherit;
   page-break-inside: avoid;
 }
+
 th,td{
   border: 1px solid black;
 }
@@ -25,10 +28,12 @@ h2{
   margin-top: 0.25em;
   margin-bottom: 0;
 }
+
 h3{
   margin-top: 0.125em;
   margin-bottom: 0;
 }
+
 ul{
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -44,13 +49,28 @@ ul{
 }
 
 .title-page{
-  font-family: 'Acknowledgement';
-  letter-spacing: 8px;
-  padding-top: 2in;
+  padding-top: 1in;
   text-align: center;
-  font-size: 200%;
   page-break-before: always;
 }
+
+.title-page .title-numbers{
+  font-family: 'Acknowledgement';
+  letter-spacing: 8px;
+  line-height: 2.5;
+  font-size: 2.5em;
+}
+
+.title-page .title-page-name{
+  padding-top: 1.5in;
+  font-size: 2.5em;
+  font-family: 'Archivo Narrow';
+  letter-spacing: normal;
+  font-style: italic;
+  /*quotes: '\201c' '\201d';*/
+}
+/*.title-page-name p:before { content: open-quote; }
+.title-page-name p:after  { content: close-quote; }*/
 
 .map{
   /*float: right;*/
