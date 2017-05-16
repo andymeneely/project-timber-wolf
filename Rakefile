@@ -166,6 +166,10 @@ namespace :scenarios do
         --margin-right  0.55in
         --margin-bottom 0.55in
         --margin-top    0.55in
+        --footer-right "[page] of [topage]"
+        --footer-left "Scenarios"
+        --footer-font-name "Archivo Narrow"
+        --footer-font-size "10"
         scenarios/scenarios.html _output/scenarios.pdf
     EOS
     @launch ||= []
