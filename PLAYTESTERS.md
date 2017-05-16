@@ -15,3 +15,5 @@
   * Bennie McDonald
   * Chris Noel
   * Marc Priddy
+  * Abigail Trahan
+  * Gavin Trahan
