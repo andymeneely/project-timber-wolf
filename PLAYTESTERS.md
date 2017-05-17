@@ -17,3 +17,6 @@
   * Marc Priddy
   * Abigail Trahan
   * Gavin Trahan
+  * Tina "Saved the Heist" Howard
+  * John "Master Event Master" Renner
+  * Karin "Blame the Germans For" Lehnigk
