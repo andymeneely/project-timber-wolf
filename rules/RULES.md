@@ -188,15 +188,6 @@ When a character with Loot gets Outdoors, the team has acquired that loot for th
 A special loot chit is the **Story Beacon**, denoted by an asterisk. When a character enters a space with the Beacon for the first time,  refer to the scenario for what to do, then remove the chit.
 </div>
 
-## Prisoner
-
-**CHANGE THIS TO NPCS**
-
-Some heists have a **Prisoner**, represented by a white pawn. A Prisoner is a non-Player Character that your team can "remotely" control. A Prisoner is not Freed until their Pressure Sensor space is fully disabled. A Freed Prisoner has one Action available (Crawl➜), cannot carry Ideas💡, and needs no planning tokens. As a team, you must decide how to use the prisoner's Crawl Action. To track when the Prisoner has completed a move, place the white cube on the Crawl space on the Noise tracker.
-
-In every other way, treat a Freed Prisoner like a regular character. Freed Prisoners may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase (use a player die for this).
-
-
 # Setting Up
 
 **Step 1. As a team, decide upon a scenario.** Some scenarios are designed for one evening's play, others can be played over the course of multiple evenings. Each heist in the scenario will consist of Chapters, which involve one Heist.
@@ -232,7 +223,7 @@ Some boards have already-revealed security chits. The Chapter will also indicate
 The structure of each heist is:
 
   <ol class="gameplay-structure">
-    <li>The Plan: Place planning tokens, Purchase Extra reveals 🔍, Purchase Extra Ideas 💡
+    <li>The Plan: Place planning tokens, and other planning
     </li>
     <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Events. Repeat until Escape Phase.
     </li>
@@ -254,9 +245,12 @@ With your team, you will collaboratively come up with a plan of how you will pul
 *Note:* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
 </div>
 
-During this phase, you may purchase and immediately use any number of Reveal🔍 for $1k of team loot each. You may also purchase any number of Ideas💡 for $1k of team loot each. Place each purchased Idea💡 on a character card immediately.
+Individual scenarios may also define other things you may do during the planning part. Be sure to pay attention to this, as it can be a good opportunity to spend your Team Cash to improve your plan.
 
-Place your Character pawn on the Entrance space where you will plan to start. The default limit character limit per Entrance is 2 (unlimited during Escape phase.) *Note:* some scenarios dictate a different a limits on this.
+Place your Character pawn on the Entrance space where you will plan to start.
+The default limit character limit per Entrance is 2 (unlimited during Escape phase.) Some scenarios dictate a different a limits on this.
+
+Do not auto-reveal until Phase 2 if your character's starting place is adjacent to a security tile.
 
 </div>
 
@@ -332,7 +326,7 @@ Whenever an Event or Special Event card calls for a new security tokens to be pl
 
 ### Escape Phase
 
-When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.--
+When the Escape Phase is initiated, all Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.
 
 Determine and declare the number of Escape Moves your character will take to an exit. Ignore Plan tokens (Escape Moves do not need prior planning). Locked tiles are impassable. Exiting an Unsubdued Guard space costs one extra Escape Move per guard (e.g. two for one guard, three for two guards). Cameras and Pressure Sensors have no effect during Escape. Each leftover 💡 you have may be used for 1 Escape Move.
 
@@ -371,3 +365,37 @@ You may retry a heist from the original conditions (i.e. restore from a previous
 # Winning a Heist
 
 If you have completed your objective, your team advances to the next chapter. Leftover 💡 are lost. Any cash on a Character is added to the Team Cash tracker, as well as any loot. Be sure to note everything in your Campaign History.
+
+<div class="pagebreak"/>
+
+## Non-Player Characters
+
+Some heists have a **Non-Player Character**, represented by a white pawn, a white die, and their NPC card. Your team will "remotely" control the NPC.
+
+If an NPC starts inside a Pressure Sensor, then they are not freed yet and effectively do not exist on the board. Immediately when the Pressure Sensor is disabled, the NPC becomes active (e.g. triggers any auto-reveals).
+
+Follow any additional abilities or limitations described on the NPC card.
+
+In every other way, treat an NPC like a regular character. Place their die on the action to denote that their action is taken. NPCs may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase (use a player die for this).
+
+Unlike players, NPCs MAY NOT _pass_. You must choose an action for them. You may, however, choose not to do any non-required Sub-Actions, so e.g. CRAWL➜ can be effectively a PASS because it has no noise but ignoring the ➜ in Walk➜🔊 still incurs a noise.
+
+<div class="pagebreak"/>
+
+## Bosses
+
+Some scenarios may have a Boss. A Boss is not an NPC, rather, it is an uncontrollable character that your team must deal with. Bosses are represented by the black pawn and a card given out by the scenario.
+
+Bosses have Waypoint tokens. The Boss pawn starts at the Waypoint marked 1. Before each Roll for Skill phase, the Boss moves one tile directly toward the next Waypoint. A Boss **encounters** something (e.g. a subdued guard) if he shares a tile with that thing as a result of a move.
+
+Bosses do not traverse non-tiled gaps. Bosses ignore locks, guards, and cameras. If a Boss is on a lockdown gate when it closes, first move them forward on their path until they are off of the gate before it closes. Waypoints are not movable unless otherwise specified.
+
+Bosses also have a Suspicion(⁉) tracker. The card will define what causes a Boss's Suspicion(⁉) to be raised, and what happens at each level with a Suspicion Action. If the tracker says "immediately", then the action is done once, when the Suspicion(⁉) was first raised. Otherwise, the action is done each round.
+
+<div class="example">
+*For example, "Release 1 Dog immmediately for Supsicion Level 1" means you release only 1 Dog, when Level 1 is first reached and not on subsequent rounds.*
+</div>
+
+Place the Suspicion token on the starting place on the Boss tracker during planning. When suspicion reaches its maximum level, repeat the highest Suspicion Action.
+
+All other instructions for individual bosses are on their given cards.
