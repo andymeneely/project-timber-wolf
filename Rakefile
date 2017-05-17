@@ -145,7 +145,21 @@ task scenarios: ['scenarios:md_to_html','scenarios:html_to_pdf']
 
 desc 'Build the scenarios on travis'
 task 'travis_scenarios' => ['scenarios:md_to_html'] do
-  sh 'xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf --page-size Letter ./scenarios/scenarios.html ./_output/scenarios.pdf'
+  sh <<-EOSH.gsub(/\n/,' ')
+    xvfb-run --server-args="-screen 0, 1024x768x24"
+    wkhtmltopdf
+    --page-width    5.5in
+    --page-height   8.0in
+    --margin-left   0.55in
+    --margin-right  0.55in
+    --margin-bottom 0.55in
+    --margin-top    0.55in
+    --footer-right "[page] of [topage]"
+    --footer-left "Scenarios"
+    --footer-font-name "Archivo Narrow"
+    --footer-font-size "10"
+    scenarios/scenarios.html _output/scenarios.pdf
+  EOSH
 end
 
 namespace :scenarios do
