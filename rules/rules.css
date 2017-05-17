@@ -1,14 +1,6 @@
-@page{
-  size: 8.0in 10in;  /* Based on TGC's Jumbo */
-  margin-top: 0.25in;
-  margin-bottom: 0.25in;
-  margin-left: 0.5in;
-  margin-right: 0.5in;
-}
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 13pt;
-  /*background-color: #f2ebd6;*/ /* Focusing on mostly bw for the moment */
+  font-size: 12pt;
 }
 p{
   margin-top: 0;
@@ -40,6 +32,15 @@ h2{
 }
 h3{
   margin-bottom: 0;
+}
+
+.cover{
+  font-family: 'Acknowledgement';
+  letter-spacing: 8px;
+  padding-top: 3.5in;
+  text-align: center;
+  font-size: 3em;
+  page-break-after: always;
 }
 
 .security-table table{

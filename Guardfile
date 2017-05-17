@@ -63,3 +63,15 @@ group :scenarios do
     watch %r{scenarios/.*\.css$}
   end
 end
+
+group :rules do
+  guard 'rake', :task => 'rules' do
+    watch %r{.*\.xlsx$}
+    watch %r{src/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+    watch %r{rules/.*\.md$}
+    watch %r{rules/.*\.svg$}
+    watch %r{rules/.*\.css$}
+  end
+end

@@ -1,12 +1,12 @@
-
-
-# <span class="title">How to Play _Your Last Heist_</span>
+<div class="cover">
+  RULES
+</div>
 
 _Your Last Heist_ is a cooperative, multi-stage heist game. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
-You will start as an amateur criminal with amateur skills. But over time, and with good decisions along the way, you and your teammates will level up your characters and skills as you make your way through a set of story-driven campaigns. Each heist is highly replayable, with various outcomes.
+You will start as an Amateur criminal with Amateur skills. But over time, and with good decisions along the way, you and your teammates will level up your characters and skills as you make your way through a set of story-driven campaigns. Each heist is highly replayable, with various outcomes.
 
 ## The Pieces
 
@@ -14,9 +14,9 @@ You will start as an amateur criminal with amateur skills. But over time, and wi
 
 * 32 double-sided hex tiles.
   * 28 Blank/Security tiles
-  * 4 Gate tiles (A,B,C,D)
-* 14 character cards: 7 Amateurs, 7 double-sided Pros
-* 24 Skill cards: 6 Amateurs, 12 Pros, 2 copies of each)
+  * 4 Lockdown Gate tiles (A,B,C,D)
+* 24 character cards: 8 Amateurs, 8 double-sided Pros
+* 24 Skill cards: 6 Amateurs, 12 Pros (2 copies of each)
 * 24 Event cards, including 6 Special Event cards
 * 10 Lock chits
 * 10 Camera chits (circle)
@@ -39,48 +39,6 @@ You will start as an amateur criminal with amateur skills. But over time, and wi
 * 4 Noise Tracker & Team Cash Markers (white wooden cylinders)
 
 </div>
-
-<div class="characters">
-<img src="./character_example.png">
-
-## Characters
-
-The game comes with 21 unique Character cards. Each card has:
-
-  * ① **Level.** There are Amateur characters and Pro characters.
-  * ②	**Planning Memory.** The number of pre-planned hex tiles your character may move through during a heist.
-  * ③	**Initial Ideas**. The number of Ideas💡 you start with at the beginning of each heist.
-  * ④	**Default Actions**. Actions that are available regardless of your die roll.
-  * ⑤	**Special Ability**. Abilities that your character can uniquely do.
-
-Some Characters have two Default Actions, others have three. Actions are described more in the *Actions and Sub-Actions* section.
-
-For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
-
-Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
-
-Special abilities override any rules in this document.
-
-Between Heists, your scenario may give you an opportunity to **promote** (i.e. "level up") some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Pro characters cannot be promoted.
-
-</div>
-
-<div class="clear-both"/>
-
-<br><br>
-
-<div class="skills">
-<img src="skill_example.png">
-
-## Skills
-
-Each character gets two Skills. Each Skill has six Actions(①) that each correspond to a die roll(②). During a heist, you will be rolling your die to determine which Actions are available to you (more details on this in Roll for Skill and Character Actions).
-
-Between Heists, your team will get a chance to **refine** (i.e. "level up") some of your Skills. Each Skill, like Characters, can be refined to one of two Skills, as summarized on the back of the Amateur skill cards. When refining, choose which Pro skill to refine and place the Amateur one back in the box. Pro skills cannot be refined.
-
-</div>
-
-<div class="clear-both"/>
 
 ## The Board
 
@@ -134,6 +92,48 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 | 💰 | **Loot:** Gain $1k from the supply and place it on your character. |
 | 🔊 | Increase the **Noise** level by 1 (Required) |
 | ⚠ | Raise **Alert** by 1 (Required) |
+
+<div class="characters">
+<img src="./character_example.png">
+
+## Characters
+
+Each Character card has:
+
+  * ① **Level.** There are Amateur characters and Pro characters.
+  * ②	**Planning Memory.** The number of pre-planned hex tiles your character may move through during a heist.
+  * ③	**Initial Ideas**. The number of Ideas💡 you start with at the beginning of each heist.
+  * ④	**Default Actions**. Actions that are available regardless of your die roll.
+  * ⑤	**Special Ability**. Abilities that your character can uniquely do.
+
+Some Characters have two Default Actions, others have three. Actions are described more in the *Actions and Sub-Actions* section.
+
+For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
+
+Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
+
+Special abilities override any rules in this document.
+
+Between Heists, your scenario may give you an opportunity to **promote** (i.e. "level up") some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Pro characters cannot be promoted.
+
+</div>
+
+<div class="clear-both"/>
+
+<br><br>
+
+<div class="skills">
+<img src="skill_example.png">
+
+## Skills
+
+Each character gets two Skills. Each Skill has six Actions(①) that each correspond to a die roll(②). During a heist, you will be rolling your die to determine which Actions are available to you (more details on this in Roll for Skill and Character Actions).
+
+Between Heists, your team will get a chance to **refine** (i.e. "level up") some of your Skills. Each Skill, like Characters, can be refined to one of two Skills, as summarized on the back of the Amateur skill cards. When refining, choose which Pro skill to refine and place the Amateur one back in the box. Pro skills cannot be refined.
+
+</div>
+
+<div class="clear-both"/>
 
 
 ## Trackers: Noise Tracker, Alerts, and Events

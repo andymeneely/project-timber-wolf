@@ -76,11 +76,6 @@ task :events do
   load 'src/events.rb'
 end
 
-desc 'Build the scenario booklet'
-task :scenarios do
-  load 'src/scenarios.rb'
-end
-
 task :launch do
   return unless @launch.respond_to? :each
   @launch.each do |url|
@@ -112,7 +107,21 @@ desc 'Build the rules PDF'
 task rules: ['rules:md_to_html','rules:html_to_pdf']
 
 task 'travis_rules' => ['rules:md_to_html'] do
-  sh 'xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf --page-size Letter ./rules/RULES.html ./_output/RULES.pdf'
+  sh <<-EOSH.gsub(/\n/,' ')
+    xvfb-run --server-args="-screen 0, 1024x768x24"
+    wkhtmltopdf
+    --page-width    5.5in
+    --page-height   8.0in
+    --margin-left   0.55in
+    --margin-right  0.55in
+    --margin-bottom 0.55in
+    --margin-top    0.55in
+    --footer-right "[page] of [topage]"
+    --footer-left "Rules"
+    --footer-font-name "Archivo Narrow"
+    --footer-font-size "10"
+    scenarios/RULES.html _output/RULES.pdf
+  EOSH
 end
 
 namespace :rules do
@@ -127,11 +136,16 @@ namespace :rules do
   task html_to_pdf: [:md_to_html] do
     sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
-        --page-size Letter
-        --margin-left   0.75in
-        --margin-right  0.75in
-        --margin-bottom 0.75in
-        --margin-top    0.75in
+      --page-width    5.5in
+      --page-height   8.0in
+      --margin-left   0.55in
+      --margin-right  0.55in
+      --margin-bottom 0.55in
+      --margin-top    0.55in
+      --footer-right "[page] of [topage]"
+      --footer-left "Rules"
+      --footer-font-name "Archivo Narrow"
+      --footer-font-size "10"
         rules/RULES.html _output/RULES.pdf
     EOS
     @launch ||= []
