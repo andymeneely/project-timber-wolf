@@ -29,37 +29,37 @@ And now, it's time to get started. Go ahead and open up the packet for Act I Cha
 
 _A bunch of fast-learning amateurs come across a hot tip._
 
-* **Chapter 1. _The Tip_** **2**
-* **Chapter 2. _Fast Learners_** **3**
-* **Chapter 3. _Your Last Heist_** **4**
+* **Chapter 1. _The Tip_** **4**
+* **Chapter 2. _Fast Learners_** **7**
+* **Chapter 3. _Your Last Heist_** **11**
 
 ## Act II: _The Venetian Swap_
 
 _A mysterious man guides you through a series of unconventional art heists._
 
-* **Chapter 1. _The Fence_** **5**
-* **Chapter 2. _The Gallery Job_** **6**
-* **Chapter 3. _The Provenance_** **7**
-* **Chapter 4. _The Collector_** **8**
-* **Chapter 5. _The Restoration Job_** **9**
+* **Chapter 1. _The Fence_** **15**
+* **Chapter 2. _The Gallery Job_** **19**
+* **Chapter 3. _The Provenance_** **23**
+* **Chapter 4. _The Collector_** **27**
+* **Chapter 5. _The Restoration Job_** **31**
 
 ## Act III: _The Long Con_
 
 _There's always a bigger play._
 
-* **Chapter 1. _The Demolitions Guy_** **10**
-* **Chapter 2. _The War Veterans_** **11**
-* **Chapter 3. _Calling the Shots_** **12**
-* **Chapter 4. _The Jeweler_** **13**
-* **Chapter 5. _The Bait_** **14**
-* **Chapter 6. _The Vault Job_** **15**
+* **Chapter 1. _The Demolitions Guy_** **35**
+* **Chapter 2. _The War Veterans_** **39**
+* **Chapter 3. _Calling the Shots_** **43**
+* **Chapter 4. _The Jeweler_** **47**
+* **Chapter 5. _The Bait_** **51**
+* **Chapter 6. _The Vault Job_** **55**
 
 ## Rebuilding Scenarios
 
 _For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Don't worry about retribution, we hear they're a non-violent cult._
 
-* **_The Laundromat_**  **16**
-* **_The Childrens' Project_** **16**
+* **_The Laundromat_**  **60**
+* **_The Childrens' Project_** **62**
 
 </div>
 
@@ -633,10 +633,6 @@ _"Yeah, everything has been crazy here. We've had two breakouts just this week. 
 
 _Your team discusses the possibility of escape. Everyone is in and the day is clear: today. This prison clearly has a vulnerability and it isn't fixed yet. You're down a crew member, though, so you reach out for anyone who is available. **Your objective is to get at least one character to break out of prison**._
 
-<div class="page-break"/>
-
-<img class="map" src="tbd map.svg">
-
 ### Setup
 
 * You may add one new Character to your crew who has appeared at any time in a prior campaign. Both campaigns have ended by this time in the narrative. You cannot have two members that had the same Amateur class on your crew (_e.g. a Hacktivist and Script Kiddie cannot be on the same Crew_).
@@ -645,6 +641,10 @@ _Your team discusses the possibility of escape. Everyone is in and the day is cl
   * The new crew member may obtain new Amateur Skill cards, or keep their original Skill cards if available.
 * Events: Use Events 1-21
 * Special Events: Place the Reinforcements card on top of Event 14.
+
+<div class="page-break"/>
+
+<img class="map" src="tbd map.svg">
 
 ### Planning Phase
 
@@ -690,17 +690,6 @@ _"Thing is, with all these prison breakouts lately the owner has put in a specia
 
 _Read "When the Hostage is Taken" below when you take the hostage_
 
-
-### Unlock
-
-TBD
-* Unlock the Hostage card
-* Unlock the Meeple security token
-
-<div class="page-break"/>
-
-<img class="map" src="tbd map.svg">
-
 ### Setup
 
 * Events: Use Events 1-20, 20a, 20b, 20c, 21.
@@ -713,6 +702,10 @@ TBD
 * You may purchase 🔍 for $1k each
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
+
+<div class="page-break"/>
+
+<img class="map" src="tbd map.svg">
 
 ### When the Hostage is Taken
 
@@ -749,16 +742,16 @@ _"As I'm sure you've seen, The Collector is not just bad business, he's bad for 
 
 _"First, we need you to finish a job we couldn't. Assemble your best crew from all the enemies this scumbag has made. Head over to The Collector's Exhibition Hall and **move the jewel we left behind to the drop site**. Make it look like you dropped it. At the drop site, flip the light switch and the wall will blast open. The Collector will think it was a botched robbery and bring it down to his vault for safekeeping. The jewel is actually an explosive, which we can detonate with your help. Once you're done, head over to the storage containers near The Docks and come rescue us and his collection."_
 
-<div class="page-break"/>
-
-<img class="map" src="the long con ch 5 the bait.svg">
-
 ### Setup
 * You may use any Character from the prior campaigns who ended up Free. You cannot have two members that had the same Amateur class on your crew (_e.g. a Hacktivist and Script Kiddie cannot be on the same Crew_).
   * New crew members may obtain new Skill cards for $2k/$4k for each Amateur/Pro skill.
   * You may keep their original Skill cards, if available.
 * Events: 1-20, 20a, 20b, 20c, 21
 * Special Events: Place _Reinforcements_ on top of Event 17.
+
+<div class="page-break"/>
+
+<img class="map" src="the long con ch 5 the bait.svg">
 
 ### When story beacon is reached
 
@@ -784,7 +777,7 @@ Act III<br>
 Chapter 6<br>
   </div>
   <div class="title-page-name">
-  <p>The Bait</p>
+  <p>The Vault Job</p>
   </div>
 </div>
 
@@ -794,10 +787,6 @@ Chapter 6<br>
 
 
 _This is what it all comes down to. **Your objective is to get your friends out of there**. Any loot you can grab is an added benefit for your next job - because there's always another job._
-
-<div class="page-break"/>
-
-<img class="map" src="tbd map.svg">
 
 ### Setup
 
@@ -812,6 +801,10 @@ _This is what it all comes down to. **Your objective is to get your friends out 
 
 <div class="page-break"/>
 
+<img class="map" src="tbd map.svg">
+
+<div class="page-break"/>
+
 ### Upon Success
 
 _A dozen federal agents in SWAT gear are awaiting your exit. Their captain approaches your team "Oh good you're safe! Just how many prisoners did he have in there!?! Luckily you got out on your own or he would have taken care of you soon." You look around and see The Collector with several agents in handcuffs._
@@ -820,14 +813,13 @@ _"We came as fast as we could. We've been tracking our corrupt colleagues for so
 
 _In the backyard you see Tat leaning against a tree looking on. He smiles._
 
+<div class="page-break"/>
+
 <div class="title-page">
-  <div class="title-numbers">
-<br>
-<br>
+  <div class="title-numbers">Rebuilding Scenarios
   </div>
-  <div class="title-page-name">
-  <p></p>
 </div>
+
 # Rebuilding Scenario
 
 _Under the guise of "fixing your posture", the crooked leaders of The Forum prey on the weak-minded to line their pockets. Now I'm an accepting person of alternative beliefs, they're using their "charities" as a front for money laundering. Fair game. These heists have no specific objectives - just get out whole and take as much as you can in preparation for the next heist._
