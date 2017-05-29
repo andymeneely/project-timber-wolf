@@ -23,52 +23,51 @@ safe:
 Name:
   font: Archivo Black, 50
   spacing: -35
-  width: 2.25in
+  width: 625
   height: 200
-  x: 75
+  x: 100
   y: 55
   align: center
   valign: middle
 
 Img:
-  x: 0.375in
-  y: 220
-  width: 2.00in
-  height: 1.44in
+  x: 187.5
+  y: 245
+  width: 450
+  height: 325
 
 Story:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 30
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 26
   color: black
   spacing: -4
-  x: 75
-  y: 600
-  width: 2.25in
+  x: 160
+  y: 620
+  width: 570
   height: 200
   ellipsize: false
   align: center
-  valign: middle
+  valign: top
 
 Description:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 26
   color: black
   spacing: -4
-  x: 75
-  y: 800
-  width: 2.25in
+  x: 160
+  y: 790
+  width: 570
   height: 200
   ellipsize: false
   align: center
-  valign: middle
+  valign: top
 
 Order:
-  font: Archivo Narrow, Serif Bold 35
-  x: 0.25in
-  y: 3.25in
-  width: 75
+  font: Archivo Black, Serif Bold 24
+  x: 140
+  y: 580
+  width: 150
   height: 75
-  align: center
-  valign: middle
-  color: :white
+  align: left
+  valign: top
 
 border:
   extends: cut

@@ -12,13 +12,11 @@ Squib::Deck.new(cards: data['Name'].size) do
   use_layout file: 'layouts/events.yml'
   background color: :white
 
-  # build :proofs do
-  #   rect layout: :proof_cut
-  #   rect layout: :safe
-  # end
+  build :color do
+    svg file: 'event.svg'
+  end
 
   text layout: :Name,        str: data['Name']
-  ellipse layout: :Order, fill_color: :black
   text layout: :Order,       str: data['Order']
   text layout: :Story,       str: data['Story']
   text layout: :Description, str: data['Description']
