@@ -44,6 +44,11 @@ Squib::Deck.new(cards: data['Name'].size) do
   use_layout file: 'layouts/special_events.yml'
   background color: :white
 
+  build :color do
+    png file: 'cork.png', x: width, angle: Math::PI / 2
+    svg file: 'event_special.svg'
+  end
+
   text layout: :Name,        str: data['Name']
   text layout: :Story,       str: data['Story']
   text layout: :Description, str: data['Description']
