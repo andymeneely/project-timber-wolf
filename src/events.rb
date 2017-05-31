@@ -13,6 +13,7 @@ Squib::Deck.new(cards: data['Name'].size) do
   background color: :white
 
   build :color do
+    png file: 'cork.png', x: width, angle: Math::PI / 2
     svg file: 'event.svg'
   end
 
@@ -39,14 +40,9 @@ end
 
 File.open('data/special_events.txt', 'w+') { |f| f.write data.to_pretty_text }
 
-Squib::Deck.new(width: 1125, height: 825, cards: data['Name'].size) do
+Squib::Deck.new(cards: data['Name'].size) do
   use_layout file: 'layouts/special_events.yml'
   background color: :white
-
-  # build :proofs do
-  #   rect layout: :proof_cut
-  #   rect layout: :safe
-  # end
 
   text layout: :Name,        str: data['Name']
   text layout: :Story,       str: data['Story']
