@@ -1,8 +1,8 @@
 cut:
   x: 0.125in
   y: 0.125in
-  width: 3.5in
-  height: 2.5in
+  width: 2.5in
+  height: 3.5in
 proof_cut:
   x: 0.125in
   y: 0.125in
