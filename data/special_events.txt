@@ -5,11 +5,10 @@
             | their waypoints.                   |
 Description | Unsubdue/Re-lock/Re-enable every G |
             | uard/Lock/Camera adjacent to each  |
-            | Reinforcement token. Raise ⚠ for e |
-            | very Character on a re-enabled Cam |
-            | era. Add a Guard to empty spaces a |
-            | djacent to the token. Replace the  |
-            | token with two Guards.             |
+            | Reinforcement token. Add a Guard t |
+            | o empty spaces adjacent to the tok |
+            | en. Replace each Reinforcements to |
+            | ken with two Guards.               |
         Img | special_events_reinforcements.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -61,19 +60,12 @@ Description | Close the next two Gates, starting |
         Img | special_events_gates.svg           |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Move the Paintings!                |
-        Qty | 1                                  |
-      Story |                                    |
-Description |                                    |
-        Img |                                    |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Lock the Goods!                    |
         Qty | 1                                  |
-      Story |                                    |
+      Story | Security is onto you!              |
 Description | Add a Lock to any loot not yet sto |
-            | len                                |
-        Img |                                    |
+            | len.                               |
+        Img | special_events_locks.svg           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Panic!                             |

@@ -1,9 +1,8 @@
             ╭------------------------------------╮
        Name | Get Outta My Way!                  |
       Order | 1                                  |
-      Story | Teammates in the same spots get an |
-            | xious and start bickering as they  |
-            | get started, raising suspicion.    |
+      Story | Teammates near each other get anxi |
+            | ous and start bickering.           |
 Description | Raise ⚠ for each hex tile with at  |
             | least two Characters.              |
             |  Raise ⚠ ⚠ for each Entrance tile  |
@@ -13,9 +12,8 @@ Description | Raise ⚠ for each hex tile with at  |
             ╭------------------------------------╮
        Name | Get Outta My Way!                  |
       Order | 2                                  |
-      Story | Teammates in the same spots get an |
-            | xious and start bickering as they  |
-            | get started, raising suspicion.    |
+      Story | Teammates near each other get anxi |
+            | ous and start bickering.           |
 Description | Raise ⚠ for each hex tile with at  |
             | least two Characters.              |
             |  Raise ⚠ ⚠ for each Entrance tile  |
@@ -28,8 +26,8 @@ Description | Raise ⚠ for each hex tile with at  |
       Story | The guard monitoring the cameras s |
             | ees movement in a reflection and l |
             | ooks a little closer.              |
-Description | Raise ⚠ for each Live Camera adjac |
-            | ent to a character.                |
+Description | Raise ⚠ for each Character adjacen |
+            | t to a Live Camera.                |
         Img | figure_alerts_adj_camera.svg       |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -60,7 +58,9 @@ Description | Raise ⚠ for each Character on a Su |
             | s are not working. They turning th |
             | em off and on again.               |
 Description | Make every Disabled Camera Live. R |
-            | aise ⚠ every time you do this.     |
+            | aise ⚠ every time you do this. Giv |
+            | e 💡 to any character not adjacent  |
+            | to any cameras.                    |
         Img | figure_alerts_power_on.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -80,9 +80,8 @@ Description | Close the next Gate, starting with |
       Order | 8                                  |
       Story | More movement gets noticed.        |
 Description | Raise ⚠ for each Character adjacen |
-            | t to an Unsubdued Guard. Also, Rai |
-            | se ⚠ for each Character adjacent t |
-            | o a Live Camera.                   |
+            | t to at least one Unsubdued Guard  |
+            | or Live Camera.                    |
         Img | figure_alerts_adj_camera_guard.svg |
             |                                    |
             ╰------------------------------------╯
@@ -105,7 +104,9 @@ Description | Raise ⚠ for each Character on a Su |
             | s are not working. They turning th |
             | em off and on again.               |
 Description | Make every Disabled Camera Live. R |
-            | aise ⚠ every time you do this.     |
+            | aise ⚠ every time you do this. Giv |
+            | e 💡 to any character not adjacent  |
+            | to any cameras.                    |
         Img | figure_alerts_power_on.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -113,7 +114,7 @@ Description | Make every Disabled Camera Live. R |
       Order | 11                                 |
       Story | Subduing guards got a little slopp |
             | y.                                 |
-Description | Raise ⚠⚠.                          |
+Description | Raise ⚠.                           |
             | Un-Subdue every Subdued Guard that |
             |  shares a tile with a Character.   |
         Img | figure_alerts_unsubdue_alerts.svg  |
@@ -123,9 +124,8 @@ Description | Raise ⚠⚠.                          |
       Order | 12                                 |
       Story | More movement gets noticed.        |
 Description | Raise ⚠ for each Character adjacen |
-            | t to an Unsubdued Guard. Also, Rai |
-            | se ⚠ for each Character adjacent t |
-            | o a Live Camera.                   |
+            | t to at least one Unsubdued Guard  |
+            | or Live Camera.                    |
         Img | figure_alerts_adj_camera_guard.svg |
             |                                    |
             ╰------------------------------------╯
@@ -164,7 +164,7 @@ Description | Add a Guard from the supply to eac |
         Img | figure_alerts_hey_you.svg          |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Increased Suspicion                |
+       Name | High Suspicion                     |
       Order | 16                                 |
       Story | Guards are shouting at each other  |
             | now, about ready to pull the alarm |
@@ -255,4 +255,12 @@ Description | Close the next Gate, starting with |
             | ter is on it, they are immediately |
             |  Busted.                           |
         Img | figure_alerts_lockdown.svg         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Dog!                               |
+      Order | 20d                                |
+      Story | You failed to notice that some gua |
+            | rds had dogs with them.            |
+Description |                                    |
+        Img |                                    |
             ╰------------------------------------╯
