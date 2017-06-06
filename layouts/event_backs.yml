@@ -1,0 +1,48 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+proof_cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+  radius: 37.5
+  stroke_color: red
+  stroke_width: 2.0
+  dash: 5 3
+safe:
+  x: 0.25in
+  y: 0.25in
+  width: 2.25in
+  height: 3.25in
+  radius: 37.5
+  stroke_color: blue
+  dash: 5 3
+Name:
+  font: Archivo Black, 50
+  color: '#ccc'
+  stroke_color: black
+  stroke_width: 3.0
+  spacing: -35
+  width: 625
+  height: 950
+  x: 100
+  y: 55
+  align: center
+  valign: middle
+
+Order:
+  font: Archivo Black, Serif Bold 24
+  x: 140
+  y: 580
+  width: 150
+  height: 75
+  align: left
+  valign: top
+
+border:
+  extends: cut
+  radius: 37.5
+  stroke_width: 2.5

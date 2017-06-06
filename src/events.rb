@@ -14,7 +14,10 @@ Squib::Deck.new(cards: data['Name'].size) do
 
   build :color do
     png file: 'cork.png', x: width, angle: Math::PI / 2
-    svg file: 'event.svg'
+    png file: 'event_graphpaper_shadow.png'
+    svg file: 'event_graphpaper.svg'
+    # png file: 'event_notecard_shadow.png'
+    # svg file: 'event_notecard.svg'
   end
 
   text layout: :Name,        str: data['Name']
@@ -26,8 +29,30 @@ Squib::Deck.new(cards: data['Name'].size) do
 
   save_png prefix: 'event_'
 
-  rect layout: :cut
   save_pdf file: 'events.pdf', trim: '0.125in'#, range: 6
+end
+
+###############
+# EVENT BACKS #
+###############
+Squib::Deck.new(cards: data['Name'].size) do
+  use_layout file: 'layouts/event_backs.yml'
+  background color: :white
+
+  build :color do
+    png file: 'cork.png', x: width, angle: Math::PI / 2
+    # png file: 'event_graphpaper_shadow.png'
+    svg file: 'event_graphpaper.svg'
+    # png file: 'event_notecard_shadow.png'
+    # svg file: 'event_notecard.svg'
+  end
+
+  text layout: :Name,        str: data['Name']
+  text layout: :Order,       str: data['Order']
+
+  save_png prefix: 'event_back_'
+
+  save_pdf file: 'event_backs.pdf', trim: '0.125in'#, range: 6
 end
 
 ##################
