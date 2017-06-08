@@ -16,8 +16,8 @@ Squib::Deck.new(cards: data['Name'].size) do
     png file: 'cork.png', x: width, angle: Math::PI / 2
     png file: 'event_graphpaper_shadow.png'
     svg file: 'event_graphpaper.svg'
-    # png file: 'event_notecard_shadow.png'
-    # svg file: 'event_notecard.svg'
+    png file: 'event_graphpaper_notecard_shadow.png'
+    svg file: 'event_graphpaper_notecard.svg'
   end
 
   text layout: :Name,        str: data['Name']
@@ -41,10 +41,8 @@ Squib::Deck.new(cards: data['Name'].size) do
 
   build :color do
     png file: 'cork.png', x: width, angle: Math::PI / 2
-    # png file: 'event_graphpaper_shadow.png'
+    png file: 'event_graphpaper_shadow.png'
     svg file: 'event_graphpaper.svg'
-    # png file: 'event_notecard_shadow.png'
-    # svg file: 'event_notecard.svg'
   end
 
   text layout: :Name,        str: data['Name']
@@ -71,7 +69,10 @@ Squib::Deck.new(cards: data['Name'].size) do
 
   build :color do
     png file: 'cork.png', x: width, angle: Math::PI / 2
-    svg file: 'event_special.svg'
+    png file: 'event_graphpaper_shadow.png'
+    svg file: 'event_graphpaper.svg'
+    png file: 'event_graphpaper_notecard_shadow.png'
+    svg file: 'event_graphpaper_notecard.svg'
   end
 
   text layout: :Name,        str: data['Name']
@@ -84,4 +85,25 @@ Squib::Deck.new(cards: data['Name'].size) do
 
   rect layout: :cut
   save_pdf file: 'special_events.pdf', trim: '0.125in'#, range: 6
+end
+
+#######################
+# SPECIAL EVENT BACKS #
+#######################
+Squib::Deck.new(cards: data['Name'].size) do
+  use_layout file: 'layouts/event_backs.yml'
+  background color: :white
+
+  build :color do
+    png file: 'cork.png', x: width, angle: Math::PI / 2
+    png file: 'event_graphpaper_shadow.png'
+    svg file: 'event_graphpaper.svg'
+  end
+
+  text layout: :Name,        str: data['Name']
+  svg file: 'crossbones.svg', layout: :crossbones
+
+  save_png prefix: 'special_event_back_'
+
+  save_pdf file: 'special_event_backs.pdf', trim: '0.125in'#, range: 6
 end

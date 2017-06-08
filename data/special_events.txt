@@ -75,3 +75,12 @@ Description | Flip over every non-player charact |
             | er card.                           |
         Img | special_events_panic.svg           |
             ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Release the Hounds!                |
+        Qty | 1                                  |
+      Story | A bunch of guard dogs appear out o |
+            | f nowhere.                         |
+Description | Replace the "Release the Hounds" t |
+            | oken with 3 Dogs.                  |
+        Img | special_events_hounds.svg          |
+            ╰------------------------------------╯

@@ -1,8 +1,8 @@
             ╭------------------------------------╮
        Name | Get Outta My Way!                  |
       Order | 1                                  |
-      Story | Teammates near each other get anxi |
-            | ous and start bickering.           |
+      Story | "I was all ready to go until SOMEO |
+            | NE tripped over me."               |
 Description | Raise ⚠ for each hex tile with at  |
             | least two Characters.              |
             |  Raise ⚠ ⚠ for each Entrance tile  |
@@ -12,8 +12,8 @@ Description | Raise ⚠ for each hex tile with at  |
             ╭------------------------------------╮
        Name | Get Outta My Way!                  |
       Order | 2                                  |
-      Story | Teammates near each other get anxi |
-            | ous and start bickering.           |
+      Story | "I was all ready to go until SOMEO |
+            | NE tripped over me."               |
 Description | Raise ⚠ for each hex tile with at  |
             | least two Characters.              |
             |  Raise ⚠ ⚠ for each Entrance tile  |
@@ -33,8 +33,7 @@ Description | Raise ⚠ for each Character adjacen |
             ╭------------------------------------╮
        Name | Suspicious Guards                  |
       Order | 4                                  |
-      Story | Guards are getting suspcious of mo |
-            | vement.                            |
+      Story | Guards start looking around.       |
 Description | Raise ⚠ for each Character adjacen |
             | t to an Unsubuded Guard            |
         Img | figure_alerts_adj_guard.svg        |
@@ -156,8 +155,8 @@ Description | Raise ⚠ for each Character on a Su |
             ╭------------------------------------╮
        Name | Hey You!                           |
       Order | 15                                 |
-      Story | Guards are studying the cameras mo |
-            | re closely now.                    |
+      Story | "They actually check these cameras |
+            | , don't they?"                     |
 Description | Add a Guard from the supply to eac |
             | h tile that has a Character adjace |
             | nt to at least one Live Camera.    |
@@ -257,10 +256,30 @@ Description | Close the next Gate, starting with |
         Img | figure_alerts_lockdown.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Dog!                               |
-      Order | 20d                                |
-      Story | You failed to notice that some gua |
-            | rds had dogs with them.            |
-Description |                                    |
-        Img |                                    |
+       Name | Sick Him!                          |
+      Order | 9a                                 |
+      Story | "Man's best friend. Right now I wi |
+            | sh I was that man."                |
+Description | Add a Dog token to each tile with  |
+            | a Character and a (Subdued or Unsu |
+            | bdued) Guard.                      |
+        Img | figure_alerts_sick_him.svg         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Sniffed Out                        |
+      Order | 15a                                |
+      Story | "It was at that point I regretted  |
+            | my lack of showering that day."    |
+Description | Add a Dog token to each tile with  |
+            | a (Subdued or Unsubdued) Guard tha |
+            | t is adjacent to a Character.      |
+        Img | figure_alerts_sniffed_out.svg      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Guard the Loot Boy!                |
+      Order | 18a                                |
+      Story | "Hey where are those dogs going?"  |
+Description | Add a Dog token to each tile with  |
+            | loot not yet stolen.               |
+        Img | figure_alerts_guard_loot_dog.svg   |
             ╰------------------------------------╯

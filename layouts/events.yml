@@ -22,7 +22,7 @@ safe:
   dash: 5 3
 Name:
   font: Archivo Black, 50
-  spacing: -35
+  spacing: -25
   width: 625
   height: 200
   x: 100
@@ -31,10 +31,10 @@ Name:
   valign: middle
 
 Img:
-  x: 187.5
+  x: 170
   y: 245
-  width: 450
-  height: 325
+  width: 484
+  height: 350
 
 Story:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 26

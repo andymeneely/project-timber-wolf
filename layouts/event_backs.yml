@@ -22,9 +22,6 @@ safe:
   dash: 5 3
 Name:
   font: Archivo Black, 50
-  color: '#ccc'
-  stroke_color: black
-  stroke_width: 3.0
   spacing: -35
   width: 625
   height: 950
@@ -34,13 +31,20 @@ Name:
   valign: middle
 
 Order:
-  font: Archivo Black, Serif Bold 24
-  x: 140
-  y: 580
-  width: 150
+  font: Archivo Black, Serif Bold 42
+  x: 0
+  y: 650
+  width: 825
   height: 75
-  align: left
+  align: center
   valign: top
+
+crossbones:
+  x: 325
+  y: 650
+  angle: 0.25
+  width: 250
+  height: 250
 
 border:
   extends: cut
