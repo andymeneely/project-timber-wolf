@@ -6,7 +6,7 @@ cut:
 name:
   font: Archivo Black, 32
   x: 175
-  y: 900
+  y: 955
   width: 475
   height: 100
   # hint: red
@@ -17,7 +17,7 @@ upgrade1:
   x: 75
   font_size: 32
   spacing: -10
-  y: 190
+  y: 350
   width: 325
   height: 100
   ellipsize: false

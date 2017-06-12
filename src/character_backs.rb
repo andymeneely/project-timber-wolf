@@ -15,13 +15,10 @@ Squib::Deck.new(cards: total) do
   svg file: 'character_back.svg'
 
   build :color do
-    grits = data['Level'].map do |level|
-      level == '1' ? "gritty amateur.png" : "gritty pro.png"
-    end
-    png file: grits
-    svg file: 'character-back-color.svg'#, range: 0
-    svg file: data['Name'].map { |n| "shadows/#{n.downcase}.svg" },
-        x: 330, y: 170, width: 450, height: :scale
+    png file: 'cork.png', x: width, angle: Math::PI / 2
+    svg file: 'character-back-color.svg'
+    svg file: data['Name'].map { |n| "polaroids/#{n.downcase}.svg" },
+        x: 270, y: -35, angle: 0.25
   end
 
   text str: data['Name'], layout: :name
@@ -31,7 +28,7 @@ Squib::Deck.new(cards: total) do
   text str: data['LevelUp2Desc'], layout: :upgrade2desc
 
 
-  save_png prefix: 'character_back_'
+  save_png prefix: 'character_back_', range: 0
   only_lvl1_2 = data['Level'].map.with_index do |x,i|
     [1].include?(x.to_i) ? i : nil
   end.compact
