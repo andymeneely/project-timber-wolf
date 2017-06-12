@@ -16,11 +16,8 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   svg file: 'skill_back.svg'
 
   build :color do
-    grits = data['Level'].map do |level|
-      level == '1' ? "gritty amateur.png" : "gritty pro.png"
-    end
-    png file: grits, angle: Math::PI/2, x: 1125, y: 0
-    svg file: 'skill-back-color.svg'#, range: 0
+    png file: 'cork.png'
+    svg file: 'skill-back-color.svg'
   end
 
   text str: data['Name'], layout: :name
