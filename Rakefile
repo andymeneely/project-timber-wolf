@@ -15,6 +15,7 @@ task default: [
   :skills,
   :skill_backs,
   :events,
+  :envelopes,
   :helps
 ]
 
@@ -74,6 +75,10 @@ end
 
 task :events do
   load 'src/events.rb'
+end
+
+task :envelopes do
+  load 'src/envelopes.rb'
 end
 
 task :launch do

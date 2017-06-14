@@ -1,0 +1,17 @@
+giant_text:
+  width: 2700
+  height: 1800
+  valign: top
+  align: center
+  font: Acknowledgement, Sans 96
+
+
+act:
+  extends: giant_text
+  y: 1.5in
+chapter:
+  extends: giant_text
+  y: 1.85in
+name:
+  extends: giant_text
+  y: 3.25in

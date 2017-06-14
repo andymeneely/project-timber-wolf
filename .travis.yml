@@ -28,6 +28,7 @@ deploy:
     - _output/characters.pdf
     - _output/character_backs.pdf
     - _output/events.pdf
+    - _output/envelopes.pdf
     - _output/helps.pdf
     - _output/skills.pdf
     - _output/skill_backs.pdf

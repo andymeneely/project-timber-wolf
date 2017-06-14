@@ -75,3 +75,12 @@ group :rules do
     watch %r{rules/.*\.css$}
   end
 end
+
+group :envelopes do
+  guard 'rake', :task => 'envelopes' do
+    watch %r{.*\.xlsx$}
+    watch %r{src/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+  end
+end
