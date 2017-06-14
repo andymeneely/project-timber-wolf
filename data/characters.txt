@@ -114,9 +114,8 @@ LevelUp2Desc | +2 Memory                          |
              | Gain 💡 when you 👊                  |
              |                                    |
              | ANGER THERAPY                      |
-             | Gain 💡for each Unsubdued Guard on  |
-             | your tile when Escape is initiated |
-             | .                                  |
+             | 👊 all Guards on your tile when Esc |
+             | ape is initiated.                  |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -452,12 +451,12 @@ LevelUp2Desc |                                    |
              | TUNNEL                             |
              | In planning, place tunnel token on |
              |  a planning token of your color on |
-             |  an external tile and place 3 Dig  |
-             | tokens on this card. In gameplay,  |
-             | use this action and 🔊 to remove 1  |
-             | Dig token. If there are no more Di |
-             | g tokens, use this action and 🔊 to |
-             |  move character to tunnel token.   |
+             |  an external tile. Place 3 Dig tok |
+             | ens on this card. In gameplay, use |
+             |  this action and 🔊 to remove 1 Dig |
+             |  token. If there are no more Dig t |
+             | okens, use this action and 🔊 to mo |
+             | ve character to tunnel token.      |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -567,14 +566,13 @@ LevelUp1Desc | +2 Memory                          |
              | +Loop Footage                      |
 LevelUp2Desc | +1 Memory                          |
              | +2 Initial 💡                       |
+             | +Follower                          |
              |                                    |
              | Walk🔊➜⇒                            |
              | Spy Stuff🔓👊🔊                       |
              |                                    |
              | Smash📷🔊🔊➜⇒                         |
              | Short📷📷🔊                           |
-             |                                    |
-             | +Follower                          |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Technician                         |
@@ -591,8 +589,8 @@ LevelUp2Desc | +1 Memory                          |
      Special | LOOP FOOTAGE                       |
              | For 💡💡, use this action to allow a |
              | ll characters to avoid raising ⚠ d |
-             | ue to cameras this action and even |
-             | t phase.                           |
+             | ue to cameras this action phase an |
+             | d event phase.                     |
              |                                    |
              | PATCH IN                           |
              | When adjacent to a live camera, us |
