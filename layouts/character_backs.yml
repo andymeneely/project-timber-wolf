@@ -16,8 +16,8 @@ upgrade1:
   extends: name
   x: 75
   font_size: 32
-  spacing: -10
-  y: 350
+  spacing: -20
+  y: 335
   width: 325
   height: 100
   ellipsize: false
@@ -29,8 +29,8 @@ upgrade1desc:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold
   font_size: 28
   spacing: -10
-  y: += 80
-  height: 380
+  y: += 110
+  height: 360
 upgrade2desc:
   extends: upgrade1desc
   x: += 350
