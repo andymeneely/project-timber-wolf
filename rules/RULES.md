@@ -2,11 +2,11 @@
   RULES
 </div>
 
-_Your Last Heist_ is a cooperative, multi-stage heist game. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
+_Your Last Heist_ is a cooperative heist game set in a campaign. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
-You will start as an Amateur criminal with Amateur skills. But over time, and with good decisions along the way, you and your teammates will level up your characters and skills as you make your way through a set of story-driven campaigns. Each heist is highly replayable, with various outcomes.
+You will start as an Amateur criminal with Amateur skills. But over time, and with good decisions along the way, you and your teammates will level up your characters and skills as you make your way through a story-driven campaign. Each heist is highly replayable, with various outcomes.
 
 ## The Pieces
 
@@ -49,13 +49,13 @@ You will start as an Amateur criminal with Amateur skills. But over time, and wi
 
 The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security Chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
 
- You are considered **adjacent** to something if you are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
+You are considered **adjacent** to something if you are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
 
 Each board has one or more **Entrances**. These Entrances represent a space. If a character is on one of these spaces they are considered to be Outdoors, otherwise they are Indoors. An Entrance tile is also considered an Exit.
 
 By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, although the scenario may impose additional limits.
 
-Some abilities refer to **external sides**, which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure).
+Some abilities refer to **external sides**, which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure). An **external tile** is a tile with at least one external side.
 
 Some abilities refer to a **non-tiled gap**, which is a hex-spaced area between two hex tiles that does *not* have a hex (see figure).
 
@@ -106,7 +106,7 @@ Each Character card has:
   * ④	**Default Actions**. Actions that are available regardless of your die roll.
   * ⑤	**Special Ability**. Abilities that your character can uniquely do.
 
-Some Characters have two Default Actions, others have three. Actions are described more in the *Actions and Sub-Actions* section.
+Some Characters have two Default Actions, others have three.
 
 For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
 
@@ -160,12 +160,8 @@ The Alert Token does not go beyond the final Event card.
 
 **Gate**. A character may enter or exit this space freely. Security Events may remove this tile from the board.
 
-**Pressure Sensors**. You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍, and 🔊⚠ are still required.
 
-For each Pressure Sensor, a corresponding **Control Panel** of the same color exists somewhere else on the board. If a character is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
-
-
-**CHANGE FOR SPECIAL EVENTS**
+**TODO CHANGE FOR SPECIAL EVENTS**
 
 **Reinforcements**. This is an open tile while it is on the board - but bad things will happen here later! Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
 
@@ -185,16 +181,12 @@ You may also "drop" loot on your current space, which means that you may effecti
 
 When a character with Loot gets Outdoors, the team has acquired that loot for the heist - place it on the Team Loot square. For Cash, increase the Team Cash tracker accordingly.
 
-A special loot chit is the **Story Beacon**, denoted by an asterisk. When a character enters a space with the Beacon for the first time,  refer to the scenario for what to do, then remove the chit.
+A special loot chit is the **Story Beacon**, denoted by an asterisk. When a character enters a space with the Beacon for the first time, refer to the scenario for what to do, then remove the chit.
 </div>
 
 # Setting Up
 
 **Step 1. As a team, decide upon a scenario.** Some scenarios are designed for one evening's play, others can be played over the course of multiple evenings. Each heist in the scenario will consist of Chapters, which involve one Heist.
-
-<div class="tip">
-Tip: If this is your first game, we recommend playing *The Fall Guys*.
-</div>
 
 **Step 2. Read the story text.** To save time, you may begin setting up the board in Step 3 simultaneously with this step.
 
@@ -360,17 +352,33 @@ When you are Busted, you are out of gameplay for the rest of this Heist. All loo
 
 Each Heist has an objective built into it. If your team does not complete its objective, the campaign is lost. Some scenarios may define what to do if the heist is lost. If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
 
-You may retry a heist from the original conditions (i.e. restore from a previous "saved game").
+If you lose a heist, you have three options:
+
+* **Restore**. You may play a heist from your original conditions (i.e. restore from a previous "saved game").
+* **Retry**. You may attempt the heist again, but with an additional 💡💡 given to each character during Planning. You may only do this once per chapter per campaign.
+* **Rebuild**. You may continue onward with any non-Busted characters, hire new Characters with Skills, and play a Rebuilding Scenario of your choice. You may play any of the Rebuilding Scenarios as many times as you like.
 
 # Winning a Heist
 
-If you have completed your objective, your team advances to the next chapter. Leftover 💡 are lost. Any cash on a Character is added to the Team Cash tracker, as well as any loot. Be sure to note everything in your Campaign History.
+If you have completed your objective, your team advances to the next chapter. If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
+
+Leftover 💡 are lost. Any cash on a Character is added to the Team Cash tracker, as well as any loot. Be sure to note everything in your Campaign History.
+
+<div class="pagebreak"/>
+
+## Pressure Sensors
+
+**Pressure Sensors**. You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍, and 🔊⚠ are still required.
+
+For each Pressure Sensor, a corresponding **Control Panel** of the same color exists somewhere else on the board. If a character is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
+
+**TODO: MAKE A FIGURE ABOUT THIS**
 
 <div class="pagebreak"/>
 
 ## Non-Player Characters
 
-Some heists have a **Non-Player Character**, represented by a white pawn, a white die, and their NPC card. Your team will "remotely" control the NPC.
+A **Non-Player Character** is represented by a white pawn, a white die, and their NPC card. Your team will "remotely" control the NPC.
 
 If an NPC starts inside a Pressure Sensor, then they are not freed yet and effectively do not exist on the board. Immediately when the Pressure Sensor is disabled, the NPC becomes active (e.g. triggers any auto-reveals).
 
@@ -382,13 +390,26 @@ Unlike players, NPCs MAY NOT _pass_. You must choose an action for them. You may
 
 <div class="pagebreak"/>
 
+## Guard Dogs
+
+Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Character:
+
+  1. Move the Guard Dog onto that character and
+  2. Place a Blank token over the Shield to mark that space as already Revealed (if necessary)
+
+If a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
+
+**TODO MAKE A FIGURE FOR THIS**
+
+<div class="pagebreak"/>
+
 ## Bosses
 
-Some scenarios may have a Boss. A Boss is not an NPC, rather, it is an uncontrollable character that your team must deal with. Bosses are represented by the black pawn and a card given out by the scenario.
+Some scenarios may have a Boss. A Boss is not an NPC, rather, it is an uncontrollable security system that your team must react to. Bosses are represented by the black pawn and a card given out by the scenario.
 
 Bosses have Waypoint tokens. The Boss pawn starts at the Waypoint marked 1. Before each Roll for Skill phase, the Boss moves one tile directly toward the next Waypoint. A Boss **encounters** something (e.g. a subdued guard) if he shares a tile with that thing as a result of a move.
 
-Bosses do not traverse non-tiled gaps. Bosses ignore locks, guards, and cameras. If a Boss is on a lockdown gate when it closes, first move them forward on their path until they are off of the gate before it closes. Waypoints are not movable unless otherwise specified.
+Bosses do not traverse non-tiled gaps. Bosses ignore locks, guards, cameras, and any other security system. If a Boss is on a lockdown gate when it closes, first move them forward on their path until they are off of the gate before it closes. Waypoints are not movable unless otherwise specified.
 
 Bosses also have a Suspicion(⁉) tracker. The card will define what causes a Boss's Suspicion(⁉) to be raised, and what happens at each level with a Suspicion Action. If the tracker says "immediately", then the action is done once, when the Suspicion(⁉) was first raised. Otherwise, the action is done each round.
 

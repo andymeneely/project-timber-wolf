@@ -9,7 +9,7 @@ The Campaign
 
 This is the main campaign to take you through the world of _Your Last Heist_. The story is broken into three Acts. These are parallel stories that take place over seven days. The Acts are in increasing order of complexity and difficulty. Each Act has a unique narrator and a different suggested starting crew, but they are all part of one story.
 
-Since the Acts occur in parallel, you may play the campaigns in parallel as well. This might be useful if you have multiple gaming groups playing the same game. To play these stories in parallel, you will need to unlock the packets of any chapter from a prior act. We also recommend that at least one person remain common between the teams.
+Since the Acts occur in parallel, you may play the campaigns in parallel as well. This might be useful if you have multiple gaming groups playing the same game. To play these stories in parallel, you will need to open the envelopes of any chapter from a prior act. We also recommend that at least one person remain common between the teams.
 
 The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome. Play them as often as you like.
 
@@ -59,7 +59,7 @@ _There's always a bigger play._
 _For a friendly neighborhood self-help group, The Forum sure knows how to stay in business. Don't worry about retribution, we hear they're a non-violent cult._
 
 * **_The Laundromat_**  **60**
-* **_The Childrens' Project_** **62**
+* **_The Charity Front_** **62**
 
 </div>
 
@@ -69,14 +69,14 @@ _For a friendly neighborhood self-help group, The Forum sure knows how to stay i
 
 _5 days before The Vault Job. Your crew is eating breakfast at a diner, discussing your next job. You are approached by well-dressed man._
 
-_"You don't know me but I hear you're hungry for employment. I'm over at customs near The Docks and I see a lot of stuff come and go. Normally I just watch but this time I've caught wind of smugglers bringing in some stolen jewels. I could bust them the regular way but I gotta have these beauties for myself. **Steal three jewels**, and if you get all four I'll give you an additional $3k."_
+_"You don't know me but I hear you're hungry for employment. I'm over at customs near The Docks and I see a lot of stuff come and go. Normally I just watch but this time I've caught wind of smugglers bringing in some stolen jewels. I could bust them the regular way but I gotta have these beauties for myself. **Steal all three jewels**. Any extra cash you grab is yours."_
 
 _"Prove to me that you know what you're doing. If so, I'll find you another job."_
 
 ### Setup
 
 * Events: Use Events 1-21
-* Special Events: Place the Reinforcements card on top of Event 14.
+* Special Events: Place Reinforcements between Events 13 and 14.
 * Team Cash starts at $0k
 
 We suggest using these characters & skills:
@@ -109,7 +109,7 @@ _Well done! These will look great in my collection! Now I've got a bigger job fo
 
 ### Standalone Challenge: All the Things
 
-To complete this challenge, you must get all of the loot items. You must use the following crew and skills:
+To complete this challenge, you must get all of the loot items, including all cash. You must use the following crew and skills:
 
 * TBD
 * TBD
@@ -132,7 +132,7 @@ Chapter 2<br>
 
 ## Chapter 2. Fast Learners
 
-_"Wow you are some fast learners! Here's a pro job for a pro crew. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got a thermal imaging system called The Watchtower, plus some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job."_
+_"Wow you are some fast learners! Here's a pro job for a pro crew. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job."_
 
 _"I'll be outside waiting for you"._
 
@@ -160,9 +160,9 @@ been double-crossed! Your "friend" is standing there with them, smirking. He tak
 
 _"Thanks for the hard work. You learned this gig faster than I thought. Real naturals. Just remember - you're no good to anyone if you're caught. You're only ever as good as your last heist."_
 
-_Everyone is arrested and taken to prison._
+_Your crew is arrested and taken to prison._
 
-* Promote any characters and refine skills of anyone who reached an Exit.
+* Promote any characters and refine skills of anyone who was not Busted.
 * If any characters failed to reach an exit (i.e. Busted), keep them for the next heist, but do not promote them or refine their skills.
 
 ### Standalone Challenge: NAME TBD
@@ -191,7 +191,7 @@ Chapter 3<br>
 
 _3 days before The Vault Job. Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with an intricate US Marines tattoo on his arm approaches you._
 
-_"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands. He has eight fingers._
+_"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands. You notice that his pinkies are missing._
 
 _"But you... you don't know what you have. You have some real skill. And these feds? They made a huge mistake. They put you all in the same jail cell. Use it. We had some total amateurs break out of here a few days ago and they did it by each getting to a different exit at once. Security is tighter now but I'll help you if you promise me some funding when I get out. God speed."_
 
@@ -854,7 +854,7 @@ _Under the guise of "fixing your posture", the crooked leaders of The Forum prey
 
 ## The Charity Front
 
-_Don't let the posters of dirt-faced children fool you. This place is all about the money. They won't even notice._
+_Don't let the posters of dirt-faced children fool you. This place is all about the money. They won't even notice if some cash was "misplaced"._
 
 ### Setup
 
