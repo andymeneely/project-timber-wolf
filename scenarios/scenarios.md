@@ -13,7 +13,7 @@ Since the Acts occur in parallel, you may play the campaigns in parallel as well
 
 The **rebuilding scenarios** may be played at any time, with any crew, have easy objectives and ample loot. Use these scenarios to rebuild your crew after a particularly rough outcome. Play them as often as you like.
 
-Many scenarios also have a **standalone challenge**. These are reasonable conditions under which one could play the chapter directly without going through the entire campaign. Most standalone challenges are no more difficult than the regular campaign conditions, but might require clever gameplay that might not otherwise be easily achievable using the suggested crew compositions.
+Many scenarios also have a **standalone challenge**. These are reasonable conditions under which one could play the chapter directly without going through the entire campaign. Most standalone challenges involve varying crew compositions that might not otherwise be easily achievable using the suggested crew compositions. Standalone challenges are entirely optional and have no impact on your campaign.
 
 I hope you enjoy these campaigns! And I hope that you are inspired to make your own heist scenarios. Feel free to share your work over at yourlastheist.com
 
@@ -260,10 +260,10 @@ _"**Our objective is to get me out of this prison**. If some of you don't make i
 
 We suggest using these Character & Skill combinations in the following color assignments:
 
-* RED: Street Urchin with TBD and TBD
-* GREEN: Thug with Yank Wires and Bypass
-* Lookout:
-* Pickpocket
+* RED: Street Urchin with Hurry and Wing It
+* GREEN: Thug with Bypass and Hit 'n' Run
+* BLUE: Pickpocket with Wing It and Bypass
+* YELLOW: Lookout with Smash 'n' Grab and Hurry (4-players only)
 
 
 ### Planning Phase
@@ -278,6 +278,19 @@ We suggest using these Character & Skill combinations in the following color ass
 _Well done! I think this is gonna work out. Ok I'll map out our first job. Meanwhile, everyone study up and refine one of your skills._
 
 * Every non-Busted Character may Refine one Skill.
+
+### Standalone Challenge: Has The Code
+
+Try this scenario with the following conditions:
+
+* This challenge requires four players, but using the 3-player Noise Tracker
+* Instead of using the Security Chits bag, stack the Security Chits in the following order, with first one is on top: Lock, Camera, Camera, Guard, Lock, Guard, Guard, Lock, Camera.
+* Remove the Western entrance tile.
+* A maximum of *three* Characters may exit a given Exit tile, including the Fence
+* YELLOW: Black Hat with TBD and TBD
+* RED: Thug with Hit 'n' Run and TBD
+* GREEN: Burglar with TBD and TBD
+* BLUE: Angry Locksmith with TBD and TBD
 
 <div class="title-page">
   <div class="title-numbers">
