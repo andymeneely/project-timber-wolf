@@ -265,7 +265,6 @@ We suggest using these Character & Skill combinations in the following color ass
 * BLUE: Pickpocket with Wing It and Bypass
 * YELLOW: Lookout with Smash 'n' Grab and Hurry (4-players only)
 
-
 ### Planning Phase
 
 * As a team take 🔍🔍🔍
@@ -602,7 +601,7 @@ _"**Your objective is to steal the one real painting**. The Fence must validate 
 * Events: Use Events 1-20, then 20a, 20b, then 21.
 * Special Events: Place _Lockdown!_ on top of Event 12 and _Panic!_ on top of Event 16.
 * Use the White meeple for The Fence. Use the "Guide" non-player character card and the white die for his movement.
-* Shuffle the real and fake _Grapes of Venice_ paintings face-down. Place each one at each indicated location. When The Fence reaches a space with a painting, flip it over to reveal if it is real or fake.
+* Shuffle the real and fake apple paintings face-down. Place each one at each indicated location. When The Fence reaches a space with a painting, flip it over to reveal if it is real or fake.
 
 ### Planning Phase
 
