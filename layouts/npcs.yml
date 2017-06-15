@@ -1,0 +1,140 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+title:
+  font: Archivo Black, 40
+  spacing: -30
+  width: 425
+  height: 200
+  x: 310
+  y: 15
+  align: center
+  valign: middle
+Level:
+  font: Archivo Narrow, 32
+  x: 330
+  y: 200
+  width: 200
+  height: 75
+  align: center
+Memory:
+  font: Archivo Narrow, 42
+  x: 570
+  y: 172
+  width: 65
+  align: right
+Ideas:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, 42
+  width: 65
+  align: right
+  color: black
+  x: 570
+  y: 230
+
+Special:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
+  color: black
+  spacing: -4
+  x: 120
+  y: 325
+  width: 570
+  height: 550
+  align: center
+  valign: middle
+
+DefaultSkill:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 32
+  y: 920
+  width: 215
+  height: 140
+  color: black
+  align: center
+  valign: middle
+  markup: true
+Default1:
+  extends: DefaultSkill
+  x: 75
+Default2:
+  extends: DefaultSkill
+  x: 535
+Default3:
+  extends: DefaultSkill
+  x: 305.5
+
+Default3Rect:
+  extends: Default3
+  y: 860
+  height: 190
+  radius: 40
+  stroke_width: 2.5
+  stroke_color: black
+
+FigureLevel:
+  font: Sans Bold 36
+  color: red
+  extends: Level
+  str: ①
+  x: += 100
+  y: -= 25
+
+FigureMemory:
+  font: Sans Bold 36
+  color: red
+  extends: Memory
+  str: ②
+  x: += 75
+
+FigureIdeas:
+  font: Sans Bold 36
+  color: red
+  extends: Memory
+  str: ③
+  x: += 55
+  y: += 85
+
+FigureAction1:
+  font: Sans Bold 52
+  color: red
+  extends: Default1
+  str: ④
+  x: -= 85
+  y: -= 45
+
+FigureAction2:
+  font: Sans Bold 52
+  color: red
+  extends: Default1
+  str: ④
+  x: += 310
+  y: -= 45
+
+FigureSpecial:
+  font: Sans Bold 75
+  color: red
+  extends: Special
+  str: ⑤
+  x: -= 220
+  y: -= 45
+
+FigureSkill1:
+  font: Sans Bold 42
+  color: red
+  extends: DefaultSkill
+  str: ⑥
+  x: 75
+  y: += 240
+
+FigureSkill2:
+  font: Sans Bold 42
+  color: red
+  extends: DefaultSkill
+  str: ⑥
+  x: 475
+  y: += 240
+
+border:
+  extends: cut
+  radius: 37.5
+  stroke_width: 2.5
