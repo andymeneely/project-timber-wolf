@@ -247,7 +247,7 @@ _7 days before The Vault Job. A bunch of apprehensive strangers are summoned by 
 
 _"Look around. You might see a bunch of lowlife criminals putting in their time, but me? I see a business opportunity. See, I've got a bunch of... connections. I know how to find people who are willing to purchase the world's greatest artwork with no questions asked. I simply lack the means of  acquisition. That's where you all come in. I've hand-picked this team for your talents and potential. First, let's get out of here."_
 
-_"**Our objective is to get me out of this prison**. If some of you don't make it, we can find a replacement but I'd rather not have that happen. Now the only way to pull this off is to have a maximum of two characters at each exit. You may notice that our locksmith friend here is specially equipped to get this party started. But first, let's do a little recon."_
+_"**Our objective is to get me out of this prison**. If some of you don't make it, we can find a replacement but I'd rather not have that happen. Now the only way to pull this off is to have a maximum of two characters at each exit. You may notice that our street urchin friend here is specially equipped to get this party started."_
 
 <div class="page-break"/>
 
@@ -258,12 +258,13 @@ _"**Our objective is to get me out of this prison**. If some of you don't make i
 * Events: Use Events 1-21
 * Special Events: Place _Reinforcements_ on top of Event 14. Place _Panic!_ on top of Event 17.
 
-We suggest using these Character & Skill combinations:
+We suggest using these Character & Skill combinations in the following color assignments:
 
-* RED: Angry Locksmith with Hurry and Smash 'n' Grab
+* RED: Street Urchin with TBD and TBD
 * GREEN: Thug with Yank Wires and Bypass
-* BLUE: Burglar with Wing It and Hit 'n' Run
-* BLACK: Script Kiddie with Hit 'n' Run and Hurry (4 players)
+* Lookout:
+* Pickpocket
+
 
 ### Planning Phase
 
