@@ -530,7 +530,7 @@ _"They say that getting out is hardest part of any heist. Well, that's where I c
 
 _"Ok, now I owe some money and a jewel to this pretentious art fence, so this job is about learning the method. I hear we've got some money stashed over at the old estate. **Our objective is to pick up the jewel and $7k worth of cash.** Anything we pick up beyond that is ours. And I'll promote whoever picks up that jewel."_
 
-<img class="map" src="the smugglers ch 1 the estate.svg">
+<img class="map" src="the long con ch 1 the estate.svg">
 
 ## Setup
 
