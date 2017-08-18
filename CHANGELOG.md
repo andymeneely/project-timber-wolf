@@ -26,6 +26,7 @@ none
 
 * Haven't finished porting the new (slightly more forgiving) noise tracker from Maker to base. Use that one if you can.
 * The iconography on the Events is currently wrong in many places. Go with the text.
+* Some cards are rendered differently on Travis (yay font rendering inconsistencies!) and got ellipsized.
 
 # v0.15
 
