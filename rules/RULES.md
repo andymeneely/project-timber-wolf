@@ -10,6 +10,8 @@ You will start as an Amateur criminal with Amateur skills. But over time, and wi
 
 ## The Pieces
 
+NOTE! This list is totally out of date. Sorry.
+
 <div class="cols">
 
 * 32 double-sided hex tiles.
@@ -150,7 +152,7 @@ The event cards are in the order specified by the scenario in a single pile, fac
 
 Every time you "Raise ⚠", remove the topmost card and discard it for the rest of the heist. At any time, the top-most Event in the deck is the Active Event.
 
-Some cards are marked Special Event. These do _not_ count as Alerts. When a Special Event card is the top-most card, immediately set it aside and continue dealing Event cards.
+Some cards are marked Special Event. These do _not_ count as Alerts. When a Special Event card is the top-most card, immediately set it aside and continue dealing Event cards. You will be doing the Special Event in addition to an Event.
 
 More on how Events are resolved can be found in the Gameplay section.
 
@@ -242,10 +244,6 @@ Repeat Phase 1 through 3 until the Escape Phase is initiated.
 
 Everybody simultaneously rolls their die.
 
-<div class="tip">
-Tip: If you have a Freed Prisoner, have one player roll the white cube like a die alongside their regular die
-</div>
-
 ### Phase 2. Character Action
 
 In this phase, you use your die to execute one Action. You have a minimum of four options: at least two Actions from your Character and one Action from each Skill.
@@ -280,11 +278,11 @@ Like other sub-actions, noise may be increased at any time during Character acti
 *Tip: Wait to account for noise until the end of Character Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
 </div>
 
-You may opt to simply **Pass**, and take no actions with no noise penalty. However, at most one Character may Pass each round.
-
 You may **Help Out.** If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. _**This does not apply to the Escape phase!**_ (Sorry.)
 
 You may opt to **Initiate Escape Phase** at any time (see *Escape Phase*).
+
+You may NOT opt to "pass". You MUST choose an Action on your Character or Skills.
 
 You have the final say about what to do with your own character.
 
@@ -294,7 +292,9 @@ When all players have finished their Actions and all noise has been accounted fo
 
 During this phase, the team will do exactly _one_ Event, then possibly one or more Special Events.
 
-First, follow the Event card the pile that your Alert Tracker token is currently on. Read the text and raise the alerts as instructed by the card as you would during the Character Action phase.
+First, follow the Event card currently on the top of the deck (Active Event). Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase.
+
+When the Event is finished, even if it had no effect, deal it off the deck. (Thus, every Event card is executed at most _one_ time in a heist.)
 
 Second, follow any Special Event cards you have set aside. Multiple Special Events should be executed in the order they were encountered.
 
