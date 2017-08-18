@@ -1,4 +1,4 @@
-# v0.16 / Unreleased
+# v0.16 / 2017-08-18
 
 ## Rules changes
 

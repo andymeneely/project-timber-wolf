@@ -1,3 +1,3 @@
 module YourLastHeist
-  VERSION = '16.0'
+  VERSION = '17.0a'
 end
