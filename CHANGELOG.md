@@ -1,8 +1,15 @@
-# v0.16 / 2017-08-18
+# v17.0 / Unreleased
+
+## Scenario changes
+
+* New map! Act 3 Chapter 3 "Calling the Shots"
+* Various tweakings of writing, of course.
+
+# v16.1 / 2017-08-18
 
 * Bugfix in the build. v16.0 build failed.
 
-# v0.16 / 2017-08-18
+# v16.0 / 2017-08-18
 
 ## Rules changes
 

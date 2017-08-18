@@ -657,7 +657,7 @@ _Your team discusses the possibility of escape. Everyone is in and the day is cl
 
 <div class="page-break"/>
 
-<img class="map" src="tbd map.svg">
+<img class="map" src="the long con ch 3 cell block c.svg">
 
 ### Planning Phase
 
@@ -669,16 +669,15 @@ _Your team discusses the possibility of escape. Everyone is in and the day is cl
 
 ### Upon Success
 
-_Outside of the prison, chaos reigns. Police are everywhere rounding up inmates who have followed you out. Your crew is about to head into the woods when a beat-up car pulls up. A man in a suit throws open the door and says "Get in!". You decide to take a chance and you all cram into the backseat. The car speeds away into an empty quarry._
+_Outside of the prison, chaos reigns. Police are everywhere rounding up inmates who have followed you out. Your crew is about to head into the woods when a beat-up car pulls up. The passenger in the front seat throws open the back door and says "Get in!" With few other options, your team crams into the backseat. The car speeds away, the driver and passenger in complete silence._
 
-_"You don't know me but I know you and I know you're hungry for work. I hear you pulled some jobs with The Demolitions Guy. I have some marks that I need help with."_
+_Stopping suddenly in an empty quarry, the passenger turns around and speaks. "You don't know me. But I know you and I know you're hungry for work. I hear you pulled some jobs with The Demolitions Guy. I have some marks that I need help with."_
 
 _Hanging from his rearview mirror is a keychain with a severed pinky finger. He sees you staring at it. "Don't worry", he said, "this isn't real. But I did do the casting myself! Pretty good, huh?". Your crew exchanges glances._
 
 _"Here's the thing," he continues "you gotta do this my way. I'll be calling the shots on this one."_
 
 * Promote and refine skills of any character who reached an Exit.
-
 
 <div class="title-page">
   <div class="title-numbers">
@@ -751,9 +750,9 @@ Chapter 5<br>
 
 _The day before The Vault Job. Your crew reads the letter from The Fence._
 
-_"As I'm sure you've seen, The Collector is not just bad business, he's bad for society. You should also know that his house shows only part of his real collection. The Demo Guy and myself needed locate his collection, so we let ourselves get captured back at The Forgery Studio. He's got a beef with us so we knew he wouldn't risk throwing us in jail. So we got put right next to his vault and got this text message out to the Jeweler."_
+_"As I'm sure you've seen, The Collector is not just bad business, he's bad for society. You should also know that his house shows only part of his real collection. The Demo Guy and myself needed to locate his collection, so we let ourselves get captured back at Bristle's Studio. The Collector's got a beef with us so we knew he wouldn't risk throwing us in jail. So we got put right next to his vault and got this text message out to the Jeweler."_
 
-_"First, we need you to finish a job we couldn't. Assemble your best crew from all the enemies this scumbag has made. Head over to The Collector's Exhibition Hall and **move the jewel we left behind to the drop site**. Make it look like you dropped it. At the drop site, flip the light switch and the wall will blast open. The Collector will think it was a botched robbery and bring it down to his vault for safekeeping. The jewel is actually an explosive, which we can detonate with your help. Once you're done, head over to the storage containers near The Docks and come rescue us and his collection."_
+_"First, we need you to finish a job we couldn't. Assemble your best crew from all the enemies this scumbag has made. Head over to The Collector's Exhibition Hall and **move the jewel we left behind to the drop site**. Make it look like you dropped it. At the drop site, flip the light switch and the wall will blast open. The Collector will think it was a botched robbery and bring the jewel down to his vault for safekeeping. The jewel is actually an explosive, which we can detonate with your help. Once you're done, head over to the storage containers near The Docks to come rescue us and his collection. We're in your hands now."_
 
 ### Setup
 * You may use any Character from the prior campaigns who ended up Free. You cannot have two members that had the same Amateur class on your crew (_e.g. a Hacktivist and Script Kiddie cannot be on the same Crew_).
