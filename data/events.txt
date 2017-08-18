@@ -26,16 +26,16 @@ Description | Raise ⚠ for each hex tile with at  |
       Story | The guard monitoring the cameras s |
             | ees movement in a reflection and l |
             | ooks a little closer.              |
-Description | Raise ⚠ for each Character adjacen |
-            | t to a Live Camera.                |
+Description | Raise ⚠ if any Character is adjace |
+            | nt to a Live Camera.               |
         Img | figure_alerts_adj_camera.svg       |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Suspicious Guards                  |
       Order | 4                                  |
       Story | Guards start looking around.       |
-Description | Raise ⚠ for each Character adjacen |
-            | t to an Unsubuded Guard            |
+Description | Raise ⚠ if any Character is adjace |
+            | nt to an Unsubuded Guard           |
         Img | figure_alerts_adj_guard.svg        |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -44,8 +44,8 @@ Description | Raise ⚠ for each Character adjacen |
       Story | Fearful of what might happen to hi |
             | m, a guard begins blabbing. He's n |
             | oisy, but provides useful intel.   |
-Description | Raise ⚠ for each Character on a Su |
-            | bdued Guard.                       |
+Description | Raise ⚠ if any Character is on a S |
+            | ubdued Guard.                      |
             | Give 💡💡 to each of those Character |
             | s too.                             |
         Img | figure_alerts_on_disabled.svg      |
@@ -57,9 +57,10 @@ Description | Raise ⚠ for each Character on a Su |
             | s are not working. They turning th |
             | em off and on again.               |
 Description | Make every Disabled Camera Live. R |
-            | aise ⚠ every time you do this. Giv |
-            | e 💡 to any character not adjacent  |
-            | to any cameras.                    |
+            | aise ⚠ if any Camera was rebooted. |
+            |  Then, give 💡 to any character not |
+            |  adjacent to any cameras after thi |
+            | s.                                 |
         Img | figure_alerts_power_on.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -70,17 +71,16 @@ Description | Make every Disabled Camera Live. R |
 Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a Charac |
             | ter is on it, they are Busted.     |
-            | Raise ⚠⚠.                          |
-        Img | figure_alerts_lockdown_two_alerts. |
-            | svg                                |
+        Img | figure_alerts_lockdown.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Increased Suspicion                |
       Order | 8                                  |
       Story | More movement gets noticed.        |
-Description | Raise ⚠ for each Character adjacen |
-            | t to at least one Unsubdued Guard  |
-            | or Live Camera.                    |
+Description | Raise ⚠ if any Character adjacent  |
+            | to at least one Unsubdued Guard. R |
+            | aise ⚠  if any Character is adjace |
+            | nt to a Live Camera.               |
         Img | figure_alerts_adj_camera_guard.svg |
             |                                    |
             ╰------------------------------------╯
@@ -90,8 +90,8 @@ Description | Raise ⚠ for each Character adjacen |
       Story | Fearful of what might happen to hi |
             | m, a guard begins blabbing. He's n |
             | oisy, but provides useful intel.   |
-Description | Raise ⚠ for each Character on a Su |
-            | bdued Guard.                       |
+Description | Raise ⚠ if any Character is on a S |
+            | ubdued Guard.                      |
             | Give 💡💡 to each of those Character |
             | s too.                             |
         Img | figure_alerts_on_disabled.svg      |
@@ -111,20 +111,23 @@ Description | Make every Disabled Camera Live. R |
             ╭------------------------------------╮
        Name | I Thought I Had Him                |
       Order | 11                                 |
-      Story | Subduing guards got a little slopp |
-            | y.                                 |
-Description | Raise ⚠.                           |
-            | Un-Subdue every Subdued Guard that |
-            |  shares a tile with a Character.   |
+      Story | "Okay nobody do what he just did." |
+            |                                    |
+Description | Un-Subdue every Subdued Guard that |
+            |  shares a tile with a Character. I |
+            | f you un-subdued any Guard, give 💡 |
+            |  to any character who was NOT on a |
+            |  Subuded Guard.                    |
         Img | figure_alerts_unsubdue_alerts.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Increased Suspicion                |
       Order | 12                                 |
       Story | More movement gets noticed.        |
-Description | Raise ⚠ for each Character adjacen |
-            | t to at least one Unsubdued Guard  |
-            | or Live Camera.                    |
+Description | Raise ⚠ if any Character adjacent  |
+            | to at least one Unsubdued Guard. R |
+            | aise ⚠  if any Character is adjace |
+            | nt to a Live Camera.               |
         Img | figure_alerts_adj_camera_guard.svg |
             |                                    |
             ╰------------------------------------╯
@@ -136,7 +139,6 @@ Description | Raise ⚠ for each Character adjacen |
 Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a Charac |
             | ter is on it, they are Busted.     |
-            | Raise ⚠⚠.                          |
         Img | figure_alerts_lockdown_two_alerts. |
             | svg                                |
             ╰------------------------------------╯
@@ -146,8 +148,8 @@ Description | Close the next Gate, starting with |
       Story | Fearful of what might happen to hi |
             | m, a guard begins blabbing. He's n |
             | oisy, but provides useful intel.   |
-Description | Raise ⚠ for each Character on a Su |
-            | bdued Guard.                       |
+Description | Raise ⚠ if any Character is on a S |
+            | ubdued Guard.                      |
             | Give 💡💡 to each of those Character |
             | s too.                             |
         Img | figure_alerts_on_disabled.svg      |
@@ -168,10 +170,10 @@ Description | Add a Guard from the supply to eac |
       Story | Guards are shouting at each other  |
             | now, about ready to pull the alarm |
             | .                                  |
-Description | Raise ⚠ for each Character adjacen |
-            | t to an Unsubdued Guard. Also, Rai |
-            | se ⚠ for each Character adjacent t |
-            | o a Live Camera.                   |
+Description | Raise ⚠ if any Character is adjace |
+            | nt to an Unsubdued Guard. Also, Ra |
+            | ise ⚠ if any Character is adjacent |
+            |  to a Live Camera.                 |
         Img | figure_alerts_adj_camera_guard.svg |
             |                                    |
             ╰------------------------------------╯
@@ -183,7 +185,6 @@ Description | Raise ⚠ for each Character adjacen |
 Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a Charac |
             | ter is on it, they are Busted.     |
-            | Raise ⚠.                           |
         Img | figure_alerts_lockdown_one_alert.s |
             | vg                                 |
             ╰------------------------------------╯
@@ -215,7 +216,7 @@ Description | Close the next two Gates, starting |
             |  with "A". Remove the tile. If a c |
             | haracter is on it, they are immedi |
             | ately Busted.                      |
-        Img | figure_alerts_lockdown.svg         |
+        Img | figure_alerts_lockdown_double.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sound the Alarm!                   |
@@ -253,7 +254,7 @@ Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a charac |
             | ter is on it, they are immediately |
             |  Busted.                           |
-        Img | figure_alerts_lockdown.svg         |
+        Img | figure_alerts_lockdown_double.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sick Him!                          |

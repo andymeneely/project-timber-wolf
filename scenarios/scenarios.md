@@ -160,7 +160,7 @@ been double-crossed! Your "friend" is standing there with them, smirking. He tak
 
 _"Thanks for the hard work. You learned this gig faster than I thought. Real naturals. Just remember - you're no good to anyone if you're caught. You're only ever as good as your last heist."_
 
-_Your crew is arrested and taken to prison._
+_Your crew is arrested and taken to prison. Fortunately you are able to smuggle all of your team's cash with you._
 
 * Promote any characters and refine skills of anyone who was not Busted.
 * If any characters failed to reach an exit (i.e. Busted), keep them for the next heist, but do not promote them or refine their skills.

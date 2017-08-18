@@ -30,6 +30,7 @@ deploy:
     - _output/events.pdf
     - _output/envelopes.pdf
     - _output/helps.pdf
+    - _output/npcs.pdf
     - _output/skills.pdf
     - _output/skill_backs.pdf
     - _output/special_events.pdf

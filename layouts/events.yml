@@ -40,8 +40,8 @@ Story:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 26
   color: black
   spacing: -4
-  x: 160
-  y: 620
+  x: 155
+  y: 625
   width: 570
   height: 200
   ellipsize: false
@@ -52,8 +52,8 @@ Description:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 26
   color: black
   spacing: -4
-  x: 160
-  y: 790
+  x: 155
+  y: 795
   width: 570
   height: 200
   ellipsize: false

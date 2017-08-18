@@ -1,0 +1,2050 @@
+              ╭------------------------------------╮
+         Name | Smash 'n' Grab                     |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Smash 'n' Grab                     |
+     1-action | Punch                              |
+ 1-subactions | 👊🔊🔊➜                               |
+     2-action | Smash                              |
+ 2-subactions | 📷🔊🔊➜                               |
+     3-action | Observe                            |
+ 3-subactions | 💡🔍🔊                                |
+     4-action | Punch                              |
+ 4-subactions | 👊🔊🔊➜                               |
+     5-action | Smash                              |
+ 5-subactions | 📷🔊🔊➜                               |
+     6-action | Grab                               |
+ 6-subactions | 💰🔊                                 |
+            1 | Punch                              |
+              | 👊🔊🔊➜                               |
+            2 | Smash                              |
+              | 📷🔊🔊➜                               |
+            3 | Observe                            |
+            4 | Punch                              |
+              | 👊🔊🔊➜                               |
+            5 | Smash                              |
+              | 📷🔊🔊➜                               |
+            6 | Grab                               |
+              | 💰🔊                                 |
+        Rolls | Punch                              |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Observe/Punch                 |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Grab                          |
+              | 💰🔊                                 |
+     Upgrade1 | Steal                              |
+Upgrade1Rolls | Flip                               |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Punch                         |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Ransack                       |
+              | 💰💰🔊                                |
+     Upgrade2 | Pilfer                             |
+Upgrade2Rolls | Punch                              |
+              | 👊🔊🔊➜/Unplug                        |
+              | 📷📷🔊➜/Key In                        |
+              | 🔍🔓🔊/Flip                           |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Grab                           |
+              | 💰🔊                                 |
+            💡 | 0                                  |
+            🔊 | 9                                  |
+            ➜ | 4                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 0                                  |
+            🔍 | 0                                  |
+            💰 | 1                                  |
+      Good at | Subdue, Cameras                    |
+        Lacks | Multi-moves, ideas, locks          |
+    Seasoning | Loot                               |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Smash 'n' Grab                     |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Smash 'n' Grab                     |
+     1-action | Punch                              |
+ 1-subactions | 👊🔊🔊➜                               |
+     2-action | Smash                              |
+ 2-subactions | 📷🔊🔊➜                               |
+     3-action | Observe                            |
+ 3-subactions | 💡🔍🔊                                |
+     4-action | Punch                              |
+ 4-subactions | 👊🔊🔊➜                               |
+     5-action | Smash                              |
+ 5-subactions | 📷🔊🔊➜                               |
+     6-action | Grab                               |
+ 6-subactions | 💰🔊                                 |
+            1 | Punch                              |
+              | 👊🔊🔊➜                               |
+            2 | Smash                              |
+              | 📷🔊🔊➜                               |
+            3 | Observe                            |
+            4 | Punch                              |
+              | 👊🔊🔊➜                               |
+            5 | Smash                              |
+              | 📷🔊🔊➜                               |
+            6 | Grab                               |
+              | 💰🔊                                 |
+        Rolls | Punch                              |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Observe/Punch                 |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Grab                          |
+              | 💰🔊                                 |
+     Upgrade1 | Steal                              |
+Upgrade1Rolls | Flip                               |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Punch                         |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Ransack                       |
+              | 💰💰🔊                                |
+     Upgrade2 | Pilfer                             |
+Upgrade2Rolls | Punch                              |
+              | 👊🔊🔊➜/Unplug                        |
+              | 📷📷🔊➜/Key In                        |
+              | 🔍🔓🔊/Flip                           |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Grab                           |
+              | 💰🔊                                 |
+            💡 | 0                                  |
+            🔊 | 9                                  |
+            ➜ | 4                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 0                                  |
+            🔍 | 0                                  |
+            💰 | 1                                  |
+      Good at | Subdue, Cameras                    |
+        Lacks | Multi-moves, ideas, locks          |
+    Seasoning | Loot                               |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Hurry                              |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Hurry                              |
+     1-action | Run                                |
+ 1-subactions | 🔊🔊➜➜                               |
+     2-action | Pick                               |
+ 2-subactions | 🔓🔊                                 |
+     3-action | Run                                |
+ 3-subactions | 🔊🔊➜➜                               |
+     4-action | Observe                            |
+ 4-subactions | 💡🔍🔊                                |
+     5-action | Sprint                             |
+ 5-subactions | 🔊🔊➜➜➜                              |
+     6-action | Examine                            |
+ 6-subactions | 💡💡💡🔊                               |
+            1 | Run                                |
+              | 🔊🔊➜➜                               |
+            2 | Pick                               |
+              | 🔓🔊                                 |
+            3 | Run                                |
+              | 🔊🔊➜➜                               |
+            4 | Observe                            |
+              | 💡🔍🔊                                |
+            5 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            6 | Examine                            |
+              | 💡💡💡🔊                               |
+        Rolls | Run                                |
+              | 🔊🔊➜➜/Pick                          |
+              | 🔓🔊/Run                             |
+              | 🔊🔊➜➜/Observe                       |
+              | 💡🔍🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade1 | Ninja                              |
+Upgrade1Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sleeper Hold                    |
+              | 👊➜/Observe                         |
+              | 💡🔍🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade2 | Prowl                              |
+Upgrade2Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sneak                           |
+              | 📷🔊➜➜/Study                         |
+              | 💡💡/Sprint                          |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+            💡 | 4                                  |
+            🔊 | 9                                  |
+            ➜ | 7                                  |
+            📷 | 0                                  |
+            👊 | 0                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Multi-moves, ideas                 |
+        Lacks | Subdue, Cameras                    |
+    Seasoning | Locks                              |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Hurry                              |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Hurry                              |
+     1-action | Run                                |
+ 1-subactions | 🔊🔊➜➜                               |
+     2-action | Pick                               |
+ 2-subactions | 🔓🔊                                 |
+     3-action | Run                                |
+ 3-subactions | 🔊🔊➜➜                               |
+     4-action | Observe                            |
+ 4-subactions | 💡🔍🔊                                |
+     5-action | Sprint                             |
+ 5-subactions | 🔊🔊➜➜➜                              |
+     6-action | Examine                            |
+ 6-subactions | 💡💡💡🔊                               |
+            1 | Run                                |
+              | 🔊🔊➜➜                               |
+            2 | Pick                               |
+              | 🔓🔊                                 |
+            3 | Run                                |
+              | 🔊🔊➜➜                               |
+            4 | Observe                            |
+              | 💡🔍🔊                                |
+            5 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            6 | Examine                            |
+              | 💡💡💡🔊                               |
+        Rolls | Run                                |
+              | 🔊🔊➜➜/Pick                          |
+              | 🔓🔊/Run                             |
+              | 🔊🔊➜➜/Observe                       |
+              | 💡🔍🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade1 | Ninja                              |
+Upgrade1Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sleeper Hold                    |
+              | 👊➜/Observe                         |
+              | 💡🔍🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade2 | Prowl                              |
+Upgrade2Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sneak                           |
+              | 📷🔊➜➜/Study                         |
+              | 💡💡/Sprint                          |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+            💡 | 4                                  |
+            🔊 | 9                                  |
+            ➜ | 7                                  |
+            📷 | 0                                  |
+            👊 | 0                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Multi-moves, ideas                 |
+        Lacks | Subdue, Cameras                    |
+    Seasoning | Locks                              |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Wing It                            |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Wing It                            |
+     1-action | Discover                           |
+ 1-subactions | 🔍🔍🔊                                |
+     2-action | Strongarm                          |
+ 2-subactions | 🔓👊🔊🔊➜                              |
+     3-action | Short                              |
+ 3-subactions | 🔓📷🔊🔊➜                              |
+     4-action | Zap                                |
+ 4-subactions | 👊📷🔊🔊➜                              |
+     5-action | Grab                               |
+ 5-subactions | 💰🔊                                 |
+     6-action | Scamper                            |
+ 6-subactions | 🔊🔊🔊➜➜                              |
+            1 | Discover                           |
+              | 🔍🔍🔊                                |
+            2 | Strongarm                          |
+              | 🔓👊🔊🔊➜                              |
+            3 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+            4 | Zap                                |
+              | 👊📷🔊🔊➜                              |
+            5 | Grab                               |
+              | 💰🔊                                 |
+            6 | Scamper                            |
+              | 🔊🔊🔊➜➜                              |
+        Rolls | Discover                           |
+              | 🔍🔍🔊/Strongarm                      |
+              | 🔓👊🔊🔊➜/Short                        |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Scamper                         |
+              | 🔊🔊🔊➜➜                              |
+     Upgrade1 | Concoct                            |
+Upgrade1Rolls | Study                              |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Short                          |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Run                             |
+              | 🔊🔊➜➜                               |
+     Upgrade2 | Improvise                          |
+Upgrade2Rolls | Redirect                           |
+              | 🔓👊📷🔊🔊/Strongarm                    |
+              | 🔓👊🔊🔊➜/Short                        |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Dash                            |
+              | 🔊➜➜                                |
+            💡 | 0                                  |
+            🔊 | 11                                 |
+            ➜ | 5                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 2                                  |
+            🔍 | 2                                  |
+            💰 | 1                                  |
+      Good at | Camera, Subdue, Lock,              |
+        Lacks | Ideas                              |
+    Seasoning | Multi-moves, Loot, Reveal          |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Wing It                            |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Wing It                            |
+     1-action | Discover                           |
+ 1-subactions | 🔍🔍🔊                                |
+     2-action | Strongarm                          |
+ 2-subactions | 🔓👊🔊🔊➜                              |
+     3-action | Short                              |
+ 3-subactions | 🔓📷🔊🔊➜                              |
+     4-action | Zap                                |
+ 4-subactions | 👊📷🔊🔊➜                              |
+     5-action | Grab                               |
+ 5-subactions | 💰🔊                                 |
+     6-action | Scamper                            |
+ 6-subactions | 🔊🔊🔊➜➜                              |
+            1 | Discover                           |
+              | 🔍🔍🔊                                |
+            2 | Strongarm                          |
+              | 🔓👊🔊🔊➜                              |
+            3 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+            4 | Zap                                |
+              | 👊📷🔊🔊➜                              |
+            5 | Grab                               |
+              | 💰🔊                                 |
+            6 | Scamper                            |
+              | 🔊🔊🔊➜➜                              |
+        Rolls | Discover                           |
+              | 🔍🔍🔊/Strongarm                      |
+              | 🔓👊🔊🔊➜/Short                        |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Scamper                         |
+              | 🔊🔊🔊➜➜                              |
+     Upgrade1 | Concoct                            |
+Upgrade1Rolls | Study                              |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Short                          |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Run                             |
+              | 🔊🔊➜➜                               |
+     Upgrade2 | Improvise                          |
+Upgrade2Rolls | Redirect                           |
+              | 🔓👊📷🔊🔊/Strongarm                    |
+              | 🔓👊🔊🔊➜/Short                        |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Dash                            |
+              | 🔊➜➜                                |
+            💡 | 0                                  |
+            🔊 | 11                                 |
+            ➜ | 5                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 2                                  |
+            🔍 | 2                                  |
+            💰 | 1                                  |
+      Good at | Camera, Subdue, Lock,              |
+        Lacks | Ideas                              |
+    Seasoning | Multi-moves, Loot, Reveal          |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Hit 'n' Run                        |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Hit 'n' Run                        |
+     1-action | Hit                                |
+ 1-subactions | 👊🔊                                 |
+     2-action | Run                                |
+ 2-subactions | 🔊🔊➜➜                               |
+     3-action | Bash                               |
+ 3-subactions | 👊👊🔊                                |
+     4-action | Run                                |
+ 4-subactions | 🔊🔊➜➜                               |
+     5-action | Hit                                |
+ 5-subactions | 👊🔊                                 |
+     6-action | Observe                            |
+ 6-subactions | 💡🔍🔊                                |
+            1 | Hit                                |
+              | 👊🔊                                 |
+            2 | Run                                |
+              | 🔊🔊➜➜                               |
+            3 | Bash                               |
+              | 👊👊🔊                                |
+            4 | Run                                |
+              | 🔊🔊➜➜                               |
+            5 | Hit                                |
+              | 👊🔊                                 |
+            6 | Observe                            |
+              | 💡🔍🔊                                |
+        Rolls | Hit                                |
+              | 👊🔊/Run                             |
+              | 🔊🔊➜➜/Bash                          |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Hit                           |
+              | 👊🔊/Observe                         |
+              | 💡🔍🔊                                |
+     Upgrade1 | Assault                            |
+Upgrade1Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Rampage                       |
+              | 👊👊🔊🔊🔊➜➜/Run                        |
+              | 🔊🔊➜➜/Strongarm                     |
+              | 🔓👊🔊🔊➜/Observe                      |
+              | 💡🔍🔊                                |
+     Upgrade2 | Blast                              |
+Upgrade2Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Detonate                      |
+              | 🔓👊👊📷🔊⚠/Run                         |
+              | 🔊🔊➜➜/Bash                          |
+              | 👊👊🔊/Observe                        |
+              | 💡🔍🔊                                |
+            💡 | 1                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 0                                  |
+            👊 | 4                                  |
+            🔓 | 0                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Subdue, Multi-moves                |
+        Lacks | Cameras, Locks                     |
+    Seasoning | Ideas                              |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Hit 'n' Run                        |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Hit 'n' Run                        |
+     1-action | Hit                                |
+ 1-subactions | 👊🔊                                 |
+     2-action | Run                                |
+ 2-subactions | 🔊🔊➜➜                               |
+     3-action | Bash                               |
+ 3-subactions | 👊👊🔊                                |
+     4-action | Run                                |
+ 4-subactions | 🔊🔊➜➜                               |
+     5-action | Hit                                |
+ 5-subactions | 👊🔊                                 |
+     6-action | Observe                            |
+ 6-subactions | 💡🔍🔊                                |
+            1 | Hit                                |
+              | 👊🔊                                 |
+            2 | Run                                |
+              | 🔊🔊➜➜                               |
+            3 | Bash                               |
+              | 👊👊🔊                                |
+            4 | Run                                |
+              | 🔊🔊➜➜                               |
+            5 | Hit                                |
+              | 👊🔊                                 |
+            6 | Observe                            |
+              | 💡🔍🔊                                |
+        Rolls | Hit                                |
+              | 👊🔊/Run                             |
+              | 🔊🔊➜➜/Bash                          |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Hit                           |
+              | 👊🔊/Observe                         |
+              | 💡🔍🔊                                |
+     Upgrade1 | Assault                            |
+Upgrade1Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Rampage                       |
+              | 👊👊🔊🔊🔊➜➜/Run                        |
+              | 🔊🔊➜➜/Strongarm                     |
+              | 🔓👊🔊🔊➜/Observe                      |
+              | 💡🔍🔊                                |
+     Upgrade2 | Blast                              |
+Upgrade2Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Detonate                      |
+              | 🔓👊👊📷🔊⚠/Run                         |
+              | 🔊🔊➜➜/Bash                          |
+              | 👊👊🔊/Observe                        |
+              | 💡🔍🔊                                |
+            💡 | 1                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 0                                  |
+            👊 | 4                                  |
+            🔓 | 0                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Subdue, Multi-moves                |
+        Lacks | Cameras, Locks                     |
+    Seasoning | Ideas                              |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Bypass                             |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Bypass                             |
+     1-action | Bump                               |
+ 1-subactions | 🔓🔓🔊🔊➜                              |
+     2-action | Study                              |
+ 2-subactions | 💡💡                                 |
+     3-action | Pick                               |
+ 3-subactions | 🔓🔊                                 |
+     4-action | Sprint                             |
+ 4-subactions | 🔊🔊➜➜➜                              |
+     5-action | Run                                |
+ 5-subactions | 🔊🔊➜➜                               |
+     6-action | Pick                               |
+ 6-subactions | 🔓🔊                                 |
+            1 | Bump                               |
+              | 🔓🔓🔊🔊➜                              |
+            2 | Study                              |
+              | 💡💡                                 |
+            3 | Pick                               |
+              | 🔓🔊                                 |
+            4 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            5 | Run                                |
+              | 🔊🔊➜➜                               |
+            6 | Pick                               |
+              | 🔓🔊                                 |
+        Rolls | Bump                               |
+              | 🔓🔓🔊🔊➜/Study                        |
+              | 💡💡/Pick                            |
+              | 🔓🔊/Sprint                          |
+              | 🔊🔊➜➜➜/Run                          |
+              | 🔊🔊➜➜/Pick                          |
+              | 🔓🔊                                 |
+     Upgrade1 | Extract                            |
+Upgrade1Rolls | Rake                               |
+              | 🔓🔓🔊➜/Recon                         |
+              | 💡💡🔊🔍/Swipe                         |
+              | 🔓💰🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊                                 |
+     Upgrade2 | Circumvent                         |
+Upgrade2Rolls | Rake                               |
+              | 🔓🔓🔊➜/Study                         |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Short                          |
+              | 🔓📷🔊🔊➜                              |
+            💡 | 2                                  |
+            🔊 | 8                                  |
+            ➜ | 6                                  |
+            📷 | 0                                  |
+            👊 | 0                                  |
+            🔓 | 4                                  |
+            🔍 | 0                                  |
+            💰 | 0                                  |
+      Good at | Locks, Multi-moves                 |
+        Lacks | Cameras, Subdue                    |
+    Seasoning | Ideas                              |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Bypass                             |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Bypass                             |
+     1-action | Bump                               |
+ 1-subactions | 🔓🔓🔊🔊➜                              |
+     2-action | Study                              |
+ 2-subactions | 💡💡                                 |
+     3-action | Pick                               |
+ 3-subactions | 🔓🔊                                 |
+     4-action | Sprint                             |
+ 4-subactions | 🔊🔊➜➜➜                              |
+     5-action | Run                                |
+ 5-subactions | 🔊🔊➜➜                               |
+     6-action | Pick                               |
+ 6-subactions | 🔓🔊                                 |
+            1 | Bump                               |
+              | 🔓🔓🔊🔊➜                              |
+            2 | Study                              |
+              | 💡💡                                 |
+            3 | Pick                               |
+              | 🔓🔊                                 |
+            4 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            5 | Run                                |
+              | 🔊🔊➜➜                               |
+            6 | Pick                               |
+              | 🔓🔊                                 |
+        Rolls | Bump                               |
+              | 🔓🔓🔊🔊➜/Study                        |
+              | 💡💡/Pick                            |
+              | 🔓🔊/Sprint                          |
+              | 🔊🔊➜➜➜/Run                          |
+              | 🔊🔊➜➜/Pick                          |
+              | 🔓🔊                                 |
+     Upgrade1 | Extract                            |
+Upgrade1Rolls | Rake                               |
+              | 🔓🔓🔊➜/Recon                         |
+              | 💡💡🔊🔍/Swipe                         |
+              | 🔓💰🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊                                 |
+     Upgrade2 | Circumvent                         |
+Upgrade2Rolls | Rake                               |
+              | 🔓🔓🔊➜/Study                         |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Short                          |
+              | 🔓📷🔊🔊➜                              |
+            💡 | 2                                  |
+            🔊 | 8                                  |
+            ➜ | 6                                  |
+            📷 | 0                                  |
+            👊 | 0                                  |
+            🔓 | 4                                  |
+            🔍 | 0                                  |
+            💰 | 0                                  |
+      Good at | Locks, Multi-moves                 |
+        Lacks | Cameras, Subdue                    |
+    Seasoning | Ideas                              |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Yank Wires                         |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Yank Wires                         |
+     1-action | Shatter                            |
+ 1-subactions | 📷📷🔊🔊➜                              |
+     2-action | Sprint                             |
+ 2-subactions | 🔊🔊➜➜➜                              |
+     3-action | Smash                              |
+ 3-subactions | 📷🔊🔊➜                               |
+     4-action | Discover                           |
+ 4-subactions | 🔍🔍🔊                                |
+     5-action | Examine                            |
+ 5-subactions | 💡💡💡🔊                               |
+     6-action | Smash                              |
+ 6-subactions | 📷🔊🔊➜                               |
+            1 | Shatter                            |
+              | 📷📷🔊🔊➜                              |
+            2 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            3 | Smash                              |
+              | 📷🔊🔊➜                               |
+            4 | Discover                           |
+              | 🔍🔍🔊                                |
+            5 | Examine                            |
+              | 💡💡💡🔊                               |
+            6 | Smash                              |
+              | 📷🔊🔊➜                               |
+        Rolls | Shatter                            |
+              | 📷📷🔊🔊➜/Sprint                       |
+              | 🔊🔊➜➜➜/Smash                        |
+              | 📷🔊🔊➜/Discover                      |
+              | 🔍🔍🔊/Examine                        |
+              | 💡💡💡🔊/Smash                         |
+              | 📷🔊🔊➜                               |
+     Upgrade1 | Splice In                          |
+Upgrade1Rolls | Unplug                             |
+              | 📷📷🔊➜/Sprint                        |
+              | 🔊🔊➜➜➜/Disable                      |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Examine                       |
+              | 💡💡💡🔊/Disable                       |
+              | 📷🔊➜                                |
+     Upgrade2 | Tinker                             |
+Upgrade2Rolls | Unplug                             |
+              | 📷📷🔊➜/Stride                        |
+              | 🔊➜🔍/Disable                        |
+              | 📷🔊➜/Stride                         |
+              | 🔊➜🔍/Eyeball                        |
+              | 💡🔊🔊➜/Disable                       |
+              | 📷🔊➜                                |
+            💡 | 3                                  |
+            🔊 | 10                                 |
+            ➜ | 6                                  |
+            📷 | 4                                  |
+            👊 | 0                                  |
+            🔓 | 0                                  |
+            🔍 | 2                                  |
+            💰 | 0                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | Reveal                             |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Yank Wires                         |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Yank Wires                         |
+     1-action | Shatter                            |
+ 1-subactions | 📷📷🔊🔊➜                              |
+     2-action | Sprint                             |
+ 2-subactions | 🔊🔊➜➜➜                              |
+     3-action | Smash                              |
+ 3-subactions | 📷🔊🔊➜                               |
+     4-action | Discover                           |
+ 4-subactions | 🔍🔍🔊                                |
+     5-action | Examine                            |
+ 5-subactions | 💡💡💡🔊                               |
+     6-action | Smash                              |
+ 6-subactions | 📷🔊🔊➜                               |
+            1 | Shatter                            |
+              | 📷📷🔊🔊➜                              |
+            2 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            3 | Smash                              |
+              | 📷🔊🔊➜                               |
+            4 | Discover                           |
+              | 🔍🔍🔊                                |
+            5 | Examine                            |
+              | 💡💡💡🔊                               |
+            6 | Smash                              |
+              | 📷🔊🔊➜                               |
+        Rolls | Shatter                            |
+              | 📷📷🔊🔊➜/Sprint                       |
+              | 🔊🔊➜➜➜/Smash                        |
+              | 📷🔊🔊➜/Discover                      |
+              | 🔍🔍🔊/Examine                        |
+              | 💡💡💡🔊/Smash                         |
+              | 📷🔊🔊➜                               |
+     Upgrade1 | Splice In                          |
+Upgrade1Rolls | Unplug                             |
+              | 📷📷🔊➜/Sprint                        |
+              | 🔊🔊➜➜➜/Disable                      |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Examine                       |
+              | 💡💡💡🔊/Disable                       |
+              | 📷🔊➜                                |
+     Upgrade2 | Tinker                             |
+Upgrade2Rolls | Unplug                             |
+              | 📷📷🔊➜/Stride                        |
+              | 🔊➜🔍/Disable                        |
+              | 📷🔊➜/Stride                         |
+              | 🔊➜🔍/Eyeball                        |
+              | 💡🔊🔊➜/Disable                       |
+              | 📷🔊➜                                |
+            💡 | 3                                  |
+            🔊 | 10                                 |
+            ➜ | 6                                  |
+            📷 | 4                                  |
+            👊 | 0                                  |
+            🔓 | 0                                  |
+            🔍 | 2                                  |
+            💰 | 0                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | Reveal                             |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Steal                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Smash 'n' Grab                     |
+     1-action | Flip                               |
+ 1-subactions | 👊🔊➜                                |
+     2-action | Disable                            |
+ 2-subactions | 📷🔊➜                                |
+     3-action | Recon                              |
+ 3-subactions | 💡💡🔊🔍                               |
+     4-action | Punch                              |
+ 4-subactions | 👊🔊🔊➜                               |
+     5-action | Smash                              |
+ 5-subactions | 📷🔊🔊➜                               |
+     6-action | Ransack                            |
+ 6-subactions | 💰💰🔊                                |
+            1 | Flip                               |
+              | 👊🔊➜                                |
+            2 | Disable                            |
+              | 📷🔊➜                                |
+            3 | Recon                              |
+              | 💡💡🔊🔍                               |
+            4 | Punch                              |
+              | 👊🔊🔊➜                               |
+            5 | Smash                              |
+              | 📷🔊🔊➜                               |
+            6 | Ransack                            |
+              | 💰💰🔊                                |
+        Rolls | Flip                               |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Punch                         |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Ransack                       |
+              | 💰💰🔊                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 0                                  |
+            🔍 | 1                                  |
+            💰 | 2                                  |
+      Good at | Subdue, Cameras, Looting           |
+        Lacks | Multi-moves, locks                 |
+    Seasoning | Loot, Ideas                        |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Steal                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Smash 'n' Grab                     |
+     1-action | Flip                               |
+ 1-subactions | 👊🔊➜                                |
+     2-action | Disable                            |
+ 2-subactions | 📷🔊➜                                |
+     3-action | Recon                              |
+ 3-subactions | 💡💡🔊🔍                               |
+     4-action | Punch                              |
+ 4-subactions | 👊🔊🔊➜                               |
+     5-action | Smash                              |
+ 5-subactions | 📷🔊🔊➜                               |
+     6-action | Ransack                            |
+ 6-subactions | 💰💰🔊                                |
+            1 | Flip                               |
+              | 👊🔊➜                                |
+            2 | Disable                            |
+              | 📷🔊➜                                |
+            3 | Recon                              |
+              | 💡💡🔊🔍                               |
+            4 | Punch                              |
+              | 👊🔊🔊➜                               |
+            5 | Smash                              |
+              | 📷🔊🔊➜                               |
+            6 | Ransack                            |
+              | 💰💰🔊                                |
+        Rolls | Flip                               |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Punch                         |
+              | 👊🔊🔊➜/Smash                         |
+              | 📷🔊🔊➜/Ransack                       |
+              | 💰💰🔊                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 0                                  |
+            🔍 | 1                                  |
+            💰 | 2                                  |
+      Good at | Subdue, Cameras, Looting           |
+        Lacks | Multi-moves, locks                 |
+    Seasoning | Loot, Ideas                        |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Pilfer                             |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Smash 'n' Grab                     |
+     1-action | Punch                              |
+ 1-subactions | 👊🔊🔊➜                               |
+     2-action | Unplug                             |
+ 2-subactions | 📷📷🔊➜                               |
+     3-action | Key In                             |
+ 3-subactions | 🔍🔓🔊                                |
+     4-action | Flip                               |
+ 4-subactions | 👊🔊➜                                |
+     5-action | Disable                            |
+ 5-subactions | 📷🔊➜                                |
+     6-action | Grab                               |
+ 6-subactions | 💰🔊                                 |
+            1 | Punch                              |
+              | 👊🔊🔊➜                               |
+            2 | Unplug                             |
+              | 📷📷🔊➜                               |
+            3 | Key In                             |
+              | 🔍🔓🔊                                |
+            4 | Flip                               |
+              | 👊🔊➜                                |
+            5 | Disable                            |
+              | 📷🔊➜                                |
+            6 | Grab                               |
+              | 💰🔊                                 |
+        Rolls | Punch                              |
+              | 👊🔊🔊➜/Unplug                        |
+              | 📷📷🔊➜/Key In                        |
+              | 🔍🔓🔊/Flip                           |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Grab                           |
+              | 💰🔊                                 |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 7                                  |
+            ➜ | 4                                  |
+            📷 | 3                                  |
+            👊 | 2                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 1                                  |
+      Good at | Subdue, Cameras, Locks             |
+        Lacks | Multi-moves, ideas                 |
+    Seasoning | Loot, Locks                        |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Pilfer                             |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Smash 'n' Grab                     |
+     1-action | Punch                              |
+ 1-subactions | 👊🔊🔊➜                               |
+     2-action | Unplug                             |
+ 2-subactions | 📷📷🔊➜                               |
+     3-action | Key In                             |
+ 3-subactions | 🔍🔓🔊                                |
+     4-action | Flip                               |
+ 4-subactions | 👊🔊➜                                |
+     5-action | Disable                            |
+ 5-subactions | 📷🔊➜                                |
+     6-action | Grab                               |
+ 6-subactions | 💰🔊                                 |
+            1 | Punch                              |
+              | 👊🔊🔊➜                               |
+            2 | Unplug                             |
+              | 📷📷🔊➜                               |
+            3 | Key In                             |
+              | 🔍🔓🔊                                |
+            4 | Flip                               |
+              | 👊🔊➜                                |
+            5 | Disable                            |
+              | 📷🔊➜                                |
+            6 | Grab                               |
+              | 💰🔊                                 |
+        Rolls | Punch                              |
+              | 👊🔊🔊➜/Unplug                        |
+              | 📷📷🔊➜/Key In                        |
+              | 🔍🔓🔊/Flip                           |
+              | 👊🔊➜/Disable                        |
+              | 📷🔊➜/Grab                           |
+              | 💰🔊                                 |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 7                                  |
+            ➜ | 4                                  |
+            📷 | 3                                  |
+            👊 | 2                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 1                                  |
+      Good at | Subdue, Cameras, Locks             |
+        Lacks | Multi-moves, ideas                 |
+    Seasoning | Loot, Locks                        |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Ninja                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hurry                              |
+     1-action | Dash                               |
+ 1-subactions | 🔊➜➜                                |
+     2-action | Pick                               |
+ 2-subactions | 🔓🔊                                 |
+     3-action | Sleeper Hold                       |
+ 3-subactions | 👊➜                                 |
+     4-action | Observe                            |
+ 4-subactions | 💡🔍🔊                                |
+     5-action | Sprint                             |
+ 5-subactions | 🔊🔊➜➜➜                              |
+     6-action | Examine                            |
+ 6-subactions | 💡💡💡🔊                               |
+            1 | Dash                               |
+              | 🔊➜➜                                |
+            2 | Pick                               |
+              | 🔓🔊                                 |
+            3 | Sleeper Hold                       |
+              | 👊➜                                 |
+            4 | Observe                            |
+              | 💡🔍🔊                                |
+            5 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            6 | Examine                            |
+              | 💡💡💡🔊                               |
+        Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sleeper Hold                    |
+              | 👊➜/Observe                         |
+              | 💡🔍🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 4                                  |
+            🔊 | 6                                  |
+            ➜ | 6                                  |
+            📷 | 0                                  |
+            👊 | 1                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Multi-moves, Ideas, Subdue         |
+        Lacks | Cameras                            |
+    Seasoning | Locks                              |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Ninja                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hurry                              |
+     1-action | Dash                               |
+ 1-subactions | 🔊➜➜                                |
+     2-action | Pick                               |
+ 2-subactions | 🔓🔊                                 |
+     3-action | Sleeper Hold                       |
+ 3-subactions | 👊➜                                 |
+     4-action | Observe                            |
+ 4-subactions | 💡🔍🔊                                |
+     5-action | Sprint                             |
+ 5-subactions | 🔊🔊➜➜➜                              |
+     6-action | Examine                            |
+ 6-subactions | 💡💡💡🔊                               |
+            1 | Dash                               |
+              | 🔊➜➜                                |
+            2 | Pick                               |
+              | 🔓🔊                                 |
+            3 | Sleeper Hold                       |
+              | 👊➜                                 |
+            4 | Observe                            |
+              | 💡🔍🔊                                |
+            5 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            6 | Examine                            |
+              | 💡💡💡🔊                               |
+        Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sleeper Hold                    |
+              | 👊➜/Observe                         |
+              | 💡🔍🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 4                                  |
+            🔊 | 6                                  |
+            ➜ | 6                                  |
+            📷 | 0                                  |
+            👊 | 1                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Multi-moves, Ideas, Subdue         |
+        Lacks | Cameras                            |
+    Seasoning | Locks                              |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Prowl                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hurry                              |
+     1-action | Dash                               |
+ 1-subactions | 🔊➜➜                                |
+     2-action | Pick                               |
+ 2-subactions | 🔓🔊                                 |
+     3-action | Sneak                              |
+ 3-subactions | 📷🔊➜➜                               |
+     4-action | Study                              |
+ 4-subactions | 💡💡                                 |
+     5-action | Sprint                             |
+ 5-subactions | 🔊🔊➜➜➜                              |
+     6-action | Examine                            |
+ 6-subactions | 💡💡💡🔊                               |
+            1 | Dash                               |
+              | 🔊➜➜                                |
+            2 | Pick                               |
+              | 🔓🔊                                 |
+            3 | Sneak                              |
+              | 📷🔊➜➜                               |
+            4 | Study                              |
+              | 💡💡                                 |
+            5 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            6 | Examine                            |
+              | 💡💡💡🔊                               |
+        Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sneak                           |
+              | 📷🔊➜➜/Study                         |
+              | 💡💡/Sprint                          |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 5                                  |
+            🔊 | 6                                  |
+            ➜ | 7                                  |
+            📷 | 1                                  |
+            👊 | 0                                  |
+            🔓 | 1                                  |
+            🔍 | 0                                  |
+            💰 | 0                                  |
+      Good at | Multi-moves, Ideas, Camera         |
+        Lacks | Subdue                             |
+    Seasoning | Locks                              |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Prowl                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hurry                              |
+     1-action | Dash                               |
+ 1-subactions | 🔊➜➜                                |
+     2-action | Pick                               |
+ 2-subactions | 🔓🔊                                 |
+     3-action | Sneak                              |
+ 3-subactions | 📷🔊➜➜                               |
+     4-action | Study                              |
+ 4-subactions | 💡💡                                 |
+     5-action | Sprint                             |
+ 5-subactions | 🔊🔊➜➜➜                              |
+     6-action | Examine                            |
+ 6-subactions | 💡💡💡🔊                               |
+            1 | Dash                               |
+              | 🔊➜➜                                |
+            2 | Pick                               |
+              | 🔓🔊                                 |
+            3 | Sneak                              |
+              | 📷🔊➜➜                               |
+            4 | Study                              |
+              | 💡💡                                 |
+            5 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            6 | Examine                            |
+              | 💡💡💡🔊                               |
+        Rolls | Dash                               |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊/Sneak                           |
+              | 📷🔊➜➜/Study                         |
+              | 💡💡/Sprint                          |
+              | 🔊🔊➜➜➜/Examine                      |
+              | 💡💡💡🔊                               |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 5                                  |
+            🔊 | 6                                  |
+            ➜ | 7                                  |
+            📷 | 1                                  |
+            👊 | 0                                  |
+            🔓 | 1                                  |
+            🔍 | 0                                  |
+            💰 | 0                                  |
+      Good at | Multi-moves, Ideas, Camera         |
+        Lacks | Subdue                             |
+    Seasoning | Locks                              |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Concoct                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Wing It                            |
+     1-action | Study                              |
+ 1-subactions | 💡💡                                 |
+     2-action | Spy Stuff                          |
+ 2-subactions | 🔓👊🔊                                |
+     3-action | Short                              |
+ 3-subactions | 🔓📷🔊🔊➜                              |
+     4-action | Zap                                |
+ 4-subactions | 👊📷🔊🔊➜                              |
+     5-action | Grab                               |
+ 5-subactions | 💰🔊                                 |
+     6-action | Run                                |
+ 6-subactions | 🔊🔊➜➜                               |
+            1 | Study                              |
+              | 💡💡                                 |
+            2 | Spy Stuff                          |
+              | 🔓👊🔊                                |
+            3 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+            4 | Zap                                |
+              | 👊📷🔊🔊➜                              |
+            5 | Grab                               |
+              | 💰🔊                                 |
+            6 | Run                                |
+              | 🔊🔊➜➜                               |
+        Rolls | Study                              |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Short                          |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Run                             |
+              | 🔊🔊➜➜                               |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 2                                  |
+            🔍 | 0                                  |
+            💰 | 1                                  |
+      Good at | Camera, Subdue, Lock, Ideas        |
+        Lacks | Reveal                             |
+    Seasoning | Multi-move, Loot                   |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Concoct                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Wing It                            |
+     1-action | Study                              |
+ 1-subactions | 💡💡                                 |
+     2-action | Spy Stuff                          |
+ 2-subactions | 🔓👊🔊                                |
+     3-action | Short                              |
+ 3-subactions | 🔓📷🔊🔊➜                              |
+     4-action | Zap                                |
+ 4-subactions | 👊📷🔊🔊➜                              |
+     5-action | Grab                               |
+ 5-subactions | 💰🔊                                 |
+     6-action | Run                                |
+ 6-subactions | 🔊🔊➜➜                               |
+            1 | Study                              |
+              | 💡💡                                 |
+            2 | Spy Stuff                          |
+              | 🔓👊🔊                                |
+            3 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+            4 | Zap                                |
+              | 👊📷🔊🔊➜                              |
+            5 | Grab                               |
+              | 💰🔊                                 |
+            6 | Run                                |
+              | 🔊🔊➜➜                               |
+        Rolls | Study                              |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Short                          |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Run                             |
+              | 🔊🔊➜➜                               |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 2                                  |
+            👊 | 2                                  |
+            🔓 | 2                                  |
+            🔍 | 0                                  |
+            💰 | 1                                  |
+      Good at | Camera, Subdue, Lock, Ideas        |
+        Lacks | Reveal                             |
+    Seasoning | Multi-move, Loot                   |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Improvise                          |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Wing It                            |
+     1-action | Redirect                           |
+ 1-subactions | 🔓👊📷🔊🔊                              |
+     2-action | Strongarm                          |
+ 2-subactions | 🔓👊🔊🔊➜                              |
+     3-action | Short                              |
+ 3-subactions | 🔓📷🔊🔊➜                              |
+     4-action | Zap                                |
+ 4-subactions | 👊📷🔊🔊➜                              |
+     5-action | Grab                               |
+ 5-subactions | 💰🔊                                 |
+     6-action | Dash                               |
+ 6-subactions | 🔊➜➜                                |
+            1 | Redirect                           |
+              | 🔓👊📷🔊🔊                              |
+            2 | Strongarm                          |
+              | 🔓👊🔊🔊➜                              |
+            3 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+            4 | Zap                                |
+              | 👊📷🔊🔊➜                              |
+            5 | Grab                               |
+              | 💰🔊                                 |
+            6 | Dash                               |
+              | 🔊➜➜                                |
+        Rolls | Redirect                           |
+              | 🔓👊📷🔊🔊/Strongarm                    |
+              | 🔓👊🔊🔊➜/Short                        |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Dash                            |
+              | 🔊➜➜                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 10                                 |
+            ➜ | 5                                  |
+            📷 | 3                                  |
+            👊 | 3                                  |
+            🔓 | 3                                  |
+            🔍 | 0                                  |
+            💰 | 1                                  |
+      Good at | Camera, Subdue, Lock,              |
+        Lacks | Reveal, Ideas                      |
+    Seasoning | Multi-move, Loot                   |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Improvise                          |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Wing It                            |
+     1-action | Redirect                           |
+ 1-subactions | 🔓👊📷🔊🔊                              |
+     2-action | Strongarm                          |
+ 2-subactions | 🔓👊🔊🔊➜                              |
+     3-action | Short                              |
+ 3-subactions | 🔓📷🔊🔊➜                              |
+     4-action | Zap                                |
+ 4-subactions | 👊📷🔊🔊➜                              |
+     5-action | Grab                               |
+ 5-subactions | 💰🔊                                 |
+     6-action | Dash                               |
+ 6-subactions | 🔊➜➜                                |
+            1 | Redirect                           |
+              | 🔓👊📷🔊🔊                              |
+            2 | Strongarm                          |
+              | 🔓👊🔊🔊➜                              |
+            3 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+            4 | Zap                                |
+              | 👊📷🔊🔊➜                              |
+            5 | Grab                               |
+              | 💰🔊                                 |
+            6 | Dash                               |
+              | 🔊➜➜                                |
+        Rolls | Redirect                           |
+              | 🔓👊📷🔊🔊/Strongarm                    |
+              | 🔓👊🔊🔊➜/Short                        |
+              | 🔓📷🔊🔊➜/Zap                          |
+              | 👊📷🔊🔊➜/Grab                         |
+              | 💰🔊/Dash                            |
+              | 🔊➜➜                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 10                                 |
+            ➜ | 5                                  |
+            📷 | 3                                  |
+            👊 | 3                                  |
+            🔓 | 3                                  |
+            🔍 | 0                                  |
+            💰 | 1                                  |
+      Good at | Camera, Subdue, Lock,              |
+        Lacks | Reveal, Ideas                      |
+    Seasoning | Multi-move, Loot                   |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Assault                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hit 'n' Run                        |
+     1-action | Bash                               |
+ 1-subactions | 👊👊🔊                                |
+     2-action | Run                                |
+ 2-subactions | 🔊🔊➜➜                               |
+     3-action | Rampage                            |
+ 3-subactions | 👊👊🔊🔊🔊➜➜                            |
+     4-action | Run                                |
+ 4-subactions | 🔊🔊➜➜                               |
+     5-action | Strongarm                          |
+ 5-subactions | 🔓👊🔊🔊➜                              |
+     6-action | Observe                            |
+ 6-subactions | 💡🔍🔊                                |
+            1 | Bash                               |
+              | 👊👊🔊                                |
+            2 | Run                                |
+              | 🔊🔊➜➜                               |
+            3 | Rampage                            |
+              | 👊👊🔊🔊🔊➜➜                            |
+            4 | Run                                |
+              | 🔊🔊➜➜                               |
+            5 | Strongarm                          |
+              | 🔓👊🔊🔊➜                              |
+            6 | Observe                            |
+              | 💡🔍🔊                                |
+        Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Rampage                       |
+              | 👊👊🔊🔊🔊➜➜/Run                        |
+              | 🔊🔊➜➜/Strongarm                     |
+              | 🔓👊🔊🔊➜/Observe                      |
+              | 💡🔍🔊                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 1                                  |
+            🔊 | 11                                 |
+            ➜ | 7                                  |
+            📷 | 0                                  |
+            👊 | 5                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Subdue, Multi-moves                |
+        Lacks | Cameras                            |
+    Seasoning | Ideas, Locks                       |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Assault                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hit 'n' Run                        |
+     1-action | Bash                               |
+ 1-subactions | 👊👊🔊                                |
+     2-action | Run                                |
+ 2-subactions | 🔊🔊➜➜                               |
+     3-action | Rampage                            |
+ 3-subactions | 👊👊🔊🔊🔊➜➜                            |
+     4-action | Run                                |
+ 4-subactions | 🔊🔊➜➜                               |
+     5-action | Strongarm                          |
+ 5-subactions | 🔓👊🔊🔊➜                              |
+     6-action | Observe                            |
+ 6-subactions | 💡🔍🔊                                |
+            1 | Bash                               |
+              | 👊👊🔊                                |
+            2 | Run                                |
+              | 🔊🔊➜➜                               |
+            3 | Rampage                            |
+              | 👊👊🔊🔊🔊➜➜                            |
+            4 | Run                                |
+              | 🔊🔊➜➜                               |
+            5 | Strongarm                          |
+              | 🔓👊🔊🔊➜                              |
+            6 | Observe                            |
+              | 💡🔍🔊                                |
+        Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Rampage                       |
+              | 👊👊🔊🔊🔊➜➜/Run                        |
+              | 🔊🔊➜➜/Strongarm                     |
+              | 🔓👊🔊🔊➜/Observe                      |
+              | 💡🔍🔊                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 1                                  |
+            🔊 | 11                                 |
+            ➜ | 7                                  |
+            📷 | 0                                  |
+            👊 | 5                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Subdue, Multi-moves                |
+        Lacks | Cameras                            |
+    Seasoning | Ideas, Locks                       |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Blast                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hit 'n' Run                        |
+     1-action | Bash                               |
+ 1-subactions | 👊👊🔊                                |
+     2-action | Run                                |
+ 2-subactions | 🔊🔊➜➜                               |
+     3-action | Detonate                           |
+ 3-subactions | 🔓👊👊📷🔊⚠                             |
+     4-action | Run                                |
+ 4-subactions | 🔊🔊➜➜                               |
+     5-action | Bash                               |
+ 5-subactions | 👊👊🔊                                |
+     6-action | Observe                            |
+ 6-subactions | 💡🔍🔊                                |
+            1 | Bash                               |
+              | 👊👊🔊                                |
+            2 | Run                                |
+              | 🔊🔊➜➜                               |
+            3 | Detonate                           |
+              | 🔓👊👊📷🔊⚠                             |
+            4 | Run                                |
+              | 🔊🔊➜➜                               |
+            5 | Bash                               |
+              | 👊👊🔊                                |
+            6 | Observe                            |
+              | 💡🔍🔊                                |
+        Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Detonate                      |
+              | 🔓👊👊📷🔊⚠/Run                         |
+              | 🔊🔊➜➜/Bash                          |
+              | 👊👊🔊/Observe                        |
+              | 💡🔍🔊                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 1                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 1                                  |
+            👊 | 6                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Subdue, Multi-moves                |
+        Lacks |                                    |
+    Seasoning | Ideas, Cameras, Locks              |
+  Noise Level | High (with Alert)                  |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Blast                              |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Hit 'n' Run                        |
+     1-action | Bash                               |
+ 1-subactions | 👊👊🔊                                |
+     2-action | Run                                |
+ 2-subactions | 🔊🔊➜➜                               |
+     3-action | Detonate                           |
+ 3-subactions | 🔓👊👊📷🔊⚠                             |
+     4-action | Run                                |
+ 4-subactions | 🔊🔊➜➜                               |
+     5-action | Bash                               |
+ 5-subactions | 👊👊🔊                                |
+     6-action | Observe                            |
+ 6-subactions | 💡🔍🔊                                |
+            1 | Bash                               |
+              | 👊👊🔊                                |
+            2 | Run                                |
+              | 🔊🔊➜➜                               |
+            3 | Detonate                           |
+              | 🔓👊👊📷🔊⚠                             |
+            4 | Run                                |
+              | 🔊🔊➜➜                               |
+            5 | Bash                               |
+              | 👊👊🔊                                |
+            6 | Observe                            |
+              | 💡🔍🔊                                |
+        Rolls | Bash                               |
+              | 👊👊🔊/Run                            |
+              | 🔊🔊➜➜/Detonate                      |
+              | 🔓👊👊📷🔊⚠/Run                         |
+              | 🔊🔊➜➜/Bash                          |
+              | 👊👊🔊/Observe                        |
+              | 💡🔍🔊                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 1                                  |
+            🔊 | 8                                  |
+            ➜ | 4                                  |
+            📷 | 1                                  |
+            👊 | 6                                  |
+            🔓 | 1                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Subdue, Multi-moves                |
+        Lacks |                                    |
+    Seasoning | Ideas, Cameras, Locks              |
+  Noise Level | High (with Alert)                  |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Extract                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Bypass                             |
+     1-action | Rake                               |
+ 1-subactions | 🔓🔓🔊➜                               |
+     2-action | Recon                              |
+ 2-subactions | 💡💡🔊🔍                               |
+     3-action | Swipe                              |
+ 3-subactions | 🔓💰🔊                                |
+     4-action | Sprint                             |
+ 4-subactions | 🔊🔊➜➜➜                              |
+     5-action | Dash                               |
+ 5-subactions | 🔊➜➜                                |
+     6-action | Pick                               |
+ 6-subactions | 🔓🔊                                 |
+            1 | Rake                               |
+              | 🔓🔓🔊➜                               |
+            2 | Recon                              |
+              | 💡💡🔊🔍                               |
+            3 | Swipe                              |
+              | 🔓💰🔊                                |
+            4 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            5 | Dash                               |
+              | 🔊➜➜                                |
+            6 | Pick                               |
+              | 🔓🔊                                 |
+        Rolls | Rake                               |
+              | 🔓🔓🔊➜/Recon                         |
+              | 💡💡🔊🔍/Swipe                         |
+              | 🔓💰🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊                                 |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 7                                  |
+            ➜ | 6                                  |
+            📷 | 0                                  |
+            👊 | 0                                  |
+            🔓 | 4                                  |
+            🔍 | 1                                  |
+            💰 | 1                                  |
+      Good at | Locks, Multi-moves                 |
+        Lacks | Cameras, Subdue                    |
+    Seasoning | Ideas, Loot, Reveal                |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Extract                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Bypass                             |
+     1-action | Rake                               |
+ 1-subactions | 🔓🔓🔊➜                               |
+     2-action | Recon                              |
+ 2-subactions | 💡💡🔊🔍                               |
+     3-action | Swipe                              |
+ 3-subactions | 🔓💰🔊                                |
+     4-action | Sprint                             |
+ 4-subactions | 🔊🔊➜➜➜                              |
+     5-action | Dash                               |
+ 5-subactions | 🔊➜➜                                |
+     6-action | Pick                               |
+ 6-subactions | 🔓🔊                                 |
+            1 | Rake                               |
+              | 🔓🔓🔊➜                               |
+            2 | Recon                              |
+              | 💡💡🔊🔍                               |
+            3 | Swipe                              |
+              | 🔓💰🔊                                |
+            4 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            5 | Dash                               |
+              | 🔊➜➜                                |
+            6 | Pick                               |
+              | 🔓🔊                                 |
+        Rolls | Rake                               |
+              | 🔓🔓🔊➜/Recon                         |
+              | 💡💡🔊🔍/Swipe                         |
+              | 🔓💰🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Pick                           |
+              | 🔓🔊                                 |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 7                                  |
+            ➜ | 6                                  |
+            📷 | 0                                  |
+            👊 | 0                                  |
+            🔓 | 4                                  |
+            🔍 | 1                                  |
+            💰 | 1                                  |
+      Good at | Locks, Multi-moves                 |
+        Lacks | Cameras, Subdue                    |
+    Seasoning | Ideas, Loot, Reveal                |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Circumvent                         |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Bypass                             |
+     1-action | Rake                               |
+ 1-subactions | 🔓🔓🔊➜                               |
+     2-action | Study                              |
+ 2-subactions | 💡💡                                 |
+     3-action | Spy Stuff                          |
+ 3-subactions | 🔓👊🔊                                |
+     4-action | Sprint                             |
+ 4-subactions | 🔊🔊➜➜➜                              |
+     5-action | Dash                               |
+ 5-subactions | 🔊➜➜                                |
+     6-action | Short                              |
+ 6-subactions | 🔓📷🔊🔊➜                              |
+            1 | Rake                               |
+              | 🔓🔓🔊➜                               |
+            2 | Study                              |
+              | 💡💡                                 |
+            3 | Spy Stuff                          |
+              | 🔓👊🔊                                |
+            4 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            5 | Dash                               |
+              | 🔊➜➜                                |
+            6 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+        Rolls | Rake                               |
+              | 🔓🔓🔊➜/Study                         |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Short                          |
+              | 🔓📷🔊🔊➜                              |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 7                                  |
+            ➜ | 7                                  |
+            📷 | 1                                  |
+            👊 | 1                                  |
+            🔓 | 4                                  |
+            🔍 | 0                                  |
+            💰 | 0                                  |
+      Good at | Locks, Multi-moves                 |
+        Lacks | Loot, Reveal                       |
+    Seasoning | Ideas, Cameras, Subdue             |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Circumvent                         |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Bypass                             |
+     1-action | Rake                               |
+ 1-subactions | 🔓🔓🔊➜                               |
+     2-action | Study                              |
+ 2-subactions | 💡💡                                 |
+     3-action | Spy Stuff                          |
+ 3-subactions | 🔓👊🔊                                |
+     4-action | Sprint                             |
+ 4-subactions | 🔊🔊➜➜➜                              |
+     5-action | Dash                               |
+ 5-subactions | 🔊➜➜                                |
+     6-action | Short                              |
+ 6-subactions | 🔓📷🔊🔊➜                              |
+            1 | Rake                               |
+              | 🔓🔓🔊➜                               |
+            2 | Study                              |
+              | 💡💡                                 |
+            3 | Spy Stuff                          |
+              | 🔓👊🔊                                |
+            4 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            5 | Dash                               |
+              | 🔊➜➜                                |
+            6 | Short                              |
+              | 🔓📷🔊🔊➜                              |
+        Rolls | Rake                               |
+              | 🔓🔓🔊➜/Study                         |
+              | 💡💡/Spy Stuff                       |
+              | 🔓👊🔊/Sprint                         |
+              | 🔊🔊➜➜➜/Dash                         |
+              | 🔊➜➜/Short                          |
+              | 🔓📷🔊🔊➜                              |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 2                                  |
+            🔊 | 7                                  |
+            ➜ | 7                                  |
+            📷 | 1                                  |
+            👊 | 1                                  |
+            🔓 | 4                                  |
+            🔍 | 0                                  |
+            💰 | 0                                  |
+      Good at | Locks, Multi-moves                 |
+        Lacks | Loot, Reveal                       |
+    Seasoning | Ideas, Cameras, Subdue             |
+  Noise Level | Medium                             |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Splice In                          |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Yank Wires                         |
+     1-action | Unplug                             |
+ 1-subactions | 📷📷🔊➜                               |
+     2-action | Sprint                             |
+ 2-subactions | 🔊🔊➜➜➜                              |
+     3-action | Disable                            |
+ 3-subactions | 📷🔊➜                                |
+     4-action | Recon                              |
+ 4-subactions | 💡💡🔊🔍                               |
+     5-action | Examine                            |
+ 5-subactions | 💡💡💡🔊                               |
+     6-action | Disable                            |
+ 6-subactions | 📷🔊➜                                |
+            1 | Unplug                             |
+              | 📷📷🔊➜                               |
+            2 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            3 | Disable                            |
+              | 📷🔊➜                                |
+            4 | Recon                              |
+              | 💡💡🔊🔍                               |
+            5 | Examine                            |
+              | 💡💡💡🔊                               |
+            6 | Disable                            |
+              | 📷🔊➜                                |
+        Rolls | Unplug                             |
+              | 📷📷🔊➜/Sprint                        |
+              | 🔊🔊➜➜➜/Disable                      |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Examine                       |
+              | 💡💡💡🔊/Disable                       |
+              | 📷🔊➜                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 5                                  |
+            🔊 | 7                                  |
+            ➜ | 6                                  |
+            📷 | 4                                  |
+            👊 | 0                                  |
+            🔓 | 0                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Cameras, Multi-moves, Ideas, Revea |
+              | l                                  |
+        Lacks | Subdue, Locks                      |
+    Seasoning |                                    |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Splice In                          |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Yank Wires                         |
+     1-action | Unplug                             |
+ 1-subactions | 📷📷🔊➜                               |
+     2-action | Sprint                             |
+ 2-subactions | 🔊🔊➜➜➜                              |
+     3-action | Disable                            |
+ 3-subactions | 📷🔊➜                                |
+     4-action | Recon                              |
+ 4-subactions | 💡💡🔊🔍                               |
+     5-action | Examine                            |
+ 5-subactions | 💡💡💡🔊                               |
+     6-action | Disable                            |
+ 6-subactions | 📷🔊➜                                |
+            1 | Unplug                             |
+              | 📷📷🔊➜                               |
+            2 | Sprint                             |
+              | 🔊🔊➜➜➜                              |
+            3 | Disable                            |
+              | 📷🔊➜                                |
+            4 | Recon                              |
+              | 💡💡🔊🔍                               |
+            5 | Examine                            |
+              | 💡💡💡🔊                               |
+            6 | Disable                            |
+              | 📷🔊➜                                |
+        Rolls | Unplug                             |
+              | 📷📷🔊➜/Sprint                        |
+              | 🔊🔊➜➜➜/Disable                      |
+              | 📷🔊➜/Recon                          |
+              | 💡💡🔊🔍/Examine                       |
+              | 💡💡💡🔊/Disable                       |
+              | 📷🔊➜                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 5                                  |
+            🔊 | 7                                  |
+            ➜ | 6                                  |
+            📷 | 4                                  |
+            👊 | 0                                  |
+            🔓 | 0                                  |
+            🔍 | 1                                  |
+            💰 | 0                                  |
+      Good at | Cameras, Multi-moves, Ideas, Revea |
+              | l                                  |
+        Lacks | Subdue, Locks                      |
+    Seasoning |                                    |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Tinker                             |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Yank Wires                         |
+     1-action | Unplug                             |
+ 1-subactions | 📷📷🔊➜                               |
+     2-action | Stride                             |
+ 2-subactions | 🔊➜🔍                                |
+     3-action | Disable                            |
+ 3-subactions | 📷🔊➜                                |
+     4-action | Stride                             |
+ 4-subactions | 🔊➜🔍                                |
+     5-action | Eyeball                            |
+ 5-subactions | 💡🔊🔊➜                               |
+     6-action | Disable                            |
+ 6-subactions | 📷🔊➜                                |
+            1 | Unplug                             |
+              | 📷📷🔊➜                               |
+            2 | Stride                             |
+              | 🔊➜🔍                                |
+            3 | Disable                            |
+              | 📷🔊➜                                |
+            4 | Stride                             |
+              | 🔊➜🔍                                |
+            5 | Eyeball                            |
+              | 💡🔊🔊➜                               |
+            6 | Disable                            |
+              | 📷🔊➜                                |
+        Rolls | Unplug                             |
+              | 📷📷🔊➜/Stride                        |
+              | 🔊➜🔍/Disable                        |
+              | 📷🔊➜/Stride                         |
+              | 🔊➜🔍/Eyeball                        |
+              | 💡🔊🔊➜/Disable                       |
+              | 📷🔊➜                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 1                                  |
+            🔊 | 7                                  |
+            ➜ | 6                                  |
+            📷 | 4                                  |
+            👊 | 0                                  |
+            🔓 | 0                                  |
+            🔍 | 2                                  |
+            💰 | 0                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | (extra quiet)                      |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Tinker                             |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Yank Wires                         |
+     1-action | Unplug                             |
+ 1-subactions | 📷📷🔊➜                               |
+     2-action | Stride                             |
+ 2-subactions | 🔊➜🔍                                |
+     3-action | Disable                            |
+ 3-subactions | 📷🔊➜                                |
+     4-action | Stride                             |
+ 4-subactions | 🔊➜🔍                                |
+     5-action | Eyeball                            |
+ 5-subactions | 💡🔊🔊➜                               |
+     6-action | Disable                            |
+ 6-subactions | 📷🔊➜                                |
+            1 | Unplug                             |
+              | 📷📷🔊➜                               |
+            2 | Stride                             |
+              | 🔊➜🔍                                |
+            3 | Disable                            |
+              | 📷🔊➜                                |
+            4 | Stride                             |
+              | 🔊➜🔍                                |
+            5 | Eyeball                            |
+              | 💡🔊🔊➜                               |
+            6 | Disable                            |
+              | 📷🔊➜                                |
+        Rolls | Unplug                             |
+              | 📷📷🔊➜/Stride                        |
+              | 🔊➜🔍/Disable                        |
+              | 📷🔊➜/Stride                         |
+              | 🔊➜🔍/Eyeball                        |
+              | 💡🔊🔊➜/Disable                       |
+              | 📷🔊➜                                |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 1                                  |
+            🔊 | 7                                  |
+            ➜ | 6                                  |
+            📷 | 4                                  |
+            👊 | 0                                  |
+            🔓 | 0                                  |
+            🔍 | 2                                  |
+            💰 | 0                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | (extra quiet)                      |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
