@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'gobject-introspection'
 gem 'gio2'
-gem 'squib', '0.13.2'
+gem 'squib'
 gem 'guard'
 gem 'guard-rake'
 gem 'launchy'
