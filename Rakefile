@@ -14,6 +14,7 @@ task default: [
   :character_backs,
   :skills,
   :skill_backs,
+  :npcs,
   :events,
   :envelopes,
   :helps

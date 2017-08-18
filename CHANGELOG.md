@@ -1,5 +1,9 @@
 # v0.16 / 2017-08-18
 
+* Bugfix in the build. v16.0 build failed.
+
+# v0.16 / 2017-08-18
+
 ## Rules changes
 
 * Players can no longer pass.
