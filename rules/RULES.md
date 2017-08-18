@@ -47,7 +47,9 @@ You will start as an Amateur criminal with Amateur skills. But over time, and wi
   Blue is adjacent to a Camera, but not to a Guard.
 </div>
 
-The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A Security tile represents an unknown Security Chit (see below). Some tiles have Gates printed on them, which is described in *Security Systems*.
+The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A **Security tile** represents an unknown Security Chit (see below).
+
+Some tiles have **Lockdown Gates** printed on them, and they are lettered A,B,C, and D. A character may enter or exit this hex freely. Security Events may remove this tile from the board. Lockdown Gates are always removed in order: the A tile will be removed first, then B, and so on.
 
 You are considered **adjacent** to something if you are on a tile that shares a border with another tile. (Being on the same tile is *not* considered adjacent.)
 
@@ -92,6 +94,8 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 | 💰 | **Loot:** Gain $1k from the supply and place it on your character. |
 | 🔊 | Increase the **Noise** level by 1 (Required) |
 | ⚠ | Raise **Alert** by 1 (Required) |
+
+<div class="pagebreak"/>
 
 <div class="characters">
 <img src="./character_example.png">
@@ -140,34 +144,17 @@ Between Heists, your team will get a chance to **refine** (i.e. "level up") some
 
 <img src="../img/figure_trackers.svg" align="right">
 
-The Noise Tracker mat is used for determining how many Noise(🔊) sub-action penalties your team has incurred. Immediately upon moving your Noise level token, Raise an Alert ⚠. If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (more on that later).
+The Event cards represent the potential Security Events you will encounter in the near future. You will not be affected by _every_ event in the deck, rather, you will be encountering _one_ event each round.
 
-The Event cards represent the potential Security Events you will encounter in the near future. Every time you "Raise ⚠", move the token to the pile with the next-highest Event number on it. Discard any cards that have a lower Event number on it
+The event cards are in the order specified by the scenario in a single pile, face-up. The lowest number should be on top. At any time you are welcome (encouraged!) to look ahead at potential upcoming events.
 
-**TODO: PUT IN AN EVENT CARD HERE*
+Every time you "Raise ⚠", remove the topmost card and discard it for the rest of the heist. At any time, the top-most Event in the deck is the Active Event.
 
-**TODO: FIGURE FOR SHOWING EVENT PILES**
+Some cards are marked Special Event. These do _not_ count as Alerts. When a Special Event card is the top-most card, immediately set it aside and continue dealing Event cards.
 
-When your Alert token reaches a pile with a Special Event card on it, immediately set the Special Event card aside - you will be following this card in addition to the regular Event (see Event Phase of Gameplay).
+More on how Events are resolved can be found in the Gameplay section.
 
-The Alert Token does not go beyond the final Event card.
-
-<div class="pagebreak"/>
-
-## Security Systems
-<div class="security_systems">
-<img src="../img/figure_security.svg">
-
-**Gate**. A character may enter or exit this space freely. Security Events may remove this tile from the board.
-
-
-**TODO CHANGE FOR SPECIAL EVENTS**
-
-**Reinforcements**. This is an open tile while it is on the board - but bad things will happen here later! Reinforcements are triggered at the *__end__* of the Roll for Security phase if the Alert bar is on or beyond the Reinforcements icon. See *Phase 3. Roll for Security* for more details.
-
-</div>
-
-<div class="clear-both"/>
+The Noise Tracker mat is used for determining how many Noise(🔊) sub-action penalties your team has incurred. For each 🔊, raise the Noise tracker by one. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise ⚠. If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (more on that later).
 
 <div class="loot">
 
@@ -175,13 +162,12 @@ The Alert Token does not go beyond the final Event card.
 
 <img src="../img/figure_loot.svg">
 
-The objective of the heist is (usually) to steal Loot chits, which can be Artwork, Jewels, Documents, or Cash. At any time when a character shares a space with Loot, they may immediately place that Loot chit on their Character card.
+The objective of the heist is (usually) to steal Loot chits, which can be  Jewels or Cash, or other tokens you may unlock. At any time when a character shares a space with Loot, they may immediately place that Loot chit on their Character card.
 
 You may also "drop" loot on your current space, which means that you may effectively "insta-transfer" loot from one character to another when sharing a space.
 
-When a character with Loot gets Outdoors, the team has acquired that loot for the heist - place it on the Team Loot square. For Cash, increase the Team Cash tracker accordingly.
+When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
-A special loot chit is the **Story Beacon**, denoted by an asterisk. When a character enters a space with the Beacon for the first time, refer to the scenario for what to do, then remove the chit.
 </div>
 
 # Setting Up
@@ -384,7 +370,7 @@ If an NPC starts inside a Pressure Sensor, then they are not freed yet and effec
 
 Follow any additional abilities or limitations described on the NPC card.
 
-In every other way, treat an NPC like a regular character. Place their die on the action to denote that their action is taken. NPCs may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase (use a player die for this).
+In every other way, treat an NPC like a regular character. Place their die on the action to denote that their action is taken. NPCs may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase.
 
 Unlike players, NPCs MAY NOT _pass_. You must choose an action for them. You may, however, choose not to do any non-required Sub-Actions, so e.g. CRAWL➜ can be effectively a PASS because it has no noise but ignoring the ➜ in Walk➜🔊 still incurs a noise.
 
@@ -400,6 +386,12 @@ Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Char
 If a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
 
 **TODO MAKE A FIGURE FOR THIS**
+
+<div class="pagebreak"/>
+
+## Story Beacon
+
+A special loot chit is the **Story Beacon**, denoted by a question mark. When a character enters a space with the Beacon for the first time, refer to the scenario for what to do, then remove the chit.
 
 <div class="pagebreak"/>
 
