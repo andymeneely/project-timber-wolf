@@ -366,13 +366,13 @@ For each Pressure Sensor, a corresponding **Control Panel** of the same color ex
 
 A **Non-Player Character** is represented by a white pawn, a white die, and their NPC card. Your team will "remotely" control the NPC.
 
-If an NPC starts inside a Pressure Sensor, then they are not freed yet and effectively do not exist on the board. Immediately when the Pressure Sensor is disabled, the NPC becomes active (e.g. triggers any auto-reveals).
+If an NPC starts inside a Pressure Sensor, then they are not "freed" yet and effectively do not exist on the board. Immediately when the Pressure Sensor is disabled, the NPC becomes active (e.g. triggers any auto-reveals).
 
 Follow any additional abilities or limitations described on the NPC card.
 
 In every other way, treat an NPC like a regular character. Place their die on the action to denote that their action is taken. NPCs may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, and might need a die roll of their own during the Escape Phase.
 
-Unlike players, NPCs MAY NOT _pass_. You must choose an action for them. You may, however, choose not to do any non-required Sub-Actions, so e.g. CRAWL➜ can be effectively a PASS because it has no noise but ignoring the ➜ in Walk➜🔊 still incurs a noise.
+NPCs all come with three actions: two Default actions and one "Roll 6" action, which is available if the NPC die rolled a 6. If an NPC has any Ideas💡, they may modify their die roll as with a regular character.
 
 <div class="pagebreak"/>
 
