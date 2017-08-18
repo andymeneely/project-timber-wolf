@@ -125,7 +125,7 @@ task 'travis_rules' => ['rules:md_to_html'] do
     --footer-left "Rules"
     --footer-font-name "Archivo Narrow"
     --footer-font-size "10"
-    scenarios/RULES.html _output/RULES.pdf
+    rules/RULES.html _output/RULES.pdf
   EOSH
 end
 
