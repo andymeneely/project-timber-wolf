@@ -57,6 +57,12 @@ task :character_backs do
   @launch << "file:///#{Dir.pwd}/_output/character_backs.pdf"
 end
 
+task :npcs do
+  load 'src/npcs.rb'
+  @launch ||= []
+  @launch << "file:///#{Dir.pwd}/_output/npcs.pdf"
+end
+
 task :skills do
   load 'src/skills.rb'
   @launch ||= []
@@ -105,7 +111,7 @@ task travis: [
   :default,
   'travis_rules',
   'travis_scenarios',
-  :dropbox
+  # :dropbox
 ]
 
 desc 'Build the rules PDF'
