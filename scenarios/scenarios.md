@@ -802,9 +802,8 @@ _This is what it all comes down to. **Your objective is to get your friends out 
 
 ### Setup
 
-* Events 1-20, 20a, 20b, 20c, 21.
-* Special Events: Place _Watchtower_ cards on top of Events 10 and 16, _Reinforcements_ on top of Event 12, and _Panic!_ on top of Event 17.
-* You may use any Character from the prior campaigns, as described in the prior chapter. Same rules for Skills.
+* Events: 1-9, _Watchtower Sweep_, 10-12, _Reinforcements_, 13-15, _Watchtower Sweep_, 16, _Panic!_, 17-20, 20a, 20b, 20c, 21.
+* You may use any Character from the prior campaigns who did not end up Busted. You may acquire new Amateur Skills for them if they are not available, or you may purchase new Pro Skills for $5k each.
 
 ### Planning Phase
 
@@ -813,7 +812,7 @@ _This is what it all comes down to. **Your objective is to get your friends out 
 
 <div class="page-break"/>
 
-<img class="map" src="tbd map.svg">
+<img class="map" src="the long con ch 6 the vault.svg">
 
 <div class="page-break"/>
 
