@@ -4,6 +4,7 @@
 
 * Guard Dogs are added properly to Act 2 Chapter 4
 * New map! Act 3 Chapter 3 "Calling the Shots"
+* Added timeline keys on each cover page
 * Various tweakings of writing, of course.
 
 # v16.1 / 2017-08-18

@@ -62,7 +62,8 @@ ul{
 }
 
 .title-page .title-page-name{
-  padding-top: 1.5in;
+  padding-top: .75in;
+  padding-bottom: 1.25in;
   font-size: 2.5em;
   font-family: 'Archivo Narrow';
   letter-spacing: normal;
@@ -71,6 +72,17 @@ ul{
 }
 /*.title-page-name p:before { content: open-quote; }
 .title-page-name p:after  { content: close-quote; }*/
+
+.timeline{
+  width: 5.5in;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.timeline img{
+  width: 5.5in;
+}
 
 .map{
   /*float: right;*/

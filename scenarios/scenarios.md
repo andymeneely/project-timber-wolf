@@ -67,7 +67,9 @@ _For a friendly neighborhood self-help group, The Forum sure knows how to stay i
 
 ## Chapter 1. The Tip
 
-_5 days before The Vault Job. Your crew is eating breakfast at a diner, discussing your next job. You are approached by well-dressed man._
+_5 days before The Vault Job_
+
+_Your crew is eating breakfast at a diner, discussing your next job. You are approached by well-dressed man._
 
 _"You don't know me but I hear you're hungry for employment. I'm over at customs near The Docks and I see a lot of stuff come and go. Normally I just watch but this time I've caught wind of smugglers bringing in some stolen jewels. I could bust them the regular way but I gotta have these beauties for myself. **Steal all three jewels**. Any extra cash you grab is yours."_
 
@@ -127,10 +129,14 @@ Chapter 2<br>
   <p>Fast Learners</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 1 ch 2.svg">
+</div>
 
 # Act I. The Fall Guys
 
 ## Chapter 2. Fast Learners
+_4 days before the Vault Job_
 
 _"Wow you are some fast learners! Here's a pro job for a pro crew. There's an abandoned warehouse that's used as a secure storage for a variety of stolen goods being moved by this group known as The Forum. Security is pretty intricate on this one. They've got some pressure sensors that makes our life complicated. **Our objective is to steal two jewels,** but if we get the third we get an extra $3k for our next job."_
 
@@ -184,12 +190,17 @@ Chapter 3<br>
   <p>Your Last Heist</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 1 ch 3.svg">
+</div>
 
 # Act I. The Fall Guys
 
 ## Chapter 3. Your Last Heist
 
-_3 days before The Vault Job. Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with an intricate US Marines tattoo on his arm approaches you._
+_3 days before The Vault Job_
+
+_Your team is placed in Cell Block B, and you ask around about your "friend". A middle-aged man with an intricate US Marines tattoo on his arm approaches you._
 
 _"Yeah, that guy is The Collector. He's got a bunch of corrupt feds in his pocket and takes sick pleasure in fleecing amateur thieves and getting his... trophies." He looks down at his hands. You notice that his pinkies are missing._
 
@@ -238,12 +249,17 @@ Chapter 1<br>
   <p>The Fence</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 2 ch 1.svg">
+</div>
 
 # Act II. The Venetian Swap
 
 ## Chapter 1. The Fence
 
-_7 days before The Vault Job. A bunch of apprehensive strangers are summoned by a slender, talkative inmate during lunchtime._
+_7 days before The Vault Job_
+
+_A bunch of apprehensive strangers are summoned by a slender, talkative inmate during lunchtime._
 
 _"Look around. You might see a bunch of lowlife criminals putting in their time, but me? I see a business opportunity. See, I've got a bunch of... connections. I know how to find people who are willing to purchase the world's greatest artwork with no questions asked. I simply lack the means of  acquisition. That's where you all come in. I've hand-picked this team for your talents and potential. First, let's get out of here."_
 
@@ -299,6 +315,9 @@ Chapter 2<br>
   <div class="title-page-name">
   <p>The Gallery Job</p>
   </div>
+</div>
+<div class="timeline">
+  <img src="timeline/act 2 ch 2.svg">
 </div>
 
 # Act II. The Venetian Swap
@@ -365,13 +384,18 @@ Chapter 3<br>
   <p>The Provenance</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 2 ch 3.svg">
+</div>
 
 # Act II. The Venetian Swap
 
 ## Chapter 3. The Provenance
 
 
-_5 days before The Vault Job. You meet The Fence in a diner. He's eating a giant omelet and slides folder of papers across the table to you._
+_5 days before The Vault Job_
+
+_You meet The Fence in a diner. He's eating a giant omelet and slides folder of papers across the table to you._
 
 _"Good news! I've got a buyer lined up. Here's the problem. He's a little squeamish about this particular collection. Says he needs documented proof that these are authentic. We're gonna need to acquire those provenance records from deep within the Gallery archives. Security is a little heavier down there - watch out for those pressure sensors and for the new long-range thermal imaging system they call the Watchtower."_
 
@@ -423,12 +447,17 @@ Chapter 4<br>
   <p>The Collector</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 2 ch 4.svg">
+</div>
 
 # Act II. The Venetian Swap
 
 ## Chapter 4. The Collector
 
-_4 days before The Vault Job. The Fence calls a meeting at the safe house._
+_4 days before The Vault Job_
+
+_The Fence calls a meeting at the safe house._
 
 _"Turns out there's a bigger fan of these paintings than me. I have no idea who he hired for the job, but he managed to beat us to the Gallery. He doesn't show up on the provenance, so he clearly didn't acquire these paintings legally. Let's liberate his collection. Plus, we might as well put these fakes to good use."_
 
@@ -471,12 +500,17 @@ Chapter 5<br>
   <p>The Restoration Job</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 2 ch 5.svg">
+</div>
 
 # Act II. The Venetian Swap
 
 ## Chapter 5. The Restoration Job
 
-_3 days before The Vault Job. The crew is chatting about how the prison had another breakout this morning._
+_3 days before The Vault Job_
+
+_The crew is chatting about how the prison had another breakout this morning._
 
 _The Fence calls a meeting at the safe house but isn't there. A letter is sitting on a table next to the blueprints of The Gallery._
 
@@ -529,12 +563,17 @@ Chapter 1<br>
   <p>The Demolitions Guy</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 3 ch 1.svg">
+</div>
 
 # Act III. The Long Con
 
 ## Chapter 1: The Demolitions Guy
 
-_5 days before The Vault Job. A short, stocky, grim-faced man meets with some new recruits in his workshop._
+_5 days before The Vault Job_
+
+_A short, stocky, grim-faced man meets with some new recruits in his workshop._
 
 _"Nobody ever said this career was easy. You gotta keep moving, keep innovating. Get in, get out, get paid. Don't get greedy. That's what I learned from my last crew, and that is what I intend to teach all of you today."_
 
@@ -575,13 +614,18 @@ Chapter 2<br>
   <p>The War Veterans</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 3 ch 2.svg">
+</div>
 
 # Act III. The Long Con
 
 ## Chapter 2: The War Veterans
 
 
-_4 days before The Vault Job. The Demolitions Guy meets up with the crew in his workshop again. A tall, thin man is joking with him as the group gathers._
+_4 days before The Vault Job_
+
+_The Demolitions Guy meets up with the crew in his workshop again. A tall, thin man is joking with him as the group gathers._
 
 _"Great! We're all here. Let me introduce to you an old friend from my platoon. We call him The Fence because he's the only one in the business you'll need to offload your goods. Plus, he's got a great eye for marks."_
 
@@ -632,6 +676,9 @@ Chapter 3<br>
   <div class="title-page-name">
   <p>Calling the Shots</p>
   </div>
+</div>
+<div class="timeline">
+  <img src="timeline/act 3 ch 3.svg">
 </div>
 
 # Act III. The Long Con
@@ -687,13 +734,18 @@ Chapter 4<br>
   <p>The Jeweler</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 3 ch 4.svg">
+</div>
 
 # Act III. The Long Con
 
 ## Chapter 4: The Jeweler
 
 
-_2 days before The Vault Job. Your new boss has not allowed you to leave his house. It's filled with artwork, jewels, and strange mementos in shadowbox frames like dogtags and a bloody fedora._
+_2 days before The Vault Job_
+
+_Your new boss has not allowed you to leave his house. It's filled with artwork, jewels, and strange mementos in shadowbox frames like dogtags and a bloody fedora._
 
 _"Okay here's the gig. I've got this pawn shop that is bursting good merchandise. They have these two jewels that would be perfect for my collection. **Your objective is to steal the two jewels**, and anything else you take is yours."_
 
@@ -741,13 +793,18 @@ Chapter 5<br>
   <p>The Bait</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 3 ch 5.svg">
+</div>
 
 # Act III. The Long Con
 
 ## Chapter 5: The Bait
 
 
-_The day before The Vault Job. Your crew reads the letter from The Fence._
+_The day before The Vault Job_
+
+_Your crew reads the letter from The Fence._
 
 _"As I'm sure you've seen, The Collector is not just bad business, he's bad for society. You should also know that his house shows only part of his real collection. The Demo Guy and myself needed to locate his collection, so we let ourselves get captured back at Bristle's Studio. The Collector's got a beef with us so we knew he wouldn't risk throwing us in jail. So we got put right next to his vault and got this text message out to the Jeweler."_
 
@@ -791,6 +848,9 @@ Chapter 6<br>
   <p>The Vault Job</p>
   </div>
 </div>
+<div class="timeline">
+  <img src="timeline/act 3 ch 6.svg">
+</div>
 
 # Act III. The Long Con
 
@@ -832,7 +892,8 @@ _In the backyard you see Tat leaning against a tree looking on. He smiles._
 
 # Rebuilding Scenario
 
-_Under the guise of "fixing your posture", the crooked leaders of The Forum prey on the weak-minded to line their pockets. Now I'm an accepting person of alternative beliefs, they're using their "charities" as a front for money laundering. Fair game. These heists have no specific objectives - just get out whole and take as much as you can in preparation for the next heist._
+_Under the guise of "fixing your posture", the crooked leaders of The Forum prey on the weak-minded to line their pockets. Now I'm an accepting person of
+alternative beliefs, they're using their "charities" as a front for money laundering. Fair game. These heists have no specific objectives - just get out whole and take as much as you can in preparation for the next heist._
 
 ## The Laundromat
 
