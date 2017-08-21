@@ -2,6 +2,7 @@
 
 ## Scenario changes
 
+* Guard Dogs are added properly to Act 2 Chapter 4
 * New map! Act 3 Chapter 3 "Calling the Shots"
 * Various tweakings of writing, of course.
 
@@ -31,6 +32,7 @@ none
 * Skill cards
 * Event cards
 * Rules
+
 * NPC cards
 
 ## Known issues

@@ -406,7 +406,6 @@ _"Huh. That's funny. These provenance records describe identifying features of t
 * Add $4k to your Team Cash, plus $3k/$7k if you stole 1/2 jewels.
 * You may Promote non-Busted Characters for $3k each
 * You may Refine the Skills of any non-Busted Character for $2k each
-* Change the painting tokens in your Team Loot to their fake counterparts.
 
 Be sure to record the following on your Campaign ledger:
 
@@ -440,7 +439,7 @@ _"**Your objective is to swap in at least three painting fakes we have and steal
 <img class="map" src="venetian swap ch 4 the collector.svg">
 
 ### Setup
-* EVENTS: Use Standard Events 1-21.
+* EVENTS: Use Events 1-8, 9a ("Sick Him"), 10-14, 15a ("Sniffed Out"), 16, _Release the Hounds_, 17, 18a ("Guard the Loot Boy!"), 20, 21.
 * SPECIAL EVENTS: Place Reinforcements on top of Event 14.
 
 ### Planning Phase
@@ -449,7 +448,7 @@ _"**Your objective is to swap in at least three painting fakes we have and steal
 * You may purchase 🔍 for $1k each
 * A maximum of two Characters may start on a given Entrance tile
 * No maximum on the number of Characters per Exit during Escape
-
+* Place the fake painting tokens on Characters to carry in during this phase.
 
 <div class="page-break"/>
 
