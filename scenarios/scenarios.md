@@ -395,7 +395,7 @@ Chapter 3<br>
 
 _5 days before The Vault Job_
 
-_You meet The Fence in a diner. He's eating a giant omelet and slides folder of papers across the table to you._
+_You meet The Fence in a diner. He's eating a giant omelet and slides a folder of papers across the table to you._
 
 _"Good news! I've got a buyer lined up. Here's the problem. He's a little squeamish about this particular collection. Says he needs documented proof that these are authentic. We're gonna need to acquire those provenance records from deep within the Gallery archives. Security is a little heavier down there - watch out for those pressure sensors and for the new long-range thermal imaging system they call the Watchtower."_
 
