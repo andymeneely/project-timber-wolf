@@ -14,11 +14,11 @@ For blue lines: these are *scoring*, which is where the laser is running like a 
 
 For red lines, this is *cutting*. I usually use 60% power, 100% speed for this.
 
-For green lines, ignore these. These are used to register layers front-to-back in the design phase.
+For green lines, make sure you set the laser cutter to ignore these. These are used to register layers front-to-back in the design phase.
 
-I always do *scoring* first, then *cutting*. When the pieces get cut, they will fall down a little bit because of the curvature of the wood, so it's better to score first. I usually have to weigh down the plywood to keep it from bending as well.
+I always do *scoring* first, then *cutting*. When the pieces get cut, they will fall down a little bit because of the curvature of the wood, so it's better to score first. I usually have to weigh down the plywood to keep it from bending as well, just make sure the laser cutter head won't collide with your weights.
 
-I don't have any rastering in this maker edition - it takes a very long time, and usually the machine is under a lot of demand in our makerspace.
+I don't have any rastering in this maker edition - it takes a very long time, and usually the machine is under a lot of demand in our makerspace. So it's all vectoring!
 
 # Laser Cutting Chits and Tiles
 
@@ -35,3 +35,24 @@ TBD. Use the `vault box.svg` file to laser cut. This one is a tad more complicat
 # Making the Cards
 
 TBD
+
+# Printing Scenarios & Rules
+
+The scenarios and rules are designed to fit a small form factor, and are spread out so that you can progressively reveal them in the game.
+
+For my Brother Color Laser printer (HL-3170CDW)
+
+* I like to print this out double-sided on regular 8.5x11 paper, then cut it down.
+* My printer driver doesn't center things in the page when the document size doesn't match the paper size. Yours might be different, but it's a really frustrating problem. SO, here's my solution. Microsoft Edge is the only browser that I can find (none of the others unfortunately) that will center each page for duplex printing. So you can just print them out, cut them down to size, and hole-punch from there.
+
+Solutions that I've tested that don't work:
+* SumatraPDF - just delegates to my Brother driver
+* Chrome - not enough options, doesn't center it, and doesn't *actually* do two-sided printing if you tell it to.
+
+Microsoft Edge Options:
+* Portrait
+* Duplex printing: Long Edge (Automatic)
+* Paper size: Letter
+* Output quality: high quality
+* Color mode: color
+* Document binding: left edge
