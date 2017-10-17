@@ -50,8 +50,8 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
       text layout: "Figure#{fig}"
     end
 
-    showcase range: 0,
-             dir: 'rules', file: 'skill_example.png',
-             trim: 37.5, fill_color: '#0000', scale: 0.9
+    # showcase range: 0,
+    #          dir: 'rules', file: 'skill_example.png',
+    #          trim: 37.5, fill_color: '#0000', scale: 0.9
   end
 end

@@ -3,7 +3,7 @@ giant_text:
   height: 1800
   valign: top
   align: center
-  font: Acknowledgement, Sans 120
+  font: Acknowledgement, Sans 38.4
   # hint: red
 
 act:

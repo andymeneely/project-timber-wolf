@@ -4,7 +4,7 @@ cut:
   width: 3.5in
   height: 2.5in
 name:
-  font: Archivo Black, 32
+  font: Archivo Black, 10.24
   spacing: -20
   x: 85
   y: 310
@@ -13,7 +13,7 @@ name:
   align: center
   valign: middle
 upgrade1:
-  font: Archivo Black, 36
+  font: Archivo Black, 11.52
   x: 305
   y: 75
   width: 875
@@ -23,14 +23,14 @@ upgrade1:
   # hint: red
 up1_sum:
   extends: upgrade1
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 32
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 10.24
   y: += 60
   x: += 10
   width: -= 20
   height: 500
   align: left
 upgrade2:
-  font: Archivo Black, 36
+  font: Archivo Black, 11.52
   x: 305
   y: 440
   width: 875
@@ -40,7 +40,7 @@ upgrade2:
   # hint: black
 up2_sum:
   extends: upgrade2
-  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 32
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 10.24
   y: += 60
   x: += 10
   width: -= 20

@@ -22,11 +22,11 @@ Squib::Deck.new(cards: data.nrows) do
 
   titlesizes = data['Name'].map do |name|
     case name.length
-    when 0..7 then 62
-    when 8..9 then 50
-    when 10..12 then 46
-    when 13..14 then 40
-    when 12..50 then 34
+    when 0..7 then 19.84
+    when 8..9 then 16
+    when 10..12 then 14.72
+    when 13..14 then 13.44
+    when 12..50 then 10.88
     end
   end
   text str: data['Name'], layout: :title, font_size: titlesizes

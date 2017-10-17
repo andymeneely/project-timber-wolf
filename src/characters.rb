@@ -22,7 +22,7 @@ Squib::Deck.new(cards: total) do
     png file: 'character shadows.png'
     svg file: 'character-color.svg'#, range: 0
     svg file: data.name.map { |n| "polaroids/#{n.downcase}.svg"}
-    
+
     thirdskills = data['Default3'].map do |default|
       default.nil? ? nil : 'thirdskill shadow.png'
     end
@@ -35,11 +35,11 @@ Squib::Deck.new(cards: total) do
 
   titlesizes = data['Name'].map do |name|
     case name.length
-    when 0..7 then 62
-    when 8..9 then 50
-    when 10..12 then 46
-    when 13..14 then 42
-    when 12..50 then 34
+    when 0..7 then 19.84
+    when 8..9 then 16
+    when 10..12 then 14.72
+    when 13..14 then 13.44
+    when 12..50 then 10.88
     end
   end
   text str: data['Name'], layout: :title, font_size: titlesizes
@@ -74,8 +74,8 @@ Squib::Deck.new(cards: total) do
     %i(Level Memory Ideas Action1 Action2 Special Skill1 Skill2).each do |fig|
       text layout: "Figure#{fig}"
     end
-    showcase range: 0,
-             dir: 'rules', file: 'character_example.png',
-             trim: 37.5, fill_color: '#0000', scale: 0.9
+    # showcase range: 0,
+    #          dir: 'rules', file: 'character_example.png',
+    #          trim: 37.5, fill_color: '#0000', scale: 0.9
   end
 end

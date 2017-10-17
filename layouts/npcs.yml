@@ -4,7 +4,7 @@ cut:
   width: 2.5in
   height: 3.5in
 title:
-  font: Archivo Black, 40
+  font: Archivo Black, 12.8
   spacing: -30
   width: 425
   height: 200
@@ -13,20 +13,20 @@ title:
   align: center
   valign: middle
 Level:
-  font: Archivo Narrow, 32
+  font: Archivo Narrow, 10.24
   x: 330
   y: 200
   width: 200
   height: 75
   align: center
 Memory:
-  font: Archivo Narrow, 42
+  font: Archivo Narrow, 13.44
   x: 570
   y: 172
   width: 65
   align: right
 Ideas:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, 42
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, 13.44
   width: 65
   align: right
   color: black
@@ -34,7 +34,7 @@ Ideas:
   y: 230
 
 Special:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 30
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 9.6
   color: black
   spacing: -4
   x: 120
@@ -45,7 +45,7 @@ Special:
   valign: middle
 
 DefaultSkill:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 32
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 10.24
   y: 920
   width: 215
   height: 140
@@ -72,7 +72,7 @@ Default3Rect:
   stroke_color: black
 
 FigureLevel:
-  font: Sans Bold 36
+  font: Sans Bold 11.52
   color: red
   extends: Level
   str: ①
@@ -80,14 +80,14 @@ FigureLevel:
   y: -= 25
 
 FigureMemory:
-  font: Sans Bold 36
+  font: Sans Bold 11.52
   color: red
   extends: Memory
   str: ②
   x: += 75
 
 FigureIdeas:
-  font: Sans Bold 36
+  font: Sans Bold 11.52
   color: red
   extends: Memory
   str: ③
@@ -95,7 +95,7 @@ FigureIdeas:
   y: += 85
 
 FigureAction1:
-  font: Sans Bold 52
+  font: Sans Bold 16.64
   color: red
   extends: Default1
   str: ④
@@ -103,7 +103,7 @@ FigureAction1:
   y: -= 45
 
 FigureAction2:
-  font: Sans Bold 52
+  font: Sans Bold 16.64
   color: red
   extends: Default1
   str: ④
@@ -111,7 +111,7 @@ FigureAction2:
   y: -= 45
 
 FigureSpecial:
-  font: Sans Bold 75
+  font: Sans Bold 7.68
   color: red
   extends: Special
   str: ⑤
@@ -119,7 +119,7 @@ FigureSpecial:
   y: -= 45
 
 FigureSkill1:
-  font: Sans Bold 42
+  font: Sans Bold 13.44
   color: red
   extends: DefaultSkill
   str: ⑥
@@ -127,7 +127,7 @@ FigureSkill1:
   y: += 240
 
 FigureSkill2:
-  font: Sans Bold 42
+  font: Sans Bold 13.44
   color: red
   extends: DefaultSkill
   str: ⑥

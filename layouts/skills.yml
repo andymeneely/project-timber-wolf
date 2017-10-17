@@ -7,9 +7,9 @@ rolls:
   x: 0.25in
   y: 0.85in
   width: 2.4in
-  font: Serif, Segoe UI Symbol, 36
+  font: Serif, Segoe UI Symbol, 11.52
 name:
-  font: Archivo Black, 41
+  font: Archivo Black, 13.12
   x: 75
   y: 75
   width: 530
@@ -20,11 +20,11 @@ level:
   y: 75
   width: 160
   height: 70
-  font: Archivo Narrow, 32
+  font: Archivo Narrow, 10.24
   align: center
   valign: middle
 lacks:
-  font: Archivo Narrow, Segoe UI Symbol, 22
+  font: Archivo Narrow, Segoe UI Symbol, 7.04
   x: 880
   y: 90
   width: 170
@@ -32,7 +32,7 @@ lacks:
   align: center
   # hint: red
 die_roll:
-  font: Archivo Narrow, Segoe UI Symbol, 36
+  font: Archivo Narrow, Segoe UI Symbol, 11.52
   width: 360
   height: 160
   align: center
@@ -72,13 +72,13 @@ border:
 FigureAction:
   x: 155
   y: 180
-  font: Sans Bold 48
+  font: Sans Bold 15.36
   color: red
   str: ①
 
 FigureDieRoll:
   x: 420
   y: 290
-  font: Sans Bold 48
+  font: Sans Bold 15.36
   color: red
   str: ②

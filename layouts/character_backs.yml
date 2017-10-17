@@ -4,7 +4,7 @@ cut:
   width: 2.5in
   height: 3.5in
 name:
-  font: Archivo Black, 32
+  font: Archivo Black, 10.24
   x: 175
   y: 955
   width: 475
@@ -15,7 +15,7 @@ name:
 upgrade1:
   extends: name
   x: 75
-  font_size: 32
+  font_size: 10.24
   spacing: -20
   y: 335
   width: 325
@@ -27,7 +27,7 @@ upgrade2:
 upgrade1desc:
   extends: upgrade1
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold
-  font_size: 28
+  font_size: 8.96
   spacing: -10
   y: += 110
   height: 360

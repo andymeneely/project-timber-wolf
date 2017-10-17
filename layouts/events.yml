@@ -21,7 +21,7 @@ safe:
   stroke_color: blue
   dash: 5 3
 Name:
-  font: Archivo Black, 50
+  font: Archivo Black, 16
   spacing: -25
   width: 625
   height: 200
@@ -37,7 +37,7 @@ Img:
   height: 350
 
 Story:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 26
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 8.32
   color: black
   spacing: -4
   x: 155
@@ -49,7 +49,7 @@ Story:
   valign: top
 
 Description:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 26
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 8.32
   color: black
   spacing: -4
   x: 155
@@ -61,7 +61,7 @@ Description:
   valign: top
 
 Order:
-  font: Archivo Black, Serif Bold 24
+  font: Archivo Black, Serif Bold 7.68
   x: 140
   y: 580
   width: 150
