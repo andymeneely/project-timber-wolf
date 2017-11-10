@@ -22,3 +22,11 @@
   * Karin "Blame the Germans For" Lehnigk
   * Derek "Ideation Exploitation" Erdmann
   * Kayla Davis
+  * Chris "Can This Be a No-Noise Round" Bentivenga
+  * Wade Mauger
+  * Dylan "Noise Ain't So Bad" Vuz
+  * Peyton Schmidt
+  * Curtis Shea
+  * Dan Gude
+  * Mars Belentyne
+  * Christian Newman
