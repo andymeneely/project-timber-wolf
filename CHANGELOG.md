@@ -1,5 +1,22 @@
 # v17.0 / Unreleased
 
+## Components impacted
+
+If upgrading from v16.x, you will need to update the following components:
+
+* Characters: Street Urchin, Grifter, Black Hat, Hacktivist
+* Update the entire scenario guide - small tweaks throughout
+
+## Gameplay changes
+
+Some changes to character default actions:
+
+* Street urchin can't hesitate anymore - now REPORTs
+* Grifter doesn't Study anymore - REPORTs
+* Hacktivist gets STRIDE in addition to the RUN option
+* Black Hat starts with fewer ideas
+* Mastermind keeps Report, instead gains INSPIRE
+
 ## Scenario changes
 
 * Guard Dogs are added properly to Act 2 Chapter 4

@@ -167,16 +167,15 @@ LevelUp1Desc | +3 Memory                          |
              | Walk🔊➜ ⇒                           |
              | Dash🔊➜➜                            |
              |                                    |
-             | Heistate 💡⇒                        |
-             | Study💡💡                            |
+             | Report💡🔍🔊⇒                         |
+             | Deduce💡💡🔊                          |
 LevelUp2Desc | +1 Memory                          |
              | +1 Initial 💡                       |
              |                                    |
              | Walk🔊➜ ⇒                           |
              | Run🔊🔊➜➜                            |
              |                                    |
-             | Hesistate 💡⇒                       |
-             | INSPIRE                            |
+             | +INSPIRE                           |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Grifter                            |
@@ -186,8 +185,8 @@ LevelUp2Desc | +1 Memory                          |
        Ideas | 3                                  |
     Default1 | Dash                               |
              | 🔊➜➜                                |
-    Default2 | Report                             |
-             | 💡🔍🔊                                |
+    Default2 | Deduce                             |
+             | 💡💡🔊                                |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
@@ -208,8 +207,9 @@ LevelUp2Desc |                                    |
        Ideas | 3                                  |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
-    Default2 | Inspire                            |
-    Default3 |                                    |
+    Default2 | Report                             |
+             | 💡🔍🔊                                |
+    Default3 | Inspire                            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | THERE ARE BETTER WAYS              |
