@@ -150,8 +150,8 @@ LevelUp2Desc |                                    |
        Ideas | 2                                  |
     Default1 | Walk                               |
              | 🔊➜                                 |
-    Default2 | Hesitate                           |
-             | 💡                                  |
+    Default2 | Report                             |
+             | 💡🔍🔊                                |
     Default3 |                                    |
     LevelUp1 | Grifter                            |
     LevelUp2 | Mastermind                         |
@@ -186,8 +186,8 @@ LevelUp2Desc | +1 Memory                          |
        Ideas | 3                                  |
     Default1 | Dash                               |
              | 🔊➜➜                                |
-    Default2 | Study                              |
-             | 💡💡                                 |
+    Default2 | Report                             |
+             | 💡🔍🔊                                |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
@@ -266,10 +266,11 @@ LevelUp2Desc | +2 Memory                          |
        Level | 2                                  |
       Memory | 10                                 |
        Ideas | 6                                  |
-    Default1 | Run                                |
-             | 🔊🔊➜➜                               |
+    Default1 | Stride                             |
+             | 🔊➜🔍                                |
     Default2 | Autopwn                            |
-    Default3 |                                    |
+    Default3 | Run                                |
+             | 🔊🔊➜➜                               |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | I CAN HAZ TEH CODES?               |
@@ -289,7 +290,7 @@ LevelUp2Desc |                                    |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 5                                  |
+       Ideas | 3                                  |
     Default1 | Stride                             |
              | 🔊➜🔍                                |
     Default2 | Exploit                            |
