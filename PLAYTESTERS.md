@@ -30,3 +30,7 @@
   * Dan Gude
   * Mars Belentyne
   * Christian Newman
+  * Alex McHugh
+  * Will Coffey
+  * Drew Heintz
+  * Tanner Glantz
