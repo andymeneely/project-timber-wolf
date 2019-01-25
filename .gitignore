@@ -10,3 +10,4 @@ rules/FAQ.md.html
 scenarios/scenarios.html
 scenarios/scenarios.md.html
 _output/*.svg
+/.byebug_history

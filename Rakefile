@@ -2,6 +2,7 @@ require 'squib'
 require 'launchy'
 require 'erb'
 require 'rake/clean'
+require 'byebug'
 
 # Add Rake's clean & clobber tasks
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
