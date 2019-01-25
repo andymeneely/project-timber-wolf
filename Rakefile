@@ -119,12 +119,12 @@ desc 'Build the rules PDF'
 task rules: ['rules:md_to_html','rules:html_to_pdf']
 
 # Typical booklet
-# --page-width    5.5in
+# --page-width    5.0in
 # --page-height   8.0in
-# --margin-left   0.55in
-# --margin-right  0.55in
-# --margin-bottom 0.55in
-# --margin-top    0.55in
+# --margin-left   0.40in
+# --margin-right  0.40in
+# --margin-bottom 0.40in
+# --margin-top    0.40in
 
 # Small booklet
 # --page-width    3.75in
@@ -138,12 +138,12 @@ task 'travis_rules' => ['rules:md_to_html'] do
   sh <<-EOSH.gsub(/\n/,' ')
     xvfb-run --server-args="-screen 0, 1024x768x24"
     wkhtmltopdf
-    --page-width    3.75in
-    --page-height   6.25in
-    --margin-left   0.45in
-    --margin-right  0.45in
-    --margin-bottom 0.45in
-    --margin-top    0.45in
+    --page-width    5.0in
+    --page-height   8.0in
+    --margin-left   0.40in
+    --margin-right  0.40in
+    --margin-bottom 0.40in
+    --margin-top    0.40in
     --footer-right "[page] of [topage]"
     --footer-left "Rules"
     --footer-font-name "Archivo Narrow"
@@ -164,12 +164,12 @@ namespace :rules do
   task html_to_pdf: [:md_to_html] do
     sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
-      --page-width    3.75in
-      --page-height   6.25in
-      --margin-left   0.45in
-      --margin-right  0.45in
-      --margin-bottom 0.45in
-      --margin-top    0.45in
+      --page-width    8.0in
+      --page-height   10.0in
+      --margin-left   0.40in
+      --margin-right  0.40in
+      --margin-bottom 0.40in
+      --margin-top    0.40in
       --footer-right "[page] of [topage]"
       --footer-left "Rules"
       --footer-font-name "Archivo Narrow"
