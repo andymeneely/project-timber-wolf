@@ -34,3 +34,4 @@
   * Will Coffey
   * Drew Heintz
   * Tanner Glantz
+  * Josiah Meneely
