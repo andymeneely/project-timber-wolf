@@ -159,8 +159,12 @@ LevelUp2Desc |                                    |
              | Cannot 👊. For 💡, may exit Guarded  |
              | spaces for the rest of your turn.  |
              | In Escape, you require only 1 Esca |
-             | pe Move to exit a space with guard |
-             | s.                                 |
+             | pe Move to exit Guarded spaces.    |
+             |                                    |
+             | CHANGE OF PLANS                    |
+             | Once per heist you may spend 💡💡 to |
+             |  re-position up to any 3 planning  |
+             | tokens                             |
 LevelUp1Desc | +3 Memory                          |
              | +1 Initial 💡                       |
              |                                    |
@@ -175,7 +179,8 @@ LevelUp2Desc | +1 Memory                          |
              | Walk🔊➜ ⇒                           |
              | Run🔊🔊➜➜                            |
              |                                    |
-             | +INSPIRE                           |
+             | CHANGE OF PLANS ⇒ALRIGHT, NEW PLAN |
+             |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Grifter                            |
@@ -194,8 +199,11 @@ LevelUp2Desc | +1 Memory                          |
              | Cannot 👊. For 💡, may exit Guarded  |
              | spaces for the rest of your turn.  |
              | In Escape, you require only 1 Esca |
-             | pe Move to exit a space with guard |
-             | s.                                 |
+             | pe Move to exit Guarded spaces.    |
+             |                                    |
+             | CHANGE OF PLANS                    |
+             | Once per heist you may spend 💡💡 to |
+             |  re-position up to any 3 planning  |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -204,12 +212,13 @@ LevelUp2Desc |                                    |
    Archetype | Rogue                              |
        Level | 2                                  |
       Memory | 10                                 |
-       Ideas | 3                                  |
-    Default1 | Run                                |
-             | 🔊🔊➜➜                               |
+       Ideas | 6                                  |
+    Default1 | Walk                               |
+             | 🔊➜                                 |
     Default2 | Report                             |
              | 💡🔍🔊                                |
-    Default3 | Inspire                            |
+    Default3 | Run                                |
+             | 🔊🔊➜➜                               |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | THERE ARE BETTER WAYS              |
@@ -219,10 +228,11 @@ LevelUp2Desc |                                    |
              | pe Move to exit a space with guard |
              | s.                                 |
              |                                    |
-             | INSPIRE                            |
-             | Use this action and a 🔊 to give a  |
-             | free💡💡  to a player of your choosi |
-             | ng.                                |
+             | ALRIGHT, NEW PLAN                  |
+             | Once per heist you may spend 💡💡 to |
+             |  re-position up to any 6 planning  |
+             | tokens, and may transfer up to💡💡💡  |
+             | to other characters for 🔊🔊         |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -238,15 +248,14 @@ LevelUp2Desc |                                    |
     Default3 |                                    |
     LevelUp1 | Hacktivist                         |
     LevelUp2 | Black Hat                          |
-     Special | I CAN HAZ TEH CODES?               |
-             | Once per heist may spend 💡💡 to re- |
-             | position up to 3 planning tokens o |
-             | f any color(s)                     |
-             |                                    |
-             | AUTOPWN                            |
+     Special | AUTOPWN                            |
              | Use this Action and a 💡 to enable  |
              | another character to 👊🔊, 📷🔊, or 🔓🔊 |
              |                                    |
+             | I CAN HAZ TEH CODES                |
+             | Once per heist, you may spend 💡💡 t |
+             | o Reveal all tiles adjacent  to a  |
+             | known Live Camera.                 |
 LevelUp1Desc | +4 Memory                          |
              | +1 Initial 💡                       |
              |                                    |
@@ -273,15 +282,14 @@ LevelUp2Desc | +2 Memory                          |
              | 🔊🔊➜➜                               |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
-     Special | I CAN HAZ TEH CODES?               |
-             | Once per heist may spend 💡💡 to re- |
-             | position up to 3 planning tokens o |
-             | f any color(s)                     |
-             |                                    |
-             | AUTOPWN                            |
+     Special | AUTOPWN                            |
              | Use this Action and a 💡 to enable  |
              | another character to 👊🔊, 📷🔊, or 🔓🔊 |
              |                                    |
+             | I CAN HAZ TEH CODES                |
+             | Once per heist, you may spend 💡💡 t |
+             | o Reveal all tiles adjacent  to a  |
+             | known Live Camera.                 |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -290,21 +298,22 @@ LevelUp2Desc |                                    |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 3                                  |
+       Ideas | 5                                  |
     Default1 | Stride                             |
              | 🔊➜🔍                                |
     Default2 | Exploit                            |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
-     Special | HAS THE CODE                       |
-             | Once per heist may spend 💡💡 to re- |
-             | position up to 4 planning tokens o |
-             | f any color(s)                     |
+     Special | EXPLOIT                            |
+             | Use this Action and an 💡 to enable |
+             |  another character to 👊👊🔊, 📷📷🔊, or |
+             |  🔓🔓🔊                               |
              |                                    |
-             | EXPLOIT                            |
-             | Use this Action to enable another  |
-             | character to 👊🔊, 📷🔊, or 🔓🔊         |
+             | HAS THE CODE                       |
+             | Once per heist, you may Reveal all |
+             |  tiles adjacent  to a known Live C |
+             | amera.                             |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -442,22 +451,22 @@ LevelUp2Desc |                                    |
              | 🔊🔊➜➜                               |
     Default2 | Report                             |
              | 💡🔍🔊                                |
-    Default3 | Tunnel                             |
-             | 🔊                                  |
+    Default3 | Walk                               |
+             | 🔊➜                                 |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | VANTAGE POINT                      |
              | May 🔍 once per turn if outdoors    |
              |                                    |
              | TUNNEL                             |
-             | In planning, place tunnel token on |
-             |  a planning token of your color on |
-             |  an external tile. Place 3 Dig tok |
-             | ens on this card. In gameplay, use |
-             |  this action and 🔊 to remove 1 Dig |
-             |  token. If there are no more Dig t |
-             | okens, use this action and 🔊 to mo |
-             | ve character to tunnel token.      |
+             | In planning, place your player tok |
+             | en on an external tile for         |
+             | ⚠⚠🔊🔊🔊🔊                             |
+             |                                    |
+             | GOOD IN A PINCH                    |
+             | During Escape, may spend           |
+             | 💡💡 to give 💡 to any character, one |
+             |  time.                             |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -565,7 +574,7 @@ LevelUp1Desc | +2 Memory                          |
              | Disable📷🔊➜                         |
              |                                    |
              | +Loop Footage                      |
-LevelUp2Desc | +1 Memory                          |
+LevelUp2Desc | +2 Memory                          |
              | +2 Initial 💡                       |
              | +Follower                          |
              |                                    |
@@ -603,7 +612,7 @@ LevelUp2Desc |                                    |
         Name | Tinkerer                           |
    Archetype | Surveillance                       |
        Level | 2                                  |
-      Memory | 8                                  |
+      Memory | 9                                  |
        Ideas | 5                                  |
     Default1 | Spy Stuff                          |
              | 🔓👊🔊                                |

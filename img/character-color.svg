@@ -15,7 +15,7 @@
    viewBox="0 0 825.00007 1125"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.0 r15299"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="character-color.svg"
    inkscape:export-filename="G:\code\timber-wolf\img\character shadows.png"
    inkscape:export-xdpi="96"
@@ -259,17 +259,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3081475"
-     inkscape:cx="79.804537"
-     inkscape:cy="797.11336"
+     inkscape:zoom="1.8499999"
+     inkscape:cx="562.22991"
+     inkscape:cy="878.52552"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1672"
-     inkscape:window-y="134"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -479,12 +479,6 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
-       style="fill:#000000;fill-opacity:1"
-       d="m 668.38521,-76.530036 c 0.0669,-0.12118 0.18582,-1.03048 0.26415,-2.02067 0.0784,-0.99018 -0.40452,-2.33574 -0.28426,-2.46848 0.14588,-0.16099 1.56583,0.57827 2.9297,0.34955 3.53454,-0.59265 5.29024,-0.87241 4.43923,-3.6605 -0.32238,-1.05623 -0.31337,-1.14965 0.16507,-1.71196 0.41851,-0.49198 0.55294,-0.76065 0.21798,-1.01342 -0.5547,-0.41861 -0.65699,-0.27145 0.0455,-0.72433 0.27967,-0.18031 0.283,-0.53917 0.14209,-1.19035 -0.18798,-0.8689 -0.17494,-0.89202 0.7345,-1.3014 1.66579,-0.74976 1.51944,-1.37349 -1.18762,-5.06215 -0.85981,-1.1716 -1.48396,-1.83089 -1.30519,-2.00321 0.2422,-6.591214 -4.46035,-11.960934 -9.41049,-13.404194 -10.06089,-1.71901 -19.4409,3.34077 -19.19624,13.093154 0.16212,3.48206 1.19926,5.84498 3.95904,9.02009 1.95107,2.2448 2.21609,3.56977 2.35989,6.70807 0.088,1.88983 0.39939,2.036 -0.1293,3.77061 -0.34033,1.11658 -0.80527,2.42894 -0.80185,2.5024 0.0107,0.22973 16.92687,-0.64599 17.05784,-0.88304 z"
-       id="path4742"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssssssssscccscsssc" />
-    <path
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path1180"
@@ -574,5 +568,21 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, ';stroke-width:1.38033044px">?</tspan></text>
       </g>
     </g>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.61976838;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path916"
+       sodipodi:sides="6"
+       sodipodi:cx="863.81696"
+       sodipodi:cy="-54.870213"
+       sodipodi:r1="43.438747"
+       sodipodi:r2="37.619061"
+       sodipodi:arg1="-1.0471976"
+       sodipodi:arg2="-0.52359878"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 885.53633,-92.489272 21.71937,37.619057 -21.71937,37.61906 -43.43875,2e-6 -21.71937,-37.619057 21.71937,-37.61906 z"
+       transform="matrix(0.5528817,0,0,0.55216162,190.96465,-64.706076)" />
   </g>
 </svg>
