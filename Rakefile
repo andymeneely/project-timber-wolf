@@ -89,6 +89,10 @@ task :envelopes do
   load 'src/envelopes.rb'
 end
 
+task :fixers do
+  load 'src/fixers.rb'
+end
+
 task :launch do
   return unless @launch.respond_to? :each
   @launch.each do |url|
@@ -165,12 +169,12 @@ namespace :rules do
   task html_to_pdf: [:md_to_html] do
     sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
-      --page-width    8.0in
-      --page-height   10.0in
-      --margin-left   0.40in
-      --margin-right  0.40in
-      --margin-bottom 0.40in
-      --margin-top    0.40in
+      --page-width    7.0in
+      --page-height   7.0in
+      --margin-left   0.25in
+      --margin-right  0.25in
+      --margin-bottom 0.25in
+      --margin-top    0.25in
       --footer-right "[page] of [topage]"
       --footer-left "Rules"
       --footer-font-name "Archivo Narrow"
