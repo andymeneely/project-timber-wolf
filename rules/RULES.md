@@ -150,7 +150,7 @@ The Event cards represent the potential Security Events you will encounter in th
 
 The event cards are in the order specified by the scenario in a single pile, face-up. The lowest number should be on top. At any time you are welcome (encouraged!) to look ahead at potential upcoming events.
 
-Every time you "Raise ⚠", remove the topmost card and discard it for the rest of the heist. At any time, the top-most Event in the deck is the Active Event.
+Every time you "Raise ⚠", remove the topmost card and discard it for the rest of the heist. The top-most Event in the deck is the Active Event.
 
 Some cards are marked Special Event. These do _not_ count as Alerts. When a Special Event card is the top-most card, immediately set it aside and continue dealing Event cards. You will be doing the Special Event in addition to an Event.
 
@@ -166,7 +166,7 @@ The Noise Tracker mat is used for determining how many Noise(🔊) sub-action pe
 
 The objective of the heist is (usually) to steal Loot chits, which can be  Jewels or Cash, or other tokens you may unlock. At any time when a character shares a space with Loot, they may immediately place that Loot chit on their Character card.
 
-You may also "drop" loot on your current space, which means that you may effectively "insta-transfer" loot from one character to another when sharing a space.
+A character may also "drop" loot on their current space for no cost, which means that two characters may effectively "insta-transfer" loot from one to another when sharing a space.
 
 When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
@@ -194,7 +194,7 @@ Some boards have already-revealed security chits. The Chapter will also indicate
 
 **Step 7. Distribute initial Ideas💡** to each player according to their character.
 
-**Step 8. Set up Noise and Alert trackers** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place. Place Team Cash markers on their starting places. Place Alert bar on its starting place.
+**Step 8. Set up Noise and Alert trackers** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place. Place Team Cash markers on their starting places.
 
 **Step 9. Record your team on the ledger**. Determine a name for your team. Players are encouraged to name their characters.
 
@@ -205,7 +205,7 @@ The structure of each heist is:
   <ol class="gameplay-structure">
     <li>The Plan: Place planning tokens, and other planning
     </li>
-    <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Events. Repeat until Escape Phase.
+    <li>The Heist: (1) Roll for Skill, (2) Character Action, (3) Event. Repeat until Escape Phase.
     </li>
     <li>Promote Characters &amp; Refine Skills</li>
   </ol>
@@ -286,21 +286,24 @@ You may NOT opt to "pass". You MUST choose an Action on your Character or Skills
 
 You have the final say about what to do with your own character.
 
-### Phase 3. Events
+### Phase 3. Event Phase
 
 When all players have finished their Actions and all noise has been accounted for on the Noise Tracker, the team enters the Event phase.
 
 During this phase, the team will do exactly _one_ Event, then possibly one or more Special Events.
 
-First, follow the Event card currently on the top of the deck (Active Event). Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase.
+First, follow the Event card currently on the top of the deck (Active Event).
+Pick up the Active Event card and read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase (the Active Event card does not change).
 
-When the Event is finished, even if it had no effect, deal it off the deck. (Thus, every Event card is executed at most _one_ time in a heist.)
+When the Active Event is finished, even if it had no effect, discard the card.
 
 Second, follow any Special Event cards you have set aside. Multiple Special Events should be executed in the order they were encountered.
 
-Characters may not use their abilities during this phase.
+Characters may not use their abilities during this phase, unless the text on their card explicitly says so.
 
 Whenever an Event or Special Event card calls for a new security tokens to be placed, take the chit from the **supply** (not the bag).
+
+If the Sound the Alarm card is discarded, immediately enter the Escape Phase. If Sound the Alarm is the last card in the deck, proceed back to Roll for Skill.
 
 ### Escape Phase
 
