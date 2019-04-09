@@ -14,7 +14,7 @@
      Special | EFFICIENT PICKER                   |
              | If your action has a 🔓, you may sp |
              | end 💡 for an additional ➜🔊         |
-LevelUp1Desc | +2 Memory                          |
+LevelUp1Desc | +2 ⬢y                              |
              |                                    |
              | + 2 Initial 💡                      |
              |                                    |
@@ -83,12 +83,12 @@ LevelUp2Desc |                                    |
     LevelUp2 | Operative                          |
      Special | ADRENALINE                         |
              | Gain 💡 when you 👊                  |
-LevelUp1Desc | +2 Memory                          |
+LevelUp1Desc | +2 ⬢                               |
              |                                    |
              | + 2 Initial 💡                      |
              |                                    |
              | +Bash👊👊🔊                           |
-LevelUp2Desc | +2 Memory                          |
+LevelUp2Desc | +2 ⬢                               |
              |                                    |
              | + 4 Initial 💡                      |
              |                                    |
@@ -165,7 +165,7 @@ LevelUp2Desc |                                    |
              | Once per heist you may spend 💡💡 to |
              |  re-position up to any 3 planning  |
              | tokens                             |
-LevelUp1Desc | +3 Memory                          |
+LevelUp1Desc | +3 ⬢                               |
              | +1 Initial 💡                       |
              |                                    |
              | Walk🔊➜ ⇒                           |
@@ -173,7 +173,7 @@ LevelUp1Desc | +3 Memory                          |
              |                                    |
              | Report💡🔍🔊⇒                         |
              | Deduce💡💡🔊                          |
-LevelUp2Desc | +1 Memory                          |
+LevelUp2Desc | +1 ⬢                               |
              | +1 Initial 💡                       |
              |                                    |
              | Walk🔊➜ ⇒                           |
@@ -256,12 +256,12 @@ LevelUp2Desc |                                    |
              | Once per heist, you may spend 💡💡 t |
              | o Reveal all tiles adjacent  to a  |
              | known Live Camera.                 |
-LevelUp1Desc | +4 Memory                          |
+LevelUp1Desc | +4 ⬢                               |
              | +1 Initial 💡                       |
              |                                    |
              | Stride🔊➜🔍 ⇒                        |
              | Run🔊🔊➜➜                            |
-LevelUp2Desc | +2 Memory                          |
+LevelUp2Desc | +2 ⬢                               |
              |                                    |
              | AUTOPWN⇒                           |
              | EXPLOIT                            |
@@ -333,11 +333,11 @@ LevelUp2Desc |                                    |
      Special | DART                               |
              | Use this action to spend           |
              | 💡for 🔊➜➜                           |
-LevelUp1Desc | +1 Memory                          |
+LevelUp1Desc | +1 ⬢                               |
              | +4 Initial 💡                       |
              |                                    |
              | +SEWER CRAWL                       |
-LevelUp2Desc | +4 Memory                          |
+LevelUp2Desc | +4 ⬢                               |
              |                                    |
              | DART⇒                              |
              | BOLT                               |
@@ -398,7 +398,7 @@ LevelUp2Desc |                                    |
              | 💡🔍🔊                                |
     Default3 |                                    |
     LevelUp1 | Watchman                           |
-    LevelUp2 | Tunneler                           |
+    LevelUp2 | Sentinel                           |
      Special | VANTAGE POINT                      |
              | May 🔍 once per turn if outdoors    |
              |                                    |
@@ -406,16 +406,14 @@ LevelUp2Desc |                                    |
              | During Escape, may spend           |
              | 💡💡 to give 💡 to any character, one |
              |  time.                             |
-LevelUp1Desc | +3 Memory                          |
+LevelUp1Desc | +3 ⬢                               |
              | +1 Initial 💡                       |
              |                                    |
              | GOOD IN A PINCH⇒                   |
              | GREAT IN A PINCH                   |
-LevelUp2Desc | +1 Memory                          |
+LevelUp2Desc | +2 ⬢                               |
              |                                    |
-             | +TUNNEL                            |
-             |                                    |
-             | -GOOD IN A PINCH                   |
+             | +PLANNER                           |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Watchman                           |
@@ -442,10 +440,10 @@ LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
-        Name | Tunneler                           |
+        Name | Sentinel                           |
    Archetype | Support                            |
        Level | 2                                  |
-      Memory | 7                                  |
+      Memory | 8                                  |
        Ideas | 3                                  |
     Default1 | Run                                |
              | 🔊🔊➜➜                               |
@@ -458,15 +456,16 @@ LevelUp2Desc |                                    |
      Special | VANTAGE POINT                      |
              | May 🔍 once per turn if outdoors    |
              |                                    |
-             | TUNNEL                             |
-             | In planning, place your player tok |
-             | en on an external tile for         |
              | ⚠⚠🔊🔊🔊🔊                             |
              |                                    |
              | GOOD IN A PINCH                    |
              | During Escape, may spend           |
              | 💡💡 to give 💡 to any character, one |
              |  time.                             |
+             |                                    |
+             | PLANNER                            |
+             | During planning, add two triple-💡  |
+             | tokens to the security bag.        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -488,14 +487,14 @@ LevelUp2Desc |                                    |
              |  adjacent, not locked tile as if i |
              | t were on your tile for the rest o |
              | f the phase.                       |
-LevelUp1Desc | +1 Memory                          |
+LevelUp1Desc | +1 ⬢                               |
              | +1 Initial 💡                       |
              |                                    |
              | LARCENIST⇒                         |
              | SWINDLER                           |
              |                                    |
              | +TOSS LOOT                         |
-LevelUp2Desc | +2 Memory                          |
+LevelUp2Desc | +2 ⬢                               |
              | +1 Initial 💡                       |
              |                                    |
              | Walk🔊➜⇒                            |
@@ -567,14 +566,14 @@ LevelUp2Desc |                                    |
      Special | PATCH IN                           |
              | When adjacent to a live camera, us |
              | e this action for 💡💡🔍🔊             |
-LevelUp1Desc | +2 Memory                          |
+LevelUp1Desc | +2 ⬢                               |
              | + 1 Initial 💡                      |
              |                                    |
              | Walk & Smash⇒                      |
              | Disable📷🔊➜                         |
              |                                    |
              | +Loop Footage                      |
-LevelUp2Desc | +2 Memory                          |
+LevelUp2Desc | +2 ⬢                               |
              | +2 Initial 💡                       |
              | +Follower                          |
              |                                    |

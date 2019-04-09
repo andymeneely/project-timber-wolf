@@ -45,8 +45,8 @@ Description | Discard one Event if any Character |
             | oisy, but provides useful intel.   |
 Description | Discard one Event if any Character |
             |  is on a Subdued Guard.            |
-            | Give 💡💡 to each of those Character |
-            | s too.                             |
+            | Give 💡 to each of those Characters |
+            |  too.                              |
         Img | figure_alerts_on_disabled.svg      |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -110,8 +110,8 @@ Description | Discard one Event if any Character |
             | oisy, but provides useful intel.   |
 Description | Discard one Event if any Character |
             |  is on a Subdued Guard.            |
-            | Give 💡💡 to each of those Character |
-            | s too.                             |
+            | Give 💡 to each of those Characters |
+            |  too.                              |
         Img | figure_alerts_on_disabled.svg      |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -181,9 +181,7 @@ Description | Close the next Gate, starting with |
             ╭------------------------------------╮
        Name | Moment of Doubt                    |
       Order | 18                                 |
-      Story | Fearful of what might happen to hi |
-            | m, a guard begins blabbing. He's n |
-            | oisy, but provides useful intel.   |
+      Story | "Am I following the plan?"         |
 Description | Remove an idea (if possible) from  |
             | any Character who does not share a |
             |  tile with another character and i |
@@ -350,7 +348,7 @@ Description | Add a Dog token to each tile with  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | System Reboot                      |
-      Order |                                    |
+      Order | 12a                                |
       Story | The Guards notice that some camera |
             | s are not working. They turning th |
             | em off and on again.               |
@@ -362,10 +360,40 @@ Description | Make every Disabled Camera Live. D |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hidden Door Camera                 |
-      Order |                                    |
+      Order | 3a                                 |
       Story | "Was that there before?"           |
 Description | Add a Camera token to any hex tile |
-            |  adjacent to an exit. Resolve any  |
-            | ⚠ this causes.                     |
+            |  adjacent to an exit. Discard an E |
+            | vent for every tile that had a cha |
+            | racter that was adjacent to an exi |
+            | t.                                 |
+        Img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Are Those New Locks?               |
+      Order | 10a                                |
+      Story | You underestimated how many locks  |
+            | were around here.                  |
+Description | Add two Locks to the security bag. |
+            |                                    |
+        Img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Hidden Cameras                     |
+      Order | 4a                                 |
+      Story | How did we miss those?             |
+Description | Add three Cameras to the security  |
+            | bag.                               |
+        Img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Double Camera                      |
+      Order | 6a                                 |
+      Story | I didn't realize that was two came |
+            | ras.                               |
+Description | Add a Live Camera from the supply  |
+            | to any tile that already has a Liv |
+            | e Camera and is adjacent to a char |
+            | acter.                             |
         Img |                                    |
             ╰------------------------------------╯

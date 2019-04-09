@@ -4,7 +4,7 @@
 
 If upgrading from v16.x, you will need to update the following components:
 
-* Characters: Street Urchin, Grifter, Script Kiddie, Black Hat, Hacktivist
+* Characters: Street Urchin, Grifter, Script Kiddie, Black Hat, Hacktivist, Tunneler
 * Update the entire scenario guide - small tweaks throughout
 
 ## Gameplay changes
@@ -15,18 +15,23 @@ Reworked Street Urchin et al.
 * This whole class gains "CHANGE IN PLANS" and "ALRIGHT, NEW PLAN", which allows you to change planning tokens once per heist
 * Street urchin can't hesitate anymore - now REPORTs, as with Mastermind
 * Grifter doesn't Study anymore - DEDUCEs
-* Mastermind loses INSPIRE, gains ALRIGH, NEW PLAN which is like one-time inspire as well as a CHANGE IN PLAN. 
+* Mastermind loses INSPIRE, gains ALRIGH, NEW PLAN which is like one-time inspire as well as a CHANGE IN PLAN.
 * Mastermind can now Walk and Run, because run-only stinks.
 
 Reworked Script Kiddie et al.
 * Gains new Once-per-heist: AOE reveal on a known camera.
 * Hacktivist rw gets STRIDE in addition to the RUN option
 
+Reworked Tunneler
+* Moved Tunneler to a Fixer
+* Invented a new Lookout class: sentinel
+
 ## Scenario changes
 
 * Guard Dogs are added properly to Act 2 Chapter 4
 * New map! Act 3 Chapter 3 "Calling the Shots"
 * Added timeline keys on each cover page
+* Some new events and tweaks to old events
 * Various tweakings of writing, of course.
 
 # v16.1 / 2017-08-18
