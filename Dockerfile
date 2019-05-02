@@ -6,7 +6,8 @@ FROM ruby:2.5
 # throw errors if Gemfile has been modified since Gemfile.lock
 # RUN bundle config --global frozen 1
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && \
+    apt-get install -y \
     libgirepository1.0-dev
 
 COPY Gemfile /usr/src/app/
@@ -18,5 +19,11 @@ RUN mkdir ~/.fonts
 COPY fonts/*.otf /usr/share/fonts/
 COPY fonts/*.ttf /usr/share/fonts/
 RUN fc-cache -f -v /usr/share/fonts/
+
+ENV QT_XKB_CONFIG_ROOT=/usr/share/X11/xkb
+
+RUN wget -q https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb ; \
+    dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb ; \
+    apt-get install -f
 
 WORKDIR /usr/src/app

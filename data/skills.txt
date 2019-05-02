@@ -20,6 +20,7 @@
             2 | Smash                              |
               | 📷🔊🔊➜                               |
             3 | Observe                            |
+              | 💡🔍🔊                                |
             4 | Punch                              |
               | 👊🔊🔊➜                               |
             5 | Smash                              |
@@ -28,7 +29,8 @@
               | 💰🔊                                 |
         Rolls | Punch                              |
               | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Observe/Punch                 |
+              | 📷🔊🔊➜/Observe                       |
+              | 💡🔍🔊/Punch                          |
               | 👊🔊🔊➜/Smash                         |
               | 📷🔊🔊➜/Grab                          |
               | 💰🔊                                 |
@@ -48,13 +50,13 @@ Upgrade2Rolls | Punch                              |
               | 👊🔊➜/Disable                        |
               | 📷🔊➜/Grab                           |
               | 💰🔊                                 |
-            💡 | 0                                  |
-            🔊 | 9                                  |
+            💡 | 1                                  |
+            🔊 | 10                                 |
             ➜ | 4                                  |
             📷 | 2                                  |
             👊 | 2                                  |
             🔓 | 0                                  |
-            🔍 | 0                                  |
+            🔍 | 1                                  |
             💰 | 1                                  |
       Good at | Subdue, Cameras                    |
         Lacks | Multi-moves, ideas, locks          |
@@ -83,6 +85,7 @@ Upgrade2Rolls | Punch                              |
             2 | Smash                              |
               | 📷🔊🔊➜                               |
             3 | Observe                            |
+              | 💡🔍🔊                                |
             4 | Punch                              |
               | 👊🔊🔊➜                               |
             5 | Smash                              |
@@ -91,7 +94,8 @@ Upgrade2Rolls | Punch                              |
               | 💰🔊                                 |
         Rolls | Punch                              |
               | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Observe/Punch                 |
+              | 📷🔊🔊➜/Observe                       |
+              | 💡🔍🔊/Punch                          |
               | 👊🔊🔊➜/Smash                         |
               | 📷🔊🔊➜/Grab                          |
               | 💰🔊                                 |
@@ -111,13 +115,13 @@ Upgrade2Rolls | Punch                              |
               | 👊🔊➜/Disable                        |
               | 📷🔊➜/Grab                           |
               | 💰🔊                                 |
-            💡 | 0                                  |
-            🔊 | 9                                  |
+            💡 | 1                                  |
+            🔊 | 10                                 |
             ➜ | 4                                  |
             📷 | 2                                  |
             👊 | 2                                  |
             🔓 | 0                                  |
-            🔍 | 0                                  |
+            🔍 | 1                                  |
             💰 | 1                                  |
       Good at | Subdue, Cameras                    |
         Lacks | Multi-moves, ideas, locks          |
