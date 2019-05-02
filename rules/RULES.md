@@ -1,8 +1,10 @@
-<div class="cover">
+<!-- <div class="cover">
   RULES
-</div>
+</div> -->
 
-_Your Last Heist_ is a cooperative heist game set in a campaign. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
+# RULES
+
+_Masters of the Heist_ is a cooperative heist game set in a campaign. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
@@ -363,8 +365,6 @@ For each Pressure Sensor, a corresponding **Control Panel** of the same color ex
 
 **TODO: MAKE A FIGURE ABOUT THIS**
 
-<div class="pagebreak"/>
-
 ## Non-Player Characters
 
 A **Non-Player Character** is represented by a white pawn, a white die, and their NPC card. Your team will "remotely" control the NPC.
@@ -377,8 +377,6 @@ In every other way, treat an NPC like a regular character. Place their die on th
 
 NPCs all come with three actions: two Default actions and one "Roll 6" action, which is available if the NPC die rolled a 6. If an NPC has any Ideas💡, they may modify their die roll as with a regular character.
 
-<div class="pagebreak"/>
-
 ## Guard Dogs
 
 Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Character:
@@ -390,13 +388,9 @@ If a Guard Dog is added to a tile that does not already have a character and is 
 
 **TODO MAKE A FIGURE FOR THIS**
 
-<div class="pagebreak"/>
-
 ## Story Beacon
 
 A special loot chit is the **Story Beacon**, denoted by a question mark. When a character enters a space with the Beacon for the first time, refer to the scenario for what to do, then remove the chit.
-
-<div class="pagebreak"/>
 
 ## Bosses
 
