@@ -1,8 +1,10 @@
             ╭------------------------------------╮
        Name | Old Friend                         |
+    Faction | No Faction                         |
 Description | During the planning phase, you may |
             |  purchase:                         |
-            | Gain 💡 for $2k each                |
+            | Give 💡 to any team member for $2k  |
+            | each                               |
             | 🔍 for $2k each                     |
             | Sell a jewel for $2k each.         |
  Membership | No faction.                        |
@@ -10,6 +12,7 @@ Description | During the planning phase, you may |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sketchy Pawn Shop Owner            |
+    Faction | Fence Cartel                       |
 Description | JEWELRY SALESMAN                   |
             | You may sell jewels for $3k each.  |
             |                                    |
@@ -22,6 +25,7 @@ Description | JEWELRY SALESMAN                   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | The Curator                        |
+    Faction | Fence Cartel                       |
 Description | REFINED TASTE                      |
             | You may sell paintings for $2k eac |
             | h, or for a set of 2/3 for $5k/$8k |
@@ -32,6 +36,7 @@ Description | REFINED TASTE                      |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Tunneler                           |
+    Faction | Fence Cartel                       |
 Description | WE'LL MAKE A WAY                   |
             | During planning phase, you may add |
             |  one Entrance to any external side |
@@ -43,6 +48,7 @@ Description | WE'LL MAKE A WAY                   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Frustrated Beat Cop                |
+    Faction | Corrupt Cops                       |
 Description | MOONLIGHTER FRIENDS                |
             | During planning, you may exchange  |
             | Guard tokens with blanks in the ba |
@@ -53,6 +59,7 @@ Description | MOONLIGHTER FRIENDS                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Poor Prison Guard                  |
+    Faction | Corrupt Cops                       |
 Description | HAVE YOU SEEN WHAT WE MAKE??       |
             | During planning of a heist where a |
             |  character starts on the inside, y |
@@ -64,6 +71,7 @@ Description | HAVE YOU SEEN WHAT WE MAKE??       |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Burned Out Sergeant                |
+    Faction | Corrupt Cops                       |
 Description | IT'LL LOOK LEGIT                   |
             | For $3k, any Guard discovered duri |
             | ng the planning phase starts subdu |
@@ -74,6 +82,7 @@ Description | IT'LL LOOK LEGIT                   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Spammer                            |
+    Faction | Hacker                             |
 Description | DENIAL OF SERVICE                  |
             | For $3k, any Camera discovered dur |
             | ing the planning phase starts disa |
@@ -84,16 +93,18 @@ Description | DENIAL OF SERVICE                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Security System Salesman           |
+    Faction | Hacker                             |
 Description | JUST AUTOMATE IT!                  |
-            | During planning,  replace 1 Lock a |
-            | nd 1 Guard with 3 Cameras in the s |
-            | ecurity bag for $3k.               |
+            | During planning, replace 1 Lock an |
+            | d 1 Guard with 3 Cameras in the se |
+            | curity bag for $3k.                |
  Membership | Hacker faction member.             |
             | Won't work with Fixers in other fa |
             | ctions.                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Internet Troll                     |
+    Faction | Hacker                             |
 Description | IT'S ALL ONLINE                    |
             | During planning, you may purchase  |
             | 🔍 for $1k each                     |
@@ -103,6 +114,7 @@ Description | IT'S ALL ONLINE                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Extorted Locksmith                 |
+    Faction | Mafia                              |
 Description | WHAT ARE THEY USING?               |
             | Gain an 💡 for each Lock revealed d |
             | uring planning                     |
@@ -112,6 +124,7 @@ Description | WHAT ARE THEY USING?               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Probably Retired Thief             |
+    Faction | Mafia                              |
 Description | IF YOU DO THIS, DO IT RIGHT        |
             | During the planning phase, you may |
             |  purchase 💡 for $1k each           |
@@ -125,6 +138,7 @@ Description | IF YOU DO THIS, DO IT RIGHT        |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Recruiter                          |
+    Faction | Mafia                              |
 Description | I KNOW A GUY                       |
             | New characters gain 1 refined skil |
             | l when recruited.                  |
@@ -133,16 +147,8 @@ Description | I KNOW A GUY                       |
             | ctions.                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Talented Niece                     |
-Description | GET WITH THE TIMES                 |
-            | You may use Fixers from both the H |
-            | acker and Mafia factions.          |
- Membership | Hacker & Mafia member              |
-            | Won't work with Fixers in other fa |
-            | ctions.                            |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Retired Heist Detective            |
+    Faction | Diplomat                           |
 Description | OLD SCHOOL DIPLOMACY               |
             | You may use Fixers from both the C |
             | orrupt Cops and the Fence Cartel f |
@@ -153,21 +159,11 @@ Description | OLD SCHOOL DIPLOMACY               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Online Mogul                       |
+    Faction | Diplomat                           |
 Description | DARK WEB                           |
-            | You may use Fixers from both the F |
-            | ence Cartel and the Hacker faction |
-            | s.                                 |
- Membership | Fence Cartel & Hacker member.      |
-            | Won't work with Fixers in other fa |
-            | ctions.                            |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Inside Man                         |
-Description | LIFE AIN'T SO BLACK AND WHITE      |
             | You may use Fixers from both the M |
-            | afia and the Corrupt Cops factions |
-            | .                                  |
- Membership | Mafia & Corrupt Cops member.       |
+            | afia and the Hacker factions.      |
+ Membership | Fence Cartel & Hacker member.      |
             | Won't work with Fixers in other fa |
             | ctions.                            |
             ╰------------------------------------╯
