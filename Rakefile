@@ -178,12 +178,13 @@ namespace :rules do
   task html_to_pdf: [:md_to_html] do
     sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
-      --page-width    6.50in
-      --page-height   6.50in
+      --page-width    5.50in
+      --page-height   7.00in
       --margin-left   0.25in
       --margin-right  0.25in
       --margin-bottom 0.25in
       --margin-top    0.25in
+      --encoding 'UTF-8'
       --footer-right "[page] of [topage]"
       --footer-left "Rules"
       --footer-font-name "Archivo Narrow"

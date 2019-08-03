@@ -1,14 +1,14 @@
-<!-- <div class="cover">
-  RULES
-</div> -->
-
-# RULES
+<div class="title">
+  Masters of the Heist
+</div>
 
 _Masters of the Heist_ is a cooperative heist game set in a campaign. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
 You will start as an Amateur criminal with Amateur skills. But over time, and with good decisions along the way, you and your teammates will level up your characters and skills as you make your way through a story-driven campaign. Each heist is highly replayable, with various outcomes.
+
+<div class="pagebreak"/>
 
 ## The Pieces
 
@@ -97,9 +97,7 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 | 🔍 | **Reveal** 1 security token anywhere on the board |
 | 💰 | **Loot:** Gain $1k from the supply and place it on your character. |
 | 🔊 | Increase the **Noise** level by 1 (Required) |
-| ⚠ | Raise **Alert** by 1 (Required) |
-
-<div class="pagebreak"/>
+| ⚠ |  **Alert**. Discard the top Event card. (Required) |
 
 <div class="characters">
 <img src="./character_example.png">
@@ -356,6 +354,10 @@ If you have completed your objective, your team advances to the next chapter. If
 Leftover 💡 are lost. Any cash on a Character is added to the Team Cash tracker, as well as any loot. Be sure to note everything in your Campaign History.
 
 <div class="pagebreak"/>
+
+# Additional Modules
+
+The following modules are introduced in the course of the campaign.
 
 ## Pressure Sensors
 

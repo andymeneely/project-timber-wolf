@@ -1,14 +1,16 @@
-FROM ruby:2.5
+FROM squib:latest
 
 # This Dockerfile is built specifically for project-timber-wolf
-# We're working on a separate general-purpose runner for Squib for DockerHub
-
-# throw errors if Gemfile has been modified since Gemfile.lock
-# RUN bundle config --global frozen 1
 
 RUN apt-get update && \
     apt-get install -y \
-    libgirepository1.0-dev
+    libgirepository1.0-dev \
+    # build-essential \
+    # xorg \
+    # libssl-dev \
+    # libxrender-dev \
+    # wget \
+    # gdebi
 
 COPY Gemfile /usr/src/app/
 RUN gem install bundler && \

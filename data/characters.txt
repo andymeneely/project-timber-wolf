@@ -606,26 +606,17 @@ LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
-        Name | Tinkerer                           |
-   Archetype | Surveillance                       |
-       Level | 2                                  |
-      Memory | 9                                  |
-       Ideas | 5                                  |
-    Default1 | Spy Stuff                          |
-             | 🔓👊🔊                                |
-    Default2 | Short                              |
-             | 📷📷🔊                                |
-    Default3 | Patch In                           |
+        Name | ???                                |
+   Archetype |                                    |
+       Level |                                    |
+      Memory |                                    |
+       Ideas |                                    |
+    Default1 |                                    |
+    Default2 |                                    |
+    Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
-     Special | FOLLOWER                           |
-             | For 💡, may 🔊➜ as long as the desti |
-             | nation of the move has another cha |
-             | racter at the time of the move.    |
-             |                                    |
-             | PATCH IN                           |
-             | When adjacent to a live camera, us |
-             | e this action for 💡💡🔍🔊             |
+     Special |                                    |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
