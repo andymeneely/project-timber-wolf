@@ -1,10 +1,10 @@
-FROM squib:latest
+FROM andymeneely/squib:latest
 
 # This Dockerfile is built specifically for project-timber-wolf
 
 RUN apt-get update && \
     apt-get install -y \
-    libgirepository1.0-dev \
+    libgirepository1.0-dev
     # build-essential \
     # xorg \
     # libssl-dev \

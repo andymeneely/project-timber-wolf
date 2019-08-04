@@ -74,6 +74,7 @@ Squib::Deck.new(cards: total) do
     embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
     embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
   end
+  
   text layout: :Default3, str: data['Default3'] do |embed|
     embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
     embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
