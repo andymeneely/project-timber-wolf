@@ -1,70 +1,43 @@
-        ╭------------------------------------╮
-    Act | I                                  |
-Chapter | 1                                  |
-   Name | The Tip                            |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | I                                  |
-Chapter | 2                                  |
-   Name | Fast Learners                      |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | I                                  |
-Chapter | 3                                  |
-   Name | Your Last Heist                    |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | II                                 |
-Chapter | 1                                  |
-   Name | The Fence                          |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | II                                 |
-Chapter | 2                                  |
-   Name | The Gallery Job                    |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | II                                 |
-Chapter | 3                                  |
-   Name | The Provenance                     |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | II                                 |
-Chapter | 4                                  |
-   Name | The Collector                      |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | II                                 |
-Chapter | 5                                  |
-   Name | The Restoration Job                |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | III                                |
-Chapter | 1                                  |
-   Name | The Demolitions Guy                |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | III                                |
-Chapter | 2                                  |
-   Name | The War Veterans                   |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | III                                |
-Chapter | 3                                  |
-   Name | Calling the Shots                  |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | III                                |
-Chapter | 4                                  |
-   Name | The Jeweler                        |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | III                                |
-Chapter | 5                                  |
-   Name | The Bait                           |
-        ╰------------------------------------╯
-        ╭------------------------------------╮
-    Act | III                                |
-Chapter | 6                                  |
-   Name | The Vault Job                      |
-        ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | Museum Curator                     |
+           Qty | 1                                  |
+   Description | Raise ⁉ whenever he encounters a t |
+               | ile with at least one inactive sec |
+               | urity token. Initiate Escape if he |
+               |  encounters one of your characters |
+               | .                                  |
+Suspicion1Desc | Place 1 Dog immediately.           |
+Suspicion1Icon | boss_release_dog.svg               |
+Suspicion2Desc | Pick up any paintings encountered  |
+               | from now on. Move two spaces inste |
+               | ad of one each round.              |
+Suspicion2Icon | boss_pickup.svg                    |
+Suspicion3Desc | Place 2 Dogs immediately. Move two |
+               |  spaces instead of one each round. |
+               |                                    |
+Suspicion3Icon | boss_pickup_dogs.svg               |
+Suspicion4Desc | Drop any paintings immediately. Ra |
+               | ise ⚠ each ⁉ from now on. Do not p |
+               | ick up any more paintings. Move th |
+               | ree spaces instead of one.         |
+Suspicion4Icon | boss_raise_alert.svg               |
+               ╰------------------------------------╯
+               ╭------------------------------------╮
+          Name | The Collector                      |
+           Qty | 1                                  |
+   Description | Raise ⁉ whenever he encounters a t |
+               | ile with at least one inactive sec |
+               | urity token. Busts any character h |
+               | e encounters.                      |
+Suspicion1Desc | Place 1 Guard immediately.         |
+Suspicion1Icon |                                    |
+Suspicion2Desc | Place 1 Lock immediately.          |
+Suspicion2Icon |                                    |
+Suspicion3Desc | Place 2 Dogs immediately. Move two |
+               |  spaces instead of one each round. |
+               |                                    |
+Suspicion3Icon |                                    |
+Suspicion4Desc | Drop Jewel. Raise ⚠ for each ⁉ fro |
+               | m now on.                          |
+Suspicion4Icon |                                    |
+               ╰------------------------------------╯

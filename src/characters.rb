@@ -1,7 +1,9 @@
 require 'squib'
 require_relative 'helpers'
 
-data = Squib.xlsx(file: 'data/data.xlsx') { |col, item| newlineate(col, item) }
+data = Squib.xlsx(file: 'data/data.xlsx') do |col, item|
+  escape_emojis(newlineate(col, item))
+end
 total = data['Name'].size
 
 File.open('data/characters.txt', 'w+') { |f| f.write data.to_pretty_text }
@@ -49,14 +51,56 @@ Squib::Deck.new(cards: total) do
   text layout: :Memory, str: data['Memory']
   text layout: :Ideas, str: data['Ideas']
 
-  text layout: :Default1, str: data['Default1']
-  text layout: :Default2, str: data['Default2']
-  text layout: :Default3, str: data['Default3']
+  text(layout: :Default1, str: data['Default1']) do |embed|
+    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
+    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
+    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
+    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
+    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
+    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
+    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
+    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
+    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+  end
 
-  text layout: :Special, str: data['Special']
+  text layout: :Default2, str: data['Default2'] do |embed|
+    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
+    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
+    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
+    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
+    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
+    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
+    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
+    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
+    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+  end
+  text layout: :Default3, str: data['Default3'] do |embed|
+    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
+    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
+    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
+    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
+    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
+    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
+    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
+    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
+    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+  end
+
+  text layout: :Special, str: data['Special'] do |embed|
+    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
+    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
+    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
+    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
+    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
+    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
+    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
+    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
+    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+  end
 
   save_png prefix: 'character_'#, range: 0
   save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
+  save_pdf file: 'characters-k40.pdf', margin: '0.125in', trim: '0.05in'
   build :color do
     showcase range: [0,3,6,9,12,15], file: 'characters_amateurs_showcase.png',
              fill_color: :white

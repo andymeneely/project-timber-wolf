@@ -46,7 +46,7 @@ Special:
 
 DefaultSkill:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 10.24
-  y: 920
+  y: 900
   width: 215
   height: 140
   color: black

@@ -5,22 +5,23 @@
       Memory | 8                                  |
        Ideas | 3                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Pick                               |
-             | 🔓🔊                                 |
+             | :unlock::noise:                    |
     Default3 |                                    |
     LevelUp1 | Safecracker                        |
     LevelUp2 | Demolitions Guy                    |
      Special | EFFICIENT PICKER                   |
-             | If your action has a 🔓, you may sp |
-             | end 💡 for an additional ➜🔊         |
+             | If your action has a :unlock:, you |
+             |  may spend :idea: for an additiona |
+             | l :move::noise:                    |
 LevelUp1Desc | +2 ⬢y                              |
              |                                    |
-             | + 2 Initial 💡                      |
+             | + 2 Initial :idea:                 |
              |                                    |
-             | Pick🔓🔊 ⇒                           |
-             | Pick II🔓🔓🔊                         |
-LevelUp2Desc | +1 Initial 💡                       |
+             | Pick:unlock::noise: ⇒              |
+             | Pick II:unlock::unlock::noise:     |
+LevelUp2Desc | +1 Initial :idea:                  |
              |                                    |
              | +BREACH                            |
              ╰------------------------------------╯
@@ -31,15 +32,16 @@ LevelUp2Desc | +1 Initial 💡                       |
       Memory | 10                                 |
        Ideas | 5                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Pick II                            |
-             | 🔓🔓🔊                                |
+             | :unlock::unlock::noise:            |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | EFFICIENT PICKER                   |
-             | If your action has a 🔓, you may sp |
-             | end 💡 for an additional ➜🔊         |
+             | If your action has a :unlock:, you |
+             |  may spend :idea: for an additiona |
+             | l :move::noise:                    |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -50,21 +52,23 @@ LevelUp2Desc |                                    |
       Memory | 8                                  |
        Ideas | 4                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Pick                               |
-             | 🔓🔊                                 |
+             | :unlock::noise:                    |
     Default3 | Breach                             |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | EFFICIENT PICKER                   |
-             | If your action has a 🔓, you may sp |
-             | end 💡 for an additional ➜🔊         |
+             | If your action has a :unlock:, you |
+             |  may spend :idea: for an additiona |
+             | l :move::noise:                    |
              |                                    |
              | BREACH                             |
              | May spend your action and          |
-             | 💡💡💡💡 to create a new Exit on an ex |
-             | ternal side of the current tile. I |
-             | nitiate Escape phase immediately.  |
+             | :idea::idea::idea::idea: to create |
+             |  a new Exit on an external side of |
+             |  the current tile. Initiate Escape |
+             |  phase immediately.                |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -75,24 +79,24 @@ LevelUp2Desc |                                    |
       Memory | 7                                  |
        Ideas | 0                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Punch                              |
-             | 👊🔊🔊➜                               |
+             | :subdue::noise::noise::move:       |
     Default3 |                                    |
     LevelUp1 | Bruiser                            |
     LevelUp2 | Operative                          |
      Special | ADRENALINE                         |
-             | Gain 💡 when you 👊                  |
+             | Gain :idea: when you :subdue:      |
 LevelUp1Desc | +2 ⬢                               |
              |                                    |
-             | + 2 Initial 💡                      |
+             | + 2 Initial :idea:                 |
              |                                    |
-             | +Bash👊👊🔊                           |
+             | +Bash:subdue::subdue::noise:       |
 LevelUp2Desc | +2 ⬢                               |
              |                                    |
-             | + 4 Initial 💡                      |
+             | + 4 Initial :idea:                 |
              |                                    |
-             | +Spy Stuff🔓👊🔊                      |
+             | +Spy Stuff:unlock::subdue::noise:  |
              |                                    |
              | +YOU WILL REPORT IN                |
              ╰------------------------------------╯
@@ -103,19 +107,19 @@ LevelUp2Desc | +2 ⬢                               |
       Memory | 9                                  |
        Ideas | 2                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Punch                              |
-             | 👊🔊🔊➜                               |
+             | :subdue::noise::noise::move:       |
     Default3 | Bash                               |
-             | 👊👊🔊                                |
+             | :subdue::subdue::noise:            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | ADRENALINE                         |
-             | Gain 💡 when you 👊                  |
+             | Gain :idea: when you :subdue:      |
              |                                    |
              | ANGER THERAPY                      |
-             | 👊 all Guards on your tile when Esc |
-             | ape is initiated.                  |
+             | :subdue: all Guards on your tile w |
+             | hen Escape is initiated.           |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -126,15 +130,15 @@ LevelUp2Desc |                                    |
       Memory | 9                                  |
        Ideas | 4                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Punch                              |
-             | 👊🔊🔊➜                               |
+             | :subdue::noise::noise::move:       |
     Default3 | Spy Stuff                          |
-             | 🔓👊🔊                                |
+             | :unlock::subdue::noise:            |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | ADRENALINE                         |
-             | Gain 💡  when you 👊                 |
+             | Gain :idea:  when you :subdue:     |
              |                                    |
              | PRESSURE POINTS                    |
              | Guards cannot be unsubdued on or a |
@@ -149,35 +153,36 @@ LevelUp2Desc |                                    |
       Memory | 9                                  |
        Ideas | 2                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Report                             |
-             | 💡🔍🔊                                |
+             | :idea::reveal::noise:              |
     Default3 |                                    |
     LevelUp1 | Grifter                            |
     LevelUp2 | Mastermind                         |
      Special | THERE ARE BETTER WAYS              |
-             | Cannot 👊. For 💡, may exit Guarded  |
-             | spaces for the rest of your turn.  |
-             | In Escape, you require only 1 Esca |
-             | pe Move to exit Guarded spaces.    |
+             | Cannot :subdue:. For :idea:, may e |
+             | xit Guarded spaces for the rest of |
+             |  the phase. In Escape, you require |
+             |  only 1 Escape Move to exit Guarde |
+             | d spaces.                          |
              |                                    |
              | CHANGE OF PLANS                    |
-             | Once per heist you may spend 💡💡 to |
-             |  re-position up to any 3 planning  |
-             | tokens                             |
+             | Once per heist you may spend :idea |
+             | ::idea: to re-position up to any 3 |
+             |  planning tokens                   |
 LevelUp1Desc | +3 ⬢                               |
-             | +1 Initial 💡                       |
+             | +1 Initial :idea:                  |
              |                                    |
-             | Walk🔊➜ ⇒                           |
-             | Dash🔊➜➜                            |
+             | Walk:noise::move: ⇒                |
+             | Dash:noise::move::move:            |
              |                                    |
-             | Report💡🔍🔊⇒                         |
-             | Deduce💡💡🔊                          |
+             | Report:idea::reveal::noise:⇒       |
+             | Deduce:idea::idea::noise:          |
 LevelUp2Desc | +1 ⬢                               |
-             | +1 Initial 💡                       |
+             | +1 Initial :idea:                  |
              |                                    |
-             | Walk🔊➜ ⇒                           |
-             | Run🔊🔊➜➜                            |
+             | Walk:noise::move: ⇒                |
+             | Run:noise::noise::move::move:      |
              |                                    |
              | CHANGE OF PLANS ⇒ALRIGHT, NEW PLAN |
              |                                    |
@@ -189,21 +194,23 @@ LevelUp2Desc | +1 ⬢                               |
       Memory | 12                                 |
        Ideas | 3                                  |
     Default1 | Dash                               |
-             | 🔊➜➜                                |
+             | :noise::move::move:                |
     Default2 | Deduce                             |
-             | 💡💡🔊                                |
+             | :idea::idea::noise:                |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | THERE ARE BETTER WAYS              |
-             | Cannot 👊. For 💡, may exit Guarded  |
-             | spaces for the rest of your turn.  |
-             | In Escape, you require only 1 Esca |
-             | pe Move to exit Guarded spaces.    |
+             | Cannot :subdue:. For :idea:, may e |
+             | xit Guarded spaces for the rest of |
+             |  the phase. In Escape, you require |
+             |  only 1 Escape Move to exit Guarde |
+             | d spaces.                          |
              |                                    |
              | CHANGE OF PLANS                    |
-             | Once per heist you may spend 💡💡 to |
-             |  re-position up to any 3 planning  |
+             | Once per heist you may spend :idea |
+             | ::idea: to re-position up to any 3 |
+             |  planning                          |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -214,25 +221,26 @@ LevelUp2Desc |                                    |
       Memory | 10                                 |
        Ideas | 6                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Report                             |
-             | 💡🔍🔊                                |
+             | :idea::reveal::noise:              |
     Default3 | Run                                |
-             | 🔊🔊➜➜                               |
+             | :noise::noise::move::move:         |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | THERE ARE BETTER WAYS              |
-             | Cannot 👊. For 💡, may exit Guarded  |
-             | spaces for the rest of your turn.  |
-             | In Escape, you require only 1 Esca |
-             | pe Move to exit a space with guard |
-             | s.                                 |
+             | Cannot :subdue:. For :idea:, may e |
+             | xit Guarded spaces for the rest of |
+             |  the phase. In Escape, you require |
+             |  only 1 Escape Move to exit Guarde |
+             | d spaces.                          |
              |                                    |
              | ALRIGHT, NEW PLAN                  |
-             | Once per heist you may spend 💡💡 to |
-             |  re-position up to any 6 planning  |
-             | tokens, and may transfer up to💡💡💡  |
-             | to other characters for 🔊🔊         |
+             | Once per heist you may spend :idea |
+             | ::idea::noise: to re-position up t |
+             | o any 6 planning tokens and transf |
+             | er up to:idea::idea::idea: to alli |
+             | es.                                |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -243,24 +251,26 @@ LevelUp2Desc |                                    |
       Memory | 6                                  |
        Ideas | 5                                  |
     Default1 | Stride                             |
-             | 🔊➜🔍                                |
+             | :noise::move::reveal:              |
     Default2 | Autopwn                            |
     Default3 |                                    |
     LevelUp1 | Hacktivist                         |
     LevelUp2 | Black Hat                          |
      Special | AUTOPWN                            |
-             | Use this Action and a 💡 to enable  |
-             | another character to 👊🔊, 📷🔊, or 🔓🔊 |
+             | Use this Action and a :idea: to en |
+             | able another character to :subdue: |
+             | :noise:, :disable::noise:, or :unl |
+             | ock::noise:                        |
              |                                    |
              | I CAN HAZ TEH CODES                |
-             | Once per heist, you may spend 💡💡 t |
-             | o Reveal all tiles adjacent  to a  |
-             | known Live Camera.                 |
+             | Once per heist, you may spend :ide |
+             | a::idea: to Reveal all tiles adjac |
+             | ent  to a known Live Camera.       |
 LevelUp1Desc | +4 ⬢                               |
-             | +1 Initial 💡                       |
+             | +1 Initial :idea:                  |
              |                                    |
-             | Stride🔊➜🔍 ⇒                        |
-             | Run🔊🔊➜➜                            |
+             | Stride:noise::move::reveal: ⇒      |
+             | Run:noise::noise::move::move:      |
 LevelUp2Desc | +2 ⬢                               |
              |                                    |
              | AUTOPWN⇒                           |
@@ -276,20 +286,22 @@ LevelUp2Desc | +2 ⬢                               |
       Memory | 10                                 |
        Ideas | 6                                  |
     Default1 | Stride                             |
-             | 🔊➜🔍                                |
+             | :noise::move::reveal:              |
     Default2 | Autopwn                            |
     Default3 | Run                                |
-             | 🔊🔊➜➜                               |
+             | :noise::noise::move::move:         |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | AUTOPWN                            |
-             | Use this Action and a 💡 to enable  |
-             | another character to 👊🔊, 📷🔊, or 🔓🔊 |
+             | Use this Action and a :idea: to en |
+             | able another character to :subdue: |
+             | :noise:, :disable::noise:, or :unl |
+             | ock::noise:                        |
              |                                    |
              | I CAN HAZ TEH CODES                |
-             | Once per heist, you may spend 💡💡 t |
-             | o Reveal all tiles adjacent  to a  |
-             | known Live Camera.                 |
+             | Once per heist, you may spend :ide |
+             | a::idea: to Reveal all tiles adjac |
+             | ent  to a known Live Camera.       |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -300,15 +312,17 @@ LevelUp2Desc |                                    |
       Memory | 8                                  |
        Ideas | 5                                  |
     Default1 | Stride                             |
-             | 🔊➜🔍                                |
+             | :noise::move::reveal:              |
     Default2 | Exploit                            |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | EXPLOIT                            |
-             | Use this Action and an 💡 to enable |
-             |  another character to 👊👊🔊, 📷📷🔊, or |
-             |  🔓🔓🔊                               |
+             | Use this Action and an :idea: to e |
+             | nable another character to :subdue |
+             | ::subdue::noise:, :disable::disabl |
+             | e::noise:, or :unlock::unlock::noi |
+             | se:                                |
              |                                    |
              | HAS THE CODE                       |
              | Once per heist, you may Reveal all |
@@ -324,17 +338,17 @@ LevelUp2Desc |                                    |
       Memory | 8                                  |
        Ideas | 2                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Dart                               |
     Default3 | Hesitate                           |
-             | 💡                                  |
+             | :idea:                             |
     LevelUp1 | Sewer Rat                          |
     LevelUp2 | Grease Man                         |
      Special | DART                               |
              | Use this action to spend           |
-             | 💡for 🔊➜➜                           |
+             | :idea:for :noise::move::move:      |
 LevelUp1Desc | +1 ⬢                               |
-             | +4 Initial 💡                       |
+             | +4 Initial :idea:                  |
              |                                    |
              | +SEWER CRAWL                       |
 LevelUp2Desc | +4 ⬢                               |
@@ -349,20 +363,20 @@ LevelUp2Desc | +4 ⬢                               |
       Memory | 9                                  |
        Ideas | 4                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Dart                               |
     Default3 | Hesitate                           |
-             | 💡                                  |
+             | :idea:                             |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | DART                               |
              | Use this action to spend           |
-             | 💡for 🔊➜➜                           |
+             | :idea:for :noise::move::move:      |
              |                                    |
              | SEWER CRAWL                        |
-             | For 🔊🔊⚠, may treat a tile directly |
-             |  across 1 non-tiled gap as adjacen |
-             | t.                                 |
+             | For :noise::noise::alert:, may tre |
+             | at a tile directly across 1 non-ti |
+             | led gap as adjacent.               |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -373,16 +387,17 @@ LevelUp2Desc |                                    |
       Memory | 12                                 |
        Ideas | 2                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Bolt                               |
     Default3 | Hesitate                           |
-             | 💡                                  |
+             | :idea:                             |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | BOLT                               |
              | Use this action to spend           |
-             | 💡for 🔊➜➜,                          |
-             | or 💡💡 for 🔊➜➜➜                     |
+             | :idea:for :noise::move::move:,     |
+             | or :idea::idea: for :noise::move:: |
+             | move::move:                        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -393,21 +408,22 @@ LevelUp2Desc |                                    |
       Memory | 6                                  |
        Ideas | 3                                  |
     Default1 | Run                                |
-             | 🔊🔊➜➜                               |
+             | :noise::noise::move::move:         |
     Default2 | Report                             |
-             | 💡🔍🔊                                |
+             | :idea::reveal::noise:              |
     Default3 |                                    |
     LevelUp1 | Watchman                           |
     LevelUp2 | Sentinel                           |
      Special | VANTAGE POINT                      |
-             | May 🔍 once per turn if outdoors    |
+             | May :reveal: once per turn if outd |
+             | oors                               |
              |                                    |
              | GOOD IN A PINCH                    |
              | During Escape, may spend           |
-             | 💡💡 to give 💡 to any character, one |
-             |  time.                             |
+             | :idea::idea: to give :idea: to any |
+             |  character, one time.              |
 LevelUp1Desc | +3 ⬢                               |
-             | +1 Initial 💡                       |
+             | +1 Initial :idea:                  |
              |                                    |
              | GOOD IN A PINCH⇒                   |
              | GREAT IN A PINCH                   |
@@ -422,20 +438,21 @@ LevelUp2Desc | +2 ⬢                               |
       Memory | 9                                  |
        Ideas | 4                                  |
     Default1 | Run                                |
-             | 🔊🔊➜➜                               |
+             | :noise::noise::move::move:         |
     Default2 | Report                             |
-             | 💡🔍🔊                                |
+             | :idea::reveal::noise:              |
     Default3 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | VANTAGE POINT                      |
-             | May 🔍 once per turn if outdoors    |
+             | May :reveal: once per turn if outd |
+             | oors                               |
              |                                    |
              | GREAT IN A PINCH                   |
              | During Escape, may spend           |
-             | 💡💡 to give 💡 to any character, any |
-             |  number of times.                  |
+             | :idea::idea: to give :idea: to any |
+             |  character, any number of times.   |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -446,24 +463,25 @@ LevelUp2Desc |                                    |
       Memory | 8                                  |
        Ideas | 3                                  |
     Default1 | Run                                |
-             | 🔊🔊➜➜                               |
+             | :noise::noise::move::move:         |
     Default2 | Report                             |
-             | 💡🔍🔊                                |
+             | :idea::reveal::noise:              |
     Default3 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | VANTAGE POINT                      |
-             | May 🔍 once per turn if outdoors    |
+             | May :reveal: once per turn if outd |
+             | oors                               |
              |                                    |
              | GOOD IN A PINCH                    |
              | During Escape, may spend           |
-             | 💡💡 to give 💡 to any character, one |
-             |  time.                             |
+             | :idea::idea: to give :idea: to any |
+             |  character, one time.              |
              |                                    |
              | PLANNER                            |
-             | During planning, add two triple-💡  |
-             | tokens to the security bag.        |
+             | During planning, add two triple-:i |
+             | dea: tokens to the security bag.   |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -474,31 +492,31 @@ LevelUp2Desc |                                    |
       Memory | 7                                  |
        Ideas | 2                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Hit                                |
-             | 👊🔊                                 |
+             | :subdue::noise:                    |
     Default3 |                                    |
     LevelUp1 | Con Artist                         |
     LevelUp2 | Thief                              |
      Special | LARCENIST                          |
-             | For 💡, you may pick up items in an |
-             |  adjacent, not locked tile as if i |
-             | t were on your tile for the rest o |
-             | f the phase.                       |
+             | For :idea:, you may pick up items  |
+             | in an adjacent, not locked tile as |
+             |  if it were on your tile for the r |
+             | est of the phase.                  |
 LevelUp1Desc | +1 ⬢                               |
-             | +1 Initial 💡                       |
+             | +1 Initial :idea:                  |
              |                                    |
              | LARCENIST⇒                         |
              | SWINDLER                           |
              |                                    |
              | +TOSS LOOT                         |
 LevelUp2Desc | +2 ⬢                               |
-             | +1 Initial 💡                       |
+             | +1 Initial :idea:                  |
              |                                    |
-             | Walk🔊➜⇒                            |
-             | Disable📷🔊➜                         |
+             | Walk:noise::move:⇒                 |
+             | Disable:disable::noise::move:      |
              |                                    |
-             | +Spy Stuff🔓👊🔊                      |
+             | +Spy Stuff:unlock::subdue::noise:  |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Con Artist                         |
@@ -507,17 +525,17 @@ LevelUp2Desc | +2 ⬢                               |
       Memory | 8                                  |
        Ideas | 2                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Hit                                |
-             | 👊🔊                                 |
+             | :subdue::noise:                    |
     Default3 | Toss Loot                          |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | SWINDLER                           |
-             | For 💡, you may pick up or drop ite |
-             | ms in an adjacent, not locked tile |
-             |  as if it were on your tile for th |
-             | e rest of the phase.               |
+             | For :idea:, you may pick up or dro |
+             | p items in an adjacent, not locked |
+             |  tile as if it were on your tile f |
+             | or the rest of the phase.          |
              |                                    |
              | TOSS LOOT                          |
              | Use this action to place any of yo |
@@ -531,20 +549,20 @@ LevelUp2Desc |                                    |
         Name | Thief                              |
    Archetype | Looter                             |
        Level | 2                                  |
-      Memory | 9                                  |
+      Memory | 10                                 |
        Ideas | 3                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Hit                                |
-             | 👊🔊                                 |
+             | :subdue::noise:                    |
     Default3 |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | LARCENIST                          |
-             | For 💡, you may pick up items in an |
-             |  adjacent, not locked tile as if i |
-             | t were on your tile for the rest o |
-             | f the phase.                       |
+             | For :idea:, you may pick up items  |
+             | in an adjacent, not locked tile as |
+             |  if it were on your tile for the r |
+             | est of the phase.                  |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -555,31 +573,33 @@ LevelUp2Desc |                                    |
       Memory | 7                                  |
        Ideas | 3                                  |
     Default1 | Walk                               |
-             | 🔊➜                                 |
+             | :noise::move:                      |
     Default2 | Smash                              |
-             | 📷🔊🔊➜                               |
+             | :disable::noise::noise::move:      |
     Default3 | Patch In                           |
     LevelUp1 | Technician                         |
     LevelUp2 | Tinkerer                           |
      Special | PATCH IN                           |
              | When adjacent to a live camera, us |
-             | e this action for 💡💡🔍🔊             |
+             | e this action for :idea::idea::rev |
+             | eal::noise:                        |
 LevelUp1Desc | +2 ⬢                               |
-             | + 1 Initial 💡                      |
+             | + 1 Initial :idea:                 |
              |                                    |
              | Walk & Smash⇒                      |
-             | Disable📷🔊➜                         |
+             | Disable:disable::noise::move:      |
              |                                    |
              | +Loop Footage                      |
 LevelUp2Desc | +2 ⬢                               |
-             | +2 Initial 💡                       |
+             | +2 Initial :idea:                  |
              | +Follower                          |
              |                                    |
-             | Walk🔊➜⇒                            |
-             | Spy Stuff🔓👊🔊                       |
+             | Walk:noise::move:⇒                 |
+             | Spy Stuff:unlock::subdue::noise:   |
              |                                    |
-             | Smash📷🔊🔊➜⇒                         |
-             | Short📷📷🔊                           |
+             | Smash:disable::noise::noise::move: |
+             | ⇒                                  |
+             | Short:disable::disable::noise:     |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Technician                         |
@@ -588,35 +608,47 @@ LevelUp2Desc | +2 ⬢                               |
       Memory | 9                                  |
        Ideas | 4                                  |
     Default1 | Disable                            |
-             | 📷🔊➜                                |
+             | :disable::noise::move:             |
     Default2 | Loop Footage                       |
     Default3 | Patch In                           |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | LOOP FOOTAGE                       |
-             | For 💡💡, use this action to allow a |
-             | ll characters to avoid raising ⚠ d |
-             | ue to cameras this action phase an |
-             | d event phase.                     |
+             | For :idea::idea:, use this action  |
+             | to allow all characters to avoid r |
+             | aising :alert: due to cameras this |
+             |  action phase and event phase.     |
              |                                    |
              | PATCH IN                           |
              | When adjacent to a live camera, us |
-             | e this action for 💡💡🔍🔊             |
+             | e this action for :idea::idea::rev |
+             | eal::noise:                        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
-        Name | ???                                |
-   Archetype |                                    |
-       Level |                                    |
-      Memory |                                    |
-       Ideas |                                    |
-    Default1 |                                    |
-    Default2 |                                    |
-    Default3 |                                    |
+        Name | Tinkerer                           |
+   Archetype | Surveillance                       |
+       Level | 2                                  |
+      Memory | 10                                 |
+       Ideas | 3                                  |
+    Default1 | Disable                            |
+             | :disable::noise::move:             |
+    Default2 | Complete the Circuit               |
+    Default3 | Patch In                           |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
-     Special |                                    |
+     Special | COMPLETE THE CIRCUIT               |
+             | For :idea::idea::noise:, use this  |
+             | action to disable up to three live |
+             |  cameras adjacent to you. Any guar |
+             | ds on these spaces are also subdue |
+             | d.                                 |
+             |                                    |
+             | PATCH IN                           |
+             | When adjacent to a live camera, us |
+             | e this action for :idea::idea::rev |
+             | eal::noise:                        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯

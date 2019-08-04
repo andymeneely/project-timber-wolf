@@ -12,6 +12,20 @@ def newlineate(col, item)
   item.to_s.gsub "%n", "\n"
 end
 
+def escape_emojis(str)
+  return nil if str.nil?
+  str.gsub(/💡/,':idea:')
+     .gsub(/🔊/,':noise:')
+     .gsub(/➜/,':move:')
+     .gsub(/📷/,':disable:')
+     .gsub(/🔍/,':reveal:')
+     .gsub(/👊/,':subdue:')
+     .gsub(/🔓/,':unlock:')
+     .gsub(/⚠/,':alert:')
+     .gsub(/💰/,':loot:')
+end
+
+
 def summarize_skill(str)
   return nil if str.nil?
   str.gsub(/[^💡🔊➜📷🔍👊🔓⚠]/,'').chars.sort.join
