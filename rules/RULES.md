@@ -2,47 +2,75 @@
   Masters of the Heist
 </div>
 
-_Masters of the Heist_ is a cooperative heist game set in a campaign. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
+_Masters of the Heist_ is a cooperative heist game set in a world of many possibilities. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
-You will start as an Amateur criminal with Amateur skills. But over time, and with good decisions along the way, you and your teammates will level up your characters and skills as you make your way through a story-driven campaign. Each heist is highly replayable, with various outcomes.
-
-<div class="pagebreak"/>
+You will start as an Amateur criminal with Amateur skills. But over time, hopefully with a few good decisions along the way, you and your teammates will level up your characters and skills as you make your way through the city. Each heist unlocks new opportunities through meeting new Fences. Each heist is highly replayable, with various outcomes.
 
 ## The Pieces
 
 NOTE! This list is totally out of date. Sorry.
 
-<div class="cols">
+<div class="parts-list">
 
-* 32 double-sided hex tiles.
-  * 28 Blank/Security tiles
-  * 4 Lockdown Gate tiles (A,B,C,D)
-* 24 character cards: 8 Amateurs, 8 double-sided Pros
-* 24 Skill cards: 6 Amateurs, 12 Pros (2 copies of each)
-* 24 Event cards, including 6 Special Event cards
+* 28 Blank/Security hex tiles
+* 4 Lockdown Gate hex tiles
+* 5 Entrance square tiles
+* 16 Character cards
+* 24 Skill cards
+* 18 Event cards
+* 6 Special Event cards
 * 10 Lock chits
 * 10 Camera chits (circle)
 * 14 Guard chits (circle)
 * 10 Artwork chits (square)
-* 5 Entrance chits (square)
 * 4 Jewel chits (circle)
 * 4 Control Panel chits (circle)
 * 8 Pressure Sensors (ring)
 * 1 Story chit (circle)
-* 36 Idea💡 chits (circle)
-* 4 Player pawns (red, green, blue, black)
+* 36 Idea💡 chits (oval)
+* 4 Player meeples
 * 1 Prisoner pawn (white)
-* 48 Planning chits (by player colors)
-* 4 Player D6 dice (by player colors)
-* 1 Security Die (white, four-sided die)
-* 12 Petty Cash chits ($1k and $3k)
+* 48 Planning hex chits
+* 5 six-sided dice
+* 12 Petty Cash chits
 * Noise tracker card
 * 4 Game Helps
-* 4 Noise Tracker & Team Cash Markers (white wooden cylinders)
 
 </div>
+
+<div class="pagebreak"/>
+
+# Your Very First Game
+
+TODO WRITE THIS
+
+# Setting Up
+
+**Step 1. As a team, decide your next heist.** Heists are available to you in the Scenarios booklet. Each heist is labelled with a difficulty level and any other pre-requisites.
+
+**Step 2. Read the story text.** To save time, you may begin setting up the board in Step 3 simultaneously with this step.
+
+**Step 3. Set up the board** in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. If the diagram depicts a shield, then use the Security side of the tile, in all other cases use the Blank side.
+
+<div class="tip">
+Tip: to verify the layout, match the shapes of the Gaps between tiles
+</div>
+
+Some boards have already-revealed security chits. The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board (they are **the supply**).
+
+**Step 4. Distribute player tokens.** Distribute the 6-sided die, and pawn according to your color.
+
+**Step 5. Build Characters.** Assign a character to each player according to preference. If the scenario says "Suggested Characters", then you are allowed (and encouraged!) to explore other options for Character-Skill pairings. If the scenario says "Required", then the storyline requires that those characters and/or skills are used. Place the two Skill cards below the Character card.
+
+**Step 6. Distribute the Planning tokens** to each character according to their color and Planning Memory. *For example, the Lookout has a Planning Memory of 6, so she gets 6 planning tokens*. Place remaining Planning tokens back in the box.
+
+**Step 7. Distribute initial Ideas💡** to each player according to their character.
+
+**Step 8. Set up Noise and Alert trackers** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place. Place Team Cash markers on their starting places.
+
+**Step 9. Record your team on the ledger**. Determine a name for your team. Players are encouraged to name their characters.
 
 ## The Board
 
@@ -108,7 +136,7 @@ Each Character card has:
 
   * ① **Level.** There are Amateur characters and Pro characters.
   * ②	**Planning Memory.** The number of pre-planned hex tiles your character may move through during a heist.
-  * ③	**Initial Ideas**. The number of Ideas💡 you start with at the beginning of each heist.
+  * ③	**Initial Ideas**. The number of Ideas 💡 you start with at the beginning of each heist.
   * ④	**Default Actions**. Actions that are available regardless of your die roll.
   * ⑤	**Special Ability**. Abilities that your character can uniquely do.
 
@@ -171,32 +199,6 @@ A character may also "drop" loot on their current space for no cost, which means
 When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
 </div>
-
-# Setting Up
-
-**Step 1. As a team, decide upon a scenario.** Some scenarios are designed for one evening's play, others can be played over the course of multiple evenings. Each heist in the scenario will consist of Chapters, which involve one Heist.
-
-**Step 2. Read the story text.** To save time, you may begin setting up the board in Step 3 simultaneously with this step.
-
-**Step 3. Set up the board** in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. If the diagram depicts a shield, then use the Security side of the tile, in all other cases use the Blank side.
-
-<div class="tip">
-Tip: to verify the layout, match the shapes of the Gaps between tiles
-</div>
-
-Some boards have already-revealed security chits. The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board (they are **the supply**).
-
-**Step 4. Distribute player tokens.** Distribute the 6-sided die, and pawn according to your color.
-
-**Step 5. Build Characters.** Assign a character to each player according to preference. If the scenario says "Suggested Characters", then you are allowed (and encouraged!) to explore other options for Character-Skill pairings. If the scenario says "Required", then the storyline requires that those characters and/or skills are used. Place the two Skill cards below the Character card.
-
-**Step 6. Distribute the Planning tokens** to each character according to their color and Planning Memory. *For example, the Lookout has a Planning Memory of 6, so she gets 6 planning tokens*. Place remaining Planning tokens back in the box.
-
-**Step 7. Distribute initial Ideas💡** to each player according to their character.
-
-**Step 8. Set up Noise and Alert trackers** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place. Place Team Cash markers on their starting places.
-
-**Step 9. Record your team on the ledger**. Determine a name for your team. Players are encouraged to name their characters.
 
 # Heist Gameplay
 
@@ -343,8 +345,7 @@ Each Heist has an objective built into it. If your team does not complete its ob
 
 If you lose a heist, you have three options:
 
-* **Restore**. You may play a heist from your original conditions (i.e. restore from a previous "saved game").
-* **Retry**. You may attempt the heist again, but with an additional 💡💡 given to each character during Planning. You may only do this once per chapter per campaign.
+* **Replay**. You may replay a heist from your original conditions (i.e. restore from a previous "saved game").
 * **Rebuild**. You may continue onward with any non-Busted characters, hire new Characters with Skills, and play a Rebuilding Scenario of your choice. You may play any of the Rebuilding Scenarios as many times as you like.
 
 # Winning a Heist
@@ -393,23 +394,3 @@ If a Guard Dog is added to a tile that does not already have a character and is 
 ## Story Beacon
 
 A special loot chit is the **Story Beacon**, denoted by a question mark. When a character enters a space with the Beacon for the first time, refer to the scenario for what to do, then remove the chit.
-
-## Bosses
-
-Some scenarios have a Boss. A Boss is not an NPC, rather, it is an uncontrollable security system that your team must react to. Bosses are represented by the black pawn and a card given by the scenario.
-
-Bosses have Waypoint tokens. The Boss pawn starts at the Waypoint marked 1. Before each Roll for Skill phase, the Boss moves one tile directly toward the next Waypoint. If a Boss reaches the end of the Waypoints, they reverse their direction and go back through the waypoints.
-
-A Boss **encounters** something (e.g. a subdued guard) if he shares a tile with that thing as a result of a move.
-
-Bosses do not traverse non-tiled gaps. Bosses ignore locks, guards, cameras, and any other security system. If a Boss is on a lockdown gate when it closes, first move them forward on their path until they are off of the gate before it closes. Waypoints are not movable unless otherwise specified.
-
-Bosses also have a Suspicion(⁉) tracker. The card will define what causes a Boss's Suspicion(⁉) to be raised, and what happens at each level with a Suspicion Action. If the tracker says "immediately", then the action is done once, when the Suspicion(⁉) was first raised to that level. Otherwise, the action is done each round.
-
-<div class="example">
-*For example, "Release 1 Dog immmediately for Supsicion Level 1" means you release only 1 Dog, when Level 1 is first reached and not on subsequent rounds.*
-</div>
-
-Place the Suspicion token on the starting place on the Boss tracker during planning. When suspicion reaches its maximum level, repeat the highest Suspicion Action.
-
-All other instructions for individual bosses are on their given cards.

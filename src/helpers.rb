@@ -32,7 +32,17 @@ def summarize_skill(str)
 end
 
 def skill_lacks(str)
-  "Lacks " + ('💡➜📷🔍👊🔓'.chars - str.chars).join
+  emojid_str = str.gsub(':idea:','💡')
+                  .gsub(':noise:','🔊')
+                  .gsub(':move:','➜')
+                  .gsub(':disable:','📷')
+                  .gsub(':reveal:','🔍')
+                  .gsub(':subdue:','👊')
+                  .gsub(':unlock:','🔓')
+                  .gsub(':alert:','⚠')
+                  .gsub(':loot:','💰')
+  lacked_str = "Lacks " + ('💡➜📷🔍👊🔓'.chars - emojid_str.chars).join
+  return escape_emojis(lacked_str)
 end
 
 # Return the indices of the array that are non-nil

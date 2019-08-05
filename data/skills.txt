@@ -4,52 +4,56 @@
         Level | 1                                  |
          Root | Smash 'n' Grab                     |
      1-action | Punch                              |
- 1-subactions | 👊🔊🔊➜                               |
+ 1-subactions | :subdue::noise::noise::move:       |
      2-action | Smash                              |
- 2-subactions | 📷🔊🔊➜                               |
+ 2-subactions | :disable::noise::noise::move:      |
      3-action | Observe                            |
- 3-subactions | 💡🔍🔊                                |
+ 3-subactions | :idea::reveal::noise:              |
      4-action | Punch                              |
- 4-subactions | 👊🔊🔊➜                               |
+ 4-subactions | :subdue::noise::noise::move:       |
      5-action | Smash                              |
- 5-subactions | 📷🔊🔊➜                               |
+ 5-subactions | :disable::noise::noise::move:      |
      6-action | Grab                               |
- 6-subactions | 💰🔊                                 |
+ 6-subactions | :loot::noise:                      |
             1 | Punch                              |
-              | 👊🔊🔊➜                               |
+              | :subdue::noise::noise::move:       |
             2 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             3 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
             4 | Punch                              |
-              | 👊🔊🔊➜                               |
+              | :subdue::noise::noise::move:       |
             5 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             6 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
         Rolls | Punch                              |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Observe                       |
-              | 💡🔍🔊/Punch                          |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Grab                          |
-              | 💰🔊                                 |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Obse |
+              | rve                                |
+              | :idea::reveal::noise:/Punch        |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Grab |
+              | :loot::noise:                      |
      Upgrade1 | Steal                              |
 Upgrade1Rolls | Flip                               |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Punch                         |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Ransack                       |
-              | 💰💰🔊                                |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Punch  |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Rans |
+              | ack                                |
+              | :loot::loot::noise:                |
      Upgrade2 | Pilfer                             |
 Upgrade2Rolls | Punch                              |
-              | 👊🔊🔊➜/Unplug                        |
-              | 📷📷🔊➜/Key In                        |
-              | 🔍🔓🔊/Flip                           |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Grab                           |
-              | 💰🔊                                 |
+              | :subdue::noise::noise::move:/Rewir |
+              | e                                  |
+              | :disable::disable::noise::move:/Ke |
+              | y In                               |
+              | :reveal::unlock::noise:/Flip       |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Grab        |
+              | :loot::noise:                      |
             💡 | 1                                  |
             🔊 | 10                                 |
             ➜ | 4                                  |
@@ -69,52 +73,56 @@ Upgrade2Rolls | Punch                              |
         Level | 1                                  |
          Root | Smash 'n' Grab                     |
      1-action | Punch                              |
- 1-subactions | 👊🔊🔊➜                               |
+ 1-subactions | :subdue::noise::noise::move:       |
      2-action | Smash                              |
- 2-subactions | 📷🔊🔊➜                               |
+ 2-subactions | :disable::noise::noise::move:      |
      3-action | Observe                            |
- 3-subactions | 💡🔍🔊                                |
+ 3-subactions | :idea::reveal::noise:              |
      4-action | Punch                              |
- 4-subactions | 👊🔊🔊➜                               |
+ 4-subactions | :subdue::noise::noise::move:       |
      5-action | Smash                              |
- 5-subactions | 📷🔊🔊➜                               |
+ 5-subactions | :disable::noise::noise::move:      |
      6-action | Grab                               |
- 6-subactions | 💰🔊                                 |
+ 6-subactions | :loot::noise:                      |
             1 | Punch                              |
-              | 👊🔊🔊➜                               |
+              | :subdue::noise::noise::move:       |
             2 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             3 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
             4 | Punch                              |
-              | 👊🔊🔊➜                               |
+              | :subdue::noise::noise::move:       |
             5 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             6 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
         Rolls | Punch                              |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Observe                       |
-              | 💡🔍🔊/Punch                          |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Grab                          |
-              | 💰🔊                                 |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Obse |
+              | rve                                |
+              | :idea::reveal::noise:/Punch        |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Grab |
+              | :loot::noise:                      |
      Upgrade1 | Steal                              |
 Upgrade1Rolls | Flip                               |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Punch                         |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Ransack                       |
-              | 💰💰🔊                                |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Punch  |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Rans |
+              | ack                                |
+              | :loot::loot::noise:                |
      Upgrade2 | Pilfer                             |
 Upgrade2Rolls | Punch                              |
-              | 👊🔊🔊➜/Unplug                        |
-              | 📷📷🔊➜/Key In                        |
-              | 🔍🔓🔊/Flip                           |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Grab                           |
-              | 💰🔊                                 |
+              | :subdue::noise::noise::move:/Rewir |
+              | e                                  |
+              | :disable::disable::noise::move:/Ke |
+              | y In                               |
+              | :reveal::unlock::noise:/Flip       |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Grab        |
+              | :loot::noise:                      |
             💡 | 1                                  |
             🔊 | 10                                 |
             ➜ | 4                                  |
@@ -134,52 +142,55 @@ Upgrade2Rolls | Punch                              |
         Level | 1                                  |
          Root | Hurry                              |
      1-action | Run                                |
- 1-subactions | 🔊🔊➜➜                               |
+ 1-subactions | :noise::noise::move::move:         |
      2-action | Pick                               |
- 2-subactions | 🔓🔊                                 |
+ 2-subactions | :unlock::noise:                    |
      3-action | Run                                |
- 3-subactions | 🔊🔊➜➜                               |
+ 3-subactions | :noise::noise::move::move:         |
      4-action | Observe                            |
- 4-subactions | 💡🔍🔊                                |
+ 4-subactions | :idea::reveal::noise:              |
      5-action | Sprint                             |
- 5-subactions | 🔊🔊➜➜➜                              |
+ 5-subactions | :noise::noise::move::move::move:   |
      6-action | Examine                            |
- 6-subactions | 💡💡💡🔊                               |
+ 6-subactions | :idea::idea::idea::noise:          |
             1 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             2 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             3 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             4 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
             5 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             6 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
         Rolls | Run                                |
-              | 🔊🔊➜➜/Pick                          |
-              | 🔓🔊/Run                             |
-              | 🔊🔊➜➜/Observe                       |
-              | 💡🔍🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::noise::move::move:/Pick    |
+              | :unlock::noise:/Run                |
+              | :noise::noise::move::move:/Observe |
+              | :idea::reveal::noise:/Sprint       |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade1 | Ninja                              |
 Upgrade1Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sleeper Hold                    |
-              | 👊➜/Observe                         |
-              | 💡🔍🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sleeper Hold       |
+              | :subdue::move:/Observe             |
+              | :idea::reveal::noise:/Sprint       |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade2 | Prowl                              |
 Upgrade2Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sneak                           |
-              | 📷🔊➜➜/Study                         |
-              | 💡💡/Sprint                          |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sneak              |
+              | :disable::noise::move::move:/Study |
+              | :idea::idea:/Sprint                |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
             💡 | 4                                  |
             🔊 | 9                                  |
             ➜ | 7                                  |
@@ -199,52 +210,55 @@ Upgrade2Rolls | Dash                               |
         Level | 1                                  |
          Root | Hurry                              |
      1-action | Run                                |
- 1-subactions | 🔊🔊➜➜                               |
+ 1-subactions | :noise::noise::move::move:         |
      2-action | Pick                               |
- 2-subactions | 🔓🔊                                 |
+ 2-subactions | :unlock::noise:                    |
      3-action | Run                                |
- 3-subactions | 🔊🔊➜➜                               |
+ 3-subactions | :noise::noise::move::move:         |
      4-action | Observe                            |
- 4-subactions | 💡🔍🔊                                |
+ 4-subactions | :idea::reveal::noise:              |
      5-action | Sprint                             |
- 5-subactions | 🔊🔊➜➜➜                              |
+ 5-subactions | :noise::noise::move::move::move:   |
      6-action | Examine                            |
- 6-subactions | 💡💡💡🔊                               |
+ 6-subactions | :idea::idea::idea::noise:          |
             1 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             2 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             3 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             4 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
             5 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             6 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
         Rolls | Run                                |
-              | 🔊🔊➜➜/Pick                          |
-              | 🔓🔊/Run                             |
-              | 🔊🔊➜➜/Observe                       |
-              | 💡🔍🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::noise::move::move:/Pick    |
+              | :unlock::noise:/Run                |
+              | :noise::noise::move::move:/Observe |
+              | :idea::reveal::noise:/Sprint       |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade1 | Ninja                              |
 Upgrade1Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sleeper Hold                    |
-              | 👊➜/Observe                         |
-              | 💡🔍🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sleeper Hold       |
+              | :subdue::move:/Observe             |
+              | :idea::reveal::noise:/Sprint       |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade2 | Prowl                              |
 Upgrade2Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sneak                           |
-              | 📷🔊➜➜/Study                         |
-              | 💡💡/Sprint                          |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sneak              |
+              | :disable::noise::move::move:/Study |
+              | :idea::idea:/Sprint                |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
             💡 | 4                                  |
             🔊 | 9                                  |
             ➜ | 7                                  |
@@ -264,52 +278,67 @@ Upgrade2Rolls | Dash                               |
         Level | 1                                  |
          Root | Wing It                            |
      1-action | Discover                           |
- 1-subactions | 🔍🔍🔊                                |
+ 1-subactions | :reveal::reveal::noise:            |
      2-action | Strongarm                          |
- 2-subactions | 🔓👊🔊🔊➜                              |
+ 2-subactions | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
      3-action | Short                              |
- 3-subactions | 🔓📷🔊🔊➜                              |
+ 3-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      4-action | Zap                                |
- 4-subactions | 👊📷🔊🔊➜                              |
+ 4-subactions | :subdue::disable::noise::noise::mo |
+              | ve:                                |
      5-action | Grab                               |
- 5-subactions | 💰🔊                                 |
+ 5-subactions | :loot::noise:                      |
      6-action | Scamper                            |
- 6-subactions | 🔊🔊🔊➜➜                              |
+ 6-subactions | :noise::noise::noise::move::move:  |
             1 | Discover                           |
-              | 🔍🔍🔊                                |
+              | :reveal::reveal::noise:            |
             2 | Strongarm                          |
-              | 🔓👊🔊🔊➜                              |
+              | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
             3 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             4 | Zap                                |
-              | 👊📷🔊🔊➜                              |
+              | :subdue::disable::noise::noise::mo |
+              | ve:                                |
             5 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
             6 | Scamper                            |
-              | 🔊🔊🔊➜➜                              |
+              | :noise::noise::noise::move::move:  |
         Rolls | Discover                           |
-              | 🔍🔍🔊/Strongarm                      |
-              | 🔓👊🔊🔊➜/Short                        |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Scamper                         |
-              | 🔊🔊🔊➜➜                              |
+              | :reveal::reveal::noise:/Strongarm  |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Short                           |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Scamper              |
+              | :noise::noise::noise::move::move:  |
      Upgrade1 | Concoct                            |
 Upgrade1Rolls | Study                              |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Short                          |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Run                             |
-              | 🔊🔊➜➜                               |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Short      |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Run                  |
+              | :noise::noise::move::move:         |
      Upgrade2 | Improvise                          |
 Upgrade2Rolls | Redirect                           |
-              | 🔓👊📷🔊🔊/Strongarm                    |
-              | 🔓👊🔊🔊➜/Short                        |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Dash                            |
-              | 🔊➜➜                                |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Strongarm                    |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Short                           |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Dash                 |
+              | :noise::move::move:                |
             💡 | 0                                  |
             🔊 | 11                                 |
             ➜ | 5                                  |
@@ -329,52 +358,67 @@ Upgrade2Rolls | Redirect                           |
         Level | 1                                  |
          Root | Wing It                            |
      1-action | Discover                           |
- 1-subactions | 🔍🔍🔊                                |
+ 1-subactions | :reveal::reveal::noise:            |
      2-action | Strongarm                          |
- 2-subactions | 🔓👊🔊🔊➜                              |
+ 2-subactions | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
      3-action | Short                              |
- 3-subactions | 🔓📷🔊🔊➜                              |
+ 3-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      4-action | Zap                                |
- 4-subactions | 👊📷🔊🔊➜                              |
+ 4-subactions | :subdue::disable::noise::noise::mo |
+              | ve:                                |
      5-action | Grab                               |
- 5-subactions | 💰🔊                                 |
+ 5-subactions | :loot::noise:                      |
      6-action | Scamper                            |
- 6-subactions | 🔊🔊🔊➜➜                              |
+ 6-subactions | :noise::noise::noise::move::move:  |
             1 | Discover                           |
-              | 🔍🔍🔊                                |
+              | :reveal::reveal::noise:            |
             2 | Strongarm                          |
-              | 🔓👊🔊🔊➜                              |
+              | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
             3 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             4 | Zap                                |
-              | 👊📷🔊🔊➜                              |
+              | :subdue::disable::noise::noise::mo |
+              | ve:                                |
             5 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
             6 | Scamper                            |
-              | 🔊🔊🔊➜➜                              |
+              | :noise::noise::noise::move::move:  |
         Rolls | Discover                           |
-              | 🔍🔍🔊/Strongarm                      |
-              | 🔓👊🔊🔊➜/Short                        |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Scamper                         |
-              | 🔊🔊🔊➜➜                              |
+              | :reveal::reveal::noise:/Strongarm  |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Short                           |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Scamper              |
+              | :noise::noise::noise::move::move:  |
      Upgrade1 | Concoct                            |
 Upgrade1Rolls | Study                              |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Short                          |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Run                             |
-              | 🔊🔊➜➜                               |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Short      |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Run                  |
+              | :noise::noise::move::move:         |
      Upgrade2 | Improvise                          |
 Upgrade2Rolls | Redirect                           |
-              | 🔓👊📷🔊🔊/Strongarm                    |
-              | 🔓👊🔊🔊➜/Short                        |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Dash                            |
-              | 🔊➜➜                                |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Strongarm                    |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Short                           |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Dash                 |
+              | :noise::move::move:                |
             💡 | 0                                  |
             🔊 | 11                                 |
             ➜ | 5                                  |
@@ -394,52 +438,57 @@ Upgrade2Rolls | Redirect                           |
         Level | 1                                  |
          Root | Hit 'n' Run                        |
      1-action | Hit                                |
- 1-subactions | 👊🔊                                 |
+ 1-subactions | :subdue::noise:                    |
      2-action | Run                                |
- 2-subactions | 🔊🔊➜➜                               |
+ 2-subactions | :noise::noise::move::move:         |
      3-action | Bash                               |
- 3-subactions | 👊👊🔊                                |
+ 3-subactions | :subdue::subdue::noise:            |
      4-action | Run                                |
- 4-subactions | 🔊🔊➜➜                               |
+ 4-subactions | :noise::noise::move::move:         |
      5-action | Hit                                |
- 5-subactions | 👊🔊                                 |
+ 5-subactions | :subdue::noise:                    |
      6-action | Observe                            |
- 6-subactions | 💡🔍🔊                                |
+ 6-subactions | :idea::reveal::noise:              |
             1 | Hit                                |
-              | 👊🔊                                 |
+              | :subdue::noise:                    |
             2 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             3 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             4 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             5 | Hit                                |
-              | 👊🔊                                 |
+              | :subdue::noise:                    |
             6 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
         Rolls | Hit                                |
-              | 👊🔊/Run                             |
-              | 🔊🔊➜➜/Bash                          |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Hit                           |
-              | 👊🔊/Observe                         |
-              | 💡🔍🔊                                |
+              | :subdue::noise:/Run                |
+              | :noise::noise::move::move:/Bash    |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Hit     |
+              | :subdue::noise:/Observe            |
+              | :idea::reveal::noise:              |
      Upgrade1 | Assault                            |
 Upgrade1Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Rampage                       |
-              | 👊👊🔊🔊🔊➜➜/Run                        |
-              | 🔊🔊➜➜/Strongarm                     |
-              | 🔓👊🔊🔊➜/Observe                      |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Rampage |
+              | :subdue::subdue::noise::noise::noi |
+              | se::move::move:/Run                |
+              | :noise::noise::move::move:/Stronga |
+              | rm                                 |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Observe                         |
+              | :idea::reveal::noise:              |
      Upgrade2 | Blast                              |
 Upgrade2Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Detonate                      |
-              | 🔓👊👊📷🔊⚠/Run                         |
-              | 🔊🔊➜➜/Bash                          |
-              | 👊👊🔊/Observe                        |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Detonat |
+              | e                                  |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Run                  |
+              | :noise::noise::move::move:/Bash    |
+              | :subdue::subdue::noise:/Observe    |
+              | :idea::reveal::noise:              |
             💡 | 1                                  |
             🔊 | 8                                  |
             ➜ | 4                                  |
@@ -459,52 +508,57 @@ Upgrade2Rolls | Bash                               |
         Level | 1                                  |
          Root | Hit 'n' Run                        |
      1-action | Hit                                |
- 1-subactions | 👊🔊                                 |
+ 1-subactions | :subdue::noise:                    |
      2-action | Run                                |
- 2-subactions | 🔊🔊➜➜                               |
+ 2-subactions | :noise::noise::move::move:         |
      3-action | Bash                               |
- 3-subactions | 👊👊🔊                                |
+ 3-subactions | :subdue::subdue::noise:            |
      4-action | Run                                |
- 4-subactions | 🔊🔊➜➜                               |
+ 4-subactions | :noise::noise::move::move:         |
      5-action | Hit                                |
- 5-subactions | 👊🔊                                 |
+ 5-subactions | :subdue::noise:                    |
      6-action | Observe                            |
- 6-subactions | 💡🔍🔊                                |
+ 6-subactions | :idea::reveal::noise:              |
             1 | Hit                                |
-              | 👊🔊                                 |
+              | :subdue::noise:                    |
             2 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             3 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             4 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             5 | Hit                                |
-              | 👊🔊                                 |
+              | :subdue::noise:                    |
             6 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
         Rolls | Hit                                |
-              | 👊🔊/Run                             |
-              | 🔊🔊➜➜/Bash                          |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Hit                           |
-              | 👊🔊/Observe                         |
-              | 💡🔍🔊                                |
+              | :subdue::noise:/Run                |
+              | :noise::noise::move::move:/Bash    |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Hit     |
+              | :subdue::noise:/Observe            |
+              | :idea::reveal::noise:              |
      Upgrade1 | Assault                            |
 Upgrade1Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Rampage                       |
-              | 👊👊🔊🔊🔊➜➜/Run                        |
-              | 🔊🔊➜➜/Strongarm                     |
-              | 🔓👊🔊🔊➜/Observe                      |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Rampage |
+              | :subdue::subdue::noise::noise::noi |
+              | se::move::move:/Run                |
+              | :noise::noise::move::move:/Stronga |
+              | rm                                 |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Observe                         |
+              | :idea::reveal::noise:              |
      Upgrade2 | Blast                              |
 Upgrade2Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Detonate                      |
-              | 🔓👊👊📷🔊⚠/Run                         |
-              | 🔊🔊➜➜/Bash                          |
-              | 👊👊🔊/Observe                        |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Detonat |
+              | e                                  |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Run                  |
+              | :noise::noise::move::move:/Bash    |
+              | :subdue::subdue::noise:/Observe    |
+              | :idea::reveal::noise:              |
             💡 | 1                                  |
             🔊 | 8                                  |
             ➜ | 4                                  |
@@ -524,52 +578,61 @@ Upgrade2Rolls | Bash                               |
         Level | 1                                  |
          Root | Bypass                             |
      1-action | Bump                               |
- 1-subactions | 🔓🔓🔊🔊➜                              |
+ 1-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      2-action | Study                              |
- 2-subactions | 💡💡                                 |
+ 2-subactions | :idea::idea:                       |
      3-action | Pick                               |
- 3-subactions | 🔓🔊                                 |
+ 3-subactions | :unlock::noise:                    |
      4-action | Sprint                             |
- 4-subactions | 🔊🔊➜➜➜                              |
+ 4-subactions | :noise::noise::move::move::move:   |
      5-action | Run                                |
- 5-subactions | 🔊🔊➜➜                               |
+ 5-subactions | :noise::noise::move::move:         |
      6-action | Pick                               |
- 6-subactions | 🔓🔊                                 |
+ 6-subactions | :unlock::noise:                    |
             1 | Bump                               |
-              | 🔓🔓🔊🔊➜                              |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             2 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             3 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             4 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             5 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             6 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
         Rolls | Bump                               |
-              | 🔓🔓🔊🔊➜/Study                        |
-              | 💡💡/Pick                            |
-              | 🔓🔊/Sprint                          |
-              | 🔊🔊➜➜➜/Run                          |
-              | 🔊🔊➜➜/Pick                          |
-              | 🔓🔊                                 |
+              | :unlock::unlock::noise::noise::mov |
+              | e:/Study                           |
+              | :idea::idea:/Pick                  |
+              | :unlock::noise:/Sprint             |
+              | :noise::noise::move::move::move:/R |
+              | un                                 |
+              | :noise::noise::move::move:/Pick    |
+              | :unlock::noise:                    |
      Upgrade1 | Extract                            |
 Upgrade1Rolls | Rake                               |
-              | 🔓🔓🔊➜/Recon                         |
-              | 💡💡🔊🔍/Swipe                         |
-              | 🔓💰🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊                                 |
+              | :unlock::unlock::noise::move:/Reco |
+              | n                                  |
+              | :idea::idea::noise::reveal:/Swipe  |
+              | :unlock::loot::noise:/Sprint       |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:                    |
      Upgrade2 | Circumvent                         |
 Upgrade2Rolls | Rake                               |
-              | 🔓🔓🔊➜/Study                         |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Short                          |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::unlock::noise::move:/Stud |
+              | y                                  |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Sprint     |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Short          |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             💡 | 2                                  |
             🔊 | 8                                  |
             ➜ | 6                                  |
@@ -589,52 +652,61 @@ Upgrade2Rolls | Rake                               |
         Level | 1                                  |
          Root | Bypass                             |
      1-action | Bump                               |
- 1-subactions | 🔓🔓🔊🔊➜                              |
+ 1-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      2-action | Study                              |
- 2-subactions | 💡💡                                 |
+ 2-subactions | :idea::idea:                       |
      3-action | Pick                               |
- 3-subactions | 🔓🔊                                 |
+ 3-subactions | :unlock::noise:                    |
      4-action | Sprint                             |
- 4-subactions | 🔊🔊➜➜➜                              |
+ 4-subactions | :noise::noise::move::move::move:   |
      5-action | Run                                |
- 5-subactions | 🔊🔊➜➜                               |
+ 5-subactions | :noise::noise::move::move:         |
      6-action | Pick                               |
- 6-subactions | 🔓🔊                                 |
+ 6-subactions | :unlock::noise:                    |
             1 | Bump                               |
-              | 🔓🔓🔊🔊➜                              |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             2 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             3 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             4 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             5 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             6 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
         Rolls | Bump                               |
-              | 🔓🔓🔊🔊➜/Study                        |
-              | 💡💡/Pick                            |
-              | 🔓🔊/Sprint                          |
-              | 🔊🔊➜➜➜/Run                          |
-              | 🔊🔊➜➜/Pick                          |
-              | 🔓🔊                                 |
+              | :unlock::unlock::noise::noise::mov |
+              | e:/Study                           |
+              | :idea::idea:/Pick                  |
+              | :unlock::noise:/Sprint             |
+              | :noise::noise::move::move::move:/R |
+              | un                                 |
+              | :noise::noise::move::move:/Pick    |
+              | :unlock::noise:                    |
      Upgrade1 | Extract                            |
 Upgrade1Rolls | Rake                               |
-              | 🔓🔓🔊➜/Recon                         |
-              | 💡💡🔊🔍/Swipe                         |
-              | 🔓💰🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊                                 |
+              | :unlock::unlock::noise::move:/Reco |
+              | n                                  |
+              | :idea::idea::noise::reveal:/Swipe  |
+              | :unlock::loot::noise:/Sprint       |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:                    |
      Upgrade2 | Circumvent                         |
 Upgrade2Rolls | Rake                               |
-              | 🔓🔓🔊➜/Study                         |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Short                          |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::unlock::noise::move:/Stud |
+              | y                                  |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Sprint     |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Short          |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             💡 | 2                                  |
             🔊 | 8                                  |
             ➜ | 6                                  |
@@ -654,52 +726,54 @@ Upgrade2Rolls | Rake                               |
         Level | 1                                  |
          Root | Yank Wires                         |
      1-action | Shatter                            |
- 1-subactions | 📷📷🔊🔊➜                              |
+ 1-subactions | :disable::disable::noise::noise::m |
+              | ove:                               |
      2-action | Sprint                             |
- 2-subactions | 🔊🔊➜➜➜                              |
+ 2-subactions | :noise::noise::move::move::move:   |
      3-action | Smash                              |
- 3-subactions | 📷🔊🔊➜                               |
+ 3-subactions | :disable::noise::noise::move:      |
      4-action | Discover                           |
- 4-subactions | 🔍🔍🔊                                |
+ 4-subactions | :reveal::reveal::noise:            |
      5-action | Examine                            |
- 5-subactions | 💡💡💡🔊                               |
+ 5-subactions | :idea::idea::idea::noise:          |
      6-action | Smash                              |
- 6-subactions | 📷🔊🔊➜                               |
+ 6-subactions | :disable::noise::noise::move:      |
             1 | Shatter                            |
-              | 📷📷🔊🔊➜                              |
+              | :disable::disable::noise::noise::m |
+              | ove:                               |
             2 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             3 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             4 | Discover                           |
-              | 🔍🔍🔊                                |
+              | :reveal::reveal::noise:            |
             5 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
             6 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
         Rolls | Shatter                            |
-              | 📷📷🔊🔊➜/Sprint                       |
-              | 🔊🔊➜➜➜/Smash                        |
-              | 📷🔊🔊➜/Discover                      |
-              | 🔍🔍🔊/Examine                        |
-              | 💡💡💡🔊/Smash                         |
-              | 📷🔊🔊➜                               |
+              | :disable::disable::noise::noise::m |
+              | ove:/Sprint                        |
+              | :noise::noise::move::move::move:/S |
+              | mash                               |
+              | :disable::noise::noise::move:/Disc |
+              | over                               |
+              | :reveal::reveal::noise:/Examine    |
+              | :idea::idea::idea::noise:/Smash    |
+              | :disable::noise::noise::move:      |
      Upgrade1 | Splice In                          |
-Upgrade1Rolls | Unplug                             |
-              | 📷📷🔊➜/Sprint                        |
-              | 🔊🔊➜➜➜/Disable                      |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Examine                       |
-              | 💡💡💡🔊/Disable                       |
-              | 📷🔊➜                                |
+Upgrade1Rolls | Rewire                             |
+              | :disable::disable::noise::move:/Sp |
+              | rint                               |
+              | :noise::noise::move::move::move:/D |
+              | isable                             |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Examin |
+              | e                                  |
+              | :idea::idea::idea::noise:/Disable  |
+              | :disable::noise::move:             |
      Upgrade2 | Tinker                             |
-Upgrade2Rolls | Unplug                             |
-              | 📷📷🔊➜/Stride                        |
-              | 🔊➜🔍/Disable                        |
-              | 📷🔊➜/Stride                         |
-              | 🔊➜🔍/Eyeball                        |
-              | 💡🔊🔊➜/Disable                       |
-              | 📷🔊➜                                |
+Upgrade2Rolls | #N/A                               |
             💡 | 3                                  |
             🔊 | 10                                 |
             ➜ | 6                                  |
@@ -719,52 +793,54 @@ Upgrade2Rolls | Unplug                             |
         Level | 1                                  |
          Root | Yank Wires                         |
      1-action | Shatter                            |
- 1-subactions | 📷📷🔊🔊➜                              |
+ 1-subactions | :disable::disable::noise::noise::m |
+              | ove:                               |
      2-action | Sprint                             |
- 2-subactions | 🔊🔊➜➜➜                              |
+ 2-subactions | :noise::noise::move::move::move:   |
      3-action | Smash                              |
- 3-subactions | 📷🔊🔊➜                               |
+ 3-subactions | :disable::noise::noise::move:      |
      4-action | Discover                           |
- 4-subactions | 🔍🔍🔊                                |
+ 4-subactions | :reveal::reveal::noise:            |
      5-action | Examine                            |
- 5-subactions | 💡💡💡🔊                               |
+ 5-subactions | :idea::idea::idea::noise:          |
      6-action | Smash                              |
- 6-subactions | 📷🔊🔊➜                               |
+ 6-subactions | :disable::noise::noise::move:      |
             1 | Shatter                            |
-              | 📷📷🔊🔊➜                              |
+              | :disable::disable::noise::noise::m |
+              | ove:                               |
             2 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             3 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             4 | Discover                           |
-              | 🔍🔍🔊                                |
+              | :reveal::reveal::noise:            |
             5 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
             6 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
         Rolls | Shatter                            |
-              | 📷📷🔊🔊➜/Sprint                       |
-              | 🔊🔊➜➜➜/Smash                        |
-              | 📷🔊🔊➜/Discover                      |
-              | 🔍🔍🔊/Examine                        |
-              | 💡💡💡🔊/Smash                         |
-              | 📷🔊🔊➜                               |
+              | :disable::disable::noise::noise::m |
+              | ove:/Sprint                        |
+              | :noise::noise::move::move::move:/S |
+              | mash                               |
+              | :disable::noise::noise::move:/Disc |
+              | over                               |
+              | :reveal::reveal::noise:/Examine    |
+              | :idea::idea::idea::noise:/Smash    |
+              | :disable::noise::noise::move:      |
      Upgrade1 | Splice In                          |
-Upgrade1Rolls | Unplug                             |
-              | 📷📷🔊➜/Sprint                        |
-              | 🔊🔊➜➜➜/Disable                      |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Examine                       |
-              | 💡💡💡🔊/Disable                       |
-              | 📷🔊➜                                |
+Upgrade1Rolls | Rewire                             |
+              | :disable::disable::noise::move:/Sp |
+              | rint                               |
+              | :noise::noise::move::move::move:/D |
+              | isable                             |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Examin |
+              | e                                  |
+              | :idea::idea::idea::noise:/Disable  |
+              | :disable::noise::move:             |
      Upgrade2 | Tinker                             |
-Upgrade2Rolls | Unplug                             |
-              | 📷📷🔊➜/Stride                        |
-              | 🔊➜🔍/Disable                        |
-              | 📷🔊➜/Stride                         |
-              | 🔊➜🔍/Eyeball                        |
-              | 💡🔊🔊➜/Disable                       |
-              | 📷🔊➜                                |
+Upgrade2Rolls | #N/A                               |
             💡 | 3                                  |
             🔊 | 10                                 |
             ➜ | 6                                  |
@@ -784,36 +860,37 @@ Upgrade2Rolls | Unplug                             |
         Level | 2                                  |
          Root | Smash 'n' Grab                     |
      1-action | Flip                               |
- 1-subactions | 👊🔊➜                                |
+ 1-subactions | :subdue::noise::move:              |
      2-action | Disable                            |
- 2-subactions | 📷🔊➜                                |
+ 2-subactions | :disable::noise::move:             |
      3-action | Recon                              |
- 3-subactions | 💡💡🔊🔍                               |
+ 3-subactions | :idea::idea::noise::reveal:        |
      4-action | Punch                              |
- 4-subactions | 👊🔊🔊➜                               |
+ 4-subactions | :subdue::noise::noise::move:       |
      5-action | Smash                              |
- 5-subactions | 📷🔊🔊➜                               |
+ 5-subactions | :disable::noise::noise::move:      |
      6-action | Ransack                            |
- 6-subactions | 💰💰🔊                                |
+ 6-subactions | :loot::loot::noise:                |
             1 | Flip                               |
-              | 👊🔊➜                                |
+              | :subdue::noise::move:              |
             2 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             3 | Recon                              |
-              | 💡💡🔊🔍                               |
+              | :idea::idea::noise::reveal:        |
             4 | Punch                              |
-              | 👊🔊🔊➜                               |
+              | :subdue::noise::noise::move:       |
             5 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             6 | Ransack                            |
-              | 💰💰🔊                                |
+              | :loot::loot::noise:                |
         Rolls | Flip                               |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Punch                         |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Ransack                       |
-              | 💰💰🔊                                |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Punch  |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Rans |
+              | ack                                |
+              | :loot::loot::noise:                |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -837,36 +914,37 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Smash 'n' Grab                     |
      1-action | Flip                               |
- 1-subactions | 👊🔊➜                                |
+ 1-subactions | :subdue::noise::move:              |
      2-action | Disable                            |
- 2-subactions | 📷🔊➜                                |
+ 2-subactions | :disable::noise::move:             |
      3-action | Recon                              |
- 3-subactions | 💡💡🔊🔍                               |
+ 3-subactions | :idea::idea::noise::reveal:        |
      4-action | Punch                              |
- 4-subactions | 👊🔊🔊➜                               |
+ 4-subactions | :subdue::noise::noise::move:       |
      5-action | Smash                              |
- 5-subactions | 📷🔊🔊➜                               |
+ 5-subactions | :disable::noise::noise::move:      |
      6-action | Ransack                            |
- 6-subactions | 💰💰🔊                                |
+ 6-subactions | :loot::loot::noise:                |
             1 | Flip                               |
-              | 👊🔊➜                                |
+              | :subdue::noise::move:              |
             2 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             3 | Recon                              |
-              | 💡💡🔊🔍                               |
+              | :idea::idea::noise::reveal:        |
             4 | Punch                              |
-              | 👊🔊🔊➜                               |
+              | :subdue::noise::noise::move:       |
             5 | Smash                              |
-              | 📷🔊🔊➜                               |
+              | :disable::noise::noise::move:      |
             6 | Ransack                            |
-              | 💰💰🔊                                |
+              | :loot::loot::noise:                |
         Rolls | Flip                               |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Punch                         |
-              | 👊🔊🔊➜/Smash                         |
-              | 📷🔊🔊➜/Ransack                       |
-              | 💰💰🔊                                |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Punch  |
+              | :subdue::noise::noise::move:/Smash |
+              | :disable::noise::noise::move:/Rans |
+              | ack                                |
+              | :loot::loot::noise:                |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -890,36 +968,38 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Smash 'n' Grab                     |
      1-action | Punch                              |
- 1-subactions | 👊🔊🔊➜                               |
-     2-action | Unplug                             |
- 2-subactions | 📷📷🔊➜                               |
+ 1-subactions | :subdue::noise::noise::move:       |
+     2-action | Rewire                             |
+ 2-subactions | :disable::disable::noise::move:    |
      3-action | Key In                             |
- 3-subactions | 🔍🔓🔊                                |
+ 3-subactions | :reveal::unlock::noise:            |
      4-action | Flip                               |
- 4-subactions | 👊🔊➜                                |
+ 4-subactions | :subdue::noise::move:              |
      5-action | Disable                            |
- 5-subactions | 📷🔊➜                                |
+ 5-subactions | :disable::noise::move:             |
      6-action | Grab                               |
- 6-subactions | 💰🔊                                 |
+ 6-subactions | :loot::noise:                      |
             1 | Punch                              |
-              | 👊🔊🔊➜                               |
-            2 | Unplug                             |
-              | 📷📷🔊➜                               |
+              | :subdue::noise::noise::move:       |
+            2 | Rewire                             |
+              | :disable::disable::noise::move:    |
             3 | Key In                             |
-              | 🔍🔓🔊                                |
+              | :reveal::unlock::noise:            |
             4 | Flip                               |
-              | 👊🔊➜                                |
+              | :subdue::noise::move:              |
             5 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             6 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
         Rolls | Punch                              |
-              | 👊🔊🔊➜/Unplug                        |
-              | 📷📷🔊➜/Key In                        |
-              | 🔍🔓🔊/Flip                           |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Grab                           |
-              | 💰🔊                                 |
+              | :subdue::noise::noise::move:/Rewir |
+              | e                                  |
+              | :disable::disable::noise::move:/Ke |
+              | y In                               |
+              | :reveal::unlock::noise:/Flip       |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Grab        |
+              | :loot::noise:                      |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -943,36 +1023,38 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Smash 'n' Grab                     |
      1-action | Punch                              |
- 1-subactions | 👊🔊🔊➜                               |
-     2-action | Unplug                             |
- 2-subactions | 📷📷🔊➜                               |
+ 1-subactions | :subdue::noise::noise::move:       |
+     2-action | Rewire                             |
+ 2-subactions | :disable::disable::noise::move:    |
      3-action | Key In                             |
- 3-subactions | 🔍🔓🔊                                |
+ 3-subactions | :reveal::unlock::noise:            |
      4-action | Flip                               |
- 4-subactions | 👊🔊➜                                |
+ 4-subactions | :subdue::noise::move:              |
      5-action | Disable                            |
- 5-subactions | 📷🔊➜                                |
+ 5-subactions | :disable::noise::move:             |
      6-action | Grab                               |
- 6-subactions | 💰🔊                                 |
+ 6-subactions | :loot::noise:                      |
             1 | Punch                              |
-              | 👊🔊🔊➜                               |
-            2 | Unplug                             |
-              | 📷📷🔊➜                               |
+              | :subdue::noise::noise::move:       |
+            2 | Rewire                             |
+              | :disable::disable::noise::move:    |
             3 | Key In                             |
-              | 🔍🔓🔊                                |
+              | :reveal::unlock::noise:            |
             4 | Flip                               |
-              | 👊🔊➜                                |
+              | :subdue::noise::move:              |
             5 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             6 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
         Rolls | Punch                              |
-              | 👊🔊🔊➜/Unplug                        |
-              | 📷📷🔊➜/Key In                        |
-              | 🔍🔓🔊/Flip                           |
-              | 👊🔊➜/Disable                        |
-              | 📷🔊➜/Grab                           |
-              | 💰🔊                                 |
+              | :subdue::noise::noise::move:/Rewir |
+              | e                                  |
+              | :disable::disable::noise::move:/Ke |
+              | y In                               |
+              | :reveal::unlock::noise:/Flip       |
+              | :subdue::noise::move:/Disable      |
+              | :disable::noise::move:/Grab        |
+              | :loot::noise:                      |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -996,36 +1078,37 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hurry                              |
      1-action | Dash                               |
- 1-subactions | 🔊➜➜                                |
+ 1-subactions | :noise::move::move:                |
      2-action | Pick                               |
- 2-subactions | 🔓🔊                                 |
+ 2-subactions | :unlock::noise:                    |
      3-action | Sleeper Hold                       |
- 3-subactions | 👊➜                                 |
+ 3-subactions | :subdue::move:                     |
      4-action | Observe                            |
- 4-subactions | 💡🔍🔊                                |
+ 4-subactions | :idea::reveal::noise:              |
      5-action | Sprint                             |
- 5-subactions | 🔊🔊➜➜➜                              |
+ 5-subactions | :noise::noise::move::move::move:   |
      6-action | Examine                            |
- 6-subactions | 💡💡💡🔊                               |
+ 6-subactions | :idea::idea::idea::noise:          |
             1 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             2 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             3 | Sleeper Hold                       |
-              | 👊➜                                 |
+              | :subdue::move:                     |
             4 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
             5 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             6 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
         Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sleeper Hold                    |
-              | 👊➜/Observe                         |
-              | 💡🔍🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sleeper Hold       |
+              | :subdue::move:/Observe             |
+              | :idea::reveal::noise:/Sprint       |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1049,36 +1132,37 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hurry                              |
      1-action | Dash                               |
- 1-subactions | 🔊➜➜                                |
+ 1-subactions | :noise::move::move:                |
      2-action | Pick                               |
- 2-subactions | 🔓🔊                                 |
+ 2-subactions | :unlock::noise:                    |
      3-action | Sleeper Hold                       |
- 3-subactions | 👊➜                                 |
+ 3-subactions | :subdue::move:                     |
      4-action | Observe                            |
- 4-subactions | 💡🔍🔊                                |
+ 4-subactions | :idea::reveal::noise:              |
      5-action | Sprint                             |
- 5-subactions | 🔊🔊➜➜➜                              |
+ 5-subactions | :noise::noise::move::move::move:   |
      6-action | Examine                            |
- 6-subactions | 💡💡💡🔊                               |
+ 6-subactions | :idea::idea::idea::noise:          |
             1 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             2 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             3 | Sleeper Hold                       |
-              | 👊➜                                 |
+              | :subdue::move:                     |
             4 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
             5 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             6 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
         Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sleeper Hold                    |
-              | 👊➜/Observe                         |
-              | 💡🔍🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sleeper Hold       |
+              | :subdue::move:/Observe             |
+              | :idea::reveal::noise:/Sprint       |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1102,36 +1186,37 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hurry                              |
      1-action | Dash                               |
- 1-subactions | 🔊➜➜                                |
+ 1-subactions | :noise::move::move:                |
      2-action | Pick                               |
- 2-subactions | 🔓🔊                                 |
+ 2-subactions | :unlock::noise:                    |
      3-action | Sneak                              |
- 3-subactions | 📷🔊➜➜                               |
+ 3-subactions | :disable::noise::move::move:       |
      4-action | Study                              |
- 4-subactions | 💡💡                                 |
+ 4-subactions | :idea::idea:                       |
      5-action | Sprint                             |
- 5-subactions | 🔊🔊➜➜➜                              |
+ 5-subactions | :noise::noise::move::move::move:   |
      6-action | Examine                            |
- 6-subactions | 💡💡💡🔊                               |
+ 6-subactions | :idea::idea::idea::noise:          |
             1 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             2 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             3 | Sneak                              |
-              | 📷🔊➜➜                               |
+              | :disable::noise::move::move:       |
             4 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             5 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             6 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
         Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sneak                           |
-              | 📷🔊➜➜/Study                         |
-              | 💡💡/Sprint                          |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sneak              |
+              | :disable::noise::move::move:/Study |
+              | :idea::idea:/Sprint                |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1155,36 +1240,37 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hurry                              |
      1-action | Dash                               |
- 1-subactions | 🔊➜➜                                |
+ 1-subactions | :noise::move::move:                |
      2-action | Pick                               |
- 2-subactions | 🔓🔊                                 |
+ 2-subactions | :unlock::noise:                    |
      3-action | Sneak                              |
- 3-subactions | 📷🔊➜➜                               |
+ 3-subactions | :disable::noise::move::move:       |
      4-action | Study                              |
- 4-subactions | 💡💡                                 |
+ 4-subactions | :idea::idea:                       |
      5-action | Sprint                             |
- 5-subactions | 🔊🔊➜➜➜                              |
+ 5-subactions | :noise::noise::move::move::move:   |
      6-action | Examine                            |
- 6-subactions | 💡💡💡🔊                               |
+ 6-subactions | :idea::idea::idea::noise:          |
             1 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             2 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
             3 | Sneak                              |
-              | 📷🔊➜➜                               |
+              | :disable::noise::move::move:       |
             4 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             5 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             6 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
         Rolls | Dash                               |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊/Sneak                           |
-              | 📷🔊➜➜/Study                         |
-              | 💡💡/Sprint                          |
-              | 🔊🔊➜➜➜/Examine                      |
-              | 💡💡💡🔊                               |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:/Sneak              |
+              | :disable::noise::move::move:/Study |
+              | :idea::idea:/Sprint                |
+              | :noise::noise::move::move::move:/E |
+              | xamine                             |
+              | :idea::idea::idea::noise:          |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1208,36 +1294,42 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Wing It                            |
      1-action | Study                              |
- 1-subactions | 💡💡                                 |
+ 1-subactions | :idea::idea:                       |
      2-action | Spy Stuff                          |
- 2-subactions | 🔓👊🔊                                |
+ 2-subactions | :unlock::subdue::noise:            |
      3-action | Short                              |
- 3-subactions | 🔓📷🔊🔊➜                              |
+ 3-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      4-action | Zap                                |
- 4-subactions | 👊📷🔊🔊➜                              |
+ 4-subactions | :subdue::disable::noise::noise::mo |
+              | ve:                                |
      5-action | Grab                               |
- 5-subactions | 💰🔊                                 |
+ 5-subactions | :loot::noise:                      |
      6-action | Run                                |
- 6-subactions | 🔊🔊➜➜                               |
+ 6-subactions | :noise::noise::move::move:         |
             1 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             2 | Spy Stuff                          |
-              | 🔓👊🔊                                |
+              | :unlock::subdue::noise:            |
             3 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             4 | Zap                                |
-              | 👊📷🔊🔊➜                              |
+              | :subdue::disable::noise::noise::mo |
+              | ve:                                |
             5 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
             6 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
         Rolls | Study                              |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Short                          |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Run                             |
-              | 🔊🔊➜➜                               |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Short      |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Run                  |
+              | :noise::noise::move::move:         |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1261,36 +1353,42 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Wing It                            |
      1-action | Study                              |
- 1-subactions | 💡💡                                 |
+ 1-subactions | :idea::idea:                       |
      2-action | Spy Stuff                          |
- 2-subactions | 🔓👊🔊                                |
+ 2-subactions | :unlock::subdue::noise:            |
      3-action | Short                              |
- 3-subactions | 🔓📷🔊🔊➜                              |
+ 3-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      4-action | Zap                                |
- 4-subactions | 👊📷🔊🔊➜                              |
+ 4-subactions | :subdue::disable::noise::noise::mo |
+              | ve:                                |
      5-action | Grab                               |
- 5-subactions | 💰🔊                                 |
+ 5-subactions | :loot::noise:                      |
      6-action | Run                                |
- 6-subactions | 🔊🔊➜➜                               |
+ 6-subactions | :noise::noise::move::move:         |
             1 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             2 | Spy Stuff                          |
-              | 🔓👊🔊                                |
+              | :unlock::subdue::noise:            |
             3 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             4 | Zap                                |
-              | 👊📷🔊🔊➜                              |
+              | :subdue::disable::noise::noise::mo |
+              | ve:                                |
             5 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
             6 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
         Rolls | Study                              |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Short                          |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Run                             |
-              | 🔊🔊➜➜                               |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Short      |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Run                  |
+              | :noise::noise::move::move:         |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1314,36 +1412,48 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Wing It                            |
      1-action | Redirect                           |
- 1-subactions | 🔓👊📷🔊🔊                              |
+ 1-subactions | :unlock::subdue::disable::noise::n |
+              | oise:                              |
      2-action | Strongarm                          |
- 2-subactions | 🔓👊🔊🔊➜                              |
+ 2-subactions | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
      3-action | Short                              |
- 3-subactions | 🔓📷🔊🔊➜                              |
+ 3-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      4-action | Zap                                |
- 4-subactions | 👊📷🔊🔊➜                              |
+ 4-subactions | :subdue::disable::noise::noise::mo |
+              | ve:                                |
      5-action | Grab                               |
- 5-subactions | 💰🔊                                 |
+ 5-subactions | :loot::noise:                      |
      6-action | Dash                               |
- 6-subactions | 🔊➜➜                                |
+ 6-subactions | :noise::move::move:                |
             1 | Redirect                           |
-              | 🔓👊📷🔊🔊                              |
+              | :unlock::subdue::disable::noise::n |
+              | oise:                              |
             2 | Strongarm                          |
-              | 🔓👊🔊🔊➜                              |
+              | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
             3 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             4 | Zap                                |
-              | 👊📷🔊🔊➜                              |
+              | :subdue::disable::noise::noise::mo |
+              | ve:                                |
             5 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
             6 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
         Rolls | Redirect                           |
-              | 🔓👊📷🔊🔊/Strongarm                    |
-              | 🔓👊🔊🔊➜/Short                        |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Dash                            |
-              | 🔊➜➜                                |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Strongarm                    |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Short                           |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Dash                 |
+              | :noise::move::move:                |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1367,36 +1477,48 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Wing It                            |
      1-action | Redirect                           |
- 1-subactions | 🔓👊📷🔊🔊                              |
+ 1-subactions | :unlock::subdue::disable::noise::n |
+              | oise:                              |
      2-action | Strongarm                          |
- 2-subactions | 🔓👊🔊🔊➜                              |
+ 2-subactions | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
      3-action | Short                              |
- 3-subactions | 🔓📷🔊🔊➜                              |
+ 3-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      4-action | Zap                                |
- 4-subactions | 👊📷🔊🔊➜                              |
+ 4-subactions | :subdue::disable::noise::noise::mo |
+              | ve:                                |
      5-action | Grab                               |
- 5-subactions | 💰🔊                                 |
+ 5-subactions | :loot::noise:                      |
      6-action | Dash                               |
- 6-subactions | 🔊➜➜                                |
+ 6-subactions | :noise::move::move:                |
             1 | Redirect                           |
-              | 🔓👊📷🔊🔊                              |
+              | :unlock::subdue::disable::noise::n |
+              | oise:                              |
             2 | Strongarm                          |
-              | 🔓👊🔊🔊➜                              |
+              | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
             3 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             4 | Zap                                |
-              | 👊📷🔊🔊➜                              |
+              | :subdue::disable::noise::noise::mo |
+              | ve:                                |
             5 | Grab                               |
-              | 💰🔊                                 |
+              | :loot::noise:                      |
             6 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
         Rolls | Redirect                           |
-              | 🔓👊📷🔊🔊/Strongarm                    |
-              | 🔓👊🔊🔊➜/Short                        |
-              | 🔓📷🔊🔊➜/Zap                          |
-              | 👊📷🔊🔊➜/Grab                         |
-              | 💰🔊/Dash                            |
-              | 🔊➜➜                                |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Strongarm                    |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Short                           |
+              | :unlock::disable::noise::noise::mo |
+              | ve:/Zap                            |
+              | :subdue::disable::noise::noise::mo |
+              | ve:/Grab                           |
+              | :loot::noise:/Dash                 |
+              | :noise::move::move:                |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1420,36 +1542,43 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hit 'n' Run                        |
      1-action | Bash                               |
- 1-subactions | 👊👊🔊                                |
+ 1-subactions | :subdue::subdue::noise:            |
      2-action | Run                                |
- 2-subactions | 🔊🔊➜➜                               |
+ 2-subactions | :noise::noise::move::move:         |
      3-action | Rampage                            |
- 3-subactions | 👊👊🔊🔊🔊➜➜                            |
+ 3-subactions | :subdue::subdue::noise::noise::noi |
+              | se::move::move:                    |
      4-action | Run                                |
- 4-subactions | 🔊🔊➜➜                               |
+ 4-subactions | :noise::noise::move::move:         |
      5-action | Strongarm                          |
- 5-subactions | 🔓👊🔊🔊➜                              |
+ 5-subactions | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
      6-action | Observe                            |
- 6-subactions | 💡🔍🔊                                |
+ 6-subactions | :idea::reveal::noise:              |
             1 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             2 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             3 | Rampage                            |
-              | 👊👊🔊🔊🔊➜➜                            |
+              | :subdue::subdue::noise::noise::noi |
+              | se::move::move:                    |
             4 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             5 | Strongarm                          |
-              | 🔓👊🔊🔊➜                              |
+              | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
             6 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
         Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Rampage                       |
-              | 👊👊🔊🔊🔊➜➜/Run                        |
-              | 🔊🔊➜➜/Strongarm                     |
-              | 🔓👊🔊🔊➜/Observe                      |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Rampage |
+              | :subdue::subdue::noise::noise::noi |
+              | se::move::move:/Run                |
+              | :noise::noise::move::move:/Stronga |
+              | rm                                 |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Observe                         |
+              | :idea::reveal::noise:              |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1473,36 +1602,43 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hit 'n' Run                        |
      1-action | Bash                               |
- 1-subactions | 👊👊🔊                                |
+ 1-subactions | :subdue::subdue::noise:            |
      2-action | Run                                |
- 2-subactions | 🔊🔊➜➜                               |
+ 2-subactions | :noise::noise::move::move:         |
      3-action | Rampage                            |
- 3-subactions | 👊👊🔊🔊🔊➜➜                            |
+ 3-subactions | :subdue::subdue::noise::noise::noi |
+              | se::move::move:                    |
      4-action | Run                                |
- 4-subactions | 🔊🔊➜➜                               |
+ 4-subactions | :noise::noise::move::move:         |
      5-action | Strongarm                          |
- 5-subactions | 🔓👊🔊🔊➜                              |
+ 5-subactions | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
      6-action | Observe                            |
- 6-subactions | 💡🔍🔊                                |
+ 6-subactions | :idea::reveal::noise:              |
             1 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             2 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             3 | Rampage                            |
-              | 👊👊🔊🔊🔊➜➜                            |
+              | :subdue::subdue::noise::noise::noi |
+              | se::move::move:                    |
             4 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             5 | Strongarm                          |
-              | 🔓👊🔊🔊➜                              |
+              | :unlock::subdue::noise::noise::mov |
+              | e:                                 |
             6 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
         Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Rampage                       |
-              | 👊👊🔊🔊🔊➜➜/Run                        |
-              | 🔊🔊➜➜/Strongarm                     |
-              | 🔓👊🔊🔊➜/Observe                      |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Rampage |
+              | :subdue::subdue::noise::noise::noi |
+              | se::move::move:/Run                |
+              | :noise::noise::move::move:/Stronga |
+              | rm                                 |
+              | :unlock::subdue::noise::noise::mov |
+              | e:/Observe                         |
+              | :idea::reveal::noise:              |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1526,36 +1662,40 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hit 'n' Run                        |
      1-action | Bash                               |
- 1-subactions | 👊👊🔊                                |
+ 1-subactions | :subdue::subdue::noise:            |
      2-action | Run                                |
- 2-subactions | 🔊🔊➜➜                               |
+ 2-subactions | :noise::noise::move::move:         |
      3-action | Detonate                           |
- 3-subactions | 🔓👊👊📷🔊⚠                             |
+ 3-subactions | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
      4-action | Run                                |
- 4-subactions | 🔊🔊➜➜                               |
+ 4-subactions | :noise::noise::move::move:         |
      5-action | Bash                               |
- 5-subactions | 👊👊🔊                                |
+ 5-subactions | :subdue::subdue::noise:            |
      6-action | Observe                            |
- 6-subactions | 💡🔍🔊                                |
+ 6-subactions | :idea::reveal::noise:              |
             1 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             2 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             3 | Detonate                           |
-              | 🔓👊👊📷🔊⚠                             |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
             4 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             5 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             6 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
         Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Detonate                      |
-              | 🔓👊👊📷🔊⚠/Run                         |
-              | 🔊🔊➜➜/Bash                          |
-              | 👊👊🔊/Observe                        |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Detonat |
+              | e                                  |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Run                  |
+              | :noise::noise::move::move:/Bash    |
+              | :subdue::subdue::noise:/Observe    |
+              | :idea::reveal::noise:              |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1579,36 +1719,40 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Hit 'n' Run                        |
      1-action | Bash                               |
- 1-subactions | 👊👊🔊                                |
+ 1-subactions | :subdue::subdue::noise:            |
      2-action | Run                                |
- 2-subactions | 🔊🔊➜➜                               |
+ 2-subactions | :noise::noise::move::move:         |
      3-action | Detonate                           |
- 3-subactions | 🔓👊👊📷🔊⚠                             |
+ 3-subactions | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
      4-action | Run                                |
- 4-subactions | 🔊🔊➜➜                               |
+ 4-subactions | :noise::noise::move::move:         |
      5-action | Bash                               |
- 5-subactions | 👊👊🔊                                |
+ 5-subactions | :subdue::subdue::noise:            |
      6-action | Observe                            |
- 6-subactions | 💡🔍🔊                                |
+ 6-subactions | :idea::reveal::noise:              |
             1 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             2 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             3 | Detonate                           |
-              | 🔓👊👊📷🔊⚠                             |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
             4 | Run                                |
-              | 🔊🔊➜➜                               |
+              | :noise::noise::move::move:         |
             5 | Bash                               |
-              | 👊👊🔊                                |
+              | :subdue::subdue::noise:            |
             6 | Observe                            |
-              | 💡🔍🔊                                |
+              | :idea::reveal::noise:              |
         Rolls | Bash                               |
-              | 👊👊🔊/Run                            |
-              | 🔊🔊➜➜/Detonate                      |
-              | 🔓👊👊📷🔊⚠/Run                         |
-              | 🔊🔊➜➜/Bash                          |
-              | 👊👊🔊/Observe                        |
-              | 💡🔍🔊                                |
+              | :subdue::subdue::noise:/Run        |
+              | :noise::noise::move::move:/Detonat |
+              | e                                  |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Run                  |
+              | :noise::noise::move::move:/Bash    |
+              | :subdue::subdue::noise:/Observe    |
+              | :idea::reveal::noise:              |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1632,36 +1776,38 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Bypass                             |
      1-action | Rake                               |
- 1-subactions | 🔓🔓🔊➜                               |
+ 1-subactions | :unlock::unlock::noise::move:      |
      2-action | Recon                              |
- 2-subactions | 💡💡🔊🔍                               |
+ 2-subactions | :idea::idea::noise::reveal:        |
      3-action | Swipe                              |
- 3-subactions | 🔓💰🔊                                |
+ 3-subactions | :unlock::loot::noise:              |
      4-action | Sprint                             |
- 4-subactions | 🔊🔊➜➜➜                              |
+ 4-subactions | :noise::noise::move::move::move:   |
      5-action | Dash                               |
- 5-subactions | 🔊➜➜                                |
+ 5-subactions | :noise::move::move:                |
      6-action | Pick                               |
- 6-subactions | 🔓🔊                                 |
+ 6-subactions | :unlock::noise:                    |
             1 | Rake                               |
-              | 🔓🔓🔊➜                               |
+              | :unlock::unlock::noise::move:      |
             2 | Recon                              |
-              | 💡💡🔊🔍                               |
+              | :idea::idea::noise::reveal:        |
             3 | Swipe                              |
-              | 🔓💰🔊                                |
+              | :unlock::loot::noise:              |
             4 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             5 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             6 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
         Rolls | Rake                               |
-              | 🔓🔓🔊➜/Recon                         |
-              | 💡💡🔊🔍/Swipe                         |
-              | 🔓💰🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊                                 |
+              | :unlock::unlock::noise::move:/Reco |
+              | n                                  |
+              | :idea::idea::noise::reveal:/Swipe  |
+              | :unlock::loot::noise:/Sprint       |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:                    |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1685,36 +1831,38 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Bypass                             |
      1-action | Rake                               |
- 1-subactions | 🔓🔓🔊➜                               |
+ 1-subactions | :unlock::unlock::noise::move:      |
      2-action | Recon                              |
- 2-subactions | 💡💡🔊🔍                               |
+ 2-subactions | :idea::idea::noise::reveal:        |
      3-action | Swipe                              |
- 3-subactions | 🔓💰🔊                                |
+ 3-subactions | :unlock::loot::noise:              |
      4-action | Sprint                             |
- 4-subactions | 🔊🔊➜➜➜                              |
+ 4-subactions | :noise::noise::move::move::move:   |
      5-action | Dash                               |
- 5-subactions | 🔊➜➜                                |
+ 5-subactions | :noise::move::move:                |
      6-action | Pick                               |
- 6-subactions | 🔓🔊                                 |
+ 6-subactions | :unlock::noise:                    |
             1 | Rake                               |
-              | 🔓🔓🔊➜                               |
+              | :unlock::unlock::noise::move:      |
             2 | Recon                              |
-              | 💡💡🔊🔍                               |
+              | :idea::idea::noise::reveal:        |
             3 | Swipe                              |
-              | 🔓💰🔊                                |
+              | :unlock::loot::noise:              |
             4 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             5 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             6 | Pick                               |
-              | 🔓🔊                                 |
+              | :unlock::noise:                    |
         Rolls | Rake                               |
-              | 🔓🔓🔊➜/Recon                         |
-              | 💡💡🔊🔍/Swipe                         |
-              | 🔓💰🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Pick                           |
-              | 🔓🔊                                 |
+              | :unlock::unlock::noise::move:/Reco |
+              | n                                  |
+              | :idea::idea::noise::reveal:/Swipe  |
+              | :unlock::loot::noise:/Sprint       |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Pick           |
+              | :unlock::noise:                    |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1738,36 +1886,41 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Bypass                             |
      1-action | Rake                               |
- 1-subactions | 🔓🔓🔊➜                               |
+ 1-subactions | :unlock::unlock::noise::move:      |
      2-action | Study                              |
- 2-subactions | 💡💡                                 |
+ 2-subactions | :idea::idea:                       |
      3-action | Spy Stuff                          |
- 3-subactions | 🔓👊🔊                                |
+ 3-subactions | :unlock::subdue::noise:            |
      4-action | Sprint                             |
- 4-subactions | 🔊🔊➜➜➜                              |
+ 4-subactions | :noise::noise::move::move::move:   |
      5-action | Dash                               |
- 5-subactions | 🔊➜➜                                |
+ 5-subactions | :noise::move::move:                |
      6-action | Short                              |
- 6-subactions | 🔓📷🔊🔊➜                              |
+ 6-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             1 | Rake                               |
-              | 🔓🔓🔊➜                               |
+              | :unlock::unlock::noise::move:      |
             2 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             3 | Spy Stuff                          |
-              | 🔓👊🔊                                |
+              | :unlock::subdue::noise:            |
             4 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             5 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             6 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
         Rolls | Rake                               |
-              | 🔓🔓🔊➜/Study                         |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Short                          |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::unlock::noise::move:/Stud |
+              | y                                  |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Sprint     |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Short          |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1791,36 +1944,41 @@ Upgrade2Rolls |                                    |
         Level | 2                                  |
          Root | Bypass                             |
      1-action | Rake                               |
- 1-subactions | 🔓🔓🔊➜                               |
+ 1-subactions | :unlock::unlock::noise::move:      |
      2-action | Study                              |
- 2-subactions | 💡💡                                 |
+ 2-subactions | :idea::idea:                       |
      3-action | Spy Stuff                          |
- 3-subactions | 🔓👊🔊                                |
+ 3-subactions | :unlock::subdue::noise:            |
      4-action | Sprint                             |
- 4-subactions | 🔊🔊➜➜➜                              |
+ 4-subactions | :noise::noise::move::move::move:   |
      5-action | Dash                               |
- 5-subactions | 🔊➜➜                                |
+ 5-subactions | :noise::move::move:                |
      6-action | Short                              |
- 6-subactions | 🔓📷🔊🔊➜                              |
+ 6-subactions | :unlock::disable::noise::noise::mo |
+              | ve:                                |
             1 | Rake                               |
-              | 🔓🔓🔊➜                               |
+              | :unlock::unlock::noise::move:      |
             2 | Study                              |
-              | 💡💡                                 |
+              | :idea::idea:                       |
             3 | Spy Stuff                          |
-              | 🔓👊🔊                                |
+              | :unlock::subdue::noise:            |
             4 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             5 | Dash                               |
-              | 🔊➜➜                                |
+              | :noise::move::move:                |
             6 | Short                              |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
         Rolls | Rake                               |
-              | 🔓🔓🔊➜/Study                         |
-              | 💡💡/Spy Stuff                       |
-              | 🔓👊🔊/Sprint                         |
-              | 🔊🔊➜➜➜/Dash                         |
-              | 🔊➜➜/Short                          |
-              | 🔓📷🔊🔊➜                              |
+              | :unlock::unlock::noise::move:/Stud |
+              | y                                  |
+              | :idea::idea:/Spy Stuff             |
+              | :unlock::subdue::noise:/Sprint     |
+              | :noise::noise::move::move::move:/D |
+              | ash                                |
+              | :noise::move::move:/Short          |
+              | :unlock::disable::noise::noise::mo |
+              | ve:                                |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1843,37 +2001,40 @@ Upgrade2Rolls |                                    |
           Qty | 2                                  |
         Level | 2                                  |
          Root | Yank Wires                         |
-     1-action | Unplug                             |
- 1-subactions | 📷📷🔊➜                               |
+     1-action | Rewire                             |
+ 1-subactions | :disable::disable::noise::move:    |
      2-action | Sprint                             |
- 2-subactions | 🔊🔊➜➜➜                              |
+ 2-subactions | :noise::noise::move::move::move:   |
      3-action | Disable                            |
- 3-subactions | 📷🔊➜                                |
+ 3-subactions | :disable::noise::move:             |
      4-action | Recon                              |
- 4-subactions | 💡💡🔊🔍                               |
+ 4-subactions | :idea::idea::noise::reveal:        |
      5-action | Examine                            |
- 5-subactions | 💡💡💡🔊                               |
+ 5-subactions | :idea::idea::idea::noise:          |
      6-action | Disable                            |
- 6-subactions | 📷🔊➜                                |
-            1 | Unplug                             |
-              | 📷📷🔊➜                               |
+ 6-subactions | :disable::noise::move:             |
+            1 | Rewire                             |
+              | :disable::disable::noise::move:    |
             2 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             3 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             4 | Recon                              |
-              | 💡💡🔊🔍                               |
+              | :idea::idea::noise::reveal:        |
             5 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
             6 | Disable                            |
-              | 📷🔊➜                                |
-        Rolls | Unplug                             |
-              | 📷📷🔊➜/Sprint                        |
-              | 🔊🔊➜➜➜/Disable                      |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Examine                       |
-              | 💡💡💡🔊/Disable                       |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
+        Rolls | Rewire                             |
+              | :disable::disable::noise::move:/Sp |
+              | rint                               |
+              | :noise::noise::move::move::move:/D |
+              | isable                             |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Examin |
+              | e                                  |
+              | :idea::idea::idea::noise:/Disable  |
+              | :disable::noise::move:             |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1897,37 +2058,40 @@ Upgrade2Rolls |                                    |
           Qty | 2                                  |
         Level | 2                                  |
          Root | Yank Wires                         |
-     1-action | Unplug                             |
- 1-subactions | 📷📷🔊➜                               |
+     1-action | Rewire                             |
+ 1-subactions | :disable::disable::noise::move:    |
      2-action | Sprint                             |
- 2-subactions | 🔊🔊➜➜➜                              |
+ 2-subactions | :noise::noise::move::move::move:   |
      3-action | Disable                            |
- 3-subactions | 📷🔊➜                                |
+ 3-subactions | :disable::noise::move:             |
      4-action | Recon                              |
- 4-subactions | 💡💡🔊🔍                               |
+ 4-subactions | :idea::idea::noise::reveal:        |
      5-action | Examine                            |
- 5-subactions | 💡💡💡🔊                               |
+ 5-subactions | :idea::idea::idea::noise:          |
      6-action | Disable                            |
- 6-subactions | 📷🔊➜                                |
-            1 | Unplug                             |
-              | 📷📷🔊➜                               |
+ 6-subactions | :disable::noise::move:             |
+            1 | Rewire                             |
+              | :disable::disable::noise::move:    |
             2 | Sprint                             |
-              | 🔊🔊➜➜➜                              |
+              | :noise::noise::move::move::move:   |
             3 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             4 | Recon                              |
-              | 💡💡🔊🔍                               |
+              | :idea::idea::noise::reveal:        |
             5 | Examine                            |
-              | 💡💡💡🔊                               |
+              | :idea::idea::idea::noise:          |
             6 | Disable                            |
-              | 📷🔊➜                                |
-        Rolls | Unplug                             |
-              | 📷📷🔊➜/Sprint                        |
-              | 🔊🔊➜➜➜/Disable                      |
-              | 📷🔊➜/Recon                          |
-              | 💡💡🔊🔍/Examine                       |
-              | 💡💡💡🔊/Disable                       |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
+        Rolls | Rewire                             |
+              | :disable::disable::noise::move:/Sp |
+              | rint                               |
+              | :noise::noise::move::move::move:/D |
+              | isable                             |
+              | :disable::noise::move:/Recon       |
+              | :idea::idea::noise::reveal:/Examin |
+              | e                                  |
+              | :idea::idea::idea::noise:/Disable  |
+              | :disable::noise::move:             |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -1947,41 +2111,42 @@ Upgrade2Rolls |                                    |
   Noise Level | Low                                |
               ╰------------------------------------╯
               ╭------------------------------------╮
-         Name | Tinker                             |
+         Name | Tweak                              |
           Qty | 2                                  |
         Level | 2                                  |
          Root | Yank Wires                         |
-     1-action | Unplug                             |
- 1-subactions | 📷📷🔊➜                               |
+     1-action | Rewire                             |
+ 1-subactions | :disable::disable::noise::move:    |
      2-action | Stride                             |
- 2-subactions | 🔊➜🔍                                |
+ 2-subactions | :noise::move::reveal:              |
      3-action | Disable                            |
- 3-subactions | 📷🔊➜                                |
+ 3-subactions | :disable::noise::move:             |
      4-action | Stride                             |
- 4-subactions | 🔊➜🔍                                |
+ 4-subactions | :noise::move::reveal:              |
      5-action | Eyeball                            |
- 5-subactions | 💡🔊🔊➜                               |
+ 5-subactions | :idea::noise::noise::move:         |
      6-action | Disable                            |
- 6-subactions | 📷🔊➜                                |
-            1 | Unplug                             |
-              | 📷📷🔊➜                               |
+ 6-subactions | :disable::noise::move:             |
+            1 | Rewire                             |
+              | :disable::disable::noise::move:    |
             2 | Stride                             |
-              | 🔊➜🔍                                |
+              | :noise::move::reveal:              |
             3 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             4 | Stride                             |
-              | 🔊➜🔍                                |
+              | :noise::move::reveal:              |
             5 | Eyeball                            |
-              | 💡🔊🔊➜                               |
+              | :idea::noise::noise::move:         |
             6 | Disable                            |
-              | 📷🔊➜                                |
-        Rolls | Unplug                             |
-              | 📷📷🔊➜/Stride                        |
-              | 🔊➜🔍/Disable                        |
-              | 📷🔊➜/Stride                         |
-              | 🔊➜🔍/Eyeball                        |
-              | 💡🔊🔊➜/Disable                       |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
+        Rolls | Rewire                             |
+              | :disable::disable::noise::move:/St |
+              | ride                               |
+              | :noise::move::reveal:/Disable      |
+              | :disable::noise::move:/Stride      |
+              | :noise::move::reveal:/Eyeball      |
+              | :idea::noise::noise::move:/Disable |
+              | :disable::noise::move:             |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
@@ -2000,41 +2165,42 @@ Upgrade2Rolls |                                    |
   Noise Level | Low                                |
               ╰------------------------------------╯
               ╭------------------------------------╮
-         Name | Tinker                             |
+         Name | Tweak                              |
           Qty | 2                                  |
         Level | 2                                  |
          Root | Yank Wires                         |
-     1-action | Unplug                             |
- 1-subactions | 📷📷🔊➜                               |
+     1-action | Rewire                             |
+ 1-subactions | :disable::disable::noise::move:    |
      2-action | Stride                             |
- 2-subactions | 🔊➜🔍                                |
+ 2-subactions | :noise::move::reveal:              |
      3-action | Disable                            |
- 3-subactions | 📷🔊➜                                |
+ 3-subactions | :disable::noise::move:             |
      4-action | Stride                             |
- 4-subactions | 🔊➜🔍                                |
+ 4-subactions | :noise::move::reveal:              |
      5-action | Eyeball                            |
- 5-subactions | 💡🔊🔊➜                               |
+ 5-subactions | :idea::noise::noise::move:         |
      6-action | Disable                            |
- 6-subactions | 📷🔊➜                                |
-            1 | Unplug                             |
-              | 📷📷🔊➜                               |
+ 6-subactions | :disable::noise::move:             |
+            1 | Rewire                             |
+              | :disable::disable::noise::move:    |
             2 | Stride                             |
-              | 🔊➜🔍                                |
+              | :noise::move::reveal:              |
             3 | Disable                            |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
             4 | Stride                             |
-              | 🔊➜🔍                                |
+              | :noise::move::reveal:              |
             5 | Eyeball                            |
-              | 💡🔊🔊➜                               |
+              | :idea::noise::noise::move:         |
             6 | Disable                            |
-              | 📷🔊➜                                |
-        Rolls | Unplug                             |
-              | 📷📷🔊➜/Stride                        |
-              | 🔊➜🔍/Disable                        |
-              | 📷🔊➜/Stride                         |
-              | 🔊➜🔍/Eyeball                        |
-              | 💡🔊🔊➜/Disable                       |
-              | 📷🔊➜                                |
+              | :disable::noise::move:             |
+        Rolls | Rewire                             |
+              | :disable::disable::noise::move:/St |
+              | ride                               |
+              | :noise::move::reveal:/Disable      |
+              | :disable::noise::move:/Stride      |
+              | :noise::move::reveal:/Eyeball      |
+              | :idea::noise::noise::move:/Disable |
+              | :disable::noise::move:             |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |

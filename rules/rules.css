@@ -35,7 +35,7 @@ h3{
 
 .emoji-svg {
   height: 1em;
-  padding-left: 0.2em;
+  /* padding-left: 0.2em; */
   vertical-align: sub;
 }
 
@@ -48,10 +48,29 @@ h3{
   font-family: 'Acknowledgement';
   /* font-weight: bold; */
   /* letter-spacing: 8px; */
-  padding-top: 1.5in;
-  padding-bottom: 1.5in;
+  /* padding-top: 1.5in; */
+  /* padding-bottom: 1.5in; */
   text-align: center;
   font-size: 3em;
+}
+
+.parts-list>ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 10em;
+}
+
+.parts-list>ul>li {
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    display: inline-block;
+    /* box-sizing: border-box; */
 }
 
 .security-table table{
@@ -138,7 +157,7 @@ ol.gameplay-structure{
 .characters{
 }
 
-.characters img{
+.characters img:first-child{
   float: right;
   width: 180px;
 }

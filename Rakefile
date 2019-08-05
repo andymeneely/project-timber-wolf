@@ -178,8 +178,8 @@ namespace :rules do
   task html_to_pdf: [:md_to_html] do
     sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
-      --page-width    5.50in
-      --page-height   7.00in
+      --page-width    6.50in
+      --page-height   6.50in
       --margin-left   0.25in
       --margin-right  0.25in
       --margin-bottom 0.25in
