@@ -1,5 +1,5 @@
 <div class="cover">
-  Scenarios
+  Your Last Heist
 </div>
 
 <div class="title">

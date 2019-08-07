@@ -117,8 +117,7 @@ end
 task travis: [
   :default,
   'travis_rules',
-  'travis_scenarios',
-  # :dropbox
+
 ]
 
 desc 'Build the rules PDF'
@@ -197,33 +196,14 @@ namespace :rules do
 end
 
 desc 'Build the scenarios PDF'
-task scenarios: ['scenarios:md_to_html','scenarios:html_to_pdf']
+task yourlastheist: ['yourlastheist:md_to_html','yourlastheist:html_to_pdf']
 
-
-desc 'Build the scenarios on travis'
-task 'travis_scenarios' => ['scenarios:md_to_html'] do
-  sh <<-EOSH.gsub(/\n/,' ')
-    xvfb-run --server-args="-screen 0, 1024x768x24"
-    wkhtmltopdf
-    --page-width    6.50in
-    --page-height   6.50in
-    --margin-left   0.25in
-    --margin-right  0.25in
-    --margin-bottom 0.25in
-    --margin-top    0.25in
-    --footer-right "[page] of [topage]"
-    --footer-left "Scenarios"
-    --footer-font-name "Archivo Narrow"
-    --footer-font-size "10"
-    scenarios/scenarios.html _output/scenarios.pdf
-  EOSH
-end
-
-namespace :scenarios do
+namespace :yourlastheist do
   task :md_to_html do
-    load 'src/scenarios.rb' # convert markdown
-    erb = ERB.new(File.read('scenarios/scenarios_template.html.erb'))
-    File.open('scenarios/scenarios.html', 'w+') do |html|
+    load 'src/your_last_heist.rb' # convert markdown
+    template = 'scenarios/your-last-heist/booklet-template.html.erb'
+    erb = ERB.new(File.read(template))
+    File.open('scenarios/your-last-heist/booklet.html', 'w+') do |html|
       html.write(erb.result)
     end
   end
@@ -238,13 +218,13 @@ namespace :scenarios do
         --margin-bottom 0.25in
         --margin-top    0.25in
         --footer-right "[page] of [topage]"
-        --footer-left "Scenarios"
+        --footer-left "Your Last Heist"
         --footer-font-name "Archivo Narrow"
         --footer-font-size "10"
-        scenarios/scenarios.html _output/scenarios.pdf
+        scenarios/your-last-heist/your-last-heist.html _output/your-last-heist.pdf
     EOS
     @launch ||= []
-    @launch << "file:///#{Dir.pwd}/_output/scenarios.pdf"
+    @launch << "file:///#{Dir.pwd}/_output/your-last-heist.pdf"
   end
 end
 

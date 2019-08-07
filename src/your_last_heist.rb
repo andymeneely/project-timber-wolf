@@ -13,8 +13,8 @@ require_relative 'helpers'
 
 require 'kramdown'
 
-scenarios_md = File.read 'scenarios/scenarios.md'
+scenarios_md = File.read 'scenarios/your-last-heist/booklet.md'
 
-File.open('scenarios/scenarios.md.html', 'w+') do |f|
+File.open('scenarios/your-last-heist/booklet.md.html', 'w+') do |f|
   f.write Kramdown::Document.new(scenarios_md, parse_block_html: true).to_html
 end
