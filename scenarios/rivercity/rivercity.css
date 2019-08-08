@@ -1,0 +1,93 @@
+body{
+  font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
+  font-size: 14pt;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+table{
+  font-size: inherit;
+  page-break-inside: avoid;
+}
+
+th,td{
+  border: 1px solid black;
+}
+
+h1{
+  font-family: 'Archivo Black';
+  page-break-before: always;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  text-align: center;
+  page-break-before: always;
+}
+
+h2{
+  margin-top: 0.25em;
+  margin-bottom: 0;
+  font-size: 16pt;
+  /* font-style: italic; */
+}
+
+h3{
+  margin-top: 0.125em;
+  margin-bottom: 0;
+}
+
+ul{
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.cover-title {
+  font-family: 'Acknowledgement';
+  letter-spacing: 8px;
+  padding-top: 1in;
+  text-align: center;
+  font-size: 200%;
+}
+
+.handwriting {
+  position: relative;
+  padding: 0.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  line-height: 1;
+  display: block;
+  font-family: 'Caveat';
+  font-size: 110%;
+  text-align: right
+}
+
+.map{
+  display: block;
+  width: 100%;
+
+}
+
+.page-break{
+  page-break-after: always;
+}
+
+.note{
+  font-size: 10pt;
+}
+
+.tabletoc table {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.tabletoc th {
+  font-weight: bold;
+  border: none;
+  text-align: left;
+}
+
+.tabletoc td {
+  border: none;
+}

@@ -228,6 +228,39 @@ namespace :yourlastheist do
   end
 end
 
+desc 'Build the River City scenarios PDF'
+task rivercity: ['rivercity:md_to_html','rivercity:html_to_pdf']
+
+namespace :rivercity do
+  task :md_to_html do
+    load 'src/rivercity.rb' # convert markdown
+    template = 'scenarios/rivercity/booklet-template.html.erb'
+    erb = ERB.new(File.read(template))
+    File.open('scenarios/rivercity/booklet.html', 'w+') do |html|
+      html.write(erb.result)
+    end
+  end
+
+  task html_to_pdf: [:md_to_html] do
+    sh <<-EOS.gsub(/\n/, '')
+      wkhtmltopdf
+        --page-width    5.25in
+        --page-height   5.25in
+        --margin-left   0.25in
+        --margin-right  0.25in
+        --margin-bottom 0.25in
+        --margin-top    0.25in
+        --footer-right "[page] of [topage]"
+        --footer-left "Masters of the Heist: River City"
+        --footer-font-name "Archivo Narrow"
+        --footer-font-size "10"
+        scenarios/rivercity/booklet.html _output/rivercity.pdf
+    EOS
+    @launch ||= []
+    @launch << "file:///#{Dir.pwd}/_output/rivercity.pdf"
+  end
+end
+
 desc 'Build FAQ sheet'
 task :faq do
   load 'src/faq.rb' # convert markdown

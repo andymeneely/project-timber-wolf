@@ -8,6 +8,7 @@ rules/RULES.md.html
 rules/FAQ.html
 rules/FAQ.md.html
 scenarios/your-last-heist/your-last-heist.html
+scenarios/rivercity/booklet.html
 **/*.md.html
 _output/*.svg
 /.byebug_history

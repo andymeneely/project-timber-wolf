@@ -73,6 +73,18 @@ group :scenarios do
   end
 end
 
+group :rivercity do
+  guard 'rake', :task => 'rivercity' do
+    watch %r{.*\.xlsx$}
+    watch %r{src/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+    watch %r{scenarios/rivercity.*\.md$}
+    watch %r{scenarios/rivercity.*\.svg$}
+    watch %r{scenarios/rivercity.*\.css$}
+  end
+end
+
 group :rules do
   guard 'rake', :task => 'rules' do
     watch %r{.*\.xlsx$}
