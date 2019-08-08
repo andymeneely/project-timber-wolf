@@ -221,7 +221,7 @@ namespace :yourlastheist do
         --footer-left "Your Last Heist"
         --footer-font-name "Archivo Narrow"
         --footer-font-size "10"
-        scenarios/your-last-heist/your-last-heist.html _output/your-last-heist.pdf
+        scenarios/your-last-heist/booklet.html _output/your-last-heist.pdf
     EOS
     @launch ||= []
     @launch << "file:///#{Dir.pwd}/_output/your-last-heist.pdf"
