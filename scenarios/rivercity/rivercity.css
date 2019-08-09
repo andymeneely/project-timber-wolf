@@ -5,7 +5,8 @@ body{
 
 p{
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.35em;
+  line-height: 1.10;
 }
 
 table{
@@ -19,6 +20,7 @@ th,td{
 
 h1{
   font-family: 'Archivo Black';
+  font-weight: bold;
   page-break-before: always;
   margin-top: 0.5em;
   margin-bottom: 0;
@@ -30,7 +32,7 @@ h2{
   margin-top: 0.25em;
   margin-bottom: 0;
   font-size: 16pt;
-  /* font-style: italic; */
+  text-align: center;
 }
 
 h3{
@@ -42,6 +44,13 @@ ul{
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+
+hr {
+  border: none;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 
 .cover-title {
   font-family: 'Acknowledgement';
@@ -63,10 +72,17 @@ ul{
   text-align: right
 }
 
-.map{
-  display: block;
-  width: 100%;
+.text-center {
+  text-align: center;
+}
 
+
+.map {
+  text-align: center;
+}
+.map img {
+  width: 90%;
+  margin: 0;
 }
 
 .page-break{
@@ -77,17 +93,55 @@ ul{
   font-size: 10pt;
 }
 
-.tabletoc table {
+table.tabletoc  {
   width: 100%;
   margin-bottom: 0.5em;
+  line-height: 1;
 }
 
 .tabletoc th {
   font-weight: bold;
   border: none;
-  text-align: left;
+  text-align: center;
+  border-bottom: 1pt solid black;
+
 }
 
 .tabletoc td {
+  padding-bottom: 0.25em;
   border: none;
+  vertical-align: top;
+}
+
+.tabletoc tr>td:nth-child(5) {
+  text-align: center;
+}
+
+
+table.scenario-stats {
+  padding: 0.25em;
+  float: right;
+  margin-left: 0.5em;
+  border: 1pt solid black;
+}
+
+.scenario-stats td,
+.scenario-stats th {
+  font-weight: normal;
+  text-align: left;
+  padding: 0;
+  line-height: 1;
+  border: none;
+  border-collapse: collapse;
+  /* border: 1pt solid black; */
+  max-width: 7em;
+}
+
+.scenario-stats tr>th:first-child,
+.scenario-stats tr>td:first-child {
+  padding-right: 0.5em;
+}
+
+.hidden {
+  display: none;
 }

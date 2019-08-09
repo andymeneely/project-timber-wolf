@@ -245,7 +245,7 @@ namespace :rivercity do
     sh <<-EOS.gsub(/\n/, '')
       wkhtmltopdf
         --page-width    5.25in
-        --page-height   5.25in
+        --page-height   7.00in
         --margin-left   0.25in
         --margin-right  0.25in
         --margin-bottom 0.25in
