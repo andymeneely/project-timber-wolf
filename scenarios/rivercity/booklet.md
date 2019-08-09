@@ -25,27 +25,25 @@ Begin your campaign by choosing an entirely Amateur team.
 {:class="text-center"}
 **Gain $5k of team cash.**
 
-<div class="page-break"/>
-
 # Opportunities
 
-| Opportunity           | Difficulty | Unlocks Fixer       | Faction       | Page  |
-|:--------------------- |:---------- |:------------------- |:------------- |:-----:|
-| The Inclusion Job     | Amateur    | Pawn Shop Owner     | Fence         |   5   |
-| Chain of Custody      | Amateur    | Frustrated Beat Cop | Cops          |   6   |
-| The Startup Job       | Amateur    | Tech Support Guy    | Hackers       |   7   |
-| Semper Paratus        | Amateur    | Extorted Locksmith  | Mafia         |   8   |
-| The Exhibition        | Semi-Pro   | The Curator         | Fence         |   9   |
-| The Blind Justice Job | Semi-Pro   | Prison Guard        | Cop           |  10   |
-| The University Job    | Semi-Pro   | Spammer             | Hackers       |  11   |
-| Rivalries             | Semi-Pro   | "Retired" Thief     | Mafia         |  12   |
-| The Amnesty Job       | Semi-Pro   | Online Mogul        | Hackers+Mafia |  13   |
-| The One that Got Away | Semi-Pro   | Retired Detective   | Cops+Fences   |  14   |
-| History is Expensive  | Pro        | The Tunneler        | Fence         |  15   |
-| Mayoral Race          | Pro        | Burned Out Sergeant | Cops          |  16   |
-| Server Farm           | Pro        | Internet Troll      | Hacker        |  17   |
-| Safehouse             | Pro        | Recruiter           | Mafia         |  18   |
-| The Final Score       | Pro        | (none)              | (none)        | 22-24 |
+| Opportunity           | Difficulty | Unlocks Fixer       | Faction       | Page |
+|:--------------------- |:---------- |:------------------- |:------------- |:----:|
+| The Inclusion Job     | Amateur    | Pawn Shop Owner     | Fence         |  4   |
+| Chain of Custody      | Amateur    | Frustrated Beat Cop | Cops          |  5   |
+| The Startup Job       | Amateur    | Tech Support Guy    | Hackers       |  6   |
+| Semper Paratus        | Amateur    | Extorted Locksmith  | Mafia         |  7   |
+| The Exhibition        | Semi-Pro   | The Curator         | Fence         |  8   |
+| The Blind Justice Job | Semi-Pro   | Prison Guard        | Cop           |  9   |
+| The University Job    | Semi-Pro   | Spammer             | Hackers       |  10  |
+| Rivalries             | Semi-Pro   | "Retired" Thief     | Mafia         |  11  |
+| The Amnesty Job       | Semi-Pro   | Online Mogul        | Hackers+Mafia |  12  |
+| The One that Got Away | Semi-Pro   | Retired Detective   | Cops+Fences   |  13  |
+| History is Expensive  | Pro        | The Tunneler        | Fence         |  14  |
+| Mayoral Race          | Pro        | Burned Out Sergeant | Cops          |  15  |
+| Server Farm           | Pro        | Internet Troll      | Hacker        |  16  |
+| Safehouse             | Pro        | Recruiter           | Mafia         |  17  |
+| The Final Score       | Pro        | (none)              | (none)        |  21  |
 {:class='tabletoc'}
 
 **The Final Score**. This finale is a challenging, two-part heist. You may attempt it at any time. We recommend a fully Pro team.
@@ -80,9 +78,9 @@ If a character is busted, you may simply build a new Amateur character. Alternat
 
 | Opportunity | Difficulty | Team Reward | Page |
 |:----------- |:---------- |:-----------:|:----:|
-| The Yard    | Amateur    |     $5k     |  19  |
-| The Bricks  | Semi-Pro   |    $10k     |  20  |
-| The Hole    | Pro        |    $15k     |  21  |
+| The Yard    | Amateur    |     $5k     |  18  |
+| The Bricks  | Semi-Pro   |    $10k     |  19  |
+| The Hole    | Pro        |    $15k     |  20  |
 {:class='tabletoc'}
 
 # The Inclusion Job
@@ -112,7 +110,7 @@ If a character is busted, you may simply build a new Amateur character. Alternat
 
 
 {::comment}
-http://localhost:3000/?savekey=The+Crown+Jewels|30|5|OIBQBKHpPXUNggJAJjMgjI+S-gGUBhCE4sc-FbAKQHUwj1KBBMAUQFkOBWHBLhAAiFEsABCoqVUj0plcACV2Hbuz4zwgyOV1jcBsHIVSs-Tf22GLkdthsggA
+http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|OIBQBKHpPXUNggJAJjMgjI+S-gGUBhCE4sc-FbAKQHUwj1KBBMAUQFkOBWHBLhAAiFEsABCoqVUj0plcACV2Hbuz4zwgyOV1jcBsHIVSs-Tf22GLkdthsggA
 {:/comment}
 
 # Chain of Custody
@@ -139,25 +137,27 @@ http://localhost:3000/?savekey=The+Crown+Jewels|30|5|OIBQBKHpPXUNggJAJjMgjI+S-gG
 # The Startup Job
 
 <div class="map">
-  <img src="">
+  <img src="tech-lab.png">
 </div>
 
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
+|                  Difficulty: | Amateur                      |
+| ----------------------------:|:---------------------------- |
+|                      Guards: | 6                            |
+|                       Locks: | 6                            |
+|                     Cameras: | 6                            |
+|                      Events: | 1-4, S2, 5-10, S2, 11-21, S2 |
+| Max characters per Entrance: | 2                            |
+|     Max characters per Exit: | ∞                            |
 {:class="scenario-stats"}
 
-**Objective:**
+"Trade secrets are for cowards. Get me info on their tech and I can help you out."
+
+**Objective:** Steal the document.
 
 **Success Unlocks:** Tech Support Guy
 
 {::comment}
-
+http://localhost:3000/?savekey=Tech+Lab|110|35|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN56ATGI8RdegPJgDqAKvk1q1s2IeWx86rSGKR5B5YYkiEps2gFFqI5eC2sNANmm6kRk0A
 {:/comment}
 
 # Semper Paratus
@@ -184,52 +184,59 @@ http://localhost:3000/?savekey=The+Crown+Jewels|30|5|OIBQBKHpPXUNggJAJjMgjI+S-gG
 
 {:/comment}
 
-# The Exhibition
+# The Exhibition Job
 
 <div class="map">
-  <img src="">
+  <img src="estate-basement.png">
 </div>
 
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
+|                  Difficulty: | Semi-Pro        |
+| ----------------------------:|:--------------- |
+|                      Guards: | 4               |
+|                       Locks: | 6               |
+|                     Cameras: | 9               |
+|                      Events: | 1-15, S6, 16-27 |
+| Max characters per Entrance: | 2               |
+|     Max characters per Exit: | ∞               |
 {:class="scenario-stats"}
 
-**Objective:**
+"I suppose it's not so bad to be locked up with these masterpieces. Still... I would like my freedom."
+
+**NPC token** is a Prisoner.
+
+**Objective:** Steal at least two pieces of artwork. The NPC must escape.
 
 **Success Unlocks:** The Curator
 
 {::comment}
+http://localhost:3000/?savekey=Estate+Basement|50|230|OIBQBKHpPXUNo8BBFywoBIaZAygMJhFgBKAGgLInGn0UYp3EECaCpe89r8SXHsRTBa5RigAy5DqRT4MAJmB9c-cMukEWajLwwBRGt11GEBgIy6TkAwDYoQA
 
 {:/comment}
 
 # The Blind Justice Job
 
 <div class="map">
-  <img src="">
+  <img src="courthouse.png">
 </div>
 
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
+|                  Difficulty: | Semi-Pro                     |
+| ----------------------------:|:---------------------------- |
+|                      Guards: | 4                            |
+|                       Locks: | 8                            |
+|                     Cameras: | 3                            |
+|                      Events: | 1-7, S3, 8-16, S1, 17-20, S3 |
+| Max characters per Entrance: | 2                            |
+|     Max characters per Exit: | ∞                            |
 {:class="scenario-stats"}
 
-**Objective:**
+"I need to know what they have on me. Get me the dossier on me at the courthouse, then we'll talk."
+
+**Objective:** Steal the document
 
 **Success Unlocks:** Prison Guard
 
 {::comment}
-
+http://localhost:3000/?savekey=Courthouse|5|170|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
 
 # The University Job
@@ -425,6 +432,81 @@ http://localhost:3000/?savekey=The+Crown+Jewels|30|5|OIBQBKHpPXUNggJAJjMgjI+S-gG
 {:/comment}
 
 
+# County Jail: The Yard
+
+<div class="map">
+  <img src="">
+</div>
+
+|                  Difficulty: | Amateur |
+| ----------------------------:|:------- |
+|                      Guards: | TBD     |
+|                       Locks: | TBD     |
+|                     Cameras: | TBD     |
+|                      Events: | TBD     |
+| Max characters per Entrance: | ∞       |
+|     Max characters per Exit: | 1       |
+{:class="scenario-stats"}
+
+**Objective:** Everyone escapes out a different exit.
+
+**Upon Success:** Gain $5k
+
+{::comment}
+
+{:/comment}
+
+# County Jail: The Bricks
+
+<div class="map">
+  <img src="the-bricks.png">
+</div>
+
+|                  Difficulty: | Semi-Pro                 |
+| ----------------------------:|:------------------------ |
+|                      Guards: | 5                        |
+|                        Dogs: | 2                        |
+|                       Locks: | 5                        |
+|                     Cameras: | 4                        |
+|                      Events: | 1-8, S1, 9-12, S2, 13-27 |
+| Max characters per Entrance: | ∞                        |
+|     Max characters per Exit: | 1                        |
+{:class="scenario-stats"}
+
+**Objective:** Everyone escapes out a different exit.
+
+**Upon Success:** Gain $10k
+
+{::comment}
+http://localhost:3000/?savekey=The+Bricks|105|235|OIBQBKHpPXUNmAogZkfJyAsG8wFV9MilI0EBlAYTBolvqcdrOiPsk4EF8AhCEWQBWKq3idM4ScTrix+ACJzZAdQAqEAExgAMjuZgtwWvtlswAWVUJrtmxcdTzzpy6hA
+{:/comment}
+
+# County Jail: The Hole
+
+<div class="map">
+  <img src="">
+</div>
+
+|                  Difficulty: | Pro |
+| ----------------------------:|:--- |
+|                      Guards: | TBD |
+|                       Locks: | TBD |
+|                     Cameras: | TBD |
+|                      Events: | TBD |
+| Max characters per Entrance: | ∞   |
+|     Max characters per Exit: | 1   |
+{:class="scenario-stats"}
+
+**Objective:** Everyone escapes out a different exit.
+
+**Upon Success:** Gain $15k
+
+{::comment}
+
+{:/comment}
+
+
+
 # The Final Score
 
 <div class="handwriting">
@@ -444,7 +526,9 @@ For each enemy faction, the following happens:
   * *Fence Cartel*: add a Reinforcement token in the southwest corner of the first map
   * *Mafia*: add a hostage to one of the unlocked gates. You must rescue this hostage
 
-Fixers who you have not been introduced to will then turn on you and hurt you. If you don't use those fixers for THIS heist, you don't get their negative effect.
+Once the alarm sounds for the first heist, finish it as normal. You may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.
+
+Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
 
 # The Final Score
 

@@ -129,8 +129,10 @@ table.scenario-stats {
 .scenario-stats th {
   font-weight: normal;
   text-align: left;
+  font-size: 90%;
   padding: 0;
-  line-height: 1;
+  line-height: 0.9;
+  margin: 0;
   border: none;
   border-collapse: collapse;
   /* border: 1pt solid black; */
