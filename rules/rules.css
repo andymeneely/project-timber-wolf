@@ -4,20 +4,20 @@ body{
   text-rendering: optimizeLegibility;
   line-height: 1.15;
 }
+
 p{
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+
 table{
   font-size: inherit;
   page-break-inside: avoid;
+  line-height: 1;
 }
+
 th,td{
   border: 1px solid black;
-}
-#the-pieces + ul{
-  columns: 3;
-  font-size: 50pt;
 }
 
 h1{
@@ -54,7 +54,8 @@ h3{
   font-size: 3em;
 }
 
-.parts-list>ul{
+ul.parts-list{
+    font-size: 90%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -65,12 +66,12 @@ h3{
     height: 10em;
 }
 
-.parts-list>ul>li {
+ul.parts-list>li {
     margin: 0;
     padding: 0;
-    width: 33%;
+    width: 32%;
     display: inline-block;
-    /* box-sizing: border-box; */
+    /* border: 1pt solid black; */
 }
 
 .security-table table{
@@ -159,7 +160,7 @@ ol.gameplay-structure{
 
 .characters img:first-child{
   float: right;
-  width: 180px;
+  width: 15em;
 }
 
 .skills{
@@ -182,4 +183,16 @@ ol.gameplay-structure{
 
 .pagebreak{
   page-break-after: always;
+}
+
+.subactions li {
+  list-style: none;
+}
+
+.prebuilt {
+  font-size: 90%;
+}
+
+.prebuilt td {
+  min-width: 5em;
 }

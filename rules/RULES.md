@@ -1,18 +1,15 @@
-<div class="title">
-  Masters of the Heist
-</div>
+Masters of the Heist
+{:class="title"}
 
 _Masters of the Heist_ is a cooperative heist game set in a world of many possibilities. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
-You will start as an Amateur criminal with Amateur skills. But over time, hopefully with a few good decisions along the way, you and your teammates will level up your characters and skills as you make your way through the city. Each heist unlocks new opportunities through meeting new Fences. Each heist is highly replayable, with various outcomes.
+You will start as an Amateur criminal with Amateur skills who is new to River City. But over time, hopefully with a few good decisions along the way, you and your teammates will level up your characters and skills as you make your way through the city. Each heist unlocks new opportunities through doing favors for Fixers.
 
 ## The Pieces
 
-NOTE! This list is totally out of date. Sorry.
-
-<div class="parts-list">
+{:class="parts-list"}
 
 * 28 Blank/Security hex tiles
 * 4 Lockdown Gate hex tiles
@@ -38,31 +35,29 @@ NOTE! This list is totally out of date. Sorry.
 * Noise tracker card
 * 4 Game Helps
 
-</div>
-
 <div class="pagebreak"/>
 
 # Your Very First Game
 
-TODO WRITE THIS
+If this is your very first time, we recommend the following characters:
 
 # Setting Up
 
-**Step 1. As a team, decide your next heist.** Heists are available to you in the Scenarios booklet. Each heist is labelled with a difficulty level and any other pre-requisites.
+**Step 1. As a team, decide your next heist.** Heists are available to you in the River City booklet. Each heist is labelled with a difficulty level and any other pre-requisites.
 
-**Step 2. Read the story text.** To save time, you may begin setting up the board in Step 3 simultaneously with this step.
+**Step 2. Set up the board** in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. If the diagram depicts a shield, then use the Security side of the tile, in all other cases use the Blank side.
 
-**Step 3. Set up the board** in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. If the diagram depicts a shield, then use the Security side of the tile, in all other cases use the Blank side.
-
-<div class="tip">
 Tip: to verify the layout, match the shapes of the Gaps between tiles
-</div>
+{:class="tip"}
 
 Some boards have already-revealed security chits. The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board (they are **the supply**).
 
 **Step 4. Distribute player tokens.** Distribute the 6-sided die, and pawn according to your color.
 
 **Step 5. Build Characters.** Assign a character to each player according to preference. If the scenario says "Suggested Characters", then you are allowed (and encouraged!) to explore other options for Character-Skill pairings. If the scenario says "Required", then the storyline requires that those characters and/or skills are used. Place the two Skill cards below the Character card.
+
+Tip: The back of this booklet has some pre-built character+skill pairings.
+{:class="tip"}
 
 **Step 6. Distribute the Planning tokens** to each character according to their color and Planning Memory. *For example, the Lookout has a Planning Memory of 6, so she gets 6 planning tokens*. Place remaining Planning tokens back in the box.
 
@@ -101,11 +96,11 @@ Security chits are generally unknown at the beginning of the heist, and are plac
 
 <div class="security-table">
 
-| Name | Active | Inactive | Behavior |
-|:----:|:------:|:--------:|---|
-| Guard | <img src="../img/guard.svg" width="40"><br>Guard | <img src="../img/subdued.svg" width="40"><br>Subdued | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may move into a space with a Guard. |
-| Camera | <img src="../img/camera.svg" width="40"><br>Live | <img src="../img/disconnected.svg" width="40"><br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but increase the Alert (⚠) by 1. If a Disabled camera is powered back on while a player is on it, increase the Alert (⚠) by 1.  |
-| Lock | <img src="../img/locked.svg" width="40"><br>Locked | <img src="../img/unlocked.svg" width="40"><br>Unlocked | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile in any direction if it was re-locked while you were on it.  |
+|  Name  |                       Active                       |                          Inactive                          | Behavior                                                                                                                                                                             |
+|:------:|:--------------------------------------------------:|:----------------------------------------------------------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Guard  |  <img src="../img/guard.svg" width="40"><br>Guard  |    <img src="../img/subdued.svg" width="40"><br>Subdued    | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may move into a space with a Guard.                                                   |
+| Camera |  <img src="../img/camera.svg" width="40"><br>Live  | <img src="../img/disconnected.svg" width="40"><br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but raise an Alert (⚠) by 1. If a Disabled camera is powered back on while a player is on it, raise an Alert (⚠) by 1. |
+|  Lock  | <img src="../img/locked.svg" width="40"><br>Locked |   <img src="../img/unlocked.svg" width="40"><br>Unlocked   | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile if it was re-locked while you were on it.                                                |
 
 </div>
 
@@ -115,17 +110,16 @@ Security chits are generally unknown at the beginning of the heist, and are plac
 
 Skills and Characters allow you to take Actions. Every Action is just a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
 
-| Icon | Sub-Action Description |
-|:--:|---|
-| ➜ | **Move** to an adjacent, planned, not locked tile |
-| 🔓 | **Unlock** 1 locked, adjacent tile |
-| 👊 | **Subdue** 1 guard on or adjacent to your tile |
-| 📷 | **Disable** 1 camera on or adjacent to your tile |
-| 💡 | Add 1 **Idea** to your character |
-| 🔍 | **Reveal** 1 security token anywhere on the board |
-| 💰 | **Loot:** Gain $1k from the supply and place it on your character. |
-| 🔊 | Increase the **Noise** level by 1 (Required) |
-| ⚠ |  **Alert**. Discard the top Event card. (Required) |
+* ➜ is  **Move** to an adjacent, planned, not locked tile
+* 🔓 is **Unlock** 1 locked, adjacent tile
+* 👊 is **Subdue** 1 guard on or adjacent to your tile
+* 📷 is **Disable** 1 camera on or adjacent to your tile
+* 💡 is Add 1 **Idea** to your character
+* 🔍 is **Reveal** 1 security token anywhere on the board
+* 💰 is **Loot:** Gain $1k from the supply and place it on your character.
+* 🔊 is Increase the **Noise** level by 1 (Required)
+* ⚠ is  **Alert**. Discard the top Event card. (Required)
+{:class="subactions"}
 
 <div class="characters">
 <img src="./character_example.png">
@@ -148,8 +142,6 @@ Some abilities have a "Once per heist..." sentence. Place the once-per-heist tok
 
 Special abilities override any rules in this document.
 
-Between Heists, your scenario may give you an opportunity to **promote** (i.e. "level up") some of your characters. Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Pro characters cannot be promoted.
-
 </div>
 
 <div class="clear-both"/>
@@ -163,12 +155,17 @@ Between Heists, your scenario may give you an opportunity to **promote** (i.e. "
 
 Each character gets two Skills. Each Skill has six Actions(①) that each correspond to a die roll(②). During a heist, you will be rolling your die to determine which Actions are available to you (more details on this in Roll for Skill and Character Actions).
 
-Between Heists, your team will get a chance to **refine** (i.e. "level up") some of your Skills. Each Skill, like Characters, can be refined to one of two Skills, as summarized on the back of the Amateur skill cards. When refining, choose which Pro skill to refine and place the Amateur one back in the box. Pro skills cannot be refined.
-
 </div>
 
-<div class="clear-both"/>
+## Level Up
 
+Between heists, you may have the opportunity to Level Up. The progression is this:
+
+1. Refine 1 Skill
+2. Promote Character
+3. Refine 1 Skill
+
+Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Record your choice on your character sheet. Pro characters cannot be promoted. Skill cards work the same way.
 
 ## Trackers: Noise Tracker, Alerts, and Events
 
@@ -341,16 +338,18 @@ When you are Busted, you are out of gameplay for the rest of this Heist. All loo
 
 # Losing a Heist
 
-Each Heist has an objective built into it. If your team does not complete its objective, the campaign is lost. Some scenarios may define what to do if the heist is lost. If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
+Each Heist has an objective built into it. If your team does not complete its objective, you do not gain the favor of the Fixer. No Character may level up if the objective is lost, even if those characters escaped. You still keep any loot that was taken.
 
-If you lose a heist, you have three options:
+**Stashed away**. Even if every team member is Busted, the Team Cash and known Fixers is available for the next crew.
 
-* **Replay**. You may replay a heist from your original conditions (i.e. restore from a previous "saved game").
-* **Rebuild**. You may continue onward with any non-Busted characters, hire new Characters with Skills, and play a Rebuilding Scenario of your choice. You may play any of the Rebuilding Scenarios as many times as you like.
+**Save Scumming**. You may replay a heist from your original conditions (i.e. restore from a previous "saved game").
+
 
 # Winning a Heist
 
-If you have completed your objective, your team advances to the next chapter. If the objective is fulfilled, regardless of how many teammates are Busted, then the heist is still successful.
+If you have completed your objective, you have gained the favor of that Fixer. Every character who is not Busted at the end of this heist may Level Up.
+
+**Sacrifices**. An objective can still be fulfilled even if some characters get Busted.
 
 Leftover 💡 are lost. Any cash on a Character is added to the Team Cash tracker, as well as any loot. Be sure to note everything in your Campaign History.
 
@@ -394,3 +393,27 @@ If a Guard Dog is added to a tile that does not already have a character and is 
 ## Story Beacon
 
 A special loot chit is the **Story Beacon**, denoted by a question mark. When a character enters a space with the Beacon for the first time, refer to the scenario for what to do, then remove the chit.
+
+<div class="pagebreak"/>
+
+# Pre-Built Characters
+
+|      Name      |    Character    |     Skill      |     Skill      | Description                                |
+|:--------------:|:---------------:|:--------------:|:--------------:|:------------------------------------------ |
+| Johnny Swagger | Angry Locksmith | Smash 'n' Grab |     Bypass     | Well-rounded yet slower                    |
+|     Karma      | Angry Locksmith |     Hurry      |    Wing It     | Fast, but noisy                            |
+|   Tiny Mike    |      Thug       |    Wing It     |     Bypass     | Noisy, but with some quiet options         |
+|    Jitters     |      Thug       |     Hurry      |   Yank Wires   | Fast, bad with locks                       |
+|     Enigma     |  Street Urchin  |     Hurry      |     Bypass     | Fast and supportive, but easily stymied    |
+|    Iceheart    |  Street Urchin  |    Wing It     |   Yank Wires   | Good with security                         |
+|     Phobia     |  Script Kiddie  | Smash 'n' Grab |     Bypass     | Good for staying out in the van            |
+|     Tracer     |  Script Kiddie  |     Hurry      |   Yank Wires   | A more mobile support                      |
+|    Showtime    |     Burglar     |     Bypass     |    Wing It     | Skillful but noisy                         |
+|     Clutch     |     Burglar     | Smash 'n' Grab |   Yank Wires   | Efficient with security                    |
+|   Crazy Eyes   |     Lookout     |     Hurry      |    Wing It     | Great for staying outside, then rushing in |
+|     Smokes     |     Lookout     | Smash 'n' Grab |     Bypass     | Slower, but can handle security better     |
+|     Status     |   Pickpocket    |     Hurry      |   Yank Wires   | Fast and finds problems quick              |
+|     Locket     |   Pickpocket    |  Hit 'n' Run   | Smash 'n' Grab | Noisy but handles security well            |
+|     F-Stop     |   Shutter Bug   |    Wing It     |     Bypass     | Noisy but good with security               |
+|    Stretch     |   Shutter Bug   |     Hurry      |  Hit 'n' Run   | Fast but bad with locks                    |
+{:class="prebuilt"}

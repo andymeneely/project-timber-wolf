@@ -71,9 +71,7 @@ Description | Discard one Event if any Character |
             ╭------------------------------------╮
        Name | System Reboot                      |
       Order | 8                                  |
-      Story | The Guards notice that some camera |
-            | s are not working. They turning th |
-            | em off and on again.               |
+      Story | "Try turning it off and on again"  |
 Description | Make every Disabled Camera Live. D |
             | iscard one Event if any Camera was |
             |  rebooted. Give 💡 to any character |
@@ -121,7 +119,7 @@ Description | Discard one Event if any Character |
             |                                    |
 Description | Any character adjacent to two or m |
             | ore security tokens not handled ye |
-            | t loses one idea (if possible).    |
+            | t loses one 💡 (if possible).       |
         Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -239,8 +237,9 @@ Description | Discard one Event if any character |
        Name | Check that Gate                    |
       Order | 23                                 |
       Story | "Go check on that gate"            |
-Description | Add one Guard token to the next lo |
-            | ckdown gate, starting with "A".    |
+Description | Add one Guard token to the next av |
+            | ailable lockdown gate, starting wi |
+            | th "A".                            |
         Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -254,13 +253,15 @@ Description | Un-Subdue every Subdued Guard that |
         Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Go Check on It                     |
+       Name | System Reboot, Again               |
       Order | 25                                 |
       Story | Guards begin showing up to investi |
             | gate all of the broken cameras.    |
-Description | Replace every Disabled Camera with |
-            |  a Guard.                          |
-        Img | figure_alerts_call_it_in.svg       |
+Description | Make every Disabled Camera Live. C |
+            | haracters may spend 💡 for each Liv |
+            | e Camera they share a tile with to |
+            |  avoid discarding an event.        |
+        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gates!                    |
