@@ -22,7 +22,7 @@ Level:
 Memory:
   font: Archivo Narrow, 13.44
   x: 570
-  y: 172
+  y: 170
   width: 65
   align: right
 Ideas:
@@ -76,30 +76,31 @@ FigureLevel:
   color: red
   extends: Level
   str: ①
-  x: += 100
-  y: -= 25
+  x: 240
+  y: 200
 
 FigureMemory:
   font: Sans Bold 11.52
   color: red
   extends: Memory
   str: ②
-  x: += 75
+  x: 665
+  y: 180
 
 FigureIdeas:
   font: Sans Bold 11.52
   color: red
   extends: Memory
   str: ③
-  x: += 55
-  y: += 85
+  x: 665
+  y: 240
 
 FigureAction1:
   font: Sans Bold 16.64
   color: red
   extends: Default1
   str: ④
-  x: -= 85
+  x: -= 0
   y: -= 45
 
 FigureAction2:
@@ -107,7 +108,7 @@ FigureAction2:
   color: red
   extends: Default1
   str: ④
-  x: += 310
+  x: += 450
   y: -= 45
 
 FigureSpecial:
@@ -116,7 +117,7 @@ FigureSpecial:
   extends: Special
   str: ⑤
   x: -= 220
-  y: -= 45
+  y: -= 65
 
 FigureSkill1:
   font: Sans Bold 13.44

@@ -70,15 +70,22 @@ border:
   stroke_width: 2.5
 
 FigureAction:
-  x: 155
-  y: 180
+  x: 200
+  y: 190
   font: Sans Bold 15.36
   color: red
   str: ①
 
 FigureDieRoll:
-  x: 420
+  x: 400
   y: 290
   font: Sans Bold 15.36
   color: red
   str: ②
+
+FigureLacks:
+  x: 1015
+  y: 80
+  font: Sans Bold 11
+  color: red
+  str: ③

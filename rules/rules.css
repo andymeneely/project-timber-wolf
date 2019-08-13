@@ -33,7 +33,9 @@ h2{
   margin-top: 0.5em;
   margin-bottom: 0;
 }
+
 h3{
+  margin-top: 0.25em;
   margin-bottom: 0;
 }
 
@@ -165,15 +167,20 @@ ol.gameplay-structure{
 
 .characters img:first-child{
   float: right;
+  margin-left: 0.5em;
   width: 15em;
 }
 
-.skills{
+.skills em{
+  color: red;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .skills img{
   float: right;
   width: 300px;
+  margin-left: 0.5em;
 }
 
 .security_systems img{
@@ -201,3 +208,21 @@ ol.gameplay-structure{
 .prebuilt td {
   min-width: 5em;
 }
+
+.figure_list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.figure_list li:before{
+  color: red;
+  padding-right: 0.5em;
+  font-weight: bold;
+}
+
+.figure_list li:nth-of-type(1):before{ content: '①'; }
+.figure_list li:nth-of-type(2):before{ content: '②'; }
+.figure_list li:nth-of-type(3):before{ content: '③'; }
+.figure_list li:nth-of-type(4):before{ content: '④'; }
+.figure_list li:nth-of-type(5):before{ content: '⑤'; }

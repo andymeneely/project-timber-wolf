@@ -37,15 +37,13 @@ You will start as an Amateur criminal with Amateur skills who is new to River Ci
 
 <div class="pagebreak"/>
 
-# Your Very First Game
-
-If this is your very first time, we recommend the following pre-built characters (see end of this booklet): Johnny Swagger, Tiny Mike, Phobia, and Showtime. Any of the Amateur heists from River City are good starters.
-
 # Starting a Campaign
 
-On the campaign ledger, fill out the team name and any choices that are made during setup.
+On the campaign ledger, fill out the team name and character names. Each player gets a character sheet as well.
 
-**Loosely Affiliated**. Players may freely come and go from the campaign. A player does is not limited to always playing their original character. All heists have 3- and 4-player options. You are always welcome to start out new characters
+**Loosely Affiliated**. Players may freely come and go from the campaign. A player does is not limited to always playing their original character. All heists have 3- and 4-player options. You are always welcome to start out new characters.
+
+**First time.** If this is your very first game, we recommend the using pre-built characters listed at the end of this booklet: Johnny Swagger, Tiny Mike, Phobia, and Showtime. Any of the Amateur heists from River City are good starters.
 
 # Setting Up
 
@@ -86,13 +84,13 @@ Some tiles have **Lockdown Gates** printed on them, and they are lettered A,B,C,
 
 **Adjacent**. You are considered adjacent to something if you are on a tile that shares a border with another tile. Being on the same tile is *not* considered adjacent.
 
-Each board has one or more **Entrances**. These Entrances represent a space. If a character is on one of these spaces they are considered to be Outdoors, otherwise they are Indoors. An Entrance tile is also considered an Exit.
+**Entrances & Exits**. Each board has one or more entrances/exits. These Entrances represent a space. If a character is on one of these spaces they are considered to be Outdoors, otherwise they are Indoors. An Entrance tile is also considered an Exit.
 
-By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, although the scenario may impose additional limits.
+**Limit 2 to Entrance**. By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, although the scenario may impose additional limits.
 
-Some abilities refer to **external sides**, which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure). An **external tile** is a tile with at least one external side.
+**External**. Some abilities refer to "external sides", which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure). An "external tile" is a tile with at least one external side.
 
-Some abilities refer to a **non-tiled gap**, which is a hex-spaced area between two hex tiles that does *not* have a hex (see figure).
+**Gaps**. Some abilities refer to a "non-tiled gap", which is a hex-spaced area between two hex tiles that does *not* have a hex (see figure).
 
 ## Security Chits
 
@@ -125,17 +123,19 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 {:.subactions}
 
 <div class="characters">
-<img src="./character_example.png">
 
 ## Characters
 
+![character figure](figure_character_00.png)
+
 Each Character card has:
 
-  * ① **Level.** There are Amateur characters and Pro characters.
-  * ②	**Planning Memory.** The number of pre-planned hex tiles your character may move through during a heist.
-  * ③	**Initial Ideas**. The number of Ideas 💡 you start with at the beginning of each heist.
-  * ④	**Default Actions**. Actions that are available regardless of your die roll.
-  * ⑤	**Special Ability**. Abilities that your character can uniquely do.
+* **Level**. Amateur or Pro
+* **Planning Memory**. The number of pre-planned hex tiles your character may move through during a heist.
+* **Initial Ideas**. The number of Ideas 💡 you start with at the beginning of each heist.
+* **Default Actions**. Actions that are available regardless of your die roll.
+* **Special Ability**. Abilities that your character can uniquely do.
+{:.figure_list}
 
 Some Characters have two Default Actions, others have three.
 
@@ -149,14 +149,15 @@ Special abilities override any rules in this document.
 
 <div class="clear-both"/>
 
-<br><br>
-
 <div class="skills">
-<img src="skill_example.png">
 
 ## Skills
 
-Each character gets two Skills. Each Skill has six Actions(①) that each correspond to a die roll(②). During a heist, you will be rolling your die to determine which Actions are available to you (more details on this in Roll for Skill and Character Actions).
+<img src="figure_skill_00.png">
+
+Each character gets two Skills. Each Skill has six Actions *①* that each correspond to a die roll *②*. During a heist, you will be rolling your die to determine which Actions are available to you. Every skill is either Amateur or Pro.
+
+**Complementary skills**. When building a character, use Lacks *③* to see what the skill is missing so you can find a good combination.
 
 </div>
 
@@ -410,7 +411,7 @@ A special loot chit is the **Story Beacon**, denoted by a question mark. When a 
 |     Enigma     |  Street Urchin  |     Hurry      |     Bypass     | Fast and supportive, but easily stymied    |
 |    Iceheart    |  Street Urchin  |    Wing It     |   Yank Wires   | Good with security                         |
 |     Phobia     |  Script Kiddie  | Smash 'n' Grab |     Bypass     | Good for staying out in the van            |
-|     Tracer     |  Script Kiddie  |     Hurry      |   Yank Wires   | A more mobile support                      |
+|      Null      |  Script Kiddie  |     Hurry      |   Yank Wires   | A more mobile support                      |
 |    Showtime    |     Burglar     |     Bypass     |    Wing It     | Skillful but noisy                         |
 |     Clutch     |     Burglar     | Smash 'n' Grab |   Yank Wires   | Efficient with security                    |
 |   Crazy Eyes   |     Lookout     |     Hurry      |    Wing It     | Great for staying outside, then rushing in |
