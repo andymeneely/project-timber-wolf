@@ -14,7 +14,7 @@
    viewBox="0 0 26.458333 26.458334"
    version="1.1"
    id="svg848"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="loot.svg">
   <defs
      id="defs842" />
@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="-21.406982"
-     inkscape:cy="46.868257"
+     inkscape:zoom="5.6"
+     inkscape:cx="64.634873"
+     inkscape:cy="38.504383"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1147"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      units="px" />
   <metadata
@@ -56,32 +56,19 @@
      transform="translate(0,-270.54165)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:'Segoe UI Symbol';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;-inkscape-font-specification:'Segoe UI Symbol';font-stretch:normal;font-variant:normal;"
-       x="-3.7797618"
-       y="275.83331"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Segoe UI Symbol';-inkscape-font-specification:'Segoe UI Symbol';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.748999"
+       y="279.50827"
        id="text1475"><tspan
          sodipodi:role="line"
          id="tspan1473"
-         x="-3.7797618"
-         y="285.4888"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI Symbol';-inkscape-font-specification:'Segoe UI Symbol';stroke-width:0.26458332;stroke:none;" /></text>
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect819"
-       width="26.187397"
-       height="13.430295"
-       x="0.13546817"
-       y="277.05566"
-       ry="2.6726952"
-       rx="2.6726952" />
-    <g
-       aria-label="$"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.79683781px;line-height:1.25;font-family:'Segoe UI Emoji';-inkscape-font-specification:'Segoe UI Emoji';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       id="text817">
-      <path
-         d="m 13.444738,278.36278 h 0.906026 l -0.16246,1.21845 q 0.32492,0.0312 0.64984,0.0812 0.331168,0.05 0.612348,0.11872 v 0.96226 q -0.343665,-0.0875 -0.693578,-0.14996 -0.349914,-0.0625 -0.68733,-0.0937 l -0.356162,2.67434 q 0.418646,0.16246 0.831044,0.35617 0.412398,0.18745 0.737318,0.44988 0.331168,0.25619 0.531119,0.61235 0.206199,0.35616 0.206199,0.84979 0,0.52487 -0.212448,0.93102 -0.212447,0.40615 -0.593603,0.68733 -0.381156,0.28118 -0.918523,0.44364 -0.537367,0.15621 -1.180958,0.18746 l -0.206199,1.48713 h -0.912275 l 0.206199,-1.48713 q -0.506125,-0.0375 -0.96851,-0.10623 -0.456138,-0.075 -0.793554,-0.16246 v -1.03724 q 0.393653,0.13747 0.856038,0.22494 0.468634,0.0875 1.037244,0.11872 l 0.368659,-2.8118 q -0.40615,-0.15621 -0.799802,-0.33742 -0.393653,-0.1812 -0.706076,-0.43114 -0.306174,-0.25619 -0.499876,-0.59985 -0.193703,-0.34367 -0.193703,-0.81855 0,-0.3874 0.16246,-0.76231 0.16246,-0.38116 0.506125,-0.68108 0.343665,-0.30618 0.868536,-0.49988 0.52487,-0.19995 1.249691,-0.23744 z m -0.28118,2.12448 q -0.781057,0.0687 -1.143468,0.36866 -0.356162,0.29367 -0.356162,0.75606 0,0.43114 0.293678,0.71232 0.299925,0.27494 0.88728,0.50613 z m 0.07498,6.2422 q 0.843542,-0.0625 1.224697,-0.3749 0.387405,-0.31243 0.387405,-0.84979 0,-0.22495 -0.08123,-0.3999 -0.08123,-0.18121 -0.24369,-0.32492 -0.16246,-0.14372 -0.40615,-0.26869 -0.237441,-0.12497 -0.562361,-0.24994 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#ffffff;stroke-width:0.26458332"
-         id="path817" />
-    </g>
+         x="23.748999"
+         y="289.04126"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI Symbol';-inkscape-font-specification:'Segoe UI Symbol';stroke:none;stroke-width:0.26458332" /></text>
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 50 4.0371094 A 45.961943 45.961943 0 0 0 4.0371094 50 A 45.961943 45.961943 0 0 0 50 95.962891 A 45.961943 45.961943 0 0 0 95.962891 50 A 45.961943 45.961943 0 0 0 50 4.0371094 z M 43.066406 12.931641 L 56.933594 12.931641 L 56.933594 22.263672 C 61.984384 23.290947 66.351424 25.345802 69.347656 27.400391 L 69.347656 23.119141 L 81.160156 23.119141 L 81.160156 44.09375 L 69.347656 44.09375 L 69.347656 40.925781 C 69.347656 36.902247 63.182876 34.591398 56.933594 33.478516 L 56.933594 42.894531 C 70.117013 44.521051 81.759766 47.603104 81.759766 62.15625 C 81.759766 71.658587 73.798099 78.165086 56.933594 79.449219 L 56.933594 87.068359 L 43.066406 87.068359 L 43.066406 79.277344 C 37.844403 78.763706 33.220179 77.479704 30.052734 75.767578 L 30.052734 78.164062 L 18.240234 78.164062 L 18.240234 56.419922 L 30.052734 56.419922 L 30.052734 59.501953 C 30.052734 63.696662 35.447416 66.522546 43.066406 67.806641 L 43.066406 57.533203 C 32.451185 55.906683 19.78125 51.798082 19.78125 39.984375 C 19.78125 27.999455 32.451185 23.289954 43.066406 22.005859 L 43.066406 12.931641 z M 43.066406 33.134766 C 39.299714 33.648403 37.330078 34.934092 37.330078 38.101562 C 37.330078 40.070507 39.813352 40.668003 43.066406 41.181641 L 43.066406 33.134766 z M 56.933594 58.818359 L 56.933594 67.892578 C 60.529073 67.207728 64.039062 65.922036 64.039062 63.439453 C 64.039063 60.015201 61.128318 59.331997 56.933594 58.818359 z "
+       id="path821"
+       transform="matrix(0.26458333,0,0,0.26458333,0,270.54165)" />
   </g>
 </svg>

@@ -10,6 +10,10 @@ p{
   margin-bottom: 0.5em;
 }
 
+ul {
+  margin-top: 0;
+}
+
 table{
   font-size: inherit;
   page-break-inside: avoid;
@@ -74,20 +78,18 @@ ul.parts-list>li {
     /* border: 1pt solid black; */
 }
 
-.security-table table{
-  /*float: right;*/
+table.security-table {
   width: 100%;
 }
 
-.subaction-table table{
-  float: right;
-  width: 45%;
+.security-table img:not(.emoji-svg) {
+  width: 40px;
 }
 
 .title{
   font-family: 'Archivo Black';
-
 }
+
 .clear-both{
   clear: both;
 }
@@ -96,11 +98,14 @@ ul.parts-list>li {
   margin-left: 15pt;
   border-left: 3pt solid #888888;
   padding-left: 2pt;
+  page-break-inside: avoid;
 }
+
 .tip{
   margin-left: 15pt;
   border-left: 3pt double #888888;
   padding-left: 2pt;
+  page-break-inside: avoid;
 }
 
 .flex-container ul{
