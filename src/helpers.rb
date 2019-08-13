@@ -25,6 +25,18 @@ def escape_emojis(str)
      .gsub(/💰/,':loot:')
 end
 
+def embed_emojis(embed)
+  embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 30, height: 30
+  embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 30, height: 30
+  embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 30, height: 30
+  embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 30, height: 30
+  embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 30, height: 30
+  embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 30, height: 30
+  embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 30, height: 30
+  embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 30, height: 30
+  embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 30, height: 30
+end
+
 
 def summarize_skill(str)
   return nil if str.nil?

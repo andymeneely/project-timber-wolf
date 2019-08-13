@@ -52,51 +52,19 @@ Squib::Deck.new(cards: total) do
   text layout: :Ideas, str: data['Ideas']
 
   text(layout: :Default1, str: data['Default1']) do |embed|
-    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
-    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
-    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
-    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
-    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
-    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
-    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
-    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
-    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+    embed_emojis(embed)
   end
 
   text layout: :Default2, str: data['Default2'] do |embed|
-    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
-    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
-    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
-    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
-    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
-    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
-    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
-    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
-    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+    embed_emojis(embed)
   end
-  
+
   text layout: :Default3, str: data['Default3'] do |embed|
-    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
-    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
-    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
-    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
-    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
-    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
-    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
-    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
-    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+    embed_emojis(embed)
   end
 
   text layout: :Special, str: data['Special'] do |embed|
-    embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: 40, height: 40
-    embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: 40, height: 40
-    embed.svg key: ':move:', file: 'img/emojis/move.svg', width: 40, height: 40
-    embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: 40, height: 40
-    embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: 40, height: 40
-    embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: 40, height: 40
-    embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: 40, height: 40
-    embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: 40, height: 40
-    embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: 40, height: 40
+    embed_emojis(embed)
   end
 
   save_png prefix: 'character_'#, range: 0
