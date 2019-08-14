@@ -30,6 +30,10 @@ Description | REFINED TASTE                      |
             | You may sell paintings for $2k eac |
             | h, or for a set of 2/3 for $5k/$8k |
             | .                                  |
+            |                                    |
+            | GOOD PLANNER                       |
+            | For $3k each, add a planning token |
+            |  to any player.                    |
  Membership | Fence Cartel member.               |
             | Won't work with Fixers in other fa |
             | ctions.                            |
@@ -81,33 +85,32 @@ Description | IT'LL LOOK LEGIT                   |
             | ctions.                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Spammer                            |
+       Name | Visage                             |
+    Faction | Hacker                             |
+Description | IT'S ALL ONLINE                    |
+            | During planning, you may purchase  |
+            | 🔍 for $1k each                     |
+ Membership | Hacker faction member.             |
+            | Won't work with Fixers in other fa |
+            | ctions.                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Habitat                            |
+    Faction | Hacker                             |
+Description | TAKE A LOOK AT THESE SCHEMATICS    |
+            | For $5k, add 2 planning tokens to  |
+            | any player.                        |
+ Membership | Hacker faction member.             |
+            | Won't work with Fixers in other fa |
+            | ctions.                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Mr. Dread                          |
     Faction | Hacker                             |
 Description | DENIAL OF SERVICE                  |
             | For $3k, any Camera discovered dur |
             | ing the planning phase starts disa |
             | bled.                              |
- Membership | Hacker faction member.             |
-            | Won't work with Fixers in other fa |
-            | ctions.                            |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Security System Salesman           |
-    Faction | Hacker                             |
-Description | JUST AUTOMATE IT!                  |
-            | During planning, replace 1 Lock an |
-            | d 1 Guard with 3 Cameras in the se |
-            | curity bag for $3k.                |
- Membership | Hacker faction member.             |
-            | Won't work with Fixers in other fa |
-            | ctions.                            |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Internet Troll                     |
-    Faction | Hacker                             |
-Description | IT'S ALL ONLINE                    |
-            | During planning, you may purchase  |
-            | 🔍 for $1k each                     |
  Membership | Hacker faction member.             |
             | Won't work with Fixers in other fa |
             | ctions.                            |
@@ -140,8 +143,8 @@ Description | IF YOU DO THIS, DO IT RIGHT        |
        Name | Recruiter                          |
     Faction | Mafia                              |
 Description | I KNOW A GUY                       |
-            | New characters gain 1 refined skil |
-            | l when recruited.                  |
+            | New characters start with 1 Pro sk |
+            | ill.                               |
  Membership | Mafia faction member.              |
             | Won't work with Fixers in other fa |
             | ctions.                            |

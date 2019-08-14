@@ -350,9 +350,7 @@ Description | Add a Dog token to each tile with  |
             ╭------------------------------------╮
        Name | System Reboot                      |
       Order | 12a                                |
-      Story | The Guards notice that some camera |
-            | s are not working. They turning th |
-            | em off and on again.               |
+      Story | "Try turning it off and on again"  |
 Description | Make every Disabled Camera Live. D |
             | iscard one Event if any Camera was |
             |  rebooted. Give 💡 to any character |

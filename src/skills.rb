@@ -34,13 +34,12 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     end
   end
 
-  # save_png prefix: 'skill_'#, rotate: true
-  # save_pdf file: 'skills.pdf', trim: '0.125in'
-  # save_pdf file: 'skills-k40.pdf', width: '8.5in', height: '11in',
-  #          margin: '0.125in', trim: '0.05in'
+  save_png prefix: 'skill_'#, rotate: true
+  save_pdf file: 'skills.pdf', trim: '0.125in'
+  save_pdf file: 'skills-k40.pdf', width: '8.5in', height: '11in',
+           margin: '0.125in', trim: '0.05in'
 
   build :rulebook_figures do
-    rect layout: :border
     %i(Action DieRoll Lacks).each do |fig|
       text layout: "Figure#{fig}"
     end
