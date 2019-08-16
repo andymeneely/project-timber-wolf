@@ -634,11 +634,11 @@ LevelUp2Desc |                                    |
        Ideas | 3                                  |
     Default1 | Disable                            |
              | :disable::noise::move:             |
-    Default2 | Complete the Circuit               |
+    Default2 | Rewire                             |
     Default3 | Patch In                           |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
-     Special | COMPLETE THE CIRCUIT               |
+     Special | REWIRE                             |
              | For :idea::idea::noise:, use this  |
              | action to disable up to three live |
              |  cameras adjacent to you. Any guar |

@@ -24,13 +24,13 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
        layout: :level
 
   text(str: data['Rolls'].map { |s| skill_lacks(s) }, layout: :lacks) do |embed|
-    embed_emojis(embed)
+    embed_emojis(embed, 30)
   end
 
   text str: data['Name'], layout: :name
   (1..6).each do |i|
     text(str: data[i.to_s], layout: "die_roll_#{i}") do |embed|
-      embed_emojis(embed)
+      embed_emojis(embed, 50)
     end
   end
 

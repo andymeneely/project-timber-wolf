@@ -52,25 +52,25 @@ Squib::Deck.new(cards: total) do
   text layout: :Ideas, str: data['Ideas']
 
   text(layout: :Default1, str: data['Default1']) do |embed|
-    embed_emojis(embed)
+    embed_emojis(embed, 45)
   end
 
   text layout: :Default2, str: data['Default2'] do |embed|
-    embed_emojis(embed)
+    embed_emojis(embed, 45)
   end
 
   text layout: :Default3, str: data['Default3'] do |embed|
-    embed_emojis(embed)
+    embed_emojis(embed, 45)
   end
 
   text layout: :Special, str: data['Special'] do |embed|
-    embed_emojis(embed)
+    embed_emojis(embed, 50)
   end
 
   save_png prefix: 'character_'#, range: 0
   save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
   save_pdf file: 'characters-k40.pdf', margin: '0.125in', trim: '0.05in'
-  
+
   build :color do
     showcase range: [0,3,6,9,12,15], file: 'characters_amateurs_showcase.png',
              fill_color: :white
