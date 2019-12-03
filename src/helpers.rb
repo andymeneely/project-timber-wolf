@@ -1,6 +1,26 @@
 require 'json'
 require 'pp'
 
+def merge_front_back(faces, backs, per_sheet = 8)
+  z = faces.zip(backs)
+  merged = []
+  z.each_slice(per_sheet) do |pairs|
+    pairs.each { |(face, _back)| merged << face }
+    pairs.each { |(_face, back)| merged << back }
+  end
+  # We need to reverse the rows of backs so they line up front-to-back
+  # Assume 2 rows
+  merged2 = []
+  merged.each_slice(per_sheet / 2) do |row|
+    if row[0].to_s.match? /_back_/
+      merged2 += row.reverse # rows of back should be reversed
+    else
+      merged2 += row         # rows of faces NOT reversed
+    end
+  end
+  return merged2
+end
+
 # Generates a JSON output from deck data for easy Git tracking.
 def save_json(cards: 1, data: {}, to: 'data/data.json')
   ''

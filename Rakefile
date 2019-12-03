@@ -93,8 +93,8 @@ task :fixers do
 end
 
 desc 'Build a front-and-back bundle of all cards'
-task :packet do
-  load 'src/packet.rb'
+task :bundle do
+  load 'src/bundle.rb'
 end
 
 task :launch do
