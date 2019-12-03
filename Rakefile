@@ -10,14 +10,12 @@ CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 task default: [
   :full,
   :rulebook_figures,
-  :chits,
   :characters,
   :character_backs,
   :skills,
   :skill_backs,
   :npcs,
   :events,
-  :envelopes,
   :fixers,
   :helps
 ]
