@@ -110,6 +110,18 @@ group :fixers do
   end
 end
 
+group :packet do
+  guard 'rake', :task => 'packet' do
+    watch %r{.*\.xlsx$}
+    watch %r{src/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{img/.*}
+    watch %r{rules/.*\.md$}
+    watch %r{rules/.*\.svg$}
+    watch %r{rules/.*\.css$}
+  end
+end
+
 group :envelopes do
   guard 'rake', :task => 'envelopes' do
     watch %r{.*\.xlsx$}

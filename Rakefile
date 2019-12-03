@@ -94,6 +94,11 @@ task :fixers do
   load 'src/fixers.rb'
 end
 
+desc 'Build a front-and-back bundle of all cards'
+task :packet do
+  load 'src/packet.rb'
+end
+
 task :launch do
   return unless @launch.respond_to? :each
   @launch.each do |url|

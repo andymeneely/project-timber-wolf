@@ -26,32 +26,6 @@ Description | Add a Guard to every hex with a Ch |
         Img | special_events_watchtower.svg      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Watchtower Sweep                   |
-         ID | S2                                 |
-        Qty | 2                                  |
-      Story | The Watchtower performs a sweep in |
-            |  every direction.                  |
-Description | Add a Guard to every hex with a Ch |
-            | aracter on it in a direct line ori |
-            | ginating from a Watchtower token.  |
-            | Excludes being on the tile with a  |
-            | Watchtower.                        |
-        Img | special_events_watchtower.svg      |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Shut Two Gates!!                   |
-         ID | S3                                 |
-        Qty | 2                                  |
-      Story | In an attempt to isolate your team |
-            | , the guards shut two lockdown gat |
-            | es.                                |
-Description | Close the next two Gates, starting |
-            |  with "A". Remove the tile. If a c |
-            | haracter is on it, they are immedi |
-            | ately Busted.                      |
-        Img | special_events_gates.svg           |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Shut Two Gates!!                   |
          ID | S3                                 |
         Qty | 2                                  |

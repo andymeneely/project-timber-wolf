@@ -22,7 +22,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
 
   text str: data['Name'], layout: :name
   rolls1 = data['Rolls'].zip(data['Upgrade1Rolls']).map do |(amateur,pro)|
-    arr = amateur.split('/').zip(pro.split('/')).map do | (am_act, pro_act) |
+    arr = amateur.to_s.split('/').zip(pro.to_s.split('/')).map do | (am_act, pro_act) |
       if am_act == pro_act
         ''
       else
@@ -35,7 +35,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   end
 
   rolls2 = data['Rolls'].zip(data['Upgrade2Rolls']).map do |(amateur,pro)|
-    arr = amateur.split('/').zip(pro.split('/')).map do | (am_act, pro_act) |
+    arr = amateur.to_s.split('/').zip(pro.to_s.split('/')).map do | (am_act, pro_act) |
       if am_act == pro_act
         ''
       else

@@ -772,8 +772,15 @@ Upgrade1Rolls | Rewire                             |
               | e                                  |
               | :idea::idea::idea::noise:/Disable  |
               | :disable::noise::move:             |
-     Upgrade2 | Tinker                             |
-Upgrade2Rolls | #N/A                               |
+     Upgrade2 | Tweak                              |
+Upgrade2Rolls | Rewire                             |
+              | :disable::disable::noise::move:/St |
+              | ride                               |
+              | :noise::move::reveal:/Disable      |
+              | :disable::noise::move:/Stride      |
+              | :noise::move::reveal:/Eyeball      |
+              | :idea::noise::noise::move:/Disable |
+              | :disable::noise::move:             |
             💡 | 3                                  |
             🔊 | 10                                 |
             ➜ | 6                                  |
@@ -839,8 +846,15 @@ Upgrade1Rolls | Rewire                             |
               | e                                  |
               | :idea::idea::idea::noise:/Disable  |
               | :disable::noise::move:             |
-     Upgrade2 | Tinker                             |
-Upgrade2Rolls | #N/A                               |
+     Upgrade2 | Tweak                              |
+Upgrade2Rolls | Rewire                             |
+              | :disable::disable::noise::move:/St |
+              | ride                               |
+              | :noise::move::reveal:/Disable      |
+              | :disable::noise::move:/Stride      |
+              | :noise::move::reveal:/Eyeball      |
+              | :idea::noise::noise::move:/Disable |
+              | :disable::noise::move:             |
             💡 | 3                                  |
             🔊 | 10                                 |
             ➜ | 6                                  |

@@ -28,7 +28,8 @@ Squib::Deck.new(cards: total) do
   text str: data['LevelUp2Desc'], layout: :upgrade2desc
 
 
-  save_png prefix: 'character_back_', range: 0
+  save_png prefix: 'character_back_'
+
   only_lvl1_2 = data['Level'].map.with_index do |x,i|
     [1].include?(x.to_i) ? i : nil
   end.compact

@@ -10,28 +10,6 @@
 Description | Cannot be given 👊                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Freed Prisoner                     |
-        Qty | 2                                  |
-   Default1 | Crawl                              |
-            | ➜                                  |
-   Default2 | Reveal                             |
-            | 🔍                                  |
-      Roll6 | Dash                               |
-            | 🔊➜➜                                |
-Description | Cannot be given 👊                  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Panicked Prisoner                  |
-        Qty | 2                                  |
-   Default1 | Run                                |
-            | 🔊🔊➜➜                               |
-   Default2 | Whimper                            |
-            | 🔊                                  |
-      Roll6 | Walk                               |
-            | 🔊➜                                 |
-Description | (May now be given 👊)               |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Panicked Prisoner                  |
         Qty | 2                                  |
    Default1 | Run                                |
