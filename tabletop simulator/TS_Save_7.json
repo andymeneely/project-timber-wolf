@@ -1,0 +1,3581 @@
+{
+  "SaveName": "Masters of the Heist",
+  "GameMode": "Masters of the Heist",
+  "Gravity": 0.700000167,
+  "PlayArea": 0.500000358,
+  "Date": "4/19/2020 11:50:39 PM",
+  "Table": "Table_Custom",
+  "TableURL": "http://cloud-3.steamusercontent.com/ugc/1019445185032021754/36043A3794FD8B7F758587EA08FA40BB6DDA7B66/",
+  "Sky": "Sky_Forest",
+  "SkyURL": "http://cloud-3.steamusercontent.com/ugc/1019445525424843553/1029EAA652F554A38146A26742D9EAFAEA827149/",
+  "Note": "",
+  "Rules": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->\r\n<Defaults>\r\n   <Button color=\"#282828\" textColor=\"#F0F0F0\" fontSize=\"16\"/>\r\n   <Text color=\"#F0F0F0\"/>\r\n   <InputField color=\"#282828\" textColor=\"#F0F0F0\" fontSize=\"12\"/>\r\n   <Image preserveAspect=\"true\"/>\r\n</Defaults>\r\n\r\n<Button id=\"show-drawer\" onClick=\"toggleDrawer\"\r\n  width=\"85\" height=\"75\" offsetXY=\"200 -2\"\r\n  rectAlignment=\"UpperLeft\"\r\n  tooltip=\"Masters of the Heist controls\">\r\n  <Image image=\"drawer logo\" width=\"100%\"></Image>\r\n</Button>\r\n\r\n<Panel id=\"drawer\"\r\n  width=\"200\" height=\"600\"\r\n  active=\"false\"\r\n  rectAlignment=\"UpperLeft\"\r\n  offsetXY=\"200 -75\"\r\n  childForceExpandWidth=\"false\"\r\n  showAnimation=\"Grow\"\r\n  hideAnimation=\"Shrink\"\r\n  animationDuration=\"0.25\">\r\n  <VerticalLayout padding=\"0 5 5 5\" spacing=\"5\">\r\n    <Button id=\"clean-up\" onClick=\"cleanUp\"\r\n      width=\"200\">\r\n      <Text>Clean Up</Text>\r\n    </Button>\r\n    <Button id=\"the-docks\" onClick=\"theDocks\"\r\n      width=\"200\">\r\n      <Text>The Docks</Text>\r\n    </Button>\r\n    <InputField id=\"custom-savestring\"\r\n      onEndEdit=\"setCustomSaveString\"\r\n      font_size=\"10\"\r\n      height=\"500\"\r\n      placeholder=\"Paste savestring from Scenario Designer\"\r\n      lineType=\"MultiLineSubmit\"\r\n      offset=\"210 0\"></InputField>\r\n  </VerticalLayout>\r\n</Panel>",
+  "CustomUIAssets": [
+    {
+      "Name": "drawer logo",
+      "URL": "http://cloud-3.steamusercontent.com/ugc/1019445525419973602/BA79D80DE03DA7C3330F252A4BDE0B7CDD98133C/"
+    }
+  ],
+  "LuaScript": "notecard_guid = 'bb25d9'\nsecurity_chit     = getObjectFromGUID('899118')\ntile_hex_guids = {\n  '481787',\n  '708524',\n  '6b98d0',\n  'ea375d',\n  '5f574e',\n  '1ae41d',\n  '2cd212',\n  '87ce25',\n  '4548c0',\n  '99ef65',\n  'd821b5',\n  'a7a307',\n  '191bf1',\n  '7fa0fe',\n  'c893ff',\n  'addcc4',\n  'a2b3d6',\n  'ee93dd',\n  '08ff18',\n  'a60f2e',\n  '752b2e',\n  '1011e9',\n  'e41e0f',\n  '8a98be',\n  'c07b3c',\n  'd95034',\n  'e2419a',\n  'f9ca00',\n  'e972b0',\n  'ed60ee',\n  'a4d467',\n  '46ddb4',\n}\n\nfunction isHex(tile)\n  return tile ~= \"GP\"\n     and tile ~= \"E1\"\n     and tile ~= \"E2\"\n     and tile ~= \"E3\"\n     and tile ~= \"E4\"\n     and tile ~= \"E5\"\n     and tile ~= \"E6\"\nend\n\nfunction onLoad()\n  cleanUp()\n  buildGameButtons()\n  -- Wait.condition(function, function, float, function)\nend\n\nfunction toggleDrawer()\n  if(UI.getAttributes('drawer').active == \"true\") then\n    UI.hide('drawer')\n  else\n    UI.show('drawer')\n  end\nend\n\nfunction cleanUp()\n  for i, guid in pairs(tile_hex_guids) do\n    tile = getObjectFromGUID(guid)\n    tile.setPositionSmooth({\n      x = -40,\n      y = i*0.5,\n      z = 20,\n    }, false, false)\n    tile.setRotation({x=0,y=90,z=0})\n  end\nend\n\nfunction setUp(save_string)\n  -- the_docks = \"The+Docks|130|5|GP GP EM GD GP GP GP GP GP JW SC GP SC SC SC EM E5 GP GP SC SC SC GP GP GP GP GP GB GP CM RE SC SC EM E5 GP GP JW SC SC EM GP GP GP GP $2 GP GP SC GA GP GP GP GP GP $1 JW GC GP SC SC EM E5 GP GP GP $1 SC GP GP GP GP GP GP GP GP GP GP GP GP GP\"\n  -- the_docks = \"The+Crown+Jewels|30|5|GP GP GP GP GP GP GP GP GP GP GP GP GP $2 $1 GP GP GP GP GP GP GP GP SC GC SC SC GP GP GP GP $1 JW C2 SC GA EM E5 GP GP GP EM GD SC GB SC SC GP GP GP GP JW SC SC GP RE EM E5 GP GP GP GP EM GP SC SC SC GP GP GP GP GP JW SC GP SC $1 GP GP GP GP GP GP GP GP EM GP GP GP GP GP GP GP GP E1 GP GP GP GP GP\"\n  title = save_string:gsub(\"|.*$\",''):gsub(\"+\",\" \")\n  tile_list = ''; for w in save_string:gmatch(\"([^|]+)\") do tile_list = w end\n\n  hextiles = {}; t_i = 1\n  for t in tile_list:gmatch(\"[^ ]+\") do\n    hextiles[t_i] = t\n    t_i = t_i + 1\n  end\n\n  tile_guid_i = 1\n  x_start = -14\n  z_start = 11\n  hex_width = 3.8\n  z_shift = 3.3\n  stride = math.sqrt(t_i - 1)\n  odd_row_shift = 1.9\n  for i,t in pairs(hextiles) do\n    row = math.floor((i - 1) / stride)\n    col = (i - 1) % stride\n    if(isHex(t)) then\n      tile = getObjectFromGUID(tile_hex_guids[tile_guid_i])\n      tile.rotate({x=0,y=0,z=0})\n      if(t ~= \"SC\") then -- normalize rotation and flip accordingly\n        tile.setRotation({x=0,y=90,z=180})\n      else\n        tile.setRotation({x=0,y=90,z=0})\n      end\n      tile.setPositionSmooth({\n        x = x_start + col * hex_width + (row % 2)* odd_row_shift,\n        y = 10,\n        z = z_start - row * z_shift,\n      }, false, false)\n      tile_guid_i = tile_guid_i + 1\n    end\n  end\nend\n\nfunction setSaveString(_obj, _color, save_string, stillEditing)\n  if not stillEditing then\n    setUp(save_string)\n  end\nend\n\n-- From the drawer, not the notecard\nfunction setCustomSaveString(_player, value, _id)\n  setUp(value)\n  UI.hide('drawer')\nend\n\nfunction theDocks()\n  the_docks = \"The+Docks|130|5|GP GP EM GD GP GP GP GP GP JW SC GP SC SC SC EM E5 GP GP SC SC SC GP GP GP GP GP GB GP CM RE SC SC EM E5 GP GP JW SC SC EM GP GP GP GP $2 GP GP SC GA GP GP GP GP GP $1 JW GC GP SC SC EM E5 GP GP GP $1 SC GP GP GP GP GP GP GP GP GP GP GP GP GP\"\n  setUp(the_docks)\nend\n\nfunction buildGameButtons()\n  getObjectFromGUID(notecard_guid).createButton({\n    click_function = 'cleanUp',\n    label = 'Clean Up',\n    width = 600,\n    height = 200,\n    position = {\n      x = 0,\n      y = 10,\n      z = -0.75,\n    },\n    rotation = {\n      x = 0,\n      y = 180,\n      z = 0,\n    }\n  })\n  getObjectFromGUID(notecard_guid).createButton({\n    click_function = 'theDocks',\n    label = 'The Docks',\n    width = 500,\n    height = 200,\n    position = {\n      x = 0,\n      y = 10,\n      z = -1.25,\n    },\n    rotation = {\n      x = 0,\n      y = 180,\n      z = 0,\n    }\n  })\n  getObjectFromGUID(notecard_guid).createInput({\n    input_function = 'setSaveString',\n    label = 'Set savestring',\n    width = 500,\n    height = 200,\n    font_size = 25,\n    position = {\n      x = 0,\n      y = 10,\n      z = -2.00,\n    },\n    rotation = {\n      x = 0,\n      y = 180,\n      z = 0,\n    }\n  })\nend",
+  "LuaScriptState": "",
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 1.86794519,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 15.3376751,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35550165
+        }
+      },
+      {
+        "Color": "Brown",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 1.86794519,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268919,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 1.86794519,
+          "posZ": 34.43159,
+          "rotX": 0.0,
+          "rotY": 180.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 1.86794519,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.2036762,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.4108696
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 51.64263,
+          "posY": 1.86794519,
+          "posZ": -11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.203661,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.4108696
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 51.5785675,
+          "posY": 1.86794519,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 15.2036619,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.4108696
+        }
+      },
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -23.6700039,
+          "posY": 1.86794519,
+          "posZ": -34.42515,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268948,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35014534
+        }
+      },
+      {
+        "Color": "Teal",
+        "Transform": {
+          "posX": 0.0,
+          "posY": 1.86794519,
+          "posZ": 34.4527626,
+          "rotX": 0.0,
+          "rotY": 179.800049,
+          "rotZ": 0.0,
+          "scaleX": 15.337678,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.35550165
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 23.6700039,
+          "posY": 1.86794519,
+          "posZ": -34.2558136,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 15.3268747,
+          "scaleY": 11.8970547,
+          "scaleZ": 6.705048
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -51.6596222,
+          "posY": 1.86794519,
+          "posZ": 11.7324,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 15.2036743,
+          "scaleY": 11.8970528,
+          "scaleZ": 6.4108696
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true
+  },
+  "ObjectStates": [
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -12.1003389,
+        "posY": 1.16,
+        "posZ": 7.69977427,
+        "rotX": 3.26852728E-06,
+        "rotY": 89.87658,
+        "rotZ": 180.0,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "6b98d0",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -11.7555122,
+        "posY": 0.959999859,
+        "posZ": 22.3575077,
+        "rotX": -4.870782E-06,
+        "rotY": 179.9999,
+        "rotZ": -3.91606045E-06,
+        "scaleX": 0.8523785,
+        "scaleY": 1.0,
+        "scaleZ": 0.8523785
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.4196072,
+        "g": 0.27843073,
+        "b": 0.109803267
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403558042/8154306889D3BB95D0E430BA7575E9342DBBEB99/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403570707/D08217B5DF7E75CA5ABF0E279B7308C913B41F66/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 2,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "899118"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -8.30163,
+        "posY": 0.960021853,
+        "posZ": 7.700021,
+        "rotX": 0.000446987571,
+        "rotY": 89.84461,
+        "rotZ": 0.00021581068,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ea375d",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -2.58925581,
+        "posY": 1.16001177,
+        "posZ": 10.9985514,
+        "rotX": 0.001525245,
+        "rotY": 90.34977,
+        "rotZ": 180.0003,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "708524",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -0.6954921,
+        "posY": 0.9601425,
+        "posZ": 7.69754457,
+        "rotX": -0.00368231954,
+        "rotY": 90.08296,
+        "rotZ": 0.0017199131,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "5f574e",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 3.09999,
+        "posY": 0.960067868,
+        "posZ": 7.70454073,
+        "rotX": 0.000640392362,
+        "rotY": 90.06864,
+        "rotZ": -0.003065477,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1ae41d",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 6.89957428,
+        "posY": 0.9600072,
+        "posZ": 7.699704,
+        "rotX": 7.990936E-05,
+        "rotY": 89.84348,
+        "rotZ": 2.35693133E-05,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "2cd212",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 10.7013416,
+        "posY": 1.160005,
+        "posZ": 7.696422,
+        "rotX": 0.000647518144,
+        "rotY": 89.9246,
+        "rotZ": 180.000916,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "87ce25",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -10.1948509,
+        "posY": 0.9599999,
+        "posZ": 4.40936565,
+        "rotX": -5.078722E-06,
+        "rotY": 90.14106,
+        "rotZ": 1.73383432E-05,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "4548c0",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -6.401221,
+        "posY": 0.9599998,
+        "posZ": 4.40212965,
+        "rotX": -1.47799465E-05,
+        "rotY": 89.89597,
+        "rotZ": 5.571112E-06,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "99ef65",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -2.59896851,
+        "posY": 0.9599999,
+        "posZ": 4.40710926,
+        "rotX": -1.85248936E-07,
+        "rotY": 90.1554947,
+        "rotZ": 7.3243E-06,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d821b5",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -12.1013775,
+        "posY": 1.15999973,
+        "posZ": 1.09907246,
+        "rotX": -8.977042E-08,
+        "rotY": 89.90589,
+        "rotZ": 180.000015,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a7a307",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -4.49822569,
+        "posY": 1.160309,
+        "posZ": 1.10125351,
+        "rotX": 359.978577,
+        "rotY": 89.90092,
+        "rotZ": 179.993652,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "191bf1",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -0.701492548,
+        "posY": 1.16034687,
+        "posZ": 1.10071981,
+        "rotX": -0.00397563959,
+        "rotY": 89.86322,
+        "rotZ": 179.983826,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "7fa0fe",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 3.09883547,
+        "posY": 0.960000038,
+        "posZ": 1.09778285,
+        "rotX": -8.437149E-06,
+        "rotY": 89.81371,
+        "rotZ": 7.758157E-06,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c893ff",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 6.89826441,
+        "posY": 0.9600258,
+        "posZ": 1.09983361,
+        "rotX": 0.000574843842,
+        "rotY": 89.96192,
+        "rotZ": -0.000125109262,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "addcc4",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 10.70283,
+        "posY": 1.15998757,
+        "posZ": 1.10500348,
+        "rotX": -0.0008574474,
+        "rotY": 89.82425,
+        "rotZ": 179.999908,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a2b3d6",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -10.2005291,
+        "posY": 1.16000021,
+        "posZ": -2.2109046,
+        "rotX": 4.40782E-06,
+        "rotY": 89.69582,
+        "rotZ": 180.000015,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ee93dd",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -6.399783,
+        "posY": 0.960000157,
+        "posZ": -2.19993067,
+        "rotX": 1.16552656E-05,
+        "rotY": 90.06455,
+        "rotZ": -1.25937959E-05,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "08ff18",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -2.59461617,
+        "posY": 0.959999442,
+        "posZ": -2.211951,
+        "rotX": 7.16798377E-06,
+        "rotY": 89.6352539,
+        "rotZ": -9.00320447E-06,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a60f2e",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 1.20130765,
+        "posY": 1.15997267,
+        "posZ": -2.19856358,
+        "rotX": -0.00121819612,
+        "rotY": 89.88804,
+        "rotZ": 179.999268,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "752b2e",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -12.1010532,
+        "posY": 1.15999734,
+        "posZ": -5.49537468,
+        "rotX": -0.000553837453,
+        "rotY": 89.9671555,
+        "rotZ": 180.00119,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "1011e9",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -0.687424839,
+        "posY": 0.960000038,
+        "posZ": -5.52180433,
+        "rotX": -7.43208739E-06,
+        "rotY": 89.19017,
+        "rotZ": 1.527911E-05,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e41e0f",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 3.10890222,
+        "posY": 1.1600759,
+        "posZ": -5.514054,
+        "rotX": 0.009188566,
+        "rotY": 89.41867,
+        "rotZ": 180.002167,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "8a98be",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -10.1936817,
+        "posY": 1.16008031,
+        "posZ": -8.81572,
+        "rotX": -0.00274372,
+        "rotY": 90.3976,
+        "rotZ": 180.001709,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "c07b3c",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -6.40168238,
+        "posY": 1.16066194,
+        "posZ": -8.798138,
+        "rotX": 0.00250717555,
+        "rotY": 89.83205,
+        "rotZ": 179.993729,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "d95034",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -2.60527229,
+        "posY": 1.16021776,
+        "posZ": -8.792635,
+        "rotX": 359.9864,
+        "rotY": 90.11283,
+        "rotZ": 179.994141,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e2419a",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 5.00796938,
+        "posY": 0.9600003,
+        "posZ": -8.83735752,
+        "rotX": -2.03774034E-05,
+        "rotY": 88.8034,
+        "rotZ": -5.165008E-06,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "f9ca00",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 8.801336,
+        "posY": 0.9601009,
+        "posZ": -8.80218,
+        "rotX": -0.0010097248,
+        "rotY": 89.95874,
+        "rotZ": 0.00237448188,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "e972b0",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -6.40082,
+        "posY": 1.16000891,
+        "posZ": 11.0006056,
+        "rotX": 6.637155E-05,
+        "rotY": 90.02772,
+        "rotZ": 180.0,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "481787",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 12.5973616,
+        "posY": 1.16025293,
+        "posZ": -8.797102,
+        "rotX": -0.00281425985,
+        "rotY": 90.10344,
+        "rotZ": 179.990921,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "ed60ee",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -0.693804145,
+        "posY": 1.16021407,
+        "posZ": -12.1061659,
+        "rotX": 0.00203398475,
+        "rotY": 89.74748,
+        "rotZ": 180.002838,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "a4d467",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 3.10133886,
+        "posY": 0.9600005,
+        "posZ": -12.1023617,
+        "rotX": -1.12115576E-05,
+        "rotY": 90.03999,
+        "rotZ": 1.13889355E-05,
+        "scaleX": 2.11755562,
+        "scaleY": 1.0,
+        "scaleZ": 2.11755562
+      },
+      "Nickname": "Hex",
+      "Description": "A hex tile, blank on one side and security on the other.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1019445328403548664/B805F62BB21A2CF79C31D97BF751ECEB14F5EBA4/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1019445271732717175/A64C233B83264CEC08224A058241C00D9F079C95/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 1,
+          "Thickness": 0.2,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "XmlUI": "",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "GUID": "46ddb4",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.0067856526,
+            "y": 3.11395021E-09,
+            "z": 0.006792872
+          }
+        },
+        {
+          "Position": {
+            "x": 0.252104282,
+            "y": 0.00113485462,
+            "z": 0.386790961
+          }
+        },
+        {
+          "Position": {
+            "x": 0.5017042,
+            "y": 0.00113481109,
+            "z": -0.0157653876
+          }
+        },
+        {
+          "Position": {
+            "x": 0.267560571,
+            "y": 0.00108399743,
+            "z": -0.427420348
+          }
+        },
+        {
+          "Position": {
+            "x": -0.246553078,
+            "y": 0.00113513181,
+            "z": -0.429579049
+          }
+        },
+        {
+          "Position": {
+            "x": -0.4874902,
+            "y": 0.00113516836,
+            "z": 0.00365860178
+          }
+        },
+        {
+          "Position": {
+            "x": -0.239119455,
+            "y": 0.0011350282,
+            "z": 0.429214031
+          }
+        }
+      ]
+    }
+  ],
+  "DecalPallet": [],
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "VersionNumber": "v12.3.5"
+}

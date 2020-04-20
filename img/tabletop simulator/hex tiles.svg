@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="hex tiles.svg"
+   inkscape:export-filename="D:\code\timber-wolf\img\tabletop simulator\hex tiles.png"
+   inkscape:export-xdpi="300.16"
+   inkscape:export-ydpi="300.16">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient832">
+      <stop
+         style="stop-color:#5cd0f8;stop-opacity:1;"
+         offset="0"
+         id="stop828" />
+      <stop
+         style="stop-color:#5cd0f8;stop-opacity:0;"
+         offset="1"
+         id="stop830" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient832"
+       id="linearGradient836"
+       x1="14.869048"
+       y1="11.816963"
+       x2="79.436012"
+       y2="39.787201"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="181.39952"
+     inkscape:cy="96.698488"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-217.62499)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#bcbda7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.88976359;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect828"
+       width="300"
+       height="300"
+       x="0"
+       y="217.62498" />
+    <circle
+       transform="rotate(90)"
+       r="57.5"
+       cy="-150"
+       cx="367.625"
+       id="circle917"
+       style="opacity:1;vector-effect:none;fill:#6b471c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       transform="matrix(0,1.7954089,-1.7954089,0,1971.9588,309.03925)"
+       id="layer1-5"
+       inkscape:label="Layer 1"
+       style="opacity:1;vector-effect:none;fill:#bcbda7;fill-opacity:1;stroke:none;stroke-width:1.05255342;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <path
+         id="path5544"
+         transform="translate(0,984.86215)"
+         d="m 32.607422,13.195312 v 0.02734 c -5.619224,3.492341 -15.385219,3.950158 -16.25,4.308594 1.070126,23.863973 6.275444,27.252126 16.25,32.679688 v 0.02539 c 0.0082,-0.0044 0.01528,-0.0092 0.02344,-0.01367 0.0082,0.0044 0.01527,0.0092 0.02344,0.01367 v -0.02539 c 9.974556,-5.427562 15.179874,-8.815715 16.25,-32.679688 -0.864781,-0.358436 -10.630776,-0.816224 -16.25,-4.308594 v -0.02734 c -0.0075,0.0047 -0.0159,0.009 -0.02344,0.01367 -0.0075,-0.0047 -0.01591,-0.009 -0.02344,-0.01367 z"
+         style="vector-effect:none;fill:#bcbda7;fill-opacity:1;stroke:none;stroke-width:1.05255342;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
