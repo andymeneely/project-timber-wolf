@@ -359,9 +359,7 @@ Each Amateur character is given two choices to level into, as indicated on the b
 
 <div class="pagebreak"/>
 
-# Additional Modules
-
-The following modules are introduced in the course of the campaign.
+# Security Reference
 
 ## Pressure Sensors
 
@@ -371,7 +369,43 @@ For each Pressure Sensor, a corresponding **Control Panel** of the same color ex
 
 **TODO: MAKE A FIGURE ABOUT THIS**
 
+## Guard Dogs
+
+![Release the Hounds!](../img/rules/special_event_release_the_hounds.png)
+{:.example-right .card-portrait}
+
+Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Character:
+
+  1. Move the Guard Dog onto that character and
+  2. Place a Blank token over the Shield to mark that space as already Revealed (if necessary)
+
+If a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
+
+## Watchtower
+
+![watchtower](../img/rules/special_event_watchtower_sweep.png)
+{:.example-right .card-portrait}
+
+The Watchtower is a thermal imaging system that can detect body movement across long distances. Standing on the Watchtower tile means you are _not_ detected.
+
+## Reinforcements
+
+![panic](../img/rules/special_event_reinforcements.png)
+{:.example-right .card-portrait}
+
+## Lockdown Gates
+
+![panic](../img/rules/special_event_shut_two_gates.png)
+{:.example-right .card-portrait}
+
+# Additional Modules
+
+These are some additional rules that come up in some scenarios.
+
 ## Non-Player Characters
+
+![panic](../img/rules/special_event_panic.png)
+{:.example-right .card-portrait}
 
 A **Non-Player Character** is represented by a white pawn, a white die, and their NPC card. Your team will "remotely" control the NPC.
 
@@ -383,16 +417,7 @@ In every other way, treat an NPC like a regular character. Place their die on th
 
 NPCs all come with three actions: two Default actions and one "Roll 6" action, which is available if the NPC die rolled a 6. If an NPC has any Ideas💡, they may modify their die roll as with a regular character.
 
-## Guard Dogs
 
-Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Character:
-
-  1. Move the Guard Dog onto that character and
-  2. Place a Blank token over the Shield to mark that space as already Revealed (if necessary)
-
-If a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
-
-**TODO MAKE A FIGURE FOR THIS**
 
 ## Story Beacon
 

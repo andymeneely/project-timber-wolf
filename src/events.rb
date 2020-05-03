@@ -83,6 +83,17 @@ Squib::Deck.new(cards: data['Name'].size) do
 
   save_png prefix: 'special_event_'
 
+  filenames = data.name.map do |n|
+    name = n.downcase
+            .gsub(' ','_')
+            .gsub('!','')
+    "special_event_#{name}"
+  end
+  build :color do
+    save_png dir: 'img/rules/', prefix: filenames, count_format: '',
+             trim_radius: '0.125in', trim: '0.125in'
+  end
+
   rect layout: :cut
   save_pdf file: 'special_events.pdf', trim: '0.125in'#, range: 6
 end
