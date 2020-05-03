@@ -157,7 +157,7 @@ http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|OIBQBKHpPXUNggJAJjMgjI+S-
 **Success Unlocks:** Tech Support Guy
 
 {::comment}
-http://localhost:3000/?savekey=Tech+Lab|110|35|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN56ATGI8RdegPJgDqAKvk1q1s2IeWx86rSGKR5B5YYkiEps2gFFqI5eC2sNANmm6kRk0A
+https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|35|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN5ATMJuvcRdegPJgDqAKvgCMdEdmy1a2fqMSQqMoSMmzweVhPIawAUWpiVOvYm0A2NvqSnzIIA
 {:/comment}
 
 # Semper Paratus

@@ -17,7 +17,9 @@ task default: [
   :npcs,
   :events,
   :fixers,
-  :helps
+  :helps,
+  :rules,
+  :rivercity
 ]
 
 task :full do
