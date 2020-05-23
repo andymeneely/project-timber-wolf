@@ -1,5 +1,6 @@
+# Create a single PDF of all the game assets
 require 'squib'
-require_relative 'helpers'
+require_relative 'util/helpers'
 Squib.configure img_dir: '.'
 
 # Collect the entire collection of output files

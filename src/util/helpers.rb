@@ -1,3 +1,4 @@
+# Helper functions. Executing this does nothing.
 require 'json'
 require 'pp'
 

@@ -7,6 +7,8 @@ During each heist, you will collaborate using simultaneous gameplay. You will pl
 
 You will start as an Amateur criminal with Amateur skills who is new to River City. But over time, hopefully with a few good decisions along the way, you and your teammates will level up your characters and skills as you make your way through the city. Each heist unlocks new opportunities through doing favors for Fixers.
 
+Version ⏱
+
 ## The Pieces
 
 {:.parts-list}
@@ -36,6 +38,9 @@ You will start as an Amateur criminal with Amateur skills who is new to River Ci
 * 4 Game Helps
 
 <div class="pagebreak"/>
+
+Page
+{:.pagenumber}
 
 # Starting a Campaign
 

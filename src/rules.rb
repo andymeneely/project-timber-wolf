@@ -1,4 +1,5 @@
 require 'kramdown'
+require_relative 'version'
 
 def replace_emojis(html)
   html.gsub(/💡/,'<img src="../img/emojis/idea.svg" class="emoji-svg" />')
@@ -10,6 +11,7 @@ def replace_emojis(html)
       .gsub(/🔓/,'<img src="../img/emojis/unlock.svg" class="emoji-svg" />')
       .gsub(/⚠/,'<img src="../img/emojis/alert.svg" class="emoji-svg" />')
       .gsub(/💰/,'<img src="../img/emojis/loot.svg" class="emoji-svg" />')
+      .gsub(/⏱/,MastersOfTheHeist::VERSION)
 end
 
 rules_md = File.read 'rules/RULES.md', encoding: 'utf-8'

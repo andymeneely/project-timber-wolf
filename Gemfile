@@ -9,3 +9,4 @@ gem 'launchy'
 # gem 'dropbox-sdk'
 gem 'kramdown'
 gem 'byebug'
+gem 'bootsnap', require: false

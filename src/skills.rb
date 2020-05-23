@@ -1,6 +1,7 @@
+# Build skills card fronts
 require 'squib'
-require_relative 'helpers'
 require 'pp'
+require_relative 'util/helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx', sheet: 1, explode: 'Qty') do |col, item|
   escape_emojis(newlineate(col, item))

@@ -1,5 +1,6 @@
+# Build fixer card fronts
 require 'squib'
-require_relative 'helpers'
+require_relative 'util/helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx', sheet: 6) do |col, item|
   newlineate(col, item)

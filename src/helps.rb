@@ -1,5 +1,6 @@
+# Build the player helps
 require 'squib'
-require_relative 'helpers'
+require_relative 'util/helpers'
 
 data = Squib.xlsx file: 'data/data.xlsx', sheet: 5
 # combine the entire text into one string - not using row-per card here

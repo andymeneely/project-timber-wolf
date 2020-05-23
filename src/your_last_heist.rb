@@ -1,5 +1,6 @@
+# Build the Your Last Heist expansion
 require 'squib'
-require_relative 'helpers'
+require_relative 'util/helpers'
 
 # svg_files = Dir['scenarios/p*.svg'].sort
 #

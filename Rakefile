@@ -1,8 +1,8 @@
-require 'squib'
-require 'launchy'
-require 'erb'
-require 'rake/clean'
 require 'byebug'
+require 'erb'
+require 'launchy'
+require 'rake/clean'
+require 'squib'
 
 # Add Rake's clean & clobber tasks
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
@@ -21,7 +21,6 @@ task default: [
   :rules,
   :rivercity
 ]
-
 task :full do
   ENV['SQUIB_BUILD'] ||= ''
   ENV['SQUIB_BUILD'] += ',full'
@@ -44,89 +43,21 @@ task :rulebook_figures do
   ENV['SQUIB_BUILD'] += ',rulebook_figures'
 end
 
-task :chits do
-  load 'src/chits.rb'
-end
-
-task :characters do
-  load 'src/characters.rb'
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/_output/characters.pdf"
-end
-
-task :character_backs do
-  load 'src/character_backs.rb'
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/_output/character_backs.pdf"
-end
-
-task :npcs do
-  load 'src/npcs.rb'
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/_output/npcs.pdf"
-end
-
-task :skills do
-  load 'src/skills.rb'
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/_output/skills.pdf"
-end
-
-task :skill_backs do
-  load 'src/skill_backs.rb'
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/_output/skill_backs.pdf"
-end
-
-task :helps do
-  load 'src/helps.rb'
-end
-
-task :events do
-  load 'src/events.rb'
-end
-
-task :envelopes do
-  load 'src/envelopes.rb'
-end
-
-task :fixers do
-  load 'src/fixers.rb'
-end
-
-desc 'Build a front-and-back bundle of all cards'
-task :bundle do
-  load 'src/bundle.rb'
-end
-
-task :launch do
-  return unless @launch.respond_to? :each
-  @launch.each do |url|
-    puts "Launching #{url}"
-    Launchy.open url
+# Any file in src/ can be loaded with `rake foo` if src/foo.rb exists
+# The first line of the file, if it's a comment, becomes the description
+Dir['src/**.rb'].each do |src_file|
+  comment = File.open(src_file) { |f| f.readline } # first line comment
+  desc comment[/^# (.+)/, 1] if comment.start_with? '# '
+  task_name = src_file[/src\/(.+).rb/, 1].to_sym
+  task task_name do
+    load src_file
   end
 end
 
 task :data do
   url = "file:///#{Dir.pwd}/data/data.xlsx"
-  puts "Launching #{url}"
-  Launchy.open url
+  Launchy.open(url)
 end
-
-desc 'Post to dropbox'
-task :dropbox do
-  puts "=== Uploading to Dropbox ==="
-  load 'src/upload_dropbox.rb'
-end
-
-task travis: [
-  :default,
-  'travis_rules',
-
-]
-
-desc 'Build the rules PDF'
-task rules: ['rules:md_to_html','rules:html_to_pdf']
 
 # Typical booklet
 # --page-width    5.0in
@@ -152,26 +83,11 @@ task rules: ['rules:md_to_html','rules:html_to_pdf']
 # --margin-bottom 0.25in
 # --margin-top    0.25in
 
-task 'travis_rules' => ['rules:md_to_html'] do
-  sh <<-EOSH.gsub(/\n/,' ')
-    xvfb-run --server-args="-screen 0, 1024x768x24"
-    wkhtmltopdf
-    --page-width    6.50in
-    --page-height   6.50in
-    --margin-left   0.25in
-    --margin-right  0.25in
-    --margin-bottom 0.25in
-    --margin-top    0.25in
-    --footer-right "[page] of [topage]"
-    --footer-left "Rules"
-    --footer-font-name "Archivo Narrow"
-    --footer-font-size "10"
-    rules/RULES.html _output/RULES.pdf
-  EOSH
-end
-
+desc 'Build the rules PDF'
+task rules: ['rules:md_to_html','rules:html_to_pdf']
 namespace :rules do
   task :md_to_html do
+    puts "Converting markdown to html..."
     load 'src/rules.rb' # convert markdown
     erb = ERB.new(File.read('rules/RULES_TEMPLATE.html.erb'))
     File.open('rules/RULES.html', 'w+') do |html|
@@ -180,23 +96,8 @@ namespace :rules do
   end
 
   task html_to_pdf: [:md_to_html] do
-    sh <<-EOS.gsub(/\n/, '')
-      wkhtmltopdf
-      --page-width    5.25in
-      --page-height   7.00in
-      --margin-left   0.25in
-      --margin-right  0.25in
-      --margin-bottom 0.25in
-      --margin-top    0.25in
-      --encoding 'UTF-8'
-      --footer-right "[page] of [topage]"
-      --footer-left "Rules"
-      --footer-font-name "Archivo Narrow"
-      --footer-font-size "10"
-        rules/RULES.html _output/RULES.pdf
-    EOS
-    @launch ||= []
-    @launch << "file:///#{Dir.pwd}/_output/RULES.pdf"
+    puts "Weasybuilding..."
+    `python src/weasybuild.py`
   end
 end
 
@@ -228,8 +129,6 @@ namespace :yourlastheist do
         --footer-font-size "10"
         scenarios/your-last-heist/booklet.html _output/your-last-heist.pdf
     EOS
-    @launch ||= []
-    @launch << "file:///#{Dir.pwd}/_output/your-last-heist.pdf"
   end
 end
 
@@ -261,18 +160,5 @@ namespace :rivercity do
         --footer-font-size "10"
         scenarios/rivercity/booklet.html _output/rivercity.pdf
     EOS
-    @launch ||= []
-    @launch << "file:///#{Dir.pwd}/_output/rivercity.pdf"
   end
-end
-
-desc 'Build FAQ sheet'
-task :faq do
-  load 'src/faq.rb' # convert markdown
-  erb = ERB.new(File.read('rules/FAQ_TEMPLATE.html.erb'))
-  File.open('rules/FAQ.html', 'w+') do |html|
-    html.write(erb.result)
-  end
-  @launch ||= []
-  @launch << "file:///#{Dir.pwd}/rules/FAQ.html"
 end

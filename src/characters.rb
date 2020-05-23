@@ -1,5 +1,6 @@
+# Build character cards
 require 'squib'
-require_relative 'helpers'
+require_relative 'util/helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx') do |col, item|
   escape_emojis(newlineate(col, item))

@@ -1,3 +1,4 @@
+# Build chits for TGC
 require 'squib'
 require_relative 'save_custom_sheet'
 

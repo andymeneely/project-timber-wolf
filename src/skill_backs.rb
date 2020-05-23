@@ -1,6 +1,7 @@
+# Build the backs to skill cards
 require 'squib'
-require_relative 'helpers'
 require 'pp'
+require_relative 'util/helpers'
 using Squib::ArrayExtras
 
 data = Squib.xlsx(file: 'data/data.xlsx', sheet: 1) do |col, item|

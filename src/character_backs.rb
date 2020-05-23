@@ -1,5 +1,6 @@
+# Build the backs of character cards
 require 'squib'
-require_relative 'helpers'
+require_relative 'util/helpers'
 require 'pp'
 
 data = Squib.xlsx(file: 'data/data.xlsx') do |col, item|

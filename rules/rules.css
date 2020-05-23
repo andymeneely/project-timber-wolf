@@ -1,9 +1,48 @@
+
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 14pt;
-  text-rendering: optimizeLegibility;
-  line-height: 1.15;
+  font-size: 10pt;
+  /* text-rendering: optimizeLegibility; */
+  line-height: 1.05;
+  /* counter-reset: pagenum; */
 }
+
+@page {
+  size: 5.25in 7in;
+  margin: 0.25in;
+  margin-top: 0.5in;
+  /*
+  .pagenumber::after {
+  counter-increment: pagenum;
+  content: "Page " + counter(pagenum);
+  } */
+
+  @page:first {
+  @bottom-right {
+    content: normal;
+    margin: 0;
+  }
+
+  @bottom-left {
+    content: normal;
+    margin: 0;
+  }
+}
+  @bottom-center {
+    font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
+    font-size: 10pt;
+    padding: 0.5em;
+    counter-increment: pagenum;
+    content: "Rules " counter(pagenum);
+  }
+}
+
+/* .footer::after {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  content: "Page " counter(pagenum);
+} */
 
 p{
   margin-top: 0;
@@ -25,26 +64,48 @@ th,td{
 }
 
 h1{
+  font-family: 'Archivo Black';
+  font-weight: normal;
+  /* font-variant-caps: small-caps; */ /* Sadly Archivo black doesn't support this */
+  text-align: center;
   margin-top: 0.5em;
   margin-bottom: 0;
+  padding: 0.25em;
+  background-color: black;
+  color: white;
+  /* line-height: 1; */
   clear: both;
 }
 
+h1::before {
+
+}
+
 h2{
+  font-family: 'Archivo Black';
+  font-weight: normal;
   margin-top: 0.5em;
   margin-bottom: 0;
   clear: both;
 }
 
 h3{
+  font-family: 'Archivo Black';
   margin-top: 0.25em;
   margin-bottom: 0;
 }
 
+h1, h2, h3, h4, h5 {
+  page-break-after: avoid;
+}
+
+
+
+
 .emoji-svg {
   height: 1em;
   /* padding-left: 0.2em; */
-  vertical-align: sub;
+  /* vertical-align: sub; */
 }
 
 .cover{
@@ -58,28 +119,9 @@ h3{
   /* letter-spacing: 8px; */
   /* padding-top: 1.5in; */
   /* padding-bottom: 1.5in; */
+  line-height: 1;
   text-align: center;
   font-size: 3em;
-}
-
-ul.parts-list{
-    font-size: 90%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: wrap;
-    height: 10em;
-}
-
-ul.parts-list>li {
-    margin: 0;
-    padding: 0;
-    width: 32%;
-    display: inline-block;
-    /* border: 1pt solid black; */
 }
 
 table.security-table {
@@ -88,10 +130,6 @@ table.security-table {
 
 .security-table img:not(.emoji-svg) {
   width: 40px;
-}
-
-.title{
-  font-family: 'Archivo Black';
 }
 
 .clear-both{
@@ -113,9 +151,10 @@ table.security-table {
 }
 
 .flex-container ul{
-  display: -webkit-box;
+  display: flex;
+  /* display: -webkit-box;
   display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; */
   flex-flow: row wrap;
   justify-content: space-around;
   text-align: center;
@@ -139,7 +178,7 @@ ol.gameplay-structure{
 }
 
 .alerts img{
-  width: 100;
+  width: 10em;
 }
 
 .para_header{
