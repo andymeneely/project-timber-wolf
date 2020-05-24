@@ -18,11 +18,12 @@ Description | Unsubdue/Re-lock/Re-enable every G |
         Qty | 2                                  |
       Story | The Watchtower performs a sweep in |
             |  every direction.                  |
-Description | Add a Guard to every hex with a Ch |
-            | aracter on it in a direct line ori |
-            | ginating from a Watchtower token.  |
-            | Excludes being on the tile with a  |
-            | Watchtower.                        |
+Description | If a character is on a Watchtower  |
+            | tile, remove the Watchtower token. |
+            |  Then, add a Guard to every hex wi |
+            | th a Character on it in a straight |
+            |  line originating from a Watchtowe |
+            | r token.                           |
         Img | special_events_watchtower.svg      |
             ╰------------------------------------╯
             ╭------------------------------------╮
