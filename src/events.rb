@@ -26,7 +26,17 @@ Squib::Deck.new(cards: data['Name'].size) do
   text layout: :Story,       str: data['Story']
   text layout: :Description, str: data['Description']
 
-  svg  layout: :Img, file: data['Img']
+  # Event filenames are mapped to the card name
+  imgs = data.name.map do |n|
+    f = event_name2file(n)
+    if File.exist?("img/#{f}")
+      f
+    else
+      warn "Event figure not found for #{n}, i.e. #{f}"
+      'events/tbd.svg'
+    end
+  end
+  svg  layout: :Img, file: imgs
 
   save_png prefix: 'event_'
 

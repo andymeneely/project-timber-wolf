@@ -4,7 +4,6 @@
       Story | How did we miss those?             |
 Description | Add three Cameras to the security  |
             | bag.                               |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Get Outta My Way!                  |
@@ -14,7 +13,6 @@ Description | Add three Cameras to the security  |
 Description | Discard two Events for each Entran |
             | ce tile with at least two Characte |
             | rs.                                |
-        Img | figure_alerts_neighboring.svg      |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Caught in a Reflection             |
@@ -24,7 +22,6 @@ Description | Discard two Events for each Entran |
             | ooks a little closer.              |
 Description | Discard one Event if any Character |
             |  is adjacent to a Live Camera.     |
-        Img | figure_alerts_adj_camera.svg       |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Suspicious Guards                  |
@@ -32,20 +29,17 @@ Description | Discard one Event if any Character |
       Story | Guards start looking around.       |
 Description | Discard one Event if any Character |
             |  is adjacent to an Unsubuded Guard |
-            |                                    |
-        Img | figure_alerts_adj_guard.svg        |
+            | .                                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Guard Starts Blabbing              |
+       Name | Guard Locks Himself In             |
       Order | 5                                  |
-      Story | Fearful of what might happen to hi |
-            | m, a guard begins blabbing. He's n |
-            | oisy, but provides useful intel.   |
-Description | Discard one Event if any Character |
-            |  is on a Subdued Guard.            |
-            | Give 💡 to each of those Characters |
-            |  too.                              |
-        Img | figure_alerts_on_disabled.svg      |
+      Story | A quick-thinking guard locks the d |
+            | oor behind him, ready for a fight. |
+            |                                    |
+Description | Add a Lock to every hex with an un |
+            | subdued Guard adjacent to a charac |
+            | ter.                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Huh, Didn't See Those              |
@@ -54,7 +48,6 @@ Description | Discard one Event if any Character |
             | were around here.                  |
 Description | Add two Locks to the security bag. |
             |                                    |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shadows in the Window              |
@@ -64,7 +57,6 @@ Description | Add two Locks to the security bag. |
 Description | Discard one Event if any Character |
             |  is on a hex with an external side |
             | .                                  |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Automated System Reboot            |
@@ -74,7 +66,6 @@ Description | Discard one Event if any Character |
 Description | Re-enable every Disabled Camera ad |
             | jacent to another Disabled Camera. |
             |                                    |
-        Img | figure_alerts_power_on.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Double Camera                      |
@@ -84,7 +75,6 @@ Description | Re-enable every Disabled Camera ad |
 Description | Add a Live Camera to any tile that |
             |  already has a Live Camera and is  |
             | adjacent to a character.           |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Increased Suspicion                |
@@ -95,8 +85,6 @@ Description | Discard one Event if any Character |
             | dued Guard. Discard one Event if a |
             | ny Character is adjacent to a Live |
             |  Camera.                           |
-        Img | figure_alerts_adj_camera_guard.svg |
-            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Were Those Locks There?            |
@@ -105,7 +93,6 @@ Description | Discard one Event if any Character |
             | were around here.                  |
 Description | Add two Locks to the security bag. |
             |                                    |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard Starts Blabbing              |
@@ -115,7 +102,6 @@ Description | Add two Locks to the security bag. |
             | oisy, but provides useful intel.   |
 Description | Any character on a subdued Guard m |
             | ay gain one 💡 for 🔊.               |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Overwhelmed                        |
@@ -125,7 +111,6 @@ Description | Any character on a subdued Guard m |
 Description | Any character adjacent to two or m |
             | ore security tokens not handled ye |
             | t loses one 💡 (if possible).       |
-        Img | figure_alerts_door_rattles.svg     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Door Rattles                       |
@@ -135,7 +120,6 @@ Description | Any character adjacent to two or m |
 Description | Add a Guard to any tile that has a |
             |  (locked) Lock on it and is adjace |
             | nt to a character.                 |
-        Img | figure_alerts_unsubdue_alerts.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | I Thought I Had Him                |
@@ -146,8 +130,6 @@ Description | Un-Subdue every Guard that shares  |
             | a tile with a Character. If any Gu |
             | ard was un-subdued this way, may g |
             | ive one💡 to any character for  🔊.  |
-        Img | figure_alerts_adj_camera_guard.svg |
-            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Cameras Rotate                     |
@@ -157,7 +139,6 @@ Description | Discard one Event if any Character |
             |  is adjacent to a Live Camera, two |
             |  events if two Characters are adja |
             | cent to a Live Camera.             |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Stage Whisper                      |
@@ -166,7 +147,6 @@ Description | Discard one Event if any Character |
 Description | Any two characters who are adjacen |
             | t or share a hex may transfer idea |
             | s. Costs 🔊 per 💡 transferred.      |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Moment of Doubt                    |
@@ -177,7 +157,6 @@ Description | Remove an idea 💡 (if possible) fro |
             |  a tile with another character and |
             |  is not adjacent to another charac |
             | ter.                               |
-        Img | figure_alerts_hey_you.svg          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hey You!                           |
@@ -187,8 +166,6 @@ Description | Remove an idea 💡 (if possible) fro |
 Description | Add a Guard to each tile that has  |
             | a Character adjacent to at least o |
             | ne Live Camera.                    |
-        Img | figure_alerts_adj_camera_guard.svg |
-            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hurry Up!                          |
@@ -198,7 +175,6 @@ Description | Add a Guard to each tile that has  |
 Description | Any character that shares a tile w |
             | ith a Guard loses one 💡 (if possib |
             | le).                               |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fear of the Unknown                |
@@ -208,7 +184,6 @@ Description | Any character that shares a tile w |
 Description | Any character who has planned tile |
             | s that are not revealed loses one  |
             | 💡 (if possible).                   |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fumble with the Loot               |
@@ -220,7 +195,6 @@ Description | Any indoor character with loot tha |
             | ve must place it on an adjacent he |
             | x with no Guards. If this is not p |
             | ossible, lose the loot.            |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Ties Broke!                        |
@@ -230,7 +204,6 @@ Description | Any indoor character with loot tha |
             | aping their bonds.                 |
 Description | Un-Subdue every Subdued Guard that |
             |  shares a tile with a Character.   |
-        Img | figure_alerts_lockdown_double.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Watch Out!!                        |
@@ -240,14 +213,12 @@ Description | Un-Subdue every Subdued Guard that |
 Description | If a character is outside, an insi |
             | de character may gain one 💡 for on |
             | e 🔊.                               |
-        Img | figure_alerts_alarm.svg            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sound the Alarm!                   |
       Order | 25                                 |
       Story | This is it.                        |
 Description | Initiate Escape Phase.             |
-        Img | figure_alerts_unsubdue.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Ties Broke!                        |
@@ -257,7 +228,6 @@ Description | Initiate Escape Phase.             |
             | aping their bonds.                 |
 Description | Un-Subdue every Subdued Guard that |
             |  shares a tile with a Character.   |
-        Img | figure_alerts_hey_you.svg          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Did You See Something?             |
@@ -267,7 +237,6 @@ Description | Un-Subdue every Subdued Guard that |
 Description | Add a Guard to each tile that has  |
             | a Character adjacent to at least o |
             | ne Live Camera.                    |
-        Img | figure_alerts_lockdown_double.svg  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gates!                    |
@@ -278,7 +247,6 @@ Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a charac |
             | ter is on it, they are immediately |
             |  Busted.                           |
-        Img | figure_alerts_sick_him.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sick Him!                          |
@@ -288,7 +256,6 @@ Description | Close the next Gate, starting with |
 Description | Add a Dog token to each tile with  |
             | a Character and a (Subdued or Unsu |
             | bdued) Guard.                      |
-        Img | figure_alerts_sniffed_out.svg      |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sniffed Out                        |
@@ -298,7 +265,6 @@ Description | Add a Dog token to each tile with  |
 Description | Add a Dog token to each tile with  |
             | a (Subdued or Unsubdued) Guard tha |
             | t is adjacent to a Character.      |
-        Img | figure_alerts_guard_loot_dog.svg   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard the Loot Boy!                |
@@ -306,7 +272,6 @@ Description | Add a Dog token to each tile with  |
       Story | "Hey where are those dogs going?"  |
 Description | Add a Dog token to each tile with  |
             | loot not yet stolen.               |
-        Img | figure_alerts_power_on.svg         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hidden Door Camera                 |
@@ -317,17 +282,6 @@ Description | Add a Camera token to any hex tile |
             | vent for every tile that had a cha |
             | racter that was adjacent to an exi |
             | t.                                 |
-        Img |                                    |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Guard Locks Himself In             |
-      Order | 7a                                 |
-      Story | A quick-thinking guard locks the d |
-            | oor behind him, ready for a fight. |
-            |                                    |
-Description | Add a Lock to all unsubdued Guards |
-            |  adjacent to a character.          |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Where is He?                       |
@@ -336,7 +290,6 @@ Description | Add a Lock to all unsubdued Guards |
             | ued colleague.                     |
 Description | Add a Guard to a Live Camera adjac |
             | ent to a subdued Guard             |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Tamper-Proof Cameras               |
@@ -345,7 +298,6 @@ Description | Add a Guard to a Live Camera adjac |
             | e recent hardware upgrades.        |
 Description | Replace a Camera in the bag with a |
             |  2x Camera.                        |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Are Those New Locks?               |
@@ -353,7 +305,6 @@ Description | Replace a Camera in the bag with a |
       Story | "I don't remember seeing those"    |
 Description | Replace a Lock in the bag with a 2 |
             | x Lock.                            |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Big Guard                          |
@@ -362,7 +313,6 @@ Description | Replace a Lock in the bag with a 2 |
             | se"                                |
 Description | Replace a Guard in the bag with a  |
             | 2x Guard.                          |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gate                      |
@@ -372,8 +322,6 @@ Description | Replace a Guard in the bag with a  |
 Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a Charac |
             | ter is on it, they are Busted.     |
-        Img | figure_alerts_lockdown_one_alert.s |
-            | vg                                 |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Oops! Re-locked                    |
@@ -382,7 +330,6 @@ Description | Close the next Gate, starting with |
             | k things behind you.               |
 Description | Any character on a tile with an op |
             | en Lock must re-lock it.           |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Check that Gate                    |
@@ -391,7 +338,6 @@ Description | Any character on a tile with an op |
 Description | Add one Guard token to the next av |
             | ailable lockdown gate, starting wi |
             | th "A".                            |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gates!                    |
@@ -402,7 +348,6 @@ Description | Close the next two Gates, starting |
             |  with "A". Remove the tile. If a c |
             | haracter is on it, they are immedi |
             | ately Busted.                      |
-        Img |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gate!                     |
@@ -412,8 +357,6 @@ Description | Close the next two Gates, starting |
 Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a Charac |
             | ter is on it, they are Busted.     |
-        Img | figure_alerts_lockdown_two_alerts. |
-            | svg                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gate!                     |
@@ -423,5 +366,4 @@ Description | Close the next Gate, starting with |
 Description | Close the next Gate, starting with |
             |  "A". Remove the tile. If a Charac |
             | ter is on it, they are Busted.     |
-        Img | figure_alerts_lockdown.svg         |
             ╰------------------------------------╯

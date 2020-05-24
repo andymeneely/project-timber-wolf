@@ -33,6 +33,14 @@ def newlineate(col, item)
   item.to_s.gsub "%n", "\n"
 end
 
+def event_name2file(name)
+  s = name.downcase
+          .gsub(' ','-')
+          .gsub('!','')
+          .gsub(',','')
+  "events/#{s}.svg"
+end
+
 def escape_emojis(str)
   return nil if str.nil?
   str.gsub(/💡/,':idea:')
