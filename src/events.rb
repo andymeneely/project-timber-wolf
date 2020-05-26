@@ -24,7 +24,9 @@ Squib::Deck.new(cards: data['Name'].size) do
   text layout: :Name,        str: data['Name']
   text layout: :Order,       str: data['Order']
   text layout: :Story,       str: data['Story']
-  text layout: :Description, str: data['Description']
+  text layout: :Description, str: data['Description'] do |embed|
+    embed_emojis(embed, 50)
+  end
 
   # Event filenames are mapped to the card name
   imgs = data.name.map do |n|

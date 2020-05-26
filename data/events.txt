@@ -87,12 +87,13 @@ Description | Discard one Event if any Character |
             |  Camera.                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Were Those Locks There?            |
+       Name | Oops! Re-locked                    |
       Order | 11                                 |
-      Story | You underestimated how many locks  |
-            | were around here.                  |
-Description | Add two Locks to the security bag. |
-            |                                    |
+      Story | The one time you don't want to loc |
+            | k things behind you.               |
+Description | Any character on a tile with an op |
+            | en Lock must re-lock it. Note: cha |
+            | racters may exit a locked tile.    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard Starts Blabbing              |
@@ -186,7 +187,7 @@ Description | Any character who has planned tile |
             | 💡 (if possible).                   |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Fumble with the Loot               |
+       Name | Fumble the Loot                    |
       Order | 22                                 |
       Story | "Huh, we didn't think about how to |
             |  carry this stuff"                 |
@@ -221,17 +222,8 @@ Description | If a character is outside, an insi |
 Description | Initiate Escape Phase.             |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Ties Broke!                        |
-      Order | 20a                                |
-      Story | Emboldened by the alerts that have |
-            |  been raised, the Guards begin esc |
-            | aping their bonds.                 |
-Description | Un-Subdue every Subdued Guard that |
-            |  shares a tile with a Character.   |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Did You See Something?             |
-      Order | 14a                                |
+      Order | A1                                 |
       Story | Guards are studying the cameras mo |
             | re closely now.                    |
 Description | Add a Guard to each tile that has  |
@@ -239,61 +231,26 @@ Description | Add a Guard to each tile that has  |
             | ne Live Camera.                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Shut the Gates!                    |
-      Order | 20c                                |
-      Story | An automatic system initiates, clo |
-            | sing the next two lockdown gates.  |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a charac |
-            | ter is on it, they are immediately |
-            |  Busted.                           |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Sick Him!                          |
-      Order | 9a                                 |
-      Story | "Man's best friend. Right now I wi |
-            | sh I was that man."                |
-Description | Add a Dog token to each tile with  |
-            | a Character and a (Subdued or Unsu |
-            | bdued) Guard.                      |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Sniffed Out                        |
-      Order | 15a                                |
-      Story | "It was at that point I regretted  |
-            | my lack of showering that day."    |
-Description | Add a Dog token to each tile with  |
-            | a (Subdued or Unsubdued) Guard tha |
-            | t is adjacent to a Character.      |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Guard the Loot Boy!                |
-      Order | 18a                                |
-      Story | "Hey where are those dogs going?"  |
-Description | Add a Dog token to each tile with  |
-            | loot not yet stolen.               |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Hidden Door Camera                 |
-      Order | 3a                                 |
-      Story | "Was that there before?"           |
-Description | Add a Camera token to any hex tile |
-            |  adjacent to an exit. Discard an E |
-            | vent for every tile that had a cha |
-            | racter that was adjacent to an exi |
-            | t.                                 |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Where is He?                       |
-      Order | 14a                                |
+      Order | A3                                 |
       Story | A wandering guard notices his subd |
             | ued colleague.                     |
-Description | Add a Guard to a Live Camera adjac |
-            | ent to a subdued Guard             |
+Description | Add a Guard to every hex with a Li |
+            | ve Camera adjacent to a subdued Gu |
+            | ard                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Ties Broke!                        |
+      Order | A4                                 |
+      Story | Emboldened by the alerts that have |
+            |  been raised, the Guards begin esc |
+            | aping their bonds.                 |
+Description | Un-Subdue every Subdued Guard that |
+            |  shares a tile with a Character.   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Tamper-Proof Cameras               |
-      Order | 16a                                |
+      Order | B1                                 |
       Story | You notice that they have done som |
             | e recent hardware upgrades.        |
 Description | Replace a Camera in the bag with a |
@@ -301,22 +258,48 @@ Description | Replace a Camera in the bag with a |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Are Those New Locks?               |
-      Order | 12a                                |
+      Order | B2                                 |
       Story | "I don't remember seeing those"    |
 Description | Replace a Lock in the bag with a 2 |
             | x Lock.                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Big Guard                          |
-      Order | 5a                                 |
+      Order | B3                                 |
       Story | "Wow, she looks much bigger up clo |
             | se"                                |
 Description | Replace a Guard in the bag with a  |
             | 2x Guard.                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
+       Name | Sick Him!                          |
+      Order | D1                                 |
+      Story | "Man's best friend. Right now I wi |
+            | sh I was that man."                |
+Description | Add a Dog token to each tile with  |
+            | a Character and a (Subdued or Unsu |
+            | bdued) Guard.                      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Guard the Loot Boy!                |
+      Order | D2                                 |
+      Story | "Hey where are those dogs going?"  |
+Description | Add a Dog token to each tile with  |
+            | loot not yet stolen.               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gates!                    |
+      Order | G1                                 |
+      Story | An automatic system initiates, clo |
+            | sing the next two lockdown gates.  |
+Description | Close the next two Gates, starting |
+            |  with "A". Remove the tile. If a C |
+            | haracter is on it, they are Busted |
+            | .                                  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
        Name | Shut the Gate                      |
-      Order | 21a                                |
+      Order | G2                                 |
       Story | An automatic system initiates, clo |
             | sing the next lockdown gate.       |
 Description | Close the next Gate, starting with |
@@ -324,46 +307,39 @@ Description | Close the next Gate, starting with |
             | ter is on it, they are Busted.     |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Oops! Re-locked                    |
-      Order | 15a                                |
-      Story | The one time you don't want to loc |
-            | k things behind you.               |
-Description | Any character on a tile with an op |
-            | en Lock must re-lock it.           |
+       Name | Unexpected Lock                    |
+      Order | G3                                 |
+      Story | "Who puts a lock on a lockdown gat |
+            | e??"                               |
+Description | Add one Lock token to the next ava |
+            | ilable lockdown gate, starting wit |
+            | h "A".                             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Check that Gate                    |
-      Order | 22a                                |
+      Order | G4                                 |
       Story | "Go check on that gate"            |
 Description | Add one Guard token to the next av |
             | ailable lockdown gate, starting wi |
             | th "A".                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Shut the Gates!                    |
-      Order | 24a                                |
+       Name | Shut the Gate!                     |
+      Order | G5                                 |
       Story | An automatic system initiates, clo |
             | sing the next two lockdown gates.  |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a Charac |
+            | ter is on a removed hex, they are  |
+            | Busted.                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gates!                    |
+      Order | G6                                 |
+      Story | An automatic system initiates, clo |
+            | sing the next lockdown gate.       |
 Description | Close the next two Gates, starting |
             |  with "A". Remove the tile. If a c |
-            | haracter is on it, they are immedi |
-            | ately Busted.                      |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Shut the Gate!                     |
-      Order | 17c                                |
-      Story | An automatic system initiates, clo |
-            | sing the next lockdown gate.       |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a Charac |
-            | ter is on it, they are Busted.     |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Shut the Gate!                     |
-      Order | 9a                                 |
-      Story | An automatic system initiates, clo |
-            | sing the next lockdown gate.       |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a Charac |
-            | ter is on it, they are Busted.     |
+            | haracter is on a removed hex, they |
+            |  are immediately Busted.           |
             ╰------------------------------------╯

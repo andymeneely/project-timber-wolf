@@ -38,6 +38,8 @@ def event_name2file(name)
           .gsub(' ','-')
           .gsub('!','')
           .gsub(',','')
+          .gsub('?','')
+          .gsub("'",'')
   "events/#{s}.svg"
 end
 
