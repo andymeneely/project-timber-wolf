@@ -40,7 +40,6 @@ def event_name2file(name)
           .gsub(',','')
           .gsub('?','')
           .gsub("'",'')
-  "events/#{s}.svg"
 end
 
 def escape_emojis(str)

@@ -96,7 +96,7 @@ namespace :rules do
   end
 
   task html_to_pdf: [:md_to_html] do
-    puts "Weasybuilding..."
+    puts "Weasyprinting..."
     `python src/weasybuild.py`
   end
 end

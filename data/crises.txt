@@ -1,0 +1,63 @@
+            ╭------------------------------------╮
+       Name | Reinforcements                     |
+         ID | S1                                 |
+        Qty | 1                                  |
+      Story | A group of guards rally at one of  |
+            | their waypoints.                   |
+Description | Unsubdue/Re-lock/Re-enable every G |
+            | uard/Lock/Camera adjacent to each  |
+            | Reinforcement token. Add a Guard t |
+            | o empty spaces adjacent to the tok |
+            | en. Replace token with two Guards. |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Watchtower Sweep                   |
+         ID | S2                                 |
+        Qty | 2                                  |
+      Story | The Watchtower performs a sweep in |
+            |  every direction.                  |
+Description | If a character is on a Watchtower  |
+            | tile, remove the Watchtower token. |
+            |  Then, add a Guard to every hex wi |
+            | th a Character on it in a straight |
+            |  line originating from a Watchtowe |
+            | r token.                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut Two Gates!!                   |
+         ID | S3                                 |
+        Qty | 2                                  |
+      Story | In an attempt to isolate your team |
+            | , the guards shut two lockdown gat |
+            | es.                                |
+Description | Close the next two Gates, starting |
+            |  with "A". Remove the tile. If a c |
+            | haracter is on it, they are immedi |
+            | ately Busted.                      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Lock the Goods!                    |
+         ID | S4                                 |
+        Qty | 1                                  |
+      Story | Security is onto you!              |
+Description | Add a Lock to any loot not yet sto |
+            | len.                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Panic!                             |
+         ID | S5                                 |
+        Qty | 1                                  |
+      Story | Everyone has a breaking point.     |
+Description | Flip over every non-player charact |
+            | er card.                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Release the Hounds!                |
+         ID | S6                                 |
+        Qty | 1                                  |
+      Story | A bunch of guard dogs appear out o |
+            | f nowhere.                         |
+Description | Replace the "Release the Hounds" t |
+            | oken with 3 Dogs.                  |
+            ╰------------------------------------╯

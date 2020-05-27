@@ -29,6 +29,25 @@ Name:
   y: 55
   align: center
   valign: middle
+Front:
+  x: 125
+  y: 200
+  width: 600
+  height: 90
+Img:
+  x: 0
+  y: 0
+  width: 825
+  height: 1125
+
+Order:
+  font: Archivo Black, Serif Bold 7.68
+  x: 140
+  y: 580
+  width: 150
+  height: 75
+  align: left
+  valign: top
 
 Story:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 8.32

@@ -128,7 +128,6 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 {:.subactions}
 
 <div class="characters">
-
 ## Characters
 
 ![character figure](figure_character_00.png)
@@ -138,17 +137,12 @@ Each Character card has:
 * **Level**. Amateur or Pro
 * **Planning Memory**. The number of pre-planned hex tiles your character may move through during a heist.
 * **Initial Ideas**. The number of Ideas 💡 you start with at the beginning of each heist.
-* **Default Actions**. Actions that are available regardless of your die roll.
-* **Special Ability**. Abilities that your character can uniquely do.
+* **Default Actions**. Actions that are available regardless of your die roll. Some Characters have two Default Actions, others have three.
+* **Ability**. What the character can uniquely do.
+  - Some abilities will have a _Use this action..._ sentence referring to a Default Action space below. You must use your Action to make use of this ability.
+  - Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
+  - Otherwise, the ability is a passive effect, i.e. may do the ability *in addition to* your Action. Specific character abilities override any rules in this document.
 {:.figure_list}
-
-Some Characters have two Default Actions, others have three.
-
-For the Special Ability, some abilities will have a "Use this action..." sentence. You must use your Action to make use of this ability. If the text does not state "Use this action...", you may do the ability *in addition to* your Action.
-
-Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
-
-Special abilities override any rules in this document.
 
 </div>
 
@@ -158,7 +152,7 @@ Special abilities override any rules in this document.
 
 ## Skills
 
-<img src="figure_skill_00.png">
+![character figure](figure_skill_00.png)
 
 Each character gets two Skills. Each Skill has six Actions *①* that each correspond to a die roll *②*. During a heist, you will be rolling your die to determine which Actions are available to you. Every skill is either Amateur or Pro.
 
@@ -166,25 +160,37 @@ Each character gets two Skills. Each Skill has six Actions *①* that each corre
 
 </div>
 
-## Events and Special Events
+## Events
 
-The Event cards represent the potential Security Events you will encounter each round.
+![event figure](figure_event.png)
+{:.card-portrait .card-right}
 
-**One Event per round**. You will not be affected by _every_ event in the deck, rather, you will be encountering _one_ event each round.
+The Event cards represent the potential Security Events you will encounter each round. Each scenario will have a series of Events that you will progress through, called the **Event Deck**. This deck will remain _face-up_ at all times.
 
-**Plan ahead**. At any time you are welcome (encouraged!) to look ahead at potential upcoming events. We recommend designating one person to keep track of the events and warn the group of potentially bad upcoming events.
+**One Event per round**. You will not be affected by _every_ event in the deck, rather, you will be encountering _one_ event each round and which event happens will be determined by a variety of factors.
 
 **Raise Alert**. Every time you are told to "Raise ⚠", remove the topmost card and discard it for the rest of the heist. The top-most Event in the deck is the Active Event.
 
-**All Special Events will happen**. Some cards are marked Special Event. All special events are guaranteed to happen in a heist when they are encountered. These do _not_ count as Alerts. When a Special Event card is the top-most card, immediately set it aside and continue dealing Event cards. You will be doing the Special Event in addition to an Event.
+**Plan ahead**. You are welcome (encouraged!) to look ahead at potential upcoming events at any time. We recommend designating one person to keep track of the events and warn the group of potentially bad upcoming events.
 
-To summarize, you will be doing one (non-special) event per round, and zero or more special events per round.
+## Crises
 
-## Noise and Alerts
+![crisis figure](figure_crisis.png)
+{:.card-portrait .card-right .rotate-left}
 
-Every action has a cost. The Noise Tracker card is used for determining how many Noise(🔊) sub-action penalties your team has incurred. For each 🔊 your teammates incur, raise the Noise tracker by one. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise ⚠. If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (see Escape Phase).
+Every Event Deck will have a few Crisis cards in them. They are particularly strong and can create big problems for any team of scoundrels.
 
-Note that the card flips over to accomodate all of the slots.
+**All Crises will happen**. Unlike Events, all Crises are guaranteed to happen in a heist. You will be doing all encountered Crisis cards _after_ your round's Event. (_see Phase 3. Event Phase for more details_).
+
+**Not an Alert**. Crisis cards do _not_ count as Alerts. When a Crisis card is the top-most card in the Event Deck, immediately set it aside and continue dealing Event cards.
+
+To summarize, you will be doing one (non-special) event per round, and zero or more crises per round.
+
+## Noise
+
+Every action has a cost. The Noise Tracker card is used for determining how many Noise(🔊) sub-action penalties your team has incurred.
+
+For each 🔊 your teammates incur, raise the Noise tracker by one. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise ⚠ (see _Events_). If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (see Escape Phase). Note that the card flips over to accommodate all of the slots.
 
 <div class="loot">
 
@@ -196,15 +202,15 @@ The objective of the heist is (usually) to steal Loot chits, which can be  Jewel
 
 **Insta-transfer**. A character may also "drop" loot on their current space for no cost, which means that two characters may effectively "insta-transfer" loot from one to another when sharing a space.
 
-When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
+**Not Ours Until It's Out**. When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
 ## Fixers
 
 Throughout your time in River City, you will be introduced to various people who can help your planning. Completing heists give you access to new abilities and ways to spend your Team Cash. You can use as many Fixers as you have unlocked in planning, however Factions may limit your choices. You start with Old Friend.
 
-**Factions**. Most Fixers are members of a Faction and will not work with members of other factions for a given heist. Multiple fixers from the same faction can be combined. Old Friend is not part of any faction.
+**Factions**. Most Fixers are members of a Faction and will not work with members of other factions for a given heist. Multiple fixers from the same faction can be combined. Old Friend is not part of any faction, and thus works with everyone.
 
-**Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors planners.
+**Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
 
 *Fixer faction example: you unlock the Pawn Shop Owner and the Frustrated Beat Cop. On your next heist, you have to choose one or the other during the Planning Phase to use in addition to your Old Friend. Later, you unlock Retired Detective, which allows Fences and Cops to work together, in which case you can use all of them together.*
 
@@ -289,19 +295,17 @@ In this phase, you use your die to execute one Action. You have a minimum of fou
 
 **No passing**. You may NOT opt to "pass". You MUST choose an Action on your Character or Skills.
 
-**Anti-alpha**. You have the final say about what to do with your own character.
+**No alphas**. You have the final say about what to do with your own character.
 
 ### Phase 3. Event Phase
 
 When all players have finished their Actions and all noise has been accounted for on the Noise Tracker, the team enters the Event phase.
 
-**One event, then possibly special events**. During this phase, the team will do exactly _one_ Event, then possibly one or more Special Events.
-
 **Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase (the Active Event card does not change).
 
 **Discard Active Event**. When the Active Event is finished, even if it had no effect, discard the card.
 
-**Events, then Special Events**. Follow any Special Event cards you have set aside this round. Multiple Special Events should be executed in the order they were encountered. Discard them after use.
+**Events then Crises**. Follow any Crisis cards you have set aside this round. Multiple Special Events should be executed in the order they were encountered. Discard them after use.
 
 **No actions or abilities**. Characters may not take actions or use abilities during this phase, unless the text on their card explicitly says so.
 

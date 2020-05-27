@@ -1,5 +1,5 @@
 require 'kramdown'
-require_relative 'version'
+require_relative 'util/version'
 
 def replace_emojis(html)
   html.gsub(/💡/,'<img src="../img/emojis/idea.svg" class="emoji-svg" />')
