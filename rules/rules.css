@@ -19,33 +19,33 @@ body{
   counter-increment: pagenum;
   content: "Page " + counter(pagenum);
   } */
-
-  @page:first {
-  @bottom-right {
-    content: normal;
-    margin: 0;
-  }
-
-  @bottom-left {
-    content: normal;
-    margin: 0;
-  }
-}
   @bottom-center {
-    font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
+    font-family: 'Archivo Black';
     font-size: 10pt;
+    font-weight: bold;
     padding: 0.5em;
-    counter-increment: pagenum;
-    content: "Rules " counter(pagenum);
+    content: counter(page);
   }
 }
 
-/* .footer::after {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  content: "Page " counter(pagenum);
-} */
+#markdown-toc{
+  margin-left: 8em;
+}
+
+#markdown-toc, #markdown-toc ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 1em;
+}
+#markdown-toc a {
+  text-decoration: none;
+  color: inherit;
+}
+#markdown-toc a::after {
+  content: target-counter(attr(href), page);
+  float: right;
+  margin-right: 13em;
+}
 
 p{
   margin-top: 0;
@@ -72,16 +72,12 @@ h1{
   /* font-variant-caps: small-caps; */ /* Sadly Archivo black doesn't support this */
   text-align: center;
   margin-top: 0.5em;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
   padding: 0.25em;
   background-color: black;
   color: white;
   /* line-height: 1; */
   clear: both;
-}
-
-h1::before {
-
 }
 
 h2{
@@ -138,10 +134,19 @@ table.security-table {
 }
 
 .example{
+  background-color: #ccc;
+  border-radius: 0.5em;
   margin-left: 15pt;
+  margin-right: 15pt;
   border-left: 3pt solid #888888;
-  padding-left: 2pt;
+  padding: 0.5em;
   page-break-inside: avoid;
+}
+
+.example img {
+  float: right;
+  margin: 0;
+  margin-left: 0.5em;
 }
 
 .tip{
@@ -153,9 +158,6 @@ table.security-table {
 
 .flex-container ul{
   display: flex;
-  /* display: -webkit-box;
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap; */
   flex-flow: row wrap;
   justify-content: space-around;
   text-align: center;

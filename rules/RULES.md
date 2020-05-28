@@ -9,7 +9,15 @@ You will start as an Amateur criminal with Amateur skills who is new to River Ci
 
 Version ⏱
 
-## The Pieces
+
+<div class="pagebreak"/>
+
+# Table of Contents
+
+* TOC
+{:toc}
+
+# The Pieces
 
 {:.parts-list}
 
@@ -42,22 +50,13 @@ Version ⏱
 Page
 {:.pagenumber}
 
-# Starting a Campaign
 
-On the campaign ledger, fill out the team name and character names. Each player gets a character sheet as well.
-
-**Loosely Affiliated**. Players may freely come and go from the campaign. A player does is not limited to always playing their original character. All heists have 3- and 4-player options. You are always welcome to start out new characters.
-
-**First time.** If this is your very first game, we recommend the using pre-built characters listed at the end of this booklet: Johnny Swagger, Tiny Mike, Phobia, and Showtime. Any of the Amateur heists from River City are good starters.
 
 # Setting Up
 
 **Step 1. As a team, decide your next heist.** Heists are available to you in the River City booklet. Each heist is labelled with a difficulty level and any other pre-requisites.
 
 **Step 2. Set up the board** in the middle of the table. Following the diagram for your chapter, set up the hex tiles so that they match the picture. Place any Loot chits, Prisoner, and/or Security Systems according to the diagram. If the diagram depicts a shield, then use the Security side of the tile, in all other cases use the Blank side.
-
-Tip: to verify the layout, match the shapes of the Gaps between tiles
-{:.tip}
 
 Some boards have already-revealed security chits. The Chapter will also indicate how many Guards, Locks, and Camera chits should go into the bag. Leave the other Security chits by the board (they are **the supply**).
 
@@ -75,6 +74,8 @@ Tip: The back of this booklet has some pre-built character+skill pairings.
 **Step 7. Set up the Event cards** according to the scenario, using the numbered cards in the order indicated. The deck should be entirely face-up with the first card on the top and the last card on the bottom.
 
 **Step 8. Select Fixers**. Determine which Fixers you will use for planning this heist. If this is your first heist, start with *Old Friend*.
+
+# Play Overview
 
 ## The Board
 
@@ -112,7 +113,7 @@ Security chits are generally unknown at the beginning of the heist, and are plac
 
 More security chits can be found in the Additional Modules section.
 
-## Actions and Sub-Actions
+## Actions & Sub-Actions
 
 Skills and Characters allow you to take Actions. Every Action is just a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
 
@@ -212,7 +213,8 @@ Throughout your time in River City, you will be introduced to various people who
 
 **Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
 
-*Fixer faction example: you unlock the Pawn Shop Owner and the Frustrated Beat Cop. On your next heist, you have to choose one or the other during the Planning Phase to use in addition to your Old Friend. Later, you unlock Retired Detective, which allows Fences and Cops to work together, in which case you can use all of them together.*
+*Fixer faction example*. You unlock the Pawn Shop Owner and the Frustrated Beat Cop. On your next heist, you have to choose one or the other during the Planning Phase to use in addition to your Old Friend. Later, you unlock Retired Detective, which allows Fences and Cops to work together, in which case you can use all of them together.*
+{:.example}
 
 </div>
 
@@ -223,7 +225,7 @@ The structure of each heist is:
   <ol class="gameplay-structure">
     <li>The Plan
     </li>
-    <li>The Heist: (1) Roll for Skill, (2) Action Phase, (3) Event. Repeat until Escape Phase.
+    <li>The Heist: (1) Roll, (2) Action Phase, (3) Event. Repeat until Escape Phase.
     </li>
     <li>Level Up</li>
   </ol>
@@ -261,7 +263,7 @@ The default limit character limit per Entrance is 2 (unlimited during Escape pha
 
 Repeat Phase 1 through 3 until the Escape Phase is initiated.
 
-### Phase 1. Roll for Skill
+### Phase 1. Roll
 
 Everybody simultaneously rolls their die.
 
@@ -280,13 +282,13 @@ In this phase, you use your die to execute one Action. You have a minimum of fou
 *Tip: Wait to account for noise until the end of Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
 {:.tip}
 
-*Example of Modify Roll: Phil as the Angry Locksmith may always take Pick🔓🔊 or Walk🔊➜ regardless of what he rolled. Suppose he has the Wing It and Smash 'n' Grab Skills, and rolled a 1, then he also has Punch👊🔊🔊➜ and Discover🔍🔍 as options. If he spends an 💡, then he also has Smash📷🔊🔊➜, Grab💰🔊, Strongarm🔓👊🔊🔊➜, and Scamper🔊🔊🔊➜➜ available.*
+*Example of Modify Roll*. Phil as the Angry Locksmith may always take Pick🔓🔊 or Walk🔊➜ regardless of what he rolled. Suppose he has the Wing It and Smash 'n' Grab Skills, and rolled a 1, then he also has Punch👊🔊🔊➜ and Discover🔍🔍 as options. If he spends an 💡, then he also has Smash📷🔊🔊➜, Grab💰🔊, Strongarm🔓👊🔊🔊➜, and Scamper🔊🔊🔊➜➜ available.*
 {:.example}
 
-*Example of Interleaving: Kelly takes Discover🔍🔍 and reveals a guard one space away from Tim. Tim, with this new information, then chooses to take Punch👊🔊🔊➜, and does a ➜ first, then a 👊 on the newly-discovered guard, then increases the 🔊 by 2.*
+*Example of Interleaving.* Kelly takes Discover🔍🔍 and reveals a guard one space away from Tim. Tim, with this new information, then chooses to take Punch👊🔊🔊➜, and does a ➜ first, then a 👊 on the newly-discovered guard, then increases the 🔊 by 2.*
 {:.example}
 
-*Example of Undoing : Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.*
+*Example of Undoing*. Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.*
 {:.example}
 
 **Help Out**. If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. _**This does not apply to the Escape phase!**_ (Sorry.)
@@ -297,7 +299,7 @@ In this phase, you use your die to execute one Action. You have a minimum of fou
 
 **No alphas**. You have the final say about what to do with your own character.
 
-### Phase 3. Event Phase
+### Phase 3. Event
 
 When all players have finished their Actions and all noise has been accounted for on the Noise Tracker, the team enters the Event phase.
 
@@ -323,7 +325,7 @@ When the Escape Phase is initiated, all Gates close and all Security chits are r
 
 **No costly abilities** You MAY NOT use abilities that cost 🔊 or ⚠ during the Escape Phase.
 
-*For example, SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed*
+*For example,* SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed
 {:.example}
 
 **Insta-transfers**. You MAY pick up or drop off loot during the Escape Phase.
@@ -332,9 +334,8 @@ When the Escape Phase is initiated, all Gates close and all Security chits are r
 
 <div class="example">
 <img src="../img/figure_escape.svg"><br>
-*Escape move example: Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.*
+*Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.
 </div>
-
 
 ### Busted
 
@@ -342,7 +343,15 @@ When you are Busted, you are out of gameplay for the rest of this Heist. All loo
 
 **Start Fresh**. Instead, you may choose an available Amateur character and two Amateur skills for the next heist. You may not choose an Amateur character of a Pro who is already on the team. The Amateur and Pro versions of a Skill card must be available for you to use as well (there are two copies of every Skill).
 
-# Losing a Heist
+# Campaign
+
+TODO: Add more here. On the campaign ledger, fill out the team name and character names. Each player gets a character sheet as well.
+
+**Loosely Affiliated**. Players may freely come and go from the campaign. A player does is not limited to always playing their original character. All heists have 3- and 4-player options. You are always welcome to start out new characters.
+
+**First time.** If this is your very first game, we recommend the using pre-built characters listed at the end of this booklet: Johnny Swagger, Tiny Mike, Phobia, and Showtime. Any of the Amateur heists from River City are good starters.
+
+## Losing a Heist
 
 Each Heist has an objective built into it. If your team does not complete its objective, you do not gain the favor of the Fixer. No Character may level up if the objective is lost, even if those characters escaped. You still keep any loot that was taken.
 
@@ -351,7 +360,7 @@ Each Heist has an objective built into it. If your team does not complete its ob
 **Save Scumming**. You may replay a heist from your original conditions (i.e. restore from a previous "saved game").
 
 
-# Winning a Heist
+## Winning a Heist
 
 If you have completed your objective, you have gained the favor of that Fixer. Every character who is not Busted at the end of this heist may Level Up.
 
@@ -392,20 +401,22 @@ If a Guard Dog is added to a tile that does not already have a character and is 
 
 ## Watchtower
 
-![watchtower](../img/rules/special_event_watchtower_sweep.png)
+![watchtower image](special_event_watchtower_sweep.png)
 {:.example-right .card-portrait}
 
 The Watchtower is a thermal imaging system that can detect body movement across long distances. Standing on the Watchtower tile means you are _not_ detected.
 
 ## Reinforcements
 
-![panic](../img/rules/special_event_reinforcements.png)
+![reinforcements image](../rules/special_event_reinforcements.png)
 {:.example-right .card-portrait}
 
 ## Lockdown Gates
 
-![panic](../img/rules/special_event_shut_two_gates.png)
+![shut two gates](../img/rules/special_event_shut_two_gates.png)
 {:.example-right .card-portrait}
+
+<div class="pagebreak"/>
 
 # Additional Modules
 
