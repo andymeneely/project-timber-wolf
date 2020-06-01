@@ -296,6 +296,91 @@ ol.gameplay-structure{
   padding-left: 1em;
 }
 
-.prebuilt-shadow img{
-  width: 8em;
+
+ul.prebuilt-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0.5em;
+  margin: 0;
+  list-style: none;
+
 }
+ul.prebuilt-card>li>ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 7em;
+  border: 1pt solid grey;
+  border-radius: 0.5em;
+  padding: 0;
+  margin: 0;
+  font-size: 80%;
+  list-style: none;
+}
+.prebuilt-card li {
+  width: 7em;
+}
+
+.prebuilt-character {
+  font-family: 'Archivo Black';
+}
+
+.prebuilt-shadow {
+  width: 4em;
+}
+
+ul.prebuilt-list {
+  border: 1pt solid black;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-content: flex-start;
+}
+ul.prebuilt-list li{
+  border: 1pt solid black;
+}
+ul.prebuilt-list ul {
+  list-style: none;
+  padding: 0;
+}
+ul.prebuilt-list>li>img { /* Shadow SVG */
+  width: 3em;
+}
+ul.prebuilt-list>li:not(:first-of-type) { /* Shadow SVG */
+  border: 1pt solid blue;
+  flex-grow: 1;
+}
+
+.prebuilt-meter-list{
+  border: 1pt solid blue;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 6em;
+}
+.prebuilt-meter-list li {
+  /* border: 1pt solid blue; */
+  width: 10em;
+}
+.prebuilt-meter::after {
+  border: 1pt solid red;
+  display: inline-block;
+  background-color: #888;
+  content: '+';
+}
+
+/* 2em + 0.5em*n */
+.prebuilt-meter[data-n="1"]::after { width: 2.5em }
+.prebuilt-meter[data-n="2"]::after { width: 3.0em }
+.prebuilt-meter[data-n="3"]::after { width: 3.5em }
+.prebuilt-meter[data-n="4"]::after { width: 4.0em }
+.prebuilt-meter[data-n="5"]::after { width: 4.5em }
+.prebuilt-meter[data-n="6"]::after { width: 5.0em }
+.prebuilt-meter[data-n="7"]::after { width: 5.5em }

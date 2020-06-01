@@ -447,6 +447,246 @@ A special loot chit is the **Story Beacon**, denoted by a question mark. When a 
 
 # Pre-Built Characters
 
+
+* * ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.prebuilt-shadow}
+  * **Johnny Swagger**{:.prebuilt-character}
+  * *Angry Locksmith* with *Smash 'n' Grab* and *Bypass*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Angry Locksmith* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![thug shadow](../img/shadows/thug.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![thug shadow](../img/shadows/thug.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![street urchin shadow](../img/shadows/street urchin.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![street urchin shadow](../img/shadows/street urchin.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![script kiddie shadow](../img/shadows/script kiddie.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![script kiddie shadow](../img/shadows/script kiddie.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![burglar shadow](../img/shadows/burglar.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![burglar shadow](../img/shadows/burglar.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![lookout shadow](../img/shadows/lookout.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![lookout shadow](../img/shadows/lookout.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![pickpocket shadow](../img/shadows/pickpocket.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![pickpocket shadow](../img/shadows/pickpocket.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![shutter bug shadow](../img/shadows/shutter bug.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+* * ![shutter bug shadow](../img/shadows/shutter bug.svg){:.prebuilt-shadow}
+  - **Karma**{:.prebuilt-character}
+  * *Thug* with *Hurry* and *Wing It*
+  - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+{:.prebuilt-card}
+
+
+<div class="pagebreak"/>
+
+
+- _Karma_
+  - - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+{:.prebuilt-list}
+
+- ![angry locksmith shadow](../img/shadows/angry-locksmith.svg)
+- _Johnny Swagger_
+  _Smash 'n' Grab_
+  _Bypass_
+- - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+- _Karma_
+  - - **➜**{:.prebuilt-meter data-n="2"}
+  - **💡**{:.prebuilt-meter data-n="6"}
+  - **🔓**{:.prebuilt-meter data-n="1"}
+  - **👊**{:.prebuilt-meter data-n="5"}
+  - **📷**{:.prebuilt-meter data-n="7"}
+  - **🔍**{:.prebuilt-meter data-n="1"}
+  - **🔊**{:.prebuilt-meter data-n="6"}
+  - **⚠**{:.prebuilt-meter data-n="0"}
+{:.prebuilt-list}
+
+### Script Kiddie
+{:.prebuilt-character}
+* ![script kiddie shadow](../img/shadows/script-kiddie.svg)Script Kiddie
+  - _Phobia_
+    - **➜**{:.prebuilt-meter data-n="3"}
+    - **💡**{:.prebuilt-meter data-n="3"}
+    - **🔓**{:.prebuilt-meter data-n="4"}
+    - **👊**{:.prebuilt-meter data-n="5"}
+    - **📷**{:.prebuilt-meter data-n="2"}
+    - **🔍**{:.prebuilt-meter data-n="1"}
+    - **🔊**{:.prebuilt-meter data-n="4"}
+    - **⚠**{:.prebuilt-meter data-n="1"}
+  - _Null_
+    - **➜**{:.prebuilt-meter data-n="3"}
+    - **💡**{:.prebuilt-meter data-n="3"}
+    - **🔓**{:.prebuilt-meter data-n="4"}
+    - **👊**{:.prebuilt-meter data-n="5"}
+    - **📷**{:.prebuilt-meter data-n="2"}
+    - **🔍**{:.prebuilt-meter data-n="1"}
+    - **🔊**{:.prebuilt-meter data-n="4"}
+    - **⚠**{:.prebuilt-meter data-n="1"}
+{:.prebuilt-list}
+
 |      Name      |    Character    |     Skill      |     Skill      | Description                                |
 |:--------------:|:---------------:|:--------------:|:--------------:|:------------------------------------------ |
 | Johnny Swagger | Angry Locksmith | Smash 'n' Grab |     Bypass     | Well-rounded yet slower                    |
