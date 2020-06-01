@@ -437,8 +437,6 @@ In every other way, treat an NPC like a regular character. Place their die on th
 
 NPCs all come with three actions: two Default actions and one "Roll 6" action, which is available if the NPC die rolled a 6. If an NPC has any Ideas💡, they may modify their die roll as with a regular character.
 
-
-
 ## Story Beacon
 
 A special loot chit is the **Story Beacon**, denoted by a question mark. When a character enters a space with the Beacon for the first time, refer to the scenario for what to do, then remove the chit.
@@ -447,262 +445,22 @@ A special loot chit is the **Story Beacon**, denoted by a question mark. When a 
 
 # Pre-Built Characters
 
-
-* * ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.prebuilt-shadow}
-  * **Johnny Swagger**{:.prebuilt-character}
-  * *Angry Locksmith* with *Smash 'n' Grab* and *Bypass*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Angry Locksmith* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![thug shadow](../img/shadows/thug.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![thug shadow](../img/shadows/thug.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![street urchin shadow](../img/shadows/street urchin.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![street urchin shadow](../img/shadows/street urchin.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![script kiddie shadow](../img/shadows/script kiddie.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![script kiddie shadow](../img/shadows/script kiddie.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![burglar shadow](../img/shadows/burglar.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![burglar shadow](../img/shadows/burglar.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![lookout shadow](../img/shadows/lookout.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![lookout shadow](../img/shadows/lookout.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![pickpocket shadow](../img/shadows/pickpocket.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![pickpocket shadow](../img/shadows/pickpocket.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![shutter bug shadow](../img/shadows/shutter bug.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-* * ![shutter bug shadow](../img/shadows/shutter bug.svg){:.prebuilt-shadow}
-  - **Karma**{:.prebuilt-character}
-  * *Thug* with *Hurry* and *Wing It*
-  - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-{:.prebuilt-card}
-
-
-<div class="pagebreak"/>
-
-
-- _Karma_
-  - - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-{:.prebuilt-list}
-
-- ![angry locksmith shadow](../img/shadows/angry-locksmith.svg)
-- _Johnny Swagger_
-  _Smash 'n' Grab_
-  _Bypass_
-- - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-- _Karma_
-  - - **➜**{:.prebuilt-meter data-n="2"}
-  - **💡**{:.prebuilt-meter data-n="6"}
-  - **🔓**{:.prebuilt-meter data-n="1"}
-  - **👊**{:.prebuilt-meter data-n="5"}
-  - **📷**{:.prebuilt-meter data-n="7"}
-  - **🔍**{:.prebuilt-meter data-n="1"}
-  - **🔊**{:.prebuilt-meter data-n="6"}
-  - **⚠**{:.prebuilt-meter data-n="0"}
-{:.prebuilt-list}
-
-### Script Kiddie
-{:.prebuilt-character}
-* ![script kiddie shadow](../img/shadows/script-kiddie.svg)Script Kiddie
-  - _Phobia_
-    - **➜**{:.prebuilt-meter data-n="3"}
-    - **💡**{:.prebuilt-meter data-n="3"}
-    - **🔓**{:.prebuilt-meter data-n="4"}
-    - **👊**{:.prebuilt-meter data-n="5"}
-    - **📷**{:.prebuilt-meter data-n="2"}
-    - **🔍**{:.prebuilt-meter data-n="1"}
-    - **🔊**{:.prebuilt-meter data-n="4"}
-    - **⚠**{:.prebuilt-meter data-n="1"}
-  - _Null_
-    - **➜**{:.prebuilt-meter data-n="3"}
-    - **💡**{:.prebuilt-meter data-n="3"}
-    - **🔓**{:.prebuilt-meter data-n="4"}
-    - **👊**{:.prebuilt-meter data-n="5"}
-    - **📷**{:.prebuilt-meter data-n="2"}
-    - **🔍**{:.prebuilt-meter data-n="1"}
-    - **🔊**{:.prebuilt-meter data-n="4"}
-    - **⚠**{:.prebuilt-meter data-n="1"}
-{:.prebuilt-list}
-
-|      Name      |    Character    |     Skill      |     Skill      | Description                                |
-|:--------------:|:---------------:|:--------------:|:--------------:|:------------------------------------------ |
-| Johnny Swagger | Angry Locksmith | Smash 'n' Grab |     Bypass     | Well-rounded yet slower                    |
-|     Karma      | Angry Locksmith |     Hurry      |    Wing It     | Fast, but noisy                            |
-|   Tiny Mike    |      Thug       |    Wing It     |     Bypass     | Noisy, but with some quiet options         |
-|    Jitters     |      Thug       |     Hurry      |   Yank Wires   | Fast, bad with locks                       |
-|     Enigma     |  Street Urchin  |     Hurry      |     Bypass     | Fast and supportive, but easily stymied    |
-|    Iceheart    |  Street Urchin  |    Wing It     |   Yank Wires   | Good with security                         |
-|     Phobia     |  Script Kiddie  | Smash 'n' Grab |     Bypass     | Good for staying out in the van            |
-|      Null      |  Script Kiddie  |     Hurry      |   Yank Wires   | A more mobile support                      |
-|    Showtime    |     Burglar     |     Bypass     |    Wing It     | Skillful but noisy                         |
-|     Clutch     |     Burglar     | Smash 'n' Grab |   Yank Wires   | Efficient with security                    |
-|   Crazy Eyes   |     Lookout     |     Hurry      |    Wing It     | Great for staying outside, then rushing in |
-|     Smokes     |     Lookout     | Smash 'n' Grab |     Bypass     | Slower, but can handle security better     |
-|     Status     |   Pickpocket    |     Hurry      |   Yank Wires   | Fast and finds problems quick              |
-|     Locket     |   Pickpocket    |  Hit 'n' Run   | Smash 'n' Grab | Noisy but handles security well            |
-|     F-Stop     |   Shutter Bug   |    Wing It     |     Bypass     | Noisy but good with security               |
-|    Stretch     |   Shutter Bug   |     Hurry      |  Hit 'n' Run   | Fast but bad with locks                    |
+|                                                               |      Name      |             Character & Skills              | Subactions                                                                                                                                                                                                            |
+|:-------------------------------------------------------------:|:--------------:|:-------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![angry locksmith shadow](../img/shadows/angry locksmith.svg) | Johnny Swagger | Angry Locksmith with Smash 'n' Grab, Bypass | **➜**{:.meter data-n="2"} **💡**{:.meter data-n="6"} **🔍**{:.meter data-n="1"} **🔓**{:.meter data-n="1"} **👊**{:.meter data-n="5"} **📷**{:.meter data-n="7"} **🔊**{:.meter data-n="6"} **⚠**{:.meter data-n="0"} |
+| ![angry locksmith shadow](../img/shadows/angry locksmith.svg) |     Karma      |     Angry Locksmith with Hurry, Wing It     |                                                                                                                                                                                                                       |
+|            ![thug shadow](../img/shadows/thug.svg)            |    Jitters     |         Thug with Hurry, Yank Wires         |                                                                                                                                                                                                                       |
+|            ![thug shadow](../img/shadows/thug.svg)            |   Tiny Mike    |          Thug with Wing It, Bypass          |                                                                                                                                                                                                                       |
+|   ![street urchin shadow](../img/shadows/street urchin.svg)   |     Enigma     |      Street Urchin with Hurry, Bypass       |                                                                                                                                                                                                                       |
+|   ![street urchin shadow](../img/shadows/street urchin.svg)   |    Iceheart    |   Street Urchin with Wing It, Yank Wires    |                                                                                                                                                                                                                       |
+|   ![script kiddie shadow](../img/shadows/script kiddie.svg)   |     Phobia     |  Script Kiddie with Smash 'n' Grab, Bypass  |                                                                                                                                                                                                                       |
+|   ![script kiddie shadow](../img/shadows/script kiddie.svg)   |      Null      |    Script Kiddie with Hurry, Yank Wires     |                                                                                                                                                                                                                       |
+|         ![burglar shadow](../img/shadows/burglar.svg)         |    Showtime    |        Burglar with Bypass, Wing It         |                                                                                                                                                                                                                       |
+|         ![burglar shadow](../img/shadows/burglar.svg)         |     Clutch     |   Burglar with Smash 'n' Grab, Yank Wires   |                                                                                                                                                                                                                       |
+|         ![lookout shadow](../img/shadows/lookout.svg)         |   Crazy Eyes   |         Lookout with Hurry, Wing It         |                                                                                                                                                                                                                       |
+|         ![lookout shadow](../img/shadows/lookout.svg)         |     Smokes     |     Lookout with Smash 'n' Grab, Bypass     |                                                                                                                                                                                                                       |
+|      ![pickpocket shadow](../img/shadows/pickpocket.svg)      |     Status     |      Pickpocket with Hurry, Yank Wires      |                                                                                                                                                                                                                       |
+|      ![pickpocket shadow](../img/shadows/pickpocket.svg)      |     Locket     | Pickpocket with Hit 'n' Run, Smash 'n' Grab |                                                                                                                                                                                                                       |
+|     ![shutter bug shadow](../img/shadows/shutter bug.svg)     |     F-Stop     |      Shutter Bug with Wing It, Bypass       |                                                                                                                                                                                                                       |
+|     ![shutter bug shadow](../img/shadows/shutter bug.svg)     |    Stretch     |     Shutter Bug with Hurry, Hit 'n' Run     |                                                                                                                                                                                                                       |
 {:.prebuilt}

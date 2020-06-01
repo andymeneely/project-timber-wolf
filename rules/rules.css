@@ -263,12 +263,50 @@ ol.gameplay-structure{
 }
 
 .prebuilt {
-  font-size: 90%;
+  font-size: 80%;
+}
+
+.prebuilt tr>td:nth-of-type(1)>img {
+  width: 3em;
 }
 
 .prebuilt td {
-  min-width: 5em;
+  /* min-width: 5em; */
+  /* border: none; */
+  margin: 0;
+  padding: 0;
 }
+
+.prebuilt tr {
+
+}
+
+.prebuilt tr>td:nth-of-type(2) {
+  font-family: 'Archivo Black';
+}
+
+.prebuilt.meter {
+  display: inline-block;
+  width: 1em;
+}
+
+.prebuilt.meter::after {
+  border: 1pt solid red;
+  display: inline-block;
+  background-color: #888;
+
+}
+
+/* 2em + 0.5em*n */
+.prebuilt.meter[data-n="1"]::after { width: 2.5em }
+.prebuilt.meter[data-n="2"]::after { width: 3.0em }
+.prebuilt.meter[data-n="3"]::after { width: 3.5em }
+.prebuilt.meter[data-n="4"]::after { width: 4.0em }
+.prebuilt.meter[data-n="5"]::after { width: 4.5em }
+.prebuilt.meter[data-n="6"]::after { width: 5.0em }
+.prebuilt.meter[data-n="7"]::after { width: 5.5em }
+
+
 
 .figure_list {
   list-style: none;
