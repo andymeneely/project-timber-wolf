@@ -264,48 +264,37 @@ ol.gameplay-structure{
 
 .prebuilt {
   font-size: 80%;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.prebuilt tr>td:nth-of-type(1)>img {
-  width: 3em;
+.prebuilt .s {
+  width: 1.5em;
 }
 
-.prebuilt td {
-  /* min-width: 5em; */
-  /* border: none; */
+.prebuilt td, .prebuilt th {
   margin: 0;
-  padding: 0;
+  padding: 0.1em;
+  border: 1pt solid black;
 }
 
-.prebuilt tr {
-
+.prebuilt tr>td:nth-of-type(n + 4){
+  font-family: 'Consolas';
+  letter-spacing: -0.2em;
+  line-height: normal;
+  font-size: 9pt;
+  text-align: left;
 }
 
-.prebuilt tr>td:nth-of-type(2) {
-  font-family: 'Archivo Black';
+.prebuilt tr:nth-last-of-type(2n+2){
+  background-color: #ccc;
 }
 
-.prebuilt.meter {
-  display: inline-block;
-  width: 1em;
+.prebuilt th {
+  border: none;
+  text-align: center;
 }
-
-.prebuilt.meter::after {
-  border: 1pt solid red;
-  display: inline-block;
-  background-color: #888;
-
-}
-
-/* 2em + 0.5em*n */
-.prebuilt.meter[data-n="1"]::after { width: 2.5em }
-.prebuilt.meter[data-n="2"]::after { width: 3.0em }
-.prebuilt.meter[data-n="3"]::after { width: 3.5em }
-.prebuilt.meter[data-n="4"]::after { width: 4.0em }
-.prebuilt.meter[data-n="5"]::after { width: 4.5em }
-.prebuilt.meter[data-n="6"]::after { width: 5.0em }
-.prebuilt.meter[data-n="7"]::after { width: 5.5em }
-
 
 
 .figure_list {
@@ -333,92 +322,3 @@ ol.gameplay-structure{
 .figure_list li li {
   padding-left: 1em;
 }
-
-
-ul.prebuilt-card {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: flex-start;
-  width: 100%;
-  padding: 0.5em;
-  margin: 0;
-  list-style: none;
-
-}
-ul.prebuilt-card>li>ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  width: 7em;
-  border: 1pt solid grey;
-  border-radius: 0.5em;
-  padding: 0;
-  margin: 0;
-  font-size: 80%;
-  list-style: none;
-}
-.prebuilt-card li {
-  width: 7em;
-}
-
-.prebuilt-character {
-  font-family: 'Archivo Black';
-}
-
-.prebuilt-shadow {
-  width: 4em;
-}
-
-ul.prebuilt-list {
-  border: 1pt solid black;
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  align-content: flex-start;
-}
-ul.prebuilt-list li{
-  border: 1pt solid black;
-}
-ul.prebuilt-list ul {
-  list-style: none;
-  padding: 0;
-}
-ul.prebuilt-list>li>img { /* Shadow SVG */
-  width: 3em;
-}
-ul.prebuilt-list>li:not(:first-of-type) { /* Shadow SVG */
-  border: 1pt solid blue;
-  flex-grow: 1;
-}
-
-.prebuilt-meter-list{
-  border: 1pt solid blue;
-  list-style: none;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 6em;
-}
-.prebuilt-meter-list li {
-  /* border: 1pt solid blue; */
-  width: 10em;
-}
-.prebuilt-meter::after {
-  border: 1pt solid red;
-  display: inline-block;
-  background-color: #888;
-  content: '+';
-}
-
-/* 2em + 0.5em*n */
-.prebuilt-meter[data-n="1"]::after { width: 2.5em }
-.prebuilt-meter[data-n="2"]::after { width: 3.0em }
-.prebuilt-meter[data-n="3"]::after { width: 3.5em }
-.prebuilt-meter[data-n="4"]::after { width: 4.0em }
-.prebuilt-meter[data-n="5"]::after { width: 4.5em }
-.prebuilt-meter[data-n="6"]::after { width: 5.0em }
-.prebuilt-meter[data-n="7"]::after { width: 5.5em }
