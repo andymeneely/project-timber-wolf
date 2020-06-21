@@ -530,7 +530,33 @@ Once the alarm sounds for the first heist, finish it as normal. You may now rebu
 
 Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
 
-# The Final Score
+## NOTES
+* Part 1: we're setting up a tunnel along the south hallway. You choose the entrypoint and send two people there. The other two must go through the west entrance.
+* Part 1: this needs to look like a robbery. Steal at least $5k worth of money.
+* Before Part 2: the two people who are on the same tile can share ideas with each other between heists.
+
+
+# The Final Score: Part 1
+
+https://mastersoftheheist.com/design/?savekey=Ministry+of+Interior|105|190|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzLCSs6J8AlAUWaT2YGlySFBPzTMh7AKwFiCISHhIGooUMg8ma2israqtDQsOiDxoyfNnLp6xahA
+
+<div class="map">
+  <img src="">
+</div>
+
+|                  Difficulty: | Amateur |
+| ----------------------------:|:------- |
+|                      Guards: | TBD     |
+|                       Locks: | TBD     |
+|                     Cameras: | TBD     |
+|                      Events: | TBD     |
+| Max characters per Entrance: | 2       |
+|     Max characters per Exit: | ∞       |
+{:class="scenario-stats"}
+
+**Objective:**
+
+# The Final Score: Part 2
 
 <div class="map">
   <img src="">
