@@ -92,13 +92,13 @@ LevelUp1Desc | +2 ⬢                               |
              | + 2 Initial :idea:                 |
              |                                    |
              | +Bash:subdue::subdue::noise:       |
-LevelUp2Desc | +2 ⬢                               |
+LevelUp2Desc | +3 ⬢                               |
              |                                    |
-             | + 4 Initial :idea:                 |
+             | + 3 Initial :idea:                 |
              |                                    |
              | +Spy Stuff:unlock::subdue::noise:  |
              |                                    |
-             | +YOU WILL REPORT IN                |
+             | +PRESSURE POINTS                   |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Bruiser                            |
@@ -127,8 +127,8 @@ LevelUp2Desc |                                    |
         Name | Operative                          |
    Archetype | Fighter                            |
        Level | 2                                  |
-      Memory | 9                                  |
-       Ideas | 4                                  |
+      Memory | 10                                 |
+       Ideas | 3                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Punch                              |
@@ -210,7 +210,7 @@ LevelUp2Desc | +1 ⬢                               |
              | CHANGE OF PLANS                    |
              | Once per heist you may spend :idea |
              | ::idea: to re-position up to any 3 |
-             |  planning                          |
+             |  planning tokens                   |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -342,26 +342,26 @@ LevelUp2Desc |                                    |
     Default2 | Dart                               |
     Default3 | Hesitate                           |
              | :idea:                             |
-    LevelUp1 | Sewer Rat                          |
-    LevelUp2 | Grease Man                         |
+    LevelUp1 | Grease Man                         |
+    LevelUp2 | Ghost Runner                       |
      Special | DART                               |
              | Use this action to spend           |
              | :idea:for :noise::move::move:      |
 LevelUp1Desc | +1 ⬢                               |
-             | +4 Initial :idea:                  |
+             | +1 Initial :idea:                  |
              |                                    |
-             | +SEWER CRAWL                       |
+             | +VENT CRAWL                        |
 LevelUp2Desc | +4 ⬢                               |
              |                                    |
              | DART⇒                              |
              | BOLT                               |
              ╰------------------------------------╯
              ╭------------------------------------╮
-        Name | Sewer Rat                          |
+        Name | Grease Man                         |
    Archetype | Mover                              |
        Level | 2                                  |
       Memory | 9                                  |
-       Ideas | 4                                  |
+       Ideas | 3                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Dart                               |
@@ -373,15 +373,15 @@ LevelUp2Desc | +4 ⬢                               |
              | Use this action to spend           |
              | :idea:for :noise::move::move:      |
              |                                    |
-             | SEWER CRAWL                        |
-             | For :noise::noise::alert:, may tre |
-             | at a tile directly across 1 non-ti |
-             | led gap as adjacent.               |
+             | VENT CRAWL                         |
+             | For :noise::noise::noise::noise:,  |
+             | may treat a tile directly across 1 |
+             |  non-tiled gap as adjacent.        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
-        Name | Grease Man                         |
+        Name | Ghost Runner                       |
    Archetype | Mover                              |
        Level | 2                                  |
       Memory | 12                                 |
@@ -405,54 +405,58 @@ LevelUp2Desc |                                    |
         Name | Lookout                            |
    Archetype | Support                            |
        Level | 1                                  |
-      Memory | 6                                  |
-       Ideas | 3                                  |
+      Memory | 7                                  |
+       Ideas | 2                                  |
     Default1 | Run                                |
              | :noise::noise::move::move:         |
-    Default2 | Report                             |
-             | :idea::reveal::noise:              |
-    Default3 |                                    |
+    Default2 | Discover                           |
+             | :reveal::reveal::noise:            |
+    Default3 | Stride                             |
+             | :noise::move::reveal:              |
     LevelUp1 | Watchman                           |
     LevelUp2 | Sentinel                           |
-     Special | VANTAGE POINT                      |
-             | May :reveal: once per turn if outd |
-             | oors                               |
+     Special | I KNOW A WAY                       |
+             | When all security chits have been  |
+             | revealed, each :reveal: this chara |
+             | cter does is an :idea:             |
              |                                    |
              | GOOD IN A PINCH                    |
              | During Escape, may spend           |
              | :idea::idea: to give :idea: to any |
              |  character, one time.              |
-LevelUp1Desc | +3 ⬢                               |
+LevelUp1Desc | +2 ⬢                               |
              | +1 Initial :idea:                  |
+             |                                    |
+             | I KNOW A WAY⇒WE KNOW A WAY         |
+LevelUp2Desc | +1 ⬢                               |
+             | +2 Initial :idea:                  |
              |                                    |
              | GOOD IN A PINCH⇒                   |
              | GREAT IN A PINCH                   |
-LevelUp2Desc | +2 ⬢                               |
-             |                                    |
-             | +PLANNER                           |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Watchman                           |
    Archetype | Support                            |
        Level | 2                                  |
       Memory | 9                                  |
-       Ideas | 4                                  |
+       Ideas | 3                                  |
     Default1 | Run                                |
              | :noise::noise::move::move:         |
-    Default2 | Report                             |
-             | :idea::reveal::noise:              |
-    Default3 | Walk                               |
-             | :noise::move:                      |
+    Default2 | Discover                           |
+             | :reveal::reveal::noise:            |
+    Default3 | Stride                             |
+             | :noise::move::reveal:              |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
-     Special | VANTAGE POINT                      |
-             | May :reveal: once per turn if outd |
-             | oors                               |
+     Special | WE KNOW A WAY                      |
+             | When all security chits have been  |
+             | revealed, each :reveal: any charac |
+             | ter does is an :idea:              |
              |                                    |
-             | GREAT IN A PINCH                   |
+             | GOOD IN A PINCH                    |
              | During Escape, may spend           |
              | :idea::idea: to give :idea: to any |
-             |  character, any number of times.   |
+             |  character, one time.              |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -461,27 +465,24 @@ LevelUp2Desc |                                    |
    Archetype | Support                            |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 3                                  |
+       Ideas | 4                                  |
     Default1 | Run                                |
              | :noise::noise::move::move:         |
-    Default2 | Report                             |
-             | :idea::reveal::noise:              |
-    Default3 | Walk                               |
-             | :noise::move:                      |
+    Default2 | Discover                           |
+             | :reveal::reveal::noise:            |
+    Default3 | Stride                             |
+             | :noise::move::reveal:              |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
-     Special | VANTAGE POINT                      |
-             | May :reveal: once per turn if outd |
-             | oors                               |
+     Special | I KNOW A WAY                       |
+             | When all security chits have been  |
+             | revealed, each :reveal: this chara |
+             | cter does is an :idea:             |
              |                                    |
-             | GOOD IN A PINCH                    |
+             | GREAT IN A PINCH                   |
              | During Escape, may spend           |
              | :idea::idea: to give :idea: to any |
-             |  character, one time.              |
-             |                                    |
-             | PLANNER                            |
-             | During planning, add two triple-:i |
-             | dea: tokens to the security bag.   |
+             |  character, any number of times.   |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -583,29 +584,26 @@ LevelUp2Desc |                                    |
              | When adjacent to a live camera, us |
              | e this action for :idea::idea::rev |
              | eal::noise:                        |
-LevelUp1Desc | +2 ⬢                               |
+LevelUp1Desc | +2⬢                                |
              | + 1 Initial :idea:                 |
              |                                    |
              | Walk & Smash⇒                      |
              | Disable:disable::noise::move:      |
              |                                    |
              | +Loop Footage                      |
-LevelUp2Desc | +2 ⬢                               |
-             | +2 Initial :idea:                  |
-             | +Follower                          |
+LevelUp2Desc | +4 ⬢                               |
+             | +Rewire                            |
              |                                    |
-             | Walk:noise::move:⇒                 |
-             | Spy Stuff:unlock::subdue::noise:   |
+             | Walk & Smash⇒                      |
+             | Disable:disable::noise::move:      |
              |                                    |
-             | Smash:disable::noise::noise::move: |
-             | ⇒                                  |
-             | Short:disable::disable::noise:     |
+             | +Rewire                            |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Technician                         |
    Archetype | Surveillance                       |
        Level | 2                                  |
-      Memory | 9                                  |
+      Memory | 10                                 |
        Ideas | 4                                  |
     Default1 | Disable                            |
              | :disable::noise::move:             |
@@ -615,9 +613,9 @@ LevelUp2Desc | +2 ⬢                               |
     LevelUp2 |                                    |
      Special | LOOP FOOTAGE                       |
              | For :idea::idea:, use this action  |
-             | to allow all characters to avoid r |
-             | aising :alert: due to cameras this |
-             |  action phase and event phase.     |
+             | to allow all characters to avoid c |
+             | onsequences due to cameras this ac |
+             | tion phase and event phase.        |
              |                                    |
              | PATCH IN                           |
              | When adjacent to a live camera, us |
@@ -630,7 +628,7 @@ LevelUp2Desc |                                    |
         Name | Tinkerer                           |
    Archetype | Surveillance                       |
        Level | 2                                  |
-      Memory | 10                                 |
+      Memory | 11                                 |
        Ideas | 3                                  |
     Default1 | Disable                            |
              | :disable::noise::move:             |
