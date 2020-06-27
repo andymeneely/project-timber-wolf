@@ -1,6 +1,19 @@
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 14pt;
+  font-size: 10pt;
+  line-height: 1.05;
+}
+
+@page {
+  size: 5.25in 7in;
+  margin: 0.25in;
+  @bottom-center {
+    font-family: 'Archivo Black';
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 0.25em;
+    content: counter(page);
+  }
 }
 
 p{
@@ -14,8 +27,24 @@ table{
   page-break-inside: avoid;
 }
 
-th,td{
-  border: 1px solid black;
+ul {
+  padding-left: 1em;
+  list-style: square;
+}
+
+.difficulty-table {
+  margin-left: 1em;
+}
+
+.difficulty-table th {
+  border: none;
+  border-bottom: 1pt solid black;
+  text-align: center
+}
+
+.difficulty-table td{
+  border: none;
+  text-align: center;
 }
 
 h1{
@@ -51,7 +80,6 @@ hr {
   padding-bottom: 0.5em;
 }
 
-
 .cover-title {
   font-family: 'Acknowledgement';
   letter-spacing: 8px;
@@ -60,28 +88,54 @@ hr {
   font-size: 200%;
 }
 
-.handwriting {
+.text-message {
+  font-family: 'Archivo Narrow';
   position: relative;
-  padding: 0.5em;
-  margin-left: 3em;
-  margin-right: 3em;
-  line-height: 1;
-  display: block;
-  font-family: 'Caveat';
-  font-size: 110%;
-  text-align: right
+	background: #ccc;
+	border-radius: 0.4em;
+  padding: 0.4em;
+  width: 16em;
+}
+
+.text-message:after {
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.75em solid transparent;
+	border-right-color: #ccc;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -0.375em;
+	margin-left: -0.75em;
+}
+
+.directions {
+  border-top: 1pt solid black;
+  border-bottom: 1pt solid black;
+  margin: auto;
+  margin-top: 1em;
+  width: 15em;
+  list-style: none;
+  padding: 0;
+}
+
+.directions li {
+  text-align: center;
 }
 
 .text-center {
   text-align: center;
 }
 
-
 .map {
   text-align: center;
 }
+
 .map img {
-  width: 90%;
+  width: 100%;
   margin: 0;
 }
 

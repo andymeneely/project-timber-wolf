@@ -2,28 +2,38 @@
   River City
 </div>
 
-<div class="handwriting">
-Welcome back! You'll find that things around here haven't changed since you left. Except I hear you all have some new skills you want to try out? I can introduce you to a few people, but you'll need to you prove yourselves.
+Your journey begins with some text messages from an old friend:
 
--An Old Friend
-</div>
+> Welcome back! Things around here haven't changed since you left.
+{:class="text-message"}
 
-*River City is an open-ended sandbox campaign. Every heist you complete will introduce you to a new Fixer. You are welcome to explore all scenarios and fixers before completing them.*
+> I hear you have some new skills to try out? I can introduce you to some folks... but you and your friends will need prove yourselves before they provide their services.
+{:class="text-message"}
+
+
+River City is an **open-ended sandbox** campaign.
+
+* All heists are **available** to any team.
+* Every heist you complete will introduce you to a new **Fixer**
+* You are welcome to **explore this booklet** without spoilers.
+* **Players can come and go**. Your party can change between heists as needed.
+* When a character is Busted, your team may opt to do a **breakout**. See page 3.
+
+Heists are labelled with their difficulty based on the team:
+
+| Difficulty | Avg. Level |
+| ---------- | ---------- |
+| Amateur    | < 2        |
+| Semi-Pro   | 2-3        |
+| Pro        | > 3        |
+{:class="difficulty-table"}
 
 ---
 
-**Breakouts**. *If any character is Busted, your team may opt to break them back out of County Jail. See page 3.*
-
----
-
-{:class="text-center"}
-Begin your campaign by choosing an entirely Amateur team.
-
-{:class="text-center"}
-**Gain the Old Friend Fixer.**
-
-{:class="text-center"}
-**Gain $5k of team cash.**
+* Choose an entirely Amateur team.
+* Gain the *Old Friend* Fixer.
+* Gain $5k of team cash.
+{:class="directions"}
 
 # Opportunities
 
@@ -91,16 +101,15 @@ If a character is busted, you may simply build a new Amateur character. Alternat
 
 |                  Difficulty: | Amateur |
 | ----------------------------:|:------- |
-|                      Guards: | 5       |
-|                       Locks: | 5       |
-|                     Cameras: | 5       |
 |                      Events: | TBD     |
 | Max characters per Entrance: | 2       |
 |     Max characters per Exit: | ∞       |
 {:class="scenario-stats"}
 
+You receive a text from the Pawn Shop Owner:
 
-"Our friends down the road have decided to experiment with capitalism again. I need to show them the cost of leaving a cartel."
+> Our friends down the road have decided to experiment with capitalism again. I need to show them the cost of leaving a cartel."
+{: class="text-message"}
 
 "If you help me with this, I can move merchandise for you better than your friend here."
 
@@ -110,7 +119,7 @@ If a character is busted, you may simply build a new Amateur character. Alternat
 
 
 {::comment}
-http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|OIBQBKHpPXUNggJAJjMgjI+S-gGUBhCE4sc-FbAKQHUwj1KBBMAUQFkOBWHBLhAAiFEsABCoqVUj0plcACV2Hbuz4zwgyOV1jcBsHIVSs-Tf22GLkdthsggA
+http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|5|6|4|235|210|OIBQBKHpPXUNggJAJjMgjI+S-gGUBhCE4sc-FbAKQHUwj1KBBMAUQFkOBWHBLhAAiFEsABCoqVUj0plcACV2Hbuz4zwgyOV1jcBsHIVSs-Tf22GLkdthsggA
 {:/comment}
 
 # Chain of Custody
@@ -142,9 +151,6 @@ http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|OIBQBKHpPXUNggJAJjMgjI+S-
 
 |                  Difficulty: | Amateur                      |
 | ----------------------------:|:---------------------------- |
-|                      Guards: | 6                            |
-|                       Locks: | 6                            |
-|                     Cameras: | 6                            |
 |                      Events: | 1-4, S2, 5-10, S2, 11-21, S2 |
 | Max characters per Entrance: | 2                            |
 |     Max characters per Exit: | ∞                            |
@@ -157,7 +163,7 @@ http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|OIBQBKHpPXUNggJAJjMgjI+S-
 **Success Unlocks:** Tech Support Guy
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|35|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN5ATMJuvcRdegPJgDqAKvgCMdEdmy1a2fqMSQqMoSMmzweVhPIawAUWpiVOvYm0A2NvqSnzIIA
+http://localhost:3000/design?savekey=Tech+Lab|110|35|4|6|6|225|225|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN5ATMJuvcRdegPJgDqAKvgCMdEdmy1a2fqMSQqMoSMmzweVhPIawAUWpiVOvYm0A2NvqSnzIIA
 {:/comment}
 
 # Semper Paratus
@@ -209,8 +215,7 @@ https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|35|OIBQBKHi6XsKkg0gYQ
 **Success Unlocks:** The Curator
 
 {::comment}
-http://localhost:3000/?savekey=Estate+Basement|50|230|OIBQBKHpPXUNo8BBFywoBIaZAygMJhFgBKAGgLInGn0UYp3EECaCpe89r8SXHsRTBa5RigAy5DqRT4MAJmB9c-cMukEWajLwwBRGt11GEBgIy6TkAwDYoQA
-
+http://localhost:3000/?savekey=Estate+Basement|50|230|4|6|9|115|170|OIBQBKHpPXUNo8BBFywoBIaZAygMJhFgBKAGgLInGn0UYp3EECaCpe89r8SXHsRTBa5RigAy5DqRT4MAJmB9c-cMukEWajLwwBRGt11GEBgIy6TkAwDYoQA
 {:/comment}
 
 # The Blind Justice Job
@@ -221,9 +226,6 @@ http://localhost:3000/?savekey=Estate+Basement|50|230|OIBQBKHpPXUNo8BBFywoBIaZAy
 
 |                  Difficulty: | Semi-Pro                     |
 | ----------------------------:|:---------------------------- |
-|                      Guards: | 4                            |
-|                       Locks: | 8                            |
-|                     Cameras: | 3                            |
 |                      Events: | 1-7, S3, 8-16, S1, 17-20, S3 |
 | Max characters per Entrance: | 2                            |
 |     Max characters per Exit: | ∞                            |
@@ -236,7 +238,7 @@ http://localhost:3000/?savekey=Estate+Basement|50|230|OIBQBKHpPXUNo8BBFywoBIaZAy
 **Success Unlocks:** Prison Guard
 
 {::comment}
-http://localhost:3000/?savekey=Courthouse|5|170|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
+http://localhost:3000/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
 
 # The University Job
@@ -464,10 +466,6 @@ http://localhost:3000/?savekey=Courthouse|5|170|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAY
 
 |                  Difficulty: | Semi-Pro                 |
 | ----------------------------:|:------------------------ |
-|                      Guards: | 5                        |
-|                        Dogs: | 2                        |
-|                       Locks: | 5                        |
-|                     Cameras: | 4                        |
 |                      Events: | 1-8, S1, 9-12, S2, 13-27 |
 | Max characters per Entrance: | ∞                        |
 |     Max characters per Exit: | 1                        |
@@ -478,7 +476,7 @@ http://localhost:3000/?savekey=Courthouse|5|170|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAY
 **Upon Success:** Gain $10k
 
 {::comment}
-http://localhost:3000/?savekey=The+Bricks|105|235|OIBQBKHpPXUNmAogZkfJyAsG8wFV9MilI0EBlAYTBolvqcdrOiPsk4EF8AhCEWQBWKq3idM4ScTrix+ACJzZAdQAqEAExgAMjuZgtwWvtlswAWVUJrtmxcdTzzpy6hA
+http://localhost:3000/?savekey=The+Bricks|105|235|7|4|5|250|200|OIBQBKHpPXUNmAogZkfJyAsG8wFV9MilI0EBlAYTBolvqdoBEB5YiI+yHgQXwAhLigCsVWkh6Zw0znN6TMLOkrwB1ACoQATGAAye5mB3BahzmXABZdQlv27VyzJdvnHkEA
 {:/comment}
 
 # County Jail: The Hole
@@ -505,12 +503,16 @@ http://localhost:3000/?savekey=The+Bricks|105|235|OIBQBKHpPXUNmAogZkfJyAsG8wFV9M
 
 {:/comment}
 
-
-
 # The Final Score
 
+> So you've decided to hit up the world's largest gang huh?
+{:class="text-message"}
+
+> Lots of moving pieces on this one. You're gonna need a breather halfway through to regroup and adjust your plans. Sorry but this one is out of my league.
+{:class="text-message"}
+
 <div class="handwriting">
-Lots of moving pieces on this one. You're gonna need a breather halfway through to regroup and adjust your plans. Sorry but this one is out of my league.
+
 </div>
 
 This is a two-part heist. For the first part, you must start in the middle of the board and break out of all four doors. For the second heist, your characters keep their ideas and your team may discuss your plan for the next board.
@@ -538,21 +540,19 @@ Plan for the additional heist by setting new planning tokens (you no longer need
 
 # The Final Score: Part 1
 
-https://mastersoftheheist.com/design/?savekey=Ministry+of+Interior|105|190|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzLCSs6J8AlAUWaT2YGlySFBPzTMh7AKwFiCISHhIGooUMg8ma2israqtDQsOiDxoyfNnLp6xahA
-
 <div class="map">
-  <img src="">
+  <img src="interior-ministry-south-wing.png">
 </div>
 
 |                  Difficulty: | Amateur |
 | ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
 |                      Events: | TBD     |
 | Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
 {:class="scenario-stats"}
+
+{::comment}
+http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|250|200|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzLCSs6J8AlAUWaT2YGlySFBPzTMh7AKwFiCISHhIGooUMg8ma2kJpj6MjQsOiDxoyfNnLp6xahA
+{:/comment}
 
 **Objective:**
 
