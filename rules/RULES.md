@@ -353,16 +353,15 @@ TODO: Add more here. On the campaign ledger, fill out the team name and characte
 
 ## Losing a Heist
 
-Each Heist has an objective built into it. If your team does not complete its objective, you do not gain the favor of the Fixer. No Character may level up if the objective is lost, even if those characters escaped. You still keep any loot that was taken.
+Each Heist has an objective built into it. If your team does not complete its objective, you do not gain the favor of the Fixer. You still keep any loot that was taken. All players level up after a heist (see Level Up).
 
 **Stashed away**. Even if every team member is Busted, the Team Cash and known Fixers is available for the next crew.
 
 **Save Scumming**. You may replay a heist from your original conditions (i.e. restore from a previous "saved game").
 
-
 ## Winning a Heist
 
-If you have completed your objective, you have gained the favor of that Fixer. Every character who is not Busted at the end of this heist may Level Up.
+If you have completed your objective, you have gained the favor of that Fixer. All players level up after a heist (see Level Up).
 
 **Sacrifices**. An objective can still be fulfilled even if some characters get Busted.
 
@@ -370,10 +369,11 @@ Leftover 💡 are lost. Any cash on a Character is added to the Team Cash tracke
 
 ## Level Up
 
-Each Amateur character is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Record your choice on your character sheet. Pro characters cannot be promoted. Skill cards work the same way.
+**Players level up**, not just characters. Every human player starts at level 1 when they are new to this game. At the end of every heist, regardless of the objective outcome or character fate, every *player* levels up. For the next heist, a player may start with a character of the player's level (or less). That character may be new or used previously. The state of a character is still preserved between heists, for example, if a character is Busted they remain Busted for the next heist.
 
-**Progression**. The first time you level up, upgrade one Skill card of your choice. The second time, upgrade your Character. The third time, upgrade your other Skill.
+**Progression**. The first time you level up, upgrade one Skill card of your choice. The second time, upgrade your Character. The third time, upgrade your other Skill. The maximum player and character level is 4 (both pro Skills and a pro Character).
 
+Each Amateur card is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Record your choice on your character sheet. Skill cards work the same way.
 
 <div class="pagebreak"/>
 
