@@ -501,36 +501,32 @@ http://localhost:3000/?savekey=The+Bricks|105|235|7|4|5|250|200|OIBQBKHpPXUNmAog
 
 # The Final Score
 
-> So you've decided to hit up the world's largest gang huh?
+> So you've decided to hit up the world's largest gang huh? Nice.
 {:class="text-message"}
 
-> Lots of moving pieces on this one. You're gonna need a breather halfway through to regroup and adjust your plans. Sorry but this one is out of my league.
+> Wait... you're gonna STAY in there hidden with all those government secrets?
+{:class="text-message"}
+
+> Lots of moving pieces on this one. Sorry but this one is out of my league.
 {:class="text-message"}
 
 <div class="handwriting">
 
 </div>
 
-This is a two-part heist. For the first part, you must start in the middle of the board and break out of all four doors. For the second heist, your characters keep their ideas and your team may discuss your plan for the next board.
+This is a two-part heist.
+
+  * Part 1. You will be stealing the government secrets from their vault, then hiding in the building itself.
+  * Part 2. Once the alarms die down, make a break for it! Break out of all four doors.
 
 Your **Old Friend** Fixer is not available for this heist.
 
-If you have been introduced to (i.e. unlocked) two or more Fixers who can work with a given faction, you are considered a **friend** of that faction. Otherwise, you are an **enemy** of that faction. (Your Old Friend does not count.)
-
-For each enemy faction, the following happens:
-
-  * *Corrupt Cops*: add four Guard Dog tokens to the bag
-  * *Hackers*: add a Watchtower to a certain corner
-  * *Fence Cartel*: add a Reinforcement token in the southwest corner of the first map
-  * *Mafia*: add a hostage to one of the unlocked gates. You must rescue this hostage
-
-Once the alarm sounds for the first heist, finish it as normal. You may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.
+Once the alarm sounds for the first heist, your only escape points are the hideouts*.  You may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.
 
 Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
 
-## NOTES
-* Part 1: we're setting up a tunnel along the south hallway. You choose the entrypoint and send two people there. The other two must go through the west entrance.
-* Part 1: this needs to look like a robbery. Steal at least $5k worth of money.
+## Special Rules
+
 * Before Part 2: the two people who are on the same tile can share ideas with each other between heists.
 
 
@@ -540,17 +536,30 @@ Plan for the additional heist by setting new planning tokens (you no longer need
   <img src="interior-ministry-south-wing.png">
 </div>
 
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
+| Difficulty: | Amateur |
+| -----------:|:------- |
+|     Events: | TBD     |
 {:class="scenario-stats"}
 
 {::comment}
 http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|250|200|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzLCSs6J8AlAUWaT2YGlySFBPzTMh7AKwFiCISHhIGooUMg8ma2kJpj6MjQsOiDxoyfNnLp6xahA
 {:/comment}
 
-**Objective:**
+> We need two people to go in through the loading dock and then we'll have the other two come in through our tunnel under the south wall.
+{:class="text-message"}
+
+> Also, this needs to look like a regular robbery. Steal at least $5k worth of money.
+{:class="text-message"}
+
+**Special rules:**
+  * TUNNEL UNDER THE SOUTH WALL. Choose the entrypoint
+  * SMALL HIDEOUTS. Maximum of 2 characters per hideout*
+
+**Objectives:**
+  * Steal the keycard and break into the vault.
+  * Escape to the hideouts.
+
+**Between Part 1 and Part 2**. Characters who share a hideout can
 
 # The Final Score: Part 2
 
