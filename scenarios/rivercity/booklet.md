@@ -559,7 +559,7 @@ http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|
   * Steal the keycard and break into the vault.
   * Escape to the hideouts.
 
-**Between Part 1 and Part 2**. Characters who share a hideout can
+**Between Part 1 and Part 2**. Characters who share a hideout can share (transfer) Ideas with each other.
 
 # The Final Score: Part 2
 
