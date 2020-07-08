@@ -9,6 +9,8 @@ You will start as an Amateur criminal with Amateur skills who is new to River Ci
 
 Version ⏱
 
+_Please note that this rulebook is a draft. We are in the process of blind playtesting and will be testing the readability and usability of this document. Expect change._
+
 
 <div class="pagebreak"/>
 
@@ -21,28 +23,30 @@ Version ⏱
 
 {:.parts-list}
 
-* 28 Blank/Security hex tiles
-* 4 Lockdown Gate hex tiles
+* 32 Blank/Security hex tiles
+* 4 Lockdown Gate hex
 * 5 Entrance square tiles
 * 16 Character cards
 * 24 Skill cards
-* 18 Event cards
+* 42 Event cards
+* 6 Item cards
 * 6 Special Event cards
-* 10 Lock chits
-* 10 Camera chits (circle)
+* 12 Fixer cards
+* Noise tracker card
+* 12 Lock chits (circle)
+* 12 Camera chits (circle)
 * 14 Guard chits (circle)
-* 10 Artwork chits (square)
 * 4 Jewel chits (circle)
+* 1 USB key chit (circle)
 * 4 Control Panel chits (circle)
 * 8 Pressure Sensors (ring)
-* 1 Story chit (circle)
+* 2 Story chits (circle)
 * 36 Idea💡 chits (oval)
 * 4 Player meeples
-* 1 Prisoner pawn (white)
-* 48 Planning hex chits
+* 1 NPC pawn (white)
+* 48 Planning mini hex chits
 * 5 six-sided dice
 * 12 Petty Cash chits
-* Noise tracker card
 * 4 Game Helps
 
 <div class="pagebreak"/>
@@ -128,6 +132,8 @@ Skills and Characters allow you to take Actions. Every Action is just a grouping
 * ⚠ is  **Alert**. Discard the top Event card. (Required)
 {:.subactions}
 
+<div class="pagebreak"/>
+
 <div class="characters">
 ## Characters
 
@@ -185,7 +191,9 @@ Every Event Deck will have a few Crisis cards in them. They are particularly str
 
 **Not an Alert**. Crisis cards do _not_ count as Alerts. When a Crisis card is the top-most card in the Event Deck, immediately set it aside and continue dealing Event cards.
 
-To summarize, you will be doing one (non-special) event per round, and zero or more crises per round.
+To summarize, you will be doing one Event per round, then zero or more Crises per round.
+
+<div class="pagebreak"></div>
 
 ## Noise
 
@@ -213,7 +221,7 @@ Throughout your time in River City, you will be introduced to various people who
 
 **Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
 
-
+<div class="pagebreak"/>
 
 # Heist Gameplay
 
@@ -332,7 +340,7 @@ When the Escape Phase is initiated, all Gates close and all Security chits are r
 **No Help Out**. You MAY NOT use Help Out during the Escape phase.
 
 <div class="example">
-<img src="../img/figure_escape.svg"><br>
+<img src="../img/figure_escape.svg" class="img-right"><br>
 *Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.
 </div>
 
@@ -423,7 +431,7 @@ The Watchtower is a thermal imaging system that can detect body movement across 
 
 ## Cash
 
-* Considered to be one piece of loot no matter how much it was. 
+* Considered to be one piece of loot no matter how much it was.
 
 # Additional Modules
 
@@ -452,24 +460,26 @@ A special loot chit is the **Story Beacon**, denoted by a question mark. When a 
 
 # Pre-Built Characters
 
+TODO: finish filling these out.
+
 <!-- •••••••••••••••••• -->
 
-|                                                                    |      Name      |                Character & Skills                | ➜             | 💡      | 🔍   | 🔓     | 👊  | 📷   | 🔊                   |
-|:------------------------------------------------------------------:|:--------------:|:------------------------------------------------:| ------------- | ------- | ---- | ------ | --- | ---- | -------------------- |
-| ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.s} | Johnny Swagger | **Angry Locksmith** <br/> Smash 'n' Grab, Bypass | ∎∎∎∎∎∎∎∎∎∎    | ∎∎∎     | ∎∎∎∎ | ∎∎     | ∎∎  | ∎∎   | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎    |
-| ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.s} |     Karma      |     **Angry Locksmith** <br/> Hurry, Wing It     | ∎∎∎∎∎∎∎∎∎∎∎∎  | ∎∎∎∎    | ∎∎∎  | ∎∎∎    | ∎∎  | ∎∎   | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎ |
-|            ![thug shadow](../img/shadows/thug.svg){:.s}            |    Jitters     |         **Thug** <br/> Hurry, Yank Wires         | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎∎ | ∎∎∎  | ∎      |     | ∎∎∎∎ | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎  |
-|            ![thug shadow](../img/shadows/thug.svg){:.s}            |   Tiny Mike    |          **Thug** <br/> Wing It, Bypass          | ∎∎∎∎∎∎∎∎∎∎∎   | ∎∎      | ∎∎   | ∎∎∎∎∎∎ | ∎∎  | ∎∎   | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎  |
-|   ![street urchin shadow](../img/shadows/street urchin.svg){:.s}   |     Enigma     |      **Street Urchin** <br/> Hurry, Bypass       | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎  | ∎    | ∎∎∎∎∎  |     |      | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎    |
-|   ![street urchin shadow](../img/shadows/street urchin.svg){:.s}   |    Iceheart    |   **Street Urchin** <br/> Wing It, Yank Wires    |               |         |      |        |     |      |                      |
-|   ![script kiddie shadow](../img/shadows/script kiddie.svg){:.s}   |     Phobia     |  **Script Kiddie** <br/> Smash 'n' Grab, Bypass  |               |         |      |        |     |      |                      |
-|   ![script kiddie shadow](../img/shadows/script kiddie.svg){:.s}   |      Null      |    **Script Kiddie** <br/> Hurry, Yank Wires     |               |         |      |        |     |      |                      |
-|         ![burglar shadow](../img/shadows/burglar.svg){:.s}         |    Showtime    |        **Burglar** <br/> Bypass, Wing It         |               |         |      |        |     |      |                      |
-|         ![burglar shadow](../img/shadows/burglar.svg){:.s}         |     Clutch     |   **Burglar** <br/> Smash 'n' Grab, Yank Wires   |               |         |      |        |     |      |                      |
-|         ![lookout shadow](../img/shadows/lookout.svg){:.s}         |   Crazy Eyes   |         **Lookout** <br/> Hurry, Wing It         |               |         |      |        |     |      |                      |
-|         ![lookout shadow](../img/shadows/lookout.svg){:.s}         |     Smokes     |     **Lookout** <br/> Smash 'n' Grab, Bypass     |               |         |      |        |     |      |                      |
-|      ![pickpocket shadow](../img/shadows/pickpocket.svg){:.s}      |     Status     |      **Pickpocket** <br/> Hurry, Yank Wires      |               |         |      |        |     |      |                      |
-|      ![pickpocket shadow](../img/shadows/pickpocket.svg){:.s}      |     Locket     | **Pickpocket** <br/> Hit 'n' Run, Smash 'n' Grab |               |         |      |        |     |      |                      |
-|     ![shutter bug shadow](../img/shadows/shutter bug.svg){:.s}     |     F-Stop     |      **Shutter Bug** <br/> Wing It, Bypass       |               |         |      |        |     |      |                      |
-|     ![shutter bug shadow](../img/shadows/shutter bug.svg){:.s}     |    Stretch     |     **Shutter Bug** <br/> Hurry, Hit 'n' Run     |               |         |      |        |     |      |                      |
+|                                                                    |      Name      |                Character & Skills                | ➜             | 💡      | 🔍   | 🔓     | 👊  | 📷     | 🔊                    |
+|:------------------------------------------------------------------:|:--------------:|:------------------------------------------------:| ------------- | ------- | ---- | ------ | --- | ------ | --------------------- |
+| ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.s} | Johnny Swagger | **Angry Locksmith** <br/> Smash 'n' Grab, Bypass | ∎∎∎∎∎∎∎∎∎∎    | ∎∎∎     | ∎∎∎∎ | ∎∎     | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
+| ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.s} |     Karma      |     **Angry Locksmith** <br/> Hurry, Wing It     | ∎∎∎∎∎∎∎∎∎∎∎∎  | ∎∎∎∎    | ∎∎∎  | ∎∎∎    | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎  |
+|            ![thug shadow](../img/shadows/thug.svg){:.s}            |    Jitters     |         **Thug** <br/> Hurry, Yank Wires         | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎∎ | ∎∎∎  | ∎      |     | ∎∎∎∎   | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎   |
+|            ![thug shadow](../img/shadows/thug.svg){:.s}            |   Tiny Mike    |          **Thug** <br/> Wing It, Bypass          | ∎∎∎∎∎∎∎∎∎∎∎   | ∎∎      | ∎∎   | ∎∎∎∎∎∎ | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎   |
+|   ![street urchin shadow](../img/shadows/street urchin.svg){:.s}   |     Enigma     |      **Street Urchin** <br/> Hurry, Bypass       | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎  | ∎    | ∎∎∎∎∎  |     |        | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
+|   ![street urchin shadow](../img/shadows/street urchin.svg){:.s}   |    Iceheart    |   **Street Urchin** <br/> Wing It, Yank Wires    | ∎∎∎∎∎∎∎∎∎∎∎   | ∎∎∎     | ∎∎∎∎ | ∎∎     | ∎∎  | ∎∎∎∎∎∎ | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎ |
+|   ![script kiddie shadow](../img/shadows/script kiddie.svg){:.s}   |     Phobia     |  **Script Kiddie** <br/> Smash 'n' Grab, Bypass  |               |         |      |        |     |        |                       |
+|   ![script kiddie shadow](../img/shadows/script kiddie.svg){:.s}   |      Null      |    **Script Kiddie** <br/> Hurry, Yank Wires     |               |         |      |        |     |        |                       |
+|         ![burglar shadow](../img/shadows/burglar.svg){:.s}         |    Showtime    |        **Burglar** <br/> Bypass, Wing It         |               |         |      |        |     |        |                       |
+|         ![burglar shadow](../img/shadows/burglar.svg){:.s}         |     Clutch     |   **Burglar** <br/> Smash 'n' Grab, Yank Wires   |               |         |      |        |     |        |                       |
+|         ![lookout shadow](../img/shadows/lookout.svg){:.s}         |   Crazy Eyes   |         **Lookout** <br/> Hurry, Wing It         |               |         |      |        |     |        |                       |
+|         ![lookout shadow](../img/shadows/lookout.svg){:.s}         |     Smokes     |     **Lookout** <br/> Smash 'n' Grab, Bypass     |               |         |      |        |     |        |                       |
+|      ![pickpocket shadow](../img/shadows/pickpocket.svg){:.s}      |     Status     |      **Pickpocket** <br/> Hurry, Yank Wires      |               |         |      |        |     |        |                       |
+|      ![pickpocket shadow](../img/shadows/pickpocket.svg){:.s}      |     Locket     | **Pickpocket** <br/> Hit 'n' Run, Smash 'n' Grab |               |         |      |        |     |        |                       |
+|     ![shutter bug shadow](../img/shadows/shutter bug.svg){:.s}     |     F-Stop     |      **Shutter Bug** <br/> Wing It, Bypass       |               |         |      |        |     |        |                       |
+|     ![shutter bug shadow](../img/shadows/shutter bug.svg){:.s}     |    Stretch     |     **Shutter Bug** <br/> Hurry, Hit 'n' Run     |               |         |      |        |     |        |                       |
 {:.prebuilt}

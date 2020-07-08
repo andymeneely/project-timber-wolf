@@ -35,3 +35,4 @@
   * Drew Heintz
   * Tanner Glantz
   * Josiah Meneely
+  * Bonnie Meneely

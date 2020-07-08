@@ -144,6 +144,10 @@ table.security-table {
 }
 
 .example img {
+  margin: 0;
+}
+
+img.img-right{
   float: right;
   margin: 0;
   margin-left: 0.5em;
