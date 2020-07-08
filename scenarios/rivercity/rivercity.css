@@ -1,7 +1,7 @@
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
   font-size: 10pt;
-  line-height: 1.05;
+  line-height: 1;
 }
 
 @page {
@@ -18,8 +18,8 @@ body{
 
 p{
   margin-top: 0;
-  margin-bottom: 0.35em;
-  line-height: 1.10;
+  margin-bottom: 0.15em;
+  line-height: 1;
 }
 
 table{
@@ -45,6 +45,11 @@ ul {
 .difficulty-table td{
   border: none;
   text-align: center;
+}
+
+.difficulty {
+  display: block;
+  float: right;  
 }
 
 h1{
@@ -89,7 +94,7 @@ hr {
 }
 
 .text-message {
-  font-family: 'Archivo Narrow';
+  font-family: 'Roboto Condensed';
   position: relative;
 	background: #ccc;
 	border-radius: 0.4em;

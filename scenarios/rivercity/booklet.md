@@ -18,6 +18,39 @@ River City is an **open-ended sandbox** campaign.
 * You are welcome to **explore this booklet** without spoilers.
 * **Players can come and go**. Your party can change between heists as needed.
 * When a character is Busted, your team may opt to do a **breakout**. See page 3.
+* During planning, you may visit the Shop to **purchase items**.
+
+---
+
+* Choose an entirely Amateur team.
+* Gain the *Old Friend* Fixer.
+* You have $0k team cash.
+{:class="directions"}
+
+# Opportunities
+
+> The city is bursting with great opportunities and new people to meet.
+  Let me know what you want and I'll arrange the introduction.
+{:class="text-message"}
+
+| Opportunity           | Difficulty | Unlocks Fixer        | Page |
+|:--------------------- |:---------- |:-------------------- |:---- |
+| The Inclusion Job     | Amateur    | Pawn Shop Owner      | 4    |
+| Chain of Custody      | Amateur    | Frustrated Beat Cop  | 5    |
+| The Track Job         | Amateur    | Bookie               | 7    |
+| The Startup Job       | Semi-Pro   | Visage               | 6    |
+| Rivalries             | Semi-Pro   | Extorted Locksmith   | 11   |
+| The Blind Justice Job | Semi-Pro   | Prison Guard         | 9    |
+| The Amnesty Job       | Semi-Pro   | Security Consultant  | 12   |
+| TBD                   | Semi-Pro   | Looting Specialist   | 10   |
+| The Exhibition        | Semi-Pro   | Unscrupulous Jeweler | 8    |
+| Server Farm           | Semi-Pro   | Shell                | 13   |
+| The University Job    | Pro        | The Architect        | 16   |
+| The Safehouse Rescue  | Pro        | Retired Mastermind   | 17   |
+| The Final Score       | Pro        | The Minister         | 21   |
+{:class='tabletoc'}
+
+**The Final Score**. This finale is a challenging, two-part heist. You may attempt it at any time. We recommend a fully Pro team.
 
 Heists are labelled with their difficulty based on the team:
 
@@ -28,61 +61,18 @@ Heists are labelled with their difficulty based on the team:
 | Pro        | > 3        |
 {:class="difficulty-table"}
 
----
+# County Jail Opportunities
 
-* Choose an entirely Amateur team.
-* Gain the *Old Friend* Fixer.
-* Gain $5k of team cash.
-{:class="directions"}
-
-# Opportunities
-
-| Opportunity           | Difficulty | Unlocks Fixer       | Faction       | Page |
-|:--------------------- |:---------- |:------------------- |:------------- |:----:|
-| The Inclusion Job     | Amateur    | Pawn Shop Owner     | Fence         |  4   |
-| Chain of Custody      | Amateur    | Frustrated Beat Cop | Cops          |  5   |
-| The Startup Job       | Amateur    | Tech Support Guy    | Hackers       |  6   |
-| Semper Paratus        | Amateur    | Extorted Locksmith  | Mafia         |  7   |
-| The Exhibition        | Semi-Pro   | The Curator         | Fence         |  8   |
-| The Blind Justice Job | Semi-Pro   | Prison Guard        | Cop           |  9   |
-| The University Job    | Semi-Pro   | Spammer             | Hackers       |  10  |
-| Rivalries             | Semi-Pro   | "Retired" Thief     | Mafia         |  11  |
-| The Amnesty Job       | Semi-Pro   | Online Mogul        | Hackers+Mafia |  12  |
-| The One that Got Away | Semi-Pro   | Retired Detective   | Cops+Fences   |  13  |
-| History is Expensive  | Pro        | The Tunneler        | Fence         |  14  |
-| Mayoral Race          | Pro        | Burned Out Sergeant | Cops          |  15  |
-| Server Farm           | Pro        | Internet Troll      | Hacker        |  16  |
-| Safehouse             | Pro        | Recruiter           | Mafia         |  17  |
-| The Final Score       | Pro        | (none)              | (none)        |  21  |
-{:class='tabletoc'}
-
-**The Final Score**. This finale is a challenging, two-part heist. You may attempt it at any time. We recommend a fully Pro team.
-
-## Factions
-
-**Fence Cartel**. A bunch of snooty academics, this collective can really help you make money moving merchandise like artwork and jewelry.
-
-**Corrupt Cops**. For when you need guards or get busted.
-
-**Hacker Collective**. Experts at cameras and information.
-
-**Mafia**. They're people people. And they've been doing this a lot longer us.
-
-*Remember:* most Fixers only work with others in their faction for a given heist. However, you can still be introduced to Fixers of multiple factions across the campaign.
-
-# County Jail
+> Busted? Minor occupational hazard.
+{:class="text-message"}
 
 If a character is busted, you may simply build a new Amateur character. Alternatively, your team my opt to rescue you. Even if the entire team is busted, you may opt for a breakout using these rules.
 
 ---
 
-**Breakout Rule**. No limit on the number of characters on entrances. However, each character must leave out a different exit. If they do not, all characters are Busted.
-
-**Help from Outside**. Busted characters must start inside the jail. Non-Busted characters must start outside of the jail.
-
-**Rehabilitated?** Characters who started the breakout Busted may level up if they escape. Characters who started the breakout Non-Busted do not level up.
-
-**Pick Your Moment**. Your team may choose which opportunity is appropriate. The more difficult the job, the more profitable it is.
+  * **Spread Out**. No limit on the number of characters on entrances. However, each character must leave out a different exit. If they do not, all characters are Busted.
+  * **Break-in to Breakout**. Busted characters must start inside the jail. Non-Busted characters must start outside of the jail.
+  * **Pick Your Moment**. Your team may choose which opportunity is appropriate. The more difficult the job, the more profitable it is.
 
 ---
 
@@ -108,7 +98,7 @@ If a character is busted, you may simply build a new Amateur character. Alternat
 
 You receive a text from the Pawn Shop Owner:
 
-> Our friends down the road have decided to experiment with capitalism again. I need to show them the cost of leaving a cartel."
+> Our friends down the road have decided to experiment with capitalism again. I need to show them the cost of leaving a cartel.
 {: class="text-message"}
 
 "If you help me with this, I can move merchandise for you better than your friend here."
@@ -409,28 +399,34 @@ http://localhost:3000/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQBKHpPXUNo+TIFEA
 
 {:/comment}
 
-# Safehouse
+# The Safehouse Rescue
+
 
 <div class="map">
-  <img src="">
+  <img src="parking-garage.png">
 </div>
 
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
+
+| Difficulty | Pro                                         |
+| ----------:|:------------------------------------------- |
+|     Events | 1-3, 5-9, 11-13, 16-24, S1, 25              |
+|  Objective | Rescue Prisoner before she reaches the van* |
 {:class="scenario-stats"}
 
-**Objective:**
+> Found the safehouse where the feds keep my mentor. Perfect consultant for this crew. Let's get her in transit.
+{: class="text-message"}
 
-**Success Unlocks:** Recruiter
+**Special Rules:**
+
+  * MOVING TARGET. Each round, except the first round, move all guards and Prisoner one hex in a straight line closer to the van.
+  * GUARDS HAVE KEYS. Guards and Captured Prisoner move without restriction.
+  * AMBUSH REQUIRED. All four Guards must be subdued **in a single round**. If one is subdued but not the others, activate the S1 crisis during Event phase early.
+  * ABORT ABORT ABORT. Prisoner cannot be rescued during the Escape Phase.
+
+**Success Unlocks:** Retired Mastermind
 
 {::comment}
-
+http://localhost:3000/design?savekey=Parking+Garage|0|60|0|10|6|20|180|OIBQBKHpCiBMYYFkquYgrKyPrgMoDCqR2eZFkAMgtbebhAuqa8aY40gOqIovEASjDCkAVJWYo2o9nMoNyhemBoL1kGR0Uad6TjoOIAjAqA
 {:/comment}
 
 

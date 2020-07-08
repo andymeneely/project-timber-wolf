@@ -205,18 +205,15 @@ The objective of the heist is (usually) to steal Loot chits, which can be  Jewel
 
 **Not Ours Until It's Out**. When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
+</div>
+
 ## Fixers
 
-Throughout your time in River City, you will be introduced to various people who can help your planning. Completing heists give you access to new abilities and ways to spend your Team Cash. You can use as many Fixers as you have unlocked in planning, however Factions may limit your choices. You start with Old Friend.
-
-**Factions**. Most Fixers are members of a Faction and will not work with members of other factions for a given heist. Multiple fixers from the same faction can be combined. Old Friend is not part of any faction, and thus works with everyone.
+Throughout your time in River City, you will be introduced to various people who can help your planning. Completing heists give you access to new abilities and ways to spend your Team Cash. You can use as many Fixers as you have unlocked in planning.
 
 **Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
 
-*Fixer faction example*. You unlock the Pawn Shop Owner and the Frustrated Beat Cop. On your next heist, you have to choose one or the other during the Planning Phase to use in addition to your Old Friend. Later, you unlock Retired Detective, which allows Fences and Cops to work together, in which case you can use all of them together.*
-{:.example}
 
-</div>
 
 # Heist Gameplay
 
@@ -241,7 +238,11 @@ The structure of each heist is:
 Blue and Red place their planning tokens.
 </div>
 
-With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
+**Visit the Shop.** Your heists will earn you money to purchase Items.
+*Note: on your first heist, you have $0k team cash and therefore cannot purchase anything from the shop*
+
+
+**Place Planning Tokens**. With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
 
 
 
@@ -290,8 +291,6 @@ In this phase, you use your die to execute one Action. You have a minimum of fou
 
 *Example of Undoing*. Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.*
 {:.example}
-
-**Help Out**. If you are Outdoors, you may spend 💡💡 to give 💡 to any player, any number of times, in addition to your action. _**This does not apply to the Escape phase!**_ (Sorry.)
 
 **Initiate escape any time**. You may opt to initiate Escape Phase at any time (see *Escape Phase*).
 
@@ -417,6 +416,14 @@ The Watchtower is a thermal imaging system that can detect body movement across 
 {:.example-right .card-portrait}
 
 <div class="pagebreak"/>
+
+## USB key
+
+* Not considered Loot for the purposes of Lock the Goods
+
+## Cash
+
+* Considered to be one piece of loot no matter how much it was. 
 
 # Additional Modules
 
