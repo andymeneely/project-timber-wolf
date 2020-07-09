@@ -28,6 +28,11 @@ end
 
 task color: [:with_color, :default]
 
+task :sheets do
+  Squib.enable_build_globally :sheets
+  Rake::Task['color'].invoke
+end
+
 task :with_color do
   ENV['SQUIB_BUILD'] ||= ''
   ENV['SQUIB_BUILD'] += ',color'

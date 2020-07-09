@@ -34,9 +34,14 @@ Squib::Deck.new(cards: data.nrows) do
   text str: data['Name'], layout: :title, font_size: titlesizes
 
   text layout: :Special, str: data.description
-  text layout: :Faction, str: data.faction
-  text layout: :Special, str: data.membership, y: 700, font_size: 8
+  # text layout: :Faction, str: data.faction
+  # text layout: :Special, str: data.membership, y: 700, font_size: 8
 
   save_png prefix: 'fixer_'#, range: 0
   save_pdf file: 'fixers.pdf', trim: '0.125in'#, range: 0
+
+  build :sheets do
+    save_sheet prefix: 'sheet_fixers_', columns: 5, rows: 5
+  end
+
 end

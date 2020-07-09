@@ -35,4 +35,8 @@ Squib::Deck.new(cards: total) do
     [1].include?(x.to_i) ? i : nil
   end.compact
   save_pdf file: 'character_backs.pdf', trim: '0.125in', range: only_lvl1_2
+
+  build :sheets do
+    save_sheet prefix: 'sheet_characters_backs_', columns: 5, rows: 5
+  end
 end

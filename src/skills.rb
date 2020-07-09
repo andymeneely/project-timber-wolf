@@ -40,6 +40,10 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   save_pdf file: 'skills-k40.pdf', width: '8.5in', height: '11in',
            margin: '0.125in', trim: '0.05in'
 
+  build :sheets do
+    save_sheet prefix: 'sheet_skills_', columns: 5, rows: 5
+  end
+
   build :rulebook_figures do
     %i(Action DieRoll Lacks).each do |fig|
       text layout: "Figure#{fig}"

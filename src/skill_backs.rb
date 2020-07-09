@@ -58,6 +58,10 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
 
   save_png prefix: 'skill_back_', rotate: true#, range: 0
 
+  build :sheets do
+    save_sheet prefix: 'sheet_skills_backs_', columns: 5, rows: 5
+  end
+
   only_lvl1_2 = data['Level'].map.with_index { |x,i| [1].include?(x.to_i) ? i : nil }.compact
   save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: only_lvl1_2
 

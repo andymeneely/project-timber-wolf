@@ -1,5 +1,6 @@
             ╭------------------------------------╮
        Name | Hidden Cameras                     |
+        Qty | 1                                  |
       Order | 1                                  |
       Story | How did we miss those?             |
 Description | Add three Cameras to the security  |
@@ -7,6 +8,7 @@ Description | Add three Cameras to the security  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Get Outta My Way!                  |
+        Qty | 1                                  |
       Order | 2                                  |
       Story | "I was all ready to go until SOMEO |
             | NE tripped over me."               |
@@ -16,6 +18,7 @@ Description | Discard two Events for each Entran |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Caught in a Reflection             |
+        Qty | 1                                  |
       Order | 3                                  |
       Story | The guard monitoring the cameras s |
             | ees movement in a reflection and l |
@@ -25,6 +28,7 @@ Description | Discard one Event if any Character |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Suspicious Guards                  |
+        Qty | 1                                  |
       Order | 4                                  |
       Story | Guards start looking around.       |
 Description | Discard one Event if any Character |
@@ -33,6 +37,7 @@ Description | Discard one Event if any Character |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard Locks Himself In             |
+        Qty | 1                                  |
       Order | 5                                  |
       Story | A quick-thinking guard locks the d |
             | oor behind him, ready for a fight. |
@@ -43,6 +48,7 @@ Description | Add a Lock to every hex with an un |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Huh, Didn't See Those              |
+        Qty | 1                                  |
       Order | 6                                  |
       Story | You underestimated how many locks  |
             | were around here.                  |
@@ -51,6 +57,7 @@ Description | Add two Locks to the security bag. |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shadows in the Window              |
+        Qty | 1                                  |
       Order | 7                                  |
       Story | Your movement is noticed by an une |
             | xpected outsider who calls it in.  |
@@ -60,6 +67,7 @@ Description | Discard one Event if any Character |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Automated System Reboot            |
+        Qty | 1                                  |
       Order | 8                                  |
       Story | The camera system notices multiple |
             |  blackouts and reboots.            |
@@ -69,6 +77,7 @@ Description | Re-enable every Disabled Camera ad |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Double Camera                      |
+        Qty | 1                                  |
       Order | 9                                  |
       Story | I didn't realize that was two came |
             | ras.                               |
@@ -78,6 +87,7 @@ Description | Add a Live Camera to any tile that |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Increased Suspicion                |
+        Qty | 1                                  |
       Order | 10                                 |
       Story | More movement gets noticed.        |
 Description | Discard one Event if any Character |
@@ -88,6 +98,7 @@ Description | Discard one Event if any Character |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Oops! Re-locked                    |
+        Qty | 1                                  |
       Order | 11                                 |
       Story | The one time you don't want to loc |
             | k things behind you.               |
@@ -97,6 +108,7 @@ Description | Any character on a tile with an op |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard Starts Blabbing              |
+        Qty | 1                                  |
       Order | 12                                 |
       Story | Fearful of what might happen to hi |
             | m, a guard begins blabbing. He's n |
@@ -106,6 +118,7 @@ Description | Any character on a subdued Guard m |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Overwhelmed                        |
+        Qty | 1                                  |
       Order | 13                                 |
       Story | "What have I gotten myself into??" |
             |                                    |
@@ -115,6 +128,7 @@ Description | Any character adjacent to two or m |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Door Rattles                       |
+        Qty | 1                                  |
       Order | 14                                 |
       Story | Guards hear you rattling a door to |
             |  see if it opens.                  |
@@ -124,6 +138,7 @@ Description | Add a Guard to any tile that has a |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | I Thought I Had Him                |
+        Qty | 1                                  |
       Order | 15                                 |
       Story | "Okay nobody do what he just did." |
             |                                    |
@@ -134,6 +149,7 @@ Description | Un-Subdue every Guard that shares  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Cameras Rotate                     |
+        Qty | 1                                  |
       Order | 16                                 |
       Story | More movement gets noticed.        |
 Description | Discard one Event if any Character |
@@ -143,6 +159,7 @@ Description | Discard one Event if any Character |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Stage Whisper                      |
+        Qty | 1                                  |
       Order | 17                                 |
       Story | "Hey… what if we…"                 |
 Description | Any two characters who are adjacen |
@@ -151,6 +168,7 @@ Description | Any two characters who are adjacen |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Moment of Doubt                    |
+        Qty | 1                                  |
       Order | 18                                 |
       Story | "Am I following the plan?"         |
 Description | Remove an idea 💡 (if possible) fro |
@@ -161,6 +179,7 @@ Description | Remove an idea 💡 (if possible) fro |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hey You!                           |
+        Qty | 1                                  |
       Order | 19                                 |
       Story | "They actually check these cameras |
             | , don't they?"                     |
@@ -170,6 +189,7 @@ Description | Add a Guard to each tile that has  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hurry Up!                          |
+        Qty | 1                                  |
       Order | 20                                 |
       Story | "If you don't handle him now I'm n |
             | ot coming back for ya!"            |
@@ -179,6 +199,7 @@ Description | Any character that shares a tile w |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fear of the Unknown                |
+        Qty | 1                                  |
       Order | 21                                 |
       Story | "I really have no idea what I'm do |
             | ing"                               |
@@ -188,6 +209,7 @@ Description | Any character who has planned tile |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fumble the Loot                    |
+        Qty | 1                                  |
       Order | 22                                 |
       Story | "Huh, we didn't think about how to |
             |  carry this stuff"                 |
@@ -199,6 +221,7 @@ Description | Any indoor character with loot tha |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Ties Broke!                        |
+        Qty | 1                                  |
       Order | 23                                 |
       Story | Emboldened by the alerts that have |
             |  been raised, the Guards begin esc |
@@ -208,6 +231,7 @@ Description | Un-Subdue every Subdued Guard that |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Watch Out!!                        |
+        Qty | 1                                  |
       Order | 24                                 |
       Story | Knowing we're near the end, your c |
             | olleague helps guide you out.      |
@@ -217,12 +241,14 @@ Description | If a character is outside, an insi |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sound the Alarm!                   |
+        Qty | 1                                  |
       Order | 25                                 |
       Story | This is it.                        |
 Description | Initiate Escape Phase.             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Did You See Something?             |
+        Qty | 1                                  |
       Order | A1                                 |
       Story | Guards are studying the cameras mo |
             | re closely now.                    |
@@ -232,6 +258,7 @@ Description | Add a Guard to each tile that has  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Where is He?                       |
+        Qty | 1                                  |
       Order | A3                                 |
       Story | A wandering guard notices his subd |
             | ued colleague.                     |
@@ -241,6 +268,7 @@ Description | Add a Guard to every hex with a Li |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Ties Broke!                        |
+        Qty | 1                                  |
       Order | A4                                 |
       Story | Emboldened by the alerts that have |
             |  been raised, the Guards begin esc |
@@ -250,6 +278,7 @@ Description | Un-Subdue every Subdued Guard that |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Tamper-Proof Cameras               |
+        Qty | 1                                  |
       Order | B1                                 |
       Story | You notice that they have done som |
             | e recent hardware upgrades.        |
@@ -258,6 +287,7 @@ Description | Replace a Camera in the bag with a |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Are Those New Locks?               |
+        Qty | 1                                  |
       Order | B2                                 |
       Story | "I don't remember seeing those"    |
 Description | Replace a Lock in the bag with a 2 |
@@ -265,6 +295,7 @@ Description | Replace a Lock in the bag with a 2 |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Big Guard                          |
+        Qty | 1                                  |
       Order | B3                                 |
       Story | "Wow, she looks much bigger up clo |
             | se"                                |
@@ -273,6 +304,7 @@ Description | Replace a Guard in the bag with a  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sick Him!                          |
+        Qty | 1                                  |
       Order | D1                                 |
       Story | "Man's best friend. Right now I wi |
             | sh I was that man."                |
@@ -282,6 +314,7 @@ Description | Add a Dog token to each tile with  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard the Loot Boy!                |
+        Qty | 1                                  |
       Order | D2                                 |
       Story | "Hey where are those dogs going?"  |
 Description | Add a Dog token to each tile with  |
@@ -289,6 +322,7 @@ Description | Add a Dog token to each tile with  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gates!                    |
+        Qty | 1                                  |
       Order | G1                                 |
       Story | An automatic system initiates, clo |
             | sing the next two lockdown gates.  |
@@ -299,6 +333,7 @@ Description | Close the next two Gates, starting |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gate                      |
+        Qty | 1                                  |
       Order | G2                                 |
       Story | An automatic system initiates, clo |
             | sing the next lockdown gate.       |
@@ -308,6 +343,7 @@ Description | Close the next Gate, starting with |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Unexpected Lock                    |
+        Qty | 1                                  |
       Order | G3                                 |
       Story | "Who puts a lock on a lockdown gat |
             | e??"                               |
@@ -317,6 +353,7 @@ Description | Add one Lock token to the next ava |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Check that Gate                    |
+        Qty | 1                                  |
       Order | G4                                 |
       Story | "Go check on that gate"            |
 Description | Add one Guard token to the next av |
@@ -325,6 +362,7 @@ Description | Add one Guard token to the next av |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gate!                     |
+        Qty | 1                                  |
       Order | G5                                 |
       Story | An automatic system initiates, clo |
             | sing the next two lockdown gates.  |
@@ -335,6 +373,7 @@ Description | Close the next Gate, starting with |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gates!                    |
+        Qty | 1                                  |
       Order | G6                                 |
       Story | An automatic system initiates, clo |
             | sing the next lockdown gate.       |
@@ -342,4 +381,30 @@ Description | Close the next two Gates, starting |
             |  with "A". Remove the tile. If a c |
             | haracter is on a removed hex, they |
             |  are immediately Busted.           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | According to Plan                  |
+        Qty | 1                                  |
+      Order | M1                                 |
+      Story | "See, it's all going according to  |
+            | plan"                              |
+Description | Nothing happens.                   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Confidence in the Plan             |
+        Qty | 1                                  |
+      Order | M2                                 |
+      Story | "I believe in the plan. It's a sol |
+            | id plan. I think."                 |
+Description | Any character on the inside that h |
+            | as 💡💡 or fewer, gains 💡💡.          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Just Like We Planned It            |
+        Qty | 1                                  |
+      Order | M3                                 |
+      Story | "Almost there!"                    |
+Description | If the heist objective has been sa |
+            | tisfied, add an 💡 to every charact |
+            | er inside.                         |
             ╰------------------------------------╯

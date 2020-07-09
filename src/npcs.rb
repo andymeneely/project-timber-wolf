@@ -38,5 +38,9 @@ Squib::Deck.new(cards: data.nrows) do
   text layout: :Special, str: data.description
 
   save_png prefix: 'npc_'#, range: 0
-  save_pdf file: 'npcs.pdf', trim: '0.125in'#, range: 0
+  save_pdf file: 'npcs.pdf', trim: '0.125in'#, ra1nge: 0
+
+  build :sheets do
+    save_sheet prefix: 'sheet_npcs_', columns: 5, rows: 5
+  end
 end

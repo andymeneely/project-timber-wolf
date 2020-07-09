@@ -72,6 +72,10 @@ Squib::Deck.new(cards: total) do
   save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
   save_pdf file: 'characters-k40.pdf', margin: '0.125in', trim: '0.05in'
 
+  build :sheets do
+    save_sheet prefix: 'sheet_characters_', columns: 5, rows: 5
+  end
+
   build :color do
     showcase range: [0,3,6,9,12,15], file: 'characters_amateurs_showcase.png',
              fill_color: :white
@@ -83,6 +87,8 @@ Squib::Deck.new(cards: total) do
     showcase range: [9,8], file: 'character_showcase.png'
     showcase range: [11], file: 'kelly_showcase.png'
   end
+
+
 
   build :rulebook_figures do
     %i(Level Memory Ideas Action1 Action2 Special Skill1 Skill2).each do |fig|
