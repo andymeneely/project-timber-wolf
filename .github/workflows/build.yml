@@ -1,0 +1,47 @@
+name: Build & Post to GitHub
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: bundle install
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+    - name: Install fonts
+      run: |
+        mkdir ~/.fonts
+        cp -r fonts/ ~/.fonts
+        fc-cache -f -v
+    - name: yarn
+      run: yarn install
+    - name: rake
+      run: |
+        bundle exec rake sheets
+    - name: Upload built cards
+      uses: actions/upload-artifact@v1
+      with:
+        name: cards
+        path: _output
+    - name: organize output
+      run: |
+        rm -rf build/
+        mkdir build/
+        cp _output/sheet_*.png build/
+    - name: Push to ghpages
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: master # The branch the action should deploy from.
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: build # Deploy just the build folder
