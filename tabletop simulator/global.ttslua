@@ -1,0 +1,129 @@
+tile_bag_guid = 'f6d5ba'
+guard_bag_guid = 'bf99c2'
+
+function isHex(tile)
+  return tile ~= "GP"
+     and tile ~= "E1"
+     and tile ~= "E2"
+     and tile ~= "E3"
+     and tile ~= "E4"
+     and tile ~= "E5"
+     and tile ~= "E6"
+end
+
+function onLoad()
+  cleanUp()
+  -- Wait.condition(function, function, float, function)
+end
+
+function toggleDrawer()
+  if(UI.getAttributes('drawer').active == "true") then
+    UI.hide('drawer')
+  else
+    UI.show('drawer')
+  end
+end
+
+function cleanUp()
+  broadcastToAll("Button disabled for now")
+
+  -- for i, guid in pairs(tile_hex_guids) do
+  --   tile = getObjectFromGUID(guid)
+  --   tile.setPositionSmooth({
+  --     x = -40,
+  --     y = i*0.5,
+  --     z = 20,
+  --   }, false, false)
+  --   tile.setRotation({x=0,y=90,z=0})
+  -- end
+end
+
+function setUp(save_string)
+  -- the_docks = "The+Docks|130|5|GP GP EM GD GP GP GP GP GP JW SC GP SC SC SC EM E5 GP GP SC SC SC GP GP GP GP GP GB GP CM RE SC SC EM E5 GP GP JW SC SC EM GP GP GP GP $2 GP GP SC GA GP GP GP GP GP $1 JW GC GP SC SC EM E5 GP GP GP $1 SC GP GP GP GP GP GP GP GP GP GP GP GP GP"
+  -- the_docks = "The+Crown+Jewels|30|5|GP GP GP GP GP GP GP GP GP GP GP GP GP $2 $1 GP GP GP GP GP GP GP GP SC GC SC SC GP GP GP GP $1 JW C2 SC GA EM E5 GP GP GP EM GD SC GB SC SC GP GP GP GP JW SC SC GP RE EM E5 GP GP GP GP EM GP SC SC SC GP GP GP GP GP JW SC GP SC $1 GP GP GP GP GP GP GP GP EM GP GP GP GP GP GP GP GP E1 GP GP GP GP GP"
+  title = save_string:gsub("|.*$",''):gsub("+"," ")
+  tile_list = ''; for w in save_string:gmatch("([^|]+)") do tile_list = w end
+
+  hextiles = {}; t_i = 1
+  for t in tile_list:gmatch("[^ ]+") do
+    hextiles[t_i] = t
+    t_i = t_i + 1
+  end
+
+  tile_bag = getObjectFromGUID(tile_bag_guid)
+
+  -- tile_guid_i = 1
+  x_start = -14
+  z_start = 11
+  hex_width = 3.8
+  z_shift = 3.3
+  stride = math.sqrt(t_i - 1)
+  odd_row_shift = 1.9
+
+  chit_y = 15
+
+  for i,t in pairs(hextiles) do
+    row = math.floor((i - 1) / stride)
+    col = (i - 1) % stride
+    if(isHex(t)) then
+      hex_x = x_start + col * hex_width + (row % 2)* odd_row_shift
+      hex_z = z_start - row * z_shift
+      placeHex(t, hex_x, hex_z)
+      placeChits(t, hex_x, hex_z)
+    end
+  end
+end
+
+function placeHex(t, hex_x, hex_z)
+  hex_y = 10
+  if(t ~= "SC") then -- normalize rotation and flip accordingly
+    r = {x=0,y=90,z=180}
+  else
+    r = {x=0,y=90,z=0}
+  end
+  tile = tile_bag.takeObject({
+    position = {
+      x = hex_x,
+      y = hex_y,
+      z = hex_z,
+    },
+    rotation = r
+  })
+end
+
+function placeChits(t, hex_x, hex_z)
+  guard_bag = getObjectFromGUID(guard_bag_guid)
+  d = 0.65 -- delta or nudge amount for 2 chits
+  if t == 'GU' then
+    guard_bag.takeObject({
+      position = { x = hex_x, y = chit_y, z = hex_z },
+      rotation = { x = 0, y = 180, z = 0 }
+    })
+  elseif t == 'G2' then
+    guard_bag.takeObject({
+      position = { x = hex_x - d, y = chit_y, z = hex_z - d },
+      rotation = { x = 0, y = 180, z = 0 }
+    })
+    guard_bag.takeObject({
+      position = { x = hex_x + d, y = chit_y, z = hex_z + d },
+      rotation = { x = 0, y = 180, z = 0 }
+    })
+  end
+end
+
+function setSaveString(_obj, _color, save_string, stillEditing)
+  if not stillEditing then
+    setUp(save_string)
+  end
+end
+
+-- From the drawer
+function setCustomSaveString(_player, value, _id)
+  setUp(value)
+  UI.hide('drawer')
+end
+
+function theDocks()
+  the_docks = "The+Docks|130|5|G2 GP EM GD GP GP GP GP GP JW GU GP SC SC SC EM E5 GP GP SC SC SC GP GP GP GP GP GB GP CM RE SC SC EM E5 GP GP JW SC SC EM GP GP GP GP $2 GP GP SC GA GP GP GP GP GP $1 JW GC GP SC SC EM E5 GP GP GP $1 SC GP GP GP GP GP GP GP GP GP GP GP GP GP"
+  setUp(the_docks)
+end
