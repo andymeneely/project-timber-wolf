@@ -17,6 +17,7 @@ task default: [
   :npcs,
   :events,
   :fixers,
+  :chits,
   :helps,
   :rules,
   :rivercity

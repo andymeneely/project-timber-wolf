@@ -8,6 +8,16 @@ puts "Building circle chits..."
 files = %w(
   guard
   subdued
+  camera
+  disconnected
+  locked
+  unlocked
+  guard-dog
+  guard-dog-subdued
+  usb-key
+  asterisk
+  jewel
+  folder
 )
 Squib::Deck.new(width: 300, height: 300, cards: files.size) do
   background color: '#6b471c' # dark brown
