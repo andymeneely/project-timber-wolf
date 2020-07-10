@@ -1,0 +1,48 @@
+#include guids
+#include scenario-builder
+#include util
+
+function onLoad()
+  broadcastToAll("Welcome to Master of the Heist!")
+  -- cleanUp()
+end
+
+function toggleDrawer()
+  if(UI.getAttributes('drawer').active == "true") then
+    UI.hide('drawer')
+  else
+    UI.show('drawer')
+  end
+end
+
+function cleanUp()
+  broadcastToAll("Button disabled for now")
+
+  -- for i, guid in pairs(tile_hex_guids) do
+  --   tile = getObjectFromGUID(guid)
+  --   tile.setPositionSmooth({
+  --     x = -40,
+  --     y = i*0.5,
+  --     z = 20,
+  --   }, false, false)
+  --   tile.setRotation({x=0,y=90,z=0})
+  -- end
+end
+
+
+function setSaveString(_obj, _color, save_string, stillEditing)
+  if not stillEditing then
+    buildScenario(save_string)
+  end
+end
+
+-- From the drawer
+function setCustomSaveString(_player, value, _id)
+  buildScenario(value)
+  UI.hide('drawer')
+end
+
+function theDocks()
+  the_docks = "The+Docks|130|5|G2 GP EM GD GP GP GP GP GP JW GU GP SC SC SC EM E5 GP GP SC SC SC GP GP GP GP GP GB GP CM RE SC SC EM E5 GP GP JW SC SC EM GP GP GP GP $2 GP GP SC GA GP GP GP GP GP $1 JW GC GP SC SC EM E5 GP GP GP $1 SC GP GP GP GP GP GP GP GP GP GP GP GP GP"
+  buildScenario(the_docks)
+end
