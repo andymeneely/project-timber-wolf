@@ -22,13 +22,13 @@ function buildScenario(save_string)
 end
 
 function parseTileList(save_string)
-  title = save_string:gsub("|.*$",''):gsub("+"," ") -- not using, strip away
-  tile_list = '';
+  local title = save_string:gsub("|.*$",''):gsub("+"," ") -- not using, strip away
+  local tile_list = '';
   for w in save_string:gmatch("([^|]+)") do
     tile_list = w
   end
 
-  hextiles = {}
+  local hextiles = {}
   local t_i = 1
   for t in tile_list:gmatch("[^ ]+") do
     hextiles[t_i] = t
@@ -51,7 +51,7 @@ end
 function placeChits(t, hex_x, hex_z)
   local guard_bag = getObjectFromGUID(guard_bag_guid)
   local chit_y = 15
-  d = 0.65 -- delta or nudge amount for 2 chits
+  d = 0.65 -- nudge amount for 2 chits
   if t == 'GU' then
     guard_bag.takeObject({
       position = { x = hex_x, y = chit_y, z = hex_z },
@@ -69,6 +69,7 @@ function placeChits(t, hex_x, hex_z)
   end
 end
 
+-- Not a gap and not an exit
 function isHex(tile)
   return tile ~= "GP"
      and tile ~= "E1"
