@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: cards
-        path: _output/sheet_*.png
+        path: _output
     - name: organize output
       run: |
         rm -rf build/
