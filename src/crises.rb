@@ -45,6 +45,10 @@ end
     save_png dir: 'rules', prefix: 'figure_crisis', count_format: '',
              trim_radius: '0.125in', trim: '0.125in', range: 0
   end
+
+  build :sheets do
+    save_sheet prefix: 'sheet_crises_', columns: 5, rows: 5
+  end
 end
 
 ###############
@@ -65,4 +69,8 @@ Squib::Deck.new(cards: data['Name'].size) do
   svg file: 'crossbones.svg', layout: :crossbones
 
   save_png prefix: 'crisis_back_'
+
+  build :sheets do
+    save_sheet prefix: 'sheet_crises_backs_', columns: 5, rows: 5
+  end
 end
