@@ -38,6 +38,7 @@ jobs:
         rm -rf build/
         mkdir build/
         cp _output/sheet_*.png build/
+        cp _output/chit_*.png build/
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
