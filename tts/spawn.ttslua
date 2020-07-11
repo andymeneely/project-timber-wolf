@@ -1,0 +1,19 @@
+function spawnCircleChit(front, back)
+  local url = "https://andymeneely.github.io/project-timber-wolf/"
+  local random_x = math.random(-20, 20)
+  local random_z = math.random(-20, 20)
+  local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
+  local obj = spawnObject({
+    type = "Custom_Tile",
+    position = {x=random_x, y=15, z=random_z},
+    rotation = {x=0, y=180, z=0},
+  })  
+  obj.setCustomObject({
+    type ="Custom_Tile",
+    type = 2, -- circle
+    image = url .. front,
+    image_bottom = url .. back .. random_url_arg,
+    thickness = 0.15,
+    stackable = false,
+  })
+end

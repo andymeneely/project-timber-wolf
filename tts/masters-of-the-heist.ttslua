@@ -1,6 +1,7 @@
 #include guids
 #include scenario-builder
 #include util
+#include spawn
 
 function onLoad()
   broadcastToAll("Welcome to Master of the Heist!")
@@ -45,4 +46,47 @@ end
 function theDocks()
   the_docks = "The+Docks|130|5|G2 GP EM GD GP GP GP GP GP JW GU GP SC SC SC EM E5 GP GP SC SC SC GP GP GP GP GP GB GP CM RE SC SC EM E5 GP GP JW SC SC EM GP GP GP GP $2 GP GP SC GA GP GP GP GP GP $1 JW GC GP SC SC EM E5 GP GP GP $1 SC GP GP GP GP GP GP GP GP GP GP GP GP GP"
   buildScenario(the_docks)
+end
+
+
+
+function respawn()
+  -- https://andymeneely.github.io/project-timber-wolf/sheet_events_01.png
+  -- https://andymeneely.github.io/project-timber-wolf/sheet_events_01.png
+  -- broadcastToAll("Not implemented yet")
+
+  spawnCircleChit("chit_guard.png", "chit_guard.png")
+  spawnCircleChit("chit_locked.png", "chit_unlocked.png")
+  spawnCircleChit("chit_camera.png", "chit_disconnected.png")
+  spawnCircleChit("chit_guard-dog.png", "chit_guard-dog-subdued.png")
+  spawnCircleChit("chit_usb-key.png", "chit_usb-key.png")
+  spawnCircleChit("chit_asterisk.png", "chit_asterisk.png")
+  spawnCircleChit("chit_jewel.png", "chit_jewel.png")
+  spawnCircleChit("chit_folder.png", "chit_folder.png")
+
+  -- camera
+  -- disconnected
+  -- locked
+  -- unlocked
+  -- guard-dog
+  -- guard-dog-subdued
+  -- usb-key
+  -- asterisk
+  -- jewel
+  -- folder
+
+
+  -- spawnObject({
+  --   type = "DeckCustom",
+  --   -- position          = {x=0, y=3, z=-5},
+  --   -- rotation          = {x=0, y=90, z=0},
+  --   -- scale             = {x=2, y=2, z=2},
+  -- })
+  -- setCustomObject({
+  --   face = "https://andymeneely.github.io/project-timber-wolf/chit_guard.png",
+  --   back = "https://andymeneely.github.io/project-timber-wolf/chit_subdued.png",
+  --   unique_back = true,
+  --   width = 5,
+  --   height = 5,
+  -- })
 end
