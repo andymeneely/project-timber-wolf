@@ -64,6 +64,10 @@ function respawn()
   spawnCircleChit("chit_jewel.png", "chit_jewel.png")
   spawnCircleChit("chit_folder.png", "chit_folder.png")
 
+  spawnRectChit("chit_1k.png", "chit_1k.png")
+  spawnRectChit("chit_2k.png", "chit_2k.png")
+  spawnRectChit("chit_5k.png", "chit_5k.png")
+
   -- camera
   -- disconnected
   -- locked

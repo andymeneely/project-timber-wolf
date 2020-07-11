@@ -1,4 +1,8 @@
-function spawnCircleChit(front, back)
+function spawnRectChit(front, back)   spawnChit(front, back, 3) end
+function spawnHexChit(front, back)    spawnChit(front, back, 1) end
+function spawnCircleChit(front, back) spawnChit(front, back, 2) end
+
+function spawnChit(front, back, tile_type)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
   local random_x = math.random(-20, 20)
   local random_z = math.random(-20, 20)
@@ -7,10 +11,10 @@ function spawnCircleChit(front, back)
     type = "Custom_Tile",
     position = {x=random_x, y=15, z=random_z},
     rotation = {x=0, y=180, z=0},
-  })  
+  })
   obj.setCustomObject({
     type ="Custom_Tile",
-    type = 2, -- circle
+    type = tile_type, -- circle
     image = url .. front,
     image_bottom = url .. back .. random_url_arg,
     thickness = 0.15,
