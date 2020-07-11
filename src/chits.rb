@@ -35,10 +35,8 @@ end
 # Money chits
 puts "Money chits..."
 Squib::Deck.new(width: 250, height: 135, cards: 3) do
-  # background color: bg_color # dark brown
+  background color: bg_color # dark brown
   amounts = %w($1k $2k $5k)
-  rect width: width, height: height, fill_color: bg_color, radius: 25, stroke_width: 0
-
   text str: amounts, font: 'Archivo Narrow 24', color: fg_color,
        width: width, height: height, align: :center, valign: :middle
 
