@@ -30,7 +30,6 @@ function cleanUp()
   -- end
 end
 
-
 function setSaveString(_obj, _color, save_string, stillEditing)
   if not stillEditing then
     buildScenario(save_string)
@@ -48,13 +47,7 @@ function theDocks()
   buildScenario(the_docks)
 end
 
-
-
 function respawn()
-  -- https://andymeneely.github.io/project-timber-wolf/sheet_events_01.png
-  -- https://andymeneely.github.io/project-timber-wolf/sheet_events_01.png
-  -- broadcastToAll("Not implemented yet")
-
   spawnCircleChit("chit_guard.png", "chit_guard.png")
   spawnCircleChit("chit_locked.png", "chit_unlocked.png")
   spawnCircleChit("chit_camera.png", "chit_disconnected.png")
@@ -63,34 +56,7 @@ function respawn()
   spawnCircleChit("chit_asterisk.png", "chit_asterisk.png")
   spawnCircleChit("chit_jewel.png", "chit_jewel.png")
   spawnCircleChit("chit_folder.png", "chit_folder.png")
-
   spawnRectChit("chit_1k.png", "chit_1k.png")
   spawnRectChit("chit_2k.png", "chit_2k.png")
   spawnRectChit("chit_5k.png", "chit_5k.png")
-
-  -- camera
-  -- disconnected
-  -- locked
-  -- unlocked
-  -- guard-dog
-  -- guard-dog-subdued
-  -- usb-key
-  -- asterisk
-  -- jewel
-  -- folder
-
-
-  -- spawnObject({
-  --   type = "DeckCustom",
-  --   -- position          = {x=0, y=3, z=-5},
-  --   -- rotation          = {x=0, y=90, z=0},
-  --   -- scale             = {x=2, y=2, z=2},
-  -- })
-  -- setCustomObject({
-  --   face = "https://andymeneely.github.io/project-timber-wolf/chit_guard.png",
-  --   back = "https://andymeneely.github.io/project-timber-wolf/chit_subdued.png",
-  --   unique_back = true,
-  --   width = 5,
-  --   height = 5,
-  -- })
 end
