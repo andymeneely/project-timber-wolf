@@ -56,7 +56,16 @@ function respawn()
   spawnCircleChit("chit_asterisk.png", "chit_asterisk.png")
   spawnCircleChit("chit_jewel.png", "chit_jewel.png")
   spawnCircleChit("chit_folder.png", "chit_folder.png")
+
   spawnRectChit("chit_1k.png", "chit_1k.png")
   spawnRectChit("chit_2k.png", "chit_2k.png")
   spawnRectChit("chit_5k.png", "chit_5k.png")
+
+  spawnHexChit("hex_watchtower.png", "hex_watchtower.png")
+  spawnHexChit("hex_server-x.png", "hex_server-x.png")
+  spawnHexChit("hex_server-y.png", "hex_server-y.png")
+  spawnHexChit("hex_reinforcements.png", "hex_reinforcements.png")
+  spawnHexChit("hex_remote_lock_x.png", "hex_remote_lock_x.png")
+  spawnHexChit("hex_remote_lock_y.png", "hex_remote_lock_y.png")
+  spawnHexChit("hex_keycard-lock.png", "hex_keycard-lock.png")
 end

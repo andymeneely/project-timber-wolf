@@ -45,21 +45,22 @@ end
 
 # Hex chits
 files = %w(
-  server_x
-  server_y
+  server-x
+  server-y
   remote_lock_x
   remote_lock_y
   reinforcements
   watchtower
-
+  keycard-lock
 )
-# Squib::Deck.new(width: 600, height: 600, cards: files.size) do
-#   background color: bg_color # dark brown
-#   text str: amounts, font: 'Archivo Narrow 16', color: '#bcbda7',
-#        width: width, height: height, align: :center, valign: :middle
-#
-#   save_png prefix: 'chit_', count_format: files
-# end
+Squib::Deck.new(width: 600, height: 600, cards: files.size) do
+  background color: bg_color # dark brown
+  svgdata = files.map do |f|
+    File.read("img/#{f}.svg").gsub('fill:#000000', "fill:#{fg_color}")  # cream color
+  end
+  svg data: svgdata, width: width, height: width
+  save_png prefix: 'hex_', count_format: files
+end
 
 # Entrance/Exit
 # files = %w(

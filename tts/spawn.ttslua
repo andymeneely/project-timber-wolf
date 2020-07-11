@@ -15,7 +15,7 @@ function spawnChit(front, back, tile_type)
   obj.setCustomObject({
     type ="Custom_Tile",
     type = tile_type, -- circle
-    image = url .. front,
+    image = url .. front .. random_url_arg,
     image_bottom = url .. back .. random_url_arg,
     thickness = 0.15,
     stackable = false,
