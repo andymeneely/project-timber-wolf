@@ -1,10 +1,12 @@
 # Build chits for TTS
 require 'squib'
 
-###################
-## Circle Chits  ##
-###################
-puts "Building circle chits..."
+bg_color = '#6b471c' # dark brown
+fg_color = '#bcbda7' # cream
+
+
+# Circle & Entrance Chits
+puts "Circle chits..."
 files = %w(
   guard
   subdued
@@ -15,28 +17,63 @@ files = %w(
   guard-dog
   guard-dog-subdued
   usb-key
+  keycard
   asterisk
   jewel
   folder
+  entrance
 )
 Squib::Deck.new(width: 300, height: 300, cards: files.size) do
-  background color: '#6b471c' # dark brown
+  background color: bg_color
   svgdata = files.map do |f|
-    File.read("img/#{f}.svg").gsub('fill:#000000', 'fill:#bcbda7')  # cream color
+    File.read("img/#{f}.svg").gsub('fill:#000000', "fill:#{fg_color}")  # cream color
   end
   svg data: svgdata, width: 300, height: 300
   save_png prefix: 'chit_', count_format: files
 end
 
 # Money chits
-Squib::Deck.new(width: 300, height: 150, cards: 3) do
-  background color: '#6b471c' # dark brown
+puts "Money chits..."
+Squib::Deck.new(width: 250, height: 135, cards: 3) do
+  # background color: bg_color # dark brown
   amounts = %w($1k $2k $5k)
-  text str: amounts, font: 'Archivo Narrow 16', color: '#bcbda7',
+  rect width: width, height: height, fill_color: bg_color, radius: 25, stroke_width: 0
+
+  text str: amounts, font: 'Archivo Narrow 24', color: fg_color,
        width: width, height: height, align: :center, valign: :middle
 
   save_png prefix: 'chit_', count_format: amounts.map { |x| x.gsub('$','') }
 end
+
+# Hex chits
+files = %w(
+  server_x
+  server_y
+  remote_lock_x
+  remote_lock_y
+  reinforcements
+  watchtower
+
+)
+# Squib::Deck.new(width: 600, height: 600, cards: files.size) do
+#   background color: bg_color # dark brown
+#   text str: amounts, font: 'Archivo Narrow 16', color: '#bcbda7',
+#        width: width, height: height, align: :center, valign: :middle
+#
+#   save_png prefix: 'chit_', count_format: files
+# end
+
+# Entrance/Exit
+# files = %w(
+#   entrance
+# )
+# Squib::Deck.new(width: 300, height: 300, cards: file.size) do
+#   background color: bg_color # dark brown
+#
+#   save_png prefix: 'chit_', count_format: amounts.map { |x| x.gsub('$','') }
+# end
+
+
 # puts "Building bullseye chits..."
 # Squib::Deck.new(width: 375, height: 900, cards: 4) do
 #   cyan = '#40bfbd'; purple = '#bf40ba'; yellow = '#c8cc31'
