@@ -28,6 +28,24 @@ Squib::Deck.new(width: 300, height: 300, cards: files.size) do
   save_png prefix: 'chit_', count_format: files
 end
 
+# Money chits
+Squib::Deck.new(width: 300, height: 150, cards: 3) do
+  background color: '#6b471c' # dark brown
+  amounts = %w($1k $2k $5k)
+  text str: amounts, font: 'Archivo Narrow 16', color: '#bcbda7',
+       width: width, height: height, align: :center, valign: :middle
+
+  save_png prefix: 'chit_', count_format: amounts.map { |x| x.gsub('$','') }
+end
+# puts "Building bullseye chits..."
+# Squib::Deck.new(width: 375, height: 900, cards: 4) do
+#   cyan = '#40bfbd'; purple = '#bf40ba'; yellow = '#c8cc31'
+#   background color: [cyan, purple, yellow, yellow]
+#   rect fill_color: '#42290d', width: width, height: 200
+#   svg file: 'jewel-chit.svg'
+#   save_png prefix: 'pressure_token_', count_format: '%02d_[all]'
+# end
+
 #
 # ###################################
 # ## Based on TGC's Bullseye Chits ##
