@@ -1,7 +1,5 @@
 function buildScenario(save_string)
-  local tile_bag = getObjectFromGUID(tile_bag_guid)
   local hextiles = parseTileList(save_string)
-
   local x_start = -14
   local z_start = 11
   local hex_width = 3.8
@@ -39,34 +37,64 @@ end
 
 function placeHex(t, hex_x, hex_z)
   local hex_y = 10
-  local tile_bag = getObjectFromGUID(tile_bag_guid)
   if(t ~= "SC") then -- normalize rotation and flip accordingly
     r = {x=0,y=90,z=180}
   else
     r = {x=0,y=90,z=0}
   end
+  local tile_bag = getObjectFromGUID(tile_bag_guid)
   tile_bag.takeObject({ position={ x=hex_x, y=hex_y, z=hex_z, }, rotation=r })
 end
 
 function placeChits(t, hex_x, hex_z)
-  local guard_bag = getObjectFromGUID(guard_bag_guid)
   local chit_y = 15
+  local guard_bag = getObjectFromGUID(guard_bag_guid)
+  local lock_bag = getObjectFromGUID(lock_bag_guid)
+  local camera_bag = getObjectFromGUID(camera_bag_guid)
+  local folder_bag = getObjectFromGUID(folder_bag_guid)
+  local guard_bag = getObjectFromGUID(guard_bag_guid)
+  local jewel_bag = getObjectFromGUID(jewel_bag_guid)
+  local usb_bag = getObjectFromGUID(usb_bag_guid)
+  local asterisk_bag = getObjectFromGUID(asterisk_bag_guid)
+  local money_1k_bag = getObjectFromGUID(money_1k_bag_guid)
+  local money_2k_bag = getObjectFromGUID(money_2k_bag_guid)
+  local money_5k_bag = getObjectFromGUID(money_5k_bag_guid)
+  local guard_dog_bag = getObjectFromGUID(guard_dog_bag_guid)
+  local reinforcements_bag = getObjectFromGUID(reinforcements_bag_guid)
+  local keycard_door_bag = getObjectFromGUID(keycard_door_bag_guid)
+  local remote_lock_y_bag = getObjectFromGUID(remote_lock_y_bag_guid)
+  local server_x_bag = getObjectFromGUID(server_x_bag_guid)
+  local server_y_bag = getObjectFromGUID(server_y_bag_guid)
+  local watchtower_bag = getObjectFromGUID(watchtower_bag_guid)
+  local remote_lock_x_bag = getObjectFromGUID(remote_lock_x_bag_guid)
+
+
   d = 0.65 -- nudge amount for 2 chits
-  if t == 'GU' then
-    guard_bag.takeObject({
-      position = { x = hex_x, y = chit_y, z = hex_z },
-      rotation = { x = 0, y = 180, z = 0 }
-    })
-  elseif t == 'G2' then
-    guard_bag.takeObject({
-      position = { x = hex_x - d, y = chit_y, z = hex_z - d },
-      rotation = { x = 0, y = 180, z = 0 }
-    })
-    guard_bag.takeObject({
-      position = { x = hex_x + d, y = chit_y, z = hex_z + d },
-      rotation = { x = 0, y = 180, z = 0 }
-    })
+  if t == 'GU'     then place1Chit(guard_bag, hex_x, chit_y, hex_z)
+  elseif t == 'G2' then place2Chits(guard_bag, guard_bag, hex_x, chit_y, hex_z)
+  elseif t == 'JW' then place1Chit(jewel_bag, hex_x, chit_y, hex_z)
+  elseif t == '$1' then place1Chit(money_1k_bag, hex_x, chit_y, hex_z)
+  elseif t == '$2' then place1Chit(money_2k_bag, hex_x, chit_y, hex_z)
   end
+end
+
+function place1Chit(bag, cx, cy, cz)
+  bag.takeObject({
+    position = { x = cx, y = cy, z = cz },
+    rotation = { x = 0, y = 180, z = 0 }
+  })
+end
+
+function place2Chits(bag1, bag2, cx, cy, cz)
+  d = 0.65 -- nudge amount for 2 chits
+  bag1.takeObject({
+    position = { x = cx - d, y = cy, z = cz - d },
+    rotation = { x = 0, y = 180, z = 0 }
+  })
+  bag2.takeObject({
+    position = { x = cx + d, y = cy, z = cz + d },
+    rotation = { x = 0, y = 180, z = 0 }
+  })
 end
 
 -- Not a gap and not an exit
