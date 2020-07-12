@@ -47,7 +47,6 @@ function placeHex(t, hex_x, hex_z)
 end
 
 function placeChits(t, hex_x, hex_z)
-  local chit_y = 15
   local guard_bag = getObjectFromGUID(guard_bag_guid)
   local lock_bag = getObjectFromGUID(lock_bag_guid)
   local camera_bag = getObjectFromGUID(camera_bag_guid)
@@ -68,31 +67,98 @@ function placeChits(t, hex_x, hex_z)
   local watchtower_bag = getObjectFromGUID(watchtower_bag_guid)
   local remote_lock_x_bag = getObjectFromGUID(remote_lock_x_bag_guid)
 
-
   d = 0.65 -- nudge amount for 2 chits
-  if t == 'GU'     then place1Chit(guard_bag, hex_x, chit_y, hex_z)
-  elseif t == 'G2' then place2Chits(guard_bag, guard_bag, hex_x, chit_y, hex_z)
-  elseif t == 'JW' then place1Chit(jewel_bag, hex_x, chit_y, hex_z)
-  elseif t == '$1' then place1Chit(money_1k_bag, hex_x, chit_y, hex_z)
-  elseif t == '$2' then place1Chit(money_2k_bag, hex_x, chit_y, hex_z)
+  if t == 'GU'     then place1Chit(guard_bag, hex_x, hex_z)
+  elseif t == 'LO' then place1Chit(lock_bag, hex_x, hex_z)
+  elseif t == 'CM' then place1Chit(camera_bag, hex_x, hex_z)
+  elseif t == 'DO' then place1Chit(guard_dog_bag, hex_x, hex_z)
+  elseif t == 'JW' then place1Chit(jewel_bag, hex_x, hex_z)
+  elseif t == '$1' then place1Chit(money_1k_bag, hex_x, hex_z)
+  elseif t == '$2' then place1Chit(money_2k_bag, hex_x, hex_z)
+  elseif t == '$3' then place2Chits(money_1k_bag, money_2k_bag, hex_x, hex_z)
+  elseif t == 'PP' then place1Chit(folder_bag, hex_x, hex_z)
+  elseif t == 'USB' then place1Chit(usb_bag, hex_x, hex_z)
+  elseif t == 'USB' then place1Chit(usb_bag, hex_x, hex_z)
+  elseif t == '*'  then place1Chit(asterisk_bag, hex_x, hex_z)
+  elseif t == 'G2' then place2Chits(guard_bag, guard_bag, hex_x, hex_z)
+  elseif t == 'L2' then place2Chits(lock_bag, lock_bag, hex_x, hex_z)
+  elseif t == 'C2' then place2Chits(camera_bag, camera_bag, hex_x, hex_z)
+  elseif t == '2GL' then place2Chits(guard_bag, lock_bag, hex_x, hex_z)
+  elseif t == '2GC' then place2Chits(guard_bag, camera_bag, hex_x, hex_z)
+  elseif t == '2GD' then place2Chits(guard_bag, guard_dog_bag, hex_x, hex_z)
+  elseif t == 'G1K' then place2Chits(guard_bag, money_1k_bag, hex_x, hex_z)
+  elseif t == 'G2K' then place2Chits(guard_bag, money_2k_bag, hex_x, hex_z)
+  elseif t == 'GDGD' then place2Chits(guard_dog_bag, guard_dog_bag, hex_x, hex_z)
+  elseif t == '2CL' then place2Chits(camera_bag, lock_bag, hex_x, hex_z)
+  elseif t == '2CD' then place2Chits(camera_bag, guard_dog_bag, hex_x, hex_z)
+  elseif t == '2LD' then place2Chits(lock_bag, guard_dog_bag, hex_x, hex_z)
+  elseif t == 'SX' then place1Chit(server_x_bag, hex_x, hex_z)
+  elseif t == 'SY' then place1Chit(server_y_bag, hex_x, hex_z)
+  elseif t == 'RX' then place1Chit(remote_lock_x_bag, hex_x, hex_z)
+  elseif t == 'RY' then place1Chit(remote_lock_y_bag, hex_x, hex_z)
+  elseif t == 'RXJ' then place2ChitsStacked(remote_lock_x_bag, jewel_bag, hex_x, hex_z)
+  elseif t == 'RXD' then place2ChitsStacked(remote_lock_x_bag, folder_bag, hex_x, hex_z)
+  elseif t == 'RYJ' then place2ChitsStacked(remote_lock_y_bag, jewel_bag, hex_x, hex_z)
+  elseif t == 'RYD' then place2ChitsStacked(remote_lock_y_bag, folder_bag, hex_x, hex_z)
+  elseif t == 'KCL' then place1Chit(keycard_door_bag, hex_x, hex_z)
+  elseif t == 'MW' then place1Chit(meeple_bag, hex_x, hex_z)
   end
 end
 
-function place1Chit(bag, cx, cy, cz)
+  -- "KC" : { 'slug': 'keycard',l
+-- "GKC" : { 'slug': 'security-guard-keycard',
+-- elseif t == 'BE'  then place1Chit(beacon_bag, hex_x, hex_z)
+-- "RE" : { 'slug': 'reinforcements',
+-- "WT" : { 'slug': 'watchtower',
+-- "GA" : { 'slug': 'gate-a',
+-- "GB" : { 'slug': 'gate-b',
+-- "GC" : { 'slug': 'gate-c',
+-- "GD" : { 'slug': 'gate-d',
+-- "G2X" : { 'slug': 'security-guard-2x',
+-- "C2X" : { 'slug': 'security-camera-2x',
+-- "L2X" : { 'slug': 'security-lock-2x',
+--
+-- "E1" : { 'slug': 'entrance-upper-right',
+-- "E2" : { 'slug': 'entrance-right',
+-- "E3" : { 'slug': 'entrance-lower-right',
+-- "E4" : { 'slug': 'entrance-lower-left',
+-- "E5" : { 'slug': 'entrance-left',
+-- "E6" : { 'slug': 'entrance-upper-left',
+-- "RXM" : { 'slug': 'remote-lock-x-meeple',
+-- "RYM" : { 'slug': 'remote-lock-y-meeple',
+
+
+
+function place1Chit(bag, cx, cz)
+  local chit_y = 15
   bag.takeObject({
-    position = { x = cx, y = cy, z = cz },
+    position = { x = cx, y = chit_y, z = cz },
     rotation = { x = 0, y = 180, z = 0 }
   })
 end
 
-function place2Chits(bag1, bag2, cx, cy, cz)
+function place2Chits(bag1, bag2, cx,  cz)
+  local chit_y = 15
   d = 0.65 -- nudge amount for 2 chits
   bag1.takeObject({
-    position = { x = cx - d, y = cy, z = cz - d },
+    position = { x = cx - d, y = chit_y, z = cz - d },
     rotation = { x = 0, y = 180, z = 0 }
   })
   bag2.takeObject({
-    position = { x = cx + d, y = cy, z = cz + d },
+    position = { x = cx + d, y = chit_y, z = cz + d },
+    rotation = { x = 0, y = 180, z = 0 }
+  })
+end
+
+function place2ChitsStacked(bag1, bag2, cx,  cz)
+  local chit_y = 15
+  d = 0.65 -- nudge amount for 2 chits
+  bag1.takeObject({
+    position = { x = cx, y = chit_y - 5, z = cz },
+    rotation = { x = 0, y = 180, z = 0 }
+  })
+  bag2.takeObject({
+    position = { x = cx, y = chit_y, z = cz },
     rotation = { x = 0, y = 180, z = 0 }
   })
 end
