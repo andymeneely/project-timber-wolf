@@ -66,6 +66,7 @@ function placeChits(t, hex_x, hex_z)
   local server_y_bag = getObjectFromGUID(server_y_bag_guid)
   local watchtower_bag = getObjectFromGUID(watchtower_bag_guid)
   local remote_lock_x_bag = getObjectFromGUID(remote_lock_x_bag_guid)
+  local meeple_bag = getObjectFromGUID(white_meeple_bag_guid)
 
   d = 0.65 -- nudge amount for 2 chits
   if t == 'GU'     then place1Chit(guard_bag, hex_x, hex_z)
