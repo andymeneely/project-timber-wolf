@@ -277,6 +277,18 @@ Description | Un-Subdue every Subdued Guard that |
             |  shares a tile with a Character.   |
             ╰------------------------------------╯
             ╭------------------------------------╮
+       Name | Their Word Against Yours           |
+        Qty | 1                                  |
+      Order | A4                                 |
+      Story | You realize that no cameras means  |
+            | the Guards are free to do as they  |
+            | please.                            |
+Description | Any character who is not on or adj |
+            | acent to any live Cameras but is a |
+            | lso on or adjacent to a Guard lose |
+            | s an 💡 (if possible).              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
        Name | Tamper-Proof Cameras               |
         Qty | 1                                  |
       Order | B1                                 |
