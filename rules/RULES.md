@@ -104,22 +104,22 @@ Some tiles have **Lockdown Gates** printed on them, and they are lettered A,B,C,
 
 ## Security Chits
 
-Security Chits are randomized obstacles that your team will encounter. They are shown below.
+Security Chits are randomized obstacles that your team will encounter. Security chits are generally unknown at the beginning of the heist, and are placed in the security bag to be drawn at random throughout the heist.
 
-Security chits are generally unknown at the beginning of the heist, and are placed in a bag to be drawn at random throughout the heist. Immediately when a character is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is **Auto-Revealed** where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
+**Reveal and Auto-Reveal**. Immediately when a character is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is "auto-revealed" where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
 
-|  Name  |              Active              |                 Inactive                 | Behavior                                                                                                                                                                             |
-|:------:|:--------------------------------:|:----------------------------------------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Guard  |  ![](../img/guard.svg)<br>Guard  |    ![](../img/subdued.svg)<br>Subdued    | _Slows you down_. If you share a space with a Guard, you may not Move until he is Subdued. You may move into a space with a Guard.                                                   |
-| Camera |  ![](../img/camera.svg)<br>Live  | ![](../img/disconnected.svg)<br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but raise an Alert (⚠) by 1. If a Disabled camera is powered back on while a player is on it, raise an Alert (⚠) by 1. |
-|  Lock  | ![](../img/locked.svg)<br>Locked |   ![](../img/unlocked.svg)<br>Unlocked   | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile if it was re-locked while you were on it.                                                |
+|  Name  |                  Active                  |                      Inactive                      | Behavior                                                                                                                                                                             |
+|:------:|:----------------------------------------:|:--------------------------------------------------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Guard  |  ![guard](fig_chit_guard.png)<br>Guard   |    ![subdued](fig_chit_subdued.png)<br>Subdued     | _Slows you down_. If you share a space with a Guard, you may not leave the tile until he is Subdued. You may move into a space with a Guard.                                         |
+|  Lock  | ![locked](fig_chit_locked.png)<br>Locked |   ![unlocked](fig_chit_unlocked.png)<br>Unlocked   | _Prevents passage._ You may not enter a Locked tile at any time. You may exit a locked tile if it was re-locked while you were on it.                                                |
+| Camera |   ![live](fig_chit_camera.png)<br>Live   | ![disabled](fig_chit_disconnected.png)<br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but raise an Alert (⚠) by 1. If a Disabled camera is powered back on while a player is on it, raise an Alert (⚠) by 1. |
 {:.security-table}
 
-More security chits can be found in the Additional Modules section.
+**More chits in the back.** Other chits that can go into the security bag can be found in the back of the rulebook.
 
 ## Actions & Sub-Actions
 
-Skills and Characters allow you to take Actions. Every Action is just a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
+Skills and Characters allow you to take Actions. Most Actions are a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
 
 * ➜ is  **Move** to an adjacent, planned, not locked tile
 * 🔓 is **Unlock** 1 locked, adjacent tile
@@ -213,9 +213,14 @@ The objective of the heist is (usually) to steal Loot chits, which can be  Jewel
 
 **Not Ours Until It's Out**. When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
+**Cash is one item.** Any amount of cash in one place is considered to be one piece of loot no matter how many chits it takes to represent it.
+
 </div>
 
 ## Fixers
+
+![fixer figure](figure_fixer.png)
+{:.card-portrait .card-right .rotate-right}
 
 Throughout your time in River City, you will be introduced to various people who can help your planning. Completing heists give you access to new abilities and ways to spend your Team Cash. You can use as many Fixers as you have unlocked in planning.
 
@@ -386,18 +391,24 @@ Each Amateur card is given two choices to level into, as indicated on the back o
 
 # Security Reference
 
-## Pressure Sensors
+## Remote Locks
 
-**Pressure Sensors**. You may not enter a tile with a Pressure Sensor chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍, and 🔊⚠ are still required.
+![remote lock](fig_hex_remote_lock_x.png)
+{:.example-right .hexchit .rotate-left}
 
-For each Pressure Sensor, a corresponding **Control Panel** of the same color exists somewhere else on the board. If a character is standing on the Control Panel, then all corresponding Pressure Sensor rings may be immediately removed *__only__* if they are the outermost ring at the time.
+You may not enter a tile with a Remote Lock chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍 if actions allow it and 🔊⚠  are still required.
+
+![remote lock](fig_hex_server-x.png)
+{:.example-right .hexchit .rotate-right}
+
+For each Remote Lock, a corresponding **Server** exists somewhere else on the board (e.g. x or y). If a character is standing on the Control Panel, then all corresponding Remote Lock rings may be immediately removed.
 
 **TODO: MAKE A FIGURE ABOUT THIS**
 
 ## Guard Dogs
 
-![Release the Hounds!](../img/rules/special_event_release_the_hounds.png)
-{:.example-right .card-portrait}
+![guard dog](fig_chit_guard-dog.png)
+{:.example-right .hexchit .rotate-left}
 
 Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Character:
 
@@ -414,42 +425,53 @@ Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Char
 
 ## Watchtower
 
-![watchtower image](special_event_watchtower_sweep.png)
-{:.example-right .card-portrait}
+![watchtower](fig_hex_watchtower.png)
+{:.example-left .hexchit .rotate-left}
 
-The Watchtower is a thermal imaging system that can detect body movement across long distances. Standing on the Watchtower tile means you are _not_ detected.
+The Watchtower is a thermal imaging system that can detect body movement across long distances. A series of Crisis cards will add Guards to locations along the path emanating from a Watchtower. A Watchtower can be disabled when a character is on that tower when the _Watchtower Sweep_ crisis occurs.
 
 ## Reinforcements
 
-![reinforcements image](../rules/special_event_reinforcements.png)
-{:.example-right .card-portrait}
+![reinforcements](fig_hex_reinforcements.png)
+{:.example-left .hexchit .rotate-right}
+
+A hex with the reinforcements token on it is freely passable initially. However, a later Crisis card will cause an area effect centered on this token.
 
 ## Lockdown Gates
 
 ![shut two gates](../img/rules/special_event_shut_two_gates.png)
 {:.example-right .card-portrait}
 
-# Keycard
+## Keycard
 
-* TODO keycard image and keycard door
+![keycard lock](fig_hex_keycard-lock.png)
+{:.example-right .hexchit}
+
 
 **No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the keycard door, they may remove the security token. The keycard is a form of loot.
 
-**Held by a Guard**. A scenario may have a keycard in the security bag. When that keycard is pulled from the security bag, **add a Guard to the revealed space** from the supply in addition to the keycard.
+![keycard](fig_chit_keycard.png)
+{:.example-left .chit}
+
+![keycard](fig_chit_guard.png)
+{:.example-left .chit}
+
+**Held by a Guard**. A scenario may have a keycard in the security bag. When that keycard is pulled from the security bag, **add a Guard to the revealed space** from the supply to the hex.
 
 <div class="pagebreak"/>
-
-## USB key
-
-* Not considered Loot for the purposes of Lock the Goods
-
-## Cash
-
-* Considered to be one piece of loot no matter how much it was.
 
 # Additional Modules
 
 These are some additional rules that come up in some scenarios.
+
+## USB key
+
+![usb key](fig_chit_usb-key.png)
+{:.example-left .chit}
+
+A USB key is a loot item that can go into the security bag, meaning it must be revealed to discover its location.
+
+**Held by a Guard**. A scenario may have a USB key in the security bag. When that keycard is pulled from the security bag, **add a Guard to the revealed space** from the supply to the hex.
 
 
 

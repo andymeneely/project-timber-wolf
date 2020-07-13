@@ -210,6 +210,13 @@ ol.gameplay-structure{
   text-align: center;
 }
 
+.example-left{
+  float: left;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
 .card-portrait img{
   width: 12em;
 }
@@ -221,8 +228,20 @@ ol.gameplay-structure{
   clear: right;
 }
 
+.chit img{
+  width: 3em;
+}
+
+.hexchit img{
+  width: 6em;
+}
+
 .rotate-left {
   transform: rotate(-7deg);
+}
+
+.rotate-right {
+  transform: rotate(7deg);
 }
 
 

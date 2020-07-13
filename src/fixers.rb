@@ -3,7 +3,7 @@ require 'squib'
 require_relative 'util/helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx', sheet: 6) do |col, item|
-  newlineate(col, item)
+  escape_emojis(newlineate(col, item))
 end
 
 File.open('data/fixers.txt', 'w+') { |f| f.write data.to_pretty_text }
@@ -33,11 +33,16 @@ Squib::Deck.new(cards: data.nrows) do
   end
   text str: data['Name'], layout: :title, font_size: titlesizes
 
-  text layout: :Special, str: data.description
+  text layout: :Special, str: data.description do |embed|
+    embed_emojis(embed, 45)
+  end
   # text layout: :Faction, str: data.faction
   # text layout: :Special, str: data.membership, y: 700, font_size: 8
 
-  save_png prefix: 'fixer_'#, range: 0
+  save_png prefix: 'fixer_'
+  save_png dir: 'rules', prefix: 'figure_fixer', count_format: '',
+           trim_radius: '0.125in', trim: '0.125in', range: 0
+
   save_pdf file: 'fixers.pdf', trim: '0.125in'#, range: 0
 
   build :sheets do

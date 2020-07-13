@@ -16,6 +16,7 @@ task default: [
   :skill_backs,
   :npcs,
   :events,
+  :crises,
   :fixers,
   :chits,
   :helps,
