@@ -401,10 +401,16 @@ For each Pressure Sensor, a corresponding **Control Panel** of the same color ex
 
 Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Character:
 
-  1. Move the Guard Dog onto that character and
+  1. Move the Guard Dog onto that character, and
   2. Place a Blank token over the Shield to mark that space as already Revealed (if necessary)
 
-If a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
+**Indoor creatures**. Guard Dogs do not move onto entrances/exits.
+
+**Team optimizes ambiguity**. If ambiguity ever arises in the behavior of a Guard Dog, the team chooses. For example:
+
+  * If a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
+  * In the *Rescue Dogs* event, the team chooses who the dogs rescue in an order of your choosing.
+  * In *Release the Hounds*, if the number of dogs in the bag are not equal, the team chooses how to distribute them.
 
 ## Watchtower
 
@@ -423,6 +429,14 @@ The Watchtower is a thermal imaging system that can detect body movement across 
 ![shut two gates](../img/rules/special_event_shut_two_gates.png)
 {:.example-right .card-portrait}
 
+# Keycard
+
+* TODO keycard image and keycard door
+
+**No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the keycard door, they may remove the security token. The keycard is a form of loot.
+
+**Held by a Guard**. A scenario may have a keycard in the security bag. When that keycard is pulled from the security bag, **add a Guard to the revealed space** from the supply in addition to the keycard.
+
 <div class="pagebreak"/>
 
 ## USB key
@@ -436,6 +450,8 @@ The Watchtower is a thermal imaging system that can detect body movement across 
 # Additional Modules
 
 These are some additional rules that come up in some scenarios.
+
+
 
 ## Non-Player Characters
 
