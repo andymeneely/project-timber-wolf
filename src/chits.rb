@@ -63,9 +63,12 @@ end
 puts "Money chits..."
 Squib::Deck.new(width: 250, height: 135, cards: 3) do
   amounts = %w($1k $2k $5k)
+  rect x: 10, y: 10, width: width - 10, height: height - 10, radius: 25,
+       fill_color: :black, stroke_width: 0
+  rect x: 5, y: 5, width: width - 10, height: height - 10, radius: 25,
+       fill_color: $BG_COLOR, stroke_width: 0
   text str: amounts, font: 'Archivo Narrow 24', color: $FG_COLOR,
        width: width, height: height, align: :center, valign: :middle
-
   save_png dir: 'rules/', prefix: 'fig_chit_', count_format: amounts.map { |x| x.gsub('$','') }
 end
 
