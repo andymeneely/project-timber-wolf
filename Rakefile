@@ -19,6 +19,7 @@ task default: [
   :crises,
   :fixers,
   :chits,
+  :trackers,
   :helps,
   :rules,
   :rivercity
