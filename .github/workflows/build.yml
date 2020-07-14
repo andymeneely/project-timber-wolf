@@ -40,6 +40,7 @@ jobs:
         cp _output/sheet_*.png build/
         cp _output/chit_*.png build/
         cp _output/hex_*.png build/
+        cp _output/tracker_*.png build/
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
