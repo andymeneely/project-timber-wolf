@@ -47,29 +47,3 @@ function theDocks()
   all_the_things = "|0|0|0|0|0|250|200|E2 EM SC GU GP GP GP GP GP GP GP GP GP LO CM DO GP E3 E4 GP GP GP GP GP GP GP GP JW $1 $2 $3 GP GP GP GP GP GP GP GP GP GP PP GP GP GP GP GP GP GP GP GP 2GC 2GL GP USB RE WT GA GP GP GP GP 2GD GP C2 GP GP GP GP GB E5 GP GP GP GP G1K GP L2 BE * GD GC GP GP GDGD GKC G3K G2K GP G2 GP E1 GP E6 GP GP GP 2CL GP GP GP GP GP GP GP GP GP GP GP 2CD 2LD SX SY RX RY RXJ RXD RYJ RXM GP GP GP GP GP GP GP GP GP GP GP GP RYM GP GP GP GP GP GP GP MW KCL KC RYD GP"
   buildScenario(all_the_things)
 end
-
-function respawn()
-  spawnCircleChit("chit_guard.png", "chit_guard.png")
-  spawnCircleChit("chit_locked.png", "chit_unlocked.png")
-  spawnCircleChit("chit_camera.png", "chit_disconnected.png")
-  spawnCircleChit("chit_guard-dog.png", "chit_guard-dog-subdued.png")
-  spawnCircleChit("chit_usb-key.png", "chit_usb-key.png")
-  spawnCircleChit("chit_asterisk.png", "chit_asterisk.png")
-  spawnCircleChit("chit_jewel.png", "chit_jewel.png")
-  spawnCircleChit("chit_folder.png", "chit_folder.png")
-
-  spawnRectChit("chit_1k.png", "chit_1k.png")
-  spawnRectChit("chit_2k.png", "chit_2k.png")
-  spawnRectChit("chit_5k.png", "chit_5k.png")
-
-  spawnHexChit("hex_watchtower.png", "hex_watchtower.png")
-  spawnHexChit("hex_server-x.png", "hex_server-x.png")
-  spawnHexChit("hex_server-y.png", "hex_server-y.png")
-  spawnHexChit("hex_reinforcements.png", "hex_reinforcements.png")
-  spawnHexChit("hex_remote_lock_x.png", "hex_remote_lock_x.png")
-  spawnHexChit("hex_remote_lock_y.png", "hex_remote_lock_y.png")
-  spawnHexChit("hex_keycard-lock.png", "hex_keycard-lock.png")
-
-  spawnTracker("tracker_00.png")
-  spawnTracker("tracker_01.png")
-end
