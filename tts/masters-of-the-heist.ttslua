@@ -69,4 +69,7 @@ function respawn()
   spawnHexChit("hex_remote_lock_x.png", "hex_remote_lock_x.png")
   spawnHexChit("hex_remote_lock_y.png", "hex_remote_lock_y.png")
   spawnHexChit("hex_keycard-lock.png", "hex_keycard-lock.png")
+
+  spawnTracker("tracker_00.png")
+  spawnTracker("tracker_01.png")
 end

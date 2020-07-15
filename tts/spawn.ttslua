@@ -22,3 +22,25 @@ function spawnChit(front, back, tile_type, s, r)
     stackable = false,
   })
 end
+
+function spawnTracker(front)
+  local url = "https://andymeneely.github.io/project-timber-wolf/"
+  local random_x = math.random(-20, 20)
+  local random_z = math.random(-20, 20)
+  local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
+  s = 2.0
+  local obj = spawnObject({
+    type = "Custom_Tile",
+    position = {x=random_x, y=15, z=random_z},
+    rotation = {x=0, y = 180, z=0},
+    scale = {x=s, y=s, z=s},
+  })
+  obj.setCustomObject({
+    type ="Custom_Tile",
+    type = 3, -- rect
+    image = url .. front .. random_url_arg,
+    image_bottom = url .. front .. random_url_arg,
+    thickness = 0.2,
+    stackable = false,
+  })
+end

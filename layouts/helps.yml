@@ -1,13 +1,64 @@
-cut:
-  x: 0.125in
-  y: 0.125in
-  width: 3.5in
-  height: 2.5in
-
-Description:
-  font: Serif, Segoe UI Symbol, Dingbats, 11.84
-  spacing: 12
-  x: 0.25in
-  y: 0.25in
+subactions:
+  font: Archivo Narrow, 10.24
+  x: 175
+  y: 75
   width: 3.4in
   height: 2.5in
+
+ideas:
+  font: Archivo Narrow, 10.24
+  x: 0.40in
+  y: 2.00in
+  spacing: 16
+  width: 3.4in
+  height: 2.5in
+
+die_roll_1:
+  font: Archivo Narrow, 9
+  x: 830
+  y: 585
+  width: 300
+  height: 300
+
+die_roll_2:
+  font: Archivo Narrow, 9
+  x: 850
+  y: 675
+  width: 300
+  height: 300
+
+planning:
+  font: Archivo Narrow, 9
+  x: 0.35in
+  y: 140
+  width: 2in
+  height: 2in
+
+heist:
+  font: Archivo Narrow, 9
+  x: 500
+  y: 140
+  width: 2in
+  height: 2in
+
+escape:
+  font: Archivo Narrow, 9
+  x: 560
+  y: 490
+  width: 3in
+  height: 2in
+
+level2:
+  font: Archivo Narrow, 9
+  x: 135
+  y: 470
+
+level3:
+  extends: level2
+  x: 95
+  y: 575
+
+level4:
+  extends: level2
+  x: 135
+  y: 675
