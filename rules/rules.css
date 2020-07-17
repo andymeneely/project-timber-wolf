@@ -78,13 +78,14 @@ h1{
   color: white;
   /* line-height: 1; */
   clear: both;
+  page-break-before: always;
 }
 
 h2{
   font-family: 'Archivo Black';
   font-weight: normal;
   margin-top: 0.5em;
-  margin-bottom: 0;
+  margin-bottom: 0.15em;
   clear: both;
 }
 
@@ -208,17 +209,29 @@ ol.gameplay-structure{
 .example-right{
   float: right;
   text-align: center;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
 }
 
 .example-left{
   float: left;
-  margin-right: 0.5em;
+  margin-right: 1.5em;
   margin-top: 0.5em;
   text-align: center;
 }
 
+.setup-spacing {
+  clear: both;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .card-portrait img{
-  width: 12em;
+  width: 11em;
+}
+
+.card-portrait-small img{
+  width: 8em;
 }
 
 .card-right {
@@ -232,8 +245,24 @@ ol.gameplay-structure{
   width: 3em;
 }
 
+.chit_h img{
+  width: 4em;
+}
+
 .hexchit img{
   width: 6em;
+}
+
+.sm_fig img {
+  width: 7em;
+}
+
+.med_fig img {
+  width: 10em;
+}
+
+.large_fig img {
+  width: 12em;
 }
 
 .rotate-left {

@@ -53,6 +53,7 @@ def escape_emojis(str)
      .gsub(/🔓/,':unlock:')
      .gsub(/⚠/,':alert:')
      .gsub(/💰/,':loot:')
+     .gsub(/🧍/,':meeple:')
 end
 
 def embed_emojis(embed, size=30)
@@ -65,6 +66,7 @@ def embed_emojis(embed, size=30)
   embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: size, height: size
   embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: size, height: size
   embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: size, height: size
+  embed.svg key: ':meeple:', file: 'img/emojis/meeple.svg', width: size, height: size
 end
 
 

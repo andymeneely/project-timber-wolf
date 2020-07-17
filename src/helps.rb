@@ -41,11 +41,15 @@ Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   png file: 'cork.png'
   svg file: 'help-color-back.svg'
 
-  text layout: :planning, str: <<~EOS
-   - Place planning tokens
-   - Purchase items
-   - Use Fixer abilities
+  planning_str = <<~EOS
+  - Place planning tokens
+  - Purchase items
+  - Use Fixer abilities
+  - Max :meeple: :meeple: per Entrance
   EOS
+  text layout: :planning, str: planning_str do |embed|
+    embed_emojis(embed, 35)
+  end
 
   text layout: :heist, str: <<~EOS
   1. Roll dice

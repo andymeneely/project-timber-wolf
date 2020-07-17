@@ -58,6 +58,19 @@ Description | Flip over every non-player charact |
         Qty | 1                                  |
       Story | A bunch of guard dogs appear out o |
             | f nowhere.                         |
-Description | Replace the "Release the Hounds" t |
-            | oken with 3 Dogs.                  |
+Description | Take every Guard Dog out of the ba |
+            | g and, dividing them equally, plac |
+            | e them on every hex adjacent to an |
+            |  entrance.                         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Rescue Dogs                        |
+         ID | S7                                 |
+        Qty | 1                                  |
+      Story | "Do they train them how to do that |
+            | ?"                                 |
+Description | Every known unsubdued Guard Dog mo |
+            | ves up to 3 hexes (ignoring securi |
+            | ty) to the nearest subdued Guard a |
+            | nd unsubdues them.                 |
             ╰------------------------------------╯

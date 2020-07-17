@@ -2,7 +2,8 @@
 require 'squib'
 
 $BG_COLOR = '#6b471c' # dark brown
-$FG_COLOR = '#bcbda7' # cream
+$FG_COLOR = '#d8c485' # new cream
+# $FG_COLOR = '#bcbda7' # old cream
 
 def replace_fill_with_fg(svgfiles)
   svgfiles.map do |f|
@@ -89,14 +90,85 @@ Squib::Deck.new(width: 600, height: 600, cards: files.size) do
   save_png prefix: 'hex_', count_format: files
 end
 #For rules
-Squib::Deck.new(width: 600, height: 600, cards: files.size) do
-  polygon n: 6, x: 308, y: 310, radius: 290, angle: Math::PI / 6,
+Squib::Deck.new(width: 610, height: 610, cards: files.size) do
+  polygon n: 6, x: 308, y: 310, radius: 295, angle: Math::PI / 6,
           fill_color: :black, stroke_width: 0
   polygon n: 6, x: 300, y: 300, radius: 290, angle: Math::PI / 6,
           fill_color: $BG_COLOR, stroke_width: 0
   svg data: replace_fill_with_fg(files), width: width, height: width
   save_png dir: 'rules/', prefix: 'fig_hex_', count_format: files
 end
+
+# Lockdown gates
+# For TTS
+letters = %w(A B C D)
+files = ['lockdown'] * letters.size
+Squib::Deck.new(width: 600, height: 600, cards: files.size) do
+  background color: $BG_COLOR # dark brown
+  svg data: replace_fill_with_fg(files), width: width, height: width
+  text str: letters, font: 'Archivo Black, Serif 24',
+       x: 0, y: 285, width: width, align: :center, color: $FG_COLOR
+  save_png prefix: 'hex_lockdown_', count_format: letters
+end
+#For rules
+Squib::Deck.new(width: 610, height: 610, cards: files.size) do
+  polygon n: 6, x: 308, y: 310, radius: 295, angle: Math::PI / 6,
+          fill_color: :black, stroke_width: 0
+  polygon n: 6, x: 300, y: 300, radius: 290, angle: Math::PI / 6,
+          fill_color: $BG_COLOR, stroke_width: 0
+  svg data: replace_fill_with_fg(files), width: width, height: width
+  text str: letters, font: 'Archivo Black, Serif 24',
+       x: 0, y: 285, width: width, align: :center, color: $FG_COLOR
+
+  save_png dir: 'rules/', prefix: 'fig_hex_lockdown_', count_format: letters,
+           range: 0
+end
+
+# Planning Tokens
+# For TTS
+colors      = %w(#dd1b18 #177330 #121e81 #9b18dd)
+color_names = %w(red     green   blue    purple)
+Squib::Deck.new(width: 300, height: 300, cards: files.size) do
+  background color: colors
+  save_png prefix: 'chit_planning_', count_format: color_names
+end
+#For rules
+Squib::Deck.new(width: 375, height: 375, cards: 1) do
+  coords = [
+    { color: '#dd1b18', x: 70, y: 95, angle: 0.2 },
+    { color: '#177330', x: 120, y: 300, angle: 0.3 },
+    { color: '#121e81', x: 220, y: 120, angle: 0.6 },
+    { color: '#9b18dd', x: 290, y: 260, angle: -0.3 },
+  ]
+  shadow_nudge = 6
+  coords.each do |c|
+    polygon n: 6, x: c[:x] + shadow_nudge, y: c[:y] + shadow_nudge + 2, radius: 60, angle: Math::PI / 6 + c[:angle], fill_color: :black, stroke_width: 0
+    polygon n: 6, x: c[:x],                y: c[:y],                    radius: 65, angle: Math::PI / 6 + c[:angle], fill_color: c[:color], stroke_width: 0
+  end
+  save_png dir: 'rules/', prefix: 'fig_planning', count_format: ''
+end
+
+# Idea tokens
+# For TTS
+Squib::Deck.new(width: 300, height: 300, cards: 1) do
+  background color: $BG_COLOR
+  svg data: replace_fill_with_fg(['idea']), width: height, height: height
+  save_png prefix: 'chit_idea', count_format: ''
+end
+# For rules
+h = 300
+Squib::Deck.new(width: 320, height: 320, cards: 1) do
+rect x: h / 2 + 5, y: 5,
+     width: h / 2, height: h, radius: 75,
+     fill_color: :black, stroke_width: 0
+rect x: h / 2, width: h / 2, height: h, radius: 75,
+     fill_color: $BG_COLOR, stroke_width: 0
+svg x: -15, y: -75,
+    data: replace_fill_with_fg(['idea']),
+    width: 1.5 * height, height: 1.5 * height
+save_png dir: 'rules', prefix: 'fig_chit_idea', count_format: ''
+end
+
 
 
 

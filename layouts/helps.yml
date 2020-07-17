@@ -29,8 +29,8 @@ die_roll_2:
 
 planning:
   font: Archivo Narrow, 9
-  x: 0.35in
-  y: 140
+  x: 100
+  y: 120
   width: 2in
   height: 2in
 

@@ -1,73 +1,79 @@
             ╭------------------------------------╮
        Name | Freed Prisoner                     |
-        Qty | 2                                  |
+        Qty | 1                                  |
    Default1 | Crawl                              |
-            | ➜                                  |
+            | :move:                             |
    Default2 | Reveal                             |
-            | 🔍                                  |
+            | :reveal:                           |
       Roll6 | Dash                               |
-            | 🔊➜➜                                |
-Description | Cannot be given 👊                  |
+            | :noise::move::move:                |
+Description | Cannot be given :subdue:           |
+  FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Panicked Prisoner                  |
-        Qty | 2                                  |
+        Qty | 1                                  |
    Default1 | Run                                |
-            | 🔊🔊➜➜                               |
+            | :noise::noise::move::move:         |
    Default2 | Whimper                            |
-            | 🔊                                  |
+            | :noise:                            |
       Roll6 | Walk                               |
-            | 🔊➜                                 |
-Description | (May now be given 👊)               |
+            | :noise::move:                      |
+Description | (May now be given :subdue:)        |
+  FrontBack | back                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hostage                            |
         Qty | 1                                  |
    Default1 | Crawl                              |
-            | ➜                                  |
+            | :move:                             |
    Default2 | Handle                             |
-            | 👊📷🔓                                |
+            | :subdue::disable::unlock:          |
       Roll6 | Hesitate                           |
-            | 💡                                  |
+            | :idea:                             |
 Description | Must share a tile with a Player Ch |
             | aracter at the end of every Charac |
             | ter Action phase.                  |
+  FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Panicked Hostage                   |
         Qty | 1                                  |
    Default1 | Run                                |
-            | 🔊🔊➜➜                               |
+            | :noise::noise::move::move:         |
    Default2 | Whimper                            |
-            | 🔊                                  |
+            | :noise:                            |
       Roll6 | Walk                               |
-            | 🔊➜                                 |
+            | :noise::move:                      |
 Description | Must share a tile with a Player Ch |
             | aracter at the end of every Charac |
             | ter Action phase.                  |
+  FrontBack | back                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guide                              |
         Qty | 1                                  |
    Default1 | Stride                             |
-            | 🔊➜🔍                                |
+            | :noise::move::reveal:              |
    Default2 | Study                              |
-            | 💡💡                                 |
+            | :idea::idea:                       |
       Roll6 | Discover                           |
-            | 🔍🔍                                 |
+            | :reveal::reveal:                   |
 Description | Must share a tile with a Player Ch |
             | aracter at the end of every Charac |
             | ter Action phase.                  |
+  FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Panicked Guide                     |
         Qty | 1                                  |
    Default1 | Run                                |
-            | 🔊🔊➜➜                               |
+            | :noise::noise::move::move:         |
    Default2 | Whimper                            |
-            | 🔊                                  |
-      Roll6 | Walk🔊➜                             |
+            | :noise:                            |
+      Roll6 | Walk:noise::move:                  |
 Description | Must share a tile with a Player Ch |
             | aracter at the end of every Charac |
             | ter Action phase.                  |
+  FrontBack | back                               |
             ╰------------------------------------╯
