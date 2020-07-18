@@ -7,45 +7,45 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3in"
-   height="3in"
-   viewBox="0 0 76.2 76.200003"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="remote_lock_y.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="remote_lock_y.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 76.2 76.200003"
+   height="3in"
+   width="3in">
   <defs
      id="defs2">
     <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 75 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="150 : 75 : 1"
+       id="perspective5044"
        inkscape:persp3d-origin="75 : 50 : 1"
-       id="perspective5044" />
+       inkscape:vp_z="150 : 75 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 75 : 1"
+       sodipodi:type="inkscape:persp3d" />
     <pattern
-       y="0"
-       x="0"
-       height="6"
-       width="6"
+       id="EMFhbasepattern"
        patternUnits="userSpaceOnUse"
-       id="EMFhbasepattern" />
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="451.45983"
-     inkscape:cy="222.57973"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
+     units="in"
      showgrid="false"
-     units="in" />
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="202.82953"
+     inkscape:cx="587.1607"
+     inkscape:zoom="1.979899"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -59,17 +59,18 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <g
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7705px;line-height:1.25;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584"
+       transform="rotate(-30,38.042335,38.1)"
+       aria-label="Y"
        id="text136"
-       aria-label="Y">
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7705px;line-height:1.25;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584">
       <path
-         d="m 59.351277,51.581791 4.242264,-6.63938 h -3.80069 l -2.081706,3.611444 h -0.06308 L 55.566357,44.942411 H 51.56065 l 4.305346,6.63938 v 4.210724 h 3.485281 z M 37.147506,9.629386 12.49113,23.864693 V 52.335306 L 37.147506,66.570614 48.940585,59.761726 V 50.924023 L 37.147506,57.732393 20.145443,47.916454 V 28.283545 l 17.002063,-9.815939 17.002064,9.815939 v 13.955221 h 7.65431 V 23.864693 Z"
+         id="path148"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7705px;font-family:'Archivo Black';-inkscape-font-specification:'Archivo Black, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264584"
-         id="path148" />
+         d="m 59.351277,51.581791 4.242264,-6.63938 h -3.80069 l -2.081706,3.611444 h -0.06308 L 55.566357,44.942411 H 51.56065 l 4.305346,6.63938 v 4.210724 h 3.485281 z M 37.147506,9.629386 12.49113,23.864693 V 52.335306 L 37.147506,66.570614 48.940585,59.761726 V 50.924023 L 37.147506,57.732393 20.145443,47.916454 V 28.283545 l 17.002063,-9.815939 17.002064,9.815939 v 13.955221 h 7.65431 V 23.864693 Z" />
     </g>
   </g>
 </svg>
