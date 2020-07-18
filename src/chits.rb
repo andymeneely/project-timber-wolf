@@ -11,9 +11,9 @@ def replace_fill_with_fg(svgfiles, color = $FG_COLOR)
   end
 end
 
-# Circle & Entrance Chits
+# Circle Chits
 puts "Circle chits..."
-circle_files = %w(
+files = %w(
   guard
   subdued
   camera
@@ -28,25 +28,18 @@ circle_files = %w(
   jewel
   folder
 )
-
-files = []
-files << circle_files
-files << 'entrance'
-files.flatten!
-
 ## For TTS
 Squib::Deck.new(width: 300, height: 300, cards: files.size) do
   background color: $BG_COLOR
   svg data: replace_fill_with_fg(files), width: 300, height: 300
   save_png prefix: 'chit_', count_format: files
 end
-
 ## For Rules
-Squib::Deck.new(width: 300, height: 300, cards: circle_files.size) do
+Squib::Deck.new(width: 300, height: 300, cards: files.size) do
   circle x: 158, y: 158, radius: 140, fill_color: :black, stroke_width: 0
   circle x: 150, y: 150, radius: 140, fill_color: $BG_COLOR, stroke_width: 0
-  svg data: replace_fill_with_fg(circle_files), width: 300, height: 300
-  save_png dir: 'rules/', prefix: 'fig_chit_', count_format: circle_files
+  svg data: replace_fill_with_fg(files), width: 300, height: 300
+  save_png dir: 'rules/', prefix: 'fig_chit_', count_format: files
 end
 
 # Money chits for TTS
@@ -173,10 +166,19 @@ end
 # For TTS
 Squib::Deck.new(width: 600, height: 600, cards: 2) do
   background color: $FG_COLOR
-  svg x: height / 4, y: height / 4, width: height / 2 , height: height / 2, 
+  svg x: height / 4, y: height / 4, width: height / 2 , height: height / 2,
       data: replace_fill_with_fg(['security'], $BG_COLOR)
   save_png prefix: 'hex_tile', count_format: ['_front', '_back']
 end
+
+# Entrance tiles
+# For TTS
+Squib::Deck.new(width: 300, height: 300, cards: 1) do
+  background color: $FG_COLOR
+  svg width: height , height: height, data: replace_fill_with_fg(['entrance'], $BG_COLOR)
+  save_png prefix: 'chit_entrance', count_format: ''
+end
+
 # # For rules
 # h = 300
 # Squib::Deck.new(width: 320, height: 320, cards: 1) do
