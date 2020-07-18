@@ -5,9 +5,9 @@ $BG_COLOR = '#6b471c' # dark brown
 $FG_COLOR = '#d8c485' # new cream
 # $FG_COLOR = '#bcbda7' # old cream
 
-def replace_fill_with_fg(svgfiles)
+def replace_fill_with_fg(svgfiles, color = $FG_COLOR)
   svgfiles.map do |f|
-    File.read("img/#{f}.svg").gsub('fill:#000000', "fill:#{$FG_COLOR}")
+    File.read("img/#{f}.svg").gsub('fill:#000000', "fill:#{color}")
   end
 end
 
@@ -168,6 +168,28 @@ svg x: -15, y: -75,
     width: 1.5 * height, height: 1.5 * height
 save_png dir: 'rules', prefix: 'fig_chit_idea', count_format: ''
 end
+
+# Hex tiles
+# For TTS
+Squib::Deck.new(width: 600, height: 600, cards: 2) do
+  background color: $FG_COLOR
+  svg x: height / 4, y: height / 4, width: height / 2 , height: height / 2, 
+      data: replace_fill_with_fg(['security'], $BG_COLOR)
+  save_png prefix: 'hex_tile', count_format: ['_front', '_back']
+end
+# # For rules
+# h = 300
+# Squib::Deck.new(width: 320, height: 320, cards: 1) do
+# rect x: h / 2 + 5, y: 5,
+#      width: h / 2, height: h, radius: 75,
+#      fill_color: :black, stroke_width: 0
+# rect x: h / 2, width: h / 2, height: h, radius: 75,
+#      fill_color: $BG_COLOR, stroke_width: 0
+# svg x: -15, y: -75,
+#     data: replace_fill_with_fg(['idea']),
+#     width: 1.5 * height, height: 1.5 * height
+# save_png dir: 'rules', prefix: 'fig_chit_idea', count_format: ''
+# end
 
 
 
