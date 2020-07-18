@@ -543,7 +543,9 @@ Follow any additional abilities or limitations described on the NPC card.
 
 In every other way, treat an NPC like a regular character. Place their die on the action to denote that their action is taken. NPCs may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, they may modify their die roll with 💡, and may do their Last Ditch Effort in the Escape Phase.
 
-## TBD modules: need playtesting
+## TBD modules
+
+These are in various states of playtesting
 
 * Inspiration Chits: 2-idea and 3-idea chits
 * Elite Security: Needs multiple subactions in one turn
