@@ -28,6 +28,8 @@ function respawn()
   spawnTracker("tracker_01.png")
 
   spawnCard("help_front_00.png", "help_back_00.png")
+
+  spawnChit("chit_entrance.png", "chit_entrance.png", 3, 1.0, 0)
 end
 
 

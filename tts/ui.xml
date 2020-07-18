@@ -10,11 +10,11 @@
   width="85" height="75" offsetXY="200 -2"
   rectAlignment="UpperLeft"
   tooltip="Masters of the Heist controls">
-  <Image image="drawer logo" width="100%"></Image>
+  <Image image="drawer logo" width="100%"></Image>  
 </Button>
 
 <Panel id="drawer"
-  width="200" height="300"
+  width="200" height="400"
   active="false"
   rectAlignment="UpperLeft"
   offsetXY="200 -75"
@@ -23,21 +23,48 @@
   hideAnimation="Shrink"
   animationDuration="0.25">
   <VerticalLayout padding="0 5 5 5" spacing="5">
+    <!--
     <Button id="clean-up" onClick="cleanUp" width="200">
       <Text>Clean Up</Text>
     </Button>
-    <Button id="the-docks" onClick="theDocks" width="200">
-      <Text>The Docks</Text>
+     -->
+    <Button id="theInclusionJob" onClick="theInclusionJob" width="100">
+      <Text>The Inclusion Job</Text>
     </Button>
+    <Button id="theStartupJob" onClick="theStartupJob" width="100">
+      <Text>The Startup Job</Text>
+    </Button>
+    <Button id="theBlindJusticeJob" onClick="theBlindJusticeJob" width="100">
+      <Text>The Blind Justice Job</Text>
+    </Button>
+    <Button id="theSafehouseRescue" onClick="theSafehouseRescue" width="100">
+      <Text>The Safehouse Rescue</Text>
+    </Button>
+    <Button id="theExhibitionJob" onClick="theExhibitionJob" width="100">
+      <Text>The Exhibition Job</Text>
+    </Button>
+    <Button id="theFinalScorePart1" onClick="theFinalScorePart1" width="100">
+      <Text>The Final Score Part 1</Text>
+    </Button>
+    <Button id="theFinalScorePart2" onClick="theFinalScorePart2" width="100">
+      <Text>The Final Score Part 2</Text>
+    </Button>
+    <Button id="theBricks" onClick="theBricks" width="100">
+      <Text>The Bricks</Text>
+    </Button>
+    <Button id="allTheThings" onClick="allTheThings" width="100">
+      <Text>All The Things (dev)</Text>
+    </Button>
+
     <InputField id="custom-savestring"
       onEndEdit="setCustomSaveString"
       font_size="10"
       height="500"
-      placeholder="Paste savestring from Scenario Designer"
+      placeholder="Custom Heist. Paste savestring from Scenario Designer here"
       lineType="MultiLineSubmit"
       offset="210 0"></InputField>
-    <Button id="respawn" onClick="respawn" width="200">
-      <Text>Respawn</Text>
+    <Button id="respawn" onClick="respawn" width="100">
+      <Text>Respawn (Dev Only)</Text>
     </Button>
   </VerticalLayout>
 </Panel>

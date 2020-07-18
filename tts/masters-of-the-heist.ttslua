@@ -2,6 +2,7 @@
 #include scenario-builder
 #include util
 #include spawn
+#include scenarios
 
 function onLoad()
   broadcastToAll("Welcome to Master of the Heist!")
@@ -40,10 +41,4 @@ end
 function setCustomSaveString(_player, value, _id)
   buildScenario(value)
   UI.hide('drawer')
-end
-
-function theDocks()
-  -- the_docks = "The+Docks|130|5|G2 GP EM GD GP GP GP GP GP JW GU GP SC SC SC EM E5 GP GP SC SC SC GP GP GP GP GP GB GP CM RE SC SC EM E5 GP GP JW SC SC EM GP GP GP GP $2 GP GP SC GA GP GP GP GP GP $1 JW GC GP SC SC EM E5 GP GP GP $1 SC GP GP GP GP GP GP GP GP GP GP GP GP GP"
-  all_the_things = "|0|0|0|0|0|250|200|E2 EM SC GU GP GP GP GP GP GP GP GP GP LO CM DO GP E3 E4 GP GP GP GP GP GP GP GP JW $1 $2 $3 GP GP GP GP GP GP GP GP GP GP PP GP GP GP GP GP GP GP GP GP 2GC 2GL GP USB RE WT GA GP GP GP GP 2GD GP C2 GP GP GP GP GB E5 GP GP GP GP G1K GP L2 BE * GD GC GP GP GDGD GKC G3K G2K GP G2 GP E1 GP E6 GP GP GP 2CL GP GP GP GP GP GP GP GP GP GP GP 2CD 2LD SX SY RX RY RXJ RXD RYJ RXM GP GP GP GP GP GP GP GP GP GP GP GP RYM GP GP GP GP GP GP GP MW KCL KC RYD GP"
-  buildScenario(all_the_things)
 end
