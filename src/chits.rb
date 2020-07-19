@@ -27,6 +27,7 @@ files = %w(
   asterisk
   jewel
   folder
+  blank
 )
 ## For TTS
 Squib::Deck.new(width: 300, height: 300, cards: files.size) do

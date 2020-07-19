@@ -45,10 +45,10 @@ Description | WHAT ARE THEY USING?               |
             ╭------------------------------------╮
        Name | Prison Guard                       |
 Description | HAVE YOU SEEN WHAT WE MAKE??       |
-            | During planning of a heist where a |
-            |  character starts on the inside, y |
-            | ou may pay $3k to swap 2 Lock toke |
-            | ns with blanks in the bag.         |
+            | During planning of a heist where c |
+            | haracters or NPCs starts on the in |
+            | side, you may pay $3k to swap 2 Lo |
+            | ck tokens with blanks in the bag.  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Security Consultant                |
@@ -58,13 +58,13 @@ Description | THROW A WRENCH IN THE WORKS        |
             |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Looting Specialist                 |
+       Name | The Connoiseur                     |
 Description | GOTTA KNOW WHAT TO LOOK FOR        |
             | During planning, add $1k to every  |
-            | space with cash loot on it.        |
+            | hex with cash or jewel loot.       |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Unscrupulous Jeweler               |
+       Name | Persuasive Jeweler                 |
 Description | BEAUTY IS IN THE EYES OF THE BUYER |
             | Jewels can be sold for $4k each.   |
             ╰------------------------------------╯
@@ -92,9 +92,9 @@ Description | IF YER GONNA DO THIS, DO IT RIGHT  |
             | $5k/$6k.                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Retired Mastermind                 |
+       Name | The Mayor                          |
 Description | I'LL GET YOU INSIDE                |
             | During planning, you may replace o |
-            | ne known Guard with a player chara |
-            | cter.                              |
+            | ne known or revealed Guard with a  |
+            | player character.                  |
             ╰------------------------------------╯

@@ -23,8 +23,8 @@ function theSafehouseRescue()
   buildScenario(str)
 end
 
-function theExhibitionJob()
-  str = 'Estate+Basement|50|230|4|6|9|115|170|GP GP GP GP GP GP GP GP GP GP GP GP GP GP AA GP GP AH GP GP GP GP GP SC SC RXM SC SC SC SX GP GP AC SC GP SY GP SC GP GP GP GP SC SC GP GP GP GP SC GP GP SC AG SC RX AL RY SC AS GP GP 2GC GP GP GP GP GP GP 2GL GP SC SC GP GP GP GP GP SC SC GP GP EM GP GP GP GP GP GP EM GP E1 GP GP GP GP GP GP GP E6 GP'
+function theBasementRescue()
+  str = 'Estate+Basement|50|230|4|6|9|115|170|GP GP GP GP $3 GP GP $3 GP GP GP GP SC SC RXM JW SC SC SX GP GP GP 2GL 2CL GP SY GP SC GP GP GP SC SC GP GP GP GP SC GP GP GP SC JW SC RX JW RY SC SC GP 2GC GP GP GP GP GP GP 2GL GP GP SC SC GP GP GP GP GP SC SC GP EM GP GP GP GP GP GP EM GP GP E1 GP GP GP GP GP GP GP E6 GP GP GP GP GP GP GP GP GP GP GP'
   buildScenario(str)
 end
 
@@ -43,3 +43,6 @@ function theFinalScorePart2()
   str = ''
   -- buildScenario(str)
 end
+
+
+-- https://mastersoftheheist.com/design/?savekey=|0|0|8|6|3|205|235|OIBQBAogzGq+dEOfVAZA8qp2U5wEIS4n57gBMwAImAEoAaAUmAMICyYAyq2ACQwypcBE6M2FesVHDUdAJos6xARLUyhcGcu68qtHB1k8w+7vJJcGkTppSYbj1RvKy78IA
