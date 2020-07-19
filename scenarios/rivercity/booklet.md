@@ -33,21 +33,21 @@ River City is an **open-ended sandbox** campaign.
   Let me know what you want and I'll arrange the introduction.
 {:class="text-message"}
 
-| Opportunity           | Difficulty | Unlocks Fixer        | Page |
-|:--------------------- |:---------- |:-------------------- |:---- |
-| The Inclusion Job     | Amateur    | Pawn Shop Owner      | 4    |
-| Chain of Custody      | Amateur    | Frustrated Beat Cop  | 5    |
-| The Track Job         | Amateur    | Bookie               | 7    |
-| The Startup Job       | Semi-Pro   | Visage               | 6    |
-| Rivalries             | Semi-Pro   | Extorted Locksmith   | 11   |
-| The Blind Justice Job | Semi-Pro   | Prison Guard         | 9    |
-| The Amnesty Job       | Semi-Pro   | Security Consultant  | 12   |
-| TBD                   | Semi-Pro   | Looting Specialist   | 10   |
-| The Exhibition        | Semi-Pro   | Unscrupulous Jeweler | 8    |
-| Server Farm           | Semi-Pro   | Shell                | 13   |
-| The University Job    | Pro        | The Architect        | 16   |
-| The Safehouse Rescue  | Pro        | Retired Mastermind   | 17   |
-| The Final Score       | Pro        | The Minister         | 21   |
+| Opportunity           | Difficulty | Unlocks Fixer       | Page |
+|:--------------------- |:---------- |:------------------- |:---- |
+| The Inclusion Job     | Amateur    | Pawn Shop Owner     | TBD  |
+| The Startup Job       | Amateur    | Visage              | TBD  |
+| TBD                   | Amateur    | Bookie              | TBD  |
+| TBD                   | Amateur    | Prison Guard        | TBD  |
+| The Greedy Prisoner   | Semi-Pro   | The Connoisseur     | TBD  |
+| The Blind Justice Job | Semi-Pro   | Frustrated Beat Cop | TBD  |
+| TBD                   | Semi-Pro   | Extorted Locksmith  | TBD  |
+| TBD                   | Semi-Pro   | Security Consultant | TBD  |
+| TBD                   | Semi-Pro   | Persuasive Jeweler  | TBD  |
+| TBD                   | Semi-Pro   | Shell               | TBD  |
+| TBD                   | Pro        | The Architect       | TBD  |
+| The Safehouse Rescue  | Pro        | Retired Mastermind  | TBD  |
+| The Final Score       | Pro        | The Mayor           | TBD  |
 {:class='tabletoc'}
 
 **The Final Score**. This finale is a challenging, two-part heist. You may attempt it at any time. We recommend a fully Pro team.
@@ -89,48 +89,27 @@ If a character is busted, you may simply build a new Amateur character. Alternat
   <img src="delinquent-jeweler.png">
 </div>
 
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
+| Difficulty: | Amateur                                             |
+| -----------:|:--------------------------------------------------- |
+|     Events: | 1-8, G1, 9-12, G2, 13-14, G4, G1, C4, 15-20, C1, 25 |
 {:class="scenario-stats"}
 
 You receive a text from the Pawn Shop Owner:
 
 > Our friends down the road have decided to experiment with capitalism again. I need to show them the cost of leaving a cartel.
-{: class="text-message"}
-
-"If you help me with this, I can move merchandise for you better than your friend here."
+{:.text-message}
 
 **Objective:** Steal all three jewels.
 
+**Special Rules:**
+
+* Lockdown Gates (see rules)
+* Reinforcements (see rules)
+
 **Success Unlocks:** Pawn Shop Owner
 
-
 {::comment}
-http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|5|6|4|235|210|OIBQBKHpPXUNggJAJjMgjI+S-gGUBhCE4sc-FbAKQHUwj1KBBMAUQFkOBWHBLhAAiFEsABCoqVUj0plcACV2Hbuz4zwgyOV1jcBsHIVSs-Tf22GLkdthsggA
-{:/comment}
-
-# Chain of Custody
-
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** Frustrated Beat Cop
-
-{::comment}
-
+https://mastersoftheheist.com/design/?savekey=Delinquent+Jeweler|30|5|5|6|4|235|210|OIBQBKHpPXUNggJAJjMgjI+S-gGUBhCE4sc-FbAKQHUwj1KBBMAUQFkOBWHBLhAAiFEsABCoqVUj0plcACV2Hbuz4zwgyOV1jcBsHIVSs-Tf22GLkdthsggA
 {:/comment}
 
 # The Startup Job
@@ -139,73 +118,58 @@ http://localhost:3000/?savekey=Delinquent+Jeweler|30|5|5|6|4|235|210|OIBQBKHpPXU
   <img src="tech-lab.png">
 </div>
 
-|                  Difficulty: | Amateur                      |
-| ----------------------------:|:---------------------------- |
-|                      Events: | 1-4, S2, 5-10, S2, 11-21, S2 |
-| Max characters per Entrance: | 2                            |
-|     Max characters per Exit: | ∞                            |
+| Difficulty: | Amateur                             |
+| -----------:|:----------------------------------- |
+|     Events: | 1-4, S2, 5-10, C2, 11-21, C2, 22-25 |
 {:class="scenario-stats"}
 
-"Trade secrets are for cowards. Get me info on their tech and I can help you out."
+From Visage:
 
-**Objective:** Steal the document.
+> Trade secrets are for cowards. Get me a copy of their code and I can help you out.
+{:.text-message}
 
-**Success Unlocks:** Tech Support Guy
+**Objective:** Steal the document from the vault.
 
-{::comment}
-http://localhost:3000/design?savekey=Tech+Lab|110|35|4|6|6|225|225|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN5ATMJuvcRdegPJgDqAKvgCMdEdmy1a2fqMSQqMoSMmzweVhPIawAUWpiVOvYm0A2NvqSnzIIA
-{:/comment}
+**Special Rules**
 
-# Semper Paratus
+* Keycard (see rules)
+* Watchtower (see rules)
 
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** Extorted Locksmith
+**Success Unlocks:** Visage
 
 {::comment}
-
+https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|35|4|6|6|225|225|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN5ATMJuvcRdegPJgDqAKvgCMdEdmy1a2fqMSQqMoSMmzweVhPIawAUWpiVOvYm0A2NvqSnzIIA
 {:/comment}
 
-# The Exhibition Job
+# The Greedy Prisoner
 
 <div class="map">
   <img src="estate-basement.png">
 </div>
 
-|                  Difficulty: | Semi-Pro        |
-| ----------------------------:|:--------------- |
-|                      Guards: | 4               |
-|                       Locks: | 6               |
-|                     Cameras: | 9               |
-|                      Events: | 1-15, S6, 16-27 |
-| Max characters per Entrance: | 2               |
-|     Max characters per Exit: | ∞               |
+| Difficulty: | Semi-Pro                           |
+| -----------:|:---------------------------------- |
+|     Events: | 1-15, C6, 16-18, C4, C5, D2, 20-25 |
 {:class="scenario-stats"}
 
-"I suppose it's not so bad to be locked up with these masterpieces. Still... I would like my freedom."
+From The Connoisseur:
 
-**NPC token** is a Prisoner.
+> I... got distracted by their beauty. I also figured he'd free me eventually but it appears that I'm his new... prize.  Anyways I would greatly appreciate my freedom. The loot is my payment.
+{:.text-message}
 
-**Objective:** Steal at least two pieces of artwork. The NPC must escape.
 
-**Success Unlocks:** The Curator
+**Objective:** Steal at least two jewels and rescue the NPC.
+
+**Special Rules**:
+
+* The NPC token is a Prisoner (see NPCs in rules)
+* Remote Locks (see rules)
+* Guard Dogs (see rules)
+
+**Success Unlocks:** The Connoisseur
 
 {::comment}
-http://localhost:3000/?savekey=Estate+Basement|50|230|4|6|9|115|170|OIBQBKHpPXUNo8BBFywoBIaZAygMJhFgBKAGgLInGn0UYp3EECaCpe89r8SXHsRTBa5RigAy5DqRT4MAJmB9c-cMukEWajLwwBRGt11GEBgIy6TkAwDYoQA
+https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|4|6|9|115|170|OIBQBKHpAkDMVH0ZV4DKBhMWwCUANAWTACkB1HbXdAlacAJmABkxHM3J0BNRXNP2rZBggQyFlKuQlPx8aIpsCX01kZlwmL1E7sMQBREqL0TjawwEZdtyIYBsds86hA
 {:/comment}
 
 # The Blind Justice Job
@@ -214,245 +178,60 @@ http://localhost:3000/?savekey=Estate+Basement|50|230|4|6|9|115|170|OIBQBKHpPXUN
   <img src="courthouse.png">
 </div>
 
-|                  Difficulty: | Semi-Pro                     |
-| ----------------------------:|:---------------------------- |
-|                      Events: | 1-7, S3, 8-16, S1, 17-20, S3 |
-| Max characters per Entrance: | 2                            |
-|     Max characters per Exit: | ∞                            |
+| Difficulty: | Semi-Pro                     |
+| -----------:|:---------------------------- |
+|     Events: | 1-7, S3, 8-16, S1, 17-20, S3 |
 {:class="scenario-stats"}
 
-"I need to know what they have on me. Get me the dossier on me at the courthouse, then we'll talk."
+> I need to know what they have on me. Get me the dossier on me at the courthouse, then we'll talk.
+{:.text-message}
 
 **Objective:** Steal the document
 
-**Success Unlocks:** Prison Guard
+**Special Rules:**
+
+* Lockdown Gates (see rules)
+* Remote Locks (see rules)
+* Reinforcements Locks (see rules)
+
+**Success Unlocks:** Frustrated Beat Cop, Gain $5k
 
 {::comment}
-http://localhost:3000/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
-{:/comment}
-
-# The University Job
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** Spammer
-
-{::comment}
-
-{:/comment}
-
-# Rivalries
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** "Retired" Thief
-
-{::comment}
-
-{:/comment}
-
-# The Amnesty Job
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** Online Mogul
-
-{::comment}
-
-{:/comment}
-
-# The One that Got Away
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** Retired Detective
-
-{::comment}
-
-{:/comment}
-
-# History is Expensive
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** The Tunneler
-
-{::comment}
-
-{:/comment}
-
-# Mayoral Race
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** Burned Out Sergeant
-
-{::comment}
-
-{:/comment}
-
-# Server Farm
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
-{:class="scenario-stats"}
-
-**Objective:**
-
-**Success Unlocks:** Internet Troll
-
-{::comment}
-
+https://mastersoftheheist.com/design/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
 
 # The Safehouse Rescue
-
 
 <div class="map">
   <img src="parking-garage.png">
 </div>
 
-
-| Difficulty | Pro                                         |
-| ----------:|:------------------------------------------- |
-|     Events | 1-3, 5-9, 11-13, 16-24, S1, 25              |
-|  Objective | Rescue Prisoner before she reaches the van* |
+| Difficulty | Pro                            |
+| ----------:|:------------------------------ |
+|     Events | 1-3, 5-9, 11-13, 16-24, S1, 25 |
 {:class="scenario-stats"}
 
-> Found the safehouse where the feds keep my mentor. Perfect consultant for this crew. Let's get her in transit.
+From Old Friend:
+
+> Found the safehouse where the feds keep my mentor. Let's grab her in transit.
 {: class="text-message"}
+
+**Objective:** Rescue Prisoner before she reaches the van
+
+**Success Unlocks:** Retired Mastermind, $10k
 
 **Special Rules:**
 
-  * MOVING TARGET. Each round, except the first round, move all guards and Prisoner one hex in a straight line closer to the van.
+  * MOVING TARGET. Each round, except the first round, move all guards and Captured Prisoner one hex in a straight line closer to the van.
   * GUARDS HAVE KEYS. Guards and Captured Prisoner move without restriction.
   * AMBUSH REQUIRED. All four Guards must be subdued **in a single round**. If one is subdued but not the others, activate the S1 crisis during Event phase early.
   * ABORT ABORT ABORT. Prisoner cannot be rescued during the Escape Phase.
 
-**Success Unlocks:** Retired Mastermind
 
 {::comment}
-http://localhost:3000/design?savekey=Parking+Garage|0|60|0|10|6|20|180|OIBQBKHpCiBMYYFkquYgrKyPrgMoDCqR2eZFkAMgtbebhAuqa8aY40gOqIovEASjDCkAVJWYo2o9nMoNyhemBoL1kGR0Uad6TjoOIAjAqA
+https://mastersoftheheist.com/design/?savekey=Parking+Garage|0|60|0|10|6|20|180|OIBQBKHpCiBMYYFkquYgrKyPrgMoDCqR2eZFkAMgtbebhAuqa8aY40gOqIovEASjDCkAVJWYo2o9nMoNyhemBoL1kGR0Uad6TjoOIAjAqA
 {:/comment}
 
-
-# County Jail: The Yard
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | ∞       |
-|     Max characters per Exit: | 1       |
-{:class="scenario-stats"}
-
-**Objective:** Everyone escapes out a different exit.
-
-**Upon Success:** Gain $5k
-
-{::comment}
-
-{:/comment}
 
 # County Jail: The Bricks
 
@@ -460,11 +239,9 @@ http://localhost:3000/design?savekey=Parking+Garage|0|60|0|10|6|20|180|OIBQBKHpC
   <img src="the-bricks.png">
 </div>
 
-|                  Difficulty: | Semi-Pro                 |
-| ----------------------------:|:------------------------ |
-|                      Events: | 1-8, S1, 9-12, S2, 13-27 |
-| Max characters per Entrance: | ∞                        |
-|     Max characters per Exit: | 1                        |
+| Difficulty: | Semi-Pro                 |
+| -----------:|:------------------------ |
+|     Events: | 1-8, S1, 9-12, S2, 13-27 |
 {:class="scenario-stats"}
 
 **Objective:** Everyone escapes out a different exit.
@@ -475,31 +252,9 @@ http://localhost:3000/design?savekey=Parking+Garage|0|60|0|10|6|20|180|OIBQBKHpC
 http://localhost:3000/?savekey=The+Bricks|105|235|7|4|5|250|200|OIBQBKHpPXUNmAogZkfJyAsG8wFV9MilI0EBlAYTBolvqdoBEB5YiI+yHgQXwAhLigCsVWkh6Zw0znN6TMLOkrwB1ACoQATGAAye5mB3BahzmXABZdQlv27VyzJdvnHkEA
 {:/comment}
 
-# County Jail: The Hole
-
-<div class="map">
-  <img src="">
-</div>
-
-|                  Difficulty: | Pro |
-| ----------------------------:|:--- |
-|                      Guards: | TBD |
-|                       Locks: | TBD |
-|                     Cameras: | TBD |
-|                      Events: | TBD |
-| Max characters per Entrance: | ∞   |
-|     Max characters per Exit: | 1   |
-{:class="scenario-stats"}
-
-**Objective:** Everyone escapes out a different exit.
-
-**Upon Success:** Gain $15k
-
-{::comment}
-
-{:/comment}
-
 # The Final Score
+
+From your old friend:
 
 > So you've decided to hit up the world's largest gang huh? Nice.
 {:class="text-message"}
@@ -509,10 +264,6 @@ http://localhost:3000/?savekey=The+Bricks|105|235|7|4|5|250|200|OIBQBKHpPXUNmAog
 
 > Lots of moving pieces on this one. Sorry but this one is out of my league.
 {:class="text-message"}
-
-<div class="handwriting">
-
-</div>
 
 This is a two-part heist.
 
@@ -525,9 +276,7 @@ Once the alarm sounds for the first heist, your only escape points are the hideo
 
 Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
 
-## Special Rules
-
-* Before Part 2: the two people who are on the same tile can share ideas with each other between heists.
+Before Part 2: the two people who are on the same tile can share ideas with each other between heists.
 
 
 # The Final Score: Part 1
@@ -538,12 +287,14 @@ Plan for the additional heist by setting new planning tokens (you no longer need
 
 | Difficulty: | Amateur |
 | -----------:|:------- |
-|     Events: | TBD     |
+|     Events: | Pro     |
 {:class="scenario-stats"}
 
 {::comment}
 http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|250|200|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzLCSs6J8AlAUWaT2YGlySFBPzTMh7AKwFiCISHhIGooUMg8ma2kJpj6MjQsOiDxoyfNnLp6xahA
 {:/comment}
+
+From our insider contact:
 
 > We need two people to go in through the loading dock and then we'll have the other two come in through our tunnel under the south wall.
 {:class="text-message"}
@@ -551,15 +302,17 @@ http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|
 > Also, this needs to look like a regular robbery. Steal at least $5k worth of money.
 {:class="text-message"}
 
-**Special rules:**
-  * TUNNEL UNDER THE SOUTH WALL. Choose the entrypoint
-  * SMALL HIDEOUTS. Maximum of 2 characters per hideout*
-
 **Objectives:**
-  * Steal the keycard and break into the vault.
+
+  * Get the documents
   * Escape to the hideouts.
 
-**Between Part 1 and Part 2**. Characters who share a hideout can share (transfer) Ideas with each other.
+**Special rules:**
+
+  * TUNNEL UNDER THE SOUTH WALL. Choose the entrypoint
+  * SMALL HIDEOUTS. Maximum of 2 characters per hideout
+  * Keycard (see rules)
+  * Reinforcements (see rules)
 
 # The Final Score: Part 2
 
@@ -567,14 +320,12 @@ http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|
   <img src="">
 </div>
 
-|                  Difficulty: | Amateur |
-| ----------------------------:|:------- |
-|                      Guards: | TBD     |
-|                       Locks: | TBD     |
-|                     Cameras: | TBD     |
-|                      Events: | TBD     |
-| Max characters per Entrance: | 2       |
-|     Max characters per Exit: | ∞       |
+| Difficulty: | Amateur |
+| -----------:|:------- |
+|     Guards: | TBD     |
+|      Locks: | TBD     |
+|    Cameras: | TBD     |
+|     Events: | TBD     |
 {:class="scenario-stats"}
 
 **Objective:**
