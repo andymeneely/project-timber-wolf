@@ -42,6 +42,8 @@ jobs:
         cp _output/hex_*.png build/
         cp _output/tracker_*.png build/
         cp _output/help_*_00.png build/
+        cp _output/RULES.pdf build/
+        cp _output/rivercity.pdf build/
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
