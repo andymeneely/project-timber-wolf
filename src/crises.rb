@@ -7,6 +7,7 @@ data = Squib.xlsx(file: 'data/data.xlsx', sheet: 3) do |col, item|
 end
 
 File.open('data/crises.txt', 'w+') { |f| f.write data.to_pretty_text }
+File.open('data/crises.json', 'w+') { |f| f.write data.to_json }
 
 Squib::Deck.new(cards: data['Name'].size) do
   use_layout file: 'layouts/crises.yml'

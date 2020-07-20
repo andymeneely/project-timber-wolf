@@ -7,6 +7,7 @@ data = Squib.xlsx(file: 'data/data.xlsx', sheet: 2) do |col, item|
 end
 
 File.open('data/events.txt', 'w+') { |f| f.write data.to_pretty_text }
+File.open('data/events.json', 'w+') { |f| f.write data.to_json }
 
 Squib::Deck.new(cards: data['Name'].size) do
   use_layout file: 'layouts/events.yml'
@@ -72,5 +73,5 @@ Squib::Deck.new(cards: data['Name'].size) do
   build :sheets do
     save_sheet prefix: 'sheet_events_backs_', columns: 5, rows: 5
   end
-  
+
 end
