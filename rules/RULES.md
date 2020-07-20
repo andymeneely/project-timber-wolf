@@ -1,11 +1,15 @@
 Masters of the Heist
 {:.title}
 
-_Masters of the Heist_ is a cooperative heist game set in a world of many possibilities. You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings while dealing with obstacles like closing gates, guards, locks, sensors, and cameras.
+_Masters of the Heist_ is a cooperative heist game.
+
+You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings, making friends along the way.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
-You will start as an Amateur criminal with Amateur skills who is new to River City. But over time, hopefully with a few good decisions along the way, you and your teammates will level up your characters and skills as you make your way through the city. Each heist unlocks new opportunities through doing favors for Fixers.
+You will start as an Amateur criminal with Amateur skills who is new to River City.
+
+But over time, hopefully with a few good decisions along the way, you and your teammates will level up your characters and skills as you make your way through the city.
 
 Version ⏱
 
@@ -64,17 +68,14 @@ Note: precise counts may change as part of the prototyping process.
 
 **Step 2. Set up the board** in the middle of the table. Following the diagram for your heist, set up the hex tiles so that they match the picture.
 
-  * If the hex has a shield, use the Security side of the tile
-  * In all other cases use the blank side.
-
-Place any Loot chits, circle security chits, hex security chits, and any other chits that match the diagram.
+If the hex has a shield, use the Security side of the tile. In all other cases use the blank side and add the pieces neccessary to match the diagram.
 
 <div class="setup-spacing"/>
 
 ![security bag](fig_security_bag.png)
 {:.large_fig .example-right}
 
-**Step 3. Set up the security bag**. The scenario indicates how many Guards, Locks, Cameras and other circle chits should go into the bag. Leave the other Security chits by the board.
+**Step 3. Set up the security bag**. The scenario indicates how many Guards, Locks, Cameras and other circle chits should go into the bag. Leave leftover circle chits by the board.
 
 <div class="setup-spacing"/>
 
@@ -109,7 +110,7 @@ Place any Loot chits, circle security chits, hex security chits, and any other c
 ![event deck](fig_event_deck.png)
 {:.med_fig .example-right}
 
-**Step 7. Set up the Event and Crisis cards** according to the scenario, using the numbered cards in the order indicated. The deck should be entirely face-up with the first card on the top and the last card on the bottom.
+**Step 7. Set up the Event Deck** according to the scenario, using the numbered cards in the order indicated. The deck should be entirely face-up with the first card on the top and the last card on the bottom. It will consist of both Event and Crisis cards.
 
 <div class="setup-spacing"/>
 
@@ -129,23 +130,23 @@ Place any Loot chits, circle security chits, hex security chits, and any other c
   Blue is adjacent to a Camera, but not to a Guard.
 </div>
 
-The board is a set of modular double-sided hex tiles. All hexes are considered symmetrical (i.e. orientation does not matter). For most tiles, each tile is Blank on one side, and is a Security tile on the other side. A **Security tile** represents an unknown Security Chit (see below).
+The board is a set of modular double-sided hex tiles. The rotational orientation does not matter. Each tile is Blank on one side, and is a Security tile on the other side. A **Security tile** represents an unknown Security Chit that will be drawn from the Security Bag.
 
 **Adjacent**. You are considered adjacent to something if you are on a tile that shares a border with another tile. Being on the same tile is *not* considered adjacent.
 
-**Entrances & Exits**. Each board has one or more entrances/exits. These Entrances represent a space. If a character is on one of these spaces they are considered to be Outdoors, otherwise they are Indoors. An Entrance tile is also considered an Exit.
+**Entrances & Exits**. Each board has one or more entrances/exit tiles. If a character is on one of these spaces they are considered to be **Outdoors**, otherwise they are Indoors. The terms Entrance and Exit refer to the same tile and can be used interchangeably.
 
-**Limit 2 to Entrance**. By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, although the scenario may impose additional limits.
+**Limit 2 to Entrance**. By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, by default.
 
 **External**. Some abilities refer to "external sides", which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure). An "external tile" is a tile with at least one external side.
 
 **Gaps**. Some abilities refer to a "non-tiled gap", which is a hex-spaced area between two hex tiles that does *not* have a hex (see figure).
 
+---
+
 ## Security Chits
 
-Security Chits are randomized obstacles that your team will encounter. Security chits are generally unknown at the beginning of the heist, and are placed in the security bag to be drawn at random throughout the heist.
-
-**Reveal and Auto-Reveal**. Immediately when a character is adjacent to a unknown Security tile (i.e. no Security chit placed yet), the chit is "auto-revealed" where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
+Security Chits are obstacles your team will encounter. Some will be known when you set up the board, others will be unknown in the Security Bag.
 
 |  Name  |                  Active                  |                      Inactive                      | Behavior                                                                                                                                                                                |
 |:------:|:----------------------------------------:|:--------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -154,7 +155,9 @@ Security Chits are randomized obstacles that your team will encounter. Security 
 | Camera |   ![live](fig_chit_camera.png)<br>Live   | ![disabled](fig_chit_disconnected.png)<br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but raise an Alert (⚠) by 1. If a Disabled camera is powered back on while a character is on it, raise an Alert (⚠) by 1. |
 {:.security-table}
 
-**More chits in the back.** Other chits that can go into the security bag can be found in the back of the rulebook.
+**More chits in the back.** Other chits that go into the security bag can be found in the back of the rulebook. Any circle-shaped chit may at some point go into the security bag.
+
+**Reveal and Auto-Reveal**. During a heist, when a character is adjacent to an unknown Security tile (i.e. no Security chit placed yet), the chit is "auto-revealed" where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a **Reveal** (🔍) sub-action (see below).
 
 ## Actions & Sub-Actions
 
@@ -171,12 +174,12 @@ Skills and Characters allow you to take Actions. Most Actions are a grouping of 
 * ⚠ is  **Alert**. Discard the top Event card. (Required)
 {:.subactions}
 
-<div class="pagebreak"/>
+---
 
-<div class="characters">
 ## Characters
 
 ![character figure](figure_character_00.png)
+{:.card-portrait .card-right .rotate-right}
 
 Each Character card has:
 
@@ -185,46 +188,41 @@ Each Character card has:
 * **Initial Ideas**. The number of Ideas 💡 you start with at the beginning of each heist.
 * **Default Actions**. Actions that are available regardless of your die roll. Some Characters have two Default Actions, others have three.
 * **Ability**. What the character can uniquely do.
-  - Some abilities will have a _Use this action..._ sentence referring to a Default Action space below. You must use your Action to make use of this ability.
-  - Some abilities have a "Once per heist..." sentence. Place the once-per-heist token on this character at the beginning of the heist and discard when used.
-  - Otherwise, the ability is a passive effect, i.e. may do the ability *in addition to* your Action. Specific character abilities override any rules in this document.
-{:.figure_list}
-
-</div>
-
-<div class="clear-both"/>
-
-<div class="skills">
+  - Some abilities will have a "Use this action..." sentence referring to a Default Action space below. You must use your Action to make use of this ability.
+  - Some abilities have a "Once per heist..." sentence. Once you use this ability, place the 1x chit over the ability on your card.
+  - Otherwise, the ability is a passive effect.
+{:.figure_list .numbered_fig}
 
 ## Skills
 
 ![skill figure](figure_skill_00.png)
+{:.card-landscape .card-right .rotate-left}
 
 Each character gets two Skills. Each Skill has six Actions *①* that each correspond to a die roll *②*. During a heist, you will be rolling your die to determine which Actions are available to you. Every skill is either Amateur or Pro.
+{:.numbered_fig}
 
-**Complementary skills**. When building a character, use Lacks *③* to see what the skill is missing so you can find a good combination.
-
-</div>
+Tip: When building a character, use Lacks *③* to see what the skill is missing so you can find a good combination.
+{:.tip .numbered_fig}
 
 ## Events
 
 ![event figure](figure_event.png)
 {:.card-portrait .card-right}
 
-The Event cards represent the potential Security Events you will encounter each round. Each scenario will have a series of Events that you will progress through, called the **Event Deck**. This deck will remain _face-up_ at all times.
+In addition to security chits, Events will impact your team each round.
 
-**One Event per round**. You will not be affected by _every_ event in the deck, rather, you will be encountering _one_ event each round and which event happens will be determined by a variety of factors.
+**One Event per round**. You will not experience _every_ event in the deck, rather, you will be encountering _one_ event each round and which event happens will be determined by a variety of factors.
 
-**Raise Alert**. Every time you are told to "Raise ⚠", remove the topmost card and discard it for the rest of the heist. The top-most Event in the deck is the Active Event.
+**Raise Alert**. Every time you are told to "Raise ⚠", remove the topmost card and discard it for the rest of the heist. The top-most Event in the deck is the **Active Event**.
 
-**Plan ahead**. You are welcome (encouraged!) to look ahead at potential upcoming events at any time. We recommend designating one person to keep track of the events and warn the group of potentially bad upcoming events.
+**Plan ahead**. You are welcome (encouraged!) to look ahead at potential upcoming events at any time. We recommend designating one person to keep track of the Event Deck and warn the group of potentially bad situations.
 
 ## Crises
 
 ![crisis figure](figure_crisis.png)
 {:.card-portrait .card-right .rotate-left}
 
-Every Event Deck will have a few Crisis cards in them. They are particularly strong and can create big problems for any team of scoundrels.
+Every Event Deck will have a few Crisis cards in them. These are particularly strong and can create big problems for any team of scoundrels.
 
 **All Crises will happen**. Unlike Events, all Crises are guaranteed to happen in a heist. You will be doing all encountered Crisis cards _after_ your round's Event. (_see Phase 3. Event Phase for more details_).
 
@@ -232,34 +230,26 @@ Every Event Deck will have a few Crisis cards in them. They are particularly str
 
 To summarize, you will be doing one Event per round, then zero or more Crises per round.
 
-<div class="pagebreak"></div>
-
 ## Noise
 
 ![noise tracker](fig_noise.png)
 {:.med_fig .example-right .rotate-right}
 
-Every action has a cost. The Noise Tracker card is used for determining how many Noise(🔊) sub-action penalties your team has incurred.
+**Every action has a cost.** The Noise Tracker card is used for determining how many Noise(🔊) sub-action penalties your team has incurred. For each 🔊 your teammates incur, increase the Noise tracker by one.
 
-For each 🔊 your teammates incur, raise the Noise tracker by one. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise ⚠ (see _Events_). If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (see Escape Phase). Note that the card flips over to accommodate all of the slots.
+**Raise Alert ⚠**. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise Alert ⚠. If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (see _Escape Phase_).
 
 ## Loot Chits
 
 ![jewel loot](fig_chit_jewel.png)
-{:.chit .example-right .rotate-right}
-
 ![jewel loot](fig_chit_folder.png)
-{:.chit .example-right .rotate-left}
-
-The objective of the heist is usually to steal Loot chits, which can be cash, jewels, or other tokens you may unlock. While a character shares a space with Loot, they may immediately place that Loot chit on their Character card.
-
 ![jewel loot](fig_chit_keycard.png)
-{:.chit .example-right .rotate-right}
-
 ![jewel loot](fig_chit_usb-key.png)
-{:.chit .example-right .rotate-left}
+{:.chitlist .chit}
 
-**Insta-transfer**. A character may also "drop" loot on their current space for no cost, which means that two characters may effectively "insta-transfer" loot from one to another when sharing a space.
+**Pickup**. When a character shares a tile with a Loot chit, you may immediately place the chit on their Character card.
+
+**Insta-transfer**. A character may also "drop" loot on their current space for no cost, which means that two characters may effectively "insta-transfer" loot from one to another when sharing a space. This can be done at any time.
 
 **Not Ours Until It's Out**. When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
@@ -273,25 +263,13 @@ The objective of the heist is usually to steal Loot chits, which can be cash, je
 ![fixer figure](figure_fixer.png)
 {:.card-portrait-small .card-right .rotate-right}
 
-Throughout your time in River City, you will be introduced to various people who can help your planning. Completing heists give you access to new abilities and ways to spend your Team Cash. You can use as many Fixers as you have unlocked in planning.
+**Fixers help you plan.** Completing heists give you access to new and ways to spend your Team Cash. You can use as many Fixers as you have unlocked.
 
 **Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
 
 <div class="pagebreak"/>
 
 # Heist Gameplay
-
-The structure of each heist is:
-
-  <ol class="gameplay-structure">
-    <li>The Plan
-    </li>
-    <li>The Heist: (1) Roll, (2) Action Phase, (3) Event Phase. Repeat until Escape Phase.
-    </li>
-    <li>Level Up</li>
-  </ol>
-
-
 
 ## Part I: The Plan
 
@@ -309,52 +287,34 @@ Blue and Red place their planning tokens.
 **Place Planning Tokens**. With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
 
 
-
 *Note:* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
 {:.tip}
 
-**Use your Fixers**. Decide which Fixers you will use during Planning and use their abilities.
-
-**Start on Entrances**. Place your Character pawn on the Entrance space where you will plan to start.
-The default limit character limit per Entrance is 2 (unlimited during Escape phase.) Some scenarios dictate a different a limits on this.
+**Start on Entrances**. Place your Character pawn on the Entrance tile where you will plan to start. The default limit character limit per Entrance in planning is 2, unlimited during Heist and Escape parts.
 
 **No auto-reveals yet**. Do not auto-reveal until Heist phase.
 
 </div>
 
-<div class="pagebreak"/>
-
 ## Part II: The Heist
 
-Repeat Phase 1 through 3 until the Escape Phase is initiated.
+For each Round, repeat Phase 1 through 3 until the Escape Phase.
 
 ### Phase 1. Roll
 
-Everybody simultaneously rolls their die.
+Roll your die.
 
 ### Phase 2. Action
 
-In this phase, you use your die to execute one Action. You have a minimum of four options: at least two Actions from your Character and one Action from each Skill.
+**Your die is your action**. You have a minimum of four options: at least two Actions from your Character and one Action from each Skill. When you choose an Action, place your die on that Action to indicate your commitment.
 
-**Modify rolls**. You may also use any number of your Ideas💡 to modify the die roll by 1 each. You may "wrap around", that is, spend an 💡 to go from a 6 to a 1 and vice versa.
+**Modify rolls**. You may spend your Ideas💡 to modify the die roll by +1 or -1 each. You may "wrap around", that is, spend an 💡 to go from a 6 to a 1 and vice versa.
 
-**Interleaving Subactions**. During the Action phase, everyone is working collaboratively and simultaneously. You decide which Action to take, and how to execute your sub-actions. You may execute your sub-actions in any order. You may interleave your sub-actions with the sub-actions of other players. Doing this part effectively takes teamwork and is the key to victory!
+**Interleaving Subactions**. During the Action phase, everyone is working collaboratively and simultaneously. You may execute your sub-actions **in any order**. You may **interleave** your sub-actions with the sub-actions of other players. Doing this part effectively takes teamwork and is the key to victory!
 
-**Undoing**. When you choose an Action, place your die on that Action to indicate your commitment. If unknown information is revealed after you commit to an Action, your Action cannot be undone, otherwise you may undo in good faith.
+**Undoing**. If unknown information is revealed after you commit to an Action, your Action cannot be undone, otherwise you may undo in good faith.
 
 **Required subactions** The Noise(🔊) and the Alert(⚠) sub-actions are required, but all other sub-actions are not required.
-
-*Tip: Wait to account for noise until the end of Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took.*
-{:.tip}
-
-*Example of Modify Roll*. Phil as the Angry Locksmith may always take Pick🔓🔊 or Walk🔊➜ regardless of what he rolled. Suppose he has the Wing It and Smash 'n' Grab Skills, and rolled a 1, then he also has Punch👊🔊🔊➜ and Discover🔍🔍 as options. If he spends an 💡, then he also has Smash📷🔊🔊➜, Grab💰🔊, Strongarm🔓👊🔊🔊➜, and Scamper🔊🔊🔊➜➜ available.
-{:.example}
-
-*Example of Interleaving.* Kelly takes Discover🔍🔍 and reveals a guard one space away from Tim. Tim, with this new information, then chooses to take Punch👊🔊🔊➜, and does a ➜ first, then a 👊 on the newly-discovered guard, then increases the 🔊 by 2.
-{:.example}
-
-*Example of Undoing*. Derek takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Jacob is one space away from the lock and takes Shim(🔓🔊🔊➜), which lets him ➜ and then 🔓. Derek continues with his other ➜➜. The noise level goes up by 4.
-{:.example}
 
 **No passing**. You MUST choose an Action on your Character or Skills.
 
@@ -362,11 +322,20 @@ In this phase, you use your die to execute one Action. You have a minimum of fou
 
 **Escape any time**. You may opt to initiate Escape Phase at any time.
 
+*Tip: Wait to account for noise until the end of Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took. By design, accounting for noise at the beginning or end of the phase makes no strategic difference.*
+{:.tip}
+
+*Example of Modify Roll*. Phil as the Angry Locksmith may always take Pick🔓🔊 or Walk🔊➜ regardless of what he rolled. Suppose he has the Wing It and Smash 'n' Grab Skills, and rolled a 1, then he also has Punch👊🔊🔊➜ and Discover🔍🔍 as options. If he spends an 💡, then he also has Smash📷🔊🔊➜, Grab💰🔊, Strongarm🔓👊🔊🔊➜, and Scamper🔊🔊🔊➜➜ available.
+{:.example}
+
+*Example of Interleaving & Undoing*. Jacob takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Kelly the Angry Locksmith is one space away and takes PICK with EFFICIENT PICKER (🔓🔊🔊➜), which lets her ➜ and then 🔓. Jacob continues with his other ➜➜. Increase 🔊 level by 4.
+{:.example}
+
 ### Phase 3. Event
 
 When all players have finished their Actions and all noise has been accounted for on the Noise Tracker, the team enters the Event phase.
 
-**Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase (the Active Event card does not change).
+**Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase, but the Active Event card does not change.
 
 **Discard Active Event**. When the Active Event is finished, discard the card.
 
@@ -374,39 +343,39 @@ When all players have finished their Actions and all noise has been accounted fo
 
 **No actions or abilities**. Characters may not take actions or use abilities during this phase, unless the text on their card explicitly says so.
 
-**Take from supply**. Whenever an Event or Special Event card calls for a new security tokens to be placed, take the chit from the *supply* (not the bag).
+**Take from supply**. Whenever an Event or Crisis calls for a new chits to be placed, take the chit from the *supply*, not the bag.
 
-**Sound the Alarm**. If the *Sound the Alarm* card is discarded or is the Active Event, immediately enter the Escape Phase. Otherwise, proceed back to Roll for Skill.
+**Sound the Alarm**. If the *Sound the Alarm* card is discarded or is the Active Event, enter the Escape Phase. Otherwise, proceed back to Roll.
 
 ### Escape Phase
 
-When the Escape Phase starts, all Lockdown Gates close and all Security chits are revealed. Then, each character who has not reached an exit (Entrance tile) determines if they can reach it.
+When the Escape Phase starts, all Lockdown Gates close and all Security chits are revealed. Then, in any order, each character who has not reached an Exit tile determines if they can reach it.
 
-**Escape Moves**. Declare the number of Escape Moves you will take to an exit.
+**Escape Moves**. Declare the number of Escape Moves you will take to an exit. Escape Moves are not the same as ➜. Instead:
 
-  * Ignore Plan tokens (Escape Moves do not need prior planning).
-  * Locked tiles are impassable.
-  * Exiting an Unsubdued Guard space costs one extra Escape Move per guard.
-  * Cameras and Pressure Sensors have no effect during Escape.
+  * Ignore Planning tokens (Escape Moves do not need prior planning).
+  * Locked tiles are impassable by Escape Moves
+  * You may Exiting an Unsubdued Guard for one extra Escape Move per guard.
+  * Cameras have no effect during Escape.
   * Each leftover 💡 you have may be used for 1 Escape Move.
 
-**Last Ditch Effort**. After declaring your Escape Moves, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach an Exit, you are Busted.
+**Last Ditch Effort**. After declaring your Escape Moves, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach, you are Busted.
 
 **No costly abilities** You MAY NOT use abilities that cost 🔊 or ⚠ during Escape.
 
-*For example,* SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed
-{:.example}
-
-**Insta-transfers**. You MAY pick up or drop off loot during the Escape Phase.
-
-<div class="example">
-<img src="../img/figure_escape.svg" class="img-right"><br>
-*Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.
-</div>
+**Insta-transfers**. You MAY pick up or drop off loot during the Escape Phase, even during Last Ditch Effort.
 
 ### Busted
 
 If you are Busted, you are out of gameplay for the rest of this Heist. All loot on your character is lost. Your Character is now in Jail, and your team may choose to rescue your character in a future heist. You as a player still level up (see _Level Up_).
+
+*Costly abilities example:* SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed
+{:.example}
+
+<img src="../img/figure_escape.svg" class="img-right"><br>
+*Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.
+{:.example}
+
 
 # Campaign
 
@@ -440,7 +409,7 @@ Each Amateur card is given two choices to level into, as indicated on the back o
 
 <div class="pagebreak"/>
 
-# Security Reference
+# Additional Modules
 
 ## Remote Locks
 
@@ -477,14 +446,16 @@ Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Char
 ![watchtower](fig_hex_watchtower.png)
 {:.example-right .hexchit .rotate-left}
 
-The Watchtower is a thermal imaging system that can detect body movement across long distances. A series of Crisis cards will add Guards to locations along the path emanating from a Watchtower. A Watchtower can be disabled when a character is on that tower when the _Watchtower Sweep_ crisis occurs.
+**Ranged Camera**. The Watchtower is a thermal imaging system that can detect body movement across long distances. A series of Crisis cards will add Guards to locations along the path emanating from a Watchtower.
+
+**There must be some kind of way outta here**. A Watchtower can be disabled when a character is on that tower when the _Watchtower Sweep_ crisis occurs.  The Watchtower does nothing during Escape.
 
 ## Reinforcements
 
 ![reinforcements](fig_hex_reinforcements.png)
 {:.example-right .hexchit .rotate-right}
 
-A hex with the reinforcements token on it is freely passable initially. However, a later Crisis card will cause an area effect centered on this token.
+**Problem for Later**. A hex with the reinforcements token on it is freely passable initially. However, a later Crisis card will cause an area effect centered on this token.
 
 ## Lockdown Gates
 
@@ -501,13 +472,16 @@ Any planning tokens on a locked down hex may be immediately re-planned.
 
 Any other pieces on the locked down hex is removed from the board.
 
+All Lockdown Gates are removed at the start of the Escape phase.
+
+---
+
 ## Keycard
 
 ![keycard lock](fig_hex_keycard-lock.png)
 {:.example-right .hexchit .rotate-right}
 
-
-**No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the keycard door, they may remove the security token. The keycard is a form of loot.
+**No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the Keycard Door, they may remove the Keycard Door token from the baord. The Keycard is a form of loot.
 
 ![keycard](fig_chit_keycard.png)
 {:.example-left .chit .rotate-left}
@@ -517,9 +491,7 @@ Any other pieces on the locked down hex is removed from the board.
 
 **Held by a Guard**. If this chit is pulled from the security bag, **add a Guard to the hex** from the supply.
 
-<div class="pagebreak"/>
-
-# Additional Modules
+**This never works the first time**. The Keycard can be used during Escape, but to open a Keycard Door it costs one Escape Move.
 
 ## USB key
 
@@ -535,24 +507,29 @@ A USB key is a loot item that can go into the security bag, meaning it must be r
 ![npc](fig_npc.png)
 {:.example-right .card-portrait .rotate-right}
 
-A **Non-Player Character** is represented by a white pawn, a white die, and their NPC card. Your team will "remotely" control the NPC.
+A **Non-Player Character** is represented by a white pawn, a white die, and their NPC card. Your team will collaboratively decide on how the NPC spends their action each round. Follow any additional abilities or limitations described on the NPC card.
 
-If an NPC starts inside of a Remote Lock, then they are not "freed" yet and effectively do not exist on the board. Immediately when the Pressure Sensor is disabled, the NPC becomes active (e.g. triggers any auto-reveals).
+**Inactive NPCs**. Some NPCs such as Hostages and Prisoners do nothing until freed or taken.
 
-Follow any additional abilities or limitations described on the NPC card.
+**Free is adjacent**. A Prisoner is freed when they are adjacent to a player character with no other movement impediments (e.g. remote locks, guards).
 
-In every other way, treat an NPC like a regular character. Place their die on the action to denote that their action is taken. NPCs may carry Loot and may be given sub-actions (e.g. Script Kiddie's AUTOPWN). They Auto-Reveal, count as Characters in Security Events, they may modify their die roll with 💡, and may do their Last Ditch Effort in the Escape Phase.
+**Taken is personal**. To take a Hostage, a player character must be on the same tile as the hostage.
 
-## TBD modules
+**Panic Mode**. Every NPC has a Panicked side, enabled by a Crisis.
 
-These are in various states of playtesting
+**Just a character**. In every other way, treat an NPC like a regular character.
 
-* Inspiration Chits: 2-idea and 3-idea chits
+
+<!-- ## TBD modules -->
+
+<!-- These are in various states of playtesting -->
+
+<!-- * Inspiration Chits: 2-idea and 3-idea chits
 * Elite Security: Needs multiple subactions in one turn
 * Safes: its own card? Or just an elite lock? Scenario text?
-* TBD needs playtesting. Like an extra skill card that you carry
+* TBD needs playtesting. Like an extra skill card that you carry -->
 
-<div class="pagebreak"/>
+---
 
 # Pre-Built Characters
 

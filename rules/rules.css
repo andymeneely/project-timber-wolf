@@ -1,14 +1,14 @@
 
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 10pt;
+  font-size: 12pt;
+  /* font-size: 10pt;  */
   /* text-rendering: optimizeLegibility; */
   line-height: 1.05;
-  /* counter-reset: pagenum; */
 }
 
 @page {
-  size: 5.25in 7in;
+  size: 5.25in 8.5in;
   margin: 0.25in;
   margin-top: 0.5in;
   /* background-image: url("../img/rules-background.svg");
@@ -29,7 +29,7 @@ body{
 }
 
 #markdown-toc{
-  margin-left: 8em;
+  margin-left: 6em;
 }
 
 #markdown-toc, #markdown-toc ul {
@@ -44,7 +44,7 @@ body{
 #markdown-toc a::after {
   content: target-counter(attr(href), page);
   float: right;
-  margin-right: 13em;
+  margin-right: 8em;
 }
 
 p{
@@ -98,6 +98,14 @@ h3{
 
 h1, h2, h3, h4, h5 {
   page-break-after: avoid;
+}
+
+hr {
+  border: none;
+  margin: 0;
+  padding: 0;
+  page-break-after: always;
+  clear: both;
 }
 
 .emoji-svg {
@@ -226,8 +234,18 @@ ol.gameplay-structure{
   margin-bottom: 1em;
 }
 
+.numbered_fig em {
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .card-portrait img{
-  width: 11em;
+  width: 10em;
+}
+
+.card-landscape img{
+  width: 14em;
 }
 
 .card-portrait-small img{
@@ -235,10 +253,14 @@ ol.gameplay-structure{
 }
 
 .card-right {
-  transform: rotate(9deg);
   float: right;
   margin-left: 1em;
   clear: right;
+}
+
+.chitlist {
+  float: right;
+  margin-left: 0.5em;
 }
 
 .chit img{
@@ -271,29 +293,6 @@ ol.gameplay-structure{
 
 .rotate-right {
   transform: rotate(7deg);
-}
-
-
-.characters img:first-child{
-  float: right;
-  margin-left: 0.5em;
-  width: 12em;
-  transform: rotate(8deg);
-  margin-bottom: 1em;
-}
-
-.skills em{
-  color: red;
-  font-weight: bold;
-  font-style: normal;
-}
-
-.skills img{
-  float: right;
-  width: 15em;
-  margin-left: 0.5em;
-  transform: rotate(-7deg);
-  margin-bottom: 1em;
 }
 
 .security_systems img{
