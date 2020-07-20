@@ -144,9 +144,9 @@ end
 
 # Idea tokens
 # For TTS
-Squib::Deck.new(width: 300, height: 300, cards: 1) do
+Squib::Deck.new(width: 150, height: 300, cards: 1) do
   background color: $BG_COLOR
-  svg data: replace_fill_with_fg(['idea']), width: height, height: height
+  svg data: replace_fill_with_fg(['idea']), x: -75, width: height, height: height
   save_png prefix: 'chit_idea', count_format: ''
 end
 # For rules
