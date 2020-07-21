@@ -1,57 +1,82 @@
 function respawn()
-  spawnCircleChit("chit_guard.png", "chit_guard.png")
-  spawnCircleChit("chit_locked.png", "chit_unlocked.png")
-  spawnCircleChit("chit_camera.png", "chit_disconnected.png")
-  spawnCircleChit("chit_guard-dog.png", "chit_guard-dog-subdued.png")
-  spawnCircleChit("chit_usb-key.png", "chit_usb-key.png")
-  spawnCircleChit("chit_asterisk.png", "chit_asterisk.png")
-  spawnCircleChit("chit_jewel.png", "chit_jewel.png")
-  spawnCircleChit("chit_folder.png", "chit_folder.png")
+  spawnCircleChit("chit_guard.png", "chit_subdued.png", 'Guard')
+  spawnCircleChit("chit_locked.png", "chit_unlocked.png", 'Lock')
+  spawnCircleChit("chit_camera.png", "chit_disconnected.png", 'Camera')
+  spawnCircleChit("chit_guard-dog.png", "chit_guard-dog-subdued.png", "Guard Dog")
+  spawnCircleChit("chit_usb-key.png", "chit_usb-key.png", "USB key")
+  spawnCircleChit("chit_asterisk.png", "chit_asterisk.png", "Asterisk")
+  spawnCircleChit("chit_jewel.png", "chit_jewel.png", "Jewel")
+  spawnCircleChit("chit_folder.png", "chit_folder.png", "Documents")
+  spawnCircleChit("chit_blank.png", "chit_blank.png", "Blank")
 
-  spawnRectChit("chit_1k.png", "chit_1k.png")
-  spawnRectChit("chit_2k.png", "chit_2k.png")
-  spawnRectChit("chit_5k.png", "chit_5k.png")
+  spawnRectChit("chit_1k.png", "chit_1k.png", "$1k")
+  spawnRectChit("chit_2k.png", "chit_2k.png", "$2k")
+  spawnRectChit("chit_5k.png", "chit_5k.png", "$5k")
+  spawnRectChit("chit_idea.png", "chit_idea.png", "Idea")
 
-  spawnHexChit("hex_watchtower.png", "hex_watchtower.png")
-  spawnHexChit("hex_server-x.png", "hex_server-x.png")
-  spawnHexChit("hex_server-y.png", "hex_server-y.png")
-  spawnHexChit("hex_reinforcements.png", "hex_reinforcements.png")
-  spawnHexChit("hex_remote_lock_x.png", "hex_remote_lock_x.png")
-  spawnHexChit("hex_remote_lock_y.png", "hex_remote_lock_y.png")
-  spawnHexChit("hex_keycard-lock.png", "hex_keycard-lock.png")
-  spawnHexChit("hex_lockdown_A.png", "hex_lockdown_A.png")
-  spawnHexChit("hex_lockdown_B.png", "hex_lockdown_B.png")
-  spawnHexChit("hex_lockdown_C.png", "hex_lockdown_C.png")
-  spawnHexChit("hex_lockdown_D.png", "hex_lockdown_D.png")
+  spawnHexChit("hex_watchtower.png", "hex_watchtower.png", "")
+  spawnHexChit("hex_server-x.png", "hex_server-x.png", "")
+  spawnHexChit("hex_server-y.png", "hex_server-y.png", "")
+  spawnHexChit("hex_reinforcements.png", "hex_reinforcements.png", "")
+  spawnHexChit("hex_remote_lock_x.png", "hex_remote_lock_x.png", "")
+  spawnHexChit("hex_remote_lock_y.png", "hex_remote_lock_y.png", "")
+  spawnHexChit("hex_keycard-lock.png", "hex_keycard-lock.png", "")
+  spawnHexChit("hex_lockdown_A.png", "hex_lockdown_A.png", "")
+  spawnHexChit("hex_lockdown_B.png", "hex_lockdown_B.png", "")
+  spawnHexChit("hex_lockdown_C.png", "hex_lockdown_C.png", "")
+  spawnHexChit("hex_lockdown_D.png", "hex_lockdown_D.png", "")
 
-  spawnTracker("tracker_00.png")
-  spawnTracker("tracker_01.png")
+  spawnTracker("tracker_00.png", "Noise Tracker (3P)")
+  spawnTracker("tracker_01.png", "Noise Tracker (4P)")
 
-  spawnCard("help_front_00.png", "help_back_00.png")
+  spawnCard("help_front_00.png", "help_back_00.png", "Player help")
 
-  spawnChit("chit_entrance.png", "chit_entrance.png", 3, 1.0, 0)
+  spawnChit("chit_entrance.png", "chit_entrance.png", "", 3, 1.0, 0)
+
+  spawnPlanChit('chit_planning_green.png', 'chit_planning_green.png', "")
+  spawnPlanChit('chit_planning_blue.png', 'chit_planning_blue.png', "")
+  spawnPlanChit('chit_planning_purple.png', 'chit_planning_purple.png', "")
+  spawnPlanChit('chit_planning_red.png', 'chit_planning_red.png', "")
+
+  spawnHexTile('hex_tile_front.png', 'hex_tile_back.png', "")
+
+  spawnEventDeck('sheet_events_00.png', 'sheet_events_backs_00.png', 25, 15)
+  spawnEventDeck('sheet_events_01.png', 'sheet_events_backs_01.png', 18, 16)
+
+  spawnCrisisDeck('sheet_crises_00.png', 'sheet_crises_backs_00.png', 7)
+
+  spawnCharacterDeck('sheet_characters_00.png', 'sheet_characters_backs_00.png', 24)
+
+  spawnSkillDeck('sheet_skills_00.png', 'sheet_skills_backs_00.png', 25)
+  spawnSkillDeck('sheet_skills_01.png', 'sheet_skills_backs_01.png', 11)
+
+  spawnFixerDeck('sheet_fixers_00.png', 'sheet_fixers_00.png', 14)
+
 end
 
 
-function spawnRectChit(front, back)   spawnChit(front, back, 3, 0.65, 0) end
-function spawnCard(front, back)       spawnChit(front, back, 3, 1.2, 0) end
-function spawnHexChit(front, back)    spawnChit(front, back, 1, 1.75, 30) end
-function spawnCircleChit(front, back) spawnChit(front, back, 2, 1.0, 0) end
+function spawnRectChit(front, back)   spawnChit(front, back, name, 3, 0.65, 0) end
+function spawnCard(front, back)       spawnChit(front, back, name, 3, 1.2, 0) end
+function spawnHexChit(front, back)    spawnChit(front, back, name, 1, 1.75, 30) end
+function spawnHexTile(front, back)    spawnChit(front, back, name, 1, 2.1, 30) end
+function spawnPlanChit(front, back)   spawnChit(front, back, name, 1, 0.6, 60) end
+function spawnCircleChit(front, back) spawnChit(front, back, name, 2, 1.0, 0) end
 
-function spawnChit(front, back, tile_type, s, r)
+function spawnChit(front, back, name, tile_type, s, r)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
-  local random_x = math.random(-20, 20)
-  local random_z = math.random(-20, 20)
+  local chit_x = 0
+  local chit_z = 0
   local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
   local obj = spawnObject({
     type = "Custom_Tile",
-    position = {x=random_x, y=15, z=random_z},
+    position = {x=chit_x, y=15, z=chit_z},
     rotation = {x=0, y = 180 - r, z=0},
     scale = {x=s, y=s, z=s},
   })
+  obj.setName(name)
   obj.setCustomObject({
     type ="Custom_Tile",
-    type = tile_type, -- circle
+    type = tile_type, -- circlef
     image = url .. front .. random_url_arg,
     image_bottom = url .. back .. random_url_arg,
     thickness = 0.15,
@@ -59,16 +84,16 @@ function spawnChit(front, back, tile_type, s, r)
   })
 end
 
-function spawnTracker(front)
+function spawnTracker(front, name)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
-  local random_x = math.random(-20, 20)
-  local random_z = math.random(-20, 20)
+  local tracker_x = 0
+  local tracker_z = -10
   local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
   local s = 3.0
   local tracker_y = 15
   local obj = spawnObject({
     type = "Custom_Tile",
-    position = {x=random_x, y=tracker_y, z=random_z},
+    position = {x=tracker_x, y=tracker_y, z=tracker_z},
     rotation = {x=0, y = 180, z=0},
     scale = {x=s, y=s, z=s},
   })
@@ -140,7 +165,35 @@ function spawnTracker(front)
   })
   spawnObject({
     type = "go_game_piece_white",
-    position = {x=random_x + ul_x, y=tracker_y + 3, z=random_z + ul_z},
+    position = {x=tracker_x + ul_x, y=tracker_y + 3, z=tracker_z + ul_z},
     scale = {x=0.5, y=0.5, z=0.5},
+  })
+end
+
+function spawnFixerDeck(front, back, n)         spawnDeck(front, back, n, 15, -5) end
+function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, n, deck_y, -10) end
+function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, n, 15, -15) end
+function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, n, 15, -20) end
+function spawnSkillDeck(front, back, n)         spawnDeck(front, back, n, 15, -25) end
+
+function spawnDeck(front, back, n, deck_y, deck_z)
+  local url = "https://andymeneely.github.io/project-timber-wolf/"
+  local deck_x = 10
+  local s = 1.0 -- scale
+  local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
+  local obj = spawnObject({
+    type = "DeckCustom",
+    position = {x=deck_x, y=deck_y, z=deck_z},
+    rotation = {x=0, y = 180, z=0},
+    scale = {x=s, y=s, z=s},
+  })
+  obj.setCustomObject({
+    face = url .. front .. random_url_arg,
+    back = url .. back .. random_url_arg,
+    width = 5,
+    height = 5,
+    number = n,
+    unique_back = true,
+    back_is_hidden = true
   })
 end

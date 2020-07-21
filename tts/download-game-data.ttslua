@@ -1,0 +1,44 @@
+function reloadEventDeck(deck)
+  deck.setPositionSmooth({x=10, y=2, z=-5}, false, true)
+
+  WebRequest.get(
+    "https://andymeneely.github.io/project-timber-wolf/events.json",
+    |wr| addEventDeckData(wr, deck)
+  )
+  -- print(ret)
+  -- json = JSON.decode(ret.text)
+  -- print(json["Names"][1])
+
+  -- card.setName('1')
+  -- card = obj.takeObject({position = p})
+  -- card.setName('2')
+  -- obj.takeObject({position = p})
+  -- obj.takeObject({position = p})
+  -- obj.takeObject({position = p})
+  -- obj.takeObject({position = p})
+  -- obj.takeObject({position = p})
+end
+
+function addEventDeckData(webReturn, deck)
+  json = JSON.decode(webReturn.text)
+
+  local n = #deck.getObjects()
+  for i=1,n do
+    local name = "["..json["Order"][n + 1 - i].."] "..json["Name"][n + 1 - i]
+    deck.takeObject({
+      position={x=15, y=2 + i, z=-5},
+      callback_function = |obj| obj.setName(name)
+    })
+  end
+  --
+  -- local n =
+  -- print("Loading...")
+  -- for i=1,n do
+  --   p = {x=-5, y=2, z=10}
+  --   event_deck.takeObject({
+  --     position          = p,
+  --     -- callback_function = |obj| obj.setName("FOO")
+  --   })
+  -- end
+  -- return json
+end

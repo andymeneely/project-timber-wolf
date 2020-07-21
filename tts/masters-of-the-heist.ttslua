@@ -3,6 +3,7 @@
 #include util
 #include spawn
 #include scenarios
+#include download-game-data
 
 function onLoad()
   broadcastToAll("Welcome to Master of the Heist!")
@@ -17,20 +18,6 @@ function toggleDrawer()
   end
 end
 
-function cleanUp()
-  broadcastToAll("Button disabled for now")
-
-  -- for i, guid in pairs(tile_hex_guids) do
-  --   tile = getObjectFromGUID(guid)
-  --   tile.setPositionSmooth({
-  --     x = -40,
-  --     y = i*0.5,
-  --     z = 20,
-  --   }, false, false)
-  --   tile.setRotation({x=0,y=90,z=0})
-  -- end
-end
-
 function setSaveString(_obj, _color, save_string, stillEditing)
   if not stillEditing then
     buildScenario(save_string)
@@ -41,4 +28,8 @@ end
 function setCustomSaveString(_player, value, _id)
   buildScenario(value)
   UI.hide('drawer')
+end
+
+function onObjectEnterScriptingZone(zone, obj)
+  if zone.guid == event_deck_loading_zone_guid then reloadEventDeck(obj) end
 end
