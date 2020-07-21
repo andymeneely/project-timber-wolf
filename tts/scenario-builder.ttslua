@@ -1,7 +1,7 @@
 function buildScenario(save_string)
   local hextiles = parseTileList(save_string)
-  local x_start = -14
-  local z_start = 11
+  local x_start = -16.50
+  local z_start = 12.5
   local hex_width = 3.8
   local z_shift = 3.3
   local stride = math.sqrt(getn(hextiles))
@@ -10,11 +10,13 @@ function buildScenario(save_string)
   for i,t in pairs(hextiles) do
     row = math.floor((i - 1) / stride)
     col = (i - 1) % stride
+    hex_x = x_start + col * hex_width + (row % 2)* odd_row_shift
+    hex_z = z_start - row * z_shift
     if(isHex(t)) then
-      hex_x = x_start + col * hex_width + (row % 2)* odd_row_shift
-      hex_z = z_start - row * z_shift
       placeHex(t, hex_x, hex_z)
       placeChits(t, hex_x, hex_z)
+    elseif(isExit(t)) then
+      placeExit(t, hex_x, hex_z)
     end
   end
 end
@@ -46,28 +48,24 @@ function placeHex(t, hex_x, hex_z)
   tile_bag.takeObject({ position={ x=hex_x, y=hex_y, z=hex_z, }, rotation=r })
 end
 
-function placeExit(e, hex_x, hex_z)
+function placeExit(t, hex_x, hex_z)
   local hex_y = 10
-  local rotations = {
-    {x=0,y=150,z=0},
-    {x=0,y=150,z=0},
-    {x=0,y=150,z=0},
-    {x=0,y=150,z=0},
-    {x=0,y=150,z=0},
-    {x=0,y=150,z=0},
-  }
-  local d = { --nudge amount
-    {x=0,z=0},
-    {x=0,z=0},
-    {x=0,z=0},
-    {x=0,z=0},
-    {x=0,z=0},
-    {x=0,z=0},
-  }
+  local r = 0
+  local dx = 0 -- nudge amount
+  local dz = 0 -- nudge amount
+
+  if     t == 'E1' then dx = 0.40; dz = 0.70;  r = 210
+  elseif t =='E2' then dx = 0.80;              r = 180
+  elseif t =='E3' then dx = 0.40;  dz = -0.70; r = 150
+  elseif t =='E4' then dx = -0.40; dz = -0.70; r = 210
+  elseif t =='E5' then dx = -0.80;             r = 180
+  elseif t =='E6' then dx = -0.40; dz = 0.70;  r = 150
+  end
+
   local chit_bag = getObjectFromGUID(entrance_bag_guid)
   chit_bag.takeObject({
-    position={ x=hex_x + d[e], y=hex_y, z=hex_z + d[e], },
-    rotation=rotations[e],
+    position={ x=hex_x + dx, y=hex_y, z=hex_z + dz },
+    rotation={ x=0,          y=r,     z=0},
   })
 end
 
@@ -114,7 +112,7 @@ function placeChits(t, hex_x, hex_z)
   elseif t == 'L2' then place2Chits(lock_bag, lock_bag, hex_x, hex_z)
   elseif t == 'C2' then place2Chits(camera_bag, camera_bag, hex_x, hex_z)
   elseif t == '2GL' then place2Chits(guard_bag, lock_bag, hex_x, hex_z)
-  elseif t == '2GC' then place2Chiqts(guard_bag, camera_bag, hex_x, hex_z)
+  elseif t == '2GC' then place2Chits(guard_bag, camera_bag, hex_x, hex_z)
   elseif t == '2GD' then place2Chits(guard_bag, guard_dog_bag, hex_x, hex_z)
   elseif t == 'G1K' then place2Chits(guard_bag, money_1k_bag, hex_x, hex_z)
   elseif t == 'G2K' then place2Chits(guard_bag, money_2k_bag, hex_x, hex_z)
@@ -212,4 +210,13 @@ function isHex(tile)
      and tile ~= "E4"
      and tile ~= "E5"
      and tile ~= "E6"
+end
+
+function isExit(tile)
+  return tile == "E1"
+     or tile == "E2"
+     or tile == "E3"
+     or tile == "E4"
+     or tile == "E5"
+     or tile == "E6"
 end
