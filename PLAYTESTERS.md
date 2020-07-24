@@ -35,4 +35,7 @@
   * Drew Heintz
   * Tanner Glantz
   * Josiah Meneely
+  * Trista Zukoski
   * Bonnie Meneely
+  * Josh Ostrander
+  * Mark Gartland
