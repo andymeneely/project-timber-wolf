@@ -42,8 +42,9 @@ Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   svg file: 'help-color-back.svg'
 
   planning_str = <<~EOS
+  - Simultaneous play
   - Place planning tokens
-  - Purchase items
+  - Visit Shop
   - Use Fixer abilities
   - Max :meeple: :meeple: per Entrance
   EOS
@@ -56,13 +57,14 @@ Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   2. Action Phase, simultaneous play
   3. Event phase
      a. Do ONE event, then
-     b. Do ALL crises encountered
+     b. Do ALL crises queued
   4. Repeat until Escape initiated
   EOS
 
   escape_str = <<~EOS
   - Ignore planning tokens, cameras
   - Each Escape Move costs an :idea:
+  - No Max :meeple: per Exit
   - Cannot :unlock:
   - Need :idea: to escape a Guard
   - AFTER Escape Moves, may roll
