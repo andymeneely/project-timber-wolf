@@ -340,7 +340,7 @@ LevelUp2Desc |                                    |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Dart                               |
-    Default3 | Hesitate                           |
+    Default3 | Pause                              |
              | :idea:                             |
     LevelUp1 | Grease Man                         |
     LevelUp2 | Ghost Runner                       |
@@ -365,7 +365,7 @@ LevelUp2Desc | +4 ⬢                               |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Dart                               |
-    Default3 | Hesitate                           |
+    Default3 | Pause                              |
              | :idea:                             |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
@@ -375,8 +375,8 @@ LevelUp2Desc | +4 ⬢                               |
              |                                    |
              | VENT CRAWL                         |
              | For :noise::noise::noise::noise:,  |
-             | may treat a tile directly across 1 |
-             |  non-tiled gap as adjacent.        |
+             | you may treat a tile directly acro |
+             | ss 1 non-tiled gap as adjacent.    |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -389,7 +389,7 @@ LevelUp2Desc |                                    |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Bolt                               |
-    Default3 | Hesitate                           |
+    Default3 | Pause                              |
              | :idea:                             |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
