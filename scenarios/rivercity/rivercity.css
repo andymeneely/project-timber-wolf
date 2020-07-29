@@ -32,8 +32,13 @@ ul {
   list-style: square;
 }
 
+.emoji-svg {
+  height: 1em;
+}
+
 .difficulty-table {
   margin-left: 1em;
+  float: right;
 }
 
 .difficulty-table th {
@@ -54,11 +59,13 @@ ul {
 
 h1{
   font-family: 'Archivo Black';
-  font-weight: bold;
-  page-break-before: always;
-  margin-top: 0.5em;
-  margin-bottom: 0;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.25em;
+  background-color: black;
+  color: white;
   text-align: center;
+  clear: both;
   page-break-before: always;
 }
 
@@ -141,12 +148,11 @@ hr {
 
 .map {
   text-align: center;
-}
-
-.map img {
-  width: 100%;
   margin: 0;
 }
+
+.map img   { width: 100%; }
+.map-90 { width: 90%; }
 
 .page-break{
   page-break-after: always;
@@ -209,4 +215,59 @@ table.scenario-stats {
 
 .hidden {
   display: none;
+}
+
+.prebuilt {
+  font-size: 80%;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.prebuilt .s {
+  width: 1.5em;
+}
+
+.prebuilt td, .prebuilt th {
+  margin: 0;
+  padding: 0.1em;
+  border: 1pt solid black;
+}
+
+.prebuilt tr>td:nth-of-type(n + 4){
+  font-family: 'Consolas';
+  letter-spacing: -0.2em;
+  line-height: normal;
+  font-size: 9pt;
+  text-align: left;
+}
+
+.prebuilt tr:nth-last-of-type(2n+2){
+  background-color: #ccc;
+}
+
+.prebuilt th {
+  border: none;
+  text-align: center;
+}
+
+ul.heistthread {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+ul.heistthread>li {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  width: 32%;
+  border: 1pt solid #ccc;
+  border-radius: 1em;
+  padding: 0;
+}
+
+.heistthread ul {
+  list-style: none;
 }

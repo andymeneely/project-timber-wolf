@@ -11,7 +11,7 @@ Your journey begins with some text messages from an old friend:
 {:class="text-message"}
 
 
-River City is an **open-ended sandbox** campaign.
+River City is an **open-ended** campaign.
 
 * All heists are **available** to any team.
 * Every heist you complete will introduce you to a new **Fixer**
@@ -20,6 +20,8 @@ River City is an **open-ended sandbox** campaign.
 * When a character is Busted, your team may opt to do a **breakout**. See page 3.
 * During planning, you may visit the Shop to **purchase items**.
 
+Version ⏱
+
 ---
 
 * Choose an entirely Amateur team.
@@ -27,32 +29,8 @@ River City is an **open-ended sandbox** campaign.
 * You have $0k team cash.
 {:class="directions"}
 
+
 # Opportunities
-
-> The city is bursting with great opportunities and new people to meet.
-  Let me know what you want and I'll arrange the introduction.
-{:class="text-message"}
-
-| Opportunity           | Difficulty | Unlocks Fixer       | Page |
-|:--------------------- |:---------- |:------------------- |:---- |
-| The Inclusion Job     | Amateur    | Pawn Shop Owner     | TBD  |
-| The Startup Job       | Amateur    | Visage              | TBD  |
-| TBD                   | Amateur    | Bookie              | TBD  |
-| TBD                   | Amateur    | Prison Guard        | TBD  |
-| The Greedy Prisoner   | Semi-Pro   | The Connoisseur     | TBD  |
-| The Blind Justice Job | Semi-Pro   | Frustrated Beat Cop | TBD  |
-| TBD                   | Semi-Pro   | Extorted Locksmith  | TBD  |
-| TBD                   | Semi-Pro   | Security Consultant | TBD  |
-| TBD                   | Semi-Pro   | Persuasive Jeweler  | TBD  |
-| TBD                   | Semi-Pro   | Shell               | TBD  |
-| TBD                   | Pro        | The Architect       | TBD  |
-| The Safehouse Rescue  | Pro        | Retired Mastermind  | TBD  |
-| The Final Score       | Pro        | The Mayor           | TBD  |
-{:class='tabletoc'}
-
-**The Final Score**. This finale is a challenging, two-part heist. You may attempt it at any time. We recommend a fully Pro team.
-
-Heists are labelled with their difficulty based on the team:
 
 | Difficulty | Avg. Level |
 | ---------- | ---------- |
@@ -61,12 +39,53 @@ Heists are labelled with their difficulty based on the team:
 | Pro        | > 3        |
 {:class="difficulty-table"}
 
+> Just name the fixer and I'll arrange an introduction.
+{:class="text-message"}
+
+| Opportunity           | Difficulty | Unlocks Fixer       | Page |
+|:--------------------- |:---------- |:------------------- |:---- |
+| The Inclusion Job     | Amateur    | Pawn Shop Owner     | TBD  |
+| The Startup Job       | Amateur    | Visage              | TBD  |
+| The Dark Horse Job    | Amateur    | Bookie              | TBD  |
+| The Greedy Prisoner   | Semi-Pro   | The Connoisseur     | TBD  |
+| The Blind Justice Job | Semi-Pro   | Beat Cop            | TBD  |
+| TBD                   | Semi-Pro   | Extorted Locksmith  | TBD  |
+| TBD                   | Semi-Pro   | Security Consultant | TBD  |
+| TBD                   | Semi-Pro   | The Scavenger       | TBD  |
+| TBD                   | Semi-Pro   | Persuasive Jeweler  | TBD  |
+| The Side Channel      | Semi-Pro   | Shell               | TBD  |
+| TBD                   | Pro        | The Architect       | TBD  |
+| The Safehouse Rescue  | Pro        | Retired Mastermind  | TBD  |
+| The Final Score       | Pro        | The Mayor           | TBD  |
+{:class='tabletoc'}
+
+
+
+Can't decide? These are some good threads:
+
+
+* **Get That Loot**
+  - _The Inclusion Job_
+  - _The Melee Job_
+  - _The Greedy Prisoner_
+  - _TBD: Scavenger_
+* **When A Plan Comes Together**
+  - _The Startup Job_
+  - _TBD: The Machinist_
+  - _The Side Channel_
+  - _The Safehouse Rescue_
+* **Confidence**
+  - _The Dark Horse Job_
+  - _The Blind Justice Job_
+  - _TBD_
+{:.heistthread}
+
 # County Jail Opportunities
 
 > Busted? Minor occupational hazard.
 {:class="text-message"}
 
-If a character is busted, you may simply build a new Amateur character. Alternatively, your team my opt to rescue you. Even if the entire team is busted, you may opt for a breakout using these rules.
+If a character is busted, you may simply build a new character. Alternatively, your team my opt to rescue you. Even if the entire team is busted, you may opt for a breakout using these rules.
 
 ---
 
@@ -76,12 +95,39 @@ If a character is busted, you may simply build a new Amateur character. Alternat
 
 ---
 
-| Opportunity | Difficulty | Team Reward | Page |
-|:----------- |:---------- |:-----------:|:----:|
-| The Yard    | Amateur    |     $5k     |  18  |
-| The Bricks  | Semi-Pro   |    $10k     |  19  |
-| The Hole    | Pro        |    $15k     |  20  |
+| Opportunity | Difficulty | Unlocks Fixer | Team Reward | Page |
+|:----------- |:---------- |:-------------:|:-----------:| ---- |
+| The Yard    | Semi-Pro   | Prison Guard  |    $10k     | 18   |
+| The Bricks  | Semi-Pro   | Prison Guard  |    $10k     | 19   |
+| The Hole    | Pro        | Prison Guard  |    $15k     | 20   |
 {:class='tabletoc'}
+
+# Pre-Built Characters
+
+TODO: finish filling these out.
+
+<!-- •••••••••••••••••• -->
+
+|                                                                       |      Name      |                Character & Skills                | ➜             | 💡      | 🔍   | 🔓     | 👊  | 📷     | 🔊                    |
+|:---------------------------------------------------------------------:|:--------------:|:------------------------------------------------:| ------------- | ------- | ---- | ------ | --- | ------ | --------------------- |
+| ![angry locksmith shadow](../../img/shadows/angry locksmith.svg){:.s} | Johnny Swagger | **Angry Locksmith** <br/> Smash 'n' Grab, Bypass | ∎∎∎∎∎∎∎∎∎∎    | ∎∎∎     | ∎∎∎∎ | ∎∎     | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
+| ![angry locksmith shadow](../../img/shadows/angry locksmith.svg){:.s} |     Karma      |     **Angry Locksmith** <br/> Hurry, Wing It     | ∎∎∎∎∎∎∎∎∎∎∎∎  | ∎∎∎∎    | ∎∎∎  | ∎∎∎    | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎  |
+|            ![thug shadow](../../img/shadows/thug.svg){:.s}            |    Jitters     |         **Thug** <br/> Hurry, Yank Wires         | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎∎ | ∎∎∎  | ∎      |     | ∎∎∎∎   | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎   |
+|            ![thug shadow](../../img/shadows/thug.svg){:.s}            |   Tiny Mike    |          **Thug** <br/> Wing It, Bypass          | ∎∎∎∎∎∎∎∎∎∎∎   | ∎∎      | ∎∎   | ∎∎∎∎∎∎ | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎   |
+|   ![street urchin shadow](../../img/shadows/street urchin.svg){:.s}   |     Enigma     |      **Street Urchin** <br/> Hurry, Bypass       | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎  | ∎    | ∎∎∎∎∎  |     |        | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
+|   ![street urchin shadow](../../img/shadows/street urchin.svg){:.s}   |    Iceheart    |   **Street Urchin** <br/> Wing It, Yank Wires    | ∎∎∎∎∎∎∎∎∎∎∎   | ∎∎∎     | ∎∎∎∎ | ∎∎     | ∎∎  | ∎∎∎∎∎∎ | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎ |
+|   ![script kiddie shadow](../../img/shadows/script kiddie.svg){:.s}   |     Phobia     |  **Script Kiddie** <br/> Smash 'n' Grab, Bypass  |               |         |      |        |     |        |                       |
+|   ![script kiddie shadow](../../img/shadows/script kiddie.svg){:.s}   |      Null      |    **Script Kiddie** <br/> Hurry, Yank Wires     |               |         |      |        |     |        |                       |
+|         ![burglar shadow](../../img/shadows/burglar.svg){:.s}         |    Showtime    |        **Burglar** <br/> Bypass, Wing It         |               |         |      |        |     |        |                       |
+|         ![burglar shadow](../../img/shadows/burglar.svg){:.s}         |     Clutch     |   **Burglar** <br/> Smash 'n' Grab, Yank Wires   |               |         |      |        |     |        |                       |
+|         ![lookout shadow](../../img/shadows/lookout.svg){:.s}         |   Crazy Eyes   |         **Lookout** <br/> Hurry, Wing It         |               |         |      |        |     |        |                       |
+|         ![lookout shadow](../../img/shadows/lookout.svg){:.s}         |     Smokes     |     **Lookout** <br/> Smash 'n' Grab, Bypass     |               |         |      |        |     |        |                       |
+|      ![pickpocket shadow](../../img/shadows/pickpocket.svg){:.s}      |     Status     |      **Pickpocket** <br/> Hurry, Yank Wires      |               |         |      |        |     |        |                       |
+|      ![pickpocket shadow](../../img/shadows/pickpocket.svg){:.s}      |     Locket     | **Pickpocket** <br/> Hit 'n' Run, Smash 'n' Grab |               |         |      |        |     |        |                       |
+|     ![shutter bug shadow](../../img/shadows/shutter bug.svg){:.s}     |     F-Stop     |      **Shutter Bug** <br/> Wing It, Bypass       |               |         |      |        |     |        |                       |
+|     ![shutter bug shadow](../../img/shadows/shutter bug.svg){:.s}     |    Stretch     |     **Shutter Bug** <br/> Hurry, Hit 'n' Run     |               |         |      |        |     |        |                       |
+{:.prebuilt}
+
 
 # The Inclusion Job
 
@@ -183,7 +229,9 @@ https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|4|6|9|115|1
 |     Events: | 1-7, S3, 8-16, S1, 17-20, S3 |
 {:class="scenario-stats"}
 
-> I need to know what they have on me. Get me the dossier on me at the courthouse, then we'll talk.
+From the beat cop:
+
+> I need to know what they have on me. Get me the dossier at the courthouse, then we'll talk.
 {:.text-message}
 
 **Objective:** Steal the document
@@ -194,11 +242,48 @@ https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|4|6|9|115|1
 * Remote Locks (see rules)
 * Reinforcements Locks (see rules)
 
-**Success Unlocks:** Frustrated Beat Cop, Gain $5k
+**Success Unlocks:** Beat Cop, Gain $5k
 
 {::comment}
 https://mastersoftheheist.com/design/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
+
+# The Side Channel
+
+<div class="map map-90">
+  <img src="server-farm.png">
+</div>
+
+| Difficulty: | Semi-Pro |
+| -----------:|:-------- |
+|     Events: | TBD      |
+{:class="scenario-stats"}
+
+
+From Shell:
+
+> Greatest cybersecurity in the world can't beat a tunnel. Too bad I'm a bit claustrophobic.
+{:.text-message}
+
+{::comment}
+https://mastersoftheheist.com/design/?savekey=Server+Farm|25|255|7|7|8|180|5|OIBQBKHpPXUMgZQMJgFIHVH1jsqBahJaASgJoAi+hMA0uQKIJ27gAkAzBAExiYAKkRFt8HfmNIi8s8IQAyAeTBkWC-nIQBVJACFWaZWEYKwAWWxbr7MEwBsQA
+{:/comment}
+
+**Objective:** Steal the documents inside remote lock Y.
+
+**Special Rules:**
+
+* TUNNEL. In planning, you place one Entrance on any external side.
+* NO ENTRANCE LIMITS. Any number of player characters may start on an entrance.
+* Guide NPC (see rules). Special ability for Guide is CRACK CIPHER. Immediately when Shell has possession of the USB key, they open up the Y gate.
+* USB key is a loot item.
+* Watchtower (see rules)
+* Keycard (see rules)
+* Reinforcements (see rules)
+
+**Success Unlocks:** Visage
+
+
 
 # The Safehouse Rescue
 
