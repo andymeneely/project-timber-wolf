@@ -91,7 +91,7 @@ If a character is busted, you may simply build a new Amateur character. Alternat
 
 | Difficulty: | Amateur                                             |
 | -----------:|:--------------------------------------------------- |
-|     Events: | 1-8, G1, 9-12, G2, 13-14, G4, G1, C4, 15-20, C1, 25 |
+|     Events: | 1-8, G1, 9-12, G2, 13-14, G4, G1, C4, 15-20, C1, Z2 |
 {:class="scenario-stats"}
 
 You receive a text from the Pawn Shop Owner:
@@ -118,9 +118,9 @@ https://mastersoftheheist.com/design/?savekey=Delinquent+Jeweler|30|5|5|6|4|235|
   <img src="tech-lab.png">
 </div>
 
-| Difficulty: | Amateur                             |
-| -----------:|:----------------------------------- |
-|     Events: | 1-4, S2, 5-10, C2, 11-21, C2, 22-25 |
+| Difficulty: | Amateur                                 |
+| -----------:|:--------------------------------------- |
+|     Events: | 1-4, S2, 5-10, C2, 11-21, C2, 22-24, Z1 |
 {:class="scenario-stats"}
 
 From Visage:
@@ -147,9 +147,9 @@ https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|35|4|6|6|225|225|OIBQ
   <img src="estate-basement.png">
 </div>
 
-| Difficulty: | Semi-Pro                           |
-| -----------:|:---------------------------------- |
-|     Events: | 1-15, C6, 16-18, C4, C5, D2, 20-25 |
+| Difficulty: | Semi-Pro                               |
+| -----------:|:-------------------------------------- |
+|     Events: | 1-15, C6, 16-18, C4, C5, D2, 20-24, Z1 |
 {:class="scenario-stats"}
 
 From The Connoisseur:
@@ -208,7 +208,7 @@ https://mastersoftheheist.com/design/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQ
 
 | Difficulty | Pro                            |
 | ----------:|:------------------------------ |
-|     Events | 1-3, 5-9, 11-13, 16-24, S1, 25 |
+|     Events | 1-3, 5-9, 11-13, 16-24, S1, Z1 |
 {:class="scenario-stats"}
 
 From Old Friend:
@@ -239,9 +239,9 @@ https://mastersoftheheist.com/design/?savekey=Parking+Garage|0|60|0|10|6|20|180|
   <img src="the-bricks.png">
 </div>
 
-| Difficulty: | Semi-Pro                 |
-| -----------:|:------------------------ |
-|     Events: | 1-8, S1, 9-12, S2, 13-27 |
+| Difficulty: | Semi-Pro                     |
+| -----------:|:---------------------------- |
+|     Events: | 1-8, S1, 9-12, S2, 13-24, Z1 |
 {:class="scenario-stats"}
 
 **Objective:** Everyone escapes out a different exit.

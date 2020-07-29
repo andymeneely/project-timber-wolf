@@ -61,7 +61,8 @@ Description | All NPC cards use the Panic side f |
 Description | Take every Guard Dog out of the ba |
             | g and, dividing them equally, plac |
             | e them on every hex adjacent to an |
-            |  entrance.                         |
+            |  entrance. Move all Dogs one space |
+            |  closer to its nearest character.  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Rescue Dogs                        |
@@ -73,4 +74,19 @@ Description | Every known unsubdued Guard Dog mo |
             | ves up to 3 hexes (ignoring securi |
             | ty) to the nearest subdued Guard a |
             | nd unsubdues them.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Sound the Alarm!                   |
+         ID | Z1                                 |
+        Qty | 1                                  |
+      Story | This is it.                        |
+Description | Initiate Escape Phase.             |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Full Lockdown!!                    |
+         ID | Z2                                 |
+        Qty | 1                                  |
+      Story | Now or never.                      |
+Description | Close all Lockdown Gates. Initiate |
+            |  Escape Phase.                     |
             ╰------------------------------------╯
