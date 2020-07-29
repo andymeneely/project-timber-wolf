@@ -44,7 +44,7 @@ heist:
 escape:
   font: Archivo Narrow, 9
   x: 560
-  y: 490
+  y: 475
   width: 3in
   height: 2in
 
