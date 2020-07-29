@@ -1,6 +1,7 @@
 # Build the River City scenario Markdown to HTML
 require 'squib'
 require_relative 'util/helpers'
+require_relative 'util/version'
 
 # svg_files = Dir['scenarios/p*.svg'].sort
 #
@@ -14,8 +15,23 @@ require_relative 'util/helpers'
 
 require 'kramdown'
 
+def replace_emojis(html)
+  html.gsub(/💡/,'<img src="../../img/emojis/idea.svg" class="emoji-svg" />')
+      .gsub(/🔊/,'<img src="../../img/emojis/noise.svg" class="emoji-svg" />')
+      .gsub(/➜/,'<img src="../../img/emojis/move.svg" class="emoji-svg" />')
+      .gsub(/📷/,'<img src="../../img/emojis/disable.svg" class="emoji-svg" />')
+      .gsub(/🔍/,'<img src="../../img/emojis/reveal.svg" class="emoji-svg" />')
+      .gsub(/👊/,'<img src="../../img/emojis/subdue.svg" class="emoji-svg" />')
+      .gsub(/🔓/,'<img src="../../img/emojis/unlock.svg" class="emoji-svg" />')
+      .gsub(/⚠/,'<img src="../../img/emojis/alert.svg" class="emoji-svg" />')
+      .gsub(/💰/,'<img src="../../img/emojis/loot.svg" class="emoji-svg" />')
+      .gsub(/⏱/,MastersOfTheHeist::VERSION)
+end
+
 scenarios_md = File.read 'scenarios/rivercity/booklet.md'
 
 File.open('scenarios/rivercity/booklet.md.html', 'w+') do |f|
-  f.write Kramdown::Document.new(scenarios_md, parse_block_html: true).to_html
+  html = Kramdown::Document.new(scenarios_md, parse_block_html: true).to_html
+  html = replace_emojis(html) # hack around https://github.com/wkhtmltopdf/wkhtmltopdf/issues/2913
+  f.write html
 end
