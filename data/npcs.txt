@@ -3,8 +3,8 @@
         Qty | 1                                  |
    Default1 | Crawl                              |
             | :move:                             |
-   Default2 | Reveal                             |
-            | :reveal:                           |
+   Default2 | Pause                              |
+            | :idea:                             |
       Roll6 | Dash                               |
             | :noise::move::move:                |
 Description | Cannot be given :subdue:           |
@@ -29,11 +29,14 @@ Description | (May now be given :subdue:)        |
             | :move:                             |
    Default2 | Handle                             |
             | :subdue::disable::unlock:          |
-      Roll6 | Hesitate                           |
+      Roll6 | Pause                              |
             | :idea:                             |
-Description | Must share a tile with a Player Ch |
-            | aracter at the end of every Charac |
-            | ter Action phase.                  |
+Description | SQUIRRELY                          |
+            | Nearest player character loses an: |
+            | idea:unless this character shares  |
+            | a tile with them at the end of Act |
+            | ion phase. If that player has no : |
+            | idea:, then :noise::noise:.        |
   FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -45,9 +48,12 @@ Description | Must share a tile with a Player Ch |
             | :noise:                            |
       Roll6 | Walk                               |
             | :noise::move:                      |
-Description | Must share a tile with a Player Ch |
-            | aracter at the end of every Charac |
-            | ter Action phase.                  |
+Description | SQUIRRELY                          |
+            | Nearest player character loses an: |
+            | idea:unless this character shares  |
+            | a tile with them at the end of Act |
+            | ion phase. If that player has no : |
+            | idea:, then :noise::noise:.        |
   FrontBack | back                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -55,13 +61,13 @@ Description | Must share a tile with a Player Ch |
         Qty | 1                                  |
    Default1 | Stride                             |
             | :noise::move::reveal:              |
-   Default2 | Study                              |
-            | :idea::idea:                       |
-      Roll6 | Discover                           |
-            | :reveal::reveal:                   |
-Description | Must share a tile with a Player Ch |
-            | aracter at the end of every Charac |
-            | ter Action phase.                  |
+   Default2 | Special                            |
+      Roll6 | Observe                            |
+            | :idea::reveal::noise:              |
+Description | TALKATIVE                          |
+            | :noise: unless shares a tile with  |
+            | a Player Character at the end of A |
+            | ction phase.                       |
   FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -69,11 +75,11 @@ Description | Must share a tile with a Player Ch |
         Qty | 1                                  |
    Default1 | Run                                |
             | :noise::noise::move::move:         |
-   Default2 | Whimper                            |
-            | :noise:                            |
+   Default2 | Special                            |
       Roll6 | Walk:noise::move:                  |
-Description | Must share a tile with a Player Ch |
-            | aracter at the end of every Charac |
-            | ter Action phase.                  |
+Description | VERY TALKATIVE                     |
+            | :noise::noise: unless shares a til |
+            | e with a Player Character at the e |
+            | nd of Action phase.                |
   FrontBack | back                               |
             ╰------------------------------------╯
