@@ -110,8 +110,6 @@ hr {
 
 .emoji-svg {
   height: 1em;
-  /* padding-left: 0.2em; */
-  /* vertical-align: sub; */
 }
 
 .cover{
@@ -283,6 +281,9 @@ ol.gameplay-structure{
   width: 10em;
 }
 
+.xl_fig img {
+  width: 16em;
+}
 .large_fig img {
   width: 12em;
 }
@@ -313,39 +314,6 @@ ol.gameplay-structure{
   list-style: none;
 }
 
-.prebuilt {
-  font-size: 80%;
-  border: none;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.prebuilt .s {
-  width: 1.5em;
-}
-
-.prebuilt td, .prebuilt th {
-  margin: 0;
-  padding: 0.1em;
-  border: 1pt solid black;
-}
-
-.prebuilt tr>td:nth-of-type(n + 4){
-  font-family: 'Consolas';
-  letter-spacing: -0.2em;
-  line-height: normal;
-  font-size: 9pt;
-  text-align: left;
-}
-
-.prebuilt tr:nth-last-of-type(2n+2){
-  background-color: #ccc;
-}
-
-.prebuilt th {
-  border: none;
-  text-align: center;
-}
 
 
 .figure_list {

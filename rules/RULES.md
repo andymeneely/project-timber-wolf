@@ -107,7 +107,7 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 
 <div class="setup-spacing"/>
 
-![event deck](fig_event_deck.png)
+![event deck](fig_event_setup.svg)
 {:.med_fig .example-right}
 
 **Step 7. Set up the Event Deck** according to the scenario, using the numbered cards in the order indicated. The deck should be entirely face-up with the first card on the top and the last card on the bottom. It will consist of both Event and Crisis cards.
@@ -132,15 +132,15 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 
 The board is a set of modular double-sided hex tiles. The rotational orientation does not matter. Each tile is Blank on one side, and is a Security tile on the other side. A **Security tile** represents an unknown Security Chit that will be drawn from the Security Bag.
 
-**Adjacent**. You are considered adjacent to something if you are on a tile that shares a border with another tile. Being on the same tile is *not* considered adjacent.
+**Adjacent**. You are adjacent to something if you are on a tile that shares a border with another tile. Being on the same tile is *not* considered adjacent.
 
 **Entrances & Exits**. Each board has one or more entrances/exit tiles. If a character is on one of these spaces they are considered to be **Outdoors**, otherwise they are Indoors. The terms Entrance and Exit refer to the same tile and can be used interchangeably.
 
-**Limit 2 to Entrance**. By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, by default.
+**Limit 2 to Entrance During Planning**. By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, by default.
 
-**External**. Some abilities refer to "external sides", which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure). An "external tile" is a tile with at least one external side.
+**External**. Some cards refer to "external sides", which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure). An "external tile" is a tile with at least one external side.
 
-**Gaps**. Some abilities refer to a "non-tiled gap", which is a hex-spaced area between two hex tiles that does *not* have a hex (see figure).
+**Gaps**. Some cards refer to a "non-tiled gap", which is a hex-spaced area between two hex tiles that does *not* have a hex (see figure).
 
 ---
 
@@ -204,6 +204,8 @@ Each character gets two Skills. Each Skill has six Actions *①* that each corre
 Tip: When building a character, use Lacks *③* to see what the skill is missing so you can find a good combination.
 {:.tip .numbered_fig}
 
+---
+
 ## Events
 
 ![event figure](figure_event.png)
@@ -228,14 +230,14 @@ Every Event Deck will have a few Crisis cards in them. These are particularly st
 
 **Not an Alert**. Crisis cards do _not_ count as Alerts. When a Crisis card is the top-most card in the Event Deck, immediately set it aside and continue dealing Event cards.
 
-To summarize, you will be doing one Event per round, then zero or more Crises per round.
+To summarize, you will be doing _one_ Event per round, then zero or more Crises per round. A Crisis is not an Event.
 
 ## Noise
 
 ![noise tracker](fig_noise.png)
-{:.med_fig .example-right .rotate-right}
+{:.xl_fig .example-right}
 
-**Every action has a cost.** The Noise Tracker card is used for determining how many Noise(🔊) sub-action penalties your team has incurred. For each 🔊 your teammates incur, increase the Noise tracker by one.
+**Every action has a cost.** For each 🔊 your teammates incur, increase the Noise tracker by one.
 
 **Raise Alert ⚠**. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise Alert ⚠. If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (see _Escape Phase_).
 
@@ -298,7 +300,7 @@ Blue and Red place their planning tokens.
 
 ## Part II: The Heist
 
-For each Round, repeat Phase 1 through 3 until the Escape Phase.
+For each Round, repeat Phase 1 through 3 until the Escape Phase. All phases are **simultaneous play**.
 
 ### Phase 1. Roll
 
@@ -314,13 +316,15 @@ Roll your die.
 
 **Undoing**. If unknown information is revealed after you commit to an Action, your Action cannot be undone, otherwise you may undo in good faith.
 
-**Required subactions** The Noise(🔊) and the Alert(⚠) sub-actions are required, but all other sub-actions are not required.
+**Required subactions** The Noise(🔊) and the Alert(⚠) sub-actions are required, but all other sub-actions are not required. If any Crisis card appears on the top of the Event deck, immediately queue it for the Event phase.
 
 **No passing**. You MUST choose an Action on your Character or Skills.
 
 **No alphas**. You have the final say about what to do with your own character.
 
-**Escape any time**. You may opt to initiate Escape Phase at any time.
+**Escape any time**. You may opt to initiate Escape Phase at any time. You must still do the Event phase.
+
+**Always finish the round.** If the Noise tracker or the Event deck reaches the end, finish the round and continue to the Event phase.
 
 *Tip: Wait to account for noise until the end of Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took. By design, accounting for noise at the beginning or end of the phase makes no strategic difference.*
 {:.tip}
@@ -335,21 +339,29 @@ Roll your die.
 
 When all players have finished their Actions and all noise has been accounted for on the Noise Tracker, the team enters the Event phase.
 
-**Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase, but the Active Event card does not change.
+**One Event, Multiple Crises**. In this phase, you will do exactly one Event, and then any Crises that have queued up.
+
+**Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase, but the Active Event card does not change. If the Event deck was exhausted in the Action phase, the final Event card will be the Active Event. A Crisis card can even be queued during an Active Event.
 
 **Discard Active Event**. When the Active Event is finished, discard the card.
 
-**Events then Crises**. Follow any Crisis cards you have set aside this round. Multiple Crises should be executed in the order they were encountered. Discard them after use.
+**Events then Crisis Queue**. Follow any Crisis cards you have set aside in the queue. Crises should be executed in the order they were encountered. Discard them after use.
 
-**No actions or abilities**. Characters may not take actions or use abilities during this phase, unless the text on their card explicitly says so.
+**No actions**. Characters may not take actions or use abilities during this phase, unless the text on their card explicitly says so.
 
-**Take from supply**. Whenever an Event or Crisis calls for a new chits to be placed, take the chit from the *supply*, not the bag.
+**Take from supply**. Whenever an Event or Crisis calls for new chits to be placed, take them from the *supply*, not the bag.
 
-**Sound the Alarm**. If the *Sound the Alarm* card is discarded or is the Active Event, enter the Escape Phase. Otherwise, proceed back to Roll.
+**Sound the Alarm**. If final Crisis is reached, enter the Escape Phase. Otherwise, proceed back to Roll.
 
-### Escape Phase
+It is the end of the first round of a 4-player game. The team generated 🔊🔊🔊🔊🔊 noise, meaning they raised one ⚠. Thus, the Active Event in this case is event card 2 (_Get Outta My Way_). Following the card leads them to ⚠⚠, so they discard Events 3 and 4 along with their Active Event card (event 2). After the 4th Event card is discarded, the topmost card is a Crisis card. This is immediately added to the queue. The team now enters the Crisis Queue and does the one crisis card, then discards that card too.
+{:.example}
 
-When the Escape Phase starts, all Lockdown Gates close and all Security chits are revealed. Then, in any order, each character who has not reached an Exit tile determines if they can reach it.
+Remember: Events are something you can potentially avoid with crafty noise management. Crises will always happen. Events and Crises never cause noise, but they can ⚠.
+{:.tip}
+
+### Phase 4. Escape
+
+When the Escape Phase starts, all Security chits are revealed. Then, in any order, each character who has not reached an Exit tile determines if they can reach it.
 
 **Escape Moves**. Declare the number of Escape Moves you will take to an exit. Escape Moves are not the same as ➜. Instead:
 
@@ -365,25 +377,46 @@ When the Escape Phase starts, all Lockdown Gates close and all Security chits ar
 
 **Insta-transfers**. You MAY pick up or drop off loot during the Escape Phase, even during Last Ditch Effort.
 
-### Busted
+*Last Ditch Effort example.* Mark the Mastermind has 💡💡💡 and escape is initiated. He calculates he needs 7 Escape Moves. He uses his 💡💡💡 and now he needs 3 Escape Moves. So, for his last ditch effort he rolls his die and gets a 2. He's now Busted at the door with the loot, and the heist appears to be lost. BUT! Sally the Script Kiddie realizes she has 💡💡 and decides to run in and get the loot from Mark. She gets the loot, and the heist succeeds. Mark is still Busted, however.
+{:.example}
 
-If you are Busted, you are out of gameplay for the rest of this Heist. All loot on your character is lost. Your Character is now in Jail, and your team may choose to rescue your character in a future heist. You as a player still level up (see _Level Up_).
-
-*Costly abilities example:* SEWER CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed
+*Costly abilities example:* VENT CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed
 {:.example}
 
 <img src="../img/figure_escape.svg" class="img-right"><br>
 *Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.
 {:.example}
 
+### Busted
+
+If you are Busted, you are out of gameplay for the rest of this Heist. All loot on your character is lost. Your Character is now in jail, and your team may choose to rescue this character in a future heist. Both you as a player and your character still level up (see _Level Up_).
+
+## End of a Heist
+
+**Ideas don't carry over**. Leftover 💡 are lost at the end of a heist.
+
+**Keep a record**. No matter what happens, record the outcome!
+
+**Level Up**. At the end of every heist, every player levels up the character they just played (see _Progression_)
+
 
 # Campaign
 
-**Keep a record**. No matter what happens, record the outcome on the campaign ledger. Each player gets a character sheet as well to record the experience.
+**Your box is your universe.** Every time a new character is built, they must be named and their status tracked on the **Character Sheet**.  
 
-**Loosely Affiliated**. Players may freely come and go from the campaign. A player is not limited to always playing their original character. All heists have 3- and 4-player options. You are always welcome to start out new characters.
+## Named Characters
 
-**Ideas don't carry over**. Leftover 💡 are lost at the end of a heist.
+A **named character** is a pairing of one character and two skill cards.
+
+For example, Josh has a character named *Cam* who is a *Tinkerer* with *Assault* and *Smash 'n' Grab*. Cam's character class *Shutter Bug* and skill classes are *Hit 'n' Run* and *Smash 'n' Grab*.
+{:.example}
+
+**Peristent Statuses**. A named character's status, such as "Busted", persists between games. Individual scenarios may assign statuses to named characters based on the outcome of a heist attempt.
+
+For following the above example, suppose _Cam_ is Busted at the end of a heist, then anyone who wants to play Cam again must use the Busted status.
+{:.example}
+
+**Loosely Affiliated**. Players may freely come and go from the campaign. A player is not limited to always playing their original named character. All heists have 3- and 4-player options. You are welcome (encouraged!) to try out new characters.
 
 ## Losing a Heist
 
@@ -401,13 +434,28 @@ Any cash on a Character is added to the Team Cash tracker, as well as any loot. 
 
 ## Level Up
 
-**Players level up**, not just characters. Every human player starts at level 1 when they are new to this game. At the end of every heist, regardless of the objective outcome or character fate, every *player* levels up. For the next heist, a player may start with a character of the player's level (or less). That character may be new or used previously. The state of a character is still preserved between heists, for example, if a character is Busted they remain Busted for the next heist.
+**Players level up** as well as characters. Every human player starts at level 1 when they are new to this game. At the end of every heist, regardless of the objective outcome or character fate, every player levels up the named character they just played - even if they have no plans to play them ever again.
+
+**Characters Start at Player Level**. For the next heist, a player may start with a character of the _player's level_ (or less). That character may be new or used previously.
+
+**No evil twins.** A player may NOT create a new named character with exactly the same card combinations as another named character.
+
+For example, Josh's character *Cam* (see above examples) who is a *Tinkerer* with *Assault* and *Smash 'n' Grab* is Busted. Josh wants to build a new *Tinkerer* with *Assault* named _Iris_. He may not use *Smash 'n' Grab* as the other skill as that would be identical to Cam.
+{:.example}
 
 **Progression**. The first time you level up, upgrade one Skill card of your choice. The second time, upgrade your Character. The third time, upgrade your other Skill. The maximum player and character level is 4 (both pro Skills and a pro Character).
 
 Each Amateur card is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Record your choice on your character sheet. Skill cards work the same way.
 
-<div class="pagebreak"/>
+**One Character Class Per Heist**. A character class is the name of the amateur version of a character.
+
+For example, a Grease Man and a Burglar cannot be in the same heist.
+{:.example}
+
+**Conflicting Skills**. Named characters are only compatible with each other if the components are available.
+
+For example, the named characters Larry, Curly, and Moe all have _Wing It_ as a skill, but the game has only two _Wing It_ cards. A heist may only have two of those characters.
+{:.example}
 
 # Additional Modules
 
@@ -528,31 +576,3 @@ A **Non-Player Character** is represented by a white pawn, a white die, and thei
 * Elite Security: Needs multiple subactions in one turn
 * Safes: its own card? Or just an elite lock? Scenario text?
 * TBD needs playtesting. Like an extra skill card that you carry -->
-
----
-
-# Pre-Built Characters
-
-TODO: finish filling these out.
-
-<!-- •••••••••••••••••• -->
-
-|                                                                    |      Name      |                Character & Skills                | ➜             | 💡      | 🔍   | 🔓     | 👊  | 📷     | 🔊                    |
-|:------------------------------------------------------------------:|:--------------:|:------------------------------------------------:| ------------- | ------- | ---- | ------ | --- | ------ | --------------------- |
-| ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.s} | Johnny Swagger | **Angry Locksmith** <br/> Smash 'n' Grab, Bypass | ∎∎∎∎∎∎∎∎∎∎    | ∎∎∎     | ∎∎∎∎ | ∎∎     | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
-| ![angry locksmith shadow](../img/shadows/angry locksmith.svg){:.s} |     Karma      |     **Angry Locksmith** <br/> Hurry, Wing It     | ∎∎∎∎∎∎∎∎∎∎∎∎  | ∎∎∎∎    | ∎∎∎  | ∎∎∎    | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎  |
-|            ![thug shadow](../img/shadows/thug.svg){:.s}            |    Jitters     |         **Thug** <br/> Hurry, Yank Wires         | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎∎ | ∎∎∎  | ∎      |     | ∎∎∎∎   | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎   |
-|            ![thug shadow](../img/shadows/thug.svg){:.s}            |   Tiny Mike    |          **Thug** <br/> Wing It, Bypass          | ∎∎∎∎∎∎∎∎∎∎∎   | ∎∎      | ∎∎   | ∎∎∎∎∎∎ | ∎∎  | ∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎   |
-|   ![street urchin shadow](../img/shadows/street urchin.svg){:.s}   |     Enigma     |      **Street Urchin** <br/> Hurry, Bypass       | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎  | ∎    | ∎∎∎∎∎  |     |        | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
-|   ![street urchin shadow](../img/shadows/street urchin.svg){:.s}   |    Iceheart    |   **Street Urchin** <br/> Wing It, Yank Wires    | ∎∎∎∎∎∎∎∎∎∎∎   | ∎∎∎     | ∎∎∎∎ | ∎∎     | ∎∎  | ∎∎∎∎∎∎ | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎ |
-|   ![script kiddie shadow](../img/shadows/script kiddie.svg){:.s}   |     Phobia     |  **Script Kiddie** <br/> Smash 'n' Grab, Bypass  |               |         |      |        |     |        |                       |
-|   ![script kiddie shadow](../img/shadows/script kiddie.svg){:.s}   |      Null      |    **Script Kiddie** <br/> Hurry, Yank Wires     |               |         |      |        |     |        |                       |
-|         ![burglar shadow](../img/shadows/burglar.svg){:.s}         |    Showtime    |        **Burglar** <br/> Bypass, Wing It         |               |         |      |        |     |        |                       |
-|         ![burglar shadow](../img/shadows/burglar.svg){:.s}         |     Clutch     |   **Burglar** <br/> Smash 'n' Grab, Yank Wires   |               |         |      |        |     |        |                       |
-|         ![lookout shadow](../img/shadows/lookout.svg){:.s}         |   Crazy Eyes   |         **Lookout** <br/> Hurry, Wing It         |               |         |      |        |     |        |                       |
-|         ![lookout shadow](../img/shadows/lookout.svg){:.s}         |     Smokes     |     **Lookout** <br/> Smash 'n' Grab, Bypass     |               |         |      |        |     |        |                       |
-|      ![pickpocket shadow](../img/shadows/pickpocket.svg){:.s}      |     Status     |      **Pickpocket** <br/> Hurry, Yank Wires      |               |         |      |        |     |        |                       |
-|      ![pickpocket shadow](../img/shadows/pickpocket.svg){:.s}      |     Locket     | **Pickpocket** <br/> Hit 'n' Run, Smash 'n' Grab |               |         |      |        |     |        |                       |
-|     ![shutter bug shadow](../img/shadows/shutter bug.svg){:.s}     |     F-Stop     |      **Shutter Bug** <br/> Wing It, Bypass       |               |         |      |        |     |        |                       |
-|     ![shutter bug shadow](../img/shadows/shutter bug.svg){:.s}     |    Stretch     |     **Shutter Bug** <br/> Hurry, Hit 'n' Run     |               |         |      |        |     |        |                       |
-{:.prebuilt}
