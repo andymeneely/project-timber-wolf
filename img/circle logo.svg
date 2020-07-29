@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,38 +7,40 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
-   viewBox="0 0 64 64"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-ydpi="900"
+   inkscape:export-xdpi="900"
+   inkscape:export-filename="C:\code\timber-wolf\img\logo.png"
    sodipodi:docname="circle logo.svg"
-   inkscape:export-filename="D:\code\timber-wolf\img\logo.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 64 64"
+   height="64"
+   width="64">
   <defs
      id="defs4" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-50.443549"
-     inkscape:cy="37.147733"
-     inkscape:document-units="px"
-     inkscape:current-layer="g4190"
-     showgrid="false"
-     units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1672"
-     inkscape:window-y="134"
+     inkscape:snap-page="true"
+     inkscape:document-rotation="0"
+     inkscape:snap-global="true"
      inkscape:window-maximized="1"
-     inkscape:snap-global="false" />
+     inkscape:window-y="134"
+     inkscape:window-x="1672"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     units="px"
+     showgrid="false"
+     inkscape:current-layer="g4190"
+     inkscape:document-units="px"
+     inkscape:cy="38.814166"
+     inkscape:cx="42.679343"
+     inkscape:zoom="7.9195959"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -49,139 +49,207 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     transform="translate(0,-992.62889)"
      id="layer1"
-     transform="translate(0,-992.62889)">
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <g
-       id="g4190"
-       transform="matrix(0.37832582,0,0,0.37832582,22.610388,653.89482)">
+       transform="matrix(0.37832582,0,0,0.37832582,22.610388,653.89482)"
+       id="g4190">
+      <rect
+         y="917.37811"
+         x="-59.430569"
+         height="147.52081"
+         width="146.85329"
+         id="rect78"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.436188;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.436188, 0.872378;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000;stop-opacity:1" />
       <path
-         inkscape:connector-curvature="0"
-         id="path5096"
+         style="fill:#2c9087;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.85600895"
          d="m 345.72894,885.48218 c -10.47275,17.75889 -20.22868,31.06056 -34.70801,47.40367 8.63069,2.00153 12.52349,0.37799 32.27606,9.94257 6.65908,-8.90923 10.90963,-17.17035 16.89072,-27.44078 1.23365,0.42184 2.69303,0.6082 3.31556,1.66494 1.71834,-3.91089 1.65691,-2.76443 3.00466,-7.032 -7.28646,-7.2297 -16.05073,-14.69877 -20.77899,-24.5384 z"
-         style="fill:#2c9087;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path5098"
-         d="m 360.85523,918.0577 c -6.74115,12.38156 -13.37754,24.85267 -22.33487,35.33884 11.39623,13.99446 16.31453,19.94754 26.75714,43.96755 0.13628,18.16681 -9.55751,41.92141 -13.40753,59.55291 21.45458,-2.774 43.40589,-2.8823 65.55712,-1.9188 -0.19443,-15.9785 1.35209,-41.2298 -0.77062,-54.1651 2.69441,-4.94297 8.43382,-7.66996 10.33303,-12.89264 0.34291,-9.35721 3.68247,-18.491 3.54737,-28.39991 -5.50528,3.49053 -9.35181,8.92407 -14.42101,13.00303 -3.92691,-3.42638 -8.91972,-6.06007 -11.31145,-10.62779 -7.38805,-0.3145 -14.52893,-1.28276 -20.9726,-4.09542 -6.649,-2.89089 -11.92206,-7.37053 -20.00091,-8.61035 2.10402,-2.32297 3.82345,-5.7302 5.37027,-9.62404 0.86405,1.47795 1.51615,2.0733 2.88306,2.3131 -1.14714,2.15619 -2.79881,4.08253 -3.90493,5.67495 5.74996,2.89131 13.14317,7.11638 19.37746,8.99101 2.29459,-2.18179 4.33714,-6.12399 6.22374,-8.89299 0.78699,-4.95214 0.40224,-11.032 1.18922,-15.98408 -11.7847,-4.21066 -21.48032,-7.6045 -34.11449,-13.63027"
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path5100"
-         d="m 382.46813,924.5213 c 4.52611,-6.75368 7.76814,-11.09259 10.25219,-17.12295 -4.22032,-6.37644 -8.13069,-6.74362 -13.92503,-8.99087 -5.12717,3.86007 -10.33183,13.89667 -13.30444,20.02448 5.40866,2.23881 9.65501,4.32763 16.97728,6.08934 z"
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path5102"
-         d="m 385.14233,926.05711 c 4.2711,3.1028 8.01585,3.72784 11.47478,5.33491 -0.75756,2.83564 -0.59605,4.43075 -0.63145,8.47556 5.7906,-4.71795 11.83677,-15.78876 14.93541,-21.17973 -4.16925,-4.04389 -8.97429,-8.24687 -16.06541,-10.27238 -4.05631,5.71946 -7.27908,11.59214 -9.71333,17.64163"
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path5104"
-         d="m 410.99799,923.55668 c -5.75032,10.41064 -13.64639,22.87692 -20.40585,32.97245 3.19175,3.88283 9.56821,1.25992 14.65001,3.72721 6.38011,-9.79802 13.23659,-18.07237 21.01296,-27.2053 -4.9103,-4.39417 -9.87532,-7.43708 -15.25712,-9.49436"
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path5106"
-         d="m 427.63271,935.09718 c -10.37752,8.58031 -14.37746,20.07746 -20.25134,26.37929 2.60778,2.42843 4.88766,6.09291 8.50081,9.22011 8.07768,-8.02752 15.05162,-15.09875 22.57733,-22.64815 -2.07004,-4.57266 -6.50946,-10.16344 -10.8268,-12.95125"
-         style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
+         id="path5096"
+         inkscape:connector-curvature="0" />
       <g
-         id="g5161"
-         transform="matrix(0,-0.97811835,0.97811835,0,-926.09672,1011.9749)">
+         id="g103">
         <path
+           inkscape:export-ydpi="52.639999"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           sodipodi:nodetypes="ccccccccccccccccccc"
            inkscape:connector-curvature="0"
-           id="path5108"
-           d="m 30.292497,886.60105 a 85.590052,85.590052 0 0 0 -76.513837,48.95036 c 13.324451,7.92263 28.486505,18.14416 41.9171214,21.63511 24.4227866,-3.64863 31.0448676,-6.67468 46.5702526,-13.63814 7.36384,10.71608 17.100448,19.80004 26.731171,28.96039 -8.570517,10.03534 -14.024426,18.03893 -20.734666,27.74353 -4.317738,-1.92501 -9.948241,-3.05897 -14.266034,-4.98407 -2.061319,-2.39377 -5.153579,-5.21432 -6.580579,-7.83634 3.228466,-5.22002 8.876773,-10.92278 12.912926,-15.45366 1.180279,1.39591 2.531393,3.36947 4.215077,4.9403 0.551932,-1.18632 1.256507,-1.63263 2.813294,-2.05887 -3.168602,-2.35883 -5.854619,-4.75959 -7.456694,-7.24253 -3.100456,7.05474 -8.463083,10.76591 -12.718232,16.11561 -4.133804,5.18181 -6.759522,11.45 -8.848738,18.10146 -4.743377,1.0635 -8.362223,4.9649 -12.4407998,7.705 2.4776696,5.6118 6.4876828,10.4401 8.3230698,16.3054 -9.0568425,-2.2949 -16.560638,-7.5624 -24.998412,-10.158 -4.29277,-3.0041 -5.374685,-8.8977 -9.218653,-12.5577 -7.802864,-0.7762 -19.703367,-4.10148 -31.131202,-7.38369 A 85.590052,85.590052 0 0 0 8.905612,1054.8634 85.590052,85.590052 0 0 0 113.73249,994.33857 85.590052,85.590052 0 0 0 53.212574,889.5117 85.590052,85.590052 0 0 0 30.292497,886.60105 Z m 37.234785,90.04005 c 4.855124,4.2024 12.722208,11.39031 14.986393,17.00144 -3.460448,4.7284 -4.747414,8.20166 -11.584156,10.48906 -4.885594,-3.7337 -8.047004,-7.74664 -13.093016,-13.51651 3.391116,-6.23838 6.332131,-9.59473 9.690779,-13.97399 z M 26.7053,990.20137 c 7.544408,8.6192 16.974336,18.85193 25.051954,26.62903 -3.18678,4.399 -7.172768,8.1798 -12.372657,11.5793 -6.41964,-9.3104 -12.283225,-17.5712 -19.649257,-25.7724 3.486963,-4.02585 2.655093,-10.47673 6.96996,-12.43593 z m 29.082071,2.47259 c 4.91517,3.69302 9.477755,8.06174 13.696562,13.15144 -3.574948,5.9635 -8.577906,9.3143 -13.277974,12.1244 -4.153343,-4.1373 -12.759925,-12.3435 -15.643478,-18.76821 3.6749,1.01931 5.166264,1.26101 7.563775,2.64291 2.307566,-2.75791 3.793231,-6.01806 7.661115,-9.15054 z m -37.682575,11.61344 c 4.305643,6.887 13.798133,13.3322 19.079786,24.8766 -3.592315,3.2515 -9.767021,5.933 -14.436389,6.7023 -5.038711,-8.6957 -9.773506,-16.7736 -15.1129425,-26.0887 3.7295545,-2.5273 7.6216735,-3.708 10.4695455,-5.4902 z"
-           style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.44594643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.44594645, 0.8918929;stroke-dashoffset:0;stroke-opacity:1" />
+           id="path5098"
+           d="m 360.85523,918.0577 c -6.74115,12.38156 -13.37754,24.85267 -22.33487,35.33884 11.39623,13.99446 16.31453,19.94754 26.75714,43.96755 0.13628,18.16681 -9.55751,41.92141 -13.40753,59.55291 21.45458,-2.774 43.40589,-2.8823 65.55712,-1.9188 -0.19443,-15.9785 1.35209,-41.2298 -0.77062,-54.1651 2.69441,-4.94297 8.43382,-7.66996 10.33303,-12.89264 0.34291,-9.35721 3.68247,-18.491 3.54737,-28.39991 -5.50528,3.49053 -9.35181,8.92407 -14.42101,13.00303 -3.92691,-3.42638 -8.91972,-6.06007 -11.31145,-10.62779 -7.38805,-0.3145 -14.52893,-1.28276 -20.9726,-4.09542 -6.649,-2.89089 -11.92206,-7.37053 -20.00091,-8.61035 2.10402,-2.32297 3.82345,-5.7302 5.37027,-9.62404 0.86405,1.47795 1.51615,2.0733 2.88306,2.3131 -1.14714,2.15619 -2.79881,4.08253 -3.90493,5.67495 5.74996,2.89131 13.14317,7.11638 19.37746,8.99101 2.29459,-2.18179 4.33714,-6.12399 6.22374,-8.89299 0.78699,-4.95214 0.40224,-11.032 1.18922,-15.98408 -11.7847,-4.21066 -21.48032,-7.6045 -34.11449,-13.63027"
+           style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
         <path
+           inkscape:export-ydpi="52.639999"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           sodipodi:nodetypes="ccccc"
            inkscape:connector-curvature="0"
-           id="path5094"
-           d="M 102.35538,966.68412 C 88.738191,952.8133 79.005197,940.68291 67.655007,923.50884 c -3.928792,7.37142 -3.40017,11.31269 -16.930426,26.96711 6.488555,8.2383 12.97461,14.12505 20.868229,22.07809 -0.685194,1.02053 -1.211022,2.30408 -2.325285,2.61315 3.142277,2.51918 2.113206,2.18349 5.670734,4.45222 8.361982,-4.87149 17.302565,-11.03038 27.417121,-12.93529 z"
-           style="opacity:1;vector-effect:none;fill:#2c9087;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.80705231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+           id="path5100"
+           d="m 382.46813,924.5213 c 4.52611,-6.75368 7.76814,-11.09259 10.25219,-17.12295 -4.22032,-6.37644 -8.13069,-6.74362 -13.92503,-8.99087 -5.12717,3.86007 -10.33183,13.89667 -13.30444,20.02448 5.40866,2.23881 9.65501,4.32763 16.97728,6.08934 z"
+           style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
+        <path
+           inkscape:export-ydpi="52.639999"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           sodipodi:nodetypes="cccccc"
+           inkscape:connector-curvature="0"
+           id="path5102"
+           d="m 385.14233,926.05711 c 4.2711,3.1028 8.01585,3.72784 11.47478,5.33491 -0.75756,2.83564 -0.59605,4.43075 -0.63145,8.47556 5.7906,-4.71795 11.83677,-15.78876 14.93541,-21.17973 -4.16925,-4.04389 -8.97429,-8.24687 -16.06541,-10.27238 -4.05631,5.71946 -7.27908,11.59214 -9.71333,17.64163"
+           style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
+        <path
+           inkscape:export-ydpi="52.639999"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path5104"
+           d="m 410.99799,923.55668 c -5.75032,10.41064 -13.64639,22.87692 -20.40585,32.97245 3.19175,3.88283 9.56821,1.25992 14.65001,3.72721 6.38011,-9.79802 13.23659,-18.07237 21.01296,-27.2053 -4.9103,-4.39417 -9.87532,-7.43708 -15.25712,-9.49436"
+           style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
+        <path
+           inkscape:export-ydpi="52.639999"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path5106"
+           d="m 427.63271,935.09718 c -10.37752,8.58031 -14.37746,20.07746 -20.25134,26.37929 2.60778,2.42843 4.88766,6.09291 8.50081,9.22011 8.07768,-8.02752 15.05162,-15.09875 22.57733,-22.64815 -2.07004,-4.57266 -6.50946,-10.16344 -10.8268,-12.95125"
+           style="display:inline;fill:#000000;stroke:none;stroke-width:0.85600895" />
       </g>
       <circle
-         transform="rotate(105)"
-         r="90.782036"
-         cy="-95.036163"
-         cx="983.88617"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.472998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.472998, 0.945996;stroke-dashoffset:0;stroke-opacity:1"
          id="circle5138"
-         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.47299802;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.47299804, 0.94599608;stroke-dashoffset:0;stroke-opacity:1" />
+         cx="1053.2751"
+         cy="163.92706"
+         r="90.782036"
+         transform="rotate(105)" />
       <path
-         inkscape:connector-curvature="0"
+         style="opacity:1;vector-effect:none;fill:#2c9087;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.856009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -355.32906,969.1209 c -14.44323,-14.71225 -24.76663,-27.57848 -36.80534,-45.79436 -4.16713,7.81859 -3.60643,11.99894 -17.95744,28.60296 6.88216,8.73806 13.76165,14.98191 22.13412,23.41739 -0.72676,1.08243 -1.28449,2.44384 -2.46634,2.77166 3.33289,2.672 2.24139,2.31595 6.01471,4.7223 8.86925,-5.16697 18.35217,-11.6995 29.08029,-13.71995 z"
          id="path5140"
-         d="m -87.230599,969.1209 c -14.443231,-14.71225 -24.766631,-27.57848 -36.805341,-45.79436 -4.16713,7.81859 -3.60643,11.99894 -17.95744,28.60296 6.88216,8.73806 13.76165,14.98191 22.13412,23.41739 -0.72676,1.08243 -1.28449,2.44384 -2.46634,2.77166 3.33289,2.672 2.24139,2.31595 6.01471,4.7223 8.86925,-5.16697 18.352171,-11.6995 29.080291,-13.71995 z"
-         style="opacity:1;vector-effect:none;fill:#2c9087;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.85600895;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         inkscape:connector-curvature="0" />
       <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccccccccccccccccc"
-         inkscape:connector-curvature="0"
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.856009"
+         d="m -390.70958,975.30059 c -10.21492,-9.71602 -20.54347,-19.35405 -28.354,-30.72018 -16.46717,7.38587 -23.49035,10.59581 -49.39463,14.46578 -17.5831,-4.57028 -38.0193,-20.08189 -54.0535,-28.36414 -2.8734,21.44152 -8.4502,42.67287 -15.114,63.81996 15.4843,3.94771 39.4749,11.97709 52.5188,13.27459 4.0772,3.882 5.2258,10.1316 9.779,13.3178 8.9496,2.753 16.90783,8.3429 26.51407,10.777 -1.94675,-6.2211 -6.19963,-11.3429 -8.82751,-17.2951 4.32593,-2.9063 8.16212,-7.0473 13.19322,-8.1753 2.21595,-7.05497 4.99943,-13.70193 9.38399,-19.19807 4.51327,-5.67422 10.20504,-9.60819 13.49358,-17.09087 1.69925,2.63356 4.54536,5.17625 7.90618,7.67817 -1.65122,0.45208 -2.39506,0.92787 -2.98048,2.18615 -1.78581,-1.66612 -3.21903,-3.76009 -4.47091,-5.24067 -4.28099,4.80572 -10.27559,10.85348 -13.6999,16.39014 1.51353,2.78112 4.79278,5.77438 6.97914,8.31337 4.57972,2.04188 10.55198,3.24388 15.13165,5.28568 7.11729,-10.29335 12.9049,-18.78021 21.9953,-29.42431"
          id="path5142"
-         d="m -122.61112,975.30059 c -10.21492,-9.71602 -20.54347,-19.35405 -28.354,-30.72018 -16.46717,7.38587 -23.49035,10.59581 -49.39463,14.46578 -17.5831,-4.57028 -38.0193,-20.08189 -54.0535,-28.36414 -2.8734,21.44152 -8.4502,42.67287 -15.114,63.81996 15.4843,3.94771 39.4749,11.97709 52.5188,13.27459 4.0772,3.882 5.2258,10.1316 9.779,13.3178 8.9496,2.753 16.90783,8.3429 26.51407,10.777 -1.94675,-6.2211 -6.19963,-11.3429 -8.82751,-17.2951 4.32593,-2.9063 8.16212,-7.0473 13.19322,-8.1753 2.21595,-7.05497 4.99943,-13.70193 9.38399,-19.19807 4.51327,-5.67422 10.20504,-9.60819 13.49358,-17.09087 1.69925,2.63356 4.54536,5.17625 7.90618,7.67817 -1.65122,0.45208 -2.39506,0.92787 -2.98048,2.18615 -1.78581,-1.66612 -3.21903,-3.76009 -4.47091,-5.24067 -4.28099,4.80572 -10.27559,10.85348 -13.6999,16.39014 1.51353,2.78112 4.79278,5.77438 6.97914,8.31337 4.57972,2.04188 10.55198,3.24388 15.13165,5.28568 7.11729,-10.29335 12.9049,-18.78021 21.9953,-29.42431"
-         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+         inkscape:export-xdpi="52.639999"
+         inkscape:export-ydpi="52.639999" />
+      <path
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.856009"
+         d="m -402.54677,994.50416 c 5.35212,6.11984 8.70409,10.37444 13.88605,14.33464 7.25146,-2.4262 8.61821,-6.1083 12.28856,-11.12359 -2.40152,-5.95152 -10.74906,-13.57649 -15.89872,-18.03381 -3.56237,4.64491 -6.67907,8.20595 -10.27589,14.82276 z"
          id="path5144"
-         d="m -134.44831,994.50416 c 5.35212,6.11984 8.70409,10.37444 13.88605,14.33464 7.25146,-2.4262 8.61821,-6.1083 12.28856,-11.12359 -2.40152,-5.95152 -10.74906,-13.57649 -15.89872,-18.03381 -3.56237,4.64491 -6.67907,8.20595 -10.27589,14.82276 z"
-         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="cccccc"
          inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+         inkscape:export-xdpi="52.639999"
+         inkscape:export-ydpi="52.639999" />
+      <path
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.856009"
+         d="m -404.72237,996.68974 c -4.10252,3.32246 -5.67548,6.77786 -8.12302,9.70306 -2.54295,-1.4657 -4.12551,-1.7225 -8.02334,-2.8036 3.05848,6.8144 12.1872,15.5199 16.59248,19.9082 4.98519,-2.9805 10.28858,-6.534 14.0804,-12.8593 -4.47473,-5.3984 -9.31318,-10.0313 -14.52651,-13.94836"
          id="path5146"
-         d="m -136.62391,996.68974 c -4.10252,3.32246 -5.67548,6.77786 -8.12302,9.70306 -2.54295,-1.4657 -4.12551,-1.7225 -8.02334,-2.8036 3.05848,6.8144 12.1872,15.5199 16.59248,19.9082 4.98519,-2.9805 10.28858,-6.534 14.0804,-12.8593 -4.47473,-5.3984 -9.31318,-10.0313 -14.52651,-13.94836"
-         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+         inkscape:export-xdpi="52.639999"
+         inkscape:export-ydpi="52.639999" />
+      <path
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.856009"
+         d="m -408.99908,1022.3116 c -8.56761,-8.2489 -18.56547,-19.1024 -26.56752,-28.24449 -4.57661,2.07805 -3.69342,8.91609 -7.39192,13.18619 7.81288,8.6986 14.0307,17.463 20.83976,27.3382 5.51531,-3.6057 9.73959,-7.614 13.11968,-12.2799"
          id="path5148"
-         d="m -140.90062,1022.3116 c -8.56761,-8.2489 -18.56547,-19.1024 -26.56752,-28.24449 -4.57661,2.07805 -3.69342,8.91609 -7.39192,13.18619 7.81288,8.6986 14.0307,17.463 20.83976,27.3382 5.51531,-3.6057 9.73959,-7.614 13.11968,-12.2799"
-         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.85600895" />
-      <path
-         inkscape:export-ydpi="52.639999"
-         inkscape:export-xdpi="52.639999"
-         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
-         sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+         inkscape:export-xdpi="52.639999"
+         inkscape:export-ydpi="52.639999" />
+      <path
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.856009"
+         d="m -424.45173,1035.3926 c -5.60204,-12.2447 -15.67217,-19.084 -20.239,-26.3888 -3.02063,1.8904 -7.15036,3.1442 -11.10615,5.8248 5.66374,9.8799 10.68835,18.4467 16.03293,27.6698 4.95262,-0.816 11.5019,-3.6571 15.31213,-7.1058"
          id="path5150"
-         d="m -156.35327,1035.3926 c -5.60204,-12.2447 -15.67217,-19.084 -20.239,-26.3888 -3.02063,1.8904 -7.15036,3.1442 -11.10615,5.8248 5.66374,9.8799 10.68835,18.4467 16.03293,27.6698 4.95262,-0.816 11.5019,-3.6571 15.31213,-7.1058"
-         style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.85600895" />
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+         inkscape:export-xdpi="52.639999"
+         inkscape:export-ydpi="52.639999" />
+      <path
+         style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.436188;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.436188, 0.872377;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -317.55434,982.34525 a 83.7172,83.7172 0 0 0 47.87924,74.83955 c 7.74927,-13.0328 17.74714,-27.8631 21.1617,-40.9999 -3.56879,-23.88834 -6.52863,-30.36552 -13.33972,-45.55118 10.4816,-7.20271 19.36679,-16.72627 28.32669,-26.14625 9.81575,8.38298 17.64421,13.71755 27.13646,20.28095 -1.88289,4.22326 -2.99204,9.73056 -4.87501,13.95387 -2.34139,2.01622 -5.10022,5.04081 -7.66487,6.43659 -5.1058,-3.15782 -10.68377,-8.68253 -15.11551,-12.63037 1.36537,-1.15445 3.29574,-2.476 4.8322,-4.12284 -1.16036,-0.53986 -1.5969,-1.22902 -2.01382,-2.75174 -2.30721,3.09927 -4.65544,5.72651 -7.08405,7.29353 6.90037,3.03261 10.53033,8.2779 15.76297,12.43994 5.06843,4.04335 11.19946,6.61161 17.70537,8.65511 1.04023,4.63958 4.85626,8.17929 7.53641,12.16859 5.489,-2.4235 10.21165,-6.34574 15.94861,-8.14096 -2.24469,8.85866 -7.39692,16.19826 -9.93573,24.45136 -2.93836,4.1989 -8.703,5.2571 -12.28292,9.017 -0.75921,7.6321 -4.01173,19.2722 -7.22212,30.45 a 83.7172,83.7172 0 0 0 57.82459,-58.7243 83.7172,83.7172 0 0 0 -59.20045,-102.53314 83.7172,83.7172 0 0 0 -102.53308,59.19564 83.7172,83.7172 0 0 0 -2.84696,22.41855 z m 88.06982,-36.42002 c 4.11045,-4.74889 11.14107,-12.44383 16.62942,-14.65847 4.62494,3.38473 8.0222,4.64353 10.25954,11.33068 -3.652,4.77869 -7.57713,7.87092 -13.22074,12.80652 -6.10188,-3.31692 -9.38478,-6.19358 -13.66822,-9.47873 z m 13.26355,39.92873 c 8.4306,-7.37933 18.43942,-16.60291 26.04634,-24.50378 4.30275,3.11705 8.00082,7.01582 11.32593,12.10192 -9.10667,6.27917 -17.18671,12.01445 -25.20846,19.2193 -3.93776,-3.41066 -10.24748,-2.59699 -12.16381,-6.81744 z m 2.41849,-28.44571 c 3.61221,-4.80762 7.88533,-9.27037 12.86366,-13.39686 5.83301,3.49672 9.11049,8.39021 11.8591,12.98743 -4.04677,4.06246 -12.07341,12.48072 -18.35753,15.30117 0.997,-3.59448 1.23342,-5.05321 2.58508,-7.39826 -2.69757,-2.25708 -5.88638,-3.71023 -8.95031,-7.49348 z m 11.35931,36.85802 c 6.73631,-4.21143 13.04047,-13.49621 24.33226,-18.66229 3.18036,3.51371 5.80318,9.5533 6.55565,14.12049 -8.50543,4.92846 -16.40657,9.55965 -25.51784,14.78223 -2.472,-3.6479 -3.62686,-7.45488 -5.37007,-10.24043 z"
+         id="path24"
+         inkscape:connector-curvature="0" />
+      <path
+         style="vector-effect:none;fill:#2c9087;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.789392;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -239.22362,911.85922 c -13.56731,13.31923 -25.43226,22.83925 -42.23054,33.94108 7.21012,3.84282 11.06515,3.32576 26.37703,16.55996 8.05803,-6.34658 13.81597,-12.69071 21.59498,-20.4116 0.9982,0.6702 2.25367,1.18452 2.55597,2.2744 2.46406,-3.07352 2.13571,-2.06696 4.3548,-5.54665 -4.76489,-8.179 -10.78902,-16.92395 -12.65224,-26.81719 z"
+         id="path26"
+         inkscape:connector-curvature="0" />
+      <rect
+         y="895.3501"
+         x="-59.764328"
+         height="169.16638"
+         width="169.16635"
+         id="rect82"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.436188;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.436188, 0.872381;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000;stop-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path105"
+         d="m 22.206546,899.07118 c -15.2984104,13.82083 -28.5815902,23.60192 -47.280924,34.87504 7.639079,4.48769 11.83909,4.10081 27.833837,19.12789 9.015879,-6.51396 15.539589,-13.12867 24.314933,-21.14419 1.051371,0.77101 2.388497,1.3847 2.667028,2.57913 2.807887,-3.21924 2.406877,-2.14345 4.967607,-5.81377 -4.794831,-9.07582 -10.928545,-18.82144 -12.502481,-29.6241 z"
+         style="fill:#2c9087;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.856009" />
+      <g
+         style="fill:#f2f2f2"
+         transform="rotate(17.376187,139.50367,-166.30869)"
+         id="g117">
+        <path
+           style="display:inline;fill:#f2f2f2;stroke:none;stroke-width:0.856009"
+           d="m 360.85523,918.0577 c -6.74115,12.38156 -13.37754,24.85267 -22.33487,35.33884 11.39623,13.99446 16.31453,19.94754 26.75714,43.96755 0.13628,18.16681 -9.55751,41.92141 -13.40753,59.55291 21.45458,-2.774 43.40589,-2.8823 65.55712,-1.9188 -0.19443,-15.9785 1.35209,-41.2298 -0.77062,-54.1651 2.69441,-4.94297 8.43382,-7.66996 10.33303,-12.89264 0.34291,-9.35721 3.68247,-18.491 3.54737,-28.39991 -5.50528,3.49053 -9.35181,8.92407 -14.42101,13.00303 -3.92691,-3.42638 -8.91972,-6.06007 -11.31145,-10.62779 -7.38805,-0.3145 -14.52893,-1.28276 -20.9726,-4.09542 -6.649,-2.89089 -11.92206,-7.37053 -20.00091,-8.61035 2.10402,-2.32297 3.82345,-5.7302 5.37027,-9.62404 0.86405,1.47795 1.51615,2.0733 2.88306,2.3131 -1.14714,2.15619 -2.79881,4.08253 -3.90493,5.67495 5.74996,2.89131 13.14317,7.11638 19.37746,8.99101 2.29459,-2.18179 4.33714,-6.12399 6.22374,-8.89299 0.78699,-4.95214 0.40224,-11.032 1.18922,-15.98408 -11.7847,-4.21066 -21.48032,-7.6045 -34.11449,-13.63027"
+           id="path107"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccccccccccccccc"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-ydpi="52.639999" />
+        <path
+           style="display:inline;fill:#f2f2f2;stroke:none;stroke-width:0.856009"
+           d="m 382.46813,924.5213 c 4.52611,-6.75368 7.76814,-11.09259 10.25219,-17.12295 -4.22032,-6.37644 -8.13069,-6.74362 -13.92503,-8.99087 -5.12717,3.86007 -10.33183,13.89667 -13.30444,20.02448 5.40866,2.23881 9.65501,4.32763 16.97728,6.08934 z"
+           id="path109"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-ydpi="52.639999" />
+        <path
+           style="display:inline;fill:#f2f2f2;stroke:none;stroke-width:0.856009"
+           d="m 385.14233,926.05711 c 4.2711,3.1028 8.01585,3.72784 11.47478,5.33491 -0.75756,2.83564 -0.59605,4.43075 -0.63145,8.47556 5.7906,-4.71795 11.83677,-15.78876 14.93541,-21.17973 -4.16925,-4.04389 -8.97429,-8.24687 -16.06541,-10.27238 -4.05631,5.71946 -7.27908,11.59214 -9.71333,17.64163"
+           id="path111"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-ydpi="52.639999" />
+        <path
+           style="display:inline;fill:#f2f2f2;stroke:none;stroke-width:0.856009"
+           d="m 410.99799,923.55668 c -5.75032,10.41064 -13.64639,22.87692 -20.40585,32.97245 3.19175,3.88283 9.56821,1.25992 14.65001,3.72721 6.38011,-9.79802 13.23659,-18.07237 21.01296,-27.2053 -4.9103,-4.39417 -9.87532,-7.43708 -15.25712,-9.49436"
+           id="path113"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-ydpi="52.639999" />
+        <path
+           style="display:inline;fill:#f2f2f2;stroke:none;stroke-width:0.856009"
+           d="m 427.63271,935.09718 c -10.37752,8.58031 -14.37746,20.07746 -20.25134,26.37929 2.60778,2.42843 4.88766,6.09291 8.50081,9.22011 8.07768,-8.02752 15.05162,-15.09875 22.57733,-22.64815 -2.07004,-4.57266 -6.50946,-10.16344 -10.8268,-12.95125"
+           id="path115"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc"
+           inkscape:export-filename="G:\apmeneel\Documents\Board Games\Grifters Cards\decks\skill.png"
+           inkscape:export-xdpi="52.639999"
+           inkscape:export-ydpi="52.639999" />
+      </g>
     </g>
   </g>
 </svg>
