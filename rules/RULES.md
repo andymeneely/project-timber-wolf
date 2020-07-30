@@ -184,7 +184,7 @@ Skills and Characters allow you to take Actions. Most Actions are a grouping of 
 Each Character card has:
 
 * **Level**. Amateur or Pro
-* **Planning Memory**. The number of pre-planned hex tiles your character may move through during a heist.
+* **Planning Memory**. The number of planning tokens this character has. Represents the number of pre-planned hex tiles your character may move through during a heist.
 * **Initial Ideas**. The number of Ideas 💡 you start with at the beginning of each heist.
 * **Default Actions**. Actions that are available regardless of your die roll. Some Characters have two Default Actions, others have three.
 * **Ability**. What the character can uniquely do.
@@ -222,7 +222,7 @@ In addition to security chits, Events will impact your team each round.
 ## Crises
 
 ![crisis figure](figure_crisis.png)
-{:.card-portrait .card-right .rotate-left}
+{:.card-landscape .card-right .rotate-left}
 
 Every Event Deck will have a few Crisis cards in them. These are particularly strong and can create big problems for any team of scoundrels.
 
