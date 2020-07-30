@@ -9,21 +9,20 @@ end
 File.open('data/crises.txt', 'w+') { |f| f.write data.to_pretty_text }
 File.open('data/crises.json', 'w+') { |f| f.write data.to_json }
 
-Squib::Deck.new(cards: data['Name'].size) do
+Squib::Deck.new(cards: data['Name'].size, width: 1125, height: 825) do
   use_layout file: 'layouts/crises.yml'
   background color: :white
 
   build :color do
-    png file: 'cork.png', x: width, angle: Math::PI / 2
+    png file: 'cork.png'
     png file: 'crisis-graphpaper-shadow.png'
     svg file: 'crisis-graphpaper.svg'
-    png file: 'event_graphpaper_notecard_shadow.png'
-    svg file: 'event_graphpaper_notecard.svg'
-    svg file: 'crisis-front.svg', layout: :Front
+    png file: 'crisis-notecard-shadow.png', layout: :notecard
+    svg file: 'crisis-notecard.svg', layout: :notecard
   end
 
   text layout: :Name,        str: data['Name']
-  text layout: :Order,       str: data['Order']
+  text layout: :ID,          str: data['ID']
   text layout: :Story,       str: data['Story']
   text layout: :Description, str: data['Description']
 
@@ -55,19 +54,18 @@ end
 ###############
 # CRISS BACKS #
 ###############
-Squib::Deck.new(cards: data['Name'].size) do
-  use_layout file: 'layouts/event_backs.yml'
+Squib::Deck.new(cards: data['Name'].size, width: 1125, height: 825) do
+  use_layout file: 'layouts/crises_backs.yml'
   background color: :white
 
   build :color do
-    png file: 'cork.png', x: width, angle: Math::PI / 2
+    png file: 'cork.png'
     png file: 'crisis-graphpaper-shadow.png'
     svg file: 'crisis-graphpaper.svg'
   end
 
-  text layout: :Name,        str: data['Name']
-  text layout: :Order,       str: data['Order']
-  svg file: 'crossbones.svg', layout: :crossbones
+  text layout: :Name, str: data['Name']
+  text layout: :ID,   str: data['ID']
 
   save_png prefix: 'crisis_back_'
 

@@ -23,7 +23,7 @@ safe:
 Name:
   font: Archivo Black, 12.8
   spacing: -35
-  width: 2.25in
+  width: 3.25in
   height: 200
   x: 75
   y: 55
@@ -35,26 +35,30 @@ Front:
   width: 600
   height: 90
 Img:
-  x: 0
-  y: 0
-  width: 825
-  height: 1125
+  x: 650
+  y: 250
+  width: 380
+  height: 500
 
-Order:
+ID:
   font: Archivo Black, Serif Bold 7.68
-  x: 140
-  y: 580
+  x: 90
+  y: 255
   width: 150
   height: 75
   align: left
   valign: top
 
+notecard:
+  x: 65
+  y: 250
+
 Story:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold Italic 8.32
   color: black
   spacing: -4
-  x: 150
-  y: 625
+  x: 100
+  y: 300
   width: 575
   height: 200
   ellipsize: false
@@ -65,8 +69,8 @@ Description:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 8.32
   color: black
   spacing: -4
-  x: 150
-  y: 750
+  x: 100
+  y: 395
   width: 575
   height: 200
   ellipsize: false
