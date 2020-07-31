@@ -39,11 +39,11 @@
     <Button id="theBlindJusticeJob" onClick="theBlindJusticeJob" width="100">
       <Text>The Blind Justice Job</Text>
     </Button>
+    <Button id="theGreedyPrisoner" onClick="theGreedyPrisoner" width="100">
+      <Text>The Greedy Prisoner</Text>
+    </Button>
     <Button id="theSafehouseRescue" onClick="theSafehouseRescue" width="100">
       <Text>The Safehouse Rescue</Text>
-    </Button>
-    <Button id="theBasementRescue" onClick="theBasementRescue" width="100">
-      <Text>The Basement Rescue</Text>
     </Button>
     <Button id="theFinalScorePart1" onClick="theFinalScorePart1" width="100">
       <Text>The Final Score Part 1</Text>

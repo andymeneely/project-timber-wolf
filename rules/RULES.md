@@ -489,6 +489,8 @@ Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Char
   * In the *Rescue Dogs* event, the team chooses who the dogs rescue in an order of your choosing.
   * In *Release the Hounds*, if the number of dogs in the bag are not equal, the team chooses how to distribute them.
 
+**THERE ARE BETTER DOGS**. Some characters have the ability to escape Guards without 👊. If one of these characters shares a hex with a dog and their action puts one tile of separation between them and the dog (e.g. ➜➜), the dog stays where it is instead of chasing.
+
 ## Watchtower
 
 ![watchtower](fig_hex_watchtower.png)

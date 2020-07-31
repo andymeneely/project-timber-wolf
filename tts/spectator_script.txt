@@ -1,0 +1,18 @@
+# Activate spectator window
+# +spectator_window
+spectator_screen 1
+
+# Set camera position to what you want, save it to camera slot 1
+spectator_camera_load 1
+
+# Show which displays to work with
+displays
+
+# Trying something
+
+spectator_activate_with_resolution 1920 1200 -d 1 -o -s -l
+spectator_activate_with_resolution 3840 2160 -d 1 -o -s -l
+
+# Change your nickname
+
+/nick Andy

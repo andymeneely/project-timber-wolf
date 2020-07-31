@@ -85,9 +85,9 @@ Squib::Deck.new(width: 600, height: 600, cards: files.size) do
 end
 #For rules
 Squib::Deck.new(width: 610, height: 610, cards: files.size) do
-  polygon n: 6, x: 308, y: 310, radius: 295, angle: Math::PI / 6,
+  polygon n: 6, x: 308, y: 310, radius: 295, angle: 0,
           fill_color: :black, stroke_width: 0
-  polygon n: 6, x: 300, y: 300, radius: 290, angle: Math::PI / 6,
+  polygon n: 6, x: 300, y: 300, radius: 290, angle: 0,
           fill_color: $BG_COLOR, stroke_width: 0
   svg data: replace_fill_with_fg(files), width: width, height: width
   save_png dir: 'rules/', prefix: 'fig_hex_', count_format: files
@@ -106,9 +106,9 @@ Squib::Deck.new(width: 600, height: 600, cards: files.size) do
 end
 #For rules
 Squib::Deck.new(width: 610, height: 610, cards: files.size) do
-  polygon n: 6, x: 308, y: 310, radius: 295, angle: Math::PI / 6,
+  polygon n: 6, x: 308, y: 310, radius: 295,
           fill_color: :black, stroke_width: 0
-  polygon n: 6, x: 300, y: 300, radius: 290, angle: Math::PI / 6,
+  polygon n: 6, x: 300, y: 300, radius: 290,
           fill_color: $BG_COLOR, stroke_width: 0
   svg data: replace_fill_with_fg(files), width: width, height: width
   text str: letters, font: 'Archivo Black, Serif 24',

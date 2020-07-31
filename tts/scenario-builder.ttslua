@@ -106,7 +106,8 @@ function placeChits(t, hex_x, hex_z)
   elseif t == '$3' then place2Chits(money_1k_bag, money_2k_bag, hex_x, hex_z)
   elseif t == 'PP' then place1Chit(folder_bag, hex_x, hex_z)
   elseif t == 'USB' then place1Chit(usb_bag, hex_x, hex_z)
-  elseif t == 'USB' then place1Chit(usb_bag, hex_x, hex_z)
+  elseif t == 'WT' then place1Chit(watchtower_bag, hex_x, hex_z, 30)
+  elseif t == 'RE' then place1Chit(reinforcements_bag, hex_x, hex_z, 30)
   elseif t == '*'  then place1Chit(asterisk_bag, hex_x, hex_z)
   elseif t == 'G2' then place2Chits(guard_bag, guard_bag, hex_x, hex_z)
   elseif t == 'L2' then place2Chits(lock_bag, lock_bag, hex_x, hex_z)
@@ -117,21 +118,23 @@ function placeChits(t, hex_x, hex_z)
   elseif t == 'G1K' then place2Chits(guard_bag, money_1k_bag, hex_x, hex_z)
   elseif t == 'G2K' then place2Chits(guard_bag, money_2k_bag, hex_x, hex_z)
   elseif t == 'GDGD' then place2Chits(guard_dog_bag, guard_dog_bag, hex_x, hex_z)
-  elseif t == 'GA' then place1Chit(lockdown_a_bag, hex_x, hex_z)
-  elseif t == 'GB' then place1Chit(lockdown_b_bag, hex_x, hex_z)
-  elseif t == 'GC' then place1Chit(lockdown_c_bag, hex_x, hex_z)
-  elseif t == 'GD' then place1Chit(lockdown_d_bag, hex_x, hex_z)
+  elseif t == 'GA' then place1Chit(lockdown_a_bag, hex_x, hex_z, 30)
+  elseif t == 'GB' then place1Chit(lockdown_b_bag, hex_x, hex_z, 30)
+  elseif t == 'GC' then place1Chit(lockdown_c_bag, hex_x, hex_z, 30)
+  elseif t == 'GD' then place1Chit(lockdown_d_bag, hex_x, hex_z, 30)
   elseif t == '2CL' then place2Chits(camera_bag, lock_bag, hex_x, hex_z)
   elseif t == '2CD' then place2Chits(camera_bag, guard_dog_bag, hex_x, hex_z)
   elseif t == '2LD' then place2Chits(lock_bag, guard_dog_bag, hex_x, hex_z)
-  elseif t == 'SX' then place1Chit(server_x_bag, hex_x, hex_z)
-  elseif t == 'SY' then place1Chit(server_y_bag, hex_x, hex_z)
-  elseif t == 'RX' then place1Chit(remote_lock_x_bag, hex_x, hex_z)
-  elseif t == 'RY' then place1Chit(remote_lock_y_bag, hex_x, hex_z)
+  elseif t == 'SX' then place1Chit(server_x_bag, hex_x, hex_z, 30)
+  elseif t == 'SY' then place1Chit(server_y_bag, hex_x, hex_z, 30)
+  elseif t == 'RX' then place1Chit(remote_lock_x_bag, hex_x, hex_z, 30)
+  elseif t == 'RY' then place1Chit(remote_lock_y_bag, hex_x, hex_z, 30)
   elseif t == 'RXJ' then place2ChitsStacked(remote_lock_x_bag, jewel_bag, hex_x, hex_z)
   elseif t == 'RXD' then place2ChitsStacked(remote_lock_x_bag, folder_bag, hex_x, hex_z)
+  elseif t == 'RXM' then place2ChitsStacked(remote_lock_x_bag, meeple_bag, hex_x, hex_z, 30)
   elseif t == 'RYJ' then place2ChitsStacked(remote_lock_y_bag, jewel_bag, hex_x, hex_z)
   elseif t == 'RYD' then place2ChitsStacked(remote_lock_y_bag, folder_bag, hex_x, hex_z)
+  elseif t == 'RYM' then place2ChitsStacked(remote_lock_y_bag, meeple_bag, hex_x, hex_z)
   elseif t == 'KCL' then place1Chit(keycard_door_bag, hex_x, hex_z)
   elseif t == 'MW' then place1Chit(meeple_bag, hex_x, hex_z)
   elseif t == 'E1' then placeExit(1, hex_x, hex_z)
@@ -167,33 +170,36 @@ end
 
 
 
-function place1Chit(bag, cx, cz)
+function place1Chit(bag, cx, cz, r)
+  local r = r or 0
   local chit_y = 15
   bag.takeObject({
     position = { x = cx, y = chit_y, z = cz },
-    rotation = { x = 0, y = 180, z = 0 }
+    rotation = { x = 0, y = 180 + r, z = 0 }
   })
 end
 
-function place2Chits(bag1, bag2, cx,  cz)
+function place2Chits(bag1, bag2, cx,  cz, r)
+  local r = r or 0
   local chit_y = 15
   d = 0.65 -- nudge amount for 2 chits
   bag1.takeObject({
     position = { x = cx - d, y = chit_y, z = cz - d },
-    rotation = { x = 0, y = 180, z = 0 }
+    rotation = { x = 0, y = 180 + r, z = 0 }
   })
   bag2.takeObject({
     position = { x = cx + d, y = chit_y, z = cz + d },
-    rotation = { x = 0, y = 180, z = 0 }
+    rotation = { x = 0, y = 180 + r, z = 0 }
   })
 end
 
-function place2ChitsStacked(bag1, bag2, cx,  cz)
+function place2ChitsStacked(bag1, bag2, cx,  cz, r)
+  local r = r or 0
   local chit_y = 15
   d = 0.65 -- nudge amount for 2 chits
   bag1.takeObject({
     position = { x = cx, y = chit_y - 5, z = cz },
-    rotation = { x = 0, y = 180, z = 0 }
+    rotation = { x = 0, y = 180 + r, z = 0 }
   })
   bag2.takeObject({
     position = { x = cx, y = chit_y, z = cz },

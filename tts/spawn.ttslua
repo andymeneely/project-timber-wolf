@@ -41,9 +41,9 @@ function respawn()
   spawnHexTile('hex_tile_front.png', 'hex_tile_back.png', "")
 
   spawnEventDeck('sheet_events_00.png', 'sheet_events_backs_00.png', 25, 15)
-  spawnEventDeck('sheet_events_01.png', 'sheet_events_backs_01.png', 18, 16)
+  spawnEventDeck('sheet_events_01.png', 'sheet_events_backs_01.png', 17, 16)
 
-  spawnCrisisDeck('sheet_crises_00.png', 'sheet_crises_backs_00.png', 7)
+  spawnCrisisDeck('sheet_crises_00.png', 'sheet_crises_backs_00.png', 9)
 
   spawnCharacterDeck('sheet_characters_00.png', 'sheet_characters_backs_00.png', 24)
 
@@ -64,8 +64,8 @@ function spawnCircleChit(front, back) spawnChit(front, back, name, 2, 1.0, 0) en
 
 function spawnChit(front, back, name, tile_type, s, r)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
-  local chit_x = 0
-  local chit_z = 0
+  local chit_x = -48
+  local chit_z = 10
   local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
   local obj = spawnObject({
     type = "Custom_Tile",
@@ -86,8 +86,8 @@ end
 
 function spawnTracker(front, name)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
-  local tracker_x = 0
-  local tracker_z = -10
+  local tracker_x = -48
+  local tracker_z = 0
   local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
   local s = 3.0
   local tracker_y = 15
@@ -119,50 +119,50 @@ function spawnTracker(front, name)
   local shift_bottom = shift_top
   -- left side - top down
   local lside_x = 1.10;
-  obj.setSnapPoints({
-    -- top row
-    { position = { x=ul_x + 0*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 1*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 2*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 3*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 4*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 5*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 6*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 7*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 8*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 9*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 10*shift_top, y=0, z=ul_z } },
-    { position = { x=ul_x + 11*shift_top, y=0, z=ul_z } },
-    -- right side
-    { position = { x=rside_x, y=0, z=rside_z_start - 0*shift_side } },
-    { position = { x=rside_x, y=0, z=rside_z_start - 1*shift_side } },
-    { position = { x=rside_x, y=0, z=rside_z_start - 2*shift_side } },
-    { position = { x=rside_x, y=0, z=rside_z_start - 3*shift_side } },
-    { position = { x=rside_x, y=0, z=rside_z_start - 4*shift_side } },
-    { position = { x=rside_x, y=0, z=rside_z_start - 5*shift_side } },
-    { position = { x=rside_x, y=0, z=rside_z_start - 6*shift_side } },
-    -- bottom_row side
-    { position = { x=ll_x + 0*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 1*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 2*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 3*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 4*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 5*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 6*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 7*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 8*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 9*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 10*shift_bottom, y=0, z=ll_z } },
-    { position = { x=ll_x + 11*shift_bottom, y=0, z=ll_z } },
-    -- left side
-    { position = { x=lside_x, y=0, z=rside_z_start - 0*shift_side } },
-    { position = { x=lside_x, y=0, z=rside_z_start - 1*shift_side } },
-    { position = { x=lside_x, y=0, z=rside_z_start - 2*shift_side } },
-    { position = { x=lside_x, y=0, z=rside_z_start - 3*shift_side } },
-    { position = { x=lside_x, y=0, z=rside_z_start - 4*shift_side } },
-    { position = { x=lside_x, y=0, z=rside_z_start - 5*shift_side } },
-    { position = { x=lside_x, y=0, z=rside_z_start - 6*shift_side } },
-  })
+  -- obj.setSnapPoints({
+  --   -- top row
+  --   { position = { x=ul_x + 0*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 1*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 2*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 3*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 4*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 5*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 6*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 7*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 8*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 9*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 10*shift_top, y=0, z=ul_z } },
+  --   { position = { x=ul_x + 11*shift_top, y=0, z=ul_z } },
+  --   -- right side
+  --   { position = { x=rside_x, y=0, z=rside_z_start - 0*shift_side } },
+  --   { position = { x=rside_x, y=0, z=rside_z_start - 1*shift_side } },
+  --   { position = { x=rside_x, y=0, z=rside_z_start - 2*shift_side } },
+  --   { position = { x=rside_x, y=0, z=rside_z_start - 3*shift_side } },
+  --   { position = { x=rside_x, y=0, z=rside_z_start - 4*shift_side } },
+  --   { position = { x=rside_x, y=0, z=rside_z_start - 5*shift_side } },
+  --   { position = { x=rside_x, y=0, z=rside_z_start - 6*shift_side } },
+  --   -- bottom_row side
+  --   { position = { x=ll_x + 0*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 1*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 2*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 3*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 4*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 5*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 6*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 7*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 8*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 9*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 10*shift_bottom, y=0, z=ll_z } },
+  --   { position = { x=ll_x + 11*shift_bottom, y=0, z=ll_z } },
+  --   -- left side
+  --   { position = { x=lside_x, y=0, z=rside_z_start - 0*shift_side } },
+  --   { position = { x=lside_x, y=0, z=rside_z_start - 1*shift_side } },
+  --   { position = { x=lside_x, y=0, z=rside_z_start - 2*shift_side } },
+  --   { position = { x=lside_x, y=0, z=rside_z_start - 3*shift_side } },
+  --   { position = { x=lside_x, y=0, z=rside_z_start - 4*shift_side } },
+  --   { position = { x=lside_x, y=0, z=rside_z_start - 5*shift_side } },
+  --   { position = { x=lside_x, y=0, z=rside_z_start - 6*shift_side } },
+  -- })
   spawnObject({
     type = "go_game_piece_white",
     position = {x=tracker_x + ul_x, y=tracker_y + 3, z=tracker_z + ul_z},
@@ -170,16 +170,15 @@ function spawnTracker(front, name)
   })
 end
 
-function spawnFixerDeck(front, back, n)         spawnDeck(front, back, n, 15, -5) end
-function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, n, deck_y, -10) end
-function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, n, 15, -15) end
-function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, n, 15, -20) end
-function spawnSkillDeck(front, back, n)         spawnDeck(front, back, n, 15, -25) end
+function spawnFixerDeck(front, back, n)         spawnDeck(front, back, n, 15, -5, 1 ) end
+function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, n, deck_y, -10, 1) end
+function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, n, 15, -15, 0.72) end
+function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, n, 15, -20, 1) end
+function spawnSkillDeck(front, back, n)         spawnDeck(front, back, n, 15, -25, 0.72) end
 
-function spawnDeck(front, back, n, deck_y, deck_z)
+function spawnDeck(front, back, n, deck_y, deck_z, s)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
-  local deck_x = 10
-  local s = 1.0 -- scale
+  local deck_x = -48
   local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
   local obj = spawnObject({
     type = "DeckCustom",

@@ -135,12 +135,7 @@ TODO: finish filling these out.
   <img src="delinquent-jeweler.png">
 </div>
 
-| Difficulty: | Amateur                                             |
-| -----------:|:--------------------------------------------------- |
-|     Events: | 1-8, G1, 9-12, G2, 13-14, G4, G1, C4, 15-20, C1, Z2 |
-{:class="scenario-stats"}
-
-You receive a text from the Pawn Shop Owner:
+From the Pawn Shop Owner:
 
 > Our friends down the road have decided to experiment with capitalism again. I need to show them the cost of leaving a cartel.
 {:.text-message}
@@ -155,7 +150,7 @@ You receive a text from the Pawn Shop Owner:
 **Success Unlocks:** Pawn Shop Owner
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Delinquent+Jeweler|30|5|5|6|4|235|210|OIBQBKHpPXUNggJAJjMgjI+S-gGUBhCE4sc-FbAKQHUwj1KBBMAUQFkOBWHBLhAAiFEsABCoqVUj0plcACV2Hbuz4zwgyOV1jcBsHIVSs-Tf22GLkdthsggA
+http://localhost:3000/design?savekey=Delinquent+Jeweler|55|5|5|6|4|0|0|0|0|0|20|15|1-8,G1,9-12,G2,13-14,G4,G1,C4,15-20,C1,Z2|35|225|A|OIBQBKHpPXUNo8ASATGFBGZulIGUBhCE4sc-ebMAKQHUwiNKBBMAUQFlOBWPcNwgARCiWAAhMdKoIG0yuABKHTjw79ZkIZHJ7x8WfMXSaWwxbUDrSDjnNA
 {:/comment}
 
 # The Startup Job
@@ -184,7 +179,7 @@ From Visage:
 **Success Unlocks:** Visage
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|35|4|6|6|225|225|OIBQBKHi6XsKkg0gYQDJPmNYAkAzFogMqpioCyYZN5ATMJuvcRdegPJgDqAKvgCMdEdmy1a2fqMSQqMoSMmzweVhPIawAUWpiVOvYm0A2NvqSnzIIA
+https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|5|3|6|6|0|0|0|0|0|15|220|1-15,C6,16-18,C4,C5,D2,20-24,Z1|190|245|A|OIBQBKYumz8QQaQMIBlGcqsASAzFggMopgoCyYp1ZATMBmnUeVWgPJgDqAKngEZawuKxo1RfEQkiVpg4RJnhcLcWXVgAolVF7wO1loBsrfZhNn4QA
 {:/comment}
 
 # The Greedy Prisoner
@@ -192,11 +187,6 @@ https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|35|4|6|6|225|225|OIBQ
 <div class="map">
   <img src="estate-basement.png">
 </div>
-
-| Difficulty: | Semi-Pro                               |
-| -----------:|:-------------------------------------- |
-|     Events: | 1-15, C6, 16-18, C4, C5, D2, 20-24, Z1 |
-{:class="scenario-stats"}
 
 From The Connoisseur:
 
@@ -215,7 +205,7 @@ From The Connoisseur:
 **Success Unlocks:** The Connoisseur
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|4|6|9|115|170|OIBQBKHpAkDMVH0ZV4DKBhMWwCUANAWTACkB1HbXdAlacAJmABkxHM3J0BNRXNP2rZBggQyFlKuQlPx8aIpsCX01kZlwmL1E7sMQBREqL0TjawwEZdtyIYBsds86hA
+https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|2|6|6|0|0|3|0|0|105|135|1-8,D1,9-15,C6,16-17,D2,C4,C5,18-24,Z1|115|200|S|OIBQBKHpAkDMVH0ZV4DKBhMWwCUANAWTACkB1HbXdAlacAJmABkxHM3J0BNRXNP2rZBggQyFlKAEQDy+OhXx8aIpsDX0tkZlwmrtE7sMQBREqKMTzW0wEZDjyKYBsTq+6hA
 {:/comment}
 
 # The Blind Justice Job
