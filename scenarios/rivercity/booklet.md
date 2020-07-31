@@ -159,11 +159,6 @@ http://localhost:3000/design?savekey=Delinquent+Jeweler|55|5|5|6|4|0|0|0|0|0|20|
   <img src="tech-lab.png">
 </div>
 
-| Difficulty: | Amateur                                 |
-| -----------:|:--------------------------------------- |
-|     Events: | 1-4, S2, 5-10, C2, 11-21, C2, 22-24, Z1 |
-{:class="scenario-stats"}
-
 From Visage:
 
 > Trade secrets are for cowards. Get me a copy of their code and I can help you out.
