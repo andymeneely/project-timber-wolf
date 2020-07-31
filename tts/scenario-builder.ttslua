@@ -42,7 +42,7 @@ function placeHex(t, hex_x, hex_z)
   if(t ~= "SC") then -- normalize rotation and flip accordingly
     r = {x=0,y=150,z=180}
   else
-    r = {x=0,y=150,z=0}
+    r = {x=0,y=210,z=0}
   end
   local tile_bag = getObjectFromGUID(tile_bag_guid)
   tile_bag.takeObject({ position={ x=hex_x, y=hex_y, z=hex_z, }, rotation=r })
