@@ -7,6 +7,7 @@ function respawn()
   spawnCircleChit("chit_asterisk.png", "chit_asterisk.png", "Asterisk")
   spawnCircleChit("chit_jewel.png", "chit_jewel.png", "Jewel")
   spawnCircleChit("chit_folder.png", "chit_folder.png", "Documents")
+  spawnCircleChit("chit_keycard.png", "chit_keycard.png", "Keycard")
   spawnCircleChit("chit_blank.png", "chit_blank.png", "Blank")
 
   spawnRectChit("chit_1k.png", "chit_1k.png", "$1k")
@@ -96,6 +97,7 @@ function spawnTracker(front, name)
     position = {x=tracker_x, y=tracker_y, z=tracker_z},
     rotation = {x=0, y = 180, z=0},
     scale = {x=s, y=s, z=s},
+    callback_function = |obj| obj.setName(name)
   })
   obj.setCustomObject({
     type ="Custom_Tile",

@@ -42,6 +42,9 @@
     <Button id="theGreedyPrisoner" onClick="theGreedyPrisoner" width="100">
       <Text>The Greedy Prisoner</Text>
     </Button>
+    <Button id="theSideChannel" onClick="theSideChannel" width="100">
+      <Text>The Side Channel</Text>
+    </Button>
     <Button id="theSafehouseRescue" onClick="theSafehouseRescue" width="100">
       <Text>The Safehouse Rescue</Text>
     </Button>
