@@ -209,11 +209,6 @@ https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|2|6|6|0|0|3
   <img src="courthouse.png">
 </div>
 
-| Difficulty: | Semi-Pro                     |
-| -----------:|:---------------------------- |
-|     Events: | 1-7, S3, 8-16, S1, 17-20, S3 |
-{:class="scenario-stats"}
-
 From the beat cop:
 
 > I need to know what they have on me. Get me the dossier at the courthouse, then we'll talk.
@@ -230,7 +225,7 @@ From the beat cop:
 **Success Unlocks:** Beat Cop, Gain $5k
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
+https://mastersoftheheist.com/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G5,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
 
 # The Side Channel
@@ -239,19 +234,13 @@ https://mastersoftheheist.com/design/?savekey=Courthouse|5|170|4|3|8|20|200|OIBQ
   <img src="server-farm.png">
 </div>
 
-| Difficulty: | Semi-Pro |
-| -----------:|:-------- |
-|     Events: | TBD      |
-{:class="scenario-stats"}
-
-
 From Shell:
 
 > Greatest cybersecurity in the world can't beat a tunnel. Too bad I'm a bit claustrophobic.
 {:.text-message}
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Server+Farm|25|255|7|7|8|180|5|OIBQBKHpPXUMgZQMJgFIHVH1jsqBahJaASgJoAi+hMA0uQKIJ27gAkAzBAExiYAKkRFt8HfmNIi8s8IQAyAeTBkWC-nIQBVJACFWaZWEYKwAWWxbr7MEwBsQA
+https://mastersoftheheist.com/design/?savekey=Server+Farm|175|30|7|7|8|0|0|0|0|0|20|225|1-6,C2,7-10,A5,12-15,C5,16-17,C2,20,C1,21-24,Z1|155|235|S|OIBQBKHpPXUNggygYTAKQOqPk-4aYRJ6RASgJoAiuK6MA0uuQKL11IAkAzBAExgsAFWJlxneF0FFIpMZMVEAMgHkwbMMsEE6AVWQAhDmrDNlYALI5dtvPFYA2RXclA
 {:/comment}
 
 **Objective:** Steal the documents inside remote lock Y.
