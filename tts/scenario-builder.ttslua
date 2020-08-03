@@ -1,7 +1,7 @@
 function buildScenario(save_string)
   local hextiles = parseTileList(save_string)
   local x_start = -16.50
-  local z_start = 12.5
+  local z_start = 17.50
   local hex_width = 3.8
   local z_shift = 3.3
   local stride = math.sqrt(getn(hextiles))
@@ -19,7 +19,11 @@ function buildScenario(save_string)
       placeExit(t, hex_x, hex_z)
     end
   end
+
+  placeEventDeck(parseEventDeck(save_string))
 end
+
+
 
 function parseTileList(save_string)
   local title = save_string:gsub("|.*$",''):gsub("+"," ") -- not using, strip away
@@ -146,30 +150,6 @@ function placeChits(t, hex_x, hex_z)
   end
 end
 
-  -- "KC" : { 'slug': 'keycard',l
--- "GKC" : { 'slug': 'security-guard-keycard',
--- elseif t == 'BE'  then place1Chit(beacon_bag, hex_x, hex_z)
--- "RE" : { 'slug': 'reinforcements',
--- "WT" : { 'slug': 'watchtower',
--- "GA" : { 'slug': 'gate-a',
--- "GB" : { 'slug': 'gate-b',
--- "GC" : { 'slug': 'gate-c',
--- "GD" : { 'slug': 'gate-d',
--- "G2X" : { 'slug': 'security-guard-2x',
--- "C2X" : { 'slug': 'security-camera-2x',
--- "L2X" : { 'slug': 'security-lock-2x',
---
--- "E1" : { 'slug': 'entrance-upper-right',
--- "E2" : { 'slug': 'entrance-right',
--- "E3" : { 'slug': 'entrance-lower-right',
--- "E4" : { 'slug': 'entrance-lower-left',
--- "E5" : { 'slug': 'entrance-left',
--- "E6" : { 'slug': 'entrance-upper-left',
--- "RXM" : { 'slug': 'remote-lock-x-meeple',
--- "RYM" : { 'slug': 'remote-lock-y-meeple',
-
-
-
 function place1Chit(bag, cx, cz, r)
   local r = r or 0
   local chit_y = 15
@@ -225,4 +205,105 @@ function isExit(tile)
      or tile == "E4"
      or tile == "E5"
      or tile == "E6"
+end
+
+function parseEventDeck(str)
+  local i = 0;
+  eventStr = ''
+  for w in str:gmatch("([^|]+)") do
+    if i == 13 then -- assuming scenario designer v1.13
+      eventStr = w
+    end
+    i = i + 1
+  end
+  return eventStr
+end
+
+function placeEventDeck(event_str)
+  if event_str == nil or event_str == '' then
+    return
+  end
+
+  spawnNotecard(event_str)
+
+  deck_pos_x = -12
+  deck_pos_y = 1.0
+  deck_pos_z = 24
+
+  events = parseEventString(event_str)
+
+  getObjectFromGUID(event_deck_bag_guid).takeObject({
+    position = {x = deck_pos_x, y = deck_pos_y, z = deck_pos_z},
+    callback_function = function(event_deck) dealEventDeck(event_deck, events) end
+  })
+
+  getObjectFromGUID(crisis_deck_bag_guid).takeObject({
+    position = {x = deck_pos_x, y = deck_pos_y, z = deck_pos_z - 3},
+    callback_function = function(crisis_deck) dealEventDeck(crisis_deck, events) end
+  })
+end
+
+function parseEventString(event_str)
+  local active_events = {}
+  local i = 1
+  for w in event_str:gmatch("([^,]+)") do
+    if w:find("%-") then -- range
+      local lower = nil
+      local upper = nil
+      for b in w:gmatch("([^-]+)") do -- e.g. get 1 and 5 from 1-5
+        if lower == nil then
+          lower = tonumber(b)
+        else
+          upper = tonumber(b)
+        end
+      end
+      for j=lower,upper do
+        active_events[tostring(j)] = i
+        i = i + 1
+      end
+    else -- otherwise, just a single, e.g. D5
+      active_events[w] = i
+      i = i + 1
+    end
+  end
+  return active_events
+end
+
+function dealEventDeck(deck, active_events)
+  local n_events = 0; for _,_ in pairs(active_events) do n_events = n_events + 1 end -- because table.getn doesn't exist in TTS?!?!?
+  local x_start = -10
+  local x_distance = 56 -- total width of event spread
+  local x_shift = x_distance / n_events
+  local card_positions = {}
+
+  for event, order in pairs(active_events) do
+    if event != nil or event != '' then
+      event_key = '<' .. event .. '>'
+      for _, card_info in pairs(deck.getObjects()) do
+        if card_info.name:find(event_key) then
+          card_positions[card_info.guid] = {
+            x = x_start + order * x_shift,
+            y = 1.0 + (n_events - order) * 0.5,
+            z = 24
+          }
+        end
+      end
+    end
+  end
+
+  for guid, pos in pairs(card_positions) do
+    deck.takeObject({ position = pos, guid = guid })
+  end
+end
+
+function spawnNotecard(str)
+  spawnObject({
+    type = "Notecard",
+    position = {x=6, y=5, z=30},
+    scale = {x=1.7, y=1.7, z=1.7},
+    callback_function = function(obj)
+      obj.setName('Event Order')
+      obj.setDescription(str)
+    end
+  })
 end
