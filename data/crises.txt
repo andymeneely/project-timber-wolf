@@ -25,6 +25,30 @@ Description | If a character is on a Watchtower  |
             | r token.                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
+       Name | Watchtower Sweep                   |
+         ID | C2                                 |
+        Qty | 2                                  |
+      Story | The Watchtower performs a sweep in |
+            |  every direction.                  |
+Description | If a character is on a Watchtower  |
+            | tile, remove the Watchtower token. |
+            |  Then, add a Guard to every hex wi |
+            | th a Character on it in a straight |
+            |  line originating from a Watchtowe |
+            | r token.                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut Two Gates!!                   |
+         ID | C3                                 |
+        Qty | 2                                  |
+      Story | Someone remembers to hit the red b |
+            | utton.                             |
+Description | Close the next two Gates, starting |
+            |  with "A". Remove the tile. If a c |
+            | haracter is on it, they are immedi |
+            | ately Busted.                      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
        Name | Shut Two Gates!!                   |
          ID | C3                                 |
         Qty | 2                                  |

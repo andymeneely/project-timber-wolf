@@ -2,7 +2,7 @@
 require 'squib'
 require_relative 'util/helpers'
 
-data = Squib.xlsx(file: 'data/data.xlsx', sheet: 3) do |col, item|
+data = Squib.xlsx(file: 'data/data.xlsx', sheet: 3, explode: 'Qty') do |col, item|
   newlineate(col, item)
 end
 

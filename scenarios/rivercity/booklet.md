@@ -150,7 +150,7 @@ From the Pawn Shop Owner:
 **Success Unlocks:** Pawn Shop Owner
 
 {::comment}
-http://localhost:3000/design?savekey=Delinquent+Jeweler|55|5|5|6|4|0|0|0|0|0|20|15|1-8,G1,9-12,G2,13-14,G4,G1,C4,15-20,C1,Z2|35|225|A|OIBQBKHpPXUNo8ASATGFBGZulIGUBhCE4sc-ebMAKQHUwiNKBBMAUQFlOBWPcNwgARCiWAAhMdKoIG0yuABKHTjw79ZkIZHJ7x8WfMXSaWwxbUDrSDjnNA
+https://mastersoftheheist.com/design/?savekey=Delinquent+Jeweler|55|5|5|6|4|0|0|0|0|0|20|15|1-8,G1,9-12,G2,13-14,G3,C3,15-21,C1,Z2|35|225|A|OIBQBKHpPXUNo8ASATGFBGZulIGUBhCE4sc-ebMAKQHUwiNKBBMAUQFlOBWPcNwgARCiWAAhMdKoIG0yuABKHTjw79ZkIZHJ7x8WfMXSaWwxbUDrSDjnNA
 {:/comment}
 
 # The Startup Job
@@ -174,7 +174,7 @@ From Visage:
 **Success Unlocks:** Visage
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|5|3|6|6|0|0|0|0|0|15|220|1-15,C6,16-18,C4,C5,D2,20-24,Z1|190|245|A|OIBQBKYumz8QQaQMIBlGcqsASAzFggMopgoCyYp1ZATMBmnUeVWgPJgDqAKngEZawuKxo1RfEQkiVpg4RJnhcLcWXVgAolVF7wO1loBsrfZhNn4QA
+https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|5|3|6|6|0|0|0|0|0|15|220|1-12,C2,13-18,C2,19-24,Z1|190|245|A|OIBQBKYumz8QQaQMIBlGcqsASAzFggMopgoCyYp1ZATMBmnUeVWgPJgDqAKngEZawuKxo1RfEQkiVpg4RJnhcLcWXVgAolVF7wO1loBsrfZhNn4QA
 {:/comment}
 
 # The Greedy Prisoner
@@ -200,7 +200,7 @@ From The Connoisseur:
 **Success Unlocks:** The Connoisseur
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|2|6|6|0|0|3|0|0|105|135|1-8,D1,9-15,C6,16-17,D2,C4,C5,18-24,Z1|115|200|S|OIBQBKHpAkDMVH0ZV4DKBhMWwCUANAWTACkB1HbXdAlacAJmABkxHM3J0BNRXNP2rZBggQyFlKAEQDy+OhXx8aIpsDX0tkZlwmrtE7sMQBREqKMTzW0wEZDjyKYBsTq+6hA
+https://mastersoftheheist.com/design/?savekey=Estate+Basement|50|230|2|6|6|0|0|3|0|0|105|135|1-8,D1,9-15,C6,16-17,D2,C4,C5,18-20,C7,21-24,Z1|115|200|S|OIBQBKHpAkDMVH0ZV4DKBhMWwCUANAWTACkB1HbXdAlacAJmABkxHM3J0BNRXNP2rZBggQyFlKAEQDy+OhXx8aIpsDX0tkZlwmrtE7sMQBREqKMTzW0wEZDjyKYBsTq+6hA
 {:/comment}
 
 # The Blind Justice Job
@@ -225,7 +225,7 @@ From the beat cop:
 **Success Unlocks:** Beat Cop, Gain $5k
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G5,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
+https://mastersoftheheist.com/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G1,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
 
 # The Side Channel
@@ -257,18 +257,11 @@ https://mastersoftheheist.com/design/?savekey=Server+Farm|175|30|7|7|8|0|0|0|0|0
 
 **Success Unlocks:** Visage
 
-
-
 # The Safehouse Rescue
 
 <div class="map">
   <img src="parking-garage.png">
 </div>
-
-| Difficulty | Pro                            |
-| ----------:|:------------------------------ |
-|     Events | 1-3, 5-9, 11-13, 16-24, S1, Z1 |
-{:class="scenario-stats"}
 
 From Old Friend:
 
@@ -283,12 +276,11 @@ From Old Friend:
 
   * MOVING TARGET. Each round, except the first round, move all guards and Captured Prisoner one hex in a straight line closer to the van.
   * GUARDS HAVE KEYS. Guards and Captured Prisoner move without restriction.
-  * AMBUSH REQUIRED. All four Guards must be subdued **in a single round**. If one is subdued but not the others, activate the S1 crisis during Event phase early.
-  * ABORT ABORT ABORT. Prisoner cannot be rescued during the Escape Phase.
-
+  * AMBUSH REQUIRED. All four Guards must be subdued **in a single round**. If one is subdued but not the others, activate the C1 crisis during Event phase early.
+  * ABORT ABORT ABORT. Prisoner cannot be Freed during the Escape Phase (i.e. the NPC must be activated prior to escape).
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Parking+Garage|0|60|0|10|6|20|180|OIBQBKHpCiBMYYFkquYgrKyPrgMoDCqR2eZFkAMgtbebhAuqa8aY40gOqIovEASjDCkAVJWYo2o9nMoNyhemBoL1kGR0Uad6TjoOIAjAqA
+https://mastersoftheheist.com/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|170|1-3,5-13,16-18,A5,20-24,C1,Z1|50|220|P|OIBQBKHpCiBMYYFkquYgrKyPrgMoDCqR2eZFkAMgtbebhAuqa8aY40gOqIovEASjDCkAVJWYo2o9nMoNyhemBoL1kGR0Uad6TjoOIAjAqA
 {:/comment}
 
 
@@ -298,17 +290,12 @@ https://mastersoftheheist.com/design/?savekey=Parking+Garage|0|60|0|10|6|20|180|
   <img src="the-bricks.png">
 </div>
 
-| Difficulty: | Semi-Pro                     |
-| -----------:|:---------------------------- |
-|     Events: | 1-8, S1, 9-12, S2, 13-24, Z1 |
-{:class="scenario-stats"}
-
 **Objective:** Everyone escapes out a different exit.
 
 **Upon Success:** Gain $10k
 
 {::comment}
-http://localhost:3000/?savekey=The+Bricks|105|235|7|4|5|250|200|OIBQBKHpPXUNmAogZkfJyAsG8wFV9MilI0EBlAYTBolvqdoBEB5YiI+yHgQXwAhLigCsVWkh6Zw0znN6TMLOkrwB1ACoQATGAAye5mB3BahzmXABZdQlv27VyzJdvnHkEA
+https://mastersoftheheist.com/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50|200|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
 {:/comment}
 
 # The Final Score
