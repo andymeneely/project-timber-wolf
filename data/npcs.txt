@@ -7,7 +7,8 @@
             | :idea:                             |
       Roll6 | Dash                               |
             | :noise::move::move:                |
-Description | Cannot be given :subdue:           |
+Description | GETTING MY BEARINGS                |
+            | Cannot :subdue:                    |
   FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -17,9 +18,9 @@ Description | Cannot be given :subdue:           |
             | :noise::noise::move::move:         |
    Default2 | Whimper                            |
             | :noise:                            |
-      Roll6 | Walk                               |
-            | :noise::move:                      |
-Description | (May now be given :subdue:)        |
+      Roll6 | Sprint                             |
+            | :noise::noise::move::move::move:   |
+Description | (May now :subdue:)                 |
   FrontBack | back                               |
             ╰------------------------------------╯
             ╭------------------------------------╮

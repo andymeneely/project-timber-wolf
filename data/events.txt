@@ -193,9 +193,9 @@ Description | Add a Guard to each tile that has  |
       Order | 20                                 |
       Story | "If you don't handle him now I'm n |
             | ot coming back for ya!"            |
-Description | Any character that shares a tile w |
-            | ith a Guard loses one 💡 (if possib |
-            | le).                               |
+Description | Any character who shares a tile wi |
+            | th a Guard loses one 💡 (if possibl |
+            | e).                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fear of the Unknown                |
@@ -230,14 +230,15 @@ Description | Un-Subdue every Subdued Guard that |
             |  shares a tile with a Character.   |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Watch Out!!                        |
+       Name | Coming In Hot!                     |
         Qty | 1                                  |
       Order | 24                                 |
-      Story | Knowing we're near the end, your c |
-            | olleague helps guide you out.      |
-Description | If a character is outside, an insi |
-            | de character may gain one 💡 for on |
-            | e 🔊.                               |
+      Story | Hindsight is 2020.                 |
+Description | If your noise this round landed ex |
+            | actly on this event, then one char |
+            | acter may transfer 💡 to another ch |
+            | aracter. Otherwise, this event has |
+            |  no effect.                        |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Did You See Something?             |
@@ -272,7 +273,7 @@ Description | Un-Subdue every Subdued Guard that |
             ╭------------------------------------╮
        Name | Their Word Against Yours           |
         Qty | 1                                  |
-      Order | A4                                 |
+      Order | A5                                 |
       Story | You realize that no cameras means  |
             | the Guards are free to do as they  |
             | please.                            |
@@ -326,25 +327,25 @@ Description | Add a Dog token to each tile with  |
             | loot not yet stolen.               |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Shut the Gates!                    |
+       Name | Oops! Gate Shut!                   |
         Qty | 1                                  |
       Order | G1                                 |
+      Story | An automatic system initiates, clo |
+            | sing the next lockdown gate.       |
+Description | Close the next Gates, starting wit |
+            | h "A". Remove the tile. If a Chara |
+            | cter is on it, they are Busted.    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | More Gates Shut!!                  |
+        Qty | 1                                  |
+      Order | G2                                 |
       Story | An automatic system initiates, clo |
             | sing the next two lockdown gates.  |
 Description | Close the next two Gates, starting |
             |  with "A". Remove the tile. If a C |
             | haracter is on it, they are Busted |
             | .                                  |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Shut the Gate                      |
-        Qty | 1                                  |
-      Order | G2                                 |
-      Story | An automatic system initiates, clo |
-            | sing the next lockdown gate.       |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a Charac |
-            | ter is on it, they are Busted.     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Unexpected Lock                    |
@@ -364,28 +365,6 @@ Description | Add one Lock token to the next ava |
 Description | Add one Guard token to the next av |
             | ailable lockdown gate, starting wi |
             | th "A".                            |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Shut the Gate!                     |
-        Qty | 1                                  |
-      Order | G5                                 |
-      Story | An automatic system initiates, clo |
-            | sing the next two lockdown gates.  |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a Charac |
-            | ter is on a removed hex, they are  |
-            | Busted.                            |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Shut the Gates!                    |
-        Qty | 1                                  |
-      Order | G6                                 |
-      Story | An automatic system initiates, clo |
-            | sing the next lockdown gate.       |
-Description | Close the next two Gates, starting |
-            |  with "A". Remove the tile. If a c |
-            | haracter is on a removed hex, they |
-            |  are immediately Busted.           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | According to Plan                  |
