@@ -1,3 +1,3 @@
 module MastersOfTheHeist
-  VERSION = '19.0'
+  VERSION = '20.0a'
 end

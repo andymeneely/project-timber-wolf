@@ -189,7 +189,7 @@ From The Connoisseur:
 {:.text-message}
 
 
-**Objective:** Steal at least two jewels and rescue the NPC.
+**Objective:** Steal at least two jewels and the NPC must escape.
 
 **Special Rules**:
 
