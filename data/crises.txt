@@ -81,22 +81,19 @@ Description | All NPC cards use the Panic side f |
         Qty | 1                                  |
       Story | A bunch of guard dogs appear out o |
             | f nowhere.                         |
-Description | Take every Guard Dog out of the ba |
-            | g and, dividing them equally, plac |
-            | e them on every hex adjacent to an |
-            |  entrance. Move all Dogs 3 spaces  |
-            | closer to its nearest character.   |
+Description | Add one Dog to each hex adjacent t |
+            | o an entrance. Move each 3 hexes c |
+            | loser to the nearest character.    |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Rescue Dogs                        |
+       Name | Empty the Kennel!                  |
          ID | C7                                 |
         Qty | 1                                  |
-      Story | "Wish I could train my dog that we |
-            | ll."                               |
-Description | Every known unsubdued Guard Dog mo |
-            | ves up to 3 hexes (ignoring securi |
-            | ty) to the nearest subdued Guard a |
-            | nd unsubdues them.                 |
+      Story | "That's a lot of jingling collars. |
+            | "                                  |
+Description | Add three Dogs to the kennel. Move |
+            |  each one 3 hexes closer to the ne |
+            | arest 3 characters.                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sound the Alarm!                   |

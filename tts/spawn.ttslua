@@ -26,6 +26,7 @@ function respawn()
   spawnHexChit("hex_lockdown_B.png", "hex_lockdown_B.png", "")
   spawnHexChit("hex_lockdown_C.png", "hex_lockdown_C.png", "")
   spawnHexChit("hex_lockdown_D.png", "hex_lockdown_D.png", "")
+  spawnHexChit("hex_kennel.png", "hex_kennel.png", "")
 
   spawnTracker("tracker_00.png", "Noise Tracker (3P)")
   spawnTracker("tracker_01.png", "Noise Tracker (4P)")

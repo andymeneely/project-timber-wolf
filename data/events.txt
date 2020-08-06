@@ -253,7 +253,7 @@ Description | Add a Guard to each tile that has  |
             ╭------------------------------------╮
        Name | Where is He?                       |
         Qty | 1                                  |
-      Order | A3                                 |
+      Order | A2                                 |
       Story | A wandering guard notices his subd |
             | ued colleague.                     |
 Description | Add a Guard to every hex with a Li |
@@ -263,7 +263,7 @@ Description | Add a Guard to every hex with a Li |
             ╭------------------------------------╮
        Name | Ties Broke!                        |
         Qty | 1                                  |
-      Order | A4                                 |
+      Order | A3                                 |
       Story | Emboldened by the alerts that have |
             |  been raised, the Guards begin esc |
             | aping their bonds.                 |
@@ -273,7 +273,7 @@ Description | Un-Subdue every Subdued Guard that |
             ╭------------------------------------╮
        Name | Their Word Against Yours           |
         Qty | 1                                  |
-      Order | A5                                 |
+      Order | A4                                 |
       Story | You realize that no cameras means  |
             | the Guards are free to do as they  |
             | please.                            |
@@ -314,17 +314,27 @@ Description | Replace a Guard in the bag with a  |
       Order | D1                                 |
       Story | "Man's best friend. Right now I wi |
             | sh I was that man."                |
-Description | Add a Dog token to each tile with  |
-            | a Character and a (Subdued or Unsu |
-            | bdued) Guard.                      |
+Description | Add a Dog to the kennel, then move |
+            |  it 3 spaces to the nearest charac |
+            | ter.                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard the Loot Boy!                |
         Qty | 1                                  |
       Order | D2                                 |
       Story | "Hey where are those dogs going?"  |
-Description | Add a Dog token to each tile with  |
-            | loot not yet stolen.               |
+Description | Add a Dog to the kennel, then move |
+            |  them 3 spaces to the nearest hex  |
+            | with loot.                         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | They Can Sense Your Fear           |
+        Qty | 1                                  |
+      Order | D3                                 |
+      Story | "Don't. Move."                     |
+Description | Add a Dog to the kennel, then move |
+            |  it 3 spaces to a player character |
+            |  with the least number of 💡.       |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Oops! Gate Shut!                   |

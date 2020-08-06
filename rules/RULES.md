@@ -476,18 +476,24 @@ For each Remote Lock, a corresponding **Server** exists somewhere else on the bo
 ![guard dog](fig_chit_guard-dog.png)
 {:.example-right .hexchit .rotate-left}
 
-Guard Dogs are Guards. Additionally, when a Guard Dog becomes adjacent to a Character:
+**Guard Dogs are Guards.**
+
+**Chasers.** Additionally, when a Guard Dog becomes adjacent to a Character, and is not already sharing a tile with a Character, then:
 
   1. Move the Guard Dog onto that character, and
-  2. Place a Blank token over the Shield to mark that space as already Revealed (if necessary)
+  2. If the Dog came from the security bag, place a Blank token over the Shield to mark that space as already Revealed.
 
 **Indoor creatures**. Guard Dogs do not move onto entrances/exits.
 
-**Team optimizes ambiguity**. If ambiguity ever arises in the behavior of a Guard Dog, the team chooses. For example:
+![kennel](fig_hex_kennel.png)
+{:.example-right .hexchit .rotate-right}
 
-  * If a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
-  * In the *Rescue Dogs* event, the team chooses who the dogs rescue in an order of your choosing.
-  * In *Release the Hounds*, if the number of dogs in the bag are not equal, the team chooses how to distribute them.
+**Kennel**. The hex with a kennel can be freely moved on with no automatic effect. Dogs spawn here as a result of Events and Crises.
+
+**Team optimizes ambiguity**. If ambiguity ever arises in the behavior of a Guard Dog, the team chooses.
+
+For example, if a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.
+{:.example}
 
 **THERE ARE BETTER DOGS**. Some characters have the ability to escape Guards without 👊. If one of these characters shares a hex with a dog and their action puts one tile of separation between them and the dog (e.g. ➜➜), the dog stays where it is instead of chasing.
 
