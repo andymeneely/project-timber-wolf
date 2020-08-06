@@ -21,9 +21,8 @@ function buildScenario(save_string)
   end
 
   placeEventDeck(parseEventDeck(save_string))
+  placeSecurityChits(parseSecurityBag(save_string))
 end
-
-
 
 function parseTileList(save_string)
   local title = save_string:gsub("|.*$",''):gsub("+"," ") -- not using, strip away
@@ -92,6 +91,7 @@ function placeChits(t, hex_x, hex_z)
   local remote_lock_y_bag = getObjectFromGUID(remote_lock_y_bag_guid)
   local server_x_bag = getObjectFromGUID(server_x_bag_guid)
   local server_y_bag = getObjectFromGUID(server_y_bag_guid)
+  local kennel_bag = getObjectFromGUID(kennel_bag_guid)
   local watchtower_bag = getObjectFromGUID(watchtower_bag_guid)
   local remote_lock_x_bag = getObjectFromGUID(remote_lock_x_bag_guid)
   local meeple_bag = getObjectFromGUID(white_meeple_bag_guid)
@@ -136,6 +136,7 @@ function placeChits(t, hex_x, hex_z)
   elseif t == 'SY' then place1Chit(server_y_bag, hex_x, hex_z, 30)
   elseif t == 'RX' then place1Chit(remote_lock_x_bag, hex_x, hex_z, 30)
   elseif t == 'RY' then place1Chit(remote_lock_y_bag, hex_x, hex_z, 30)
+  elseif t == 'DK' then place1Chit(kennel_bag, hex_x, hex_z, 30)
   elseif t == 'RXJ' then place2ChitsStacked(remote_lock_x_bag, jewel_bag, hex_x, hex_z)
   elseif t == 'RXD' then place2ChitsStacked(remote_lock_x_bag, folder_bag, hex_x, hex_z)
   elseif t == 'RXM' then place2ChitsStacked(remote_lock_x_bag, meeple_bag, hex_x, hex_z, 30)
@@ -309,4 +310,40 @@ function spawnNotecard(str)
       obj.setDescription(str)
     end
   })
+end
+
+function parseSecurityBag(save_string)
+  local i = 1
+  local bag_chits = { guards=0, cameras=0, locks=0, jewel=0, keycard=0, dog=0,
+                      docs=0, usb=0, }
+  for w in save_string:gmatch("([^|]+)") do
+    if     i == 4 then bag_chits.guards = tonumber(w)
+    elseif i == 5 then bag_chits.cameras = tonumber(w)
+    elseif i == 6 then bag_chits.locks = tonumber(w)
+    elseif i == 7 then bag_chits.jewel = tonumber(w)
+    elseif i == 8 then bag_chits.keycard = tonumber(w)
+    elseif i == 9 then bag_chits.dog = tonumber(w)
+    elseif i == 10 then bag_chits.docs = tonumber(w)
+    elseif i == 11 then bag_chits.usb = tonumber(w)
+    end
+    i = i + 1
+  end
+  return bag_chits
+end
+
+function placeSecurityChits(bag_chits)
+  placeBagChits(getObjectFromGUID(guard_bag_guid), bag_chits.guards, 10)
+  placeBagChits(getObjectFromGUID(camera_bag_guid), bag_chits.cameras, 8)
+  placeBagChits(getObjectFromGUID(lock_bag_guid), bag_chits.locks, 6)
+  placeBagChits(getObjectFromGUID(jewel_bag_guid), bag_chits.jewel, 4)
+  placeBagChits(getObjectFromGUID(keycard_bag_guid), bag_chits.keycard, 2)
+  placeBagChits(getObjectFromGUID(guard_dog_bag_guid), bag_chits.dog, 0)
+  placeBagChits(getObjectFromGUID(docs_bag_guid), bag_chits.docs, -2)
+  placeBagChits(getObjectFromGUID(usb_bag_guid), bag_chits.usb, -4)
+end
+
+function placeBagChits(bag, n, z)
+  for i=1,n do
+    bag.takeObject({ position = {x = 28, y=5.0 + i*0.75, z=z} })
+  end
 end
