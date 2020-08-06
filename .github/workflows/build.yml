@@ -23,6 +23,9 @@ jobs:
         mkdir ~/.fonts
         cp -r fonts/ ~/.fonts
         fc-cache -f -v
+    - name: Save git hash to rev.txt
+      run: |
+        git show -s --pretty="%h %s" > rev.txt
     - name: yarn
       run: yarn install
     - name: rake
@@ -44,6 +47,7 @@ jobs:
         cp _output/help_*_00.png build/
         cp data/crises.json build/
         cp data/events.json build/
+        cp rev.txt build/
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
