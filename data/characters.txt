@@ -12,9 +12,13 @@
     LevelUp1 | Safecracker                        |
     LevelUp2 | Demolitions Guy                    |
      Special | EFFICIENT PICKER                   |
-             | If your action has a :unlock:, you |
-             |  may spend :idea: for an additiona |
-             | l :move::noise:                    |
+             | For each :unlock: your action has, |
+             |  you may spend :idea: for an addit |
+             | ional :move::noise:                |
+             |                                    |
+             | PICK UNDER PRESSURE                |
+             | During Escape, can spend :idea: to |
+             |  :unlock:                          |
 LevelUp1Desc | +2 ⬢y                              |
              |                                    |
              | + 2 Initial :idea:                 |
@@ -24,6 +28,8 @@ LevelUp1Desc | +2 ⬢y                              |
 LevelUp2Desc | +1 Initial :idea:                  |
              |                                    |
              | +BREACH                            |
+             |                                    |
+             | -PICK UNDER PRESSURE               |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Safecracker                        |
@@ -39,9 +45,13 @@ LevelUp2Desc | +1 Initial :idea:                  |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | EFFICIENT PICKER                   |
-             | If your action has a :unlock:, you |
-             |  may spend :idea: for an additiona |
-             | l :move::noise:                    |
+             | For each :unlock: your action has, |
+             |  you may spend :idea: for an addit |
+             | ional :move::noise:                |
+             |                                    |
+             | PICK UNDER PRESSURE                |
+             | During Escape, can spend :idea: to |
+             |  :unlock:                          |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯
@@ -59,9 +69,9 @@ LevelUp2Desc |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | EFFICIENT PICKER                   |
-             | If your action has a :unlock:, you |
-             |  may spend :idea: for an additiona |
-             | l :move::noise:                    |
+             | For each :unlock: your action has, |
+             |  you may spend :idea: for an addit |
+             | ional :move::noise:                |
              |                                    |
              | BREACH                             |
              | May spend your action and          |

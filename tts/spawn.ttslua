@@ -45,7 +45,7 @@ function respawn()
   spawnEventDeck('sheet_events_00.png', 'sheet_events_backs_00.png', 25, 15)
   spawnEventDeck('sheet_events_01.png', 'sheet_events_backs_01.png', 15, 16)
 
-  spawnCrisisDeck('sheet_crises_00.png', 'sheet_crises_backs_00.png', 9)
+  spawnCrisisDeck('sheet_crises_00.png', 'sheet_crises_backs_00.png', 11)
 
   spawnCharacterDeck('sheet_characters_00.png', 'sheet_characters_backs_00.png', 24)
   spawnCharacterDeck('sheet_npcs_00.png', 'sheet_npcs_00.png', 6)
