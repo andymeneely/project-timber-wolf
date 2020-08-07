@@ -38,7 +38,7 @@ Note: precise counts may change as part of the prototyping process.
 * 6 Item cards
 * 6 Special Event cards
 * 12 Fixer cards
-* Noise tracker card
+* 2 Noise tracker mats
 * 12 Lock chits (circle)
 * 12 Camera chits (circle)
 * 14 Guard chits (circle)
@@ -237,9 +237,9 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 ![noise tracker](fig_noise.png)
 {:.xl_fig .example-right}
 
-**Every action has a cost.** For each 🔊 your teammates incur, increase the Noise tracker by one.
+**Every action has a cost.** For each 🔊 your team incurs, increase the Noise tracker by one.
 
-**Raise Alert ⚠**. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise Alert ⚠. If the Noise marker gets to the final slot, then the Escape Phase is Initiated at the end of the round (see _Escape Phase_).
+**Raise Alert ⚠**. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise Alert ⚠. When the Noise marker reaches to the final slot, each noise thereafter raises one Alert ⚠.
 
 ## Loot Chits
 
@@ -324,8 +324,6 @@ Roll your die.
 
 **Escape any time**. You may opt to initiate Escape Phase at any time. You must still do the Event phase.
 
-**Always finish the round.** If the Noise tracker or the Event deck reaches the end, finish the round and continue to the Event phase.
-
 *Tip: Wait to account for noise until the end of Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took. By design, accounting for noise at the beginning or end of the phase makes no strategic difference.*
 {:.tip}
 
@@ -341,7 +339,7 @@ When all players have finished their Actions and all noise has been accounted fo
 
 **One Event, Multiple Crises**. In this phase, you will do exactly one Event, and then any Crises that have queued up.
 
-**Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Character Action phase, but the Active Event card does not change. If the Event deck was exhausted in the Action phase, the final Event card will be the Active Event. A Crisis card can even be queued during an Active Event.
+**Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Action phase, but the Active Event card does not change. If the Event deck was exhausted in the Action phase, the final Event card will be the Active Event. A Crisis card can even be queued during an Active Event.
 
 **Discard Active Event**. When the Active Event is finished, discard the card.
 
