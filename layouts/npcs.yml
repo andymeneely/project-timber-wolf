@@ -52,8 +52,9 @@ Faction:
   align: center
 
 DefaultSkill:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 10.24
-  y: 920
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 10
+  y: 900
+  spacing: -5
   width: 215
   height: 140
   color: black

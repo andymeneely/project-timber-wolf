@@ -53,22 +53,22 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
   text str: data['Upgrade1'], layout: :upgrade1, range: only_lvl1_2
   text str: data['Upgrade1'].map { |s| summarize_skill(s) }, layout: :up1_sum, range: only_lvl1_2
   text str: rolls1, layout: :up1_sum, markup: true, range: only_lvl1_2 do |embed|
-    embed_emojis(embed, 30)
+    embed_emojis(embed, 35)
   end
 
   text str: data['Upgrade2'], layout: :upgrade2, range: only_lvl1_2
   text str: data['Upgrade2'].map { |s| summarize_skill(s) }, layout: :up1_sum, range: only_lvl1_2
   text str: rolls2, layout: :up2_sum, markup: true, range: only_lvl1_2 do |embed|
-    embed_emojis(embed, 30)
+    embed_emojis(embed, 35)
   end
 
   save_png prefix: 'skill_back_', rotate: true#, range: 0
 
-  build :sheets do
+  # build :sheets do
     save_sheet prefix: 'sheet_skills_backs_', columns: 5, rows: 5
-  end
+  # end
 
-  save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: only_lvl1_2
+  # save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: only_lvl1_2
 
   build :color do
     showcase file: 'skill_back_showcase.png', range: [2,4,6], fill_color: :black

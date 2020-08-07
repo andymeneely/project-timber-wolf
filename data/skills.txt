@@ -445,10 +445,11 @@ Upgrade2Rolls | Redirect                           |
  3-subactions | :subdue::subdue::noise:            |
      4-action | Run                                |
  4-subactions | :noise::noise::move::move:         |
-     5-action | Hit                                |
- 5-subactions | :subdue::noise:                    |
-     6-action | Observe                            |
- 6-subactions | :idea::reveal::noise:              |
+     5-action | Punch                              |
+ 5-subactions | :subdue::noise::noise::move:       |
+     6-action | Bump                               |
+ 6-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             1 | Hit                                |
               | :subdue::noise:                    |
             2 | Run                                |
@@ -457,17 +458,19 @@ Upgrade2Rolls | Redirect                           |
               | :subdue::subdue::noise:            |
             4 | Run                                |
               | :noise::noise::move::move:         |
-            5 | Hit                                |
-              | :subdue::noise:                    |
-            6 | Observe                            |
-              | :idea::reveal::noise:              |
+            5 | Punch                              |
+              | :subdue::noise::noise::move:       |
+            6 | Bump                               |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
         Rolls | Hit                                |
               | :subdue::noise:/Run                |
               | :noise::noise::move::move:/Bash    |
               | :subdue::subdue::noise:/Run        |
-              | :noise::noise::move::move:/Hit     |
-              | :subdue::noise:/Observe            |
-              | :idea::reveal::noise:              |
+              | :noise::noise::move::move:/Punch   |
+              | :subdue::noise::noise::move:/Bump  |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade1 | Assault                            |
 Upgrade1Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
@@ -477,8 +480,9 @@ Upgrade1Rolls | Bash                               |
               | :noise::noise::move::move:/Stronga |
               | rm                                 |
               | :unlock::subdue::noise::noise::mov |
-              | e:/Observe                         |
-              | :idea::reveal::noise:              |
+              | e:/Bump                            |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade2 | Blast                              |
 Upgrade2Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
@@ -487,15 +491,16 @@ Upgrade2Rolls | Bash                               |
               | :unlock::subdue::subdue::disable:: |
               | noise::alert:/Run                  |
               | :noise::noise::move::move:/Bash    |
-              | :subdue::subdue::noise:/Observe    |
-              | :idea::reveal::noise:              |
-            💡 | 1                                  |
-            🔊 | 8                                  |
-            ➜ | 4                                  |
+              | :subdue::subdue::noise:/Bump       |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
+            💡 | 0                                  |
+            🔊 | 10                                 |
+            ➜ | 6                                  |
             📷 | 0                                  |
             👊 | 4                                  |
-            🔓 | 0                                  |
-            🔍 | 1                                  |
+            🔓 | 2                                  |
+            🔍 | 0                                  |
             💰 | 0                                  |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras, Locks                     |
@@ -515,10 +520,11 @@ Upgrade2Rolls | Bash                               |
  3-subactions | :subdue::subdue::noise:            |
      4-action | Run                                |
  4-subactions | :noise::noise::move::move:         |
-     5-action | Hit                                |
- 5-subactions | :subdue::noise:                    |
-     6-action | Observe                            |
- 6-subactions | :idea::reveal::noise:              |
+     5-action | Punch                              |
+ 5-subactions | :subdue::noise::noise::move:       |
+     6-action | Bump                               |
+ 6-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             1 | Hit                                |
               | :subdue::noise:                    |
             2 | Run                                |
@@ -527,17 +533,19 @@ Upgrade2Rolls | Bash                               |
               | :subdue::subdue::noise:            |
             4 | Run                                |
               | :noise::noise::move::move:         |
-            5 | Hit                                |
-              | :subdue::noise:                    |
-            6 | Observe                            |
-              | :idea::reveal::noise:              |
+            5 | Punch                              |
+              | :subdue::noise::noise::move:       |
+            6 | Bump                               |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
         Rolls | Hit                                |
               | :subdue::noise:/Run                |
               | :noise::noise::move::move:/Bash    |
               | :subdue::subdue::noise:/Run        |
-              | :noise::noise::move::move:/Hit     |
-              | :subdue::noise:/Observe            |
-              | :idea::reveal::noise:              |
+              | :noise::noise::move::move:/Punch   |
+              | :subdue::noise::noise::move:/Bump  |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade1 | Assault                            |
 Upgrade1Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
@@ -547,8 +555,9 @@ Upgrade1Rolls | Bash                               |
               | :noise::noise::move::move:/Stronga |
               | rm                                 |
               | :unlock::subdue::noise::noise::mov |
-              | e:/Observe                         |
-              | :idea::reveal::noise:              |
+              | e:/Bump                            |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade2 | Blast                              |
 Upgrade2Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
@@ -557,15 +566,16 @@ Upgrade2Rolls | Bash                               |
               | :unlock::subdue::subdue::disable:: |
               | noise::alert:/Run                  |
               | :noise::noise::move::move:/Bash    |
-              | :subdue::subdue::noise:/Observe    |
-              | :idea::reveal::noise:              |
-            💡 | 1                                  |
-            🔊 | 8                                  |
-            ➜ | 4                                  |
+              | :subdue::subdue::noise:/Bump       |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
+            💡 | 0                                  |
+            🔊 | 10                                 |
+            ➜ | 6                                  |
             📷 | 0                                  |
             👊 | 4                                  |
-            🔓 | 0                                  |
-            🔍 | 1                                  |
+            🔓 | 2                                  |
+            🔍 | 0                                  |
             💰 | 0                                  |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras, Locks                     |
@@ -580,8 +590,8 @@ Upgrade2Rolls | Bash                               |
      1-action | Bump                               |
  1-subactions | :unlock::unlock::noise::noise::mov |
               | e:                                 |
-     2-action | Study                              |
- 2-subactions | :idea::idea:                       |
+     2-action | Pause                              |
+ 2-subactions | :idea:                             |
      3-action | Pick                               |
  3-subactions | :unlock::noise:                    |
      4-action | Sprint                             |
@@ -593,8 +603,8 @@ Upgrade2Rolls | Bash                               |
             1 | Bump                               |
               | :unlock::unlock::noise::noise::mov |
               | e:                                 |
-            2 | Study                              |
-              | :idea::idea:                       |
+            2 | Pause                              |
+              | :idea:                             |
             3 | Pick                               |
               | :unlock::noise:                    |
             4 | Sprint                             |
@@ -605,8 +615,8 @@ Upgrade2Rolls | Bash                               |
               | :unlock::noise:                    |
         Rolls | Bump                               |
               | :unlock::unlock::noise::noise::mov |
-              | e:/Study                           |
-              | :idea::idea:/Pick                  |
+              | e:/Pause                           |
+              | :idea:/Pick                        |
               | :unlock::noise:/Sprint             |
               | :noise::noise::move::move::move:/R |
               | un                                 |
@@ -633,7 +643,7 @@ Upgrade2Rolls | Rake                               |
               | :noise::move::move:/Short          |
               | :unlock::disable::noise::noise::mo |
               | ve:                                |
-            💡 | 2                                  |
+            💡 | 1                                  |
             🔊 | 8                                  |
             ➜ | 6                                  |
             📷 | 0                                  |
@@ -644,7 +654,7 @@ Upgrade2Rolls | Rake                               |
       Good at | Locks, Multi-moves                 |
         Lacks | Cameras, Subdue                    |
     Seasoning | Ideas                              |
-  Noise Level | High                               |
+  Noise Level | Low                                |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Bypass                             |
@@ -654,8 +664,8 @@ Upgrade2Rolls | Rake                               |
      1-action | Bump                               |
  1-subactions | :unlock::unlock::noise::noise::mov |
               | e:                                 |
-     2-action | Study                              |
- 2-subactions | :idea::idea:                       |
+     2-action | Pause                              |
+ 2-subactions | :idea:                             |
      3-action | Pick                               |
  3-subactions | :unlock::noise:                    |
      4-action | Sprint                             |
@@ -667,8 +677,8 @@ Upgrade2Rolls | Rake                               |
             1 | Bump                               |
               | :unlock::unlock::noise::noise::mov |
               | e:                                 |
-            2 | Study                              |
-              | :idea::idea:                       |
+            2 | Pause                              |
+              | :idea:                             |
             3 | Pick                               |
               | :unlock::noise:                    |
             4 | Sprint                             |
@@ -679,8 +689,8 @@ Upgrade2Rolls | Rake                               |
               | :unlock::noise:                    |
         Rolls | Bump                               |
               | :unlock::unlock::noise::noise::mov |
-              | e:/Study                           |
-              | :idea::idea:/Pick                  |
+              | e:/Pause                           |
+              | :idea:/Pick                        |
               | :unlock::noise:/Sprint             |
               | :noise::noise::move::move::move:/R |
               | un                                 |
@@ -707,7 +717,7 @@ Upgrade2Rolls | Rake                               |
               | :noise::move::move:/Short          |
               | :unlock::disable::noise::noise::mo |
               | ve:                                |
-            💡 | 2                                  |
+            💡 | 1                                  |
             🔊 | 8                                  |
             ➜ | 6                                  |
             📷 | 0                                  |
@@ -718,7 +728,7 @@ Upgrade2Rolls | Rake                               |
       Good at | Locks, Multi-moves                 |
         Lacks | Cameras, Subdue                    |
     Seasoning | Ideas                              |
-  Noise Level | High                               |
+  Noise Level | Low                                |
               ╰------------------------------------╯
               ╭------------------------------------╮
          Name | Yank Wires                         |
@@ -865,6 +875,154 @@ Upgrade2Rolls | Rewire                             |
             💰 | 0                                  |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
+    Seasoning | Reveal                             |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Linger                             |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Linger                             |
+     1-action | Shock                              |
+ 1-subactions | :subdue::disable::noise:           |
+     2-action | Defeat                             |
+ 2-subactions | :unlock::disable::noise:           |
+     3-action | Grab                               |
+ 3-subactions | :loot::noise:                      |
+     4-action | Chaos                              |
+ 4-subactions | :unlock::subdue::disable::noise::n |
+              | oise::noise:                       |
+     5-action | Discover                           |
+ 5-subactions | :reveal::reveal::noise:            |
+     6-action | Snatch                             |
+ 6-subactions | :unlock::unlock::loot::noise::nois |
+              | e::noise:                          |
+            1 | Shock                              |
+              | :subdue::disable::noise:           |
+            2 | Defeat                             |
+              | :unlock::disable::noise:           |
+            3 | Grab                               |
+              | :loot::noise:                      |
+            4 | Chaos                              |
+              | :unlock::subdue::disable::noise::n |
+              | oise::noise:                       |
+            5 | Discover                           |
+              | :reveal::reveal::noise:            |
+            6 | Snatch                             |
+              | :unlock::unlock::loot::noise::nois |
+              | e::noise:                          |
+        Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Grab      |
+              | :loot::noise:/Chaos                |
+              | :unlock::subdue::disable::noise::n |
+              | oise::noise:/Discover              |
+              | :reveal::reveal::noise:/Snatch     |
+              | :unlock::unlock::loot::noise::nois |
+              | e::noise:                          |
+     Upgrade1 | Tamper                             |
+Upgrade1Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Swipe     |
+              | :unlock::loot::noise:/Redirect     |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Discover                     |
+              | :reveal::reveal::noise:/Seize      |
+              | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+     Upgrade2 | Intrude                            |
+Upgrade2Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Mug       |
+              | :subdue::loot::noise:/Detonate     |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Discover             |
+              | :reveal::reveal::noise:/Rake       |
+              | :unlock::unlock::noise::move:      |
+            💡 | 0                                  |
+            🔊 | 10                                 |
+            ➜ | 0                                  |
+            📷 | 3                                  |
+            👊 | 2                                  |
+            🔓 | 4                                  |
+            🔍 | 2                                  |
+            💰 | 2                                  |
+      Good at | Looting and Security               |
+        Lacks | Ideas, Movement                    |
+    Seasoning | Reveal                             |
+  Noise Level | High                               |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Linger                             |
+          Qty | 2                                  |
+        Level | 1                                  |
+         Root | Linger                             |
+     1-action | Shock                              |
+ 1-subactions | :subdue::disable::noise:           |
+     2-action | Defeat                             |
+ 2-subactions | :unlock::disable::noise:           |
+     3-action | Grab                               |
+ 3-subactions | :loot::noise:                      |
+     4-action | Chaos                              |
+ 4-subactions | :unlock::subdue::disable::noise::n |
+              | oise::noise:                       |
+     5-action | Discover                           |
+ 5-subactions | :reveal::reveal::noise:            |
+     6-action | Snatch                             |
+ 6-subactions | :unlock::unlock::loot::noise::nois |
+              | e::noise:                          |
+            1 | Shock                              |
+              | :subdue::disable::noise:           |
+            2 | Defeat                             |
+              | :unlock::disable::noise:           |
+            3 | Grab                               |
+              | :loot::noise:                      |
+            4 | Chaos                              |
+              | :unlock::subdue::disable::noise::n |
+              | oise::noise:                       |
+            5 | Discover                           |
+              | :reveal::reveal::noise:            |
+            6 | Snatch                             |
+              | :unlock::unlock::loot::noise::nois |
+              | e::noise:                          |
+        Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Grab      |
+              | :loot::noise:/Chaos                |
+              | :unlock::subdue::disable::noise::n |
+              | oise::noise:/Discover              |
+              | :reveal::reveal::noise:/Snatch     |
+              | :unlock::unlock::loot::noise::nois |
+              | e::noise:                          |
+     Upgrade1 | Tamper                             |
+Upgrade1Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Swipe     |
+              | :unlock::loot::noise:/Redirect     |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Discover                     |
+              | :reveal::reveal::noise:/Seize      |
+              | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+     Upgrade2 | Intrude                            |
+Upgrade2Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Mug       |
+              | :subdue::loot::noise:/Detonate     |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Discover             |
+              | :reveal::reveal::noise:/Rake       |
+              | :unlock::unlock::noise::move:      |
+            💡 | 0                                  |
+            🔊 | 10                                 |
+            ➜ | 0                                  |
+            📷 | 3                                  |
+            👊 | 2                                  |
+            🔓 | 4                                  |
+            🔍 | 2                                  |
+            💰 | 2                                  |
+      Good at | Looting and Security               |
+        Lacks | Ideas, Movement                    |
     Seasoning | Reveal                             |
   Noise Level | High                               |
               ╰------------------------------------╯
@@ -1567,8 +1725,9 @@ Upgrade2Rolls |                                    |
      5-action | Strongarm                          |
  5-subactions | :unlock::subdue::noise::noise::mov |
               | e:                                 |
-     6-action | Observe                            |
- 6-subactions | :idea::reveal::noise:              |
+     6-action | Bump                               |
+ 6-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             1 | Bash                               |
               | :subdue::subdue::noise:            |
             2 | Run                                |
@@ -1581,8 +1740,9 @@ Upgrade2Rolls |                                    |
             5 | Strongarm                          |
               | :unlock::subdue::noise::noise::mov |
               | e:                                 |
-            6 | Observe                            |
-              | :idea::reveal::noise:              |
+            6 | Bump                               |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
         Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
               | :noise::noise::move::move:/Rampage |
@@ -1591,19 +1751,20 @@ Upgrade2Rolls |                                    |
               | :noise::noise::move::move:/Stronga |
               | rm                                 |
               | :unlock::subdue::noise::noise::mov |
-              | e:/Observe                         |
-              | :idea::reveal::noise:              |
+              | e:/Bump                            |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
 Upgrade2Rolls |                                    |
-            💡 | 1                                  |
-            🔊 | 11                                 |
-            ➜ | 7                                  |
+            💡 | 0                                  |
+            🔊 | 12                                 |
+            ➜ | 8                                  |
             📷 | 0                                  |
             👊 | 5                                  |
-            🔓 | 1                                  |
-            🔍 | 1                                  |
+            🔓 | 3                                  |
+            🔍 | 0                                  |
             💰 | 0                                  |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras                            |
@@ -1627,8 +1788,9 @@ Upgrade2Rolls |                                    |
      5-action | Strongarm                          |
  5-subactions | :unlock::subdue::noise::noise::mov |
               | e:                                 |
-     6-action | Observe                            |
- 6-subactions | :idea::reveal::noise:              |
+     6-action | Bump                               |
+ 6-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             1 | Bash                               |
               | :subdue::subdue::noise:            |
             2 | Run                                |
@@ -1641,8 +1803,9 @@ Upgrade2Rolls |                                    |
             5 | Strongarm                          |
               | :unlock::subdue::noise::noise::mov |
               | e:                                 |
-            6 | Observe                            |
-              | :idea::reveal::noise:              |
+            6 | Bump                               |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
         Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
               | :noise::noise::move::move:/Rampage |
@@ -1651,19 +1814,20 @@ Upgrade2Rolls |                                    |
               | :noise::noise::move::move:/Stronga |
               | rm                                 |
               | :unlock::subdue::noise::noise::mov |
-              | e:/Observe                         |
-              | :idea::reveal::noise:              |
+              | e:/Bump                            |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
 Upgrade2Rolls |                                    |
-            💡 | 1                                  |
-            🔊 | 11                                 |
-            ➜ | 7                                  |
+            💡 | 0                                  |
+            🔊 | 12                                 |
+            ➜ | 8                                  |
             📷 | 0                                  |
             👊 | 5                                  |
-            🔓 | 1                                  |
-            🔍 | 1                                  |
+            🔓 | 3                                  |
+            🔍 | 0                                  |
             💰 | 0                                  |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras                            |
@@ -1686,8 +1850,9 @@ Upgrade2Rolls |                                    |
  4-subactions | :noise::noise::move::move:         |
      5-action | Bash                               |
  5-subactions | :subdue::subdue::noise:            |
-     6-action | Observe                            |
- 6-subactions | :idea::reveal::noise:              |
+     6-action | Bump                               |
+ 6-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             1 | Bash                               |
               | :subdue::subdue::noise:            |
             2 | Run                                |
@@ -1699,8 +1864,9 @@ Upgrade2Rolls |                                    |
               | :noise::noise::move::move:         |
             5 | Bash                               |
               | :subdue::subdue::noise:            |
-            6 | Observe                            |
-              | :idea::reveal::noise:              |
+            6 | Bump                               |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
         Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
               | :noise::noise::move::move:/Detonat |
@@ -1708,19 +1874,20 @@ Upgrade2Rolls |                                    |
               | :unlock::subdue::subdue::disable:: |
               | noise::alert:/Run                  |
               | :noise::noise::move::move:/Bash    |
-              | :subdue::subdue::noise:/Observe    |
-              | :idea::reveal::noise:              |
+              | :subdue::subdue::noise:/Bump       |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
 Upgrade2Rolls |                                    |
-            💡 | 1                                  |
-            🔊 | 8                                  |
-            ➜ | 4                                  |
+            💡 | 0                                  |
+            🔊 | 9                                  |
+            ➜ | 5                                  |
             📷 | 1                                  |
             👊 | 6                                  |
-            🔓 | 1                                  |
-            🔍 | 1                                  |
+            🔓 | 3                                  |
+            🔍 | 0                                  |
             💰 | 0                                  |
       Good at | Subdue, Multi-moves                |
         Lacks |                                    |
@@ -1743,8 +1910,9 @@ Upgrade2Rolls |                                    |
  4-subactions | :noise::noise::move::move:         |
      5-action | Bash                               |
  5-subactions | :subdue::subdue::noise:            |
-     6-action | Observe                            |
- 6-subactions | :idea::reveal::noise:              |
+     6-action | Bump                               |
+ 6-subactions | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
             1 | Bash                               |
               | :subdue::subdue::noise:            |
             2 | Run                                |
@@ -1756,8 +1924,9 @@ Upgrade2Rolls |                                    |
               | :noise::noise::move::move:         |
             5 | Bash                               |
               | :subdue::subdue::noise:            |
-            6 | Observe                            |
-              | :idea::reveal::noise:              |
+            6 | Bump                               |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
         Rolls | Bash                               |
               | :subdue::subdue::noise:/Run        |
               | :noise::noise::move::move:/Detonat |
@@ -1765,19 +1934,20 @@ Upgrade2Rolls |                                    |
               | :unlock::subdue::subdue::disable:: |
               | noise::alert:/Run                  |
               | :noise::noise::move::move:/Bash    |
-              | :subdue::subdue::noise:/Observe    |
-              | :idea::reveal::noise:              |
+              | :subdue::subdue::noise:/Bump       |
+              | :unlock::unlock::noise::noise::mov |
+              | e:                                 |
      Upgrade1 | (none)                             |
 Upgrade1Rolls |                                    |
      Upgrade2 | (none)                             |
 Upgrade2Rolls |                                    |
-            💡 | 1                                  |
-            🔊 | 8                                  |
-            ➜ | 4                                  |
+            💡 | 0                                  |
+            🔊 | 9                                  |
+            ➜ | 5                                  |
             📷 | 1                                  |
             👊 | 6                                  |
-            🔓 | 1                                  |
-            🔍 | 1                                  |
+            🔓 | 3                                  |
+            🔍 | 0                                  |
             💰 | 0                                  |
       Good at | Subdue, Multi-moves                |
         Lacks |                                    |
@@ -2227,6 +2397,236 @@ Upgrade2Rolls |                                    |
             🔓 | 0                                  |
             🔍 | 2                                  |
             💰 | 0                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | (extra quiet)                      |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Tamper                             |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Linger                             |
+     1-action | Shock                              |
+ 1-subactions | :subdue::disable::noise:           |
+     2-action | Defeat                             |
+ 2-subactions | :unlock::disable::noise:           |
+     3-action | Swipe                              |
+ 3-subactions | :unlock::loot::noise:              |
+     4-action | Redirect                           |
+ 4-subactions | :unlock::subdue::disable::noise::n |
+              | oise:                              |
+     5-action | Discover                           |
+ 5-subactions | :reveal::reveal::noise:            |
+     6-action | Seize                              |
+ 6-subactions | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+            1 | Shock                              |
+              | :subdue::disable::noise:           |
+            2 | Defeat                             |
+              | :unlock::disable::noise:           |
+            3 | Swipe                              |
+              | :unlock::loot::noise:              |
+            4 | Redirect                           |
+              | :unlock::subdue::disable::noise::n |
+              | oise:                              |
+            5 | Discover                           |
+              | :reveal::reveal::noise:            |
+            6 | Seize                              |
+              | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+        Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Swipe     |
+              | :unlock::loot::noise:/Redirect     |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Discover                     |
+              | :reveal::reveal::noise:/Seize      |
+              | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 8                                  |
+            ➜ | 0                                  |
+            📷 | 3                                  |
+            👊 | 2                                  |
+            🔓 | 5                                  |
+            🔍 | 2                                  |
+            💰 | 3                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | (extra quiet)                      |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Tamper                             |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Linger                             |
+     1-action | Shock                              |
+ 1-subactions | :subdue::disable::noise:           |
+     2-action | Defeat                             |
+ 2-subactions | :unlock::disable::noise:           |
+     3-action | Swipe                              |
+ 3-subactions | :unlock::loot::noise:              |
+     4-action | Redirect                           |
+ 4-subactions | :unlock::subdue::disable::noise::n |
+              | oise:                              |
+     5-action | Discover                           |
+ 5-subactions | :reveal::reveal::noise:            |
+     6-action | Seize                              |
+ 6-subactions | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+            1 | Shock                              |
+              | :subdue::disable::noise:           |
+            2 | Defeat                             |
+              | :unlock::disable::noise:           |
+            3 | Swipe                              |
+              | :unlock::loot::noise:              |
+            4 | Redirect                           |
+              | :unlock::subdue::disable::noise::n |
+              | oise:                              |
+            5 | Discover                           |
+              | :reveal::reveal::noise:            |
+            6 | Seize                              |
+              | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+        Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Swipe     |
+              | :unlock::loot::noise:/Redirect     |
+              | :unlock::subdue::disable::noise::n |
+              | oise:/Discover                     |
+              | :reveal::reveal::noise:/Seize      |
+              | :unlock::unlock::loot::loot::noise |
+              | ::noise:                           |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 8                                  |
+            ➜ | 0                                  |
+            📷 | 3                                  |
+            👊 | 2                                  |
+            🔓 | 5                                  |
+            🔍 | 2                                  |
+            💰 | 3                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | (extra quiet)                      |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Intrude                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Linger                             |
+     1-action | Shock                              |
+ 1-subactions | :subdue::disable::noise:           |
+     2-action | Defeat                             |
+ 2-subactions | :unlock::disable::noise:           |
+     3-action | Mug                                |
+ 3-subactions | :subdue::loot::noise:              |
+     4-action | Detonate                           |
+ 4-subactions | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
+     5-action | Discover                           |
+ 5-subactions | :reveal::reveal::noise:            |
+     6-action | Rake                               |
+ 6-subactions | :unlock::unlock::noise::move:      |
+            1 | Shock                              |
+              | :subdue::disable::noise:           |
+            2 | Defeat                             |
+              | :unlock::disable::noise:           |
+            3 | Mug                                |
+              | :subdue::loot::noise:              |
+            4 | Detonate                           |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
+            5 | Discover                           |
+              | :reveal::reveal::noise:            |
+            6 | Rake                               |
+              | :unlock::unlock::noise::move:      |
+        Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Mug       |
+              | :subdue::loot::noise:/Detonate     |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Discover             |
+              | :reveal::reveal::noise:/Rake       |
+              | :unlock::unlock::noise::move:      |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 6                                  |
+            ➜ | 1                                  |
+            📷 | 3                                  |
+            👊 | 4                                  |
+            🔓 | 4                                  |
+            🔍 | 2                                  |
+            💰 | 1                                  |
+      Good at | Cameras, Multi-moves, Ideas        |
+        Lacks | Subdue, Locks                      |
+    Seasoning | (extra quiet)                      |
+  Noise Level | Low                                |
+              ╰------------------------------------╯
+              ╭------------------------------------╮
+         Name | Intrude                            |
+          Qty | 2                                  |
+        Level | 2                                  |
+         Root | Linger                             |
+     1-action | Shock                              |
+ 1-subactions | :subdue::disable::noise:           |
+     2-action | Defeat                             |
+ 2-subactions | :unlock::disable::noise:           |
+     3-action | Mug                                |
+ 3-subactions | :subdue::loot::noise:              |
+     4-action | Detonate                           |
+ 4-subactions | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
+     5-action | Discover                           |
+ 5-subactions | :reveal::reveal::noise:            |
+     6-action | Rake                               |
+ 6-subactions | :unlock::unlock::noise::move:      |
+            1 | Shock                              |
+              | :subdue::disable::noise:           |
+            2 | Defeat                             |
+              | :unlock::disable::noise:           |
+            3 | Mug                                |
+              | :subdue::loot::noise:              |
+            4 | Detonate                           |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:                      |
+            5 | Discover                           |
+              | :reveal::reveal::noise:            |
+            6 | Rake                               |
+              | :unlock::unlock::noise::move:      |
+        Rolls | Shock                              |
+              | :subdue::disable::noise:/Defeat    |
+              | :unlock::disable::noise:/Mug       |
+              | :subdue::loot::noise:/Detonate     |
+              | :unlock::subdue::subdue::disable:: |
+              | noise::alert:/Discover             |
+              | :reveal::reveal::noise:/Rake       |
+              | :unlock::unlock::noise::move:      |
+     Upgrade1 | (none)                             |
+Upgrade1Rolls |                                    |
+     Upgrade2 | (none)                             |
+Upgrade2Rolls |                                    |
+            💡 | 0                                  |
+            🔊 | 6                                  |
+            ➜ | 1                                  |
+            📷 | 3                                  |
+            👊 | 4                                  |
+            🔓 | 4                                  |
+            🔍 | 2                                  |
+            💰 | 1                                  |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | (extra quiet)                      |
