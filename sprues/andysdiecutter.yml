@@ -1,0 +1,18 @@
+---
+sheet_width: 8.5in
+sheet_height: 11in
+card_width: 2.75in
+card_height: 3.75in
+cards:
+  # bottom margin on the die is 0.4555in
+  # right margin on the die is 0.9705in
+  # each of these is adjusted by manually adding a calibration fudge factor
+- x: 0.7930in # left 0 + 0.9705 - 0.1775
+  y: 0.2780in # upper 0 + 0.4555 - 0.1775
+- x: 4.7795in # right 8.5 - 2.75 - 0.9705
+  y: 0.2780in # upper 0 + 0.4555 - 0.1775
+
+- x: 0.7930in # left 0 + 0.9705 - 0.1775
+  y: 6.7945in # lower 11 - 3.75 - 0.4555 - 0.2500
+- x: 4.7795in # right 8.5 - 2.75 - 0.9705 - 0.2625
+  y: 6.7945in # lower 11 - 3.75 - 0.4555 - 0.2500
