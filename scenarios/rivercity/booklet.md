@@ -384,3 +384,13 @@ From our insider contact:
 {::comment}
 
 {:/comment}
+
+
+
+{::comment}
+Here are some random ones I'm saving for now:
+
+https://mastersoftheheist.com/design/?savekey=The+Ledger|105|5|3|8|5|0|1|0|3|0|210|195||35|215|A|OIBQBKYKIMwelEPFALPDkoFlPgCRwDKAwtLknhqWDTZfQcWXWQCIDytLPVkrYTmELcIbYG1GV+ZBrwDSJADJ9kGHKMYYQ4AFIB1KlACMqs9LUXzlm9dVA
+
+https://mastersoftheheist.com/design/?savekey=The+Track|190|240|5|3|5|0|0|1|0|0|20|110|1-7,D1,D2,D3,8-12,C7,13-20,C6,21-24,Z1|25|230|A|OIBQBAogzGpgJDOBlAGmAIgeTAJgMIAyYASgJoazjL6QCyYNjtTuwxTwGXVvT2vOEPD4GwhLmal0yMn1rjx-HONFSlLTQhhMIY8OIgBGQQbO8IANlM3F5u7ftOgA
+{:/comment}

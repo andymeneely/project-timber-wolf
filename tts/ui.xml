@@ -36,6 +36,9 @@
     <Button id="theStartupJob" onClick="theStartupJob" width="100">
       <Text>The Startup Job</Text>
     </Button>
+    <Button id="theDarkHorseJob" onClick="theDarkHorseJob" width="100">
+      <Text>The Dark Horse Job</Text>
+    </Button>
     <Button id="theBlindJusticeJob" onClick="theBlindJusticeJob" width="100">
       <Text>The Blind Justice Job</Text>
     </Button>
