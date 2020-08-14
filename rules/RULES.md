@@ -16,6 +16,9 @@ Version ⏱
 _Please note that this rulebook is a draft. We are in the process of blind playtesting and will be testing the readability and usability of this document. Expect change._
 
 
+Questions? Contact Andy Meneely at andy.meneely@gmail.com
+
+
 <div class="pagebreak"/>
 
 # Table of Contents
@@ -82,11 +85,13 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 ![character](figure_character_00.png)
 {:.chit .example-left}
 
-![character](figure_skill_00.png)
-![character](figure_skill_00.png)
+![character](figure_setup_skill_04.png)
+![character](figure_setup_skill_08.png)
 {:.chit_h .example-left}
 
-**Step 4. Build Characters.** Every player gets one Character card and two Skill cards. _Tip: The back of this booklet has some pre-built character+skill pairings. If this is your very first game, we recommend Johnny Swagger, Tiny Mike, Phobia, and Showtime._
+**Step 4. Build Characters.** Every player gets one Character card and two Skill cards. New players start with Amateur cards.
+
+ _Tip: The scenario booklet has some pre-built character+skill pairings. If this is your very first game, we recommend Johnny Swagger, Tiny Mike, Phobia, and Showtime._
 
 <div class="setup-spacing"/>
 
@@ -96,14 +101,14 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 ![planning tokens](fig_chit_idea.png)
 {:.chit .example-right .rotate-left}
 
-**Step 5. Distribute player tokens.** These are: 6-sided die, meeple, planning tokens, and ideas 💡. Give ideas and planning tokens as indicated by the character card. *For example, the Lookout has a Planning Memory of 6*.
+**Step 5. Distribute player tokens.** These are: 6-sided die, meeple, planning tokens, and ideas 💡. Give ideas and planning tokens as indicated by the character card. *For example, the Angry Locksmith has a Planning Memory of 8*.
 
 <div class="setup-spacing"/>
 
 ![noise tracker](fig_noise.png)
 {:.med_fig .example-left .rotate-left}
 
-**Step 6. Place Noise tracker** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place. _Tip: elect one person who is in charge of keeping track of noise._
+**Step 6. Place Noise tracker** in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place.
 
 <div class="setup-spacing"/>
 
@@ -161,7 +166,7 @@ Security Chits are obstacles your team will encounter. Some will be known when y
 
 ## Actions & Sub-Actions
 
-Skills and Characters allow you to take Actions. Most Actions are a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). The Sub-Actions are:
+Skills and Characters allow you to take Actions. Most Actions are a grouping of Sub-Actions with a name (e.g. Punch 👊➜🔊🔊). All sub-actions are optional, except for Noise and Alert. The Sub-Actions are:
 
 * ➜ is  **Move** to an adjacent, planned, not locked tile
 * 🔓 is **Unlock** 1 locked, adjacent tile
@@ -189,7 +194,7 @@ Each Character card has:
 * **Default Actions**. Actions that are available regardless of your die roll. Some Characters have two Default Actions, others have three.
 * **Ability**. What the character can uniquely do.
   - Some abilities will have a "Use this action..." sentence referring to a Default Action space below. You must use your Action to make use of this ability.
-  - Some abilities have a "Once per heist..." sentence. Once you use this ability, place the 1x chit over the ability on your card.
+  - Some abilities have a "Once per heist..." sentence.
   - Otherwise, the ability is a passive effect.
 {:.figure_list .numbered_fig}
 
@@ -265,7 +270,7 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 ![fixer figure](figure_fixer.png)
 {:.card-portrait-small .card-right .rotate-right}
 
-**Fixers help you plan.** Completing heists give you access to new and ways to spend your Team Cash. You can use as many Fixers as you have unlocked.
+**Fixers help you plan.** Completing heists give you access to additional Fixers. Fixers provide a variety of helpful bonuses to assist you in future heists. You can use as many Fixers as you have unlocked in a given heist.
 
 **Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
 

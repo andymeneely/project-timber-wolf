@@ -97,9 +97,9 @@ If a character is busted, you may simply build a new character. Alternatively, y
 
 | Opportunity | Difficulty | Unlocks Fixer | Team Reward | Page |
 |:----------- |:---------- |:-------------:|:-----------:| ---- |
-| The Yard    | Semi-Pro   | Prison Guard  |    $10k     | 18   |
-| The Bricks  | Semi-Pro   | Prison Guard  |    $10k     | 19   |
-| The Hole    | Pro        | Prison Guard  |    $15k     | 20   |
+| The Yard    | Semi-Pro   | Prison Guard  |    $10k     | TBD  |
+| The Bricks  | Semi-Pro   | Prison Guard  |    $10k     | TBD  |
+| The Hole    | Pro        | Prison Guard  |    $15k     | TBD  |
 {:class='tabletoc'}
 
 # Pre-Built Characters
@@ -335,10 +335,7 @@ Before Part 2: the two people who are on the same tile can share ideas with each
   <img src="interior-ministry-south-wing.png">
 </div>
 
-| Difficulty: | Amateur |
-| -----------:|:------- |
-|     Events: | Pro     |
-{:class="scenario-stats"}
+NOTE: UNDER CONSTRUCTION.
 
 {::comment}
 http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|250|200|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzLCSs6J8AlAUWaT2YGlySFBPzTMh7AKwFiCISHhIGooUMg8ma2kJpj6MjQsOiDxoyfNnLp6xahA
@@ -370,12 +367,12 @@ From our insider contact:
   <img src="">
 </div>
 
-| Difficulty: | Amateur |
-| -----------:|:------- |
-|     Guards: | TBD     |
-|      Locks: | TBD     |
-|    Cameras: | TBD     |
-|     Events: | TBD     |
+| Difficulty: | Pro |
+| -----------:|:--- |
+|     Guards: | TBD |
+|      Locks: | TBD |
+|    Cameras: | TBD |
+|     Events: | TBD |
 {:class="scenario-stats"}
 
 **Objective:**
