@@ -342,9 +342,9 @@ Description | Add a Dog to the kennel, then move |
       Order | G1                                 |
       Story | An automatic system initiates, clo |
             | sing the next lockdown gate.       |
-Description | Close the next Gates, starting wit |
-            | h "A". Remove the tile. If a Chara |
-            | cter is on it, they are Busted.    |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a Charac |
+            | ter is on it, they are Busted.     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | More Gates Shut!!                  |

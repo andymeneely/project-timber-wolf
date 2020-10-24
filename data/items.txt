@@ -2,49 +2,49 @@
        Name | Cheap Picks                        |
         qty | 2                                  |
        Cost | 4                                  |
-Description | Discard this item after use.       |
+Description | BREAKABLE                          |
+            | On a die value of 1, 2, 3, or 4, d |
+            | iscard this item after use.        |
      Action | Rake                               |
             | :unlock::unlock::noise::move:      |
-            |                                    |
-            |                                    |
         art | picks.svg                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Cheap Picks                        |
         qty | 2                                  |
        Cost | 4                                  |
-Description | Discard this item after use.       |
+Description | BREAKABLE                          |
+            | On a die value of 1, 2, 3, or 4, d |
+            | iscard this item after use.        |
      Action | Rake                               |
             | :unlock::unlock::noise::move:      |
-            |                                    |
-            |                                    |
         art | picks.svg                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Black Spray Paint                  |
+       Name | Laser Burst                        |
         qty | 2                                  |
-       Cost | 3                                  |
-Description | SPRAY LENS                         |
-            | :noise:                            |
-            |                                    |
-            | :disable: all cameras on single he |
-            | x adjacent to your character. Disc |
-            | ard this item after use.           |
-     Action | Spray Lens                         |
-        art | paint.svg                          |
+       Cost | 6                                  |
+Description | KILL PIXELS                        |
+            | :noise: per hex impacted           |
+            | :disable: all known cameras up to  |
+            | two hexes in a straight line from  |
+            | your character.                    |
+            | One use per heist.                 |
+     Action | Kill Pixels                        |
+        art | laser.svg                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Black Spray Paint                  |
+       Name | Laser Burst                        |
         qty | 2                                  |
-       Cost | 3                                  |
-Description | SPRAY LENS                         |
-            | :noise:                            |
-            |                                    |
-            | :disable: all cameras on single he |
-            | x adjacent to your character. Disc |
-            | ard this item after use.           |
-     Action | Spray Lens                         |
-        art | paint.svg                          |
+       Cost | 6                                  |
+Description | KILL PIXELS                        |
+            | :noise: per hex impacted           |
+            | :disable: all known cameras up to  |
+            | two hexes in a straight line from  |
+            | your character.                    |
+            | One use per heist.                 |
+     Action | Kill Pixels                        |
+        art | laser.svg                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Flashbang                          |

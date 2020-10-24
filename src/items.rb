@@ -8,7 +8,7 @@ end
 
 File.open('data/items.txt', 'w+') { |f| f.write data.to_pretty_text }
 
-Squib::Deck.new(cards: data.nrows, width: 1125, height: 850) do
+Squib::Deck.new(cards: data.nrows, width: 1125, height: 825) do
   use_layout file: 'layouts/items.yml'
 
   png file: 'cork.png'
