@@ -1,0 +1,106 @@
+            ╭------------------------------------╮
+       Name | Cheap Picks                        |
+        qty | 2                                  |
+       Cost | 4                                  |
+Description | Discard this item after use.       |
+     Action | Rake                               |
+            | :unlock::unlock::noise::move:      |
+            |                                    |
+            |                                    |
+        art | picks.svg                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Cheap Picks                        |
+        qty | 2                                  |
+       Cost | 4                                  |
+Description | Discard this item after use.       |
+     Action | Rake                               |
+            | :unlock::unlock::noise::move:      |
+            |                                    |
+            |                                    |
+        art | picks.svg                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Black Spray Paint                  |
+        qty | 2                                  |
+       Cost | 3                                  |
+Description | SPRAY LENS                         |
+            | :noise:                            |
+            |                                    |
+            | :disable: all cameras on single he |
+            | x adjacent to your character. Disc |
+            | ard this item after use.           |
+     Action | Spray Lens                         |
+        art | paint.svg                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Black Spray Paint                  |
+        qty | 2                                  |
+       Cost | 3                                  |
+Description | SPRAY LENS                         |
+            | :noise:                            |
+            |                                    |
+            | :disable: all cameras on single he |
+            | x adjacent to your character. Disc |
+            | ard this item after use.           |
+     Action | Spray Lens                         |
+        art | paint.svg                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Flashbang                          |
+        qty | 2                                  |
+       Cost | 3                                  |
+Description | TOSS FLASHBANG                     |
+            |                                    |
+            | :noise::noise::noise:              |
+            |                                    |
+            | You may :subdue: all guards on or  |
+            | adjacent to your current space. At |
+            |  the end of the Event phase, un-su |
+            | bdue those guards.                 |
+            |                                    |
+            | Discard this item after use.       |
+     Action | Toss Flashbang                     |
+        art | flashbang.svg                      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Flashbang                          |
+        qty | 2                                  |
+       Cost | 3                                  |
+Description | TOSS FLASHBANG                     |
+            |                                    |
+            | :noise::noise::noise:              |
+            |                                    |
+            | You may :subdue: all guards on or  |
+            | adjacent to your current space. At |
+            |  the end of the Event phase, un-su |
+            | bdue those guards.                 |
+            |                                    |
+            | Discard this item after use.       |
+     Action | Toss Flashbang                     |
+        art | flashbang.svg                      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Master Plan Copy                   |
+        qty | 1                                  |
+       Cost | 4                                  |
+Description | During planning, give 2 planning t |
+            | okens to the owner of this plan. I |
+            | f this character is busted, everyo |
+            | ne is busted and the heist objecti |
+            | ve fails. Discard after end of hei |
+            | st.                                |
+     Action |                                    |
+        art | master-plans.svg                   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Building Schematics                |
+        qty | 1                                  |
+       Cost | 3                                  |
+Description | During planning, you may :reveal:  |
+            | one time. Discard this after use.  |
+            | May be purchased multiple times in |
+            |  a planning phase.                 |
+     Action |                                    |
+        art | schematics.svg                     |
+            ╰------------------------------------╯

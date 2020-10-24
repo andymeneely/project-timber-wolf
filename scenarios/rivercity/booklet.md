@@ -150,7 +150,7 @@ From the Pawn Shop Owner:
 **Success Unlocks:** Pawn Shop Owner
 
 {::comment}
-https://mastersoftheheist.com/design/?savekey=Delinquent+Jeweler|55|5|5|6|4|0|0|0|0|0|20|15|1-8,G1,9-12,G2,13-14,G3,C3,15-21,C1,Z2|35|225|A|OIBQBKHpPXUNo8ASATGFBGZulIGUBhCE4sc-ebMAKQHUwiNKBBMAUQFlOBWPcNwgARCiWAAhMdKoIG0yuABKHTjw79ZkIZHJ7x8WfMXSaWwxbUDrSDjnNA
+https://mastersoftheheist.com/design/?savekey=Delinquent+Jeweler|55|5|5|6|4|0|0|0|0|0|20|15|1-8,G1,9-12,C3,13-14,G3,C3,15-21,C1,Z2|35|225|A|OIBQBKHpPXUNo8ASATGFBGZulIGUBhCE4sc-ebMAKQHUwiNKBBMAUQFlOBWPcNwgARCiWAAhMdKoIG0yuABKHTjw79ZkIZHJ7x8WfMXSaWwxbUDrSDjnNA
 {:/comment}
 
 # The Startup Job

@@ -1,0 +1,44 @@
+name:
+  font: Archivo Black, 13.12
+  x: 200
+  y: 75
+  width: 700
+  height: 100
+  align: center
+  valign: middle
+cost:
+  x: 950
+  y: 75
+  width: 100
+  height: 100
+  font: Archivo Narrow, 14
+  align: center
+  valign: middle
+action:
+  x: 700
+  y: 190
+  width: 350
+  height: 350
+action_txt:
+  font: Archivo Narrow, Segoe UI Symbol, 11.52
+  x: 715
+  y: 220
+  width: 300
+  height: 125
+  align: center
+  spacing: -10
+  valign: middle
+description:
+  font: Archivo Narrow, Segoe UI Symbol, 11.52
+  x: 100
+  y: 250
+  width: 585
+  height: 440
+  align: center
+  valign: middle
+  spacing: -10
+art:
+  x: 720
+  y: 430
+  width: 275
+  height: 275
