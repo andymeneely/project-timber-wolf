@@ -84,8 +84,9 @@ Description | TOSS FLASHBANG                     |
        Name | Master Plan Copy                   |
         qty | 1                                  |
        Cost | 4                                  |
-Description | During planning, give 2 planning t |
-            | okens to the owner of this plan. I |
+Description | SCRAWLED ON PALM                   |
+            | During planning, give 2 planning t |
+            | okens to the owner of this item. I |
             | f this character is busted, everyo |
             | ne is busted and the heist objecti |
             | ve fails. Discard after end of hei |
@@ -97,10 +98,43 @@ Description | During planning, give 2 planning t |
        Name | Building Schematics                |
         qty | 1                                  |
        Cost | 3                                  |
-Description | During planning, you may :reveal:  |
+Description | CONSULT FLOORPLANS                 |
+            | During planning, you may :reveal:  |
             | one time. Discard this after use.  |
             | May be purchased multiple times in |
             |  a planning phase.                 |
      Action |                                    |
         art | schematics.svg                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Lucky Cap                          |
+        qty | 2                                  |
+       Cost | 2                                  |
+Description | REMEMBER WHERE YOU CAME FROM       |
+            | If an Event causes you to lose :id |
+            | ea:, discard this card instead.    |
+     Action |                                    |
+        art | cap.svg                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Lucky Cap                          |
+        qty | 2                                  |
+       Cost | 2                                  |
+Description | REMEMBER WHERE YOU CAME FROM       |
+            | If an Event causes you to lose :id |
+            | ea:, discard this card instead.    |
+     Action |                                    |
+        art | cap.svg                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Radio                              |
+        qty | 1                                  |
+       Cost | 2                                  |
+Description | TWEAK PLAN                         |
+            | Every character may move one of th |
+            | eir planning tokens one hex in any |
+            |  direction. Discard this card.     |
+     Action | Tweak Plan                         |
+            | :noise::move:                      |
+        art | radio.svg                          |
             ╰------------------------------------╯

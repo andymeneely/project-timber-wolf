@@ -17,8 +17,7 @@ Squib::Deck.new(cards: data.nrows, width: 1125, height: 825) do
   text str: data.name, layout: :name
   text str: data.cost.map {|c| "$#{c}k"}, layout: :cost
 
-  svg file: data.art, layout: :art
-
+  svg layout: :art, file: data.art.map { |a| "items/#{a}" }
 
   text layout: :description, str: data.description do |embed|
     embed_emojis(embed, 45)
@@ -40,7 +39,7 @@ Squib::Deck.new(cards: data.nrows, width: 1125, height: 825) do
   save_sheet prefix: 'sheet_item_', columns: 5, rows: 5
 end
 
-Squib::Deck.new(cards: data.nrows) do
+Squib::Deck.new(cards: data.nrows, width: 1125, height: 825) do
   png file: 'cork.png'
   save_png prefix: 'item_back_'
   save_sheet prefix: 'sheet_item_backs_', columns: 5, rows: 5
