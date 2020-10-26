@@ -8,13 +8,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: andymeneely/squib:latest
+      volumes:
+        - "$PWD":/usr/src/app
     steps:
     - uses: actions/checkout@v1
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
-        bundler-cache: true
     - name: Install fonts
       run: |
         mkdir ~/.fonts
