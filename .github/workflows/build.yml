@@ -14,6 +14,8 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
+    - name: bundle install
+      run: bundle install --jobs 4 --retry 3
     - name: Install fonts
       run: |
         mkdir ~/.fonts
