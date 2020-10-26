@@ -6,6 +6,11 @@ name:
   height: 100
   align: center
   valign: middle
+location:
+  x: 850
+  y: 100
+  width: 50
+  height: 50
 cost:
   x: 950
   y: 75

@@ -8,6 +8,7 @@ Description | BREAKABLE                          |
      Action | Rake                               |
             | :unlock::unlock::noise::move:      |
         art | picks.svg                          |
+   Location | shop                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Cheap Picks                        |
@@ -19,10 +20,11 @@ Description | BREAKABLE                          |
      Action | Rake                               |
             | :unlock::unlock::noise::move:      |
         art | picks.svg                          |
+   Location | shop                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Laser Burst                        |
-        qty | 2                                  |
+        qty | 1                                  |
        Cost | 6                                  |
 Description | KILL PIXELS                        |
             | :noise: per hex impacted           |
@@ -32,19 +34,7 @@ Description | KILL PIXELS                        |
             | One use per heist.                 |
      Action | Kill Pixels                        |
         art | laser.svg                          |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Laser Burst                        |
-        qty | 2                                  |
-       Cost | 6                                  |
-Description | KILL PIXELS                        |
-            | :noise: per hex impacted           |
-            | :disable: all known cameras up to  |
-            | two hexes in a straight line from  |
-            | your character.                    |
-            | One use per heist.                 |
-     Action | Kill Pixels                        |
-        art | laser.svg                          |
+   Location | scenario                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Flashbang                          |
@@ -54,14 +44,14 @@ Description | TOSS FLASHBANG                     |
             |                                    |
             | :noise::noise::noise:              |
             |                                    |
-            | You may :subdue: all guards on or  |
-            | adjacent to your current space. At |
-            |  the end of the Event phase, un-su |
-            | bdue those guards.                 |
-            |                                    |
+            | All guards on or adjacent to your  |
+            | current space are subdued. At the  |
+            | end of the Event phase, un-subdue  |
+            | those guards.                      |
             | Discard this item after use.       |
      Action | Toss Flashbang                     |
         art | flashbang.svg                      |
+   Location | scenario                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Flashbang                          |
@@ -71,14 +61,14 @@ Description | TOSS FLASHBANG                     |
             |                                    |
             | :noise::noise::noise:              |
             |                                    |
-            | You may :subdue: all guards on or  |
-            | adjacent to your current space. At |
-            |  the end of the Event phase, un-su |
-            | bdue those guards.                 |
-            |                                    |
+            | All guards on or adjacent to your  |
+            | current space are subdued. At the  |
+            | end of the Event phase, un-subdue  |
+            | those guards.                      |
             | Discard this item after use.       |
      Action | Toss Flashbang                     |
         art | flashbang.svg                      |
+   Location | scenario                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Master Plan Copy                   |
@@ -93,38 +83,31 @@ Description | SCRAWLED ON PALM                   |
             | st.                                |
      Action |                                    |
         art | master-plans.svg                   |
+   Location | shop                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Building Schematics                |
         qty | 1                                  |
-       Cost | 3                                  |
+       Cost | 2                                  |
 Description | CONSULT FLOORPLANS                 |
             | During planning, you may :reveal:  |
-            | one time. Discard this after use.  |
-            | May be purchased multiple times in |
-            |  a planning phase.                 |
+            | one time. Discard after use. May b |
+            | e purchased multiple times in a pl |
+            | anning phase.                      |
      Action |                                    |
         art | schematics.svg                     |
+   Location | shop                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Lucky Cap                          |
-        qty | 2                                  |
-       Cost | 2                                  |
+       Name | Lucky Penny                        |
+        qty | 1                                  |
+       Cost | 1                                  |
 Description | REMEMBER WHERE YOU CAME FROM       |
             | If an Event causes you to lose :id |
             | ea:, discard this card instead.    |
      Action |                                    |
         art | cap.svg                            |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Lucky Cap                          |
-        qty | 2                                  |
-       Cost | 2                                  |
-Description | REMEMBER WHERE YOU CAME FROM       |
-            | If an Event causes you to lose :id |
-            | ea:, discard this card instead.    |
-     Action |                                    |
-        art | cap.svg                            |
+   Location | scenario                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Radio                              |
@@ -137,4 +120,66 @@ Description | TWEAK PLAN                         |
      Action | Tweak Plan                         |
             | :noise::move:                      |
         art | radio.svg                          |
+   Location | shop                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Safecracking Tools                 |
+        qty | 2                                  |
+       Cost | 8                                  |
+Description | THE TOOLS FOR THE JOB              |
+            | :unlock: = :crack:                 |
+            | :unlock::unlock: = :crack::crack:: |
+            | crack:                             |
+            |                                    |
+            | SUSPENSFUL SILENCE                 |
+            | If you are only safecracking this  |
+            | round, then you cause no :noise:   |
+     Action |                                    |
+        art | safecracking-tools.svg             |
+   Location | scenario                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Safecracking Tools                 |
+        qty | 2                                  |
+       Cost | 8                                  |
+Description | THE TOOLS FOR THE JOB              |
+            | :unlock: = :crack:                 |
+            | :unlock::unlock: = :crack::crack:: |
+            | crack:                             |
+            |                                    |
+            | SUSPENSFUL SILENCE                 |
+            | If you are only safecracking this  |
+            | round, then you cause no :noise:   |
+     Action |                                    |
+        art | safecracking-tools.svg             |
+   Location | scenario                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Plasma Torch                       |
+        qty | 1                                  |
+       Cost | 6                                  |
+Description | STAND BACK                         |
+            | :unlock: = :crack:                 |
+            |                                    |
+            | HERE... HOLD THIS                  |
+            | Any character on or adjacent to th |
+            | e safe may contribute any of their |
+            |  :unlock: to the user of this item |
+            | .                                  |
+     Action |                                    |
+        art | plasma-torch.svg                   |
+   Location | shop                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Camouflage                         |
+        qty | 1                                  |
+       Cost | 5                                  |
+Description | CATCH UP WITH YA LATER             |
+            | At the end of escape, if you are o |
+            | n a hex that is not on or adjacent |
+            |  to any unsubued guards, you are n |
+            | ot busted.                         |
+     Action |                                    |
+        art | camouflage.svg                     |
+   Location | scenario                           |
             ╰------------------------------------╯

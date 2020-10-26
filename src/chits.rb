@@ -77,6 +77,7 @@ files = %w(
   watchtower
   keycard-lock
   kennel
+  safe
 )
 # For TTS
 Squib::Deck.new(width: 600, height: 600, cards: files.size) do

@@ -19,9 +19,9 @@
              | PICK UNDER PRESSURE                |
              | During Escape, can spend :idea: to |
              |  :unlock:                          |
-LevelUp1Desc | +2 ⬢y                              |
+LevelUp1Desc | +2 ⬢                               |
              |                                    |
-             | + 2 Initial :idea:                 |
+             | + 1 Initial :idea:                 |
              |                                    |
              | Pick:unlock::noise: ⇒              |
              | Pick II:unlock::unlock::noise:     |
@@ -36,7 +36,7 @@ LevelUp2Desc | +1 Initial :idea:                  |
    Archetype | Bypasser                           |
        Level | 2                                  |
       Memory | 10                                 |
-       Ideas | 5                                  |
+       Ideas | 4                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Pick II                            |
@@ -52,6 +52,8 @@ LevelUp2Desc | +1 Initial :idea:                  |
              | PICK UNDER PRESSURE                |
              | During Escape, can spend :idea: to |
              |  :unlock:                          |
+             |                                    |
+             | Gain SAFECRACKING TOOLS.           |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
              ╰------------------------------------╯

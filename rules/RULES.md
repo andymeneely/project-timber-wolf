@@ -246,17 +246,25 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 
 **Raise Alert ⚠**. If the Noise tracker reaches a space with an Alert ⚠, immediately Raise Alert ⚠. When the Noise marker reaches to the final slot, each noise thereafter raises one Alert ⚠.
 
-## Loot Chits
+## Loot & Items
 
-![jewel loot](fig_chit_jewel.png)
-![jewel loot](fig_chit_folder.png)
-![jewel loot](fig_chit_keycard.png)
-![jewel loot](fig_chit_usb-key.png)
+![jewel chit](fig_chit_jewel.png)
+![document chit](fig_chit_folder.png)
+![keycard chit](fig_chit_keycard.png)
+![usb chit](fig_chit_usb-key.png)
 {:.chitlist .chit}
 
 **Pickup**. When a character shares a tile with a Loot chit, you may immediately place the chit on their Character card.
 
+
 **Insta-transfer**. A character may also "drop" loot on their current space for no cost, which means that two characters may effectively "insta-transfer" loot from one to another when sharing a space. This can be done at any time.
+
+**Deep Pockets**. There is no limit to the amount of loot you can carry.
+
+![cheap picks card](fig_item.png)
+{:.card-landscape .card-right .rotate-left}
+
+**Items are like transferrable skills**. Item cards have passive abilities and actions (like Character or Skill cards), except they can be transferred just like any other Loot.
 
 **Not Ours Until It's Out**. When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
@@ -264,6 +272,13 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 {:.chit .example-right}
 
 **Cash is one item.** Any amount of cash in one place is considered to be one piece of loot no matter how many chits it takes to represent it.
+
+## The Shop
+
+Between heists, your team may visit The Shop to purchase Items.
+
+**Shop grows with you.** Initially, the only cards in the Shop are the ones with the Shop icon ![shopping cart](../img/shopping-cart.svg){:.emoji-svg}. However, once a a player discards a discovered item, that card is available for purchase in later planning phases.
+
 
 ## Fixers
 
@@ -287,19 +302,20 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 Blue and Red place their planning tokens.
 </div>
 
-**Visit the Shop.** Your heists will earn you money to purchase Items.
-*Note: on your first heist, you have $0k team cash and therefore cannot purchase anything from the shop*
-
-
 **Place Planning Tokens**. With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
 
 
 *Note:* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
 {:.tip}
 
+
+
 **Start on Entrances**. Place your Character pawn on the Entrance tile where you will plan to start. The default limit character limit per Entrance in planning is 2, unlimited during Heist and Escape parts.
 
-**No auto-reveals yet**. Do not auto-reveal until Heist phase.
+**No auto-reveals yet**. Do not auto-reveal any hidden security chits you may be adjacent to until Heist phase.
+
+**Visit the Shop.** Your heists will earn you money to purchase Items. Using team cash, you may purchase as many Item cards as are available.
+*Note: on your first heist, you have $0k team cash and therefore cannot purchase anything from the shop.*
 
 </div>
 
@@ -405,7 +421,7 @@ If you are Busted, you are out of gameplay for the rest of this Heist. All loot 
 
 # Campaign
 
-**Your box is your universe.** Every time a new character is built, they must be named and their status tracked on the **Character Sheet**.  
+**Your box is your universe.** Every time a new character is built, they must be named and their status tracked on the **Character Sheet**.
 
 ## Named Characters
 
@@ -572,11 +588,22 @@ A **Non-Player Character** is represented by a white pawn, a white die, and thei
 
 **Freed**. A Prisoner is freed when they have no movement impediments (e.g. remote locks, guards). Immediately when the prisoner is freed, take out the NPC card and roll a white die for the current round.
 
-**Taken is personal**. To take a Hostage, a player character must be on the same tile as the hostage.
+**Up Close And Personal**. To take a Hostage, a player character must be on the same tile as the hostage.
 
 **Panic Mode**. Every NPC has a Panicked side, enabled by a Crisis.
 
 **Just a character**. In every other way, treat an NPC like a regular character.
+
+## Safecracking
+
+![safe](fig_hex_safe.png)
+{:.example-right .hexchit .rotate-left}
+
+**Need the tools for the job.** You will need a special subaction to unlock a safe, called **crack** 🧩. The 🧩 is only found on Item cards, for example, _Safecracking Tools_ or _Plasma Torch_. You must be on the tile with the safe to use 🧩. Any character may 🧩.
+
+**Some safes are harder than others**. The scenario description will tell you how many 🧩 you need to unlock the safe. Each 🧩 is cumulative, even across rounds. Use a leftover planning token to mark your progress. When the safe is unlocked, replace the chit with its contents.
+
+
 
 
 <!-- ## TBD modules -->
@@ -585,5 +612,4 @@ A **Non-Player Character** is represented by a white pawn, a white die, and thei
 
 <!-- * Inspiration Chits: 2-idea and 3-idea chits
 * Elite Security: Needs multiple subactions in one turn
-* Safes: its own card? Or just an elite lock? Scenario text?
 * TBD needs playtesting. Like an extra skill card that you carry -->

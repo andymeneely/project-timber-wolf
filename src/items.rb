@@ -29,6 +29,9 @@ Squib::Deck.new(cards: data.nrows, width: 1125, height: 825) do
 
   svg layout: :action, file: action_imgs
 
+  svg layout: :location,
+      file: data.location.map { |l| l == "shop" ? "shopping-cart.svg" : nil }
+
   text layout: :action_txt, str: data.action do |embed|
     embed_emojis(embed, 45)
   end
