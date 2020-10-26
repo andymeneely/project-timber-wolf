@@ -8,10 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: andymeneely/squib
-      volumes:
-        - my_docker_volume:/usr/src/app
     steps:
     - uses: actions/checkout@v1
     - name: Set up Ruby
