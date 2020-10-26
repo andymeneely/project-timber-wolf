@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: andymeneely/squib:latest
+      image: andymeneely/squib
       volumes:
         - "$PWD":/usr/src/app
     steps:
