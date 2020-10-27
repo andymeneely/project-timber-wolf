@@ -42,21 +42,21 @@ Version ⏱
 > Just name the fixer and I'll arrange an introduction.
 {:class="text-message"}
 
-| Opportunity           | Difficulty | Unlocks Fixer       | Item               | Page |
-| :-------------------- | :--------- | :------------------ | :----------------- | :--- |
-| The Inclusion Job     | Amateur    | Pawn Shop Owner     |                    | TBD  |
-| The Startup Job       | Amateur    | Visage              |                    | TBD  |
-| The Dark Horse Job    | Amateur    | Bookie              | Cheap Picks        | TBD  |
-| The Greedy Prisoner   | Semi-Pro   | The Connoisseur     | Laser Burst        | TBD  |
-| The Blind Justice Job | Semi-Pro   | Beat Cop            |                    | TBD  |
-| TBD                   | Semi-Pro   | Extorted Locksmith  |                    | TBD  |
-| TBD                   | Semi-Pro   | Security Consultant | Camouflage         | TBD  |
-| TBD                   | Semi-Pro   | The Scavenger       |                    | TBD  |
-| The Melee Job         | Semi-Pro   | Persuasive Jeweler  | Flashbang          | TBD  |
-| The Side Channel      | Semi-Pro   | Shell               |                    | TBD  |
-| TBD                   | Pro        | The Architect       | Safecracking Tools | TBD  |
-| The Safehouse Rescue  | Pro        | Retired Mastermind  |                    | TBD  |
-| The Final Score       | Pro        | The Mayor           |                    | TBD  |
+| Opportunity           | Difficulty | Unlocks Fixer       | Page |
+| :-------------------- | :--------- | :------------------ | ---- |
+| The Inclusion Job     | Amateur    | Pawn Shop Owner     | TBD  |
+| The Startup Job       | Amateur    | Visage              | TBD  |
+| The Dark Horse Job    | Amateur    | Bookie              | TBD  |
+| The Greedy Prisoner   | Semi-Pro   | The Connoisseur     | TBD  |
+| The Blind Justice Job | Semi-Pro   | Beat Cop            | TBD  |
+| TBD                   | Semi-Pro   | Extorted Locksmith  | TBD  |
+| TBD                   | Semi-Pro   | Security Consultant | TBD  |
+| TBD                   | Semi-Pro   | The Scavenger       | TBD  |
+| The Melee Job         | Semi-Pro   | Persuasive Jeweler  | TBD  |
+| The Side Channel      | Semi-Pro   | Shell               | TBD  |
+| TBD                   | Pro        | The Architect       | TBD  |
+| The Safehouse Rescue  | Pro        | Retired Mastermind  | TBD  |
+| The Final Score       | Pro        | The Mayor           | TBD  |
 {:class='tabletoc'}
 
 
