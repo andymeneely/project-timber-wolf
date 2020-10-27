@@ -19,6 +19,7 @@ task default: [
   :crises,
   :fixers,
   :chits,
+  :items,
   :trackers,
   :helps,
   :rules,
