@@ -25,6 +25,7 @@ def replace_emojis(html)
       .gsub(/🔓/,'<img src="../../img/emojis/unlock.svg" class="emoji-svg" />')
       .gsub(/⚠/,'<img src="../../img/emojis/alert.svg" class="emoji-svg" />')
       .gsub(/💰/,'<img src="../../img/emojis/loot.svg" class="emoji-svg" />')
+      .gsub(/🧩/,'<img src="../../img/emojis/crack.svg" class="emoji-svg" />')
       .gsub(/⏱/,MastersOfTheHeist::VERSION)
 end
 

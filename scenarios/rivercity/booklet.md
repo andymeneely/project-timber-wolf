@@ -42,42 +42,46 @@ Version ⏱
 > Just name the fixer and I'll arrange an introduction.
 {:class="text-message"}
 
-| Opportunity           | Difficulty | Unlocks Fixer       | Page |
-| :-------------------- | :--------- | :------------------ | ---- |
-| The Inclusion Job     | Amateur    | Pawn Shop Owner     | TBD  |
-| The Startup Job       | Amateur    | Visage              | TBD  |
-| The Dark Horse Job    | Amateur    | Bookie              | TBD  |
-| The Greedy Prisoner   | Semi-Pro   | The Connoisseur     | TBD  |
-| The Blind Justice Job | Semi-Pro   | Beat Cop            | TBD  |
-| TBD                   | Semi-Pro   | Extorted Locksmith  | TBD  |
-| TBD                   | Semi-Pro   | Security Consultant | TBD  |
-| TBD                   | Semi-Pro   | The Scavenger       | TBD  |
-| The Melee Job         | Semi-Pro   | Persuasive Jeweler  | TBD  |
-| The Side Channel      | Semi-Pro   | Shell               | TBD  |
-| TBD                   | Pro        | The Architect       | TBD  |
-| The Safehouse Rescue  | Pro        | Retired Mastermind  | TBD  |
-| The Final Score       | Pro        | The Mayor           | TBD  |
+| Opportunity           | Location           | Difficulty | Unlocks Fixer        | Page |
+| :-------------------- | :----------------- | :--------- | -------------------- | ---- |
+| The Inclusion Job     | Delinquent Jeweler | Amateur    | Pawn Shop Owner      | TBD  |
+| The Startup Job       | Tech Lab           | Amateur    | Visage               | TBD  |
+| The Dark Horse Job    | The Track          | Amateur    | Bookie               | TBD  |
+| The Greedy Prisoner   | Estate Basement    | Semi-Pro   | The Connoisseur      | TBD  |
+| The Blind Justice Job | Courthouse         | Semi-Pro   | Beat Cop             | TBD  |
+| TBD                   |                    | Semi-Pro   | Extorted Locksmith   | TBD  |
+| TBD                   |                    | Semi-Pro   | Security Consultant  | TBD  |
+| TBD                   |                    | Semi-Pro   | Diversion Specialist | TBD  |
+| The Melee Job         |                    | Semi-Pro   | Persuasive Jeweler   | TBD  |
+| The Side Channel      | Server Farm        | Semi-Pro   | Shell                | TBD  |
+| TBD                   |                    | Pro        | The Architect        | TBD  |
+| The Safehouse Rescue  | Parking Garage     | Pro        | Retired Mastermind   | TBD  |
+| The Final Score       | Interior Ministry  | Pro        | The Mayor            | TBD  |
 {:class='tabletoc'}
-
 
 
 Can't decide? These are some good threads:
 
-
 * **Get That Loot**
-  - _The Inclusion Job_
-  - _The Melee Job_
-  - _The Greedy Prisoner_
-  - _TBD: Scavenger_
+  - _Big payouts, just know your limits_
+  - The Inclusion Job
+  - The Melee Job
+  - The Greedy Prisoner
+  - TBD: Scavenger
+  - The Final Score
 * **When A Plan Comes Together**
-  - _The Startup Job_
-  - _TBD: The Machinist_
-  - _The Side Channel_
-  - _The Safehouse Rescue_
+  - _Planning, coordination, satisfying results_
+  - The Startup Job
+  - TBD: The Machinist
+  - The Side Channel
+  - The Safehouse Rescue
+  - The Final Score
 * **Confidence**
-  - _The Dark Horse Job_
-  - _The Blind Justice Job_
+  - _Every risk has some kind of reward_
+  - The Dark Horse Job
+  - The Blind Justice Job
   - _TBD_
+  - The Final Score
 {:.heistthread}
 
 # County Jail Opportunities
@@ -177,6 +181,35 @@ From Visage:
 https://mastersoftheheist.com/design/?savekey=Tech+Lab|110|5|3|6|6|0|0|0|0|0|15|220|1-12,C2,13-18,C2,19-24,Z1|190|245|A|OIBQBKYumz8QQaQMIBlGcqsASAzFggMopgoCyYp1ZATMBmnUeVWgPJgDqAKngEZawuKxo1RfEQkiVpg4RJnhcLcWXVgAolVF7wO1loBsrfZhNn4QA
 {:/comment}
 
+# The Dark Horse Job
+
+<div class="map">
+  <img src="the-track.png">
+</div>
+
+From The Bookie:
+
+> Bosses over at the track are trying to pull a fast one on us freelancers. Steal their ledger.
+{:.text-message}
+
+**Objective:** Steal the documents
+
+**Item:** Cheap Picks
+
+**Special Rules** (see rules)
+
+* Remote locks
+* Guard Dogs
+* Item
+
+**Success Unlocks:** Bookie
+
+{::comment}
+http://localhost:3000/?savekey=The+Track|190|240|5|3|5|0|0|1|0|0|20|110|1-7,D1,D2,D3,8-12,C7,13-20,C6,21-24,Z1|25|230|A|OIBQBAogzGpgJDOBlAGmAIgeTAJgMIAyYASgJoazjL6QCyYNjtTuwxTwGXVvT2vOEPD4GwhLmal0yMn1rjx-HONFSlLTQhhMIY8OIgBGQQbO8IANlM3F5u7ftOgA
+{:/comment}
+
+
+
 # The Greedy Prisoner
 
 <div class="map">
@@ -213,12 +246,14 @@ Group feel bifurcated - the right hand side is clearly the objective side, but i
   <img src="courthouse.png">
 </div>
 
-From the beat cop:
+From the Beat Cop:
 
 > I need to know what they have on me. Get me the dossier at the courthouse, then we'll talk.
 {:.text-message}
 
 **Objective:** Steal the document
+
+**Item:** Lucky Penny
 
 **Special Rules:**
 
@@ -247,19 +282,36 @@ From Shell:
 https://mastersoftheheist.com/design/?savekey=Server+Farm|175|30|7|7|8|0|0|0|0|0|20|225|1-6,C2,7-10,A5,12-15,C5,16-17,C2,20,C1,21-24,Z1|155|235|S|OIBQBKHpPXUNggygYTAKQOqPk-4aYRJ6RASgJoAiuK6MA0uuQKL11IAkAzBAExgsAFWJlxneF0FFIpMZMVEAMgHkwbMMsEE6AVWQAhDmrDNlYALI5dtvPFYA2RXclA
 {:/comment}
 
-**Objective:** Steal the documents inside remote lock Y.
+# The Hospitality Job
+
+<div class="map">
+  <img src="hotel-basement.png">
+</div>
+
+You receive a text message from the Security Consultant:
+
+> A colleague of mine is in a bit of a jam. Can you deliver him?
+{:.text-message}
+
+> By the way he won't go willingly.
+{:.text-message}
+
+{::comment}
+http://localhost:3000/design?savekey=Hotel+Basement|10|245|4|4|2|0|1|0|0|0|250|5|1,A1,2,3,C2,4-15,C2,16-20,A2,C5,21-23,A4,24,Z1|20|25|S|OIBQBKHpCiDMVGWdVTwGkDCAZd+UDwASAJjC3OCrULvAGUswmLzs8BZAdRf2ITAAjBhbNuAFTFhSuIvhidprHDXmFWrSJuaEY5RWENYlrY0sP11tcJZvWFANnRA
+{:/comment}
+
+**Objective:** The hostage must escape.
+
+**Safe** requires 🧩 🧩 🧩, contains $5k and a jewel
 
 **Special Rules:**
 
-* TUNNEL. In planning, you place one Entrance on any external side.
-* NO ENTRANCE LIMITS. Any number of player characters may start on an entrance.
-* Guide NPC (see rules). Special ability for Guide is CRACK CIPHER. Immediately when Shell has possession of the USB key, they open up the Y gate.
-* USB key is a loot item.
-* Watchtower (see rules)
+* NPC is a Hostage (see rules)
 * Keycard (see rules)
-* Reinforcements (see rules)
+* Watchtower (see rules)
+* Safe (see rules)
 
-**Success Unlocks:** Visage
+**Upon Success:** Unlock Security Consultant, gain $7k
 
 # The Safehouse Rescue
 

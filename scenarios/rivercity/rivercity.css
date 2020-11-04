@@ -252,9 +252,11 @@ table.scenario-stats {
 }
 
 ul.heistthread {
+  font-size: 90%;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   text-align: center;
   list-style: none;
   padding: 0;
@@ -262,10 +264,10 @@ ul.heistthread {
 ul.heistthread>li {
   margin-left: 0.25em;
   margin-right: 0.25em;
-  width: 32%;
+  margin-bottom: 0.5em;
+  padding: 0;
   border: 1pt solid #ccc;
   border-radius: 1em;
-  padding: 0;
 }
 
 .heistthread ul {
