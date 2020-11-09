@@ -32,13 +32,27 @@ ul {
   list-style: square;
 }
 
+.space-break {
+  margin-top: 1.5em;
+}
+
 .emoji-svg {
   height: 1em;
+}
+
+.achievements {
+  font-size: 90%;
+  border-collapse: collapse;
 }
 
 .achievements td {
   border: 1px solid black;
 }
+
+.achievements.characters td::before {
+  content: "□ ";
+}
+
 .achievements th {
   border: none;
   border-bottom: 2pt solid black;
@@ -99,6 +113,10 @@ hr {
   border: none;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+}
+
+h1+p {
+  margin-top: 0.5em;
 }
 
 .cover-title {

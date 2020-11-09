@@ -7,7 +7,10 @@ Your journey begins with some text messages from an old friend:
 > Welcome back! Things around here haven't changed since you left.
 {:class="text-message"}
 
-> I hear you have some new skills to try out? I can introduce you to some folks... but you and your friends will need prove yourselves before they provide their services.
+> I hear you have some new skills to try out?
+{:class="text-message"}
+
+> I can introduce you to some folks... but you and your friends will need prove yourselves before they provide their services.
 {:class="text-message"}
 
 
@@ -16,7 +19,7 @@ River City is an **open-ended** campaign.
 * All heists are **available** to any team.
 * Every heist you complete will introduce you to a new **Fixer**
 * You are welcome to **explore this booklet** without spoilers.
-* **Players can come and go**. Your party can change between heists as needed.
+* **Players may come and go**. Your party can change between heists as needed.
 * When a character is Busted, your team may opt to do a **breakout**. See page 3.
 * During planning, you may visit the Shop to **purchase items**.
 
@@ -272,7 +275,7 @@ https://mastersoftheheist.com/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|2
 
 # The Melee Job
 
-<div class="map">
+<div class="map map-90">
   <img src="museum-of-antiquity.png">
 </div>
 
@@ -283,7 +286,7 @@ You get a text from the Curator:
 
 **Objective:** Steal 3 jewels
 
-**Safe** requires 🧩🧩🧩🧩 and contains a jewel
+**Safe** requires 4x🧩 and contains a jewel
 
 **Special Rules**:
 
@@ -384,6 +387,30 @@ https://mastersoftheheist.com/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0
 
 
 
+
+
+
+
+
+
+# County Jail: The Bricks
+
+<div class="map">
+  <img src="the-bricks.png">
+</div>
+
+**Objective:** Everyone escapes out a different exit.
+
+
+{::comment}
+https://mastersoftheheist.com/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50|200|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
+{:/comment}
+
+**Special Rules**
+
+
+**Special rules:**
+
 # The Final Score
 
 From your old friend:
@@ -458,8 +485,8 @@ From our insider contact:
 **Special Rules**
 
 * BREAKOUT. Every player character must exit out of a different exit.
-* MEAL TICKET. Mayor moves one hex to the right at the end of each Event phase until captured. Once captured, he is a Hostage (see rules).
-* A TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.
+* MEAL TICKET. Mayor NPC moves one hex to the right at the end of each Event phase until captured. Once captured, he is a Hostage (see rules).
+* TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.
 * Reinforcements (see rules)
 * Watchtower (see rules)
 * Remote locks (see rules)
@@ -481,54 +508,50 @@ The next morning, you receive a text from your Old Friend.
 > I think we have a new friend.
 {:class="text-message"}
 
-**Unlock the Mayor as a Fixer.** The main questline of River City is complete. However, the rest of River City is still open to you.
+Congratulations!
+{:class="space-break"}
 
-## Achievements
+* **Your final score** is equal to the amount of team cash you have at the end of this job.
+* **Unlock the Mayor as a Fixer.** The main questline of River City is complete. However, the rest of River City is still open to you.
+* **Achievements**. Be sure to check the achievements page for any updates.
 
-| Achievement      | Description                                                                                           | Date |
-| ---------------- | ----------------------------------------------------------------------------------------------------- | ---- |
-| On Fumes         | Win a scenario where at least two characters have zero leftover ideas at the end.                     |      |
-| Nothing Personal | Win a scenario but have at least one character Busted.                                                |      |
-| Of Course        | Have a character end up Busted by needing at least 2 on their last ditch effort, and rolled a 1.      |      |
-| Back For More    | Complete The Final Score job with the Mayor already as your fixer. The NPC is just a regular hostage. |      |
-| Completionist    | Complete all scenarios in River City.                                                                 |      |
-| Bingo Blackout   | Fill out the Character table below                                                                    |      |
+# Achievements
+
+| Name                   | Description                                                                                      | Date |
+| ---------------------- | ------------------------------------------------------------------------------------------------ | ---- |
+| On Fumes               | Win a scenario where at least two characters have zero leftover ideas at the end.                |      |
+| Nothing Personal       | Win a scenario but have at least one character Busted.                                           |      |
+| Of Course              | Have a character end up Busted by needing at least 2 on their last ditch effort, and rolled a 1. |      |
+| Jailbreak!             | Attempt a County Jail job with every team member starting on the inside.                         |      |
+| Penny Pincher          | Start a heist with $20k of unspent team cash.                                                    |      |
+| Silence is Golden      | Complete a round where every character produced no noise.                                        |      |
+| Minmaxer               | Finish a scenario never having an Event card impact your team.                                   |      |
+| First of Many          | Complete The Final Score                                                                         |      |
+| Back For More          | Complete The Final Score using the Mayor's Fixer ability. (NPC token behaves the same.)          |      |
+| Completionist          | Complete all scenarios in River City.                                                            |      |
+| Amateur Bingo          | Fill out the Amateur column in the table below                                                   |      |
+| Conventional Bingo | Fill out the Conventional Pro column in the table below                                          |      |
+| Oddball Bingo      | Fill out the Oddball Pro column in the table below                                               |      |
+| Pro Bingo Blackout     | Fill out the entire Character table below                                                        |      |
+| True Mastermind        | Create a board of your own and play it with other people.                                        |      |
 {:class="achievements"}
 
-Circle a cell if a player has played this character in any heist.
+Check off if a player played this character in any heist, regardless of outcome.
+{:class="space-break"}
 
-| Amateur         | Pro         | Pro             |
-| --------------- | ----------- | --------------- |
-| Angry Locksmith | Safecracker | Demolitions Guy |
-| Thug            | Bruiser     | Operative       |
-| Street Urchin   | Grifter     | Mastermind      |
-| Script Kiddie   | Hacktivist  | Black Hat       |
-| Burglar         | Grease Man  | Ghost Runner    |
-| Lookout         | Watchman    | Sentinel        |
-| Pickpocket      | Con Artist  | Thief           |
-| Shutter Bug     | Technician  | Tinkerer        |
-{:class="achievements"}
-
-
-# County Jail: The Bricks
-
-<div class="map">
-  <img src="the-bricks.png">
-</div>
-
-**Objective:** Everyone escapes out a different exit.
+| Amateur         | Conventional Pro | Oddball Pro     |
+| --------------- | ---------------- | --------------- |
+| Angry Locksmith | Safecracker      | Demolitions Guy |
+| Thug            | Bruiser          | Operative       |
+| Street Urchin   | Grifter          | Mastermind      |
+| Script Kiddie   | Black Hat        | Hacktivist      |
+| Burglar         | Ghost Runner     | Grease Man      |
+| Lookout         | Watchman         | Sentinel        |
+| Pickpocket      | Thief            | Con Artist      |
+| Shutter Bug     | Technician       | Tinkerer        |
+{:class="achievements characters"}
 
 
-{::comment}
-https://mastersoftheheist.com/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50|200|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
-{:/comment}
-
-**Special Rules**
-
-  * WANDERING MEAL TICKET. Prior to capture, the NPC token moves one hex at eastward the end of each Event phase. Once captured, NPC becomes a Hostage (see rules)
-
-
-**Special rules:**
 
 
 {::comment}
