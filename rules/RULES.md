@@ -275,9 +275,11 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 
 ## The Shop
 
-Between heists, your team may visit The Shop to purchase Items.
+Between heists, your team may visit The Shop to purchase Item cards.
 
 **Shop grows with you.** Initially, the only cards in the Shop are the ones with the Shop icon ![shopping cart](../img/shopping-cart.svg){:.emoji-svg}. However, once a a player discards a discovered item, that card is available for purchase in later planning phases.
+
+**Returning Items**. You may sell items back to the shop for half of their price, rounded down.
 
 
 ## Fixers
@@ -582,7 +584,7 @@ A USB key is a loot item that can go into the security bag, meaning it must be r
 ![npc](fig_npc.png)
 {:.example-right .card-portrait .rotate-right}
 
-A **Non-Player Character** is represented by a white pawn, a white die, and their NPC card. Your team will collaboratively decide on how the NPC spends their action each round. Follow any additional abilities or limitations described on the NPC card.
+A **Non-Player Character** (NPC) is represented by a white pawn, a white die, and their NPC card. Your team will collaboratively decide on how the NPC spends their action each round. Follow any additional abilities or limitations described on the NPC card. NPCs do not need planning tokens.
 
 **Inactive NPCs**. Some NPCs such as Hostages and Prisoners do nothing until freed or taken.
 
@@ -602,7 +604,6 @@ A **Non-Player Character** is represented by a white pawn, a white die, and thei
 **Need the tools for the job.** You will need a special subaction to unlock a safe, called **crack** 🧩. The 🧩 is only found on Item cards, for example, _Safecracking Tools_ or _Plasma Torch_. You must be on the tile with the safe to use 🧩. Any character may 🧩.
 
 **Some safes are harder than others**. The scenario description will tell you how many 🧩 you need to unlock the safe. Each 🧩 is cumulative, even across rounds. Use a leftover planning token to mark your progress. When the safe is unlocked, replace the chit with its contents.
-
 
 
 

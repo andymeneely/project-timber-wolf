@@ -36,6 +36,15 @@ ul {
   height: 1em;
 }
 
+.achievements td {
+  border: 1px solid black;
+}
+.achievements th {
+  border: none;
+  border-bottom: 2pt solid black;
+  text-align: center;
+}
+
 .difficulty-table {
   margin-left: 1em;
   float: right;
@@ -102,6 +111,7 @@ hr {
 
 .text-message{
   font-family: 'Roboto Condensed';
+  font-size: 90%;
   position: relative;
 	background: #ccc;
   border: 1pt solid #ccc;
@@ -109,8 +119,8 @@ hr {
   padding: 0.4em;
   width: 16em;
   margin-left: 3em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .text-message:after {

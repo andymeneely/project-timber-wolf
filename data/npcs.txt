@@ -38,6 +38,10 @@ Description | SQUIRRELY                          |
             | a tile with them at the end of Act |
             | ion phase. If that player has no : |
             | idea:, then :noise::noise:.        |
+            |                                    |
+            | PLOTTING ESCAPE                    |
+            | This character gains :idea::idea:: |
+            | idea: immediately when captured.   |
   FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -55,6 +59,10 @@ Description | SQUIRRELY                          |
             | a tile with them at the end of Act |
             | ion phase. If that player has no : |
             | idea:, then :noise::noise:.        |
+            |                                    |
+            | NO PLAN SURVIVES                   |
+            | Each Roll phase, this character lo |
+            | ses :idea: if possible.            |
   FrontBack | back                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -65,10 +73,7 @@ Description | SQUIRRELY                          |
    Default2 | Special                            |
       Roll6 | Observe                            |
             | :idea::reveal::noise:              |
-Description | TALKATIVE                          |
-            | :noise: unless shares a tile with  |
-            | a Player Character at the end of A |
-            | ction phase.                       |
+Description |                                    |
   FrontBack | front                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -78,9 +83,9 @@ Description | TALKATIVE                          |
             | :noise::noise::move::move:         |
    Default2 | Special                            |
       Roll6 | Walk:noise::move:                  |
-Description | VERY TALKATIVE                     |
-            | :noise::noise: unless shares a til |
-            | e with a Player Character at the e |
-            | nd of Action phase.                |
+Description | TALKATIVE                          |
+            | :noise: unless shares a tile with  |
+            | a Player Character at the end of A |
+            | ction phase.                       |
   FrontBack | back                               |
             ╰------------------------------------╯

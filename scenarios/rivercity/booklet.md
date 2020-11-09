@@ -42,21 +42,21 @@ Version ⏱
 > Just name the fixer and I'll arrange an introduction.
 {:class="text-message"}
 
-| Opportunity           | Location           | Difficulty | Unlocks Fixer        | Page |
-| :-------------------- | :----------------- | :--------- | -------------------- | ---- |
-| The Inclusion Job     | Delinquent Jeweler | Amateur    | Pawn Shop Owner      | TBD  |
-| The Startup Job       | Tech Lab           | Amateur    | Visage               | TBD  |
-| The Dark Horse Job    | The Track          | Amateur    | Bookie               | TBD  |
-| The Greedy Prisoner   | Estate Basement    | Semi-Pro   | The Connoisseur      | TBD  |
-| The Blind Justice Job | Courthouse         | Semi-Pro   | Beat Cop             | TBD  |
-| TBD                   |                    | Semi-Pro   | Extorted Locksmith   | TBD  |
-| TBD                   |                    | Semi-Pro   | Security Consultant  | TBD  |
-| TBD                   |                    | Semi-Pro   | Diversion Specialist | TBD  |
-| The Melee Job         |                    | Semi-Pro   | Persuasive Jeweler   | TBD  |
-| The Side Channel      | Server Farm        | Semi-Pro   | Shell                | TBD  |
-| TBD                   |                    | Pro        | The Architect        | TBD  |
-| The Safehouse Rescue  | Parking Garage     | Pro        | Retired Mastermind   | TBD  |
-| The Final Score       | Interior Ministry  | Pro        | The Mayor            | TBD  |
+| Opportunity           | Location            | Difficulty | Unlocks Fixer        | Page |
+| :-------------------- | :------------------ | :--------- | -------------------- | ---- |
+| The Inclusion Job     | Delinquent Jeweler  | Amateur    | Pawn Shop Owner      | TBD  |
+| The Startup Job       | Tech Lab            | Amateur    | Visage               | TBD  |
+| The Dark Horse Job    | The Track           | Amateur    | Bookie               | TBD  |
+| The Greedy Prisoner   | Estate Basement     | Semi-Pro   | The Connoisseur      | TBD  |
+| The Blind Justice Job | Courthouse          | Semi-Pro   | Beat Cop             | TBD  |
+| TBD                   |                     | Semi-Pro   | Extorted Locksmith   | TBD  |
+| TBD                   |                     | Semi-Pro   | Security Consultant  | TBD  |
+| TBD                   |                     | Semi-Pro   | Diversion Specialist | TBD  |
+| The Melee Job         | Museum of Antiquity | Semi-Pro   | The Curator          | TBD  |
+| The Side Channel      | Server Farm         | Semi-Pro   | Shell                | TBD  |
+| The                    |                     | Pro        | The Architect        | TBD  |
+| The Safehouse Rescue  | Parking Garage      | Pro        | Retired Mastermind   | TBD  |
+| The Final Score       | Interior Ministry   | Pro        | The Mayor            | TBD  |
 {:class='tabletoc'}
 
 
@@ -267,6 +267,37 @@ From the Beat Cop:
 https://mastersoftheheist.com/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G1,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
 
+
+
+
+# The Melee Job
+
+<div class="map">
+  <img src="museum-of-antiquity.png">
+</div>
+
+You get a text from the Curator:
+
+> It would appear that some of our guards have sticky fingers. Help me with some cleaning?
+{:.text-message}
+
+**Objective:** Steal 3 jewels
+
+**Safe** requires 🧩🧩🧩🧩 and contains a jewel
+
+**Special Rules**:
+
+* HELD BY GUARDS. When you draw a jewel or keycard from the bag, add a Guard from the supply to that hex
+* HELP ME WITH SOME CLEANING. Guide NPC starts with 💡💡💡 and has FANCY CARD FLICK as their special. (See NPCs in rules)
+* FANCY CARD FLICK. Use this action to throw the keycard to any hex in a straight line not interrupted by a gap, (locked) Lock, or unknown security.
+* OURS NOW. Keep any jewels stolen.
+
+**Success:** Unlock the Curator
+
+{::comment}
+http://localhost:3000/design?savekey=Museum+of+Antiquity|5|255|3|4|4|3|1|0|0|0|275|55|1-13,C5,14-24,C4,Z1|90|0|S|OIBQBAogzGq+c4QCzzUgsmATMAMmACQx7aRaIJVgDKAwrQ-Y7AIwDS564zl3LfOHSy9qcZqLQQs7OgQCSYWQQkNB1afzplNw-uKI6K4TZvX6xGgGzwgA
+{:/comment}
+
 # The Side Channel
 
 <div class="map map-90">
@@ -278,13 +309,25 @@ From Shell:
 > Greatest cybersecurity in the world can't beat a tunnel. Too bad I'm a bit claustrophobic.
 {:.text-message}
 
+**Objective:** Steal the documents inside remote lock Y.
+
+**Special Rules:**
+
+* TUNNEL. In planning, you place one Entrance on any external side.
+* NO ENTRANCE LIMITS. Any number of player characters may start on an entrance.
+* Guide NPC (see rules) starts with 💡💡.
+* Special ability for Guide is PAUSE 💡.
+* Shell also has CRACK CIPHER. Immediately when Shell has possession of the USB key, they open up the Y gate.
+* Watchtower (see rules)
+
 {::comment}
 https://mastersoftheheist.com/design/?savekey=Server+Farm|175|30|7|7|8|0|0|0|0|0|20|225|1-6,C2,7-10,A5,12-15,C5,16-17,C2,20,C1,21-24,Z1|155|235|S|OIBQBKHpPXUNggygYTAKQOqPk-4aYRJ6RASgJoAiuK6MA0uuQKL11IAkAzBAExgsAFWJlxneF0FFIpMZMVEAMgHkwbMMsEE6AVWQAhDmrDNlYALI5dtvPFYA2RXclA
 {:/comment}
 
+
 # The Hospitality Job
 
-<div class="map">
+<div class="map map-90">
   <img src="hotel-basement.png">
 </div>
 
@@ -293,7 +336,7 @@ You receive a text message from the Security Consultant:
 > A colleague of mine is in a bit of a jam. Can you deliver him?
 {:.text-message}
 
-> By the way he won't go willingly.
+> btw he won't go willingly. thx!
 {:.text-message}
 
 {::comment}
@@ -340,19 +383,6 @@ https://mastersoftheheist.com/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0
 {:/comment}
 
 
-# County Jail: The Bricks
-
-<div class="map">
-  <img src="the-bricks.png">
-</div>
-
-**Objective:** Everyone escapes out a different exit.
-
-**Upon Success:** Gain $10k
-
-{::comment}
-https://mastersoftheheist.com/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50|200|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
-{:/comment}
 
 # The Final Score
 
@@ -383,57 +413,122 @@ Before Part 2: the two people who are on the same tile can share ideas with each
 
 # The Final Score: Part 1
 
-<div class="map">
-  <img src="interior-ministry-south-wing.png">
+<div class="map map-90">
+  <img src="interior-ministry-south.png">
 </div>
 
-NOTE: UNDER CONSTRUCTION.
-
 {::comment}
-http://localhost:3000/design/?savekey=Interior+Ministry+South+Wing|10|190|6|6|7|250|200|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzLCSs6J8AlAUWaT2YGlySFBPzTMh7AKwFiCISHhIGooUMg8ma2kJpj6MjQsOiDxoyfNnLp6xahA
+http://localhost:3000/design/?savekey=Interior+Ministry+South|40|210|2|6|5|0|0|2|0|0|235|225|1-8,D1,9-12,C1,13-18,D3,20,A3,A4,23,A1,A2,24,Z1|60|240|P|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzKARAaTQQonwCUBROlvXxuRJtIglmzZcArAWKtKpFpEIkkEypH5YENXrvVgVS+ABUwZi+atntt+HeOOHz+66cggA
 {:/comment}
 
 From our insider contact:
 
-> We need two people to go in through the loading dock and then we'll have the other two come in through our tunnel under the south wall.
+> Loading dock is one entrypoint, then tunnel under the south wall.
 {:class="text-message"}
 
-> Also, this needs to look like a regular robbery. Steal at least $5k worth of money.
+> This needs to look like a regular robbery, so get cash
 {:class="text-message"}
 
 **Objectives:**
 
-  * Get the documents
-  * Escape to the hideouts.
+  * Get the documents in the safe
+  * Steal $5k worth of cash
 
 **Special rules:**
 
-  * TUNNEL UNDER THE SOUTH WALL. Choose the entrypoint
+  * TUNNEL. During planning, place an entrance in one of the designated areas.
   * SMALL HIDEOUTS. Maximum of 2 characters per hideout
+  * Safe requires 6x🧩 and contains the documents
   * Keycard (see rules)
   * Reinforcements (see rules)
+  * Guard Dogs (see rules)
 
 # The Final Score: Part 2
 
 <div class="map">
-  <img src="">
+  <img src="interior-ministry-north.png">
 </div>
 
-| Difficulty: | Pro |
-| ----------: | :-- |
-| Guards:     | TBD |
-| Locks:      | TBD |
-| Cameras:    | TBD |
-| Events:     | TBD |
-{:class="scenario-stats"}
 
-**Objective:**
+> Our meal ticket is approaches. Why is the mayor in a federal building??
+{:class="text-message"}
 
+**Objective:** Escape with the Mayor as your hostage
+
+**Special Rules**
+
+* BREAKOUT. Every player character must exit out of a different exit.
+* MEAL TICKET. Mayor moves one hex to the right at the end of each Event phase until captured. Once captured, he is a Hostage (see rules).
+* A TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.
+* Reinforcements (see rules)
+* Watchtower (see rules)
+* Remote locks (see rules)
 
 {::comment}
+http://localhost:3000/design/?savekey=Interior+Ministry+North|40|210|5|5|6|0|0|0|0|0|235|225||60|240|P|OIBQBAogzGqTdHiZALLZ4DKBhDZcC8sANMAJQE19CU5bNYARfOHAJjHeABlXGAsgHVYxPOxx9ChIQBUiCiAFZ+XXgvpjYAQVV1kAITV9NC6dX2qAVNb2NLD+07svHr5288fv-IA
 
 {:/comment}
 
+**Upon Success:** see next page.
+
+# The Final Score
+
+The next morning, you receive a text from your Old Friend.
+
+> I knew it. These documents show that the feds have dirt on the Mayor.
+{:class="text-message"}
+
+> I think we have a new friend.
+{:class="text-message"}
+
+**Unlock the Mayor as a Fixer.** The main questline of River City is complete. However, the rest of River City is still open to you.
+
+## Achievements
+
+| Achievement      | Description                                                                                           | Date |
+| ---------------- | ----------------------------------------------------------------------------------------------------- | ---- |
+| On Fumes         | Win a scenario where at least two characters have zero leftover ideas at the end.                     |      |
+| Nothing Personal | Win a scenario but have at least one character Busted.                                                |      |
+| Of Course        | Have a character end up Busted by needing at least 2 on their last ditch effort, and rolled a 1.      |      |
+| Back For More    | Complete The Final Score job with the Mayor already as your fixer. The NPC is just a regular hostage. |      |
+| Completionist    | Complete all scenarios in River City.                                                                 |      |
+| Bingo Blackout   | Fill out the Character table below                                                                    |      |
+{:class="achievements"}
+
+Circle a cell if a player has played this character in any heist.
+
+| Amateur         | Pro         | Pro             |
+| --------------- | ----------- | --------------- |
+| Angry Locksmith | Safecracker | Demolitions Guy |
+| Thug            | Bruiser     | Operative       |
+| Street Urchin   | Grifter     | Mastermind      |
+| Script Kiddie   | Hacktivist  | Black Hat       |
+| Burglar         | Grease Man  | Ghost Runner    |
+| Lookout         | Watchman    | Sentinel        |
+| Pickpocket      | Con Artist  | Thief           |
+| Shutter Bug     | Technician  | Tinkerer        |
+{:class="achievements"}
+
+
+# County Jail: The Bricks
+
+<div class="map">
+  <img src="the-bricks.png">
+</div>
+
+**Objective:** Everyone escapes out a different exit.
+
+
+{::comment}
+https://mastersoftheheist.com/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50|200|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
+{:/comment}
+
+**Special Rules**
+
+  * WANDERING MEAL TICKET. Prior to capture, the NPC token moves one hex at eastward the end of each Event phase. Once captured, NPC becomes a Hostage (see rules)
+
+
+**Special rules:**
 
 
 {::comment}

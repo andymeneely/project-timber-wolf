@@ -64,8 +64,8 @@ Description | Close the next two Gates, starting |
          ID | C4                                 |
         Qty | 1                                  |
       Story | Security is onto you!              |
-Description | Add a Lock to any loot not yet sto |
-            | len.                               |
+Description | Add a Lock to any hex with a loot  |
+            | chit. (The safe does not count.)   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Panic!                             |
