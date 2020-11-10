@@ -359,6 +359,38 @@ http://localhost:3000/design?savekey=Hotel+Basement|10|245|4|4|2|0|1|0|0|0|250|5
 
 **Upon Success:** Unlock Security Consultant, gain $7k
 
+
+# The Proving Grounds
+
+<div class="map">
+  <img src="rival-headquarters.png">
+</div>
+
+You receive a text from The Machinist:
+
+> I only work with those who appreciate precision.
+{:.text-message}
+
+> Pull this one off, then we'll talk.
+{:.text-message}
+
+**Objective:** Crack the safe and steal the documents inside
+
+**Safe** requires 5x🧩 and contains documents, $5k
+
+**Special Rules**
+
+* Lockdown Gates (see rules)
+* Guard Dogs (see rules)
+* Safes (see rules)
+
+**Success Unlocks**: The Machinist
+
+{::comment}
+http://localhost:3000/design?savekey=Rival+Headquarters|0|0|3|6|6|0|0|2|0|0|20|10|1-7,C3,D1,9-11,G1,D2,13-14,C3,15-20,21,D3,23-24,Z2|15|185|S|OIBQBKHpPXUNggymAJARnQJkfJyAwmEScaUpJmXhAIK1Jq4UBCNFAqmIbgKIBWFMWqkAIgGkI5YpXzxSi2fIR9cwMcJpzG4AJIQxGiN0FQgA
+{::/comment}
+
+
 # The Safehouse Rescue
 
 <div class="map">
@@ -370,13 +402,13 @@ From Old Friend:
 > Found the safehouse where the feds keep my mentor. Let's grab her in transit.
 {: class="text-message"}
 
-**Objective:** Rescue Prisoner before she reaches the van
+**Objective:** Rescue Prisoner before she reaches the van(*)
 
-**Success Unlocks:** Retired Mastermind, $10k
+**Success Unlocks:** Retired Mastermind, Gain $10k
 
 **Special Rules:**
 
-  * MOVING TARGET. Each round, except the first round, move all guards and Captured Prisoner one hex in a straight line closer to the van.
+  * MOVING TARGET. At the end of each Event phase, move all guards and Captured Prisoner one hex in a straight line closer to the van.
   * GUARDS HAVE KEYS. Guards and Captured Prisoner move without restriction.
   * AMBUSH REQUIRED. All four Guards must be subdued **in a single round**. If one is subdued but not the others, activate the C1 crisis during Event phase early.
   * ABORT ABORT ABORT. Prisoner cannot be Freed during the Escape Phase (i.e. the NPC must be activated prior to escape).
@@ -517,23 +549,24 @@ Congratulations!
 
 # Achievements
 
-| Name                   | Description                                                                                      | Date |
-| ---------------------- | ------------------------------------------------------------------------------------------------ | ---- |
-| On Fumes               | Win a scenario where at least two characters have zero leftover ideas at the end.                |      |
-| Nothing Personal       | Win a scenario but have at least one character Busted.                                           |      |
-| Of Course              | Have a character end up Busted by needing at least 2 on their last ditch effort, and rolled a 1. |      |
-| Jailbreak!             | Attempt a County Jail job with every team member starting on the inside.                         |      |
-| Penny Pincher          | Start a heist with $20k of unspent team cash.                                                    |      |
-| Silence is Golden      | Complete a round where every character produced no noise.                                        |      |
-| Minmaxer               | Finish a scenario never having an Event card impact your team.                                   |      |
-| First of Many          | Complete The Final Score                                                                         |      |
-| Back For More          | Complete The Final Score using the Mayor's Fixer ability. (NPC token behaves the same.)          |      |
-| Completionist          | Complete all scenarios in River City.                                                            |      |
-| Amateur Bingo          | Fill out the Amateur column in the table below                                                   |      |
-| Conventional Bingo | Fill out the Conventional Pro column in the table below                                          |      |
-| Oddball Bingo      | Fill out the Oddball Pro column in the table below                                               |      |
-| Pro Bingo Blackout     | Fill out the entire Character table below                                                        |      |
-| True Mastermind        | Create a board of your own and play it with other people.                                        |      |
+|                                                                                                                                              | Date |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| **On Fumes**. Win a scenario where at least two characters have zero leftover ideas at the end.                                              |      |
+| **Nothing Personal**. Win a scenario but have at least one character Busted.                                                                 |      |
+| **Of Course**. Have a character end up Busted by needing at least 2 on their last ditch effort, and rolled a 1.                              |      |
+| **Jailbreak!** Attempt a County Jail job with every team member starting on the inside.                                                      |      |
+| **Penny Pincher**. Start a heist with $20k of unspent team cash.                                                                             |      |
+| **Silence is Golden**. Complete a round where every character produced no noise.                                                             |      |
+| **Minmaxer**. Finish a scenario never having an Event card impact your team.                                                                 |      |
+| **The Real Achievement is the Friends We Made Along the Way**. Finish a scenario having used the abilities of five or more different fixers. |      |
+| **First of Many**. Complete The Final Score                                                                                                  |      |
+| **Back For More**. Complete The Final Score using the Mayor's Fixer ability. (NPC token behaves the same.)                                   |      |
+| **Completionist**. Complete all scenarios in River City.                                                                                     |      |
+| **Amateur Bingo**. Fill out the Amateur column in the table below                                                                            |      |
+| **Conventional Bingo**. Fill out the Conventional Pro column in the table below                                                              |      |
+| **Oddball Bingo**. Fill out the Oddball Pro column in the table below                                                                        |      |
+| **Pro Bingo Blackout**. Fill out the entire Character table below                                                                            |      |
+| **True Mastermind**. Create a board of your own and play it with other people.                                                               |      |
 {:class="achievements"}
 
 Check off if a player played this character in any heist, regardless of outcome.

@@ -38,26 +38,37 @@ Description | If a character is on a Watchtower  |
             | r token.                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Shut Two Gates!!                   |
+       Name | Shut the Gate!!                    |
          ID | C3                                 |
-        Qty | 2                                  |
+        Qty | 3                                  |
       Story | Someone remembers to hit the red b |
             | utton.                             |
-Description | Close the next two Gates, starting |
-            |  with "A". Remove the tile. If a c |
-            | haracter is on it, they are immedi |
-            | ately Busted.                      |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a charac |
+            | ter is on it, they are immediately |
+            |  Busted.                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Shut Two Gates!!                   |
+       Name | Shut the Gate!!                    |
          ID | C3                                 |
-        Qty | 2                                  |
+        Qty | 3                                  |
       Story | Someone remembers to hit the red b |
             | utton.                             |
-Description | Close the next two Gates, starting |
-            |  with "A". Remove the tile. If a c |
-            | haracter is on it, they are immedi |
-            | ately Busted.                      |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a charac |
+            | ter is on it, they are immediately |
+            |  Busted.                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Shut the Gate!!                    |
+         ID | C3                                 |
+        Qty | 3                                  |
+      Story | Someone remembers to hit the red b |
+            | utton.                             |
+Description | Close the next Gate, starting with |
+            |  "A". Remove the tile. If a charac |
+            | ter is on it, they are immediately |
+            |  Busted.                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Lock the Goods!                    |

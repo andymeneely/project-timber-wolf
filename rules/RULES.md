@@ -464,7 +464,7 @@ Any cash on a Character is added to the Team Cash tracker, as well as any loot. 
 For example, Josh's character *Cam* (see above examples) who is a *Tinkerer* with *Assault* and *Smash 'n' Grab* is Busted. Josh wants to build a new *Tinkerer* with *Assault* named _Iris_. He may not use *Smash 'n' Grab* as the other skill as that would be identical to Cam.
 {:.example}
 
-**Progression**. The first time you level up, upgrade one Skill card of your choice. The second time, upgrade your Character. The third time, upgrade your other Skill. The maximum player and character level is 4 (both pro Skills and a pro Character).
+**Progression**. At Level 2, a character upgrades one Skill card of your choice. At Level 3, upgrade your Character to a Pro version. At Level 4, upgrade your other Skill card. The maximum player and character level is 4 (both pro Skills and a pro Character).
 
 Each Amateur card is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Record your choice on your character sheet. Skill cards work the same way.
 

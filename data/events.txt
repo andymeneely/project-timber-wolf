@@ -315,8 +315,8 @@ Description | Replace a Guard in the bag with a  |
       Story | "Man's best friend. Right now I wi |
             | sh I was that man."                |
 Description | Add a Dog to the kennel, then move |
-            |  it 3 spaces to the nearest charac |
-            | ter.                               |
+            |  it up to 3 spaces to the nearest  |
+            | character.                         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard the Loot Boy!                |
@@ -324,8 +324,8 @@ Description | Add a Dog to the kennel, then move |
       Order | D2                                 |
       Story | "Hey where are those dogs going?"  |
 Description | Add a Dog to the kennel, then move |
-            |  them 3 spaces to the nearest hex  |
-            | with loot.                         |
+            |  it up to 3 spaces to the nearest  |
+            | hex with loot.                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | They Can Sense Your Fear           |
@@ -333,8 +333,9 @@ Description | Add a Dog to the kennel, then move |
       Order | D3                                 |
       Story | "Don't. Move."                     |
 Description | Add a Dog to the kennel, then move |
-            |  it 3 spaces to a player character |
-            |  with the least number of 💡.       |
+            |  it up to 3 spaces to a player cha |
+            | racter with the least number of 💡. |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Oops! Gate Shut!                   |
