@@ -1,14 +1,6 @@
--- Game save need this:
--- #include !\timber-wolf\tts\masters-of-the-heist
---
--- #include guids
--- #include scenario-builder
--- #include util
--- #include spawn
--- #include scenarios
--- #include download-game-data
+-- Game save need this: require("masters-of-the-heist")
+-- Then configure the TTSLua VS Code plugin to point to the timber-wolf/tts dir
 
--- Eventually let's move to this syntax once things work
 require("guids")
 require("scenario-builder")
 require("util")
@@ -18,12 +10,12 @@ require("download-game-data")
 
 function onLoad()
   broadcastToAll("Welcome to Master of the Heist!!")
-  -- cleanUp()
 end
 
 function toggleDrawer()
   if(UI.getAttributes('drawer').active == "true") then
     UI.hide('drawer')
+    UI.hide('custom-panel')
   else
     UI.show('drawer')
   end
@@ -36,9 +28,18 @@ function setSaveString(_obj, _color, save_string, stillEditing)
 end
 
 -- From the drawer
-function setCustomSaveString(_player, value, _id)
-  buildScenario(value)
+function setCustomSaveString(_player, value, id)
+  UI.hide('custom-panel')
   UI.hide('drawer')
+  buildScenario(value)
+end
+
+function toggleCustom()
+  if(UI.getAttributes('custom-panel').active == "true" ) then
+    UI.hide('custom-panel')
+  else
+    UI.show('custom-panel')
+  end
 end
 
 function onObjectEnterScriptingZone(zone, obj)

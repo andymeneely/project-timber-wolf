@@ -23,6 +23,18 @@ function theBlindJusticeJob()
   buildScenario(str)
 end
 
+function theMeleeJob()
+  broadcastToAll("Coming soon...")
+end
+
+function theHostpitalityJob()
+  broadcastToAll("Coming soon...")
+end
+
+function theProvingGrounds()
+  broadcastToAll("Coming soon...")
+end
+
 function theGreedyPrisoner()
   str = 'Estate+Basement|50|230|2|6|5|0|0|2|0|0|105|135|1-8,D1,9-15,C6,16-18,D2,C4,C5,A1,A4,19-20,21-24,Z1|90|200|S|GP GP GP GP $3 GP GP $3 GP GP GP GP SX SC RXM JW SC SC SX GP GP GP $2 DO GP SY GP SC GP GP GP GP SC JW GP GP GP SC GP GP GP SC SC DK RX JW RY SC SC GP 2GC GP GP GP GP GP GP 2GL GP GP SC SC GP GP GP GP GP SC SC GP EM GP GP GP GP GP GP EM GP GP E1 GP GP GP GP GP GP GP E6 GP GP GP GP GP GP GP GP GP GP GP'
   buildScenario(str)
@@ -49,9 +61,7 @@ function theFinalScorePart1()
 end
 
 function theFinalScorePart2()
-  broadcastToAll("Stay tuned...")
-  str = ''
-  -- buildScenario(str)
+  broadcastToAll("Coming soon...")
 end
 
 
