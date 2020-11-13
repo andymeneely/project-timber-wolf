@@ -103,7 +103,8 @@ Squib::Deck.new(width: 600, height: 600, cards: files.size) do
   background color: $BG_COLOR # dark brown
   svg data: replace_fill_with_fg(files), width: width, height: width
   text str: letters, font: 'Archivo Black, Serif 24',
-       x: 0, y: 285, width: width, align: :center, color: $FG_COLOR
+       x: 0, y: 420, width: width, angle: -Math::PI / 6,
+       align: :center, color: $FG_COLOR
   save_png prefix: 'hex_lockdown_', count_format: letters
 end
 #For rules
@@ -114,7 +115,8 @@ Squib::Deck.new(width: 610, height: 610, cards: files.size) do
           fill_color: $BG_COLOR, stroke_width: 0
   svg data: replace_fill_with_fg(files), width: width, height: width
   text str: letters, font: 'Archivo Black, Serif 24',
-       x: 0, y: 285, width: width, align: :center, color: $FG_COLOR
+       x: 0, y: 420, angle: -Math::PI / 6,
+       width: width, align: :center, color: $FG_COLOR
 
   save_png dir: 'rules/', prefix: 'fig_hex_lockdown_', count_format: letters,
            range: 0
