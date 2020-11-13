@@ -289,7 +289,7 @@ ul.heistthread {
   list-style: none;
   padding: 0;
 }
-ul.heistthread>li {
+.heistthread>ul>li {
   margin-left: 0.25em;
   margin-right: 0.25em;
   margin-bottom: 0.5em;
@@ -300,4 +300,12 @@ ul.heistthread>li {
 
 .heistthread ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+.heistthread ul>li {
+  margin: 0
+}
+
+

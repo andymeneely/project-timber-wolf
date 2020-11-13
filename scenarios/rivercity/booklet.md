@@ -80,7 +80,7 @@ Can't decide? These are some good threads:
   - The Safehouse Rescue
   - The Final Score
 * **Confidence**
-  - _Every risk has some kind of reward_
+  - _The risk is the reward_
   - The Dark Horse Job
   - The Blind Justice Job
   - _TBD_
