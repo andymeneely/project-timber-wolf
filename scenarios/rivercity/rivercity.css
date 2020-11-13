@@ -287,12 +287,14 @@ ul.heistthread {
   justify-content: center;
   text-align: center;
   list-style: none;
-  padding: 0;
+  padding: 0.25em;
 }
-.heistthread>ul>li {
+
+ul.heistthread>li {
   margin-left: 0.25em;
   margin-right: 0.25em;
   margin-bottom: 0.5em;
+  width: 15em;
   padding: 0;
   border: 1pt solid #ccc;
   border-radius: 1em;
@@ -305,7 +307,9 @@ ul.heistthread {
 }
 
 .heistthread ul>li {
-  margin: 0
+  margin: 0;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
 }
 
 

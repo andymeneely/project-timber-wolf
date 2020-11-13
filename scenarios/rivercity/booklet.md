@@ -73,7 +73,7 @@ Can't decide? These are some good threads:
   - TBD: Scavenger
   - The Final Score
 * **When A Plan Comes Together**
-  - _Planning, coordination, satisfying results_
+  - _Intricate planning, satisfying results_
   - The Startup Job
   - TBD: The Machinist
   - The Side Channel
