@@ -78,6 +78,7 @@ files = %w(
   keycard-lock
   kennel
   safe
+  item
 )
 # For TTS
 Squib::Deck.new(width: 600, height: 600, cards: files.size) do
