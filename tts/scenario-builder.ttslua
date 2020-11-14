@@ -22,8 +22,10 @@ function buildScenario(save_string)
 
   placeEventDeck(parseEventDeck(save_string))
   placeSecurityChits(parseSecurityBag(save_string))
+  broadcastLocation(save_string)
 end
 
+-- Tile list is after the last | char
 function parseTileList(save_string)
   local title = save_string:gsub("|.*$",''):gsub("+"," ") -- not using, strip away
   local tile_list = '';
@@ -92,6 +94,8 @@ function placeChits(t, hex_x, hex_z)
   local server_x_bag = getObjectFromGUID(server_x_bag_guid)
   local server_y_bag = getObjectFromGUID(server_y_bag_guid)
   local kennel_bag = getObjectFromGUID(kennel_bag_guid)
+  local safe_bag = getObjectFromGUID(safe_bag_guid)
+  local item_bag = getObjectFromGUID(item_bag_guid)
   local watchtower_bag = getObjectFromGUID(watchtower_bag_guid)
   local remote_lock_x_bag = getObjectFromGUID(remote_lock_x_bag_guid)
   local meeple_bag = getObjectFromGUID(white_meeple_bag_guid)
@@ -137,6 +141,8 @@ function placeChits(t, hex_x, hex_z)
   elseif t == 'RX' then place1Chit(remote_lock_x_bag, hex_x, hex_z, 30)
   elseif t == 'RY' then place1Chit(remote_lock_y_bag, hex_x, hex_z, 30)
   elseif t == 'DK' then place1Chit(kennel_bag, hex_x, hex_z, 30)
+  elseif t == 'S'  then place1Chit(safe_bag, hex_x, hex_z, 30)
+  elseif t == 'I'  then place1Chit(item_bag, hex_x, hex_z, 30)
   elseif t == 'RXJ' then place2ChitsStacked(remote_lock_x_bag, jewel_bag, hex_x, hex_z)
   elseif t == 'RXD' then place2ChitsStacked(remote_lock_x_bag, folder_bag, hex_x, hex_z)
   elseif t == 'RXM' then place2ChitsStacked(remote_lock_x_bag, meeple_bag, hex_x, hex_z, 30)
@@ -191,7 +197,7 @@ function place2ChitsStacked(bag1, bag2, cx,  cz, r)
   })
 end
 
--- Not a gap and not an exit
+-- Not a gap, not an exit, not a tunnel
 function isHex(tile)
   return tile ~= "GP"
      and tile ~= "E1"
@@ -200,6 +206,7 @@ function isHex(tile)
      and tile ~= "E4"
      and tile ~= "E5"
      and tile ~= "E6"
+     and tile ~= "T"
 end
 
 function isExit(tile)
@@ -214,12 +221,14 @@ end
 function parseEventDeck(str)
   local i = 0;
   eventStr = ''
+
   for w in str:gmatch("([^|]+)") do
-    if i == 13 then -- assuming scenario designer v1.13
+    if i == 13 then -- assuming scenario designer v1.16
       eventStr = w
     end
     i = i + 1
   end
+
   return eventStr
 end
 
@@ -346,4 +355,9 @@ function placeBagChits(bag, n, z)
   for i=1,n do
     bag.takeObject({ position = {x = 28, y=5.0 + i*0.75, z=z} })
   end
+end
+
+function broadcastLocation(save_string)
+  local location = save_string:match('([^|]*)|'):gsub("+"," ")
+  broadcastToAll(location)
 end
