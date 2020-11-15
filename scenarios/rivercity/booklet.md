@@ -418,10 +418,29 @@ http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|17
 {:/comment}
 
 
+# The Black Box
 
+<div class="map map-90">
+  <img src="the-lair.png">
+</div>
 
+> They call it The Lair because it's a security black box. Hopefully you'll learn more as you plan. Just crack it from the inside.
+{:.text-message}
 
+**Objective:** The Architect NPC must escape
 
+**Special Rules:**
+
+  * HELD BY GUARD (see USB key, Documents in rules)
+  * COMPLICATED SCHEMATICS. If the Architect NPC possesses the Documents token, every character immediately gains 💡💡
+  * CHECK THE LOGS. If a character posseses the USB key and is on the server space(*), they immediately may 🔍🔍🔍 and gain 💡
+  * USB key, Documents, Tunnels, NPCs, Guard Dogs, and Reinforcements (see rules)
+
+**Upon Success:** Gain $15k, unlock The Architect
+
+{::comment}
+http://localhost:3000/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|270|180|1-10,C7,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4ORlyUNVMsrnhV7vjcGzGvQBK1IbhaxUsADKpxI4iki0A6itkwF1AKxaSR1SfhA
+{:/comment}
 
 
 

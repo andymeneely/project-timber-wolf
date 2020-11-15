@@ -588,7 +588,7 @@ A **Non-Player Character** (NPC) is represented by a white pawn, a white die, an
 
 **Inactive NPCs**. Some NPCs such as Hostages and Prisoners do nothing until freed or taken.
 
-**Freed**. A Prisoner is freed when they have no movement impediments (e.g. remote locks, guards). Immediately when the prisoner is freed, take out the NPC card and roll a white die for the current round.
+**Freed**. A Prisoner is freed when they have no movement impediments (e.g. remote locks, keycard doors, guards). Immediately when the prisoner is freed, take out the NPC card and roll a white die for the current round.
 
 **Up Close And Personal**. To take a Hostage, a player character must be on the same tile as the hostage.
 
