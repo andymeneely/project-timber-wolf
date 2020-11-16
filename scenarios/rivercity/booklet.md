@@ -65,7 +65,7 @@ Version ⏱
 
 Can't decide? These are some good threads:
 
-* **Get That Loot**
+* **Gold Rules**
   - _Big payouts, just know your limits_
   - The Inclusion Job
   - The Melee Job
@@ -442,7 +442,32 @@ http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|17
 http://localhost:3000/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|270|180|1-10,C7,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4ORlyUNVMsrnhV7vjcGzGvQBK1IbhaxUsADKpxI4iki0A6itkwF1AKxaSR1SfhA
 {:/comment}
 
+# The Marathon Job
 
+<div class="map map-90">
+  <img src="the-vault.png">
+</div>
+
+> Take your time on this one.
+{:.text-message}
+
+**Objective:** Steal the Documents from the Safe
+
+**Safe** requires 6x🧩 to open and contains Documents
+
+**Special Rules:**
+
+  * Jewels are HELD BY GUARD (see rules)
+  * Lockdown Gates (see rules)
+  * Keycard (see rules)
+  * Safe (see rules)
+  * Remote locks (see rules)
+
+**Upon Success:** Gain $10k, unlock the Diversion Specialist
+
+{::comment}
+http://localhost:3000/?savekey=The+Vault|55|255|2|6|7|2|0|0|0|0|240|25|1-10,C3,A1,G1,11-13,G2,C3,A1,A2,14-18,G4,19-24,Z2|100|-5|P|OIBQBAygGmq+dEOWATAYQDJuNpl5D84BpLIlAJRmJQnVgBExNVIH7YBGEiwz4j1gAhImX4cG1AFLsJRBsQCC8zmsmqGAEjb4BKOAFEufWmEMA2CkA
+{:/comment}
 
 # County Jail: The Bricks
 
@@ -466,7 +491,7 @@ http://localhost:3000/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50
 
 From your old friend:
 
-> So you've decided to hit up the world's largest gang huh? Nice.
+> So you've decided to hit the world's largest gang huh? Nice.
 {:class="text-message"}
 
 > Wait... you're gonna STAY in there hidden with all those government secrets?
@@ -478,7 +503,7 @@ From your old friend:
 This is a two-part heist.
 
   * Part 1. You will be stealing the government secrets from their vault, then hiding in the building itself.
-  * Part 2. Once the alarms die down, make a break for it! Break out of all four doors.
+  * Part 2. Once the alarms die down, make a break for it! Break out of all four doors by taking the Mayor hostage.
 
 Your **Old Friend** Fixer is not available for this heist.
 
