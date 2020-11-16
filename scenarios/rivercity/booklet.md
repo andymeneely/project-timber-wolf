@@ -475,17 +475,59 @@ http://localhost:3000/?savekey=The+Vault|55|255|2|6|7|2|0|0|0|0|240|25|1-10,C3,A
   <img src="the-bricks.png">
 </div>
 
-**Objective:** Everyone escapes out a different exit.
+**Objective:** At least one character reaches escape
+
+**Special Rules**
+
+  * BREAKOUT. Every character must escape out of a different exit
+  * BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.
+
+**Upon success**. Any character who reaches an Escape is not Busted. Gain $12k.
 
 
 {::comment}
 http://localhost:3000/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50|200|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
 {:/comment}
 
+# County Jail: The River
+
+<div class="map">
+  <img src="the-river.png">
+</div>
+
+**Objective:** At least one character reaches escape
+
 **Special Rules**
 
+  * BREAKOUT. Every character must escape out of a different exit
+  * BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.
 
-**Special rules:**
+**Upon success**. Any character who reaches an Escape is not Busted. Gain $12k.
+
+{::comment}
+http://localhost:3000/?savekey=The+River|0|255|2|8|5|0|0|3|0|0|245|95|1-10,D1,D2,D3,14-20,C1,21-22,C6,23-24,Z1|195|250|S|OIBQBAogTGBKFisAwmAyqtANdrRn0PHyQBkDwARAaVzogFYLmi6BZAdRfA27-16tYATTZ1WEnqk59BxebLwKZc-gt6wsY1qsnNd4eIlKVITPdAIxeaYXQNrHeokA
+{:/comment}
+
+# County Jail: The Hole
+
+<div class="map">
+  <img src="the-hole.png">
+</div>
+
+**Objective:** At least one character reaches escape
+
+**Safe** requires 4x🧩 and contains a keycard
+
+**Special Rules**
+
+  * BREAKOUT. Every character must escape out of a different exit
+  * BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.
+
+**Upon success**. Any character who reaches an Escape is not Busted. Gain $15k.
+
+{::comment}
+http://localhost:3000/?savekey=The+Hole|180|255|9|8|4|0|0|0|0|0|205|0|1-24,Z1|125|15|P|KIZgBA4gCmwCyRtRLnIMoGExdU-K8eO2uGKAkicQNKYAyKZMuzxrpn1HsArNRmyCmQgsnoAmEdOQSGKALIB1FBIiNZ6xSrRiYy7cV1A
+{:/comment}
 
 # The Final Score
 
