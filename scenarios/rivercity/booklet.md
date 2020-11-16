@@ -47,35 +47,34 @@ Version ⏱
 
 | Opportunity           | Location            | Difficulty | Unlocks Fixer        | Page |
 | :-------------------- | :------------------ | :--------- | -------------------- | ---- |
-| The Inclusion Job     | Delinquent Jeweler  | Amateur    | Pawn Shop Owner      | TBD  |
-| The Startup Job       | Tech Lab            | Amateur    | Visage               | TBD  |
-| The Dark Horse Job    | The Track           | Amateur    | Bookie               | TBD  |
-| The Greedy Prisoner   | Estate Basement     | Semi-Pro   | The Connoisseur      | TBD  |
-| The Blind Justice Job | Courthouse          | Semi-Pro   | Beat Cop             | TBD  |
-| TBD                   |                     | Semi-Pro   | Extorted Locksmith   | TBD  |
-| TBD                   |                     | Semi-Pro   | Security Consultant  | TBD  |
-| TBD                   |                     | Semi-Pro   | Diversion Specialist | TBD  |
-| The Melee Job         | Museum of Antiquity | Semi-Pro   | The Curator          | TBD  |
-| The Side Channel      | Server Farm         | Semi-Pro   | Shell                | TBD  |
-| The                    |                     | Pro        | The Architect        | TBD  |
-| The Safehouse Rescue  | Parking Garage      | Pro        | Retired Mastermind   | TBD  |
-| The Final Score       | Interior Ministry   | Pro        | The Mayor            | TBD  |
+| The Inclusion Job     | Delinquent Jeweler  | Amateur    | Pawn Shop Owner      | 5  |
+| The Startup Job       | Tech Lab            | Amateur    | Visage               | 6  |
+| The Dark Horse Job    | The Track           | Amateur    | Bookie               | 7  |
+| The Greedy Prisoner   | Estate Basement     | Semi-Pro   | The Connoisseur      | 8  |
+| The Blind Justice Job | Courthouse          | Semi-Pro   | Beat Cop             | 9  |
+| The Melee Job         | Museum of Antiquity | Semi-Pro   | The Curator          | 10  |
+| The Side Channel      | Server Farm         | Semi-Pro   | Shell                | 11  |
+| The Hospitality Job   | Hotel Basement      | Semi-Pro   | Security Consultant  | 12  |
+| The Proving Grounds   | Rival Headquarters  | Semi-Pro   | The Machinist        | 13  |
+| The Safehouse Rescue  | Parking Garage      | Pro        | Retired Mastermind   | 14  |
+| The Black Box         | The Lair            | Pro        | The Architect        | 15  |
+| The Marathon Job      | The Vault           | Pro        | Diversion Specialist | 16  |
+| The Final Score       | Interior Ministry   | Pro        | The Mayor            | 20  |
 {:class='tabletoc'}
-
 
 Can't decide? These are some good threads:
 
 * **Gold Rules**
   - _Big payouts, just know your limits_
   - The Inclusion Job
-  - The Melee Job
   - The Greedy Prisoner
-  - TBD: Scavenger
+  - The Melee Job
+  - The Marathon Job
   - The Final Score
 * **When A Plan Comes Together**
   - _Intricate planning, satisfying results_
   - The Startup Job
-  - TBD: The Machinist
+  - The Proving Grounds
   - The Side Channel
   - The Safehouse Rescue
   - The Final Score
@@ -83,7 +82,8 @@ Can't decide? These are some good threads:
   - _The risk is the reward_
   - The Dark Horse Job
   - The Blind Justice Job
-  - _TBD_
+  - The Hospitality Job
+  - The Black Box
   - The Final Score
 {:.heistthread}
 
@@ -104,9 +104,9 @@ If a character is busted, you may simply build a new character. Alternatively, y
 
 | Opportunity | Difficulty | Unlocks Fixer | Team Reward | Page |
 | :---------- | :--------- | :-----------: | :---------: | ---- |
-| The Yard    | Semi-Pro   | Prison Guard  | $10k        | TBD  |
-| The Bricks  | Semi-Pro   | Prison Guard  | $10k        | TBD  |
-| The Hole    | Pro        | Prison Guard  | $15k        | TBD  |
+| The Yard    | Semi-Pro   | Prison Guard  | $10k        | 17  |
+| The Bricks  | Semi-Pro   | Prison Guard  | $12k        | 18  |
+| The Hole    | Pro        | Prison Guard  | $15k        | 19  |
 {:class='tabletoc'}
 
 # Pre-Built Characters
@@ -270,9 +270,6 @@ From the Beat Cop:
 http://localhost:3000/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G1,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
 {:/comment}
 
-
-
-
 # The Melee Job
 
 <div class="map map-90">
@@ -281,19 +278,18 @@ http://localhost:3000/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-
 
 You get a text from the Curator:
 
-> It would appear that some of our guards have sticky fingers. Help me with some cleaning?
+> It would appear that some of our guards have sticky fingers. Help me with some cleaning? Loot is payment.
 {:.text-message}
 
 **Objective:** Steal 3 jewels
 
-**Safe** requires 4x🧩 and contains a jewel
-
 **Special Rules**:
 
+* Safe requires 4x🧩 and contains a jewel
+* The item hex has _Safecracking Tools_
 * HELD BY GUARDS. When you draw a jewel or keycard from the bag, add a Guard from the supply to that hex
 * HELP ME WITH SOME CLEANING. Guide NPC starts with 💡💡💡 and has FANCY CARD FLICK as their special. (See NPCs in rules)
 * FANCY CARD FLICK. Use this action to throw the keycard to any hex in a straight line not interrupted by a gap, (locked) Lock, or unknown security.
-* OURS NOW. Keep any jewels stolen.
 
 **Success:** Unlock the Curator
 
@@ -388,7 +384,7 @@ You receive a text from The Machinist:
 
 {::comment}
 http://localhost:3000/design?savekey=Rival+Headquarters|0|0|3|6|6|0|0|2|0|0|20|10|1-7,C3,D1,9-11,G1,D2,13-14,C3,15-20,21,D3,23-24,Z2|15|185|S|OIBQBKHpPXUNggymAJARnQJkfJyAwmEScaUpJmXhAIK1Jq4UBCNFAqmIbgKIBWFMWqkAIgGkI5YpXzxSi2fIR9cwMcJpzG4AJIQxGiN0FQgA
-{::/comment}
+{:/comment}
 
 
 # The Safehouse Rescue
@@ -482,7 +478,7 @@ http://localhost:3000/?savekey=The+Vault|55|255|2|6|7|2|0|0|0|0|240|25|1-10,C3,A
   * BREAKOUT. Every character must escape out of a different exit
   * BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.
 
-**Upon success**. Any character who reaches an Escape is not Busted. Gain $12k.
+**Upon success**. Any character who reaches an Escape is not Busted. Gain $10k and unlock the Prison Guard
 
 
 {::comment}
@@ -502,7 +498,7 @@ http://localhost:3000/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50
   * BREAKOUT. Every character must escape out of a different exit
   * BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.
 
-**Upon success**. Any character who reaches an Escape is not Busted. Gain $12k.
+**Upon success**. Any character who reaches an Escape is not Busted. Gain $12k and unlock the Prison Guard
 
 {::comment}
 http://localhost:3000/?savekey=The+River|0|255|2|8|5|0|0|3|0|0|245|95|1-10,D1,D2,D3,14-20,C1,21-22,C6,23-24,Z1|195|250|S|OIBQBAogTGBKFisAwmAyqtANdrRn0PHyQBkDwARAaVzogFYLmi6BZAdRfA27-16tYATTZ1WEnqk59BxebLwKZc-gt6wsY1qsnNd4eIlKVITPdAIxeaYXQNrHeokA
@@ -516,14 +512,14 @@ http://localhost:3000/?savekey=The+River|0|255|2|8|5|0|0|3|0|0|245|95|1-10,D1,D2
 
 **Objective:** At least one character reaches escape
 
-**Safe** requires 4x🧩 and contains a keycard
+**Safe** requires 4x🧩 and contains the keycard
 
 **Special Rules**
 
   * BREAKOUT. Every character must escape out of a different exit
   * BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.
 
-**Upon success**. Any character who reaches an Escape is not Busted. Gain $15k.
+**Upon success**. Any character who reaches an Escape is not Busted. Gain $15k and unlock the Prison Guard
 
 {::comment}
 http://localhost:3000/?savekey=The+Hole|180|255|9|8|4|0|0|0|0|0|205|0|1-24,Z1|125|15|P|KIZgBA4gCmwCyRtRLnIMoGExdU-K8eO2uGKAkicQNKYAyKZMuzxrpn1HsArNRmyCmQgsnoAmEdOQSGKALIB1FBIiNZ6xSrRiYy7cV1A
@@ -545,15 +541,11 @@ From your old friend:
 This is a two-part heist.
 
   * Part 1. You will be stealing the government secrets from their vault, then hiding in the building itself.
+  * Once the alarm sounds for the first heist, your only escape points are the hideouts (denoted by *).  You may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.
   * Part 2. Once the alarms die down, make a break for it! Break out of all four doors by taking the Mayor hostage.
-
-Your **Old Friend** Fixer is not available for this heist.
-
-Once the alarm sounds for the first heist, your only escape points are the hideouts*.  You may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.
-
-Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
-
-Before Part 2: the two people who are on the same tile can share ideas with each other between heists.
+  * Your **Old Friend** Fixer is not available for either chapter of these heists, but other fixers may be used.
+  * Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
+  * Before Part 2: the two people who are on the same tile can share ideas with each other between heists.
 
 
 # The Final Score: Part 1
@@ -576,13 +568,13 @@ From our insider contact:
 
 **Objectives:**
 
-  * Get the documents in the safe
+  * Get the documents in the safe with a character in a hideout(*)
   * Steal $5k worth of cash
 
 **Special rules:**
 
   * TUNNEL. During planning, place an entrance in one of the designated areas.
-  * SMALL HIDEOUTS. Maximum of 2 characters per hideout
+  * SMALL HIDEOUTS. Maximum of 2 characters per hideout(*)
   * Safe requires 6x🧩 and contains the documents
   * Keycard (see rules)
   * Reinforcements (see rules)
@@ -631,7 +623,7 @@ Congratulations!
 
 * **Your final score** is equal to the amount of team cash you have at the end of this job.
 * **Unlock the Mayor as a Fixer.** The main questline of River City is complete. However, the rest of River City is still open to you.
-* **Achievements**. Be sure to check the achievements page for any updates.
+* **Achievements**. Be sure to check the achievements page!
 
 # Achievements
 
