@@ -8,6 +8,7 @@ require 'squib'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 task default: [
+  :with_color,
   :full,
   :rulebook_figures,
   :characters,
