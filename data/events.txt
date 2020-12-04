@@ -114,7 +114,7 @@ Description | Any character on a tile with an op |
             | m, a guard begins blabbing. He's n |
             | oisy, but provides useful intel.   |
 Description | Any character on a subdued Guard m |
-            | ay gain one 💡 for 🔊.               |
+            | ay gain one :idea: for :noise:.    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Overwhelmed                        |
@@ -124,7 +124,7 @@ Description | Any character on a subdued Guard m |
             |                                    |
 Description | Any character adjacent to two or m |
             | ore security tokens not handled ye |
-            | t loses one 💡 (if possible).       |
+            | t loses one :idea: (if possible).  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Door Rattles                       |
@@ -145,7 +145,8 @@ Description | Add a Guard to any tile that has a |
 Description | Un-Subdue every Guard that shares  |
             | a tile with a Character. If any Gu |
             | ard was un-subdued this way, may g |
-            | ive one💡 to any character for  🔊.  |
+            | ive one:idea: to any character for |
+            |   :noise:.                         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Cameras Rotate                     |
@@ -164,18 +165,19 @@ Description | Discard one Event if any Character |
       Story | "Hey… what if we…"                 |
 Description | Any two characters who are adjacen |
             | t or share a hex may transfer idea |
-            | s. Costs 🔊 per 💡 transferred.      |
+            | s. Costs :noise: per :idea: transf |
+            | erred.                             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Moment of Doubt                    |
         Qty | 1                                  |
       Order | 18                                 |
       Story | "Am I following the plan?"         |
-Description | Remove an idea 💡 (if possible) fro |
-            | m any Character who does not share |
-            |  a tile with another character and |
-            |  is not adjacent to another charac |
-            | ter.                               |
+Description | Remove an idea :idea: (if possible |
+            | ) from any Character who does not  |
+            | share a tile with another characte |
+            | r and is not adjacent to another c |
+            | haracter.                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hey You!                           |
@@ -194,8 +196,8 @@ Description | Add a Guard to each tile that has  |
       Story | "If you don't handle him now I'm n |
             | ot coming back for ya!"            |
 Description | Any character who shares a tile wi |
-            | th a Guard loses one 💡 (if possibl |
-            | e).                                |
+            | th a Guard loses one :idea: (if po |
+            | ssible).                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fear of the Unknown                |
@@ -205,7 +207,7 @@ Description | Any character who shares a tile wi |
             | ing"                               |
 Description | Any character who has planned tile |
             | s that are not revealed loses one  |
-            | 💡 (if possible).                   |
+            | :idea: (if possible).              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fumble the Loot                    |
@@ -236,9 +238,9 @@ Description | Un-Subdue every Subdued Guard that |
       Story | Hindsight is 2020.                 |
 Description | If your noise this round landed ex |
             | actly on this event, then one char |
-            | acter may transfer 💡 to another ch |
-            | aracter. Otherwise, this event has |
-            |  no effect.                        |
+            | acter may transfer :idea: to anoth |
+            | er character. Otherwise, this even |
+            | t has no effect.                   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Did You See Something?             |
@@ -280,7 +282,7 @@ Description | Un-Subdue every Subdued Guard that |
 Description | Any character who is not on or adj |
             | acent to any live Cameras but is a |
             | lso on or adjacent to a Guard lose |
-            | s an 💡 (if possible).              |
+            | s an :idea: (if possible).         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Tamper-Proof Cameras               |
@@ -334,8 +336,8 @@ Description | Add a Dog to the kennel, then move |
       Story | "Don't. Move."                     |
 Description | Add a Dog to the kennel, then move |
             |  it up to 3 spaces to a player cha |
-            | racter with the least number of 💡. |
-            |                                    |
+            | racter with the least number of :i |
+            | dea:.                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Oops! Gate Shut!                   |
@@ -392,7 +394,8 @@ Description | Nothing happens.                   |
       Story | "I believe in the plan. It's a sol |
             | id plan. I think."                 |
 Description | Any character on the inside that h |
-            | as 💡💡 or fewer, gains 💡💡.          |
+            | as :idea::idea: or fewer, gains :i |
+            | dea::idea:.                        |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Just Like We Planned It            |
@@ -400,6 +403,6 @@ Description | Any character on the inside that h |
       Order | M3                                 |
       Story | "Almost there!"                    |
 Description | If the heist objective has been sa |
-            | tisfied, add an 💡 to every charact |
-            | er inside.                         |
+            | tisfied, add an :idea: to every ch |
+            | aracter inside.                    |
             ╰------------------------------------╯

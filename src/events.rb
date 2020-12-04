@@ -3,7 +3,7 @@ require 'squib'
 require_relative 'util/helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx', sheet: 2) do |col, item|
-  newlineate(col, item)
+  escape_emojis(newlineate(col, item))
 end
 
 File.open('data/events.txt', 'w+') { |f| f.write data.to_pretty_text }
