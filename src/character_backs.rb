@@ -13,14 +13,11 @@ Squib::Deck.new(cards: total) do
   background color: :white
   rect layout: :cut
 
-  svg file: 'character_back.svg'
+  png file: 'cork.png', x: width, angle: Math::PI / 2
 
-  build :color do
-    png file: 'cork.png', x: width, angle: Math::PI / 2
-    svg file: 'character-back-color.svg'
-    svg file: data['Name'].map { |n| "polaroids/#{n.downcase}.svg" },
-        x: 270, y: -35, angle: 0.25
-  end
+  svg file: data['Level'].map { |lvl| lvl=='1' ? 'character-back.svg' : 'character-back-pro.svg'  }
+  svg file: data['Name'].map { |n| "polaroids/#{n.downcase}.svg" },
+      x: 270, y: -35, angle: 0.25
 
   text str: data['Name'], layout: :name
   text str: data['LevelUp1'], layout: :upgrade1
