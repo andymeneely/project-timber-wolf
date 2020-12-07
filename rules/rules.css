@@ -5,20 +5,16 @@ body{
   /* font-size: 10pt;  */
   /* text-rendering: optimizeLegibility; */
   line-height: 1.05;
+  color: #130e04;
 }
 
 @page {
-  size: 5.25in 8.5in;
-  margin: 0.25in;
-  margin-top: 0.5in;
-  /* background-image: url("../img/rules-background.svg");
+  size: 5.75in 8.75in;
+  padding: 0.5in;
+  margin: 0;
   background-size: cover;
-  background-repeat: no-repeat; */
-  /*
-  .pagenumber::after {
-  counter-increment: pagenum;
-  content: "Page " + counter(pagenum);
-  } */
+  background-image: url("../img/document-bg.svg");
+  background-repeat: no-repeat;
   @bottom-center {
     font-family: 'Archivo Black';
     font-size: 10pt;
@@ -26,6 +22,16 @@ body{
     padding: 0.5em;
     content: counter(page);
   }
+}
+
+/* Binding gutters */
+@page:left  {
+  background-position: left center;
+  padding-right: 0.875in; /* Binding gutter */
+}
+@page:right {
+  background-position: right center;
+  padding-left: 0.875in; /* Binding gutter */
 }
 
 #markdown-toc{
@@ -44,7 +50,7 @@ body{
 #markdown-toc a::after {
   content: target-counter(attr(href), page);
   float: right;
-  margin-right: 8em;
+  margin-right: 6em;
 }
 
 p{
@@ -71,11 +77,18 @@ h1{
   font-weight: normal;
   /* font-variant-caps: small-caps; */ /* Sadly Archivo black doesn't support this */
   text-align: center;
+  /* color: #4d3910; */
+  color: #130e04;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding: 0.25em;
-  background-color: black;
-  color: white;
+  background-color: #b3955438;
+  border-radius: 1em;
+
+  /* background-color: black; */
+  /* border: 0.5em solid #3d331196; */
+  /* border-radius: 1em; */
+  /* color: white; */
   /* line-height: 1; */
   clear: both;
   page-break-before: always;
@@ -84,6 +97,9 @@ h1{
 h2{
   font-family: 'Archivo Black';
   font-weight: normal;
+  /* color: #4d3910; */
+  color: #130e04;
+
   margin-top: 0.5em;
   margin-bottom: 0.15em;
   clear: both;
@@ -113,19 +129,23 @@ hr {
 }
 
 .cover{
-  /* font-family: 'Acknowledgement'; */
   page-break-after: always;
 }
 
 .title{
   font-family: 'Acknowledgement';
-  /* font-weight: bold; */
-  /* letter-spacing: 8px; */
-  /* padding-top: 1.5in; */
-  /* padding-bottom: 1.5in; */
   line-height: 1;
   text-align: center;
   font-size: 3em;
+}
+
+.title-img {
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+.title-img img{
+  width: 100%;
+  margin: 0;
 }
 
 table.security-table {
@@ -141,11 +161,13 @@ table.security-table {
 }
 
 .example{
-  background-color: #ccc;
+  /* background-color: #ccc; */
+  background-color: #7c9ca0bb;
+  /* background-color: #7C9CA0; */
+  border-left: 3pt solid #0E3D44;
   border-radius: 0.5em;
-  margin-left: 15pt;
-  margin-right: 15pt;
-  border-left: 3pt solid #888888;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
   padding: 0.5em;
   page-break-inside: avoid;
 }
@@ -160,27 +182,16 @@ img.img-right{
   margin-left: 0.5em;
 }
 
+img.full{
+  margin: 0;
+  width: 100%;
+}
+
 .tip{
-  margin-left: 15pt;
-  border-left: 3pt double #888888;
+  margin-left: 0.75em;
+  border-left: 3pt double #24154C;
   padding-left: 2pt;
   page-break-inside: avoid;
-}
-
-.flex-container ul{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  text-align: center;
-  page-break-inside: avoid;
-}
-
-.flex-container li{
-  max-width: 135px;
-  list-style: none;
-  border: 1pt solid black;
-  page-break-inside: avoid;
-  margin-bottom: 0px
 }
 
 ol.gameplay-structure{
@@ -279,6 +290,8 @@ ol.gameplay-structure{
 
 .med_fig img {
   width: 10em;
+  /* border: 1pt solid black; */
+  box-shadow: 1em 1em 1em #444444;
 }
 
 .xl_fig img {
@@ -313,8 +326,6 @@ ol.gameplay-structure{
 .subactions li {
   list-style: none;
 }
-
-
 
 .figure_list {
   list-style: none;

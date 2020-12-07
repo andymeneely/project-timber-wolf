@@ -1,7 +1,5 @@
-Masters of the Heist
-{:.title}
-
-_Masters of the Heist_ is a cooperative heist game.
+![title](../img/title.svg)
+{:.title-img}
 
 You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings, making friends along the way.
 
@@ -157,7 +155,7 @@ Security Chits are obstacles your team will encounter. Some will be known when y
 |:------:|:----------------------------------------:|:--------------------------------------------------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Guard  |  ![guard](fig_chit_guard.png)<br>Guard   |    ![subdued](fig_chit_subdued.png)<br>Subdued     | _Slows you down_. If you share a space with a Guard, you may not leave the tile until he is Subdued. You may move into a space with a Guard.                                            |
 |  Lock  | ![locked](fig_chit_locked.png)<br>Locked |   ![unlocked](fig_chit_unlocked.png)<br>Unlocked   | _Prevents passage._ You may not enter a Locked tile. You may exit a locked tile if it was re-locked while you were on it.                                                               |
-| Camera |   ![live](fig_chit_camera.png)<br>Live   | ![disabled](fig_chit_disconnected.png)<br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but raise an Alert (⚠) by 1. If a Disabled camera is powered back on while a character is on it, raise an Alert (⚠) by 1. |
+| Camera |   ![live](fig_chit_camera.png)<br>Live   | ![disabled](fig_chit_disconnected.png)<br>Disabled | _Increases Alerts._ You may enter a space with a Live Camera, but raise an Alert ⚠ (i.e. discard the top Event card). If a Disabled camera is powered back on while a character is on it, discard on Event card per character. |
 {:.security-table}
 
 **More chits in the back.** Other chits that go into the security bag can be found in the back of the rulebook. Any circle-shaped chit may at some point go into the security bag.
@@ -178,8 +176,6 @@ Skills and Characters allow you to take Actions. Most Actions are a grouping of 
 * 🔊 is Increase the **Noise** level by 1 (Required)
 * ⚠ is  **Alert**. Discard the top Event card. (Required)
 {:.subactions}
-
----
 
 ## Characters
 
@@ -264,7 +260,7 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 ![cheap picks card](fig_item.png)
 {:.card-landscape .card-right .rotate-left}
 
-**Items are like transferrable skills**. Item cards have passive abilities and actions (like Character or Skill cards), except they can be transferred just like any other Loot.
+**Items are like transferrable skills**. Item cards can have passive abilities and/or actions (like Character or Skill cards), except they can be transferred just like any other Loot.
 
 **Not Ours Until It's Out**. When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.
 
@@ -398,14 +394,13 @@ When the Escape Phase starts, all Security chits are revealed. Then, in any orde
 
 **Insta-transfers**. You MAY pick up or drop off loot during the Escape Phase, even during Last Ditch Effort.
 
-*Last Ditch Effort example.* Mark the Mastermind has 💡💡💡 and escape is initiated. He calculates he needs 7 Escape Moves. He uses his 💡💡💡 and now he needs 3 Escape Moves. So, for his last ditch effort he rolls his die and gets a 2. He's now Busted at the door with the loot, and the heist appears to be lost. BUT! Sally the Script Kiddie realizes she has 💡💡 and decides to run in and get the loot from Mark. She gets the loot, and the heist succeeds. Mark is still Busted, however.
+*Last Ditch Effort example.* Mark the Mastermind has 💡💡💡 and escape is initiated. He calculates he needs 7 Escape Moves. He uses his 💡💡💡 and now he needs 4 Escape Moves. So, for his last ditch effort he rolls his die and gets a 3. He's now Busted at the door with the loot, and the heist appears to be lost. BUT! Sally the Script Kiddie realizes she still has 💡💡 and decides to run in and get the loot from Mark. She gets the loot, and the heist succeeds with. Mark is still Busted, however.
 {:.example}
 
 *Costly abilities example:* VENT CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed
 {:.example}
 
-<img src="../img/figure_escape.svg" class="img-right"><br>
-*Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.
+*Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted. <img src="../img/figure_escape.svg" class="full">
 {:.example}
 
 ### Busted
@@ -423,13 +418,13 @@ If you are Busted, you are out of gameplay for the rest of this Heist. All loot 
 
 # Campaign
 
-**Your box is your universe.** Every time a new character is built, they must be named and their status tracked on the **Character Sheet**.
+**Your box is your universe.** Every time a new character is built, they must be named and their status tracked on their **Character Sheet**.
 
 ## Named Characters
 
 A **named character** is a pairing of one character and two skill cards.
 
-For example, Josh has a character named *Cam* who is a *Tinkerer* with *Assault* and *Smash 'n' Grab*. Cam's character class *Shutter Bug* and skill classes are *Hit 'n' Run* and *Smash 'n' Grab*.
+For example, Josh has a character named *Cam* who is a *Tinkerer* with *Assault* and *Smash 'n' Grab*.
 {:.example}
 
 **Peristent Statuses**. A named character's status, such as "Busted", persists between games. Individual scenarios may assign statuses to named characters based on the outcome of a heist attempt.
@@ -475,7 +470,7 @@ For example, a Grease Man and a Burglar cannot be in the same heist.
 
 **Conflicting Skills**. Named characters are only compatible with each other if the components are available.
 
-For example, the named characters Larry, Curly, and Moe all have _Wing It_ as a skill, but the game has only two _Wing It_ cards. A heist may only have two of those characters.
+For example, the named characters Larry, Curly, and Moe all have _Wing It_ as a skill, but the game has only two _Wing It_ cards. A heist may only have two of those characters, though they all may exist in your universe.
 {:.example}
 
 # Additional Modules
@@ -485,7 +480,9 @@ For example, the named characters Larry, Curly, and Moe all have _Wing It_ as a 
 ![remote lock](fig_hex_remote_lock_x.png)
 {:.example-right .hexchit .rotate-left}
 
-You may not enter a tile with a Remote Lock chit on it. If you are on a tile with a pressure sensor already (e.g. at the beginning of a heist), you may not ➜🔓👊📷, but you may 💡💰🔍 if actions allow it and 🔊⚠  are still required.
+You may not enter a tile with a Remote Lock chit on it.
+
+**Starting Imprisoned**. If you are locked within a remote lock tile at the beginning of a heist, you may not ➜🔓👊📷, but you may 💡💰🔍 if actions allow it and 🔊⚠  are still required.
 
 ![remote lock](fig_hex_server-x.png)
 {:.example-right .hexchit .rotate-right}
@@ -550,8 +547,6 @@ Any planning tokens on a locked down hex may be immediately re-planned.
 Any other pieces on the locked down hex is removed from the board.
 
 All Lockdown Gates are removed at the start of the Escape phase.
-
----
 
 ## Keycard
 
