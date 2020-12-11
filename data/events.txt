@@ -4,7 +4,7 @@
       Order | 1                                  |
       Story | How did we miss those?             |
 Description | Add three Cameras to the security  |
-            | bag.                               |
+            | bag                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Get Outta My Way!                  |
@@ -14,7 +14,7 @@ Description | Add three Cameras to the security  |
             | NE tripped over me."               |
 Description | Discard two Events for each Entran |
             | ce tile with at least two Characte |
-            | rs.                                |
+            | rs                                 |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Caught in a Reflection             |
@@ -24,7 +24,7 @@ Description | Discard two Events for each Entran |
             | ees movement in a reflection and l |
             | ooks a little closer.              |
 Description | Discard one Event if any Character |
-            |  is adjacent to a Live Camera.     |
+            |  is adjacent to a Live Camera      |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Suspicious Guards                  |
@@ -33,7 +33,7 @@ Description | Discard one Event if any Character |
       Story | Guards start looking around.       |
 Description | Discard one Event if any Character |
             |  is adjacent to an Unsubuded Guard |
-            | .                                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard Locks Himself In             |
@@ -44,7 +44,7 @@ Description | Discard one Event if any Character |
             |                                    |
 Description | Add a Lock to every hex with an un |
             | subdued Guard adjacent to a charac |
-            | ter.                               |
+            | ter                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Huh, Didn't See Those              |
@@ -52,8 +52,7 @@ Description | Add a Lock to every hex with an un |
       Order | 6                                  |
       Story | You underestimated how many locks  |
             | were around here.                  |
-Description | Add two Locks to the security bag. |
-            |                                    |
+Description | Add two Locks to the security bag  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shadows in the Window              |
@@ -63,7 +62,7 @@ Description | Add two Locks to the security bag. |
             | xpected outsider who calls it in.  |
 Description | Discard one Event if any Character |
             |  is on a hex with an external side |
-            | .                                  |
+            |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Surveillance Reboot                |
@@ -72,8 +71,7 @@ Description | Discard one Event if any Character |
       Story | The camera system notices multiple |
             |  blackouts and reboots.            |
 Description | Re-enable every Disabled Camera ad |
-            | jacent to another Disabled Camera. |
-            |                                    |
+            | jacent to another Disabled Camera  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Double Camera                      |
@@ -83,7 +81,7 @@ Description | Re-enable every Disabled Camera ad |
             | ras.                               |
 Description | Add a Live Camera to any tile that |
             |  already has a Live Camera and is  |
-            | adjacent to a character.           |
+            | adjacent to a character            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Increased Suspicion                |
@@ -94,7 +92,7 @@ Description | Discard one Event if any Character |
             |  is adjacent to at least one Unsub |
             | dued Guard. Discard one Event if a |
             | ny Character is adjacent to a Live |
-            |  Camera.                           |
+            |  Camera                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Oops! Re-locked                    |
@@ -103,8 +101,7 @@ Description | Discard one Event if any Character |
       Story | The one time you don't want to loc |
             | k things behind you.               |
 Description | Any character on a tile with an op |
-            | en Lock must re-lock it. Note: cha |
-            | racters may exit a locked tile.    |
+            | en Lock must re-lock it            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard Starts Blabbing              |
@@ -114,7 +111,7 @@ Description | Any character on a tile with an op |
             | m, a guard begins blabbing. He's n |
             | oisy, but provides useful intel.   |
 Description | Any character on a subdued Guard m |
-            | ay gain one :idea: for :noise:.    |
+            | ay gain one :idea: for :noise:     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Overwhelmed                        |
@@ -124,7 +121,7 @@ Description | Any character on a subdued Guard m |
             |                                    |
 Description | Any character adjacent to two or m |
             | ore security tokens not handled ye |
-            | t loses one :idea: (if possible).  |
+            | t loses one :idea: (if possible)   |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Door Rattles                       |
@@ -134,7 +131,7 @@ Description | Any character adjacent to two or m |
             |  see if it opens.                  |
 Description | Add a Guard to any tile that has a |
             |  (locked) Lock on it and is adjace |
-            | nt to a character.                 |
+            | nt to a character                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | I Thought I Had Him                |
@@ -146,7 +143,7 @@ Description | Un-Subdue every Guard that shares  |
             | a tile with a Character. If any Gu |
             | ard was un-subdued this way, may g |
             | ive one:idea: to any character for |
-            |   :noise:.                         |
+            |   :noise:                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Cameras Rotate                     |
@@ -156,7 +153,7 @@ Description | Un-Subdue every Guard that shares  |
 Description | Discard one Event if any Character |
             |  is adjacent to a Live Camera, two |
             |  events if two Characters are adja |
-            | cent to a Live Camera.             |
+            | cent to a Live Camera              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Stage Whisper                      |
@@ -166,7 +163,7 @@ Description | Discard one Event if any Character |
 Description | Any two characters who are adjacen |
             | t or share a hex may transfer idea |
             | s. Costs :noise: per :idea: transf |
-            | erred.                             |
+            | erred                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Moment of Doubt                    |
@@ -177,7 +174,7 @@ Description | Remove an idea :idea: (if possible |
             | ) from any Character who does not  |
             | share a tile with another characte |
             | r and is not adjacent to another c |
-            | haracter.                          |
+            | haracter                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hey You!                           |
@@ -187,7 +184,7 @@ Description | Remove an idea :idea: (if possible |
             | , don't they?"                     |
 Description | Add a Guard to each tile that has  |
             | a Character adjacent to at least o |
-            | ne Live Camera.                    |
+            | ne Live Camera                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Hurry Up!                          |
@@ -197,7 +194,7 @@ Description | Add a Guard to each tile that has  |
             | ot coming back for ya!"            |
 Description | Any character who shares a tile wi |
             | th a Guard loses one :idea: (if po |
-            | ssible).                           |
+            | ssible)                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fear of the Unknown                |
@@ -207,7 +204,7 @@ Description | Any character who shares a tile wi |
             | ing"                               |
 Description | Any character who has planned tile |
             | s that are not revealed loses one  |
-            | :idea: (if possible).              |
+            | :idea: (if possible)               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Fumble the Loot                    |
@@ -219,7 +216,7 @@ Description | Any indoor character with loot tha |
             | t is not part of the heist objecti |
             | ve must place it on an adjacent he |
             | x with no Guards. If this is not p |
-            | ossible, lose the loot.            |
+            | ossible, lose the loot             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Ties Broke!                        |
@@ -229,18 +226,18 @@ Description | Any indoor character with loot tha |
             |  been raised, the Guards begin esc |
             | aping their bonds.                 |
 Description | Un-Subdue every Subdued Guard that |
-            |  shares a tile with a Character.   |
+            |  shares a tile with a Character    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Coming In Hot!                     |
         Qty | 1                                  |
       Order | 24                                 |
       Story | Hindsight is 2020.                 |
-Description | If your noise this round landed ex |
-            | actly on this event, then one char |
-            | acter may transfer :idea: to anoth |
-            | er character. Otherwise, this even |
-            | t has no effect.                   |
+Description | If you caused more :alert: beyond  |
+            | this card, then this card does not |
+            | hing. Otherwise, one character may |
+            |  transfer :idea: to another charac |
+            | ter.                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Did You See Something?             |
@@ -250,7 +247,7 @@ Description | If your noise this round landed ex |
             | re closely now.                    |
 Description | Add a Guard to each tile that has  |
             | a Character adjacent to at least o |
-            | ne Live Camera.                    |
+            | ne Live Camera                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Where is He?                       |
@@ -270,7 +267,7 @@ Description | Add a Guard to every hex with a Li |
             |  been raised, the Guards begin esc |
             | aping their bonds.                 |
 Description | Un-Subdue every Subdued Guard that |
-            |  shares a tile with a Character.   |
+            |  shares a tile with a Character    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Their Word Against Yours           |
@@ -282,7 +279,7 @@ Description | Un-Subdue every Subdued Guard that |
 Description | Any character who is not on or adj |
             | acent to any live Cameras but is a |
             | lso on or adjacent to a Guard lose |
-            | s an :idea: (if possible).         |
+            | s an :idea: (if possible)          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Tamper-Proof Cameras               |
@@ -291,7 +288,7 @@ Description | Any character who is not on or adj |
       Story | You notice that they have done som |
             | e recent hardware upgrades.        |
 Description | Replace a Camera in the bag with a |
-            |  2x Camera.                        |
+            |  2x Camera                         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Are Those New Locks?               |
@@ -299,7 +296,7 @@ Description | Replace a Camera in the bag with a |
       Order | B2                                 |
       Story | "I don't remember seeing those"    |
 Description | Replace a Lock in the bag with a 2 |
-            | x Lock.                            |
+            | x Lock                             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Big Guard                          |
@@ -308,7 +305,7 @@ Description | Replace a Lock in the bag with a 2 |
       Story | "Wow, she looks much bigger up clo |
             | se"                                |
 Description | Replace a Guard in the bag with a  |
-            | 2x Guard.                          |
+            | 2x Guard                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Sick Him!                          |
@@ -317,8 +314,8 @@ Description | Replace a Guard in the bag with a  |
       Story | "Man's best friend. Right now I wi |
             | sh I was that man."                |
 Description | Add a Dog to the kennel, then move |
-            |  it up to 3 spaces to the nearest  |
-            | character.                         |
+            |  it up to 3 spaces toward the near |
+            | est character                      |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard the Loot Boy!                |
@@ -326,8 +323,8 @@ Description | Add a Dog to the kennel, then move |
       Order | D2                                 |
       Story | "Hey where are those dogs going?"  |
 Description | Add a Dog to the kennel, then move |
-            |  it up to 3 spaces to the nearest  |
-            | hex with loot.                     |
+            |  it up to 3 spaces toward the near |
+            | est hex with loot                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | They Can Sense Your Fear           |
@@ -335,19 +332,18 @@ Description | Add a Dog to the kennel, then move |
       Order | D3                                 |
       Story | "Don't. Move."                     |
 Description | Add a Dog to the kennel, then move |
-            |  it up to 3 spaces to a player cha |
-            | racter with the least number of :i |
-            | dea:.                              |
+            |  it up to 3 spaces toward a player |
+            |  character with the least number o |
+            | f :idea:                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Oops! Gate Shut!                   |
+       Name | Shut the Gate!                     |
         Qty | 1                                  |
       Order | G1                                 |
       Story | An automatic system initiates, clo |
             | sing the next lockdown gate.       |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a Charac |
-            | ter is on it, they are Busted.     |
+Description | Remove the next Lockdown Gate, sta |
+            | rting with "A"                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | More Gates Shut!!                  |
@@ -355,10 +351,8 @@ Description | Close the next Gate, starting with |
       Order | G2                                 |
       Story | An automatic system initiates, clo |
             | sing the next two lockdown gates.  |
-Description | Close the next two Gates, starting |
-            |  with "A". Remove the tile. If a C |
-            | haracter is on it, they are Busted |
-            | .                                  |
+Description | Remove the next two Lockdown Gates |
+            | , starting with "A"                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Unexpected Lock                    |
@@ -368,7 +362,7 @@ Description | Close the next two Gates, starting |
             | e??"                               |
 Description | Add one Lock token to the next ava |
             | ilable lockdown gate, starting wit |
-            | h "A".                             |
+            | h "A"                              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Check that Gate                    |
@@ -377,7 +371,7 @@ Description | Add one Lock token to the next ava |
       Story | "Go check on that gate"            |
 Description | Add one Guard token to the next av |
             | ailable lockdown gate, starting wi |
-            | th "A".                            |
+            | th "A"                             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | According to Plan                  |
@@ -385,7 +379,7 @@ Description | Add one Guard token to the next av |
       Order | M1                                 |
       Story | "See, it's all going according to  |
             | plan"                              |
-Description | Nothing happens.                   |
+Description | Nothing happens                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Confidence in the Plan             |
@@ -393,9 +387,9 @@ Description | Nothing happens.                   |
       Order | M2                                 |
       Story | "I believe in the plan. It's a sol |
             | id plan. I think."                 |
-Description | Any character on the inside that h |
-            | as :idea::idea: or fewer, gains :i |
-            | dea::idea:.                        |
+Description | Any character on the inside who ha |
+            | s :idea::idea: or fewer, gains :id |
+            | ea::idea:                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Just Like We Planned It            |
@@ -404,5 +398,5 @@ Description | Any character on the inside that h |
       Story | "Almost there!"                    |
 Description | If the heist objective has been sa |
             | tisfied, add an :idea: to every ch |
-            | aracter inside.                    |
+            | aracter inside                     |
             ╰------------------------------------╯
