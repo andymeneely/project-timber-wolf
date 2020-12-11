@@ -1,0 +1,1 @@
+This folder is for stuff that I prepare for TGC specifically. I don't have the actual PNGs stored, but you can export them from the SVGs.
