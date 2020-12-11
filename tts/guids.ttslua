@@ -33,9 +33,6 @@ lockdown_b_bag_guid = 'bc7517'
 lockdown_c_bag_guid = '0362df'
 lockdown_d_bag_guid = '042806'
 
-event_deck_loading_zone_guid = 'cb015a'
-crisis_deck_loading_zone_guid = '962aff'
-
 event_deck_bag_guid = 'e8b3d7'
 crisis_deck_bag_guid = 'e946c3'
 character_deck_bag_guid = 'd1554d'

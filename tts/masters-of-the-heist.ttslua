@@ -41,8 +41,3 @@ function toggleCustom()
     UI.show('custom-panel')
   end
 end
-
-function onObjectEnterScriptingZone(zone, obj)
-  if zone.guid == event_deck_loading_zone_guid then reloadEventDeck(obj) end
-  if zone.guid == crisis_deck_loading_zone_guid then reloadCrisisDeck(obj) end
-end
