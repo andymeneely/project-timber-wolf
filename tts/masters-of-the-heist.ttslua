@@ -10,6 +10,7 @@ require("download-game-data")
 
 function onLoad()
   broadcastToAll("Welcome to Master of the Heist!!")
+  assignHotkeys()
 end
 
 function toggleDrawer()
@@ -40,4 +41,22 @@ function toggleCustom()
   else
     UI.show('custom-panel')
   end
+end
+
+function assignHotkeys()
+  addHotkey("Shuffle & Draw Security Chit", drawSecurityChit, false)
+end
+
+function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
+  local bag = getObjectFromGUID(security_bag_guid)
+  if #bag.getObjects() <= 0 then
+    broadcastToAll("Security Bag Empty!")
+    return
+  end
+  local pos = world_position
+  pos.y = 3
+  bag.takeObject({
+    position = pos,
+    rotation = {x=0, y = 180 , z=0},
+  })
 end
