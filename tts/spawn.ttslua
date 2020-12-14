@@ -32,38 +32,38 @@ function respawnChits()
   spawnRectChit("chit_5k.png", "chit_5k.png", "$5k")
   spawnRectChit("chit_idea.png", "chit_idea.png", "Idea")
 
-  spawnHexChit("hex_watchtower.png", "hex_watchtower.png", "")
-  spawnHexChit("hex_server-x.png", "hex_server-x.png", "")
-  spawnHexChit("hex_server-y.png", "hex_server-y.png", "")
-  spawnHexChit("hex_reinforcements.png", "hex_reinforcements.png", "")
-  spawnHexChit("hex_remote_lock_x.png", "hex_remote_lock_x.png", "")
-  spawnHexChit("hex_remote_lock_y.png", "hex_remote_lock_y.png", "")
-  spawnHexChit("hex_keycard-lock.png", "hex_keycard-lock.png", "")
-  spawnHexChit("hex_lockdown_A.png", "hex_lockdown_A.png", "")
-  spawnHexChit("hex_lockdown_B.png", "hex_lockdown_B.png", "")
-  spawnHexChit("hex_lockdown_C.png", "hex_lockdown_C.png", "")
-  spawnHexChit("hex_lockdown_D.png", "hex_lockdown_D.png", "")
-  spawnHexChit("hex_kennel.png", "hex_kennel.png", "")
-  spawnHexChit("hex_safe.png", "hex_safe.png", "")
-  spawnHexChit("hex_item.png", "hex_item.png", "")
+  spawnHexChit("hex_watchtower.png", "hex_watchtower.png", "Watchtower")
+  spawnHexChit("hex_server-x.png", "hex_server-x.png", "Server X")
+  spawnHexChit("hex_server-y.png", "hex_server-y.png", "Server Y")
+  spawnHexChit("hex_reinforcements.png", "hex_reinforcements.png", "Reinforcements")
+  spawnHexChit("hex_remote_lock_x.png", "hex_remote_lock_x.png", "Remote Lock X")
+  spawnHexChit("hex_remote_lock_y.png", "hex_remote_lock_y.png", "Remote Lock Y")
+  spawnHexChit("hex_keycard-lock.png", "hex_keycard-lock.png", "Keycard Door")
+  spawnHexChit("hex_lockdown_A.png", "hex_lockdown_A.png", "Lockdown Gate A")
+  spawnHexChit("hex_lockdown_B.png", "hex_lockdown_B.png", "Lockdown Gate B")
+  spawnHexChit("hex_lockdown_C.png", "hex_lockdown_C.png", "Lockdown Gate C")
+  spawnHexChit("hex_lockdown_D.png", "hex_lockdown_D.png", "Lockdown Gate D")
+  spawnHexChit("hex_kennel.png", "hex_kennel.png", "Kennel")
+  spawnHexChit("hex_safe.png", "hex_safe.png", "Safe")
+  spawnHexChit("hex_item.png", "hex_item.png", "Item")
 end
 
 function respawnHexes()
-  spawnChit("chit_entrance.png", "chit_entrance.png", "", 3, 1.0, 0)
-  spawnHexTile('hex_tile_front.png', 'hex_tile_back.png', "")
+  spawnChit("chit_entrance.png", "chit_entrance.png", "Entrance/Exit", 3, 1.0, 0)
+  spawnHexTile('hex_tile_front.png', 'hex_tile_back.png', "Hex Tile")
 end
 
 function respawnTrackers()
   spawnTracker("tracker_00.png", "Noise Tracker (3P)")
   spawnTracker("tracker_01.png", "Noise Tracker (4P)")
-  spawnCard("help_front_00.png", "help_back_00.png", "Player help")
+  spawnCard("help_front_00.png", "help_back_00.png", "Game Help")
 end
 
 function respawnPlanning()
-  spawnPlanChit('chit_planning_green.png', 'chit_planning_green.png', "")
-  spawnPlanChit('chit_planning_blue.png', 'chit_planning_blue.png', "")
-  spawnPlanChit('chit_planning_purple.png', 'chit_planning_purple.png', "")
-  spawnPlanChit('chit_planning_red.png', 'chit_planning_red.png', "")
+  spawnPlanChit('chit_planning_green.png', 'chit_planning_green.png', "Green Planning Token")
+  spawnPlanChit('chit_planning_blue.png', 'chit_planning_blue.png', "Blue Planning Token")
+  spawnPlanChit('chit_planning_purple.png', 'chit_planning_purple.png', "Purple Planning Token")
+  spawnPlanChit('chit_planning_red.png', 'chit_planning_red.png', "Red Planning Token")
 end
 
 function respawnEvents()
@@ -93,12 +93,12 @@ function respawnItems()
 end
 
 
-function spawnRectChit(front, back)   spawnChit(front, back, name, 3, 0.65, 0) end
-function spawnCard(front, back)       spawnChit(front, back, name, 3, 1.2, 0) end
-function spawnHexChit(front, back)    spawnChit(front, back, name, 1, 1.75, 30) end
-function spawnHexTile(front, back)    spawnChit(front, back, name, 1, 2.1, 30) end
-function spawnPlanChit(front, back)   spawnChit(front, back, name, 1, 0.6, 60) end
-function spawnCircleChit(front, back) spawnChit(front, back, name, 2, 1.0, 0) end
+function spawnRectChit(front, back, name)   spawnChit(front, back, name, 3, 0.65, 0) end
+function spawnCard(front, back, name)       spawnChit(front, back, name, 3, 1.2, 0) end
+function spawnHexChit(front, back, name)    spawnChit(front, back, name, 1, 1.75, 30) end
+function spawnHexTile(front, back, name)    spawnChit(front, back, name, 1, 2.1, 30) end
+function spawnPlanChit(front, back, name)   spawnChit(front, back, name, 1, 0.6, 60) end
+function spawnCircleChit(front, back, name) spawnChit(front, back, name, 2, 1.0, 0) end
 
 function spawnChit(front, back, name, tile_type, s, r)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
@@ -110,8 +110,8 @@ function spawnChit(front, back, name, tile_type, s, r)
     position = {x=chit_x, y=15, z=chit_z},
     rotation = {x=0, y = 180 - r, z=0},
     scale = {x=s, y=s, z=s},
+    callback_function = function(newObj) newObj.setName(name) end
   })
-  obj.setName(name)
   obj.setCustomObject({
     type ="Custom_Tile",
     type = tile_type, -- circlef
@@ -121,6 +121,8 @@ function spawnChit(front, back, name, tile_type, s, r)
     stackable = false,
   })
 end
+
+
 
 function spawnTracker(front, name)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
@@ -134,7 +136,7 @@ function spawnTracker(front, name)
     position = {x=tracker_x, y=tracker_y, z=tracker_z},
     rotation = {x=0, y = 180, z=0},
     scale = {x=s, y=s, z=s},
-    callback_function = |obj| obj.setName(name)
+    callback_function = |newObj| newObj.setName(name)
   })
   obj.setCustomObject({
     type ="Custom_Tile",
@@ -206,18 +208,19 @@ function spawnTracker(front, name)
     type = "go_game_piece_white",
     position = {x=tracker_x + ul_x, y=tracker_y + 3, z=tracker_z + ul_z},
     scale = {x=0.5, y=0.5, z=0.5},
+    callback_function = |newObj| newObj.setName("Noise Tracker")
   })
 end
 
-function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, n, deck_y, -10, 1) end
-function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, n, 15, -15, 0.72) end
-function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, n, 15, -20, 1) end
-function spawnSkillDeck(front, back, n)         spawnDeck(front, back, n, 15, -25, 0.72) end
-function spawnItemDeck(front, back, n)          spawnDeck(front, back, n, 15, -30, 0.72) end
-function spawnFixerDeck(front, back, n)         spawnDeck(front, back, n, 15, -32, 1 ) end
-function spawnNPCDeck(front, back, n)           spawnDeck(front, back, n, 15, -35, 1 ) end
+function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, "Events", n, deck_y, -10, 1) end
+function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, "Crises", n, 15, -15, 0.72) end
+function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, "Characters", n, 15, -20, 1) end
+function spawnSkillDeck(front, back, n)         spawnDeck(front, back, "Skills", n, 15, -25, 0.72) end
+function spawnItemDeck(front, back, n)          spawnDeck(front, back, "Items", n, 15, -30, 0.72) end
+function spawnFixerDeck(front, back, n)         spawnDeck(front, back, "Fixers", n, 15, -32, 1 ) end
+function spawnNPCDeck(front, back, n)           spawnDeck(front, back, "NPCs", n, 15, -35, 1 ) end
 
-function spawnDeck(front, back, n, deck_y, deck_z, s)
+function spawnDeck(front, back, name, n, deck_y, deck_z, s)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
   local deck_x = -48
   local random_url_arg = "?v=" .. math.random() -- break the image cache on TTS
@@ -226,6 +229,7 @@ function spawnDeck(front, back, n, deck_y, deck_z, s)
     position = {x=deck_x, y=deck_y, z=deck_z},
     rotation = {x=0, y = 180, z=0},
     scale = {x=s, y=s, z=s},
+    callback_function = |newObj| newObj.setName(name)
   })
   obj.setCustomObject({
     face = url .. front .. random_url_arg,
