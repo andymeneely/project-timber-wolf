@@ -58,5 +58,6 @@ function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
   bag.takeObject({
     position = pos,
     rotation = {x=0, y = 180 , z=0},
+    callback_function = function(obj) broadcastToAll(obj.getName() .. " revealed" ) end
   })
 end
