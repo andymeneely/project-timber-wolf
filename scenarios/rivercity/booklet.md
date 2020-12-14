@@ -89,7 +89,7 @@ Can't decide? These are some good threads:
 
 # County Jail Opportunities
 
-> Busted? Minor occupational hazard.
+> Busted? Occupational hazard. Just another obstacle.
 {:class="text-message"}
 
 If a character is busted, you may simply build a new character. Alternatively, your team my opt to rescue you. Even if the entire team is busted, you may opt for a breakout using these rules.
@@ -157,7 +157,7 @@ From the Pawn Shop Owner:
 **Success Unlocks:** Pawn Shop Owner
 
 {::comment}
-http://localhost:3000/design/?savekey=Delinquent+Jeweler|55|5|5|6|4|0|0|0|0|0|20|15|1-8,G1,9-12,C3,13-14,G3,C3,15-21,C1,Z2|35|225|A|OIBQBKHpPXUNo8ASATGFBGZulIGUBhCE4sc-ebMAKQHUwiNKBBMAUQFlOBWPcNwgARCiWAAhMdKoIG0yuABKHTjw79ZkIZHJ7x8WfMXSaWwxbUDrSDjnNA
+http://localhost:3000/design/?savekey=Delinquent+Jeweler|5|265|5|6|4|0|0|0|0|0|5|140|1-8,G1,9-12,C3,13-14,G3,C3,15-21,C1,Z2|15|10|A|OIBQBKHpAkBMYYEYqsu64DKBhCfcxCM1xkwApAdTBwWIEEwBRAWRYFZU2IARIvMABCA0SRLVRxcACVmLdsy4kekQusGZSqSdNHlxWle0PbTzFIaA
 {:/comment}
 
 # The Startup Job
@@ -181,7 +181,7 @@ From Visage:
 **Success Unlocks:** Visage
 
 {::comment}
-http://localhost:3000/design/?savekey=Tech+Lab|110|5|3|6|6|0|0|0|0|0|15|220|1-12,C2,13-18,C2,19-24,Z1|190|245|A|OIBQBKYumz8QQaQMIBlGcqsASAzFggMopgoCyYp1ZATMBmnUeVWgPJgDqAKngEZawuKxo1RfEQkiVpg4RJnhcLcWXVgAolVF7wO1loBsrfZhNn4QA
+http://localhost:3000/?savekey=The+Track|125|75|5|3|5|0|0|1|0|0|95|210|1-7,D1,D2,D3,8-12,C7,13-20,C6,21-24,Z1|225|235|A|KIZgBA4gCmAk7TAZQBpgCIHkwCYDCAMmAEoCa6yeYwAspfUlThEY5OhBYm1pDIgJh46iWDnrE0SUn3qDZPbPOFyYbdVXj1asxMACMu-sdnAAbEcvzBQA
 {:/comment}
 
 # The Dark Horse Job
@@ -236,7 +236,7 @@ From The Connoisseur:
 **Success Unlocks:** The Connoisseur
 
 {::comment}
-http://localhost:3000/design/?savekey=Estate+Basement|50|230|2|6|5|0|0|2|0|0|105|135|1-8,D1,9-15,C6,16-18,D2,C4,C5,A1,A4,19-20,21-24,Z1|90|200|S|OIBQBKHpAkDMVH0ZV4DKANM6DCYAlTAWTACkB1HfPHbNJAJjABEB5RdATU-wYdqUU0DHxG9qrANKFsQgj1q1IjYGOEaVwADIal6-uP2IAoqUObwZjSYCMlh5BMA2R+IuGgA
+http://localhost:3000/design/?savekey=Estate+Basement|50|255|2|6|5|0|0|2|0|0|105|145|1-8,D1,9-15,C6,16-18,D2,C4,C5,A1,A4,19-20,21-24,Z1|90|210|S|OIBQBKHpAkDMVH0ZSBlAGmNBhMAlDAWTACkB1bPXbLVcGAJjABEB5RNATU73t7KV+6PtHA0aLANIEsFAjwl5GwUSjHqwKgDICawjSKpgAoiQObIZxCYCMlw49MA2IA
 {:/comment}
 
 {::comment}
@@ -267,7 +267,7 @@ From the Beat Cop:
 **Success Unlocks:** Beat Cop, Gain $5k
 
 {::comment}
-http://localhost:3000/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G1,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeACR5JqMv2EDgHVb24AhARJQnyk-rrOm0ANiA
+http://localhost:3000/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G1,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeAJLlJwMv2EDgHVb24AhARJQmVp-rrPk0ANiA
 {:/comment}
 
 # The Melee Job
@@ -294,7 +294,7 @@ You get a text from the Curator:
 **Success:** Unlock the Curator
 
 {::comment}
-http://localhost:3000/design?savekey=Museum+of+Antiquity|5|255|3|4|4|3|1|0|0|0|275|55|1-13,C5,14-24,C4,Z1|90|0|S|OIBQBAogzGq+c4QCzzUgsmATMAMmACQx7aRaIJVgDKAwrQ-Y7AIwDS564zl3LfOHSy9qcZqLQQs7OgQCSYWQQkNB1afzplNw-uKI6K4TZvX6xGgGzwgA
+http://localhost:3000/design?savekey=Museum+of+Antiquity|40|-5|3|4|4|3|1|0|0|0|125|95|1-13,C5,14-24,C4,Z1|275|175|S|OIBQBAogzGq+c4QCzzRAsmATMAMmACQx7aRaILgDKAwmHQ-Y8AIwDS5aLVacPaWlgGUmYpFna0CASTBSCjEb0x9wtMqqFqGRTRXCqjAViA
 {:/comment}
 
 # The Side Channel
@@ -320,7 +320,7 @@ From Shell:
 * Watchtower (see rules)
 
 {::comment}
-http://localhost:3000/design/?savekey=Server+Farm|175|30|7|7|8|0|0|0|0|0|20|225|1-6,C2,7-10,A5,12-15,C5,16-17,C2,20,C1,21-24,Z1|155|235|S|OIBQBKHpPXUNggygYTAKQOqPk-4aYRJ6RASgJoAiuK6MA0uuQKL11IAkAzBAExgsAFWJlxneF0FFIpMZMVEAMgHkwbMMsEE6AVWQAhDmrDNlYALI5dtvPFYA2RXclA
+http://localhost:3000/design/?savekey=Server+Farm|160|5|7|7|8|0|0|0|0|0|20|235|1-6,C2,7-10,A5,12-15,C5,16-17,C2,20,C1,21-24,Z1|155|245|S|OIBQBKYMoMJgUgdQuSbXltOXdwEoCaAIimVmgNIECi5ckAJAMwQBMYiAKtrxRmUYd+fHAwGQsAGQDyYfHSkd0ZSAFUoAIXphZYalLABZZCrMTwNAGxA
 {:/comment}
 
 
@@ -359,7 +359,7 @@ http://localhost:3000/design?savekey=Hotel+Basement|10|245|4|4|2|0|1|0|0|0|250|5
 # The Proving Grounds
 
 <div class="map">
-  <img src="rival-headquarters.png">
+  <img src="rival-hq.png">
 </div>
 
 You receive a text from The Machinist:
@@ -383,7 +383,7 @@ You receive a text from The Machinist:
 **Success Unlocks**: The Machinist
 
 {::comment}
-http://localhost:3000/design?savekey=Rival+Headquarters|0|0|3|6|6|0|0|2|0|0|20|10|1-7,C3,D1,9-11,G1,D2,13-14,C3,15-20,21,D3,23-24,Z2|15|185|S|OIBQBKHpPXUNggymAJARnQJkfJyAwmEScaUpJmXhAIK1Jq4UBCNFAqmIbgKIBWFMWqkAIgGkI5YpXzxSi2fIR9cwMcJpzG4AJIQxGiN0FQgA
+http://localhost:3000/design?savekey=Rival+HQ|10|245|3|6|6|0|0|2|0|0|15|-15|1-7,C3,D1,9-11,G1,D2,13-14,C3,15-20,21,D3,23-24,Z2|10|175|S|OIBQBKHpDKYCQEYECYrtgYTDbufaRHhIEbQCC5qZwAQmfsAKpiZoCiArOvqfgBEA0hDyFoE3mNqTiYDmmACpM6pACSEAUoituUIA
 {:/comment}
 
 
@@ -465,7 +465,7 @@ http://localhost:3000/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|270|180|1-
 http://localhost:3000/?savekey=The+Vault|55|255|2|6|7|2|0|0|0|0|240|25|1-10,C3,A1,G1,11-13,G2,C3,A1,A2,14-18,G4,19-24,Z2|100|-5|P|OIBQBAygGmq+dEOWATAYQDJuNpl5D84BpLIlAJRmJQnVgBExNVIH7YBGEiwz4j1gAhImX4cG1AFLsJRBsQCC8zmsmqGAEjb4BKOAFEufWmEMA2CkA
 {:/comment}
 
-# County Jail: The Bricks
+# County: The Bricks
 
 <div class="map">
   <img src="the-bricks.png">
@@ -482,10 +482,10 @@ http://localhost:3000/?savekey=The+Vault|55|255|2|6|7|2|0|0|0|0|240|25|1-10,C3,A
 
 
 {::comment}
-http://localhost:3000/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50|200|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
+http://localhost:3000/design/?savekey=The+Bricks|75|10|6|4|5|0|0|1|0|0|20|200||50|100|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
 {:/comment}
 
-# County Jail: The River
+# County: The River
 
 <div class="map">
   <img src="the-river.png">
@@ -501,10 +501,10 @@ http://localhost:3000/design/?savekey=The+Bricks|70|5|6|4|5|0|0|1|0|0|20|200||50
 **Upon success**. Any character who reaches an Escape is not Busted. Gain $12k and unlock the Prison Guard
 
 {::comment}
-http://localhost:3000/?savekey=The+River|0|255|2|8|5|0|0|3|0|0|245|95|1-10,D1,D2,D3,14-20,C1,21-22,C6,23-24,Z1|195|250|S|OIBQBAogTGBKFisAwmAyqtANdrRn0PHyQBkDwARAaVzogFYLmi6BZAdRfA27-16tYATTZ1WEnqk59BxebLwKZc-gt6wsY1qsnNd4eIlKVITPdAIxeaYXQNrHeokA
+http://localhost:3000/?savekey=The+River|0|255|2|8|5|0|0|3|0|0|15|70|1-10,D1,D2,D3,14-20,C1,21-22,C6,23-24,Z1|210|250|S|OIBQBKYKIExgSlMNgGEwGV0YBqfZIeEcsADITgAiA0vvVAKyUslZgCyA6q+OyQL4Fi4eAE0O9Qb3rcZ-ETMgKWcldOXp4OSW2FLF60Uhhkq0ZtNgQ47DGPpGDzjSCA
 {:/comment}
 
-# County Jail: The Hole
+# County: The Hole
 
 <div class="map">
   <img src="the-hole.png">
@@ -602,8 +602,7 @@ From our insider contact:
 * Remote locks (see rules)
 
 {::comment}
-http://localhost:3000/design/?savekey=Interior+Ministry+North|40|210|5|5|6|0|0|0|0|0|235|225||60|240|P|OIBQBAogzGqTdHiZALLZ4DKBhDZcC8sANMAJQE19CU5bNYARfOHAJjHeABlXGAsgHVYxPOxx9ChIQBUiCiAFZ+XXgvpjYAQVV1kAITV9NC6dX2qAVNb2NLD+07svHr5288fv-IA
-
+http://localhost:3000/design/?savekey=Interior+Ministry+North|40|210|5|5|6|0|0|0|0|0|235|225||60|240|P|KIZgBA4gCmqT15McALEgygYUz7YMANMAJQE1dkZ9FaARKsLAJjGYgBlGBZAdUjw5mWLvny8AKgUGwArEnaiciMcoCCjWggBCbTpVUEKWxgCozmhFcs2Td6-dsPnTqkA
 {:/comment}
 
 **Upon Success:** see next page.
@@ -647,7 +646,7 @@ Congratulations!
 | **True Mastermind**. Create a board of your own and play it with other people.                                                               |      |
 {:class="achievements"}
 
-Check off if a player played this character in any heist, regardless of outcome.
+Check off if a player played this character in any heist:
 {:class="space-break"}
 
 | Amateur         | Conventional Pro | Oddball Pro     |

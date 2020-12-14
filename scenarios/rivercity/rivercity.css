@@ -1,19 +1,35 @@
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 10pt;
+  font-size: 12pt;
   line-height: 1;
+  color: #130e04;
 }
 
 @page {
-  size: 5.25in 7in;
-  margin: 0.25in;
-  @bottom-center {
-    font-family: 'Archivo Black';
-    font-size: 8pt;
-    font-weight: bold;
-    padding: 0.25em;
-    content: counter(page);
-  }
+  size: 5.75in 8.75in;
+  padding: 0.5in;
+  margin: 0;
+  background-size: cover;
+  background-image: url("../../img/document-bg.svg");
+  background-repeat: no-repeat;
+}
+
+/* Binding gutters */
+@page:left  {
+  background-position: left center;
+  padding-right: 0.875in; /* Binding gutter */
+}
+@page:right {
+  background-position: right center;
+  padding-left: 0.875in; /* Binding gutter */
+}
+
+@page:bottom-center {
+  font-family: 'Archivo Black';
+  font-size: 10pt;
+  font-weight: bold;
+  padding: 0.25em;
+  content: counter(page);
 }
 
 p{
@@ -53,9 +69,13 @@ ul {
   content: "□ ";
 }
 
+.achievements.characters table {
+  margin-left: 0.5em
+}
+
 .achievements th {
   border: none;
-  border-bottom: 2pt solid black;
+  border-bottom: 1px solid black;
   text-align: center;
 }
 
@@ -83,10 +103,11 @@ ul {
 h1{
   font-family: 'Archivo Black';
   font-weight: normal;
-  margin: 0;
-  padding: 0.25em;
-  background-color: black;
-  color: white;
+  text-align: center;
+  color: #130e04;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  /* padding: 0.25em; */
   text-align: center;
   clear: both;
   page-break-before: always;
@@ -179,7 +200,7 @@ h1+p {
   margin: 0;
 }
 
-.map img   { width: 100%; }
+.map img   { width: 100%; opacity: 0.33%; }
 .map-90 { width: 90%; }
 
 .page-break{
@@ -194,6 +215,7 @@ table.tabletoc  {
   width: 100%;
   margin-bottom: 0.5em;
   line-height: 1;
+  font-size: 90%;
 }
 
 .tabletoc th {

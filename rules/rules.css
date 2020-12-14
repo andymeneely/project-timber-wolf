@@ -15,13 +15,14 @@ body{
   background-size: cover;
   background-image: url("../img/document-bg.svg");
   background-repeat: no-repeat;
-  @bottom-center {
-    font-family: 'Archivo Black';
-    font-size: 10pt;
-    font-weight: bold;
-    padding: 0.5em;
-    content: counter(page);
-  }
+}
+
+@page:bottom-center {
+  font-family: 'Archivo Black';
+  font-size: 10pt;
+  font-weight: bold;
+  padding: 0.25em;
+  content: counter(page);
 }
 
 /* Binding gutters */
