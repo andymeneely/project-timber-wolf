@@ -92,7 +92,6 @@ function respawnItems()
   spawnItemDeck('sheet_item_00.png', 'sheet_item_backs_00.png', 13)
 end
 
-
 function spawnRectChit(front, back, name)   spawnChit(front, back, name, 3, 0.65, 0) end
 function spawnCard(front, back, name)       spawnChit(front, back, name, 3, 1.2, 0) end
 function spawnHexChit(front, back, name)    spawnChit(front, back, name, 1, 1.75, 30) end
@@ -121,8 +120,6 @@ function spawnChit(front, back, name, tile_type, s, r)
     stackable = false,
   })
 end
-
-
 
 function spawnTracker(front, name)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
