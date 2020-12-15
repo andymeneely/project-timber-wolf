@@ -5,25 +5,15 @@
 Your journey begins with some text messages from an old friend:
 
 > Welcome back! Things around here haven't changed since you left.
-{:class="text-message"}
+{:.text-message}
 
 > I hear you have some new skills to try out?
-{:class="text-message"}
+{:.text-message}
 
 > I can introduce you to some folks... but you and your friends will need prove yourselves before they provide their services.
-{:class="text-message"}
+{:.text-message}
 
 
-River City is an **open-ended** campaign.
-
-* All heists are **available** to any team.
-* Every heist you complete will introduce you to a new **Fixer**
-* You are welcome to **explore this booklet** without spoilers.
-* **Players may come and go**. Your party can change between heists as needed.
-* When a character is Busted, your team may opt to do a **breakout**. See page 3.
-* During planning, you may visit the Shop to **purchase items**.
-
-Version ⏱
 
 ---
 
@@ -32,6 +22,10 @@ Version ⏱
 * You have $0k team cash.
 {:class="directions"}
 
+
+---
+
+Version ⏱
 
 # Opportunities
 
@@ -43,7 +37,7 @@ Version ⏱
 {:class="difficulty-table"}
 
 > Just name the fixer and I'll arrange an introduction.
-{:class="text-message"}
+{:.text-message}
 
 | Opportunity           | Location            | Difficulty | Unlocks Fixer        | Page |
 | :-------------------- | :------------------ | :--------- | -------------------- | ---- |
@@ -62,43 +56,14 @@ Version ⏱
 | The Final Score       | Interior Ministry   | Pro        | The Mayor            | 20  |
 {:class='tabletoc'}
 
-Can't decide? These are some good threads:
 
-* **Gold Rules**
-  - _Big payouts, just know your limits_
-  - The Inclusion Job
-  - The Greedy Prisoner
-  - The Melee Job
-  - The Marathon Job
-  - The Final Score
-* **When A Plan Comes Together**
-  - _Intricate planning, satisfying results_
-  - The Startup Job
-  - The Proving Grounds
-  - The Side Channel
-  - The Safehouse Rescue
-  - The Final Score
-* **Confidence**
-  - _The risk is the reward_
-  - The Dark Horse Job
-  - The Blind Justice Job
-  - The Hospitality Job
-  - The Black Box
-  - The Final Score
-{:.heistthread}
 
-# County Jail Opportunities
+## In County
 
-> Busted? Occupational hazard. Just another obstacle.
-{:class="text-message"}
+> Busted? Minor setback
+{:.text-message}
 
-If a character is busted, you may simply build a new character. Alternatively, your team my opt to rescue you. Even if the entire team is busted, you may opt for a breakout using these rules.
-
----
-
-  * **Spread Out**. No limit on the number of characters on entrances. However, each character must leave out a different exit. If they do not, all characters are Busted.
-  * **Break in to Break out**. Busted characters must start inside the jail. Non-Busted characters must start outside of the jail.
-  * **Pick Your Moment**. Your team may choose which opportunity is appropriate. The more difficult the job, the more profitable it is.
+If you are busted, you may simply build a new character. Alternatively, your team may opt to rescue you. Even if the entire team is busted, you may opt for a breakout. Breakout jobs have some modified rules that change the gameplay significantly.
 
 ---
 
@@ -109,9 +74,48 @@ If a character is busted, you may simply build a new character. Alternatively, y
 | The Hole    | Pro        | Prison Guard  | $15k        | 19  |
 {:class='tabletoc'}
 
-# Pre-Built Characters
+# Where to Next?
 
-TODO: finish filling these out.
+River City is an **open-ended** campaign.
+All heists are available to any team in your universe, and can be attempted when you feel ready. You are welcome to **explore this booklet** without spoilers.
+
+**Players may come and go**. Your party can change between heists as needed. You do not need to maintain the same party size, composition, or average level.
+
+During planning, you may visit the Shop to **purchase Item cards** with your team's cash. Only Items with the ![shop item](../../img/shopping-cart.svg){:.emoji-svg} icon may be purchased this way.
+
+Can't decide on where to go next? These are some good threads:
+
+### Gold Rules
+_Big payouts, just know your limits_
+
+- The Inclusion Job
+- The Greedy Prisoner
+- The Melee Job
+- The Marathon Job
+- The Final Score
+{:.heistthread}
+
+### When A Plan Comes Together
+_Intricate planning, satisfying results_
+
+- The Startup Job
+- The Proving Grounds
+- The Side Channel
+- The Safehouse Rescue
+- The Final Score
+{:.heistthread}
+
+### Confidence
+_The risk is the reward_
+
+- The Dark Horse Job
+- The Blind Justice Job
+- The Hospitality Job
+- The Black Box
+- The Final Score
+{:.heistthread}
+
+# Pre-Built Characters
 
 <!-- •••••••••••••••••• -->
 
@@ -530,23 +534,30 @@ http://localhost:3000/?savekey=The+Hole|180|255|9|8|4|0|0|0|0|0|205|0|1-24,Z1|12
 From your old friend:
 
 > So you've decided to hit the world's largest gang huh? Nice.
-{:class="text-message"}
-
-> Wait... you're gonna STAY in there hidden with all those government secrets?
-{:class="text-message"}
+{:.text-message}
 
 > Lots of moving pieces on this one. Sorry but this one is out of my league.
-{:class="text-message"}
+{:.text-message}
 
-This is a two-part heist.
+ Your Old Friend Fixer **is not available** for either part of these heists, but other fixers may be used.
 
-  * Part 1. You will be stealing the government secrets from their vault, then hiding in the building itself.
-  * Once the alarm sounds for the first heist, your only escape points are the hideouts (denoted by *).  You may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.
-  * Part 2. Once the alarms die down, make a break for it! Break out of all four doors by taking the Mayor hostage.
-  * Your **Old Friend** Fixer is not available for either chapter of these heists, but other fixers may be used.
-  * Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
-  * Before Part 2: the two people who are on the same tile can share ideas with each other between heists.
+## Part 1: The Secrets
 
+> Wait... you're gonna STAY in there hidden with all those government secrets?
+{:.text-message}
+
+You will be tunneling into a federal building to steal the government secrets from their vault, then hiding in the building itself. Once the alarm sounds for the first heist, your only escape locations are the hideouts (denoted by *).
+
+When this heist is finished, you may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.
+
+## Part 2: A New Acquaintance
+
+> You never know who you are going to meet once inside
+{:.text-message}
+
+ Once the alarms die down, make a break for it! Break out of all four doors by taking the Mayor hostage.
+
+Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
 
 # The Final Score: Part 1
 
@@ -561,10 +572,10 @@ http://localhost:3000/design/?savekey=Interior+Ministry+South|40|210|2|6|5|0|0|2
 From our insider contact:
 
 > Loading dock is one entrypoint, then tunnel under the south wall.
-{:class="text-message"}
+{:.text-message}
 
 > This needs to look like a regular robbery, so get cash
-{:class="text-message"}
+{:.text-message}
 
 **Objectives:**
 
@@ -588,12 +599,13 @@ From our insider contact:
 
 
 > Our meal ticket is approaches. Why is the mayor in a federal building??
-{:class="text-message"}
+{:.text-message}
 
 **Objective:** Escape with the Mayor as your hostage
 
 **Special Rules**
 
+* WHISPERS. Players who share the same hideout hex may exchange Ideas.
 * BREAKOUT. Every player character must exit out of a different exit.
 * MEAL TICKET. Mayor NPC moves one hex to the right at the end of each Event phase until captured. Once captured, he is a Hostage (see rules).
 * TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.
@@ -612,10 +624,10 @@ http://localhost:3000/design/?savekey=Interior+Ministry+North|40|210|5|5|6|0|0|0
 The next morning, you receive a text from your Old Friend.
 
 > I knew it. These documents show that the feds have dirt on the Mayor.
-{:class="text-message"}
+{:.text-message}
 
 > I think we have a new friend.
-{:class="text-message"}
+{:.text-message}
 
 Congratulations!
 {:class="space-break"}

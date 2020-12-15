@@ -17,11 +17,11 @@ body{
 /* Binding gutters */
 @page:left  {
   background-position: left center;
-  padding-right: 0.875in; /* Binding gutter */
+  padding-right: 0.75in; /* Binding gutter */
 }
 @page:right {
   background-position: right center;
-  padding-left: 0.875in; /* Binding gutter */
+  padding-left: 0.75in; /* Binding gutter */
 }
 
 @page:bottom-center {
@@ -34,7 +34,7 @@ body{
 
 p{
   margin-top: 0;
-  margin-bottom: 0.15em;
+  margin-bottom: 0.25em;
   line-height: 1;
 }
 
@@ -81,6 +81,7 @@ ul {
 
 .difficulty-table {
   margin-left: 1em;
+  font-size: 85%;
   float: right;
 }
 
@@ -114,15 +115,21 @@ h1{
 }
 
 h2{
-  margin-top: 0.25em;
+  margin-top: 0.5em;
   margin-bottom: 0;
   font-size: 16pt;
+  font-weight: normal;
   text-align: center;
+  font-family: 'Archivo Black';
 }
 
 h3{
-  margin-top: 0.125em;
+  margin-top: 0.5em;
   margin-bottom: 0;
+  font-size: 16pt;
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Archivo Black';
 }
 
 ul{
@@ -143,6 +150,7 @@ h1+p {
 .cover-title {
   font-family: 'Acknowledgement';
   letter-spacing: 8px;
+  margin-bottom: 2em;
   padding-top: 1in;
   text-align: center;
   font-size: 200%;
@@ -215,7 +223,7 @@ table.tabletoc  {
   width: 100%;
   margin-bottom: 0.5em;
   line-height: 1;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 .tabletoc th {
@@ -302,36 +310,5 @@ table.scenario-stats {
 }
 
 ul.heistthread {
-  font-size: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  list-style: none;
-  padding: 0.25em;
+  list-style-type: none;
 }
-
-ul.heistthread>li {
-  margin-left: 0.25em;
-  margin-right: 0.25em;
-  margin-bottom: 0.5em;
-  width: 15em;
-  padding: 0;
-  border: 1pt solid #ccc;
-  border-radius: 1em;
-}
-
-.heistthread ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.heistthread ul>li {
-  margin: 0;
-  padding-left: 0.25em;
-  padding-right: 0.25em;
-}
-
-
