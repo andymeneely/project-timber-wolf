@@ -239,8 +239,8 @@ function placeEventDeck(event_str)
 
   spawnNotecard(event_str)
 
-  deck_pos_x = -12
-  deck_pos_y = 1.0
+  deck_pos_x = -8
+  deck_pos_y = 5.0
   deck_pos_z = 24
 
   events = parseEventString(event_str)
@@ -284,7 +284,7 @@ end
 
 function dealEventDeck(deck, active_events)
   local n_events = 0; for _,_ in pairs(active_events) do n_events = n_events + 1 end -- because table.getn doesn't exist in TTS?!?!?
-  local x_start = -10
+  local x_start = -6
   local x_distance = 56 -- total width of event spread
   local x_shift = x_distance / n_events
   local card_positions = {}
@@ -299,6 +299,7 @@ function dealEventDeck(deck, active_events)
             y = 1.0 + (n_events - order) * 0.5,
             z = 24
           }
+          break; -- don't deal multiple copies of the same card;
         end
       end
     end
