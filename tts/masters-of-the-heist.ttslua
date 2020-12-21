@@ -55,6 +55,7 @@ function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
   end
   local pos = world_position
   pos.y = 3
+  bag.shuffle();
   bag.takeObject({
     position = pos,
     rotation = {x=0, y = 180 , z=0},
