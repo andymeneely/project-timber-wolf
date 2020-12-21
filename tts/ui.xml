@@ -14,7 +14,7 @@
 </Button>
 
 <Panel id="drawer"
-  width="200" height="500"
+  width="200" height="600"
   active="false"
   rectAlignment="UpperLeft"
   offsetXY="200 -75"
@@ -34,9 +34,13 @@
     <Button onClick="theHospitalityJob">  <Text>The Hospitality Job</Text> </Button>
     <Button onClick="theProvingGrounds">  <Text>The Proving Grounds</Text> </Button>
     <Button onClick="theSafehouseRescue"> <Text>The Safehouse Rescue</Text> </Button>
+    <Button onClick="theBlackBox">        <Text>The Black Box</Text> </Button>
+    <Button onClick="theMarathonJob">     <Text>The Marathon Job</Text> </Button>
+    <Button onClick="theBricks">          <Text>County: The Bricks</Text> </Button>
+    <Button onClick="theRiver">           <Text>County: The River</Text> </Button>
+    <Button onClick="theHole">            <Text>County: The Hole</Text> </Button>
     <Button onClick="theFinalScorePart1"> <Text>The Final Score Part 1</Text> </Button>
     <Button onClick="theFinalScorePart2"> <Text>The Final Score Part 2</Text> </Button>
-    <Button onClick="theBricks">          <Text>The Bricks</Text> </Button>
     <Button onClick="toggleCustom">       <Text>Custom</Text> </Button>
 
     <!-- <Button id="allTheThings" onClick="allTheThings">
