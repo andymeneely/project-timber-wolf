@@ -268,10 +268,10 @@ From the Beat Cop:
 * Remote Locks (see rules)
 * Reinforcements Locks (see rules)
 
-**Success Unlocks:** Beat Cop, Gain $5k
+**Success Unlocks:** Beat Cop
 
 {::comment}
-http://localhost:3000/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-7,C3,8-12,G1,A2,16,G2,G3,19-21,C4,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeAJLlJwMv2EDgHVb24AhARJQmVp-rrPk0ANiA
+http://localhost:3000/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-6,C3,7-12,G1,A2,16,G2,G3,19-21,C1,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeAJLlJwMv2EDgHVfAAkeYACEBElOZUX+uy+TQA2IA
 {:/comment}
 
 # The Melee Job
