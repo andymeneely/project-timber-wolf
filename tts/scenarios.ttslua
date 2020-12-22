@@ -38,7 +38,7 @@ function theSideChannel()
   buildScenario(str)
 end
 
-function theHostpitalityJob()
+function theHospitalityJob()
   local str = 'Hotel+Basement|10|245|4|4|2|0|1|0|0|0|250|5|1,A1,2,3,C2,4-15,C2,16-20,A2,C5,21-23,A4,24,Z1|20|25|S|GP GP GP GP E3 GP GP GP GP GP GP GP GP GP KCL GP GP GP GP GP GP GP GP GP $2 C2 G2 GP GP GP GP GP GP GP SC SC C2 KCL MW S GP GP $3 G1K SC WT SC 2CL GP GP GP GP GP EM SC SC L2 GP GP GP GP GP GP SC SC GP SC SC GP GP E2 EM EM CM SC EM CM EM GP GP GP GP GP GP GP GP GP EM GP GP GP GP GP GP GP GP GP E6 GP GP'
   buildScenario(str)
 end

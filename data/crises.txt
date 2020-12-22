@@ -43,10 +43,9 @@ Description | If a character is on a Watchtower  |
         Qty | 3                                  |
       Story | Someone remembers to hit the red b |
             | utton.                             |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a charac |
-            | ter is on it, they are immediately |
-            |  Busted.                           |
+Description | Remove the entire hex beneath the  |
+            | next Lockdown Gate, starting with  |
+            | "A"                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gate!!                    |
@@ -54,10 +53,9 @@ Description | Close the next Gate, starting with |
         Qty | 3                                  |
       Story | Someone remembers to hit the red b |
             | utton.                             |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a charac |
-            | ter is on it, they are immediately |
-            |  Busted.                           |
+Description | Remove the entire hex beneath the  |
+            | next Lockdown Gate, starting with  |
+            | "A"                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shut the Gate!!                    |
@@ -65,10 +63,9 @@ Description | Close the next Gate, starting with |
         Qty | 3                                  |
       Story | Someone remembers to hit the red b |
             | utton.                             |
-Description | Close the next Gate, starting with |
-            |  "A". Remove the tile. If a charac |
-            | ter is on it, they are immediately |
-            |  Busted.                           |
+Description | Remove the entire hex beneath the  |
+            | next Lockdown Gate, starting with  |
+            | "A"                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Lock the Goods!                    |

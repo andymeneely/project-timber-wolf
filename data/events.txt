@@ -342,8 +342,9 @@ Description | Add a Dog to the kennel, then move |
       Order | G1                                 |
       Story | An automatic system initiates, clo |
             | sing the next lockdown gate.       |
-Description | Remove the next Lockdown Gate, sta |
-            | rting with "A"                     |
+Description | Remove the entire hex beneath the  |
+            | next Lockdown Gate, starting with  |
+            | "A"                                |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | More Gates Shut!!                  |
@@ -351,8 +352,9 @@ Description | Remove the next Lockdown Gate, sta |
       Order | G2                                 |
       Story | An automatic system initiates, clo |
             | sing the next two lockdown gates.  |
-Description | Remove the next two Lockdown Gates |
-            | , starting with "A"                |
+Description | Remove the entire hex beneath the  |
+            | next two Lockdown Gates, starting  |
+            | with "A"                           |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Unexpected Lock                    |

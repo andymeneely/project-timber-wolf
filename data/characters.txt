@@ -191,10 +191,9 @@ LevelUp1Desc | +3 ⬢                               |
              | Report:idea::reveal::noise:⇒       |
              | Deduce:idea::idea::noise:          |
 LevelUp2Desc | +1 ⬢                               |
-             | +1 Initial :idea:                  |
+             | +4 Initial :idea:                  |
              |                                    |
-             | Walk:noise::move: ⇒                |
-             | Run:noise::noise::move::move:      |
+             | +Run:noise::noise::move::move:     |
              |                                    |
              | CHANGE OF PLANS ⇒ALRIGHT, NEW PLAN |
              |                                    |
@@ -428,9 +427,9 @@ LevelUp2Desc |                                    |
     LevelUp1 | Watchman                           |
     LevelUp2 | Sentinel                           |
      Special | I KNOW A WAY                       |
-             | When all security chits have been  |
-             | revealed, each :reveal: this chara |
-             | cter does is an :idea:             |
+             | When the security bag is empty, ea |
+             | ch :reveal: this character does is |
+             |  an :idea:                         |
              |                                    |
              | GOOD IN A PINCH                    |
              | During Escape, may spend           |
@@ -461,9 +460,9 @@ LevelUp2Desc | +1 ⬢                               |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | WE KNOW A WAY                      |
-             | When all security chits have been  |
-             | revealed, each :reveal: any charac |
-             | ter does is an :idea:              |
+             | When the security bag is empty, ea |
+             | ch :reveal: any character does is  |
+             | an :idea:                          |
              |                                    |
              | GOOD IN A PINCH                    |
              | During Escape, may spend           |
@@ -487,9 +486,9 @@ LevelUp2Desc |                                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | I KNOW A WAY                       |
-             | When all security chits have been  |
-             | revealed, each :reveal: this chara |
-             | cter does is an :idea:             |
+             | When the security bag is empty, ea |
+             | ch :reveal: this character does is |
+             |  an :idea:                         |
              |                                    |
              | GREAT IN A PINCH                   |
              | During Escape, may spend           |
@@ -598,7 +597,7 @@ LevelUp2Desc |                                    |
              | When adjacent to a live camera, us |
              | e this action for :idea::idea::rev |
              | eal::noise:                        |
-LevelUp1Desc | +2⬢                                |
+LevelUp1Desc | +3⬢                                |
              | + 1 Initial :idea:                 |
              |                                    |
              | Walk & Smash⇒                      |
@@ -652,10 +651,10 @@ LevelUp2Desc |                                    |
     LevelUp2 |                                    |
      Special | REWIRE                             |
              | For :idea::idea::noise:, use this  |
-             | action to disable up to three live |
-             |  cameras adjacent to you. Any guar |
-             | ds on these spaces are also subdue |
-             | d.                                 |
+             | action to disable up to two live c |
+             | ameras on or adjacent to you. Any  |
+             | guards on these spaces are also su |
+             | bdued.                             |
              |                                    |
              | PATCH IN                           |
              | When adjacent to a live camera, us |

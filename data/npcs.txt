@@ -51,8 +51,7 @@ Description | SQUIRRELY                          |
             | :noise::noise::move::move:         |
    Default2 | Whimper                            |
             | :noise:                            |
-      Roll6 | Walk                               |
-            | :noise::move:                      |
+      Roll6 |                                    |
 Description | SQUIRRELY                          |
             | Nearest player character loses an: |
             | idea:unless this character shares  |
