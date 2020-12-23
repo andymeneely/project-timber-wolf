@@ -1,6 +1,5 @@
 -- Game save need this: require("masters-of-the-heist")
 -- Then configure the TTSLua VS Code plugin to point to the timber-wolf/tts dir
-
 require("guids")
 require("scenario-builder")
 require("util")
@@ -28,10 +27,8 @@ function setSaveString(_obj, _color, save_string, stillEditing)
   end
 end
 
--- From the drawer
+-- From the custom drawer
 function setCustomSaveString(_player, value, id)
-  UI.hide('custom-panel')
-  UI.hide('drawer')
   buildScenario(value)
 end
 
@@ -45,6 +42,11 @@ end
 
 function assignHotkeys()
   addHotkey("Shuffle & Draw Security Chit", drawSecurityChit, false)
+  addHotkey("Lock all hexes", lockAllHexes, false)
+  addHotkey("Unlock all hexes", unlockAllHexes, false)
+  addHotkey("Lock all planning tokens", lockAllPlanning, false)
+  addHotkey("Unlock all planning tokens", unlockAllPlanning, false)
+  addHotkey("Spawn hex tile", respawnHexes, false)
 end
 
 function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
@@ -62,3 +64,22 @@ function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
     callback_function = function(obj) broadcastToAll(obj.getName() .. " revealed" ) end
   })
 end
+
+function lockAllHexes()   setLocked("Hex Tile", true) end
+function unlockAllHexes() setLocked("Hex Tile", false) end
+function lockAllPlanning() setLocked("Planning Token", true) end
+function unlockAllPlanning() setLocked("Planning Token", false) end
+
+function setLocked(suffix, locked)
+  for _,obj in pairs(getAllObjects()) do
+    if(ends_with(obj.getName(), suffix)) then
+      obj.setLock(locked)
+    end
+  end
+  broadcastToAll(suffix .. "s " .. (locked and 'locked' or 'unlocked'))
+end
+
+function ends_with(str, ending)
+  return ending == "" or str:sub(-#ending) == ending
+end
+

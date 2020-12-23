@@ -1,4 +1,6 @@
 function buildScenario(save_string)
+  UI.hide('custom-panel')
+  UI.hide('drawer')
   local hextiles = parseTileList(save_string)
   local x_start = -16.50
   local z_start = 17.50

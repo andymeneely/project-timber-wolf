@@ -1,3 +1,9 @@
+cream = { r=216/255, g=196/255, b=133/255 } -- #d8c485
+brown = { r=107/255, g=71/255,  b=28/255  } -- #6b471c
+red =   { r=216/255, g=20/255,  b=20/255 }
+green = { r=20/255,  g=216/255, b=20/255  }
+blue =  { r=20/255,  g=20/255,  b=216/255  }
+purple ={ r=160/255, g=32/255, b=240/255  }
 
 -- These are convenience methods for running this in-game
 -- In the console, type:
@@ -49,7 +55,7 @@ function respawnChits()
 end
 
 function respawnHexes()
-  spawnChit("chit_entrance.png", "chit_entrance.png", "Entrance/Exit", 3, 1.0, 0)
+  spawnChit("chit_entrance.png", "chit_entrance.png", "Entrance/Exit", 3, cream, 1.0, 0)
   spawnHexTile('hex_tile_front.png', 'hex_tile_back.png', "Hex Tile")
 end
 
@@ -60,10 +66,10 @@ function respawnTrackers()
 end
 
 function respawnPlanning()
-  spawnPlanChit('chit_planning_green.png', 'chit_planning_green.png', "Green Planning Token")
-  spawnPlanChit('chit_planning_blue.png', 'chit_planning_blue.png', "Blue Planning Token")
-  spawnPlanChit('chit_planning_purple.png', 'chit_planning_purple.png', "Purple Planning Token")
-  spawnPlanChit('chit_planning_red.png', 'chit_planning_red.png', "Red Planning Token")
+  spawnPlanChit('chit_planning_green.png', 'chit_planning_green.png', "Green Planning Token", green)
+  spawnPlanChit('chit_planning_blue.png', 'chit_planning_blue.png', "Blue Planning Token",blue )
+  spawnPlanChit('chit_planning_purple.png', 'chit_planning_purple.png', "Purple Planning Token", purple)
+  spawnPlanChit('chit_planning_red.png', 'chit_planning_red.png', "Red Planning Token", red)
 end
 
 function respawnEvents()
@@ -92,14 +98,15 @@ function respawnItems()
   spawnItemDeck('sheet_item_00.png', 'sheet_item_backs_00.png', 13)
 end
 
-function spawnRectChit(front, back, name)   spawnChit(front, back, name, 3, 0.65, 0) end
-function spawnCard(front, back, name)       spawnChit(front, back, name, 3, 1.2, 0) end
-function spawnHexChit(front, back, name)    spawnChit(front, back, name, 1, 1.75, 30) end
-function spawnHexTile(front, back, name)    spawnChit(front, back, name, 1, 2.1, 30) end
-function spawnPlanChit(front, back, name)   spawnChit(front, back, name, 1, 0.6, 60) end
-function spawnCircleChit(front, back, name) spawnChit(front, back, name, 2, 1.0, 0) end
+function spawnRectChit(  front, back, name) spawnChit(front, back, name, 3, brown, 0.65, 0) end
+function spawnCard(      front, back, name) spawnChit(front, back, name, 3, brown, 1.2,  0) end
+function spawnHexChit(   front, back, name) spawnChit(front, back, name, 1, brown, 1.75, 30) end
+function spawnHexTile(   front, back, name) spawnChit(front, back, name, 1, cream, 2.1,  -30) end
+function spawnCircleChit(front, back, name) spawnChit(front, back, name, 2, brown, 1.0,  0) end
 
-function spawnChit(front, back, name, tile_type, s, r)
+function spawnPlanChit(front, back, name, tint) spawnChit(front, back, name, 1, tint, 0.35, -30) end
+
+function spawnChit(front, back, name, tile_type, tint, s, r)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
   local chit_x = -48
   local chit_z = 10
@@ -109,7 +116,10 @@ function spawnChit(front, back, name, tile_type, s, r)
     position = {x=chit_x, y=15, z=chit_z},
     rotation = {x=0, y = 180 - r, z=0},
     scale = {x=s, y=s, z=s},
-    callback_function = function(newObj) newObj.setName(name) end
+    callback_function = function(newObj)
+      newObj.setName(name)
+      newObj.setColorTint(tint)
+    end
   })
   obj.setCustomObject({
     type ="Custom_Tile",
@@ -117,7 +127,7 @@ function spawnChit(front, back, name, tile_type, s, r)
     image = url .. front .. random_url_arg,
     image_bottom = url .. back .. random_url_arg,
     thickness = 0.15,
-    stackable = false,
+    stackable = true,
   })
 end
 
@@ -211,11 +221,11 @@ end
 
 function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, "Events", n, deck_y, -10, 1) end
 function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, "Crises", n, 15, -15, 0.72) end
-function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, "Characters", n, 15, -20, 1) end
-function spawnSkillDeck(front, back, n)         spawnDeck(front, back, "Skills", n, 15, -25, 0.72) end
-function spawnItemDeck(front, back, n)          spawnDeck(front, back, "Items", n, 15, -30, 0.72) end
-function spawnFixerDeck(front, back, n)         spawnDeck(front, back, "Fixers", n, 15, -32, 1 ) end
-function spawnNPCDeck(front, back, n)           spawnDeck(front, back, "NPCs", n, 15, -35, 1 ) end
+function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, "Characters", n, 15, -20, 2) end
+function spawnSkillDeck(front, back, n)         spawnDeck(front, back, "Skills", n, 15, -25, 1.72) end
+function spawnItemDeck(front, back, n)          spawnDeck(front, back, "Items", n, 15, -30, 1.72) end
+function spawnFixerDeck(front, back, n)         spawnDeck(front, back, "Fixers", n, 15, -32, 2 ) end
+function spawnNPCDeck(front, back, n)           spawnDeck(front, back, "NPCs", n, 15, -35, 2 ) end
 
 function spawnDeck(front, back, name, n, deck_y, deck_z, s)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
