@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - update-ghactions
 
 jobs:
   build:
@@ -13,7 +14,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6
+        ruby-version: 2.7
     - name: bundle install
       run: bundle install --jobs 4 --retry 3
     - name: Install fonts
@@ -21,6 +22,17 @@ jobs:
         mkdir ~/.fonts
         cp -r fonts/ ~/.fonts
         fc-cache -f -v
+
+    - name: Install Weasyprint
+      run: |
+        sudo apt-get install build-essential python3-dev python3-pip python3-setuptools python3-wheel python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+        python3 -m venv ./venv
+        source ./venv/bin/activate
+        pip3 install WeasyPrint
+        export PATH="$HOME/venv/bin:$PATH"
+    - run: |
+        source ./venv/bin/activate
+        weasyprint --help
     - name: Save git hash to rev.txt
       run: |
         git show -s --pretty="%h %s" > rev.txt
@@ -28,12 +40,8 @@ jobs:
       run: yarn install
     - name: rake
       run: |
+        source ./venv/bin/activate
         bundle exec rake sheets
-    - name: Upload built cards
-      uses: actions/upload-artifact@v1
-      with:
-        name: cards
-        path: _output
     - name: organize output
       run: |
         rm -rf build/
@@ -43,11 +51,14 @@ jobs:
         cp _output/hex_*.png build/
         cp _output/tracker_*.png build/
         cp _output/help_*_00.png build/
+        cp _output/RULES.pdf build/
+        cp _output/rivercity.pdf build/
         cp data/crises.json build/
+        cp data/events.json build/
         cp data/events.json build/
         cp rev.txt build/
     - name: Push to ghpages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master # The branch the action should deploy from.
