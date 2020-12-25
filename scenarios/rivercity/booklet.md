@@ -343,7 +343,7 @@ You receive a text message from the Security Consultant:
 {:.text-message}
 
 {::comment}
-http://localhost:3000/design?savekey=Hotel+Basement|10|245|4|4|2|0|1|0|0|0|250|5|1,A1,2,3,C2,4-15,C2,16-20,A2,C5,21-23,A4,24,Z1|20|25|S|OIBQBKHpCiDMVGWdVTwGkDCAZd+UDwASAJjC3OCrULvAGUswmLzs8BZAdRf2ITAAjBhbNuAFTFhSuIvhidprHDXmFWrSJuaEY5RWENYlrY0sP11tcJZvWFANnRA
+http://localhost:3000/design?savekey=Hotel+Basement|10|260|4|5|3|0|1|0|0|0|45|25|1,A1,2,3,C2,4-11,C2,12-15,C2,A2,16-20,A3,C5,21-23,A4,24,Z1|30|225|S|OIBQBKHpCiDMVGWdVTwGkDCAZd+UDwASAJjC3OCrULvAGUswmKBZMbPNgdRf2IJgARgwtmPACriZ9fDA6tWOGkXxLmkDfPIKwerIuYGOeuedrgzltXJgA2dEA
 {:/comment}
 
 **Objective:** The hostage must escape.

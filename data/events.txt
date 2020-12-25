@@ -100,8 +100,8 @@ Description | Discard one Event if any Character |
       Order | 11                                 |
       Story | The one time you don't want to loc |
             | k things behind you.               |
-Description | Any character on a tile with an op |
-            | en Lock must re-lock it            |
+Description | Re-lock any lock adjacent to a cha |
+            | racter.                            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Guard Starts Blabbing              |

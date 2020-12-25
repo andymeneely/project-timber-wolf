@@ -14,7 +14,7 @@ Description | Unsubdue/Re-lock/Re-enable every G |
             ╭------------------------------------╮
        Name | Watchtower Sweep                   |
          ID | C2                                 |
-        Qty | 2                                  |
+        Qty | 3                                  |
       Story | The Watchtower performs a sweep in |
             |  every direction.                  |
 Description | If a character is on a Watchtower  |
@@ -27,7 +27,20 @@ Description | If a character is on a Watchtower  |
             ╭------------------------------------╮
        Name | Watchtower Sweep                   |
          ID | C2                                 |
-        Qty | 2                                  |
+        Qty | 3                                  |
+      Story | The Watchtower performs a sweep in |
+            |  every direction.                  |
+Description | If a character is on a Watchtower  |
+            | tile, remove the Watchtower token. |
+            |  Then, add a Guard to every hex wi |
+            | th a Character on it in a straight |
+            |  line originating from a Watchtowe |
+            | r token.                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Watchtower Sweep                   |
+         ID | C2                                 |
+        Qty | 3                                  |
       Story | The Watchtower performs a sweep in |
             |  every direction.                  |
 Description | If a character is on a Watchtower  |
