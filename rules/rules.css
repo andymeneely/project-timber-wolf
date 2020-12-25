@@ -188,6 +188,11 @@ img.full{
   width: 100%;
 }
 
+.half{
+  width: 50%;
+}
+
+
 .tip{
   margin-left: 0.75em;
   border-left: 3pt double #24154C;

@@ -400,7 +400,7 @@ When the Escape Phase starts, all Security chits are revealed. Then, in any orde
 *Costly abilities example:* VENT CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed
 {:.example}
 
-*Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted. <img src="../img/figure_escape.svg" class="full">
+<img src="figure_escape.svg" class="img-right half"> *Example of Escape Moves*. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last 💡💡, he now needs to roll a 3 or higher to get out. Red and Green are Busted.
 {:.example}
 
 ### Busted
@@ -573,6 +573,13 @@ All Lockdown Gates are removed at the start of the Escape phase.
 A USB key is a loot item that can go into the security bag, meaning it must be revealed to discover its location.
 
 **Held by a Guard**. If this chit is pulled from the security bag, **add a Guard to the hex** from the supply.
+
+## Tunnels
+
+![tunnel](tunnel.svg)
+{:.example-right .hexchit}
+
+When a scenario map shows Tunnel spaces, then you may add an Entrance token to one of those spaces during planning. If you are allowed more than one Entrance, they cannot physically overlap, i.e. they cannot share the same hex-shaped gap.
 
 ## Non-Player Characters
 

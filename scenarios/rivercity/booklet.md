@@ -427,12 +427,16 @@ http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|17
 > They call it The Lair because it's a security black box. Hopefully you'll learn more as you plan. Just crack it from the inside.
 {:.text-message}
 
+> I can interpret schematics if you show me but I'm a bit... tied up at the moment.
+{:.text-message}
+
 **Objective:** The Architect NPC must escape
 
 **Special Rules:**
 
-  * HELD BY GUARD (see USB key, Documents in rules)
-  * COMPLICATED SCHEMATICS. If the Architect NPC possesses the Documents token, every character immediately gains 💡💡
+  * HELD BY GUARD applies to USB key, Jewels, and Documents
+  * TWO TUNNELS. You may add entrances to in different hex spaces indicated
+  * COMPLICATED SCHEMATICS. If the NPC possesses the Documents token, every character immediately gains 💡💡
   * CHECK THE LOGS. If a character posseses the USB key and is on the server space(*), they immediately may 🔍🔍🔍 and gain 💡
   * USB key, Documents, Tunnels, NPCs, Guard Dogs, and Reinforcements (see rules)
 
