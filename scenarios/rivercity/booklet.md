@@ -441,7 +441,7 @@ http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|17
   * NPC SPECIAL: STUDY SCHEMATICS. If the NPC possesses the Documents token, use this action to place $2k on the Kennel and Reinforcements hexes. Once per heist.
   * USB key, Documents, Tunnels, NPCs, Guard Dogs, and Reinforcements (see rules)
 
-**Upon Success:** Gain $15k, unlock The Architect
+**Upon Success:** Unlock The Architect
 
 {::comment}
 http://localhost:3000/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|255|180|1-7,10,C7,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4ORlyUNVPHjnhV7tcsBDPHTAAlasNwtYqWABlUEmvRIlaAdU5yYi6gFZtalMaMggA
