@@ -52,7 +52,7 @@ end
 function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
   local bag = getObjectFromGUID(security_bag_guid)
   if #bag.getObjects() <= 0 then
-    broadcastToAll("Security Bag Empty!")
+    broadcastToAll("Security Bag Empty! The Lookout rejoices...")
     return
   end
   local pos = world_position

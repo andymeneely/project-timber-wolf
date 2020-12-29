@@ -119,9 +119,10 @@ Description | Any character on a subdued Guard m |
       Order | 13                                 |
       Story | "What have I gotten myself into??" |
             |                                    |
-Description | Any character adjacent to two or m |
-            | ore security tokens not handled ye |
-            | t loses one :idea: (if possible)   |
+Description | Any character on or adjacent to tw |
+            | o or more security tokens not hand |
+            | led yet loses one :idea: (if possi |
+            | ble)                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Door Rattles                       |

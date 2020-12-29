@@ -433,17 +433,18 @@ http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|17
 **Objective:** The Architect NPC must escape
 
 **Special Rules:**
-
+`
   * HELD BY GUARD applies to USB key, Jewels, and Documents
+  * Safe requires 🧩🧩🧩 to open and contains *Safecracking Tools* and $5k.
   * TWO TUNNELS. You may add entrances to in different hex spaces indicated
-  * COMPLICATED SCHEMATICS. If the NPC possesses the Documents token, every character immediately gains 💡💡
-  * CHECK THE LOGS. If a character posseses the USB key and is on the server space(*), they immediately may 🔍🔍🔍 and gain 💡
+  * CHECK THE LOGS. If a character posseses the USB key and is on the server space(*), they immediately may 🔍🔍, and gain $3k.
+  * NPC SPECIAL: STUDY SCHEMATICS. If the NPC possesses the Documents token, use this action to place $2k on the Kennel and Reinforcements hexes. Once per heist.
   * USB key, Documents, Tunnels, NPCs, Guard Dogs, and Reinforcements (see rules)
 
 **Upon Success:** Gain $15k, unlock The Architect
 
 {::comment}
-http://localhost:3000/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|270|180|1-10,C7,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4ORlyUNVMsrnhV7vjcGzGvQBK1IbhaxUsADKpxI4iki0A6itkwF1AKxaSR1SfhA
+http://localhost:3000/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|255|180|1-7,10,C7,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4ORlyUNVPHjnhV7tcsBDPHTAAlasNwtYqWABlUEmvRIlaAdU5yYi6gFZtalMaMggA
 {:/comment}
 
 # The Marathon Job

@@ -605,7 +605,7 @@ A **Non-Player Character** (NPC) is represented by a white pawn, a white die, an
 
 **Need the tools for the job.** You will need a special subaction to unlock a safe, called **crack** 🧩. The 🧩 is only found on Item cards, for example, _Safecracking Tools_ or _Plasma Torch_. You must be on the tile with the safe to use 🧩. Any character may 🧩.
 
-**Some safes are harder than others**. The scenario description will tell you how many 🧩 you need to unlock the safe. Each 🧩 is cumulative, even across rounds. Use a leftover planning token to mark your progress. When the safe is unlocked, replace the chit with its contents.
+**Some safes are harder than others**. The scenario description will tell you how many 🧩 you need to unlock the safe. Each 🧩 is cumulative, even across rounds. Use leftover planning tokens on your character to mark your progress. When the safe is unlocked, replace the chit with its contents.
 
 
 
