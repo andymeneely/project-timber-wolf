@@ -183,3 +183,16 @@ Description | CATCH UP WITH YA LATER             |
         art | camouflage.svg                     |
    Location | scenario                           |
             ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Dog Whistle                        |
+        qty | 1                                  |
+       Cost | 2                                  |
+Description | BLOW WHISTLE                       |
+            | Use this action to :move::noise::n |
+            | oise:, and for the rest of this ac |
+            | tion phase, Dogs do not chase anyo |
+            | ne.                                |
+     Action | Blow Whistle                       |
+        art | dog-whistle.svg                    |
+   Location | shop                               |
+            ╰------------------------------------╯
