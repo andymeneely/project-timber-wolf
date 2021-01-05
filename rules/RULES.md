@@ -171,8 +171,8 @@ Skills and Characters allow you to take Actions. Most Actions are a grouping of 
 * 👊 is **Subdue** 1 guard on or adjacent to your tile
 * 📷 is **Disable** 1 camera on or adjacent to your tile
 * 💡 is Add 1 **Idea** to your character
-* 🔍 is **Reveal** 1 security token anywhere on the board
-* 💰 is **Loot:** Gain $1k from the supply and place it on your character.
+* 🔍 is **Reveal** 1 security token anywhere on the board. Remove from bag if all unknowns have been revealed.
+* 💰 is **Loot:** Gain $1k from the supply as loot.
 * 🔊 is Increase the **Noise** level by 1 (Required)
 * ⚠ is  **Alert**. Discard the top Event card. (Required)
 {:.subactions}
@@ -586,13 +586,13 @@ When a scenario map shows Tunnel spaces, then you may add an Entrance token to o
 ![npc](fig_npc.png)
 {:.example-right .card-portrait .rotate-right}
 
-A **Non-Player Character** (NPC) is represented by a white pawn, a white die, and their NPC card. Your team will collaboratively decide on how the NPC spends their action each round. Follow any additional abilities or limitations described on the NPC card. NPCs do not need planning tokens.
+A **Non-Player Character** (NPC) is represented by a white pawn, a white die, and their NPC card. Your team will collaboratively decide on how the NPC spends their action each round. Follow any additional abilities or limitations described on the NPC card. NPCs do not need planning tokens and do not have Skills.
 
-**Inactive NPCs**. Some NPCs such as Hostages and Prisoners do nothing until freed or taken.
-
-**Freed**. A Prisoner is freed when they have no movement impediments (e.g. remote locks, keycard doors, guards). Immediately when the prisoner is freed, take out the NPC card and roll a white die for the current round.
+**Inactive NPCs**. The NPCs Hostage and Prisoner do nothing until taken or freed (respectively). Immediately when they are freed or taken, take out the NPC card and roll a white die for the current round.
 
 **Up Close And Personal**. To take a Hostage, a player character must be on the same tile as the hostage.
+
+**Freed**. A Prisoner is freed when they have no movement impediments (e.g. remote locks, keycard doors, guards).
 
 **Panic Mode**. Every NPC has a Panicked side, enabled by a Crisis.
 
