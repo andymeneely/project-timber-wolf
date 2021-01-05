@@ -11,7 +11,7 @@
    inkscape:export-ydpi="96"
    inkscape:export-xdpi="96"
    inkscape:export-filename="C:\code\timber-wolf\img\fixer-back-shadows.png"
-   sodipodi:docname="fixer-back.svg"
+   sodipodi:docname="character-back-name.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    version="1.1"
    id="svg2"
@@ -310,24 +310,6 @@
        id="path4744"
        d="m 563.76886,278.1369 92.7201,4.28893 71.41398,1.7611 16.92699,0.37237 -1.13489,67.64046 -16.3404,-0.35947 -70.06662,-1.71525 -95.62044,-4.57222 z"
        style="opacity:1;fill:#b7d8c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <g
-       id="text4585"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:25px;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="rotate(1.5572485,-14165.505,5600.8713)"
-       aria-label="Non-player Character">
-      <text
-         transform="rotate(-1.5572485)"
-         id="text4614"
-         y="-52.2015"
-         x="444.23251"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.5336px;line-height:52.4435px;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="stroke-width:1px"
-           y="-52.2015"
-           x="444.23251"
-           id="tspan4612"
-           sodipodi:role="line">Fixer</tspan></text>
-    </g>
     <g
        aria-label="Non-player Character"
        transform="rotate(1.5572485,6.9102071,-2418.684)"

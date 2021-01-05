@@ -1,90 +1,76 @@
-            ╭------------------------------------╮
-       Name | Freed Prisoner                     |
-        Qty | 1                                  |
-   Default1 | Crawl                              |
-            | :move:                             |
-   Default2 | Pause                              |
-            | :idea:                             |
-      Roll6 | Dash                               |
-            | :noise::move::move:                |
-Description | GETTING MY BEARINGS                |
-            | Cannot :subdue:                    |
-  FrontBack | front                              |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Panicked Prisoner                  |
-        Qty | 1                                  |
-   Default1 | Run                                |
-            | :noise::noise::move::move:         |
-   Default2 | Whimper                            |
-            | :noise:                            |
-      Roll6 | Sprint                             |
-            | :noise::noise::move::move::move:   |
-Description | (May now :subdue:)                 |
-  FrontBack | back                               |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Hostage                            |
-        Qty | 1                                  |
-   Default1 | Crawl                              |
-            | :move:                             |
-   Default2 | Handle                             |
-            | :subdue::disable::unlock:          |
-      Roll6 | Pause                              |
-            | :idea:                             |
-Description | SQUIRRELY                          |
-            | Nearest player character loses an: |
-            | idea:unless this character shares  |
-            | a tile with them at the end of Act |
-            | ion phase. If that player has no : |
-            | idea:, then :noise::noise:.        |
-            |                                    |
-            | PLOTTING ESCAPE                    |
-            | This character gains :idea::idea:: |
-            | idea: immediately when captured.   |
-  FrontBack | front                              |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Panicked Hostage                   |
-        Qty | 1                                  |
-   Default1 | Run                                |
-            | :noise::noise::move::move:         |
-   Default2 | Whimper                            |
-            | :noise:                            |
-      Roll6 |                                    |
-Description | SQUIRRELY                          |
-            | Nearest player character loses an: |
-            | idea:unless this character shares  |
-            | a tile with them at the end of Act |
-            | ion phase. If that player has no : |
-            | idea:, then :noise::noise:.        |
-            |                                    |
-            | NO PLAN SURVIVES                   |
-            | Each Roll phase, this character lo |
-            | ses :idea: if possible.            |
-  FrontBack | back                               |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Guide                              |
-        Qty | 1                                  |
-   Default1 | Stride                             |
-            | :noise::move::reveal:              |
-   Default2 | Special                            |
-      Roll6 | Observe                            |
-            | :idea::reveal::noise:              |
-Description | (See Scenario for Special action)  |
-  FrontBack | front                              |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Panicked Guide                     |
-        Qty | 1                                  |
-   Default1 | Run                                |
-            | :noise::noise::move::move:         |
-   Default2 | Special                            |
-      Roll6 | Walk:noise::move:                  |
-Description | TALKATIVE                          |
-            | :noise: if this NPC is on or adjac |
-            | ent to a Player Character at the e |
-            | nd of Action phase.                |
-  FrontBack | back                               |
-            ╰------------------------------------╯
+                  ╭------------------------------------╮
+       NormalName | Freed Prisoner                     |
+              Qty | 1                                  |
+   NormalDefault1 | Crawl                              |
+                  | :move:                             |
+   NormalDefault2 | Pause                              |
+                  | :idea:                             |
+      NormalRoll6 | Dash                               |
+                  | :noise::move::move:                |
+NormalDescription | GETTING MY BEARINGS                |
+                  | Cannot :subdue:                    |
+        PanicName | Panicked Prisoner                  |
+    PanicDefault1 | Run                                |
+                  | :noise::noise::move::move:         |
+    PanicDefault2 | Hesitate                           |
+                  | :idea::noise:                      |
+       PanicRoll6 | Sprint                             |
+                  | :noise::noise::move::move::move:   |
+ PanicDescription | (May now :subdue:)                 |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+       NormalName | Hostage                            |
+              Qty | 1                                  |
+   NormalDefault1 | Crawl                              |
+                  | :move:                             |
+   NormalDefault2 | Handle                             |
+                  | :subdue::disable::unlock:          |
+      NormalRoll6 | Pause                              |
+                  | :idea:                             |
+NormalDescription | SQUIRRELY                          |
+                  | If this NPC does not share a tile  |
+                  | with a character at the end of the |
+                  |  Action phase, the nearest player  |
+                  | character loses an:idea: or causes |
+                  |  :noise::noise:                    |
+                  |                                    |
+                  | PLOTTING ESCAPE                    |
+                  | This character gains :idea::idea:: |
+                  | idea: immediately when captured    |
+        PanicName | Panicked Hostage                   |
+    PanicDefault1 | Run                                |
+                  | :noise::noise::move::move:         |
+    PanicDefault2 | Whimper                            |
+                  | :noise:                            |
+       PanicRoll6 | Pause                              |
+                  | :idea:                             |
+ PanicDescription | VERY SQUIRRELY                     |
+                  | If this NPC does not share a tile  |
+                  | with a character at the end of the |
+                  |  Action phase, the nearest player  |
+                  | character AND this character each  |
+                  | lose an:idea: or causes :noise::no |
+                  | ise:                               |
+                  ╰------------------------------------╯
+                  ╭------------------------------------╮
+       NormalName | Guide                              |
+              Qty | 1                                  |
+   NormalDefault1 | Stride                             |
+                  | :noise::move::reveal:              |
+   NormalDefault2 | Special                            |
+      NormalRoll6 | Observe                            |
+                  | :idea::reveal::noise:              |
+NormalDescription | (See Scenario for Special action)  |
+        PanicName | Panicked Guide                     |
+    PanicDefault1 | Run                                |
+                  | :noise::noise::move::move:         |
+    PanicDefault2 | Special                            |
+       PanicRoll6 | Walk                               |
+                  | :noise::move:                      |
+ PanicDescription | TALKATIVE                          |
+                  | :noise: if this NPC is on or adjac |
+                  | ent to a Player Character at the e |
+                  | nd of the Action phase             |
+                  |                                    |
+                  | (See Scenario for Special action)  |
+                  ╰------------------------------------╯

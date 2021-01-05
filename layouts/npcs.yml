@@ -4,34 +4,15 @@ cut:
   width: 2.5in
   height: 3.5in
 title:
-  font: Archivo Black, 12.8
+  font: Archivo Black, 20
   spacing: -30
-  width: 425
-  height: 200
-  x: 310
-  y: 15
+  width: 625
+  height: 110
+  x: 95
+  y: 85
   align: center
   valign: middle
-Level:
-  font: Archivo Narrow, 10.24
-  x: 330
-  y: 200
-  width: 200
-  height: 75
-  align: center
-Memory:
-  font: Archivo Narrow, 13.44
-  x: 570
-  y: 172
-  width: 65
-  align: right
-Ideas:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, 13.44
-  width: 65
-  align: right
-  color: black
-  x: 570
-  y: 230
+  ellipsize: autoscale
 
 Special:
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 9.6
@@ -44,15 +25,8 @@ Special:
   align: center
   valign: middle
 
-Faction:
-  font: Archivo Narrow 9.6
-  x: 330
-  y: 200
-  width: 235
-  align: center
-
 DefaultSkill:
-  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 10
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 9.5
   y: 900
   spacing: -5
   width: 215
@@ -78,71 +52,3 @@ Default3Rect:
   radius: 40
   stroke_width: 2.5
   stroke_color: black
-
-FigureLevel:
-  font: Sans Bold 11.52
-  color: red
-  extends: Level
-  str: ①
-  x: += 100
-  y: -= 25
-
-FigureMemory:
-  font: Sans Bold 11.52
-  color: red
-  extends: Memory
-  str: ②
-  x: += 75
-
-FigureIdeas:
-  font: Sans Bold 11.52
-  color: red
-  extends: Memory
-  str: ③
-  x: += 55
-  y: += 85
-
-FigureAction1:
-  font: Sans Bold 16.64
-  color: red
-  extends: Default1
-  str: ④
-  x: -= 85
-  y: -= 45
-
-FigureAction2:
-  font: Sans Bold 16.64
-  color: red
-  extends: Default1
-  str: ④
-  x: += 310
-  y: -= 45
-
-FigureSpecial:
-  font: Sans Bold 7.68
-  color: red
-  extends: Special
-  str: ⑤
-  x: -= 220
-  y: -= 45
-
-FigureSkill1:
-  font: Sans Bold 13.44
-  color: red
-  extends: DefaultSkill
-  str: ⑥
-  x: 75
-  y: += 240
-
-FigureSkill2:
-  font: Sans Bold 13.44
-  color: red
-  extends: DefaultSkill
-  str: ⑥
-  x: 475
-  y: += 240
-
-border:
-  extends: cut
-  radius: 37.5
-  stroke_width: 2.5
