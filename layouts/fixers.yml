@@ -24,3 +24,7 @@ Special:
   height: 550
   align: center
   valign: middle
+
+back_title:
+  extends: title
+  y: 435

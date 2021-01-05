@@ -213,11 +213,11 @@ Description | Any character who has planned tile |
       Order | 22                                 |
       Story | "Huh, we didn't think about how to |
             |  carry this stuff"                 |
-Description | Any indoor character with loot tha |
-            | t is not part of the heist objecti |
-            | ve must place it on an adjacent he |
-            | x with no Guards. If this is not p |
-            | ossible, lose the loot             |
+Description | Any indoor character not required  |
+            | by the objective must place it on  |
+            | an adjacent hex with no Guards. If |
+            |  this is not possible, lose the lo |
+            | ot                                 |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Ties Broke!                        |

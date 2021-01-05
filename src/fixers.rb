@@ -34,3 +34,15 @@ Squib::Deck.new(cards: data.nrows) do
   end
 
 end
+
+Squib::Deck.new(cards: data.nrows) do
+  use_layout file: 'layouts/fixers.yml'
+  png file: 'cork.png', x: width, angle: Math::PI / 2
+  png file: 'fixer-back-shadows.png'
+  svg file: 'fixer-back.svg'
+
+  text str: data.name, layout: :back_title
+
+  save_png prefix: 'fixer_back_'
+  save_sheet prefix: 'sheet_fixer_backs_', columns: 5, rows: 5
+end
