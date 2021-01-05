@@ -1,0 +1,26 @@
+cut:
+  x: 0.125in
+  y: 0.125in
+  width: 2.5in
+  height: 3.5in
+title:
+  font: Archivo Black, 20
+  spacing: -30
+  width: 625
+  height: 110
+  x: 95
+  y: 95
+  align: center
+  valign: middle
+  ellipsize: autoscale
+
+Special:
+  font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold 11
+  color: black
+  spacing: -4
+  x: 130
+  y: 325
+  width: 550
+  height: 550
+  align: center
+  valign: middle

@@ -2,14 +2,14 @@
        Name | Old Friend                         |
 Description | TEAMWORK                           |
             | Any player character who is outdoo |
-            | rs may spend :idea::idea: to give  |
-            | :idea: to any player, any number o |
-            | f times, in addition to your actio |
-            | n. Does not apply to the Planning  |
-            | or Escape phase.                   |
+            | rs may spend :idea::idea: and give |
+            |  one of those :idea: to any player |
+            | , any number of times (in addition |
+            |  to your action). Does not apply t |
+            | o the Planning or Escape phase.    |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Pawn Shop Owner                    |
+       Name | Fence                              |
 Description | MARKET INSIGHT                     |
             | Every item purchased at the store  |
             | costs $1k less.                    |
@@ -52,7 +52,7 @@ Description | HAVE YOU SEEN WHAT WE MAKE??       |
             | ck tokens with blanks in the bag.  |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Security Consultant                |
+       Name | Consultant                         |
 Description | ON CALL                            |
             | During planning, place 1/2/3 blank |
             | s on this card for $0k/$3k/$7k. Du |
@@ -63,20 +63,20 @@ Description | ON CALL                            |
             |  removed at beginning of Escape.   |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | The Connoiseur                     |
+       Name | Connoiseur                         |
 Description | GOTTA KNOW WHAT TO LOOK FOR        |
             | During planning, add $1k to every  |
             | hex with cash or jewel loot.       |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | The Curator                        |
+       Name | Curator                            |
 Description | BEAUTY IS IN THE EYES OF THE BUYER |
             | Jewels can be sold for $4k each.   |
             |                                    |
             | PERSUASIVE                         |
             | Items may be sold back to the shop |
-            |  for $1k less than their full pric |
-            | e (instead of half).               |
+            |  for $1k less than their listed pr |
+            | ice (instead of half).             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Shell                              |
@@ -86,7 +86,7 @@ Description | DENIAL OF SERVICE                  |
             | ts disabled.                       |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Diversion Specialist               |
+       Name | Diversion Artist                   |
 Description | BUY TIME                           |
             | During planning, you may place up  |
             | to four $1k tokens on the starting |
@@ -104,8 +104,8 @@ Description | TAKE A LOOK AT THESE FLOORPLANS    |
             |  when on the hex.                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Retired Mastermind                 |
-Description | IF YER GONNA DO THIS, DO IT RIGHT  |
+       Name | Retiree                            |
+Description | IF YOU DO THIS, DO IT RIGHT        |
             | During planning, add 1/2/3 Masterm |
             | ind events (M1, M2, etc.) to the e |
             | vent deck at any position for $3k/ |
@@ -117,4 +117,6 @@ Description | I'LL GET YOU INSIDE                |
             | During planning, you may replace o |
             | ne known or revealed Guard with a  |
             | player character.                  |
+            |                                    |
+            | I NEED TO LIMIT MY EXPOSURE        |
             ╰------------------------------------╯
