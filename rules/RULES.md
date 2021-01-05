@@ -89,7 +89,8 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 
 **Step 4. Build Characters.** Every player gets one Character card and two Skill cards. New players start with Amateur cards.
 
- _Tip: The scenario booklet has some pre-built character+skill pairings. If this is your very first game, we recommend Johnny Swagger, Tiny Mike, Phobia, and Showtime._
+ Tip: The scenario booklet has some pre-built character+skill pairings
+ {:.tip .numbered_fig}
 
 <div class="setup-spacing"/>
 
@@ -124,16 +125,15 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 
 <div class="pagebreak"/>
 
-# Play Overview
+# Concepts
 
 ## The Board
 
-<div class="example-right">
-  <img src="../img/figure_board.svg"><br>
-  Blue is adjacent to a Camera, but not to a Guard.
-</div>
-
 The board is a set of modular double-sided hex tiles. The rotational orientation does not matter. Each tile is Blank on one side, and is a Security tile on the other side. A **Security tile** represents an unknown Security Chit that will be drawn from the Security Bag.
+
+
+![board](../img/figure_board.svg). Example: Blue is adjacent to a Camera, but not to a Guard.
+{:.example}
 
 **Adjacent**. You are adjacent to something if you are on a tile that shares a border with another tile. Being on the same tile is *not* considered adjacent.
 
@@ -287,39 +287,39 @@ Between heists, your team may visit The Shop to purchase Item cards.
 
 **Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
 
-<div class="pagebreak"/>
-
 # Heist Gameplay
+
+![flowchart](flowchart.svg){:.example-tight}
+
+All phases are **simultaneous play** in a series of phases. First, your team will plan out how you will execute the heist. You will being doing recon, spending money on Fixer abilities, buying Items at the Shop, and placing planning tokens to coordinate your efforts. Then, you will carry out that plan, or at least attempt to.
+
+The majority of the time spent is in the **Action** phase, where you are executing your heist. The Planning phase typically takes a few minutes, and Escape is very short. The Event Phase is (mostly) mechanical and also brief.
+
+
 
 ## Part I: The Plan
 
-<div>
-
-<div class="example-right">
-<img src="../img/figure_planning.svg"><br>
-Blue and Red place their planning tokens.
-</div>
-
-**Place Planning Tokens**. With your team, you will collaboratively come up with a plan of how you will pull this Heist. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
-
+**Place Planning Tokens**. Every time you do a Move➜, you *must* move onto a hex that you have **Planned** with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.
 
 *Note:* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
 {:.tip}
 
+![planning](../img/figure_planning.svg) Blue and Red place their planning tokens.
+{:.example}
 
 
 **Start on Entrances**. Place your Character pawn on the Entrance tile where you will plan to start. The default limit character limit per Entrance in planning is 2, unlimited during Heist and Escape parts.
+
+**Use Your Fixers**. Most Fixers provide a "During Planning..." ability that could potentially help your team.
 
 **No auto-reveals yet**. Do not auto-reveal any hidden security chits you may be adjacent to until Heist phase.
 
 **Visit the Shop.** Your heists will earn you money to purchase Items. Using team cash, you may purchase as many Item cards as are available.
 *Note: on your first heist, you have $0k team cash and therefore cannot purchase anything from the shop.*
 
-</div>
-
 ## Part II: The Heist
 
-For each Round, repeat Phase 1 through 3 until the Escape Phase. All phases are **simultaneous play**.
+For each Round, repeat Phase 1 through 3 until the Escape Phase.
 
 ### Phase 1. Roll
 
@@ -335,11 +335,11 @@ Roll your die.
 
 **Undoing**. If unknown information is revealed after you commit to an Action, your Action cannot be undone, otherwise you may undo in good faith.
 
-**Required subactions** The Noise(🔊) and the Alert(⚠) sub-actions are required, but all other sub-actions are not required. If any Crisis card appears on the top of the Event deck, immediately queue it for the Event phase.
+**Required subactions** The Noise(🔊) and the Alert(⚠) sub-actions are required, but all other sub-actions are not required. If any Crisis card ever appears on the top of the Event deck for any reason, immediately queue it.
 
-**No passing**. You MUST choose an Action on your Character or Skills.
+**No passing**. You MUST choose an Action each round.
 
-**No alphas**. You have the final say about what to do with your own character.
+**No alphas**. You have the final say about your character.
 
 **Escape any time**. You may opt to initiate Escape Phase at any time. You must still do the Event phase.
 
@@ -360,7 +360,7 @@ When all players have finished their Actions and all noise has been accounted fo
 
 **Active Event**. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more "Raise ⚠", in which you deal additional cards off the Event deck as you would during the Action phase, but the Active Event card does not change. If the Event deck was exhausted in the Action phase, the final Event card will be the Active Event. A Crisis card can even be queued during an Active Event.
 
-**Discard Active Event**. When the Active Event is finished, discard the card.
+**Discard Active Event**. When the Active Event is finished, discard it.
 
 **Events then Crisis Queue**. Follow any Crisis cards you have set aside in the queue. Crises should be executed in the order they were encountered. Discard them after use.
 
@@ -373,7 +373,7 @@ When all players have finished their Actions and all noise has been accounted fo
 It is the end of the first round of a 4-player game. The team generated 🔊🔊🔊🔊🔊 noise, meaning they raised one ⚠. Thus, the Active Event in this case is event card 2 (_Get Outta My Way_). Following the card leads them to ⚠⚠, so they discard Events 3 and 4 along with their Active Event card (event 2). After the 4th Event card is discarded, the topmost card is a Crisis card. This is immediately added to the queue. The team now enters the Crisis Queue and does the one crisis card, then discards that card too.
 {:.example}
 
-Remember: Events are something you can potentially avoid with crafty noise management. Crises will always happen. Events and Crises never cause noise, but they can ⚠.
+Remember: Events effects are something you can potentially avoid with crafty noise management. Crises will always happen. Events and Crises never force you to take noise, but they can ⚠.
 {:.tip}
 
 ### Phase 4. Escape
@@ -411,9 +411,7 @@ If you are Busted, you are out of gameplay for the rest of this Heist. All loot 
 
 **Ideas don't carry over**. Leftover 💡 are lost at the end of a heist.
 
-**Keep a record**. No matter what happens, record the outcome!
-
-**Level Up**. At the end of every heist, every player levels up the character they just played (see _Progression_)
+**Everyone Levels Up**. At the end of every heist, every player levels up the character they just played (see _Level Up_)
 
 
 # Campaign
@@ -452,14 +450,14 @@ Any cash on a Character is added to the Team Cash tracker, as well as any loot. 
 
 **Players level up** as well as characters. Every human player starts at level 1 when they are new to this game. At the end of every heist, regardless of the objective outcome or character fate, every player levels up the named character they just played - even if they have no plans to play them ever again.
 
-**Characters Start at Player Level**. For the next heist, a player may start with a character of the _player's level_ (or less). That character may be new or used previously.
+**Characters Start at Player Level**. For the next heist, you may start with a character of the _your player level_ (or less). That character may be new or used previously.
 
-**No evil twins.** A player may NOT create a new named character with exactly the same card combinations as another named character.
+**No evil twins.** You may NOT create a new named character with exactly the same card combinations as another named character.
 
-For example, Josh's character *Cam* (see above examples) who is a *Tinkerer* with *Assault* and *Smash 'n' Grab* is Busted. Josh wants to build a new *Tinkerer* with *Assault* named _Iris_. He may not use *Smash 'n' Grab* as the other skill as that would be identical to Cam.
+_Example of player and character levels._ For example, this is Josh's third time playing this game, so he is Level 3. Last time, Josh's character *Cam* who is a *Tinkerer* with *Assault* and *Smash 'n' Grab* is Busted. Josh wants to build a new *Tinkerer* with *Assault* named _Iris_. He may not use *Smash 'n' Grab* as the other skill as that would be identical to Cam. _Iris_ will start at Level 3.
 {:.example}
 
-**Progression**. At Level 2, a character upgrades one Skill card of your choice. At Level 3, upgrade your Character to a Pro version. At Level 4, upgrade your other Skill card. The maximum player and character level is 4 (both pro Skills and a pro Character).
+**Progression**. At Level 2, upgrade one Skill card of your choice. At Level 3, upgrade your Character to a Pro version. At Level 4, upgrade your other Skill card. The maximum player and character level is 4 (both pro Skills and a pro Character).
 
 Each Amateur card is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Record your choice on your character sheet. Skill cards work the same way.
 
@@ -540,20 +538,16 @@ There are four **Lockdown Gate** hex chits lettered A,B,C, and D. The hex is tre
 
 The event deck for the scenario will have Crisis cards and Event cards that will lock these down. This means that the entire hex tile underneath this chit is removed from the board, and that space is now considered a gap. Lockdown Gates are always removed in order: the A tile will be removed first, then B, and so on.
 
-Any character caught on a locked down hex is busted.
+**Don't get locked down.** Any character caught on a locked down hex is Busted. Any other pieces on the locked down hex is removed from the board. All Lockdown Gates are removed at the start of the Escape phase.
 
-Any planning tokens on a locked down hex may be immediately re-planned.
-
-Any other pieces on the locked down hex is removed from the board.
-
-All Lockdown Gates are removed at the start of the Escape phase.
+**Auto-replan**. Any planning tokens on a locked down hex may be immediately re-planned.
 
 ## Keycard
 
 ![keycard lock](fig_hex_keycard-lock.png)
 {:.example-right .hexchit .rotate-right}
 
-**No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the Keycard Door, they may remove the Keycard Door token from the baord. The Keycard is a form of loot.
+**No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the Keycard Door, they may remove the Keycard Door token from the boad. The Keycard is a form of Loot.
 
 ![keycard](fig_chit_keycard.png)
 {:.example-left .chit .rotate-left}
@@ -590,7 +584,7 @@ A **Non-Player Character** (NPC) is represented by a white pawn, a white die, an
 
 **Inactive NPCs**. The NPCs Hostage and Prisoner do nothing until taken or freed (respectively). Immediately when they are freed or taken, take out the NPC card and roll a white die for the current round.
 
-**Up Close And Personal**. To take a Hostage, a player character must be on the same tile as the hostage.
+**Up Close And Personal**. To take a _Hostage_{.idx}, a player character must be on the same tile as the hostage.
 
 **Freed**. A Prisoner is freed when they have no movement impediments (e.g. remote locks, keycard doors, guards).
 
@@ -607,7 +601,9 @@ A **Non-Player Character** (NPC) is represented by a white pawn, a white die, an
 
 **Some safes are harder than others**. The scenario description will tell you how many 🧩 you need to unlock the safe. Each 🧩 is cumulative, even across rounds. Use leftover planning tokens on your character to mark your progress. When the safe is unlocked, replace the chit with its contents.
 
+# Index
 
+* [Hostage]
 
 <!-- ## TBD modules -->
 

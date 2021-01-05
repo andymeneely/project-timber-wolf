@@ -15,15 +15,19 @@ body{
   background-size: cover;
   background-image: url("../img/document-bg.svg");
   background-repeat: no-repeat;
+
 }
 
-@page:bottom-center {
+@top-center {
   font-family: 'Archivo Black';
+  height: 2em;
+  width: 5em;
+  text-align: center;
   font-size: 10pt;
   font-weight: bold;
-  padding: 0.25em;
-  content: counter(page);
+  content: target-counter(page);
 }
+
 
 /* Binding gutters */
 @page:left  {
@@ -236,6 +240,11 @@ ol.gameplay-structure{
   margin-top: 0.5em;
 }
 
+.example-tight{
+  float: right;
+  margin-left: 0.5em;
+}
+
 .example-left{
   float: left;
   margin-right: 1.5em;
@@ -357,4 +366,20 @@ ol.gameplay-structure{
 }
 .figure_list li li {
   padding-left: 1em;
+}
+
+
+/* For the index */
+.idx {
+  text-decoration: none;
+  font-weight: normal;
+  font-variant: normal;
+  string-set: idxstring content();
+}
+
+.idx-text::before{
+  content: target-text(attr(href));
+}
+.idx-text::after{
+  content: target-counter(attr(href), page);
 }
