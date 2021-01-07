@@ -601,9 +601,6 @@ A **Non-Player Character** (NPC) is represented by a white pawn, a white die, an
 
 **Some safes are harder than others**. The scenario description will tell you how many 🧩 you need to unlock the safe. Each 🧩 is cumulative, even across rounds. Use leftover planning tokens on your character to mark your progress. When the safe is unlocked, replace the chit with its contents.
 
-# Index
-
-* [Hostage]
 
 <!-- ## TBD modules -->
 
@@ -612,3 +609,7 @@ A **Non-Player Character** (NPC) is represented by a white pawn, a white die, an
 <!-- * Inspiration Chits: 2-idea and 3-idea chits
 * Elite Security: Needs multiple subactions in one turn
 * TBD needs playtesting. Like an extra skill card that you carry -->
+
+<!-- # Index -->
+
+<!-- Haven't figured out a good way to do this - might be good for Ruby -->

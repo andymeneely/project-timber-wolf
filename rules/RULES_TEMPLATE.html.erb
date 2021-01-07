@@ -1,11 +1,48 @@
 <html>
+
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="rules.css">
+    <style>
+        @page {
+            size: 5.75in 8.75in;
+            margin: 0;
+            margin-bottom: 0.30in;
+            padding: 0.40in;
+            padding-bottom: 0;
+            background-image: url("../img/document-bg.svg");
+            background-repeat: no-repeat;
+            background-size: auto auto;
+
+            @bottom-center {
+                font-family: 'Archivo Black';
+                height: 0in;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 0.25in;
+                text-align: center;
+
+                font-size: 8pt;
+                font-weight: bold;
+                content: counter(page);
+            }
+        }
+        /* Binding gutters */
+        @page: left {
+            background-position: left top;
+            padding-right: 0.875in;
+        }
+        @page: right {
+            background-position: right top;
+            padding-left: 0.875in;
+        }
+    </style>
 </head>
+
 <body>
 
-<%= File.read "rules/RULES.md.html" %>
+    <%= File.read "rules/RULES.md.html" %>
 
 </body>
+
 </html>

@@ -6,41 +6,15 @@ body{
   /* text-rendering: optimizeLegibility; */
   line-height: 1.05;
   color: #130e04;
-}
-
-@page {
-  size: 5.75in 8.75in;
-  padding: 0.5in;
   margin: 0;
-  background-size: cover;
-  background-image: url("../img/document-bg.svg");
-  background-repeat: no-repeat;
-
+  padding: 0;
 }
 
-@top-center {
-  font-family: 'Archivo Black';
-  height: 2em;
-  width: 5em;
-  text-align: center;
-  font-size: 10pt;
-  font-weight: bold;
-  content: target-counter(page);
-}
-
-
-/* Binding gutters */
-@page:left  {
-  background-position: left center;
-  padding-right: 0.875in; /* Binding gutter */
-}
-@page:right {
-  background-position: right center;
-  padding-left: 0.875in; /* Binding gutter */
-}
+/* @page rule is in <style> because... that's how it works?? I don't know. */
 
 #markdown-toc{
   margin-left: 6em;
+  font-size: 90%;
 }
 
 #markdown-toc, #markdown-toc ul {
