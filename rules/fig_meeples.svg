@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="298.61252"
+   height="264.78864"
+   viewBox="0 0 298.61252 264.78864"
+   id="svg14475"
+   version="1.1"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="fig_meeples.svg"
+   inkscape:export-filename="C:\code\timber-wolf\rules\fig_meeples.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs14477">
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter4340">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence4342" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix4344" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix4346" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix4348" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite4350" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend4352" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix4354" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting4356">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight4358" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite4360" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend4362" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite4364" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14176">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14178" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14180" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14182" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14184" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14186" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14188" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14190" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14192">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14194" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14196" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14198" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14200" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14202">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14204" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14206" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14208" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14210" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14212" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14214" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14216" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14218">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14220" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14222" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14224" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14226" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14228">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14230" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14232" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14234" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14236" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14238" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14240" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14242" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14244">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14246" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14248" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14250" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14252" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14254">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14256" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14258" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14260" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14262" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14264" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14266" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14268" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14270">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14272" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14274" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14276" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14278" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14280">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14282" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14284" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14286" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14288" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14290" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14292" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14294" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14296">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14298" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14300" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14302" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14304" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14306">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14308" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14310" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14312" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14314" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14316" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14318" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14320" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14322">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14324" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14326" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14328" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14330" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14332">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14334" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14336" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14338" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14340" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14342" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14344" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14346" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14348">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14350" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14352" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14354" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14356" />
+    </filter>
+    <filter
+       inkscape:label="Linen Canvas"
+       inkscape:menu="Bumps"
+       inkscape:menu-tooltip="Painting canvas emboss effect"
+       style="color-interpolation-filters:sRGB"
+       id="filter14358">
+      <feTurbulence
+         numOctaves="5"
+         baseFrequency="0.4"
+         id="feTurbulence14360" />
+      <feConvolveMatrix
+         order="5 5"
+         kernelMatrix="-4 0 0 0 -4 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -4 0 0 0 -4 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix14362" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 2 0 -5 0 2 0 2 "
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix14364" />
+      <feColorMatrix
+         type="saturate"
+         result="result1"
+         id="feColorMatrix14366" />
+      <feComposite
+         k4="0"
+         in2="SourceGraphic"
+         operator="arithmetic"
+         k1="1.5"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite14368" />
+      <feBlend
+         mode="normal"
+         in2="result1"
+         result="result4"
+         id="feBlend14370" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         id="feColorMatrix14372" />
+      <feDiffuseLighting
+         surfaceScale="10"
+         diffuseConstant="1"
+         result="result3"
+         id="feDiffuseLighting14374">
+        <feDistantLight
+           azimuth="180"
+           elevation="35"
+           id="feDistantLight14376" />
+      </feDiffuseLighting>
+      <feComposite
+         k4="0"
+         k2="0"
+         in2="result4"
+         operator="arithmetic"
+         k1="1.5"
+         k3="0.5"
+         result="result5"
+         id="feComposite14378" />
+      <feBlend
+         mode="normal"
+         in2="result3"
+         result="result6"
+         id="feBlend14380" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite14382" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.6792038"
+     inkscape:cx="149.30626"
+     inkscape:cy="132.39432"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       position="238.43064,134.48559"
+       orientation="1,0"
+       id="guide15443" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata14480">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.0447883,-861.95504)">
+    <g
+       id="g200">
+      <path
+         id="path5911"
+         d="m 74.108824,871.22671 c -7.59991,1.20979 -12.425789,6.10229 -14.778381,11.65635 -2.104258,4.96723 -2.444806,10.39443 -1.943391,15.02022 -7.937458,5.63263 -16.798162,11.44782 -23.783553,17.06317 -3.664295,2.94578 -6.809679,5.82241 -9.05876,8.73408 -2.249155,2.91084 -3.754251,6.02583 -3.227647,9.3339 0.224087,1.40763 1.093224,2.44529 2.001032,3.1642 0.909701,0.71708 1.942101,1.2237 3.097328,1.66602 2.30954,0.88354 5.138513,1.47723 8.212554,1.88992 4.566167,0.6128 9.602085,0.80945 13.912445,0.54969 -3.063102,7.94704 -7.617416,15.52291 -11.522371,22.70961 -4.512945,8.30493 -8.351772,16.19178 -7.096922,24.07488 0.179453,1.12674 0.299362,2.00873 0.551437,2.87398 0.233324,0.868 0.668693,1.92962 1.697005,2.66151 1.029135,0.73354 2.151462,0.79483 3.05262,0.75001 0.900372,-0.0457 1.792384,-0.19116 2.936361,-0.37318 l 31.398051,-4.99805 c 2.278927,-0.36311 3.970005,-0.49024 5.510853,-1.86742 1.541379,-1.37699 1.927522,-2.98429 2.79247,-5.43104 l 0.0089,-0.064 0.0089,-0.064 c 0,0 1.850902,-6.00132 4.237217,-12.04444 1.193322,-3.02124 2.527672,-6.05354 3.759272,-8.24777 0.614455,-1.09894 1.215803,-1.98431 1.665221,-2.50337 0.145336,-0.16463 0.206709,-0.19024 0.298356,-0.26798 0.10372,0.0457 0.186586,0.0457 0.3686,0.16097 0.590491,0.35397 1.434174,1.0105 2.360256,1.86276 1.852466,1.70333 4.062127,4.17121 6.134336,6.67294 4.144457,5.00345 7.767527,10.1333 7.767527,10.1333 l 0.0302,0.064 0.0302,0.064 c 1.58229,2.05711 2.44081,3.45715 4.32279,4.29231 1.88133,0.83507 3.52519,0.43537 5.7724,0.0732 l 31.53608,-5.02009 c 1.12649,-0.17927 2.00822,-0.29177 2.86881,-0.55153 0.86407,-0.23232 1.91548,-0.65397 2.65435,-1.67379 0.73875,-1.0179 0.80707,-2.14831 0.76473,-3.04301 -0.0457,-0.89269 -0.18613,-1.77266 -0.3654,-2.89904 -1.25487,-7.88319 -7.35278,-14.18845 -14.22157,-20.68194 -5.94291,-5.61808 -12.6243,-11.40583 -18.004,-18.00935 4.17786,-1.09108 8.9041,-2.84033 13.05402,-4.84211 2.79413,-1.34507 5.29881,-2.7891 7.22003,-4.34646 0.96078,-0.77927 1.7857,-1.57968 2.42623,-2.54544 0.64088,-0.96614 1.14561,-2.22185 0.9215,-3.62939 -0.52656,-3.30798 -2.92491,-5.80147 -5.96684,-7.87048 -3.04174,-2.069 -6.92509,-3.82703 -11.3228,-5.4893 -8.38251,-3.17097 -18.61186,-5.94534 -27.906046,-8.83506 -0.958534,-4.55244 -2.968218,-9.6061 -6.51072,-13.67396 -3.961251,-4.54924 -10.067572,-7.70145 -17.667418,-6.49184 z"
+         style="fill:#ff0000;stroke-width:1"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#000080;stroke-width:1"
+         d="m 218.79756,862.21393 c -7.59481,1.24181 -12.39997,6.15471 -14.72911,11.71874 -2.0834,4.97592 -2.40099,10.40467 -1.88002,15.02827 -7.91369,5.6662 -16.74982,11.51861 -23.71148,17.16322 -3.65183,2.96115 -6.78511,5.85096 -9.02191,8.77222 -2.23678,2.92036 -3.72879,6.04157 -3.18825,9.34726 0.23003,1.40672 1.10347,2.4409 2.01441,3.15578 0.91327,0.71525 1.94723,1.21547 3.1042,1.65294 2.3133,0.8744 5.1449,1.45565 8.22047,1.85553 4.56881,0.5936 9.60534,0.76921 13.91463,0.49116 -3.02959,7.95984 -7.55192,15.55511 -11.42658,22.7579 -4.47785,8.32386 -8.28345,16.22699 -6.99542,24.10461 0.18421,1.1261 0.3043,2.00836 0.5647,2.87169 0.23634,0.86708 0.67683,1.92669 1.70822,2.6542 1.03212,0.72897 2.15472,0.78567 3.05572,0.7372 0.90028,-0.0549 1.79154,-0.19848 2.93479,-0.38507 l 31.37668,-5.1303 c 2.27736,-0.37226 3.9679,-0.50672 5.50298,-1.89057 1.53557,-1.38357 1.91501,-2.99233 2.76964,-5.44275 l 0.009,-0.064 0.009,-0.064 c 0,0 1.82549,-6.00928 4.18635,-12.06219 1.18059,-3.02645 2.50209,-6.06424 3.72438,-8.26368 0.60997,-1.09985 1.20738,-1.98943 1.65473,-2.51041 0.1447,-0.16555 0.20589,-0.19116 0.29726,-0.26891 0.10326,0.0457 0.18668,0.0457 0.36933,0.15915 0.59186,0.35214 1.43841,1.00446 2.36811,1.85279 1.85971,1.69556 4.07971,4.15402 6.16241,6.64705 4.16548,4.9858 7.81017,10.10047 7.81017,10.10047 l 0.0302,0.064 0.0302,0.064 c 1.59103,2.0508 2.4554,3.447 4.34086,4.2742 1.88491,0.82683 3.52705,0.42073 5.77269,0.0549 l 31.51465,-5.15299 c 1.12541,-0.18385 2.00688,-0.3 2.8664,-0.56342 0.86324,-0.23598 1.91278,-0.6622 2.64736,-1.68523 0.73482,-1.02101 0.79802,-2.15187 0.75192,-3.0462 -0.0512,-0.89269 -0.19518,-1.77166 -0.37921,-2.89749 -1.2881,-7.87752 -7.41255,-14.15699 -14.3086,-20.62166 -5.96656,-5.59284 -12.67229,-11.3527 -18.07972,-17.93308 4.17319,-1.10863 8.89201,-2.87773 13.03349,-4.89707 2.78845,-1.35678 5.28692,-2.81152 7.20159,-4.37692 0.9575,-0.78293 1.77902,-1.58727 2.41558,-2.55569 0.63677,-0.96879 1.13614,-2.22651 0.90623,-3.63332 -0.54056,-3.30587 -2.94937,-5.78921 -5.99997,-7.84505 -3.05023,-2.05693 -6.94115,-3.79813 -11.34574,-5.44165 -8.39592,-3.13575 -18.63683,-5.86696 -27.94308,-8.71734 -0.97773,-4.54851 -3.00879,-9.59357 -6.56836,-13.64662 -3.98038,-4.5325 -10.09987,-7.65874 -17.69478,-6.41638 z"
+         id="path9357" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#008000;stroke-width:1"
+         d="m 207.58584,989.36886 c -7.66039,-0.73537 -13.55917,2.79038 -17.22977,7.57687 -3.28307,4.28047 -4.97401,9.44887 -5.6489,14.05257 -9.09665,3.4616 -19.13277,6.8682 -27.3033,10.5516 -4.28609,1.9325 -8.05248,3.928 -10.96009,6.1826 -2.90734,2.2537 -5.14567,4.8914 -5.4657,8.2257 -0.1361,1.4189 0.44479,2.6415 1.1434,3.565 0.70052,0.9246 1.57303,1.6717 2.58027,2.3897 2.01402,1.435 4.60383,2.7191 7.47587,3.8898 4.26655,1.7386 9.09199,3.1923 13.32972,4.022 -4.95859,6.9246 -11.2677,13.1161 -16.85048,19.0932 -6.45179,6.9073 -12.14629,13.5793 -12.90894,21.525 -0.10903,1.1358 -0.22135,2.0193 -0.18567,2.9208 0.007,0.8982 0.16298,2.0355 0.97518,3.002 0.8121,0.9683 1.88324,1.3088 2.7669,1.4916 0.88428,0.1783 1.78286,0.2652 2.93604,0.3759 l 31.64791,3.0376 c 2.29699,0.2204 3.96596,0.5213 5.80307,-0.4253 1.83756,-0.9465 2.61453,-2.4053 4.06562,-4.5569 l 0.0247,-0.064 0.0247,-0.064 c 0,0 3.29697,-5.3454 7.12289,-10.5966 1.91309,-2.6253 3.96528,-5.2259 5.70788,-7.0411 0.87001,-0.9083 1.6746,-1.616 2.23997,-2.0057 0.18183,-0.1235 0.24796,-0.1327 0.35589,-0.1848 0.0878,0.073 0.16967,0.091 0.31619,0.2479 0.48302,0.4911 1.1349,1.338 1.81766,2.3952 1.36596,2.1137 2.88595,5.0569 4.26433,7.9985 2.75687,5.8828 4.97736,11.7577 4.97736,11.7577 l 0.0119,0.064 0.0119,0.064 c 1.01567,2.3886 1.49554,3.959 3.10787,5.2395 1.6118,1.2803 3.30334,1.3057 5.56838,1.523 l 31.78706,3.051 c 1.13512,0.1088 2.01722,0.2213 2.91536,0.1865 0.89479,-0.01 2.01828,-0.1527 2.98939,-0.9547 0.97082,-0.8003 1.32029,-1.8773 1.50357,-2.7539 0.17781,-0.8762 0.26296,-1.7628 0.37189,-2.8984 0.76263,-7.9456 -3.5587,-15.5789 -8.57896,-23.5879 -4.34385,-6.9291 -9.35975,-14.208 -12.91102,-21.9494 4.31797,-0.01 9.33186,-0.5159 13.85121,-1.4129 3.04229,-0.6009 5.82906,-1.3708 8.07953,-2.3965 1.12549,-0.5131 2.12487,-1.0813 2.98718,-1.8554 0.86269,-0.7747 1.66627,-1.8634 1.80256,-3.2823 0.31994,-3.3345 -1.37615,-6.3498 -3.8019,-9.1154 -2.42511,-2.7665 -5.7437,-5.4421 -9.58386,-8.1541 -7.31913,-5.1724 -16.5255,-10.424 -24.79764,-15.5526 0.21448,-4.6474 -0.46381,-10.0435 -2.87262,-14.8701 -2.69339,-5.39748 -7.8138,-9.98037 -15.47451,-10.71519 z"
+         id="path192" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#800080;stroke-width:1"
+         d="m 84.484675,1001.9911 c -7.489787,-1.7683 -13.812502,0.9241 -18.098771,5.1681 -3.833623,3.7953 -6.210434,8.6863 -7.503909,13.1558 -9.482303,2.1949 -19.887917,4.2079 -28.482828,6.7483 -4.508645,1.3328 -8.511074,2.7987 -11.697753,4.6378 -3.186333,1.8382 -5.761996,4.1477 -6.531583,7.4077 -0.327533,1.3873 0.08232,2.6774 0.648937,3.6872 0.568723,1.0111 1.331615,1.8697 2.232042,2.7178 1.800652,1.6951 4.192217,3.3187 6.878762,4.8684 3.991133,2.3016 8.574532,4.3969 12.660486,5.794 -5.852572,6.1875 -12.94364,11.4655 -19.286002,16.6295 -7.3296157,5.9678 -13.8770216,11.805 -15.71108545,19.5737 -0.26213587,1.1105 -0.48978981,1.9714 -0.58070504,2.8686 -0.11442151,0.8908 -0.11442151,2.0389 0.55875367,3.1065 0.67317516,1.0695 1.68823362,1.5523 2.53884902,1.8533 0.85153,0.2972 1.7304809,0.504 2.8579121,0.7701 l 30.9427437,7.305 c 2.245871,0.5305 3.858601,1.0547 5.807123,0.3667 1.948998,-0.6887 2.916815,-2.0282 4.646473,-3.9629 l 0.03384,-0.055 0.03384,-0.055 c 0,0 3.992048,-4.8484 8.495233,-9.5317 2.251716,-2.3415 4.637912,-4.6394 6.610754,-6.2014 0.985378,-0.7811 1.878469,-1.3737 2.491507,-1.683 0.197105,-0.097 0.263508,-0.098 0.377746,-0.1344 0.07683,0.082 0.155581,0.1115 0.27988,0.289 0.411588,0.5515 0.942738,1.4796 1.475672,2.6197 1.066516,2.2795 2.172919,5.4018 3.139292,8.5032 1.932927,6.2027 3.335436,12.3245 3.335436,12.3245 l 0.0049,0.064 0.0049,0.064 c 0.682047,2.5044 0.944384,4.1254 2.367958,5.6129 1.423107,1.4872 3.095572,1.742 5.31019,2.2647 l 31.078832,7.337 c 1.1097,0.2625 1.9685,0.493 2.86306,0.5799 0.88757,0.1134 2.02037,0.1226 3.09135,-0.5405 1.07022,-0.6604 1.56281,-1.6807 1.86345,-2.5243 0.29515,-0.8433 0.49976,-1.7109 0.7618,-2.8212 1.834,-7.7685 -1.41135,-15.9177 -5.29813,-24.534 -3.36309,-7.4545 -7.34465,-15.3469 -9.81237,-23.4986 4.27913,0.578 9.31551,0.7554 13.91481,0.4801 3.09565,-0.1829 5.96117,-0.567 8.32998,-1.2777 1.18475,-0.3558 2.252,-0.7829 3.21142,-1.4328 0.95957,-0.6503 1.90375,-1.62 2.23132,-3.0073 0.76966,-3.2602 -0.5015,-6.4779 -2.52952,-9.547 -2.02713,-3.0701 -4.95186,-6.1713 -8.38836,-9.3795 -6.54937,-6.1179 -14.95774,-12.5704 -22.457313,-18.7743 0.842843,-4.5754 0.903663,-10.0136 -0.82775,-15.1224 -1.935955,-5.7131 -6.386941,-10.9486 -13.876984,-12.7164 z"
+         id="path194" />
+    </g>
+  </g>
+</svg>

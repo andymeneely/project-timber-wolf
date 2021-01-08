@@ -41,10 +41,8 @@ end
 
   save_png prefix: 'crisis_'
 
-  build :color do
-    save_png dir: 'rules', prefix: 'figure_crisis', count_format: '',
-             trim_radius: '0.125in', trim: '0.125in', range: 0
-  end
+  save_png dir: 'rules', prefix: 'figure_crisis', count_format: '',
+           trim_radius: '0.125in', trim: '0.125in', range: 0
 
   build :sheets do
     save_sheet prefix: 'sheet_crises_', columns: 5, rows: 5

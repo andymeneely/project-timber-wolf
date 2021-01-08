@@ -26,35 +26,41 @@ Questions? Contact Andy Meneely at andy.meneely@gmail.com
 
 # The Pieces
 
-Note: precise counts may change as part of the prototyping process.
-
+* ![oops](fig_hex_tile_front.png){:.lg-part} 32 Security hex tiles
+* ![oops](fig_entrance.png){:.sm-part} 5 Entrance/Exits
+* ![oops](figure_setup_character_04.png){:.md-part} 24 Character cards
+* ![oops](fig_npc.png){:.md-part} 3 NPC cards
+* ![oops](figure_skill_00.png){:.lg-part} 14 Skill cards
+* ![oops](figure_event.png){:.md-part} 42 Event cards
+* ![oops](fig_item.png){:.md-part} 14 Item cards
+* ![oops](figure_crisis.png){:.lg-part} 12 Crisis cards
+* ![oops](figure_fixer.png){:.md-part} 15 Fixer cards
+* ![oops](fig_noise.png){:.lg-part} 1 Tracker
+* ![oops](fig_npc_meeple.png){:.xs-part} 1 NPC
+* ![oops](fig_meeples.png){:.md-part} 4 Player tokens
+* ![oops](fig_dice.png){:.md-part} 5 dice
+* ![oops](fig_planning.png){:.md-part} 48 Planning Tokens
+* ![oops](fig_help.png){:.lg-part} 4 Game Helps
+* ![oops](fig_chit_locked.png){:.sm-part} 12 Locks
+* ![oops](fig_chit_camera.png){:.sm-part} 12 Cameras
+* ![oops](fig_chit_guard.png){:.sm-part} 14 Guards
+* ![oops](fig_chit_guard-dog.png){:.sm-part} 8 Guard Dogs
+* ![oops](fig_chit_jewel.png){:.sm-part} 4 Jewels
+* ![oops](fig_hex_lockdown_A.png){:.md-part} 4 Lockdown Gates
+* ![oops](fig_hex_kennel.png){:.md-part} 1 Kennel
+* ![oops](fig_hex_keycard-lock.png){:.md-part} 2 Keycard Locks
+* ![oops](fig_hex_reinforcements.png){:.md-part} 2 Reinforcements
+* ![oops](fig_chit_keycard.png){:.sm-part} 2 Keycards
+* ![oops](fig_chit_usb-key.png){:.sm-part} 1 USB keys
+* ![oops](fig_chit_asterisk.png){:.sm-part} 2 Story chits
+* ![oops](fig_hex_watchtower.png){:.md-part} 1 Watchtower
+* ![oops](fig_hex_server-x.png){:.md-part} 4 Servers
+* ![oops](fig_hex_remote_lock_x.png){:.md-part} 4 Remote Locks
+* ![oops](fig_hex_safe.png){:.md-part} 4 Remote Locks
+* ![oops](fig_hex_item.png){:.md-part} 1 Item chit
+* ![oops](fig_chit_idea.png){:.xs-part} 36 Ideas
+* ![oops](fig_chit_1k.png){:.sm-part} 12 Cash tokens
 {:.parts-list}
-
-* 32 Blank/Security hex tiles
-* 4 Lockdown Gate hex
-* 5 Entrance square tiles
-* 16 Character cards
-* 24 Skill cards
-* 42 Event cards
-* 6 Item cards
-* 6 Special Event cards
-* 12 Fixer cards
-* 2 Noise tracker mats
-* 12 Lock chits (circle)
-* 12 Camera chits (circle)
-* 14 Guard chits (circle)
-* 4 Jewel chits (circle)
-* 1 USB key chit (circle)
-* 4 Server chits (circle)
-* 8 Pressure Sensors (ring)
-* 2 Story chits (circle)
-* 36 Idea💡 chits (oval)
-* 4 Player meeples
-* 1 NPC pawn (white)
-* 48 Planning mini hex chits
-* 5 six-sided dice
-* 12 Petty Cash chits
-* 4 Game Helps
 
 <div class="pagebreak"/>
 

@@ -5,7 +5,7 @@ body{
   /* font-size: 10pt;  */
   /* text-rendering: optimizeLegibility; */
   line-height: 1.05;
-  color: #130e04;
+  color: #130e04dd;
   margin: 0;
   padding: 0;
 }
@@ -57,7 +57,7 @@ h1{
   /* font-variant-caps: small-caps; */ /* Sadly Archivo black doesn't support this */
   text-align: center;
   /* color: #4d3910; */
-  color: #130e04;
+  color: #130e04dd;
   margin-top: 0em;
   margin-bottom: 0.5em;
   padding: 0.25em;
@@ -138,6 +138,46 @@ table.security-table {
 .clear-both{
   clear: both;
 }
+
+ul.parts-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  height: 6.5in;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 75%;
+  /* border: 1pt solid black; */
+}
+
+ul.parts-list li {
+  text-align: center;
+  /* border: 1pt solid black; */
+  font-style: italic;
+  page-break-inside: avoid;
+  margin-bottom: 1.0em;
+}
+
+ul.parts-list li img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ul.parts-list li:nth-of-type(2n) img   { transform: rotate(-7deg) }
+ul.parts-list li:nth-of-type(2n+1) img { transform: rotate(8deg) } */
+/*
+ul.parts-list li img:nth-child(1) { transform: rotate(-7deg); }
+ul.parts-list li img:nth-child(2) { transform: rotate(8deg); }
+ul.parts-list li img:nth-child(3) { transform: rotate(-9deg); }
+*/
+
+img.xs-part { width: 2em; }
+img.sm-part { width: 3em; }
+img.md-part { width: 5em; }
+img.lg-part { width: 7em; }
 
 .example{
   /* background-color: #ccc; */

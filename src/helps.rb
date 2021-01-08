@@ -79,4 +79,6 @@ Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   text layout: :level4, str: 'Level 3 to 4: Upgrade Skill'
 
   save_png prefix: 'help_back_'
+  save_png dir: 'rules', prefix: 'fig_help', count_format: '',
+           trim_radius: '0.125in', trim: '0.125in', range: 0
 end

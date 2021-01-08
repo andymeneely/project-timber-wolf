@@ -155,14 +155,14 @@ Squib::Deck.new(width: 150, height: 300, cards: 1) do
   save_png prefix: 'chit_idea', count_format: ''
 end
 # For rules
-h = 300
-Squib::Deck.new(width: 320, height: 320, cards: 1) do
-rect x: h / 2 + 5, y: 5,
-     width: h / 2, height: h, radius: 75,
+Squib::Deck.new(width: 155, height: 305, cards: 1) do
+rect x: 5, y: 5,
+     width: 150, height: 300, radius: 75,
      fill_color: :black, stroke_width: 0
-rect x: h / 2, width: h / 2, height: h, radius: 75,
+rect x: 0, y: 0,
+     width: 150, height: 300, radius: 75,
      fill_color: $BG_COLOR, stroke_width: 0
-svg x: -15, y: -75,
+svg x: -155, y: -80,
     data: replace_fill_with_fg(['idea']),
     width: 1.5 * height, height: 1.5 * height
 save_png dir: 'rules', prefix: 'fig_chit_idea', count_format: ''
@@ -177,12 +177,35 @@ Squib::Deck.new(width: 600, height: 600, cards: 2) do
   save_png prefix: 'hex_tile', count_format: ['_front', '_back']
 end
 
+#For rules
+Squib::Deck.new(width: 510, height: 605, cards: 2) do
+  polygon n: 6, x: 258, y: 315, radius: 295, angle: '30deg',
+          fill_color: :black, stroke_width: 0
+  polygon n: 6, x: 250, y: 300, radius: 290, angle: '30deg',
+          fill_color: $FG_COLOR, stroke_width: 0
+  svg x: 200, y: 110,
+      width: height / 2 , height: height / 2,
+      angle: '30deg',
+      data: replace_fill_with_fg(['security'], $BG_COLOR)
+  save_png dir: 'rules', prefix: 'fig_hex_tile', count_format: ['_front', '_back']
+end
+
 # Entrance tiles
 # For TTS
+svgs = %w(entrance)
 Squib::Deck.new(width: 300, height: 300, cards: 1) do
   background color: $FG_COLOR
-  svg width: height , height: height, data: replace_fill_with_fg(['entrance'], $BG_COLOR)
-  save_png prefix: 'chit_entrance', count_format: ''
+  svg width: height , height: height, data: replace_fill_with_fg(svgs, $BG_COLOR)
+  save_png prefix: 'chit_entrance', count_format: ['']
+end
+
+#For rules
+Squib::Deck.new(width: 310, height: 310, cards: 1) do
+  rect x: 10, y: 10, width: 300, height: 300, radius: 37.5, fill_color: :black
+  rect x: 0, y: 0, width: 300, height: 300, radius: 37.5, fill_color: $FG_COLOR
+  svg x: 0, y: 0, width: 300 , height: 300,
+      data: replace_fill_with_fg(svgs, $BG_COLOR)
+  save_png dir: 'rules', prefix: 'fig_entrance', count_format: ['']
 end
 
 # # For rules
