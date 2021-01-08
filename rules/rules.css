@@ -58,7 +58,7 @@ h1{
   text-align: center;
   /* color: #4d3910; */
   color: #130e04;
-  margin-top: 0.5em;
+  margin-top: 0em;
   margin-bottom: 0.5em;
   padding: 0.25em;
   background-color: #b3955438;
@@ -342,18 +342,20 @@ ol.gameplay-structure{
   padding-left: 1em;
 }
 
-
 /* For the index */
-.idx {
-  text-decoration: none;
-  font-weight: normal;
-  font-variant: normal;
-  string-set: idxstring content();
+.term {
+  text-decoration: inherit;
+  font-weight: inherit;
+  font-variant: inherit;
 }
 
-.idx-text::before{
-  content: target-text(attr(href));
+#idx a {
+  text-decoration: none;
+  color: inherit;
 }
-.idx-text::after{
+
+#idx a::after {
   content: target-counter(attr(href), page);
+  float: right;
+  margin-right: 6em;
 }

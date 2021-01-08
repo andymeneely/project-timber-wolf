@@ -94,22 +94,13 @@ end
 # --margin-top    0.25in
 
 desc 'Build the rules PDF'
-task rules: ['rules:md_to_html','rules:html_to_pdf']
-namespace :rules do
-  task :md_to_html do
-    puts "Converting markdown to html..."
-    load 'src/rules.rb' # convert markdown
-    erb = ERB.new(File.read('rules/RULES_TEMPLATE.html.erb'))
-    File.open('rules/RULES.html', 'w+') do |html|
-      html.write(erb.result)
-    end
-  end
-
-  task html_to_pdf: [:md_to_html] do
-    puts "Weasyprinting..."
-    `python src/weasybuild.py`
-  end
+task :rules do
+  puts "Converting markdown to html..."
+  load 'src/rules_wikitext.rb'
+  puts "Weasyprinting..."
+  `python src/weasybuild.py`
 end
+
 
 desc 'Build the scenarios PDF'
 task yourlastheist: ['yourlastheist:md_to_html','yourlastheist:html_to_pdf']
