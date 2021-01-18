@@ -16,7 +16,7 @@
    viewBox="0 0 127 203.20001"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="character sheet.svg">
   <defs
      id="defs2">
@@ -373,7 +373,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2"
      inkscape:cx="424.89486"
-     inkscape:cy="413.56224"
+     inkscape:cy="411.31224"
      inkscape:document-units="in"
      inkscape:current-layer="layer8"
      inkscape:document-rotation="0"
@@ -402,7 +402,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

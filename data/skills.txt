@@ -896,7 +896,7 @@ Upgrade2Rolls | Rewire                             |
  5-subactions | :reveal::reveal::noise:            |
      6-action | Snatch                             |
  6-subactions | :unlock::unlock::loot::noise::nois |
-              | e::noise:                          |
+              | e:                                 |
             1 | Shock                              |
               | :subdue::disable::noise:           |
             2 | Defeat                             |
@@ -910,7 +910,7 @@ Upgrade2Rolls | Rewire                             |
               | :reveal::reveal::noise:            |
             6 | Snatch                             |
               | :unlock::unlock::loot::noise::nois |
-              | e::noise:                          |
+              | e:                                 |
         Rolls | Shock                              |
               | :subdue::disable::noise:/Defeat    |
               | :unlock::disable::noise:/Grab      |
@@ -919,7 +919,7 @@ Upgrade2Rolls | Rewire                             |
               | oise::noise:/Discover              |
               | :reveal::reveal::noise:/Snatch     |
               | :unlock::unlock::loot::noise::nois |
-              | e::noise:                          |
+              | e:                                 |
      Upgrade1 | Tamper                             |
 Upgrade1Rolls | Shock                              |
               | :subdue::disable::noise:/Defeat    |
@@ -940,7 +940,7 @@ Upgrade2Rolls | Shock                              |
               | :reveal::reveal::noise:/Rake       |
               | :unlock::unlock::noise::move:      |
             💡 | 0                                  |
-            🔊 | 10                                 |
+            🔊 | 9                                  |
             ➜ | 0                                  |
             📷 | 3                                  |
             👊 | 2                                  |
@@ -970,7 +970,7 @@ Upgrade2Rolls | Shock                              |
  5-subactions | :reveal::reveal::noise:            |
      6-action | Snatch                             |
  6-subactions | :unlock::unlock::loot::noise::nois |
-              | e::noise:                          |
+              | e:                                 |
             1 | Shock                              |
               | :subdue::disable::noise:           |
             2 | Defeat                             |
@@ -984,7 +984,7 @@ Upgrade2Rolls | Shock                              |
               | :reveal::reveal::noise:            |
             6 | Snatch                             |
               | :unlock::unlock::loot::noise::nois |
-              | e::noise:                          |
+              | e:                                 |
         Rolls | Shock                              |
               | :subdue::disable::noise:/Defeat    |
               | :unlock::disable::noise:/Grab      |
@@ -993,7 +993,7 @@ Upgrade2Rolls | Shock                              |
               | oise::noise:/Discover              |
               | :reveal::reveal::noise:/Snatch     |
               | :unlock::unlock::loot::noise::nois |
-              | e::noise:                          |
+              | e:                                 |
      Upgrade1 | Tamper                             |
 Upgrade1Rolls | Shock                              |
               | :subdue::disable::noise:/Defeat    |
@@ -1014,7 +1014,7 @@ Upgrade2Rolls | Shock                              |
               | :reveal::reveal::noise:/Rake       |
               | :unlock::unlock::noise::move:      |
             💡 | 0                                  |
-            🔊 | 10                                 |
+            🔊 | 9                                  |
             ➜ | 0                                  |
             📷 | 3                                  |
             👊 | 2                                  |

@@ -560,9 +560,13 @@ When this heist is finished, you may now rebuild the board for the second heist,
 > You never know who you are going to meet once inside
 {:.text-message}
 
- Once the alarms die down, make a break for it! Break out of all four doors by taking the Mayor hostage.
+For this heist, you will be taking The Mayor hostage and escaping out all different exits. Rebuild a new board, keeping the original characters on the same hiding places as in Part 1.
 
-Plan for the additional heist by setting new planning tokens (you no longer need a planning token on your current location). You may not use Fixer abilities during this phase, but you may use Character powers that impact this phase.
+Plan for the second heist by setting new planning tokens. You no longer need a planning token on your current location.
+
+You may not use Fixer abilities during this planning phase.
+
+
 
 # The Final Score: Part 1
 
@@ -610,10 +614,11 @@ From our insider contact:
 
 **Special Rules**
 
-* WHISPERS. Players who share the same hideout hex may exchange Ideas.
+* WHISPERS. Players who share the same hideout hex may exchange Idea tokens.
 * BREAKOUT. Every player character must exit out of a different exit.
-* MEAL TICKET. Mayor NPC moves one hex to the right at the end of each Event phase until captured. Once captured, he is a Hostage (see rules).
+* MEAL TICKET. At the end of each Event phase until captured, the Mayor NPC moves one hex to the right. Once captured, he is a Hostage (see rules).
 * TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.
+* RADIO SILENCE. You may not use Fixers during planning.
 * Reinforcements (see rules)
 * Watchtower (see rules)
 * Remote locks (see rules)
