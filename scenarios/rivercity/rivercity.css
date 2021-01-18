@@ -3,35 +3,9 @@ body{
   font-size: 12pt;
   line-height: 1;
   color: #130e04;
-}
-
-@page {
-  size: 5.75in 8.75in;
-  padding: 0.5in;
   margin: 0;
-  background-size: cover;
-  background-image: url("../../img/document-bg.svg");
-  background-repeat: no-repeat;
-
-  @bottom-center {
-    font-family: 'Archivo Black';
-    font-size: 10pt;
-    font-weight: bold;
-    padding: 0.25em;
-    content: counter(page);
-  }
+  padding: 0;
 }
-
-/* Binding gutters */
-@page:left  {
-  background-position: left center;
-  padding-right: 0.75in; /* Binding gutter */
-}
-@page:right {
-  background-position: right center;
-  padding-left: 0.75in; /* Binding gutter */
-}
-
 
 p{
   margin-top: 0;
@@ -165,6 +139,7 @@ h1+p {
   border: 1pt solid #ccc;
 	border-radius: 0.4em;
   padding: 0.4em;
+  padding-bottom:0.25em;
   width: 16em;
   margin-left: 3em;
   margin-top: 0.25em;
@@ -245,6 +220,15 @@ table.tabletoc  {
   text-align: center;
 }
 
+.tabletoc a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tabletoc a::after {
+  content: target-counter(attr(href), page);
+}
+
 
 table.scenario-stats {
   padding: 0.25em;
@@ -277,14 +261,14 @@ table.scenario-stats {
 }
 
 .prebuilt {
-  font-size: 80%;
+  font-size: 75%;
   border: none;
   border-collapse: collapse;
   width: 100%;
 }
 
 .prebuilt .s {
-  width: 1.5em;
+  height: 3.0em;
 }
 
 .prebuilt td, .prebuilt th {

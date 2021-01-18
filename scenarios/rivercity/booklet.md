@@ -41,19 +41,19 @@ Version ⏱
 
 | Opportunity           | Location            | Difficulty | Unlocks Fixer        | Page |
 | :-------------------- | :------------------ | :--------- | -------------------- | ---- |
-| The Inclusion Job     | Delinquent Jeweler  | Amateur    | Pawn Shop Owner      | 5  |
-| The Startup Job       | Tech Lab            | Amateur    | Visage               | 6  |
-| The Dark Horse Job    | The Track           | Amateur    | Bookie               | 7  |
-| The Greedy Prisoner   | Estate Basement     | Semi-Pro   | The Connoisseur      | 8  |
-| The Blind Justice Job | Courthouse          | Semi-Pro   | Beat Cop             | 9  |
-| The Melee Job         | Museum of Antiquity | Semi-Pro   | The Curator          | 10  |
-| The Side Channel      | Server Farm         | Semi-Pro   | Shell                | 11  |
-| The Hospitality Job   | Hotel Basement      | Semi-Pro   | Security Consultant  | 12  |
-| The Proving Grounds   | Rival Headquarters  | Semi-Pro   | The Machinist        | 13  |
-| The Safehouse Rescue  | Parking Garage      | Pro        | Retired Mastermind   | 14  |
-| The Black Box         | The Lair            | Pro        | The Architect        | 15  |
-| The Marathon Job      | The Vault           | Pro        | Diversion Specialist | 16  |
-| The Final Score       | Interior Ministry   | Pro        | The Mayor            | 20  |
+| The Inclusion Job     | Delinquent Jeweler  | Amateur    | Pawn Shop Owner      | [](#the-inclusion-job)  |
+| The Startup Job       | Tech Lab            | Amateur    | Visage               | [](#the-startup-job)  |
+| The Dark Horse Job    | The Track           | Amateur    | Bookie               | [](#the-dark-horse-job)  |
+| The Greedy Prisoner   | Estate Basement     | Semi-Pro   | The Connoisseur      | [](#the-greedy-prisoner)  |
+| The Blind Justice Job | Courthouse          | Semi-Pro   | Beat Cop             | [](#the-blind-justice-job)  |
+| The Melee Job         | Museum of Antiquity | Semi-Pro   | The Curator          | [](#the-melee-job)  |
+| The Side Channel      | Server Farm         | Semi-Pro   | Shell                | [](#the-side-channel)  |
+| The Hospitality Job   | Hotel Basement      | Semi-Pro   | Security Consultant  | [](#the-hospitality-job)  |
+| The Proving Grounds   | Rival Headquarters  | Semi-Pro   | The Machinist        | [](#the-proving-grounds)  |
+| The Safehouse Rescue  | Parking Garage      | Pro        | Retired Mastermind   | [](#the-safehouse-rescue)  |
+| The Black Box         | The Lair            | Pro        | The Architect        | [](#the-black-box)  |
+| The Marathon Job      | The Vault           | Pro        | Diversion Specialist | [](#the-marathon-job)  |
+| The Final Score       | Interior Ministry   | Pro        | The Mayor            | [](#the-final-score)  |
 {:class='tabletoc'}
 
 
@@ -69,9 +69,9 @@ If you are busted, you may simply build a new character. Alternatively, your tea
 
 | Opportunity | Difficulty | Unlocks Fixer | Team Reward | Page |
 | :---------- | :--------- | :-----------: | :---------: | ---- |
-| The Yard    | Semi-Pro   | Prison Guard  | $10k        | 17  |
-| The Bricks  | Semi-Pro   | Prison Guard  | $12k        | 18  |
-| The Hole    | Pro        | Prison Guard  | $15k        | 19  |
+| The Yard    | Semi-Pro   | Prison Guard  | $10k        | [](#county-the-yard)  |
+| The Bricks  | Semi-Pro   | Prison Guard  | $12k        | [](#county-the-bricks)  |
+| The Hole    | Pro        | Prison Guard  | $15k        | [](#county-the-hole)  |
 {:class='tabletoc'}
 
 # Where to Next?
@@ -117,26 +117,24 @@ _The risk is the reward_
 
 # Pre-Built Characters
 
-<!-- •••••••••••••••••• -->
-
-|                                                                       | Name           | Character & Skills                               | ➜                         | 💡           | 🔍     | 🔓         | 👊 | 📷         | 🔊                                       |
-| :-------------------------------------------------------------------: | :------------: | :----------------------------------------------: | -------------------------- | -------------- | -------- | ------------ | ---- | ------------ | ------------------------------------------ |
-| ![angry locksmith shadow](../../img/shadows/angry locksmith.svg){:.s} | Johnny Swagger | **Angry Locksmith** <br/> Smash 'n' Grab, Bypass | ∎∎∎∎∎∎∎∎∎∎       | ∎∎∎         | ∎∎∎∎ | ∎∎         | ∎∎ | ∎∎         | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎         |
-| ![angry locksmith shadow](../../img/shadows/angry locksmith.svg){:.s} | Karma          | **Angry Locksmith** <br/> Hurry, Wing It         | ∎∎∎∎∎∎∎∎∎∎∎∎   | ∎∎∎∎       | ∎∎∎   | ∎∎∎       | ∎∎ | ∎∎         | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎   |
-| ![thug shadow](../../img/shadows/thug.svg){:.s}                       | Jitters        | **Thug** <br/> Hurry, Yank Wires                 | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎∎ | ∎∎∎   | ∎           |      | ∎∎∎∎     | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
-| ![thug shadow](../../img/shadows/thug.svg){:.s}                       | Tiny Mike      | **Thug** <br/> Wing It, Bypass                   | ∎∎∎∎∎∎∎∎∎∎∎     | ∎∎           | ∎∎     | ∎∎∎∎∎∎ | ∎∎ | ∎∎         | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎     |
-| ![street urchin shadow](../../img/shadows/street urchin.svg){:.s}     | Enigma         | **Street Urchin** <br/> Hurry, Bypass            | ∎∎∎∎∎∎∎∎∎∎∎∎∎ | ∎∎∎∎∎∎   | ∎       | ∎∎∎∎∎   |      |              | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎         |
-| ![street urchin shadow](../../img/shadows/street urchin.svg){:.s}     | Iceheart       | **Street Urchin** <br/> Wing It, Yank Wires      | ∎∎∎∎∎∎∎∎∎∎∎     | ∎∎∎         | ∎∎∎∎ | ∎∎         | ∎∎ | ∎∎∎∎∎∎ | ∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎ |
-| ![script kiddie shadow](../../img/shadows/script kiddie.svg){:.s}     | Phobia         | **Script Kiddie** <br/> Smash 'n' Grab, Bypass   |                            |                |          |              |      |              |                                            |
-| ![script kiddie shadow](../../img/shadows/script kiddie.svg){:.s}     | Null           | **Script Kiddie** <br/> Hurry, Yank Wires        |                            |                |          |              |      |              |                                            |
-| ![burglar shadow](../../img/shadows/burglar.svg){:.s}                 | Showtime       | **Burglar** <br/> Bypass, Wing It                |                            |                |          |              |      |              |                                            |
-| ![burglar shadow](../../img/shadows/burglar.svg){:.s}                 | Clutch         | **Burglar** <br/> Smash 'n' Grab, Yank Wires     |                            |                |          |              |      |              |                                            |
-| ![lookout shadow](../../img/shadows/lookout.svg){:.s}                 | Crazy Eyes     | **Lookout** <br/> Hurry, Wing It                 |                            |                |          |              |      |              |                                            |
-| ![lookout shadow](../../img/shadows/lookout.svg){:.s}                 | Smokes         | **Lookout** <br/> Smash 'n' Grab, Bypass         |                            |                |          |              |      |              |                                            |
-| ![pickpocket shadow](../../img/shadows/pickpocket.svg){:.s}           | Status         | **Pickpocket** <br/> Hurry, Yank Wires           |                            |                |          |              |      |              |                                            |
-| ![pickpocket shadow](../../img/shadows/pickpocket.svg){:.s}           | Locket         | **Pickpocket** <br/> Hit 'n' Run, Smash 'n' Grab |                            |                |          |              |      |              |                                            |
-| ![shutter bug shadow](../../img/shadows/shutter bug.svg){:.s}         | F-Stop         | **Shutter Bug** <br/> Wing It, Bypass            |                            |                |          |              |      |              |                                            |
-| ![shutter bug shadow](../../img/shadows/shutter bug.svg){:.s}         | Stretch        | **Shutter Bug** <br/> Hurry, Hit 'n' Run         |                            |                |          |              |      |              |                                            |
+|                                                                       | Name       | Character & Skills                               | 💡              | ➜                                        | 🔓              | 👊            | 📷       | 🔍       | 🔊                                                 |
+| :-------------------------------------------------------------------: | :--------: | :----------------------------------------------: | ----------------- | ----------------------------------------- | ----------------- | --------------- | ---------- | ---------- | ---------------------------------------------------- |
+| ![thug shadow](../../img/shadows/thug.svg){:.s}                       | Tiny       | **Thug** <br/> Wing It, Hit 'n' Run              |                   | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎              | ∎∎∎∎          | ∎∎∎∎∎ ∎∎ | ∎∎       | ∎∎       | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎ |
+| ![thug shadow](../../img/shadows/thug.svg){:.s}                       | Jitters    | **Thug** <br/> Hurry, Linger                     | ∎∎∎∎          | ∎∎∎∎∎ ∎∎∎∎                       | ∎∎∎∎∎        | ∎∎∎          | ∎∎∎     | ∎∎∎∎   | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎     |
+| ![angry locksmith shadow](../../img/shadows/angry locksmith.svg){:.s} | Karma      | **Angry Locksmith** <br/> Bypass, Wing It        | ∎                | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎                | ∎∎∎∎∎ ∎∎   | ∎∎            | ∎∎       | ∎∎       | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎       |
+| ![angry locksmith shadow](../../img/shadows/angry locksmith.svg){:.s} | Swagger    | **Angry Locksmith** <br/> Hit 'n' Run, Linger    |                   | ∎∎∎∎∎ ∎∎                           | ∎∎∎∎∎ ∎∎   | ∎∎∎∎∎ ∎   | ∎∎∎     | ∎∎       | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎       |
+| ![street urchin shadow](../../img/shadows/street urchin.svg){:.s}     | Enigma     | **Street Urchin** <br/> Hurry, Wing It           | ∎∎∎∎∎        | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎              | ∎∎∎            | ∎∎            | ∎∎       | ∎∎∎∎   | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎     |
+| ![street urchin shadow](../../img/shadows/street urchin.svg){:.s}     | Iceheart   | **Street Urchin** <br/> Bypass, Yank Wires       | ∎∎∎∎∎        | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎              | ∎∎∎∎          |                 | ∎∎∎∎   | ∎∎       | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎          |
+| ![script kiddie shadow](../../img/shadows/script kiddie.svg){:.s}     | Phobia     | **Script Kiddie** <br/> Bypass, Wing It          | ∎                | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎                | ∎∎∎∎∎ ∎     | ∎∎            | ∎∎       | ∎∎∎     | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎     |
+| ![script kiddie shadow](../../img/shadows/script kiddie.svg){:.s}     | Null       | **Script Kiddie** <br/> Hurry, Yank Wires        | ∎∎∎∎∎ ∎∎∎ | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎ | ∎                |                 | ∎∎∎∎   | ∎∎∎∎   | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎       |
+| ![burglar shadow](../../img/shadows/burglar.svg){:.s}                 | Showtime   | **Burglar** <br/> Linger, Wing It                | ∎                | ∎∎∎∎∎ ∎                             | ∎∎∎∎∎ ∎     | ∎∎∎∎        | ∎∎∎∎∎ | ∎∎∎∎   | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎     |
+| ![burglar shadow](../../img/shadows/burglar.svg){:.s}                 | Clutch     | **Burglar** <br/> Hit 'n' Run, Yank Wires        | ∎∎∎            | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎              | ∎∎              | ∎∎∎∎        | ∎∎∎∎   | ∎∎       | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎     |
+| ![lookout shadow](../../img/shadows/lookout.svg){:.s}                 | Crazy Eyes | **Lookout** <br/> Bypass, Linger                 | ∎                | ∎∎∎∎∎ ∎∎∎∎                       | ∎∎∎∎∎ ∎∎∎ | ∎∎            | ∎∎∎     | ∎∎∎∎∎ | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎       |
+| ![lookout shadow](../../img/shadows/lookout.svg){:.s}                 | Smokes     | **Lookout** <br/> Smash 'n' Grab, Hurry          | ∎∎∎∎∎        | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎            | ∎                | ∎∎            | ∎∎       | ∎∎∎∎∎ | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎   |
+| ![pickpocket shadow](../../img/shadows/pickpocket.svg){:.s}           | Status     | **Pickpocket** <br/> Hurry, Yank Wires           | ∎∎∎∎∎ ∎∎   | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎ ∎         | ∎                | ∎              | ∎∎∎∎   | ∎∎∎     | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎       |
+| ![pickpocket shadow](../../img/shadows/pickpocket.svg){:.s}           | Locket     | **Pickpocket** <br/> Hit 'n' Run, Smash 'n' Grab | ∎                | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎                | ∎∎              | ∎∎∎∎∎ ∎∎ | ∎∎       | ∎         | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎     |
+| ![shutter bug shadow](../../img/shadows/shutter bug.svg){:.s}         | F-Stop     | **Shutter Bug** <br/> Smash 'n' Grab, Bypass     | ∎∎              | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎                | ∎∎∎∎          | ∎∎            | ∎∎∎     | ∎         | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎       |
+| ![shutter bug shadow](../../img/shadows/shutter bug.svg){:.s}         | Stretch    | **Shutter Bug** <br/> Hurry, Hit 'n' Run         | ∎∎∎∎          | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎          | ∎∎∎            | ∎∎∎∎∎      | ∎         | ∎         | ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎     |
 {:.prebuilt}
 
 
