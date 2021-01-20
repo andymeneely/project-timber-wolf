@@ -117,7 +117,7 @@ LevelUp2Desc | +3 ⬢                               |
    Archetype | Fighter                            |
        Level | 2                                  |
       Memory | 9                                  |
-       Ideas | 2                                  |
+       Ideas | 1                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Punch                              |
@@ -140,7 +140,7 @@ LevelUp2Desc |                                    |
    Archetype | Fighter                            |
        Level | 2                                  |
       Memory | 10                                 |
-       Ideas | 3                                  |
+       Ideas | 2                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Punch                              |
@@ -230,7 +230,7 @@ LevelUp2Desc |                                    |
    Archetype | Rogue                              |
        Level | 2                                  |
       Memory | 10                                 |
-       Ideas | 6                                  |
+       Ideas | 4                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Report                             |
@@ -295,7 +295,7 @@ LevelUp2Desc | +2 ⬢                               |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 10                                 |
-       Ideas | 6                                  |
+       Ideas | 5                                  |
     Default1 | Stride                             |
              | :noise::move::reveal:              |
     Default2 | Autopwn                            |
@@ -321,7 +321,7 @@ LevelUp2Desc |                                    |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 5                                  |
+       Ideas | 6                                  |
     Default1 | Stride                             |
              | :noise::move::reveal:              |
     Default2 | Exploit                            |
@@ -476,7 +476,7 @@ LevelUp2Desc |                                    |
    Archetype | Support                            |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 4                                  |
+       Ideas | 3                                  |
     Default1 | Run                                |
              | :noise::noise::move::move:         |
     Default2 | Discover                           |
@@ -562,7 +562,7 @@ LevelUp2Desc |                                    |
    Archetype | Looter                             |
        Level | 2                                  |
       Memory | 10                                 |
-       Ideas | 3                                  |
+       Ideas | 2                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
     Default2 | Hit                                |
