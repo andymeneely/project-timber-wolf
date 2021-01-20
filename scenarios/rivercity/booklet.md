@@ -586,13 +586,13 @@ From our insider contact:
 
 **Objectives:**
 
-  * Get the documents in the safe with a character in a hideout(*)
-  * Steal $5k worth of cash
+  * A character must have the Documents in a hideout(*) and the end of Escape
+  * Gain $6k worth of cash during the heist phase
 
 **Special rules:**
 
   * TUNNEL. During planning, place an entrance in one of the designated areas.
-  * SMALL HIDEOUTS. Maximum of 2 characters per hideout(*)
+  * HIDEOUTS. Characters must end on a Hideout (*) space, or are busted. Max 2 characters per hideout.
   * Safe requires 6x🧩 and contains the documents
   * Keycard (see rules)
   * Reinforcements (see rules)
