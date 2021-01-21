@@ -181,10 +181,11 @@ img.lg-part { width: 7em; }
 
 .example{
   /* background-color: #ccc; */
-  background-color: #7c9ca0bb;
+  background-color: #7c9ca07c;
   /* background-color: #7C9CA0; */
   border-left: 3pt solid #0E3D44;
-  border-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
   margin-left: 0.75em;
   margin-right: 0.75em;
   padding: 0.5em;
@@ -193,6 +194,14 @@ img.lg-part { width: 7em; }
 
 .example img {
   margin: 0;
+}
+
+.example.centered { text-align: center; }
+
+.example img.br {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.img-right{

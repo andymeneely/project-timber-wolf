@@ -53,7 +53,7 @@ Questions? Contact Andy Meneely at andy.meneely@gmail.com
 * ![oops](fig_chit_keycard.png){:.sm-part} 2 Keycards
 * ![oops](fig_chit_usb-key.png){:.sm-part} 1 USB keys
 * ![oops](fig_chit_asterisk.png){:.sm-part} 2 Story chits
-* ![oops](fig_hex_watchtower.png){:.md-part} 1 Watchtower
+* ![oops](fig_hex_watchtower.png){:.md-part} 2 Watchtowers
 * ![oops](fig_hex_server-x.png){:.md-part} 4 Servers
 * ![oops](fig_hex_remote_lock_x.png){:.md-part} 4 Remote Locks
 * ![oops](fig_hex_safe.png){:.md-part} 4 Remote Locks
@@ -138,8 +138,8 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 The board is a set of modular double-sided hex tiles. The rotational orientation does not matter. Each tile is Blank on one side, and is a Security tile on the other side. A **Security tile** represents an unknown Security Chit that will be drawn from the Security Bag.
 
 
-![board](../img/figure_board.svg). Example: Blue is adjacent to a Camera, but not to a Guard.
-{:.example}
+![board](../img/figure_board.svg){:.br} _Blue is adjacent to a Camera, but not to a Guard_
+{:.example.centered}
 
 **Adjacent**. You are adjacent to something if you are on a tile that shares a border with another tile. Being on the same tile is *not* considered adjacent.
 
@@ -208,7 +208,7 @@ Each Character card has:
 Each character gets two Skills. Each Skill has six Actions *①* that each correspond to a die roll *②*. During a heist, you will be rolling your die to determine which Actions are available to you. Every skill is either Amateur or Pro.
 {:.numbered_fig}
 
-Tip: When building a character, use Lacks *③* to see what the skill is missing so you can find a good combination.
+Tip: When building a character, use Lacks *③* to see what the subactions are missing so you can find a good combination.
 {:.tip .numbered_fig}
 
 ---
@@ -289,9 +289,16 @@ Between heists, your team may visit The Shop to purchase Item cards.
 ![fixer figure](figure_fixer.png)
 {:.card-portrait-small .card-right .rotate-right}
 
-**Fixers help you plan.** Completing heists give you access to additional Fixers. Fixers provide a variety of helpful bonuses to assist you in future heists. You can use as many Fixers as you have unlocked in a given heist.
+**Fixers help you plan.** Completing heists give you access to additional Fixers. Fixers provide a variety of helpful bonuses to assist you in future heists. You may use as many Fixers as you have unlocked in a given heist.
 
-**Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City. There are no "spoilers" narrative-wise. Fortune favors the prepared.
+**Get the lay of the land**. You are welcome (encouraged!) to read ahead and plan your path through River City to find the best Fixers for your team. There are no "spoilers" narrative-wise. Fortune favors the prepared.
+
+## Special Rules
+
+**Specific beats general.** Scenarios and cards will sometimes have modifications to these rules. If there is a conflict, the scenario or card takes precedence over these rules.
+
+_Example of Special Rule_. Ordinarily, there is no maximum on the number of characters that use an exit. But, in _County: The River_, the maximum number of characters that may use each exit is 1.
+{:.example}
 
 # Heist Gameplay
 
@@ -310,8 +317,8 @@ The majority of the time spent is in the **Action** phase, where you are executi
 *Note:* Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!
 {:.tip}
 
-![planning](../img/figure_planning.svg) Blue and Red place their planning tokens.
-{:.example}
+![planning](../img/figure_planning.svg){:.br} _Blue and Red place their planning tokens_
+{:.example.centered}
 
 
 **Start on Entrances**. Place your Character pawn on the Entrance tile where you will plan to start. The default limit character limit per Entrance in planning is 2, unlimited during Heist and Escape parts.
@@ -376,10 +383,10 @@ When all players have finished their Actions and all noise has been accounted fo
 
 **Sound the Alarm**. If final Crisis is reached, enter the Escape Phase. Otherwise, proceed back to Roll.
 
-It is the end of the first round of a 4-player game. The team generated 🔊🔊🔊🔊🔊 noise, meaning they raised one ⚠. Thus, the Active Event in this case is event card 2 (_Get Outta My Way_). Following the card leads them to ⚠⚠, so they discard Events 3 and 4 along with their Active Event card (event 2). After the 4th Event card is discarded, the topmost card is a Crisis card. This is immediately added to the queue. The team now enters the Crisis Queue and does the one crisis card, then discards that card too.
+_Example of Active Event_. It is the end of the first round of a 4-player game. The team generated 🔊🔊🔊🔊🔊 noise, meaning they raised one ⚠. Thus, the Active Event in this case is event card 2 (_Get Outta My Way_). Following the card leads them to ⚠⚠, so they discard Events 3 and 4 along with their Active Event card (event 2). After the 4th Event card is discarded, the topmost card is a Crisis card. This is immediately added to the queue. The team now enters the Crisis Queue and does the one crisis card, then discards that card too.
 {:.example}
 
-Remember: Events effects are something you can potentially avoid with crafty noise management. Crises will always happen. Events and Crises never force you to take noise, but they can ⚠.
+Tip: Event effects are something you can potentially avoid with crafty noise management. Crises will always happen. Events and Crises never force you to take noise, but they can force more ⚠.
 {:.tip}
 
 ### Phase 4. Escape
@@ -388,9 +395,9 @@ When the Escape Phase starts, all Security chits are revealed. Then, in any orde
 
 **Escape Moves**. Declare the number of Escape Moves you will take to an exit. Escape Moves are not the same as ➜. Instead:
 
-  * Ignore Planning tokens (Escape Moves do not need prior planning).
+  * Ignore Planning tokens (Escape Moves need no planning)
   * Locked tiles are impassable by Escape Moves
-  * You may Exiting an Unsubdued Guard for one extra Escape Move per guard.
+  * You may Exit an Unsubdued Guard for one extra Escape Move per guard.
   * Cameras have no effect during Escape.
   * Each leftover 💡 you have may be used for 1 Escape Move.
 
