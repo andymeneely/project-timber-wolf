@@ -622,7 +622,7 @@ From our insider contact:
 * Remote locks (see rules)
 
 {::comment}
-http://localhost:3000/design/?savekey=Interior+Ministry+North|40|210|5|5|6|0|0|0|0|0|235|225||60|240|P|KIZgBA4gCmqT15McALEgygYUz7YMANMAJQE1dkZ9FaARKsLAJjGYgBlGBZAdUjw5mWLvny8AKgUGwArEnaiciMcoCCjWggBCbTpVUEKWxgCozmhFcs2Td6-dsPnTqkA
+http://localhost:3000/design/?savekey=Interior+Ministry+North|40|10|4|6|5|0|0|0|0|0|235|220|1,G1,2-4,C2,5-10,G2,C2,13-14,C3,15,C5,A2,A3,20,C2,21-24,Z2|60|235|P|KIZgBA4gCpPbD5LjAygYQaRKdmACx4YIAyATGCagBpgBKAmogCIL13KQBCe6l5CKSxF4AWQDqkTCXLph1TBIAqVGZniCFGtDsiUuhuAEEwWhIrVVmRsACo8D289wu8bjyiA
 {:/comment}
 
 **Upon Success:** see next page.
