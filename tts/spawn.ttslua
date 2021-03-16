@@ -238,7 +238,8 @@ function spawnDeck(front, back, name, n, deck_y, deck_z, s)
     scale = {x=s, y=s, z=s},
     callback_function = |newObj| newObj.setName(name)
   })
-  local num_h =  (n < 6) ? 1 : 5 -- squib bug workaround
+  -- local num_h =  (n < 6) ? 1 : 5 -- squib bug workaround
+  local num_h = 5
   obj.setCustomObject({
     face = url .. front .. random_url_arg,
     back = url .. back .. random_url_arg,
