@@ -218,11 +218,11 @@ Tip: When building a character, use Lacks *③* to see what the subactions are m
 ![event figure](figure_event.png)
 {:.card-portrait .card-right}
 
-In addition to security chits, Events will impact your team each round.
+Events will impact your team each round.
 
-**One Event per round**. You will not experience _every_ event in the deck, rather, you will be encountering _one_ event each round and which event happens will be determined by a variety of factors.
+**One Event per round**. You will be encountering _one_ event each round. Which event happens will be determined by how many "Raise ⚠" you encounter.
 
-**Raise Alert**. Every time you are told to "Raise ⚠", remove the topmost card and discard it for the rest of the heist. The top-most Event in the deck is the **Active Event**.
+**Raise Alert**. Every time you are told to "Raise ⚠", remove the topmost Event card and discard it for the rest of the heist. The Event card that is at the top of the deck at the end of the Action phase is the one you will execute.
 
 **Plan ahead**. You are welcome (encouraged!) to look ahead at potential upcoming events at any time. We recommend designating one person to keep track of the Event Deck and warn the group of potentially bad situations.
 
@@ -233,9 +233,9 @@ In addition to security chits, Events will impact your team each round.
 
 Every Event Deck will have a few Crisis cards in them. These are particularly strong and can create big problems for any team of scoundrels.
 
-**All Crises will happen**. Unlike Events, all Crises are guaranteed to happen in a heist. You will be doing all encountered Crisis cards _after_ your round's Event. (_see Phase 3. Event Phase for more details_).
+**All Crises will happen**. Unlike Events, all Crises are guaranteed to happen in a heist. You will be doing all encountered Crisis cards _after_ your round's Event. (_See Phase 3. Event Phase for more details_).
 
-**Not an Alert**. Crisis cards do _not_ count as Alerts. When a Crisis card is the top-most card in the Event Deck, immediately set it aside and continue dealing Event cards.
+**Not an Alert**. When a Crisis card is the top-most card in the Event Deck, immediately set it aside and continue dealing Event cards. Crisis cards are _not_ removed because of "Raise ⚠".
 
 To summarize, you will be doing _one_ Event per round, then zero or more Crises per round. A Crisis is not an Event.
 
@@ -257,7 +257,6 @@ To summarize, you will be doing _one_ Event per round, then zero or more Crises 
 {:.chitlist .chit}
 
 **Pickup**. When a character shares a tile with a Loot chit, you may immediately place the chit on their Character card.
-
 
 **Insta-transfer**. A character may also "drop" loot on their current space for no cost, which means that two characters may effectively "insta-transfer" loot from one to another when sharing a space. This can be done at any time.
 
