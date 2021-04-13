@@ -562,8 +562,6 @@ For this heist, you will be taking The Mayor hostage and escaping out all differ
 
 Plan for the second heist by setting new planning tokens. You no longer need a planning token on your current location.
 
-You may not use Fixer abilities during this planning phase.
-
 
 
 # The Final Score: Part 1
@@ -612,11 +610,12 @@ From our insider contact:
 
 **Special Rules**
 
+* RADIO SILENCE. You may not use Fixer abilities or visit the Store during this planning phase.
+* FRESH IDEAS. Your character starts with their normal amount of starter ideas, OR the number of ideas from Part 1.
 * WHISPERS. Players who share the same hideout hex may exchange Idea tokens.
-* BREAKOUT. Every player character must exit out of a different exit.
+* BREAKOUT. No two player characters may escape out the same exit.
 * MEAL TICKET. At the end of each Event phase until captured, the Mayor NPC moves one hex to the right. Once captured, he is a Hostage (see rules).
 * TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.
-* RADIO SILENCE. You may not use Fixers during planning.
 * Reinforcements (see rules)
 * Watchtower (see rules)
 * Remote locks (see rules)
