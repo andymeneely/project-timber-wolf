@@ -74,28 +74,16 @@ function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
   })
 end
 
-function lockAllHexes()   setLocked("Hex Tile", true) end
-function unlockAllHexes() setLocked("Hex Tile", false) end
-function lockAllPlanning() setLocked("Planning Token", true) end
-function unlockAllPlanning() setLocked("Planning Token", false) end
+function lockAllHexes()   setLocked("Hex tile", "hex", true) end
+function unlockAllHexes() setLocked("Hex tile", "hex", false) end
+function lockAllPlanning() setLocked("Planning token", "planning", true) end
+function unlockAllPlanning() setLocked("Planning token", "planning", false) end
 
-function setLocked(suffix, locked)
-  hexesLocked = locked
-  for _,obj in pairs(getAllObjects()) do
-    if(ends_with(obj.getName(), suffix)) then
-      obj.setLock(locked)
-    end
+function setLocked(suffix, tag, locked)
+  for _,obj in pairs(getObjectsWithTag(tag)) do
+    obj.setLock(locked)
   end
   broadcastToAll(suffix .. "s " .. (locked and 'locked' or 'unlocked'))
-end
-
-function ends_with(str, ending)
-  return ending == "" or str:sub(-#ending) == ending
-end
-
-function onHexLockButton()
-  btn = getObjectFromGUID(lock_hexes_button_guid)
-  broadcastToAll("foo")
 end
 
 -- Whenever a card leaves a deck, give it the same tags as that deck

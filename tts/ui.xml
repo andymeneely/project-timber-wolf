@@ -13,9 +13,8 @@
   <Image image="controls" width="100%"></Image>
 </Button>
 
-
 <Panel id="control-drawer"
-  width="85" height="100"
+  width="85" height="300"
   active="false"
   rectAlignment="UpperLeft"
   offsetXY="100 -75"
@@ -25,11 +24,12 @@
   hideAnimation="Shrink"
   animationDuration="0.25">
   <VerticalLayout padding="0 5 5 5" spacing="0">
-    <Button onClick="lockAllHexes">    <Text>Lock Hex Tiles</Text> </Button>
-    <Button onClick="unlockAllHexes">    <Text>Unlock Hex Tiles</Text> </Button>
+    <Button onClick="lockAllHexes">   <Text>Lock hex tiles</Text> </Button>
+    <Button onClick="unlockAllHexes"> <Text>Unlock hex tiles</Text> </Button>
+    <Button onClick="lockAllPlanning">   <Text>Lock planning tokens</Text> </Button>
+    <Button onClick="unlockAllPlanning"> <Text>Unlock planning tokens</Text> </Button>
   </VerticalLayout>
 </Panel>
-
 
 <Button id="show-drawer" onClick="toggleDrawer"
   width="85" height="75" offsetXY="200 -2"
