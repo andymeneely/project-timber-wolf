@@ -10,6 +10,7 @@ require("download-game-data")
 function onLoad()
   broadcastToAll("Welcome to Master of the Heist!!")
   assignHotkeys()
+
 end
 
 function toggleDrawer()
@@ -18,6 +19,14 @@ function toggleDrawer()
     UI.hide('custom-panel')
   else
     UI.show('drawer')
+  end
+end
+
+function toggleControls()
+  if(UI.getAttributes('control-drawer').active == "true") then
+    UI.hide('control-drawer')
+  else
+    UI.show('control-drawer')
   end
 end
 
@@ -71,6 +80,7 @@ function lockAllPlanning() setLocked("Planning Token", true) end
 function unlockAllPlanning() setLocked("Planning Token", false) end
 
 function setLocked(suffix, locked)
+  hexesLocked = locked
   for _,obj in pairs(getAllObjects()) do
     if(ends_with(obj.getName(), suffix)) then
       obj.setLock(locked)
@@ -83,3 +93,14 @@ function ends_with(str, ending)
   return ending == "" or str:sub(-#ending) == ending
 end
 
+function onHexLockButton()
+  btn = getObjectFromGUID(lock_hexes_button_guid)
+  broadcastToAll("foo")
+end
+
+-- Whenever a card leaves a deck, give it the same tags as that deck
+function onObjectLeaveContainer(container, leave_object)
+  if container.type == "Deck" then
+    leave_object.setTags(container.getTags())
+  end
+end

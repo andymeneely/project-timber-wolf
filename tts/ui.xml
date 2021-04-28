@@ -6,12 +6,38 @@
    <Image preserveAspect="true"/>
 </Defaults>
 
+<Button id="show-controls" onClick="toggleControls"
+  width="85" height="75" offsetXY="100 -2"
+  rectAlignment="UpperLeft"
+  tooltip="Masters of the Heist controls">
+  <Image image="controls" width="100%"></Image>
+</Button>
+
+
+<Panel id="control-drawer"
+  width="85" height="100"
+  active="false"
+  rectAlignment="UpperLeft"
+  offsetXY="100 -75"
+  childForceExpandWidth="false"
+  childForceExpandHeight="false"
+  showAnimation="Grow"
+  hideAnimation="Shrink"
+  animationDuration="0.25">
+  <VerticalLayout padding="0 5 5 5" spacing="0">
+    <Button onClick="lockAllHexes">    <Text>Lock Hex Tiles</Text> </Button>
+    <Button onClick="unlockAllHexes">    <Text>Unlock Hex Tiles</Text> </Button>
+  </VerticalLayout>
+</Panel>
+
+
 <Button id="show-drawer" onClick="toggleDrawer"
   width="85" height="75" offsetXY="200 -2"
   rectAlignment="UpperLeft"
-  tooltip="Masters of the Heist controls">
-  <Image image="drawer logo" width="100%"></Image>
+  tooltip="Masters of the Heist Scenarios">
+  <Image image="scenario builder" width="100%"></Image>
 </Button>
+
 
 <Panel id="drawer"
   width="200" height="600"
