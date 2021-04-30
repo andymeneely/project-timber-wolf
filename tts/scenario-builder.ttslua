@@ -22,7 +22,7 @@ function buildScenario(save_string)
   end
 
   placeEventDeck(parseEventDeck(save_string))
-  -- placeSecurityChits(parseSecurityBag(save_string))
+  placeSecurityChits(parseSecurityBag(save_string))
   broadcastLocation(save_string)
 end
 
@@ -150,7 +150,7 @@ function placeChits(t, hex_x, hex_z)
   elseif t == 'RYJ' then place2ChitsStacked(remote_lock_y_bag, jewel_bag, hex_x, hex_z)
   elseif t == 'RYD' then place2ChitsStacked(remote_lock_y_bag, folder_bag, hex_x, hex_z)
   elseif t == 'RYM' then place2ChitsStacked(remote_lock_y_bag, meeple_bag, hex_x, hex_z)
-  elseif t == 'KCL' then place1Chit(keycard_door_bag, hex_x, hex_z)
+  elseif t == 'KCL' then place1Chit(keycard_door_bag, hex_x, hex_z, 30)
   elseif t == 'MW' then place1Chit(meeple_bag, hex_x, hex_z)
   elseif t == 'E1' then placeExit(1, hex_x, hex_z)
   elseif t == 'E2' then placeExit(2, hex_x, hex_z)
@@ -240,7 +240,7 @@ function placeEventDeck(event_str)
 
   spawnNotecard(event_str)
 
-  deck_pos_x = -8
+  deck_pos_x = -28
   deck_pos_y = 5.0
   deck_pos_z = 24
 
@@ -285,7 +285,7 @@ end
 
 function dealEventDeck(deck, active_events)
   local n_events = 0; for _,_ in pairs(active_events) do n_events = n_events + 1 end -- because table.getn doesn't exist in TTS?!?!?
-  local x_start = -6
+  local x_start = -20.68
   local x_distance = 56 -- total width of event spread
   local x_shift = x_distance / n_events
   local card_positions = {}
@@ -355,7 +355,7 @@ end
 
 function placeBagChits(bag, n, z)
   for i=1,n do
-    bag.takeObject({ position = {x = 28, y=5.0 + i*0.75, z=z} })
+    bag.takeObject({ position = {x = 33, y=5.0 + i*0.75, z=z - 6} })
   end
 end
 
