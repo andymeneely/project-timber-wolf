@@ -1,11 +1,10 @@
 function buildScenario(save_string)
-  UI.hide('custom-panel')
-  UI.hide('drawer')
+  hideAllDrawers()
   local hextiles = parseTileList(save_string)
-  local x_start = -16.50
-  local z_start = 17.50
-  local hex_width = 3.8
-  local z_shift = 3.3
+  local x_start = -19.59
+  local z_start = 19.88
+  local hex_width = 3.96
+  local z_shift = 3.43 -- i.e. spacing between hexes
   local stride = math.sqrt(getn(hextiles))
   local odd_row_shift = 1.9
 
@@ -23,7 +22,7 @@ function buildScenario(save_string)
   end
 
   placeEventDeck(parseEventDeck(save_string))
-  placeSecurityChits(parseSecurityBag(save_string))
+  -- placeSecurityChits(parseSecurityBag(save_string))
   broadcastLocation(save_string)
 end
 
@@ -157,7 +156,7 @@ function placeChits(t, hex_x, hex_z)
   elseif t == 'E2' then placeExit(2, hex_x, hex_z)
   elseif t == 'E3' then placeExit(3, hex_x, hex_z)
   elseif t == 'E4' then placeExit(4, hex_x, hex_z)
-  elseif t == 'E5' then broadcastToAll("HI"); placeExit(5, hex_x, hex_z)
+  elseif t == 'E5' then placeExit(5, hex_x, hex_z)
   elseif t == 'E6' then placeExit(6, hex_x, hex_z)
   end
 end
