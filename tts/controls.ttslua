@@ -1,0 +1,13 @@
+
+function lockAllHexes()   setLocked("Hex tile", "hex", true) end
+function unlockAllHexes() setLocked("Hex tile", "hex", false) end
+function lockAllPlanning() setLocked("Planning token", "planning", true) end
+function unlockAllPlanning() setLocked("Planning token", "planning", false) end
+
+function setLocked(suffix, tag, locked)
+  for _,obj in pairs(getObjectsWithTag(tag)) do
+    obj.setLock(locked)
+  end
+  broadcastToAll(suffix .. "s " .. (locked and 'locked' or 'unlocked'))
+  hideAllDrawers()
+end
