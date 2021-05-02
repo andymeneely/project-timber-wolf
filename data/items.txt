@@ -23,6 +23,19 @@ Description | BREAKABLE                          |
    Location | shop                               |
             ╰------------------------------------╯
             ╭------------------------------------╮
+       Name | Perfect Picks                      |
+        qty | 1                                  |
+       Cost | 7                                  |
+Description | PERFECTION                         |
+            | If you did at least one :unlock: a |
+            | nd did not :move:, cause no :noise |
+            | :                                  |
+     Action | Perfect Pick                       |
+            | :unlock::unlock::noise::move:      |
+        art | picks.svg                          |
+   Location | shop                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
        Name | Laser Burst                        |
         qty | 1                                  |
        Cost | 6                                  |

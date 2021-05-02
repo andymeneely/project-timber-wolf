@@ -100,16 +100,6 @@ Description | All NPC cards use the Panic side f |
        Name | Release the Hounds!                |
          ID | C6                                 |
         Qty | 1                                  |
-      Story | A bunch of guard dogs appear out o |
-            | f nowhere.                         |
-Description | Add one Dog to each hex adjacent t |
-            | o an entrance. Move each 3 hexes c |
-            | loser to the nearest character.    |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Empty the Kennel!                  |
-         ID | C7                                 |
-        Qty | 1                                  |
       Story | "That's a lot of jingling collars. |
             | "                                  |
 Description | Add three Dogs to the kennel. Move |

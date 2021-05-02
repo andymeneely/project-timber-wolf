@@ -44,7 +44,7 @@ Description | Discard one Event if any Character |
             |                                    |
 Description | Add a Lock to every hex with an un |
             | subdued Guard adjacent to a charac |
-            | ter                                |
+            | ter (max 3)                        |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Huh, Didn't See Those              |
