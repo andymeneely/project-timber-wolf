@@ -34,3 +34,16 @@ upgrade1desc:
 upgrade2desc:
   extends: upgrade1desc
   x: += 350
+
+lacks1:
+  x: 85
+  y: 840
+  font: Archivo Narrow, Segoe UI Symbol, 7.04
+  width: 205
+  height: 0.5in
+  align: center
+  # hint: red
+
+lacks2:
+  extends: lacks1
+  x: 550
