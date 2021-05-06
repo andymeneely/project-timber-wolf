@@ -57,18 +57,18 @@ def escape_emojis(str)
      .gsub(/🧩/,':crack:')
 end
 
-def embed_emojis(embed, size=30)
-  embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: size, height: size
-  embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: size, height: size
-  embed.svg key: ':move:', file: 'img/emojis/move.svg', width: size, height: size
-  embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: size, height: size
-  embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: size, height: size
-  embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: size, height: size
-  embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: size, height: size
-  embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: size, height: size
-  embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: size, height: size
-  embed.svg key: ':meeple:', file: 'img/emojis/meeple.svg', width: size, height: size
-  embed.svg key: ':crack:', file: 'img/emojis/crack.svg', width: size, height: size
+def embed_emojis(embed, size=30, dy=0)
+  embed.svg key: ':idea:', file: 'img/emojis/idea.svg', width: size, height: size, dy: dy
+  embed.svg key: ':noise:', file: 'img/emojis/noise.svg', width: size, height: size, dy: dy
+  embed.svg key: ':move:', file: 'img/emojis/move.svg', width: size, height: size, dy: dy
+  embed.svg key: ':disable:', file: 'img/emojis/disable.svg', width: size, height: size, dy: dy
+  embed.svg key: ':reveal:', file: 'img/emojis/reveal.svg', width: size, height: size, dy: dy
+  embed.svg key: ':subdue:', file: 'img/emojis/subdue.svg', width: size, height: size, dy: dy
+  embed.svg key: ':unlock:', file: 'img/emojis/unlock.svg', width: size, height: size, dy: dy
+  embed.svg key: ':alert:', file: 'img/emojis/alert.svg', width: size, height: size, dy: dy
+  embed.svg key: ':loot:', file: 'img/emojis/loot.svg', width: size, height: size, dy: dy
+  embed.svg key: ':meeple:', file: 'img/emojis/meeple.svg', width: size, height: size, dy: dy
+  embed.svg key: ':crack:', file: 'img/emojis/crack.svg', width: size, height: size, dy: dy
 end
 
 

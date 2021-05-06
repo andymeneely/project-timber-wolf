@@ -28,7 +28,7 @@ upgrade1desc:
   extends: upgrade1
   font: Archivo Narrow, Serif, Segoe UI Symbol, Dingbats, Bold
   font_size: 8.96
-  spacing: -10
+  spacing: -5
   y: += 110
   height: 360
 upgrade2desc:

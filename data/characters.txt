@@ -23,13 +23,42 @@ LevelUp1Desc | +2 ⬢                               |
              |                                    |
              | + 1 Initial :idea:                 |
              |                                    |
-             | Pick:unlock::noise: ⇒              |
+             | Pick:unlock::noise:                |
+             | becomes                            |
              | Pick II:unlock::unlock::noise:     |
 LevelUp2Desc | +1 Initial :idea:                  |
              |                                    |
-             | +BREACH                            |
+             | Lose PICK UNDER PRESSURE           |
              |                                    |
-             | -PICK UNDER PRESSURE               |
+             | Gain BREACH                        |
+             |                                    |
+Upgrade1Text | Walk                               |
+             | :noise::move:Pick II               |
+             | :unlock::unlock::noise:EFFICIENT P |
+             | ICKER                              |
+             | For each :unlock: your action has, |
+             |  you may spend :idea: for an addit |
+             | ional :move::noise:                |
+             |                                    |
+             | PICK UNDER PRESSURE                |
+             | During Escape, can spend :idea: to |
+             |  :unlock:                          |
+             |                                    |
+             | Gain SAFECRACKING TOOLS.           |
+Upgrade2Text | Walk                               |
+             | :noise::move:Pick                  |
+             | :unlock::noise:BreachEFFICIENT PIC |
+             | KER                                |
+             | For each :unlock: your action has, |
+             |  you may spend :idea: for an addit |
+             | ional :move::noise:                |
+             |                                    |
+             | BREACH                             |
+             | May spend your action and          |
+             | :idea::idea::idea::idea: to create |
+             |  a new Exit on an external side of |
+             |  the current tile. Initiate Escape |
+             |  phase immediately.                |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Safecracker                        |
@@ -56,6 +85,9 @@ LevelUp2Desc | +1 Initial :idea:                  |
              | Gain SAFECRACKING TOOLS.           |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Demolitions Guy                    |
@@ -83,6 +115,9 @@ LevelUp2Desc |                                    |
              |  phase immediately.                |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Thug                               |
@@ -101,16 +136,37 @@ LevelUp2Desc |                                    |
              | Gain :idea: when you :subdue:      |
 LevelUp1Desc | +2 ⬢                               |
              |                                    |
-             | + 2 Initial :idea:                 |
+             | + 1 Initial :idea:                 |
              |                                    |
-             | +Bash:subdue::subdue::noise:       |
+             | Gain Bash:subdue::subdue::noise:   |
 LevelUp2Desc | +3 ⬢                               |
              |                                    |
-             | + 3 Initial :idea:                 |
+             | +2 Initial :idea:                  |
              |                                    |
-             | +Spy Stuff:unlock::subdue::noise:  |
+             | Gain Spy Stuff:unlock::subdue::noi |
+             | se:                                |
              |                                    |
-             | +PRESSURE POINTS                   |
+             | Gain PRESSURE POINTS               |
+             |                                    |
+Upgrade1Text | Walk                               |
+             | :noise::move:Punch                 |
+             | :subdue::noise::noise::move:Bash   |
+             | :subdue::subdue::noise:ADRENALINE  |
+             | Gain :idea: when you :subdue:      |
+             |                                    |
+             | ANGER THERAPY                      |
+             | :subdue: all Guards on your tile w |
+             | hen Escape is initiated.           |
+Upgrade2Text | Walk                               |
+             | :noise::move:Punch                 |
+             | :subdue::noise::noise::move:Spy St |
+             | uff                                |
+             | :unlock::subdue::noise:ADRENALINE  |
+             | Gain :idea:  when you :subdue:     |
+             |                                    |
+             | PRESSURE POINTS                    |
+             | Guards cannot be unsubdued on or a |
+             | djacent to this character.         |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Bruiser                            |
@@ -134,6 +190,9 @@ LevelUp2Desc | +3 ⬢                               |
              | hen Escape is initiated.           |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Operative                          |
@@ -157,6 +216,9 @@ LevelUp2Desc |                                    |
              | djacent to this character.         |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Street Urchin                      |
@@ -180,23 +242,57 @@ LevelUp2Desc |                                    |
              |                                    |
              | CHANGE OF PLANS                    |
              | Once per heist you may spend :idea |
-             | ::idea: to re-position up to any 3 |
-             |  planning tokens                   |
+             | ::idea::noise: to reposition up to |
+             |  any 3 planning tokens             |
 LevelUp1Desc | +3 ⬢                               |
              | +1 Initial :idea:                  |
              |                                    |
-             | Walk:noise::move: ⇒                |
+             | Walk:noise::move: becomes          |
              | Dash:noise::move::move:            |
              |                                    |
-             | Report:idea::reveal::noise:⇒       |
+             | Report:idea::reveal::noise: become |
+             | s                                  |
              | Deduce:idea::idea::noise:          |
 LevelUp2Desc | +1 ⬢                               |
-             | +4 Initial :idea:                  |
+             | +2 Initial :idea:                  |
              |                                    |
-             | +Run:noise::noise::move::move:     |
+             | Gain Run:noise::noise::move::move: |
              |                                    |
-             | CHANGE OF PLANS ⇒ALRIGHT, NEW PLAN |
+             | CHANGE OF PLANS                    |
+             | becomes                            |
+             | ALRIGHT, NEW PLAN                  |
              |                                    |
+Upgrade1Text | Dash                               |
+             | :noise::move::move:Deduce          |
+             | :idea::idea::noise:THERE ARE BETTE |
+             | R WAYS                             |
+             | Cannot :subdue:. For :idea:, may e |
+             | xit Guarded spaces for the rest of |
+             |  the phase. In Escape, you require |
+             |  only 1 Escape Move to exit Guarde |
+             | d spaces.                          |
+             |                                    |
+             | CHANGE OF PLANS                    |
+             | Once per heist you may spend :idea |
+             | ::idea::noise: to reposition up to |
+             |  any 3 planning tokens             |
+Upgrade2Text | Walk                               |
+             | :noise::move:Report                |
+             | :idea::reveal::noise:Run           |
+             | :noise::noise::move::move:THERE AR |
+             | E BETTER WAYS                      |
+             | Cannot :subdue:. For :idea:, may e |
+             | xit Guarded spaces for the rest of |
+             |  the phase. In Escape, you require |
+             |  only 1 Escape Move to exit Guarde |
+             | d spaces.                          |
+             |                                    |
+             | ALRIGHT, NEW PLAN                  |
+             | Once per heist you may spend :idea |
+             | ::idea::noise: to reposition up to |
+             |  any 6 planning tokens and transfe |
+             | r up to:idea::idea::idea: to allie |
+             | s.                                 |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Grifter                            |
@@ -220,10 +316,13 @@ LevelUp2Desc | +1 ⬢                               |
              |                                    |
              | CHANGE OF PLANS                    |
              | Once per heist you may spend :idea |
-             | ::idea: to re-position up to any 3 |
-             |  planning tokens                   |
+             | ::idea::noise: to reposition up to |
+             |  any 3 planning tokens             |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Mastermind                         |
@@ -248,12 +347,15 @@ LevelUp2Desc |                                    |
              |                                    |
              | ALRIGHT, NEW PLAN                  |
              | Once per heist you may spend :idea |
-             | ::idea::noise: to re-position up t |
-             | o any 6 planning tokens and transf |
-             | er up to:idea::idea::idea: to alli |
-             | es.                                |
+             | ::idea::noise: to reposition up to |
+             |  any 6 planning tokens and transfe |
+             | r up to:idea::idea::idea: to allie |
+             | s.                                 |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Script Kiddie                      |
@@ -268,27 +370,53 @@ LevelUp2Desc |                                    |
     LevelUp1 | Hacktivist                         |
     LevelUp2 | Black Hat                          |
      Special | AUTOPWN                            |
-             | Use this Action and a :idea: to en |
-             | able another character to :subdue: |
-             | :noise:, :disable::noise:, or :unl |
-             | ock::noise:                        |
+             | Use this Action and an :idea: to e |
+             | nable another character to :subdue |
+             | ::noise:, :disable::noise:, or :un |
+             | lock::noise:                       |
              |                                    |
              | I CAN HAZ TEH CODES                |
              | Once per heist, you may spend :ide |
              | a::idea: to Reveal all tiles adjac |
-             | ent  to a known Live Camera.       |
+             | ent to a known Live Camera.        |
 LevelUp1Desc | +4 ⬢                               |
-             | +1 Initial :idea:                  |
              |                                    |
-             | Stride:noise::move::reveal: ⇒      |
+             | Stride:noise::move::reveal:        |
+             | becomes                            |
              | Run:noise::noise::move::move:      |
 LevelUp2Desc | +2 ⬢                               |
              |                                    |
-             | AUTOPWN⇒                           |
+             | AUTOPWN becomes                    |
              | EXPLOIT                            |
              |                                    |
-             | I CAN HAZ TEH CODES?⇒              |
+             | I CAN HAZ TEH CODES? becomes HAS T |
+             | HE CODE                            |
+             |                                    |
+Upgrade1Text | Stride                             |
+             | :noise::move::reveal:AutopwnRun    |
+             | :noise::noise::move::move:AUTOPWN  |
+             | Use this Action and an :idea: to e |
+             | nable another character to :subdue |
+             | ::noise:, :disable::noise:, or :un |
+             | lock::noise:                       |
+             |                                    |
+             | I CAN HAZ TEH CODES                |
+             | Once per heist, you may spend :ide |
+             | a::idea: to Reveal all tiles adjac |
+             | ent to a known Live Camera.        |
+Upgrade2Text | Stride                             |
+             | :noise::move::reveal:ExploitEXPLOI |
+             | T                                  |
+             | Use this Action and an :idea: to e |
+             | nable another character to :subdue |
+             | ::subdue::noise:, :disable::disabl |
+             | e::noise:, or :unlock::unlock::noi |
+             | se:                                |
+             |                                    |
              | HAS THE CODE                       |
+             | Once per heist, you may Reveal all |
+             |  tiles adjacent  to a known Live C |
+             | amera.                             |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Hacktivist                         |
@@ -304,24 +432,27 @@ LevelUp2Desc | +2 ⬢                               |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | AUTOPWN                            |
-             | Use this Action and a :idea: to en |
-             | able another character to :subdue: |
-             | :noise:, :disable::noise:, or :unl |
-             | ock::noise:                        |
+             | Use this Action and an :idea: to e |
+             | nable another character to :subdue |
+             | ::noise:, :disable::noise:, or :un |
+             | lock::noise:                       |
              |                                    |
              | I CAN HAZ TEH CODES                |
              | Once per heist, you may spend :ide |
              | a::idea: to Reveal all tiles adjac |
-             | ent  to a known Live Camera.       |
+             | ent to a known Live Camera.        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Black Hat                          |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 8                                  |
-       Ideas | 6                                  |
+       Ideas | 5                                  |
     Default1 | Stride                             |
              | :noise::move::reveal:              |
     Default2 | Exploit                            |
@@ -341,6 +472,9 @@ LevelUp2Desc |                                    |
              | amera.                             |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Burglar                            |
@@ -361,11 +495,30 @@ LevelUp2Desc |                                    |
 LevelUp1Desc | +1 ⬢                               |
              | +1 Initial :idea:                  |
              |                                    |
-             | +VENT CRAWL                        |
+             | Gain VENT CRAWL                    |
 LevelUp2Desc | +4 ⬢                               |
              |                                    |
-             | DART⇒                              |
+             | DART                               |
+             | becomes                            |
              | BOLT                               |
+             |                                    |
+Upgrade1Text | Walk                               |
+             | :noise::move:DartPause             |
+             | :idea:DART                         |
+             | Use this action to spend           |
+             | :idea:for :noise::move::move:      |
+             |                                    |
+             | VENT CRAWL                         |
+             | For :noise::noise::noise::noise:,  |
+             | you may treat a tile directly acro |
+             | ss 1 non-tiled gap as adjacent.    |
+Upgrade2Text | Walk                               |
+             | :noise::move:BoltPause             |
+             | :idea:BOLT                         |
+             | Use this action to spend           |
+             | :idea:for :noise::move::move:,     |
+             | or :idea::idea: for :noise::move:: |
+             | move::move:                        |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Grease Man                         |
@@ -390,6 +543,9 @@ LevelUp2Desc | +4 ⬢                               |
              | ss 1 non-tiled gap as adjacent.    |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Ghost Runner                       |
@@ -411,6 +567,9 @@ LevelUp2Desc |                                    |
              | move::move:                        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Lookout                            |
@@ -438,12 +597,40 @@ LevelUp2Desc |                                    |
 LevelUp1Desc | +2 ⬢                               |
              | +1 Initial :idea:                  |
              |                                    |
-             | I KNOW A WAY⇒WE KNOW A WAY         |
+             | I KNOW A WAY                       |
+             | becomes                            |
+             | WE KNOW A WAY                      |
 LevelUp2Desc | +1 ⬢                               |
-             | +2 Initial :idea:                  |
+             | +1 Initial :idea:                  |
              |                                    |
-             | GOOD IN A PINCH⇒                   |
+             | GOOD IN A PINCH                    |
+             | becomes                            |
              | GREAT IN A PINCH                   |
+             |                                    |
+Upgrade1Text | Run                                |
+             | :noise::noise::move::move:Discover |
+             | :reveal::reveal::noise:Stride      |
+             | :noise::move::reveal:WE KNOW A WAY |
+             | When the security bag is empty, ea |
+             | ch :reveal: any character does is  |
+             | an :idea:                          |
+             |                                    |
+             | GOOD IN A PINCH                    |
+             | During Escape, may spend           |
+             | :idea::idea: to give :idea: to any |
+             |  character, one time.              |
+Upgrade2Text | Run                                |
+             | :noise::noise::move::move:Discover |
+             | :reveal::reveal::noise:Stride      |
+             | :noise::move::reveal:I KNOW A WAY  |
+             | When the security bag is empty, ea |
+             | ch :reveal: this character does is |
+             |  an :idea:                         |
+             |                                    |
+             | GREAT IN A PINCH                   |
+             | During Escape, may spend           |
+             | :idea::idea: to give :idea: to any |
+             |  character, any number of times.   |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Watchman                           |
@@ -470,6 +657,9 @@ LevelUp2Desc | +1 ⬢                               |
              |  character, one time.              |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Sentinel                           |
@@ -496,6 +686,9 @@ LevelUp2Desc |                                    |
              |  character, any number of times.   |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Pickpocket                         |
@@ -515,26 +708,52 @@ LevelUp2Desc |                                    |
              | in an adjacent, not locked tile as |
              |  if it were on your tile for the r |
              | est of the phase.                  |
-LevelUp1Desc | +1 ⬢                               |
+LevelUp1Desc | +2 ⬢                               |
              | +1 Initial :idea:                  |
              |                                    |
-             | LARCENIST⇒                         |
+             | LARCENIST                          |
+             | becomes                            |
              | SWINDLER                           |
              |                                    |
-             | +TOSS LOOT                         |
-LevelUp2Desc | +2 ⬢                               |
+             | Gain TOSS LOOT                     |
+LevelUp2Desc | +3 ⬢                               |
              | +1 Initial :idea:                  |
              |                                    |
-             | Walk:noise::move:⇒                 |
+             | Walk:noise::move: becomes          |
              | Disable:disable::noise::move:      |
              |                                    |
-             | +Spy Stuff:unlock::subdue::noise:  |
+             | Gain Pick:unlock::noise:           |
+             | Gain PLASMA TORCH item             |
+             |                                    |
+Upgrade1Text | Walk                               |
+             | :noise::move:Hit                   |
+             | :subdue::noise:Toss LootSWINDLER   |
+             | For :idea:, you may pick up or dro |
+             | p items in an adjacent, not locked |
+             |  tile as if it were on your tile f |
+             | or the rest of the phase.          |
+             |                                    |
+             | TOSS LOOT                          |
+             | Use this action to place any of yo |
+             | ur loot up to two tiles away in a  |
+             | single direction. You may not toss |
+             |  over locked tiles or gaps.        |
+Upgrade2Text | Walk                               |
+             | :noise::move:Hit                   |
+             | :subdue::noise:Pick                |
+             | :unlock::noise:LARCENIST           |
+             | For :idea:, you may pick up items  |
+             | in an adjacent, not locked tile as |
+             |  if it were on your tile for the r |
+             | est of the phase.                  |
+             |                                    |
+             | Gain PLASMA TORCH.                 |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Con Artist                         |
    Archetype | Looter                             |
        Level | 2                                  |
-      Memory | 8                                  |
+      Memory | 9                                  |
        Ideas | 2                                  |
     Default1 | Walk                               |
              | :noise::move:                      |
@@ -556,6 +775,9 @@ LevelUp2Desc | +2 ⬢                               |
              |  over locked tiles or gaps.        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Thief                              |
@@ -567,7 +789,8 @@ LevelUp2Desc |                                    |
              | :noise::move:                      |
     Default2 | Hit                                |
              | :subdue::noise:                    |
-    Default3 |                                    |
+    Default3 | Pick                               |
+             | :unlock::noise:                    |
     LevelUp1 |                                    |
     LevelUp2 |                                    |
      Special | LARCENIST                          |
@@ -579,6 +802,9 @@ LevelUp2Desc |                                    |
              | Gain PLASMA TORCH.                 |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Shutter Bug                        |
@@ -600,17 +826,43 @@ LevelUp2Desc |                                    |
 LevelUp1Desc | +3⬢                                |
              | + 1 Initial :idea:                 |
              |                                    |
-             | Walk & Smash⇒                      |
+             | Walk and Smash                     |
+             | becomes                            |
              | Disable:disable::noise::move:      |
              |                                    |
-             | +Loop Footage                      |
+             | Gain LOOP FOOTAGE                  |
 LevelUp2Desc | +4 ⬢                               |
-             | +Rewire                            |
-             |                                    |
-             | Walk & Smash⇒                      |
+             | Walk and Smash                     |
+             | become                             |
              | Disable:disable::noise::move:      |
              |                                    |
-             | +Rewire                            |
+             | Gain REWIRE                        |
+             |                                    |
+Upgrade1Text | Disable                            |
+             | :disable::noise::move:Loop Footage |
+             | Patch InLOOP FOOTAGE               |
+             | For :idea::idea:, use this action  |
+             | to allow all characters to avoid c |
+             | onsequences due to cameras this ac |
+             | tion phase and event phase.        |
+             |                                    |
+             | PATCH IN                           |
+             | When adjacent to a live camera, us |
+             | e this action for :idea::idea::rev |
+             | eal::noise:                        |
+Upgrade2Text | Disable                            |
+             | :disable::noise::move:RewirePatch  |
+             | InREWIRE                           |
+             | For :idea::idea::noise:, use this  |
+             | action to disable up to two live c |
+             | ameras on or adjacent to you. Any  |
+             | guards on these spaces are also su |
+             | bdued.                             |
+             |                                    |
+             | PATCH IN                           |
+             | When adjacent to a live camera, us |
+             | e this action for :idea::idea::rev |
+             | eal::noise:                        |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Technician                         |
@@ -636,6 +888,9 @@ LevelUp2Desc | +4 ⬢                               |
              | eal::noise:                        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Tinkerer                           |
@@ -662,4 +917,7 @@ LevelUp2Desc |                                    |
              | eal::noise:                        |
 LevelUp1Desc |                                    |
 LevelUp2Desc |                                    |
+             |                                    |
+Upgrade1Text |                                    |
+Upgrade2Text |                                    |
              ╰------------------------------------╯

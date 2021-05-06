@@ -4,7 +4,7 @@ require_relative 'util/helpers'
 require 'pp'
 
 data = Squib.xlsx(file: 'data/data.xlsx') do |col, item|
-  newlineate(col, item)
+  escape_emojis(newlineate(col, item))
 end
 total = data['Name'].size
 
@@ -32,19 +32,25 @@ Squib::Deck.new(cards: total) do
   end.compact
 
   text str: data.name, layout: :name
+
   text str: data['LevelUp1'], layout: :upgrade1
-  text str: data['LevelUp1Desc'], layout: :upgrade1desc
+  text str: data['LevelUp1Desc'], layout: :upgrade1desc do |embed|
+    embed_emojis(embed, 30, 6)
+  end
+
   text str: data['LevelUp2'], layout: :upgrade2
-  text str: data['LevelUp2Desc'], layout: :upgrade2desc
+  text str: data['LevelUp2Desc'], layout: :upgrade2desc do |embed|
+    embed_emojis(embed, 30, 6)
+  end
+
   text str: data.lacks1, layout: :lacks1, range: only_amateurs do |embed|
     embed_emojis(embed, 30)
   end
-
   text str: data.lacks2, layout: :lacks2, range: only_amateurs do |embed|
     embed_emojis(embed, 30)
   end
 
-  save_png prefix: 'character_back_'
+  save_png prefix: 'amateur_character_back_', range: only_amateurs
 
 
   save_pdf file: 'character_backs.pdf', trim: '0.125in', range: only_amateurs

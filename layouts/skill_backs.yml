@@ -12,6 +12,7 @@ name:
   height: 175
   align: center
   valign: middle
+
 upgrade1:
   font: Archivo Black, 11.52
   x: 305
@@ -46,3 +47,13 @@ up2_sum:
   width: -= 20
   hint: '#0000'
   align: left
+upgrade1lacks:
+  font: Archivo Narrow, Segoe UI Symbol, Dingbats, 10.24
+  font_size: 8
+  x: 875
+  y: 80
+  width: 175
+  align: center
+upgrade2lacks:
+  extends: upgrade1lacks
+  y: 440

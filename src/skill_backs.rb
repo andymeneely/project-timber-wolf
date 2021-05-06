@@ -16,14 +16,25 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
 
   svg file: 'skill_back.svg'
 
-  only_lvl1_2 = data['Level'].map.with_index { |x,i| [1].include?(x.to_i) ? i : nil }.compact
+  amateurs = data['Level'].map.with_index { |x,i| [1].include?(x.to_i) ? i : nil }.compact
 
   build :color do
     png file: 'cork.png'
-    svg file: 'skill-back-color.svg', range: only_lvl1_2
+    svg file: 'skill-back-color.svg', range: amateurs
   end
 
-  text str: data['Name'], layout: :name, range: only_lvl1_2
+  text(str: data['Upgrade1Rolls'].map { |s| skill_lacks(s) },
+       layout: :upgrade1lacks,
+       range: amateurs) do |embed|
+    embed_emojis(embed, 30, 6)
+  end
+  text(str: data['Upgrade2Rolls'].map { |s| skill_lacks(s) },
+       layout: :upgrade2lacks,
+       range: amateurs) do |embed|
+    embed_emojis(embed, 30, 6)
+  end
+
+  text str: data['Name'], layout: :name, range: amateurs
   rolls1 = data['Rolls'].zip(data['Upgrade1Rolls']).map do |(amateur,pro)|
     arr = amateur.to_s.split('/').zip(pro.to_s.split('/')).map do | (am_act, pro_act) |
       if am_act == pro_act
@@ -50,15 +61,15 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     arr.join
   end
 
-  text str: data['Upgrade1'], layout: :upgrade1, range: only_lvl1_2
-  text str: data['Upgrade1'].map { |s| summarize_skill(s) }, layout: :up1_sum, range: only_lvl1_2
-  text str: rolls1, layout: :up1_sum, markup: true, range: only_lvl1_2 do |embed|
+  text str: data['Upgrade1'], layout: :upgrade1, range: amateurs
+  text str: data['Upgrade1'].map { |s| summarize_skill(s) }, layout: :up1_sum, range: amateurs
+  text str: rolls1, layout: :up1_sum, markup: true, range: amateurs do |embed|
     embed_emojis(embed, 35)
   end
 
-  text str: data['Upgrade2'], layout: :upgrade2, range: only_lvl1_2
-  text str: data['Upgrade2'].map { |s| summarize_skill(s) }, layout: :up1_sum, range: only_lvl1_2
-  text str: rolls2, layout: :up2_sum, markup: true, range: only_lvl1_2 do |embed|
+  text str: data['Upgrade2'], layout: :upgrade2, range: amateurs
+  text str: data['Upgrade2'].map { |s| summarize_skill(s) }, layout: :up1_sum, range: amateurs
+  text str: rolls2, layout: :up2_sum, markup: true, range: amateurs do |embed|
     embed_emojis(embed, 35)
   end
 
@@ -68,7 +79,7 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     save_sheet prefix: 'sheet_skills_backs_', columns: 5, rows: 5
   # end
 
-  # save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: only_lvl1_2
+  # save_pdf file: 'skill_backs.pdf', trim: '0.125in', range: amateurs
 
   build :color do
     showcase file: 'skill_back_showcase.png', range: [2,4,6], fill_color: :black

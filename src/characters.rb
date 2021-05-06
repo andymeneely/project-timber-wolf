@@ -40,8 +40,9 @@ Squib::Deck.new(cards: total) do
     case name.length
     when 0..7 then 19.84
     when 8..9 then 16
-    when 10..12 then 14.72
-    when 13..14 then 13.44
+    when 10 then 14.5
+    when 11 then 14.0
+    when 12..14 then 13.25
     when 12..50 then 10.88
     end
   end
@@ -72,9 +73,9 @@ Squib::Deck.new(cards: total) do
   # save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
   # save_pdf file: 'characters-k40.pdf', margin: '0.125in', trim: '0.05in'
 
-  build :sheets do
+  # build :sheets do
     save_sheet prefix: 'sheet_characters_', columns: 5, rows: 5
-  end
+  # end
 
   save_png range: 4, dir: 'rules', prefix: 'figure_setup_character_',
            trim: 37.5, trim_radius: 37.5
