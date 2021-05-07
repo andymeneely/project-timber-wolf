@@ -210,7 +210,7 @@ From The Bookie:
 **Success Unlocks:** Bookie
 
 {::comment}
-http://localhost:3000/?savekey=The+Track|190|240|5|3|5|0|0|1|0|0|20|110|1-7,D1,D2,D3,8-12,C6,13-20,C6,21-24,Z1|25|230|A|OIBQBAogzGpgJDOBlAGmAIgeTAJgMIAyYASgJoazjL6QCyYNjtTuwxTwGXVvT2vOEPD4GwhLmal0yMn1rjx-HONFSlLTQhhMIY8OIgBGQQbO8IANlM3F5u7ftOgA
+https://mastersoftheheist.com/design/?savekey=The+Track|190|240|5|3|5|0|0|1|0|0|20|110|1-7,D1,D2,D3,8-12,C6,13-24,Z1|25|230|A|OIBQBAogzGpgJDOBlAGmAIgeTAJgMIAyYASgJoazjL6QCyYNjtTuwxTwGXVvT2vOEPD4GwhLmal0yMn1rjx-HONFSlLTQhhMIY8OIgBGQQbO8IANlM3F5u7ftOgA
 {:/comment}
 
 
@@ -314,7 +314,7 @@ From Shell:
 
 **Special Rules:**
 
-* TUNNEL. In planning, you place one Entrance on any external side.
+* TUNNEL. In planning, you place one Entrance one of the indicated spaces.
 * NO ENTRANCE LIMITS. Any number of player characters may start on an entrance.
 * Guide NPC (see rules) starts with 💡💡.
 * Special ability for Guide is PAUSE 💡.
@@ -431,10 +431,10 @@ http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|17
 **Objective:** The Architect NPC must escape
 
 **Special Rules:**
-`
+
   * HELD BY GUARD applies to USB key, Jewels, and Documents
-  * Safe requires 🧩🧩🧩 to open and contains *Safecracking Tools* and $5k.
-  * TWO TUNNELS. You may add entrances to in different hex spaces indicated
+  * Safe requires 🧩🧩🧩 to open, contains *Safecracking Tools* and $5k.
+  * TWO TUNNELS. You may add entrances to two different hex spaces indicated
   * CHECK THE LOGS. If a character posseses the USB key and is on the server space(*), they immediately may 🔍🔍, and gain $3k.
   * NPC SPECIAL: STUDY SCHEMATICS. If the NPC possesses the Documents token, use this action to place $2k on the Kennel and Reinforcements hexes. Once per heist.
   * USB key, Documents, Tunnels, NPCs, Guard Dogs, and Reinforcements (see rules)
@@ -442,7 +442,7 @@ http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|17
 **Upon Success:** Unlock The Architect
 
 {::comment}
-http://localhost:3000/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|255|180|1-7,10,C6,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4ORlyUNVPHjnhV7tcsBDPHTAAlasNwtYqWABlUEmvRIlaAdU5yYi6gFZtalMaMggA
+https://mastersoftheheist.com/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|255|180|1-7,10,C6,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4MnnhV5WRbHjNitzvc4HXCJr0AStQZkhsVLAAyqSWK5raAdTAASAMxrFNAKxqSZlOfhA
 {:/comment}
 
 # The Marathon Job
@@ -489,7 +489,7 @@ http://localhost:3000/?savekey=The+Vault|55|255|2|6|7|2|0|0|0|0|240|25|1-10,C3,A
 
 
 {::comment}
-http://localhost:3000/design/?savekey=The+Bricks|75|10|6|4|5|0|0|1|0|0|20|200||50|100|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
+https://mastersoftheheist.com/design/?savekey=The+Bricks|75|10|6|4|5|0|0|1|0|0|20|200|1-8,C2,G1,G2,G3,G4,C2,13-20,C2,21-24,C2,Z2|225|225|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA
 {:/comment}
 
 # County: The River
@@ -571,7 +571,7 @@ Plan for the second heist by setting new planning tokens. You no longer need a p
 </div>
 
 {::comment}
-http://localhost:3000/design/?savekey=Interior+Ministry+South|40|210|2|6|5|0|0|2|0|0|235|225|1-8,D1,9-12,C1,13-18,D3,20,A3,A4,23,A1,A2,24,Z1|60|240|P|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzKARAaTQQonwCUBROlvXxuRJtIglmzZcArAWKtKpFpEIkkEypH5YENXrvVgVS+ABUwZi+atntt+HeOOHz+66cggA
+https://mastersoftheheist.com/design/?savekey=Interior+Ministry+South|40|210|2|6|5|0|0|2|0|0|235|225|1-8,D1,9-12,C1,13-18,D3,20,A3,A4,23,A1,A2,24,Z1|60|240|P|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzKARAaTQQonwCUBROlvXxuRJtIglmzZcArAWKtKpFpEIkkEypH5YENXrvVgVS+ABUwZi+atntt+HeOOHz+66cggA
 {:/comment}
 
 From our insider contact:
@@ -579,17 +579,13 @@ From our insider contact:
 > Loading dock is one entrypoint, then tunnel under the south wall.
 {:.text-message}
 
-> This needs to look like a regular robbery, so get cash
-{:.text-message}
-
 **Objectives:**
 
   * A character must have the Documents in a hideout(*) and the end of Escape
-  * Gain $6k worth of cash during the heist phase
 
 **Special rules:**
 
-  * TUNNEL. During planning, place an entrance in one of the designated areas.
+  * TUNNEL. During planning, place an entrance in one of the indicated spaces.
   * HIDEOUTS. Characters must end on a Hideout (*) space, or are busted. Max 2 characters per hideout.
   * Safe requires 6x🧩 and contains the documents
   * Keycard (see rules)
@@ -610,15 +606,13 @@ From our insider contact:
 
 **Special Rules**
 
+* WHISPERS. During planning, players who share the same hideout hex may exchange Idea tokens.
 * RADIO SILENCE. You may not use Fixer abilities or visit the Store during this planning phase.
 * FRESH IDEAS. Your character starts with their normal amount of starter ideas, OR the number of ideas from Part 1.
-* WHISPERS. Players who share the same hideout hex may exchange Idea tokens.
 * BREAKOUT. No two player characters may escape out the same exit.
 * MEAL TICKET. At the end of each Event phase until captured, the Mayor NPC moves one hex to the right. Once captured, he is a Hostage (see rules).
 * TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.
-* Reinforcements (see rules)
-* Watchtower (see rules)
-* Remote locks (see rules)
+* Reinforcements, Watchtower, Remote locks (see rules)
 
 {::comment}
 http://localhost:3000/design/?savekey=Interior+Ministry+North|40|10|4|6|5|0|0|0|0|0|235|220|1,G1,2-4,C2,5-10,G2,C2,13-14,C3,15,C5,A2,A3,20,C2,21-24,Z2|60|235|P|KIZgBA4gCpPbD5LjAygYQaRKdmACx4YIAyATGCagBpgBKAmogCIL13KQBCe6l5CKSxF4AWQDqkTCXLph1TBIAqVGZniCFGtDsiUuhuAEEwWhIrVVmRsACo8D289wu8bjyiA
