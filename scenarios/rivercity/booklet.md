@@ -322,7 +322,7 @@ From Shell:
 * Watchtower (see rules)
 
 {::comment}
-http://localhost:3000/design/?savekey=Server+Farm|160|5|7|7|8|0|0|0|0|0|20|235|1-6,C2,7-10,A5,12-15,C5,16-17,C2,20,C1,21-24,Z1|155|245|S|OIBQBKYMoMJgUgdQuSbXltOXdwEoCaAIimVmgNIECi5ckAJAMwQBMYiAKtrxRmUYd+fHAwGQsAGQDyYfHSkd0ZSAFUoAIXphZYalLABZZCrMTwNAGxA
+https://mastersoftheheist.com/design/?savekey=Server+Farm|80|225|7|7|8|0|0|0|0|0|20|235|1-6,C2,7-10,A5,12-17,C2,C5,20,C1,21-24,Z1|155|245|S|OIBQBKYMoMJgUgdQuAKijl22nH+4AlATQBFM1dMBpIgUQx0kgBIBmCAJjEWz37Dpm4VtybgCVYRSoAZAPJhCDWd2nrwAVSgAhRnAVhassAFlkGmZboA2KyIf2KQA
 {:/comment}
 
 
