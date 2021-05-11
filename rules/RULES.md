@@ -11,9 +11,6 @@ But over time, hopefully with a few good decisions along the way, you and your t
 
 Version ⏱
 
-_Please note that this rulebook is a draft. We are in the process of blind playtesting and will be testing the readability and usability of this document. Expect change._
-
-
 Questions? Contact Andy Meneely at andy.meneely@gmail.com
 
 
@@ -31,34 +28,35 @@ Questions? Contact Andy Meneely at andy.meneely@gmail.com
 * ![oops](figure_setup_character_04.png){:.md-part} 24 Character cards
 * ![oops](fig_npc.png){:.md-part} 3 NPC cards
 * ![oops](figure_skill_00.png){:.lg-part} 14 Skill cards
-* ![oops](figure_event.png){:.md-part} 42 Event cards
-* ![oops](fig_item.png){:.md-part} 14 Item cards
+* ![oops](figure_event.png){:.md-part} 41 Event cards
 * ![oops](figure_crisis.png){:.lg-part} 12 Crisis cards
 * ![oops](figure_fixer.png){:.md-part} 15 Fixer cards
+* ![oops](fig_item.png){:.lg-part} 15 Item cards
+* ![oops](fig_help.png){:.lg-part} 4 Game Helps
 * ![oops](fig_noise.png){:.lg-part} 1 Tracker
-* ![oops](fig_npc_meeple.png){:.xs-part} 1 NPC
+* ![oops](fig_npc_meeple.png){:.xs-part} 1 NPC token
 * ![oops](fig_meeples.png){:.md-part} 4 Player tokens
 * ![oops](fig_dice.png){:.md-part} 5 dice
-* ![oops](fig_planning.png){:.md-part} 48 Planning Tokens
-* ![oops](fig_help.png){:.lg-part} 4 Game Helps
-* ![oops](fig_chit_locked.png){:.sm-part} 12 Locks
-* ![oops](fig_chit_camera.png){:.sm-part} 12 Cameras
-* ![oops](fig_chit_guard.png){:.sm-part} 14 Guards
-* ![oops](fig_chit_guard-dog.png){:.sm-part} 8 Guard Dogs
-* ![oops](fig_chit_jewel.png){:.sm-part} 4 Jewels
+* ![oops](fig_planning.png){:.md-part} 48 Planning tokens
+* ![oops](fig_chit_locked.png){:.sm-part} 12 Lock chits
+* ![oops](fig_chit_camera.png){:.sm-part} 15 Camera chits
+* ![oops](fig_chit_guard.png){:.sm-part} 15 Guard chits
+* ![oops](fig_chit_guard-dog.png){:.sm-part} 8 Guard Dogs chits
+* ![oops](fig_chit_jewel.png){:.sm-part} 4 Jewels chits
 * ![oops](fig_hex_lockdown_A.png){:.md-part} 4 Lockdown Gates
-* ![oops](fig_hex_kennel.png){:.md-part} 1 Kennel
+* ![oops](fig_hex_kennel.png){:.md-part} 1 Kennel token
 * ![oops](fig_hex_keycard-lock.png){:.md-part} 2 Keycard Locks
-* ![oops](fig_hex_reinforcements.png){:.md-part} 2 Reinforcements
-* ![oops](fig_chit_keycard.png){:.sm-part} 2 Keycards
-* ![oops](fig_chit_usb-key.png){:.sm-part} 1 USB keys
+* ![oops](fig_hex_reinforcements.png){:.md-part} 2 Reinforcements tokens
+* ![oops](fig_chit_keycard.png){:.sm-part} 2 Keycards chits
+* ![oops](fig_chit_usb-key.png){:.sm-part} 1 USB key chit
+* ![oops](fig_chit_folder.png){:.sm-part} 2 Document chits
 * ![oops](fig_chit_asterisk.png){:.sm-part} 2 Story chits
-* ![oops](fig_hex_watchtower.png){:.md-part} 2 Watchtowers
-* ![oops](fig_hex_server-x.png){:.md-part} 4 Servers
+* ![oops](fig_hex_watchtower.png){:.md-part} 2 Watchtower tokens
+* ![oops](fig_hex_server-x.png){:.md-part} 4 Servers tokens
 * ![oops](fig_hex_remote_lock_x.png){:.md-part} 4 Remote Locks
-* ![oops](fig_hex_safe.png){:.md-part} 4 Remote Locks
+* ![oops](fig_hex_safe.png){:.md-part} 4 Remote Lock tokens
 * ![oops](fig_hex_item.png){:.md-part} 1 Item chit
-* ![oops](fig_chit_idea.png){:.xs-part} 36 Ideas
+* ![oops](fig_chit_idea.png){:.xs-part} 36 Idea tokens
 * ![oops](fig_chit_1k.png){:.sm-part} 12 Cash tokens
 {:.parts-list}
 
