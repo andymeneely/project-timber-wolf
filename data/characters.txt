@@ -1,5 +1,6 @@
              ╭------------------------------------╮
         Name | Angry Locksmith                    |
+    TGC Code | Angry Locksmith[face,1]            |
    Archetype | Bypasser                           |
        Level | 1                                  |
       Memory | 8                                  |
@@ -62,6 +63,7 @@ Upgrade2Text | Walk                               |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Safecracker                        |
+    TGC Code | Safecracker[face,1]                |
    Archetype | Bypasser                           |
        Level | 2                                  |
       Memory | 10                                 |
@@ -91,6 +93,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Demolitions Guy                    |
+    TGC Code | Safecracker[back,1]                |
    Archetype | Bypasser                           |
        Level | 2                                  |
       Memory | 8                                  |
@@ -121,6 +124,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Thug                               |
+    TGC Code | Thug[face,1]                       |
    Archetype | Fighter                            |
        Level | 1                                  |
       Memory | 7                                  |
@@ -170,6 +174,7 @@ Upgrade2Text | Walk                               |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Bruiser                            |
+    TGC Code | Bruiser[face,1]                    |
    Archetype | Fighter                            |
        Level | 2                                  |
       Memory | 9                                  |
@@ -196,6 +201,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Operative                          |
+    TGC Code | Bruiser[back,1]                    |
    Archetype | Fighter                            |
        Level | 2                                  |
       Memory | 10                                 |
@@ -222,6 +228,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Street Urchin                      |
+    TGC Code | Street Urchin[face,1]              |
    Archetype | Rogue                              |
        Level | 1                                  |
       Memory | 9                                  |
@@ -296,6 +303,7 @@ Upgrade2Text | Walk                               |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Grifter                            |
+    TGC Code | Grifter[face,1]                    |
    Archetype | Rogue                              |
        Level | 2                                  |
       Memory | 12                                 |
@@ -326,6 +334,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Mastermind                         |
+    TGC Code | Grifter[back,1]                    |
    Archetype | Rogue                              |
        Level | 2                                  |
       Memory | 10                                 |
@@ -359,6 +368,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Script Kiddie                      |
+    TGC Code | Script Kiddie[face,1]              |
    Archetype | Hacker                             |
        Level | 1                                  |
       Memory | 6                                  |
@@ -420,6 +430,7 @@ Upgrade2Text | Stride                             |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Hacktivist                         |
+    TGC Code | Hacktivist[face,1]                 |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 10                                 |
@@ -449,6 +460,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Black Hat                          |
+    TGC Code | Hacktivist[back,1]                 |
    Archetype | Hacker                             |
        Level | 2                                  |
       Memory | 8                                  |
@@ -478,6 +490,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Burglar                            |
+    TGC Code | Burglar[face,1]                    |
    Archetype | Mover                              |
        Level | 1                                  |
       Memory | 8                                  |
@@ -522,6 +535,7 @@ Upgrade2Text | Walk                               |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Grease Man                         |
+    TGC Code | Grease Man[face,1]                 |
    Archetype | Mover                              |
        Level | 2                                  |
       Memory | 9                                  |
@@ -549,6 +563,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Ghost Runner                       |
+    TGC Code | Grease Man[back,1]                 |
    Archetype | Mover                              |
        Level | 2                                  |
       Memory | 12                                 |
@@ -573,6 +588,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Lookout                            |
+    TGC Code | Lookout[face,1]                    |
    Archetype | Support                            |
        Level | 1                                  |
       Memory | 7                                  |
@@ -634,6 +650,7 @@ Upgrade2Text | Run                                |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Watchman                           |
+    TGC Code | Watchman[face,1]                   |
    Archetype | Support                            |
        Level | 2                                  |
       Memory | 9                                  |
@@ -663,6 +680,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Sentinel                           |
+    TGC Code | Watchman[back,1]                   |
    Archetype | Support                            |
        Level | 2                                  |
       Memory | 8                                  |
@@ -692,6 +710,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Pickpocket                         |
+    TGC Code | Pickpocket[face,1]                 |
    Archetype | Looter                             |
        Level | 1                                  |
       Memory | 7                                  |
@@ -751,6 +770,7 @@ Upgrade2Text | Walk                               |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Con Artist                         |
+    TGC Code | Con Artist[face,1]                 |
    Archetype | Looter                             |
        Level | 2                                  |
       Memory | 9                                  |
@@ -781,6 +801,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Thief                              |
+    TGC Code | Con Artist[back,1]                 |
    Archetype | Looter                             |
        Level | 2                                  |
       Memory | 10                                 |
@@ -808,6 +829,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Shutter Bug                        |
+    TGC Code | Shutter Bug[face,1]                |
    Archetype | Surveillance                       |
        Level | 1                                  |
       Memory | 7                                  |
@@ -866,6 +888,7 @@ Upgrade2Text | Disable                            |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Technician                         |
+    TGC Code | Technician[face,1]                 |
    Archetype | Surveillance                       |
        Level | 2                                  |
       Memory | 10                                 |
@@ -894,6 +917,7 @@ Upgrade2Text |                                    |
              ╰------------------------------------╯
              ╭------------------------------------╮
         Name | Tinkerer                           |
+    TGC Code | Technician[back,1]                 |
    Archetype | Surveillance                       |
        Level | 2                                  |
       Memory | 11                                 |

@@ -33,6 +33,7 @@ Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   text layout: :die_roll_2, str: 'Die roll of 6'
 
   save_png prefix: 'help_front_'
+  save_png prefix: 'help_', suffix: '[front,4]', range: 0, rotate: :clockwise
 end
 
 
@@ -79,6 +80,7 @@ Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   text layout: :level4, str: 'Level 3 to 4: Upgrade Skill'
 
   save_png prefix: 'help_back_'
+  save_png prefix: 'help_', suffix: '[back,4]', range: 0, rotate: :clockwise
   save_png dir: 'rules', prefix: 'fig_help', count_format: '',
            trim_radius: '0.125in', trim: '0.125in', range: 0
 end

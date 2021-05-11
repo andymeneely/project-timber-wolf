@@ -11,7 +11,7 @@
    inkscape:export-ydpi="96"
    inkscape:export-xdpi="96"
    inkscape:export-filename="C:\code\timber-wolf\img\fixer-back-shadows.png"
-   sodipodi:docname="character-back-name.svg"
+   sodipodi:docname="fixer-back.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    version="1.1"
    id="svg2"
@@ -315,5 +315,37 @@
        transform="rotate(1.5572485,6.9102071,-2418.684)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:25px;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="g893" />
+    <g
+       id="text4585"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:25px;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="rotate(1.5572485,-14202.08,5898.0457)"
+       aria-label="Non-player Character">
+      <g
+         aria-label="Fixer"
+         transform="rotate(-1.5572485)"
+         id="text4614"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.5336px;line-height:52.4435px;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+        <path
+           d="m 453.95482,-52.2015 v -18.706214 h 16.73714 v -4.922688 h -16.73714 v -13.660459 h 18.95235 v -4.922688 h -24.3673 V -52.2015 Z"
+           style="stroke-width:1px"
+           id="path59" />
+        <path
+           d="m 483.18325,-84.568173 h -5.04576 V -52.2015 h 5.04576 z m 0,-12.12212 h -5.04576 V -90.66 h 5.04576 z"
+           style="stroke-width:1px"
+           id="path61" />
+        <path
+           d="m 510.68872,-84.568173 h -5.66109 l -6.03029,11.076048 -5.8457,-11.076048 h -6.09182 l 8.9839,15.998736 -9.41464,16.367937 h 5.53803 l 6.52256,-11.814451 6.33796,11.814451 h 6.09182 l -9.47617,-16.798673 z"
+           style="stroke-width:1px"
+           id="path63" />
+        <path
+           d="m 526.25671,-85.306577 c -8.12243,0 -12.18365,5.29189 -12.18365,16.92174 0,11.999052 4.18428,16.92174 12.24519,16.92174 6.27642,0 10.58377,-4.491953 10.58377,-11.752917 h -4.98422 c 0,4.491952 -2.27674,7.260964 -5.47649,7.260964 -4.79962,0 -7.01483,-3.384348 -7.07636,-10.95298 h 17.53707 v -3.199747 c 0,-10.829914 -3.56894,-15.1988 -10.64531,-15.1988 z m 0,4.491953 c 3.50742,0 5.35342,3.261281 5.35342,9.414641 h -12.18365 c 0.43074,-6.214894 2.33828,-9.414641 6.83023,-9.414641 z"
+           style="stroke-width:1px"
+           id="path65" />
+        <path
+           d="m 553.57759,-85.306577 c -3.07668,0 -4.67655,2.522878 -5.47649,4.984222 h -0.3692 l -0.67687,-4.245818 h -3.81509 V -52.2015 h 5.04576 v -19.752285 c 0,-5.722625 2.83054,-7.630167 6.03029,-7.630167 h 1.66141 v -5.230356 c 0,0 -1.04607,-0.492269 -2.39981,-0.492269 z"
+           style="stroke-width:1px"
+           id="path67" />
+      </g>
+    </g>
   </g>
 </svg>

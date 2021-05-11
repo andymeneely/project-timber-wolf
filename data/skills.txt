@@ -62,6 +62,7 @@ Upgrade2Rolls | Punch                              |
             🔓 | 0                                  |
             🔍 | 1                                  |
             💰 | 1                                  |
+     TGC Code | Smash 'n' Grab[face,2]             |
       Good at | Subdue, Cameras                    |
         Lacks | Multi-moves, ideas, locks          |
     Seasoning | Loot                               |
@@ -131,6 +132,7 @@ Upgrade2Rolls | Punch                              |
             🔓 | 0                                  |
             🔍 | 1                                  |
             💰 | 1                                  |
+     TGC Code | Smash 'n' Grab[face,2]             |
       Good at | Subdue, Cameras                    |
         Lacks | Multi-moves, ideas, locks          |
     Seasoning | Loot                               |
@@ -199,6 +201,7 @@ Upgrade2Rolls | Dash                               |
             🔓 | 1                                  |
             🔍 | 1                                  |
             💰 | 0                                  |
+     TGC Code | Hurry[face,2]                      |
       Good at | Multi-moves, ideas                 |
         Lacks | Subdue, Cameras                    |
     Seasoning | Locks                              |
@@ -267,6 +270,7 @@ Upgrade2Rolls | Dash                               |
             🔓 | 1                                  |
             🔍 | 1                                  |
             💰 | 0                                  |
+     TGC Code | Hurry[face,2]                      |
       Good at | Multi-moves, ideas                 |
         Lacks | Subdue, Cameras                    |
     Seasoning | Locks                              |
@@ -347,6 +351,7 @@ Upgrade2Rolls | Redirect                           |
             🔓 | 2                                  |
             🔍 | 2                                  |
             💰 | 1                                  |
+     TGC Code | Wing It[face,2]                    |
       Good at | Camera, Subdue, Lock,              |
         Lacks | Ideas                              |
     Seasoning | Multi-moves, Loot, Reveal          |
@@ -427,6 +432,7 @@ Upgrade2Rolls | Redirect                           |
             🔓 | 2                                  |
             🔍 | 2                                  |
             💰 | 1                                  |
+     TGC Code | Wing It[face,2]                    |
       Good at | Camera, Subdue, Lock,              |
         Lacks | Ideas                              |
     Seasoning | Multi-moves, Loot, Reveal          |
@@ -502,6 +508,7 @@ Upgrade2Rolls | Bash                               |
             🔓 | 2                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Hit 'n' Run[face,2]                |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras, Locks                     |
     Seasoning | Ideas                              |
@@ -577,6 +584,7 @@ Upgrade2Rolls | Bash                               |
             🔓 | 2                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Hit 'n' Run[face,2]                |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras, Locks                     |
     Seasoning | Ideas                              |
@@ -651,6 +659,7 @@ Upgrade2Rolls | Rake                               |
             🔓 | 4                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Bypass[face,2]                     |
       Good at | Locks, Multi-moves                 |
         Lacks | Cameras, Subdue                    |
     Seasoning | Ideas                              |
@@ -725,6 +734,7 @@ Upgrade2Rolls | Rake                               |
             🔓 | 4                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Bypass[face,2]                     |
       Good at | Locks, Multi-moves                 |
         Lacks | Cameras, Subdue                    |
     Seasoning | Ideas                              |
@@ -799,6 +809,7 @@ Upgrade2Rolls | Rewire                             |
             🔓 | 0                                  |
             🔍 | 2                                  |
             💰 | 0                                  |
+     TGC Code | Yank Wires[face,2]                 |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | Reveal                             |
@@ -873,6 +884,7 @@ Upgrade2Rolls | Rewire                             |
             🔓 | 0                                  |
             🔍 | 2                                  |
             💰 | 0                                  |
+     TGC Code | Yank Wires[face,2]                 |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | Reveal                             |
@@ -947,6 +959,7 @@ Upgrade2Rolls | Shock                              |
             🔓 | 4                                  |
             🔍 | 2                                  |
             💰 | 2                                  |
+     TGC Code | Linger[face,2]                     |
       Good at | Looting and Security               |
         Lacks | Ideas, Movement                    |
     Seasoning | Reveal                             |
@@ -1021,6 +1034,7 @@ Upgrade2Rolls | Shock                              |
             🔓 | 4                                  |
             🔍 | 2                                  |
             💰 | 2                                  |
+     TGC Code | Linger[face,2]                     |
       Good at | Looting and Security               |
         Lacks | Ideas, Movement                    |
     Seasoning | Reveal                             |
@@ -1075,6 +1089,7 @@ Upgrade2Rolls |                                    |
             🔓 | 0                                  |
             🔍 | 1                                  |
             💰 | 2                                  |
+     TGC Code | Steal[face,2]                      |
       Good at | Subdue, Cameras, Looting           |
         Lacks | Multi-moves, locks                 |
     Seasoning | Loot, Ideas                        |
@@ -1129,6 +1144,7 @@ Upgrade2Rolls |                                    |
             🔓 | 0                                  |
             🔍 | 1                                  |
             💰 | 2                                  |
+     TGC Code | Steal[face,2]                      |
       Good at | Subdue, Cameras, Looting           |
         Lacks | Multi-moves, locks                 |
     Seasoning | Loot, Ideas                        |
@@ -1184,6 +1200,7 @@ Upgrade2Rolls |                                    |
             🔓 | 1                                  |
             🔍 | 1                                  |
             💰 | 1                                  |
+     TGC Code | Steal[back,2]                      |
       Good at | Subdue, Cameras, Locks             |
         Lacks | Multi-moves, ideas                 |
     Seasoning | Loot, Locks                        |
@@ -1239,6 +1256,7 @@ Upgrade2Rolls |                                    |
             🔓 | 1                                  |
             🔍 | 1                                  |
             💰 | 1                                  |
+     TGC Code | Steal[back,2]                      |
       Good at | Subdue, Cameras, Locks             |
         Lacks | Multi-moves, ideas                 |
     Seasoning | Loot, Locks                        |
@@ -1293,6 +1311,7 @@ Upgrade2Rolls |                                    |
             🔓 | 1                                  |
             🔍 | 1                                  |
             💰 | 0                                  |
+     TGC Code | Ninja[face,2]                      |
       Good at | Multi-moves, Ideas, Subdue         |
         Lacks | Cameras                            |
     Seasoning | Locks                              |
@@ -1347,6 +1366,7 @@ Upgrade2Rolls |                                    |
             🔓 | 1                                  |
             🔍 | 1                                  |
             💰 | 0                                  |
+     TGC Code | Ninja[face,2]                      |
       Good at | Multi-moves, Ideas, Subdue         |
         Lacks | Cameras                            |
     Seasoning | Locks                              |
@@ -1401,6 +1421,7 @@ Upgrade2Rolls |                                    |
             🔓 | 1                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Ninja[back,2]                      |
       Good at | Multi-moves, Ideas, Camera         |
         Lacks | Subdue                             |
     Seasoning | Locks                              |
@@ -1455,6 +1476,7 @@ Upgrade2Rolls |                                    |
             🔓 | 1                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Ninja[back,2]                      |
       Good at | Multi-moves, Ideas, Camera         |
         Lacks | Subdue                             |
     Seasoning | Locks                              |
@@ -1514,6 +1536,7 @@ Upgrade2Rolls |                                    |
             🔓 | 2                                  |
             🔍 | 0                                  |
             💰 | 1                                  |
+     TGC Code | Concoct[face,2]                    |
       Good at | Camera, Subdue, Lock, Ideas        |
         Lacks | Reveal                             |
     Seasoning | Multi-move, Loot                   |
@@ -1573,6 +1596,7 @@ Upgrade2Rolls |                                    |
             🔓 | 2                                  |
             🔍 | 0                                  |
             💰 | 1                                  |
+     TGC Code | Concoct[face,2]                    |
       Good at | Camera, Subdue, Lock, Ideas        |
         Lacks | Reveal                             |
     Seasoning | Multi-move, Loot                   |
@@ -1638,6 +1662,7 @@ Upgrade2Rolls |                                    |
             🔓 | 3                                  |
             🔍 | 0                                  |
             💰 | 1                                  |
+     TGC Code | Concoct[back,2]                    |
       Good at | Camera, Subdue, Lock,              |
         Lacks | Reveal, Ideas                      |
     Seasoning | Multi-move, Loot                   |
@@ -1703,6 +1728,7 @@ Upgrade2Rolls |                                    |
             🔓 | 3                                  |
             🔍 | 0                                  |
             💰 | 1                                  |
+     TGC Code | Concoct[back,2]                    |
       Good at | Camera, Subdue, Lock,              |
         Lacks | Reveal, Ideas                      |
     Seasoning | Multi-move, Loot                   |
@@ -1766,6 +1792,7 @@ Upgrade2Rolls |                                    |
             🔓 | 3                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Assault[face,2]                    |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras                            |
     Seasoning | Ideas, Locks                       |
@@ -1829,6 +1856,7 @@ Upgrade2Rolls |                                    |
             🔓 | 3                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Assault[face,2]                    |
       Good at | Subdue, Multi-moves                |
         Lacks | Cameras                            |
     Seasoning | Ideas, Locks                       |
@@ -1889,6 +1917,7 @@ Upgrade2Rolls |                                    |
             🔓 | 3                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Assault[back,2]                    |
       Good at | Subdue, Multi-moves                |
         Lacks |                                    |
     Seasoning | Ideas, Cameras, Locks              |
@@ -1949,6 +1978,7 @@ Upgrade2Rolls |                                    |
             🔓 | 3                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Assault[back,2]                    |
       Good at | Subdue, Multi-moves                |
         Lacks |                                    |
     Seasoning | Ideas, Cameras, Locks              |
@@ -2004,6 +2034,7 @@ Upgrade2Rolls |                                    |
             🔓 | 4                                  |
             🔍 | 1                                  |
             💰 | 1                                  |
+     TGC Code | Extract[face,2]                    |
       Good at | Locks, Multi-moves                 |
         Lacks | Cameras, Subdue                    |
     Seasoning | Ideas, Loot, Reveal                |
@@ -2059,6 +2090,7 @@ Upgrade2Rolls |                                    |
             🔓 | 4                                  |
             🔍 | 1                                  |
             💰 | 1                                  |
+     TGC Code | Extract[face,2]                    |
       Good at | Locks, Multi-moves                 |
         Lacks | Cameras, Subdue                    |
     Seasoning | Ideas, Loot, Reveal                |
@@ -2117,6 +2149,7 @@ Upgrade2Rolls |                                    |
             🔓 | 4                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Extract[back,2]                    |
       Good at | Locks, Multi-moves                 |
         Lacks | Loot, Reveal                       |
     Seasoning | Ideas, Cameras, Subdue             |
@@ -2175,6 +2208,7 @@ Upgrade2Rolls |                                    |
             🔓 | 4                                  |
             🔍 | 0                                  |
             💰 | 0                                  |
+     TGC Code | Extract[back,2]                    |
       Good at | Locks, Multi-moves                 |
         Lacks | Loot, Reveal                       |
     Seasoning | Ideas, Cameras, Subdue             |
@@ -2231,6 +2265,7 @@ Upgrade2Rolls |                                    |
             🔓 | 0                                  |
             🔍 | 1                                  |
             💰 | 0                                  |
+     TGC Code | Splice In[face,2]                  |
       Good at | Cameras, Multi-moves, Ideas, Revea |
               | l                                  |
         Lacks | Subdue, Locks                      |
@@ -2288,6 +2323,7 @@ Upgrade2Rolls |                                    |
             🔓 | 0                                  |
             🔍 | 1                                  |
             💰 | 0                                  |
+     TGC Code | Splice In[face,2]                  |
       Good at | Cameras, Multi-moves, Ideas, Revea |
               | l                                  |
         Lacks | Subdue, Locks                      |
@@ -2343,6 +2379,7 @@ Upgrade2Rolls |                                    |
             🔓 | 0                                  |
             🔍 | 2                                  |
             💰 | 0                                  |
+     TGC Code | Splice In[back,2]                  |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | (extra quiet)                      |
@@ -2397,6 +2434,7 @@ Upgrade2Rolls |                                    |
             🔓 | 0                                  |
             🔍 | 2                                  |
             💰 | 0                                  |
+     TGC Code | Splice In[back,2]                  |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | (extra quiet)                      |
@@ -2456,6 +2494,7 @@ Upgrade2Rolls |                                    |
             🔓 | 5                                  |
             🔍 | 2                                  |
             💰 | 3                                  |
+     TGC Code | Tamper[face,2]                     |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | (extra quiet)                      |
@@ -2515,6 +2554,7 @@ Upgrade2Rolls |                                    |
             🔓 | 5                                  |
             🔍 | 2                                  |
             💰 | 3                                  |
+     TGC Code | Tamper[face,2]                     |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | (extra quiet)                      |
@@ -2571,6 +2611,7 @@ Upgrade2Rolls |                                    |
             🔓 | 4                                  |
             🔍 | 2                                  |
             💰 | 1                                  |
+     TGC Code | Tamper[back,2]                     |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | (extra quiet)                      |
@@ -2627,6 +2668,7 @@ Upgrade2Rolls |                                    |
             🔓 | 4                                  |
             🔍 | 2                                  |
             💰 | 1                                  |
+     TGC Code | Tamper[back,2]                     |
       Good at | Cameras, Multi-moves, Ideas        |
         Lacks | Subdue, Locks                      |
     Seasoning | (extra quiet)                      |

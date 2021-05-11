@@ -73,7 +73,13 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     embed_emojis(embed, 35)
   end
 
-  save_png prefix: 'skill_back_', rotate: true#, range: 0
+  # save_png prefix: 'skill_back_', rotate: true#, range: 0
+  build :tgc do
+    tgc_prefixes = data.tgc_code.map do |code|
+      "Skill #{code.gsub('face', 'back')}"
+    end
+    save_png prefix: tgc_prefixes, rotate: :counterclockwise, count_format: '', range: amateurs
+  end
 
   # build :sheets do
     save_sheet prefix: 'sheet_skills_backs_', columns: 5, rows: 5

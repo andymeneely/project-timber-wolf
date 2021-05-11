@@ -35,7 +35,14 @@ Squib::Deck.new(cards: total, width: 1125, height: 825) do
     end
   end
 
-  save_png prefix: 'skill_', rotate: true
+  # save_png prefix: 'skill_', rotate: true
+  build :tgc do
+    tgc_prefixes = data.tgc_code.map do |code|
+      "Skill #{code}"
+    end
+    save_png prefix: tgc_prefixes, rotate: :clockwise, count_format: ''
+  end
+
 
   save_png range: [4,8], dir: 'rules', prefix: 'figure_setup_skill_',
            trim: 37.5, trim_radius: 37.5

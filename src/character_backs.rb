@@ -50,7 +50,12 @@ Squib::Deck.new(cards: total) do
     embed_emojis(embed, 30)
   end
 
-  save_png prefix: 'amateur_character_back_', range: only_amateurs
+  build :tgc do
+    tgc_prefixes = data.tgc_code.map do |tgc_suffix|
+      "Character #{tgc_suffix.gsub('face','back')}"
+    end
+    save_png prefix: tgc_prefixes, range: only_amateurs, count_format: ''
+  end
 
 
   save_pdf file: 'character_backs.pdf', trim: '0.125in', range: only_amateurs

@@ -23,7 +23,8 @@ Squib::Deck.new(cards: data.nrows) do
     embed_emojis(embed, 45)
   end
 
-  save_png prefix: 'fixer_'
+  save_png prefix: 'fixer_', suffix: '[face, 1]'
+
   save_png dir: 'rules', prefix: 'figure_fixer', count_format: '',
            trim_radius: '0.125in', trim: '0.125in', range: 0
 
@@ -32,5 +33,20 @@ Squib::Deck.new(cards: data.nrows) do
   build :sheets do
     save_sheet prefix: 'sheet_fixers_', columns: 5, rows: 5
   end
+
+end
+
+Squib::Deck.new(cards: data.nrows) do
+  use_layout file: 'layouts/fixers.yml'
+  background color: :white
+  build :color do
+    png file: 'cork.png', x: width, angle: Math::PI / 2
+    png file: 'fixer-back-shadows.png'
+    svg file: 'fixer-back.svg'
+  end
+
+  text str: data['Name'], layout: :title, y: 435
+
+  save_png prefix: 'fixer_', suffix: '[back, 1]'
 
 end

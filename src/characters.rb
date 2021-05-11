@@ -69,7 +69,14 @@ Squib::Deck.new(cards: total) do
     embed_emojis(embed, 50)
   end
 
-  save_png prefix: 'character_'#, range: 0
+  save_png prefix: 'character_'
+  build :tgc do
+    tgc_prefixes = data.tgc_code.map do |tgc|
+      "Character #{tgc}"
+    end
+    save_png prefix: tgc_prefixes, count_format: ''
+  end
+
   # save_pdf file: 'characters.pdf', trim: '0.125in'#, range: 0
   # save_pdf file: 'characters-k40.pdf', margin: '0.125in', trim: '0.05in'
 

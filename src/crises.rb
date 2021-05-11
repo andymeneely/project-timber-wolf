@@ -39,7 +39,7 @@ end
 
   save_sheet prefix: 'sheet_crises_'
 
-  save_png prefix: 'crisis_'
+  save_png prefix: 'crisis_', suffix: '[face, 1]', rotate: :clockwise
 
   save_png dir: 'rules', prefix: 'figure_crisis', count_format: '',
            trim_radius: '0.125in', trim: '0.125in', range: 0
@@ -65,7 +65,7 @@ Squib::Deck.new(cards: data['Name'].size, width: 1125, height: 825) do
   text layout: :Name, str: data['Name']
   text layout: :ID,   str: data['ID']
 
-  save_png prefix: 'crisis_back_'
+  save_png prefix: 'crisis_', suffix: '[back, 1]', rotate: :counterclockwise
 
   build :sheets do
     save_sheet prefix: 'sheet_crises_backs_', columns: 5, rows: 5

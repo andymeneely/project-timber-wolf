@@ -40,7 +40,7 @@ Squib::Deck.new(cards: data['Name'].size) do
   end
   svg  layout: :Img, file: imgs
 
-  save_png prefix: 'event_'
+  save_png prefix: 'event_', suffix: '[face,1]'
 
   build :color do
     save_png dir: 'rules', prefix: 'figure_event', count_format: '',
@@ -65,7 +65,7 @@ Squib::Deck.new(cards: data['Name'].size) do
   text layout: :Name,        str: data['Name']
   text layout: :Order,       str: data['Order']
 
-  save_png prefix: 'event_back_'
+  save_png prefix: 'event_', suffix: '[back, 1]'
 
   build :sheets do
     save_sheet prefix: 'sheet_events_backs_', columns: 5, rows: 5

@@ -13,3 +13,4 @@ scenarios/rivercity/booklet.html
 _output/*.svg
 /.byebug_history
 /thegamecrafter/large-retail-box.png
+/thegamecrafter/*.png

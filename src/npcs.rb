@@ -16,7 +16,7 @@ File.open('data/npcs.txt', 'w+') { |f| f.write data.to_pretty_text }
     png file: 'npc shadows.png'
     svg file: 'npc-color.svg'
 
-    front_or_back = (t === 'Normal') ? 'front' : 'back'
+    front_or_back = (t === 'Normal') ? 'face' : 'back'
 
     text str: data["#{t}Name"], layout: :title
 
@@ -36,7 +36,7 @@ File.open('data/npcs.txt', 'w+') { |f| f.write data.to_pretty_text }
       embed_emojis(embed, 45)
     end
 
-    save_png prefix: "npc_#{front_or_back}_"
+    save_png prefix: "npc_", suffix: "[#{front_or_back},1]"
     save_pdf file: "npcs_#{front_or_back}_.pdf", trim: '0.125in'
     save_png dir: 'rules', prefix: 'fig_npc', count_format:'', range: 0,
              trim: 37.5, trim_radius: 37.5
