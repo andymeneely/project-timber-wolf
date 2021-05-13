@@ -94,8 +94,8 @@ function respawnSkills()
 end
 
 function respawnNPCs()
-  spawnFixerDeck('sheet_fixers_00.png', 'sheet_fixers_00.png', 14)
-  spawnNPCDeck('sheet_npcs_00.png', 'sheet_npcs_00.png', 6)
+  spawnFixerDeck('sheet_fixers_00.png', 'sheet_fixers_00.png', 15)
+  spawnNPCDeck('sheet_npcs_face_00.png', 'sheet_npcs_back_00.png', 3)
 end
 
 function respawnItems()
@@ -230,7 +230,7 @@ function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, "Characte
 function spawnSkillDeck(front, back, n)         spawnDeck(front, back, "Skills", n, 15, -25, 1.38, {"Skill"}) end
 function spawnItemDeck(front, back, n)          spawnDeck(front, back, "Items", n, 15, -30, 1.72, {"Item"}) end
 function spawnFixerDeck(front, back, n)         spawnDeck(front, back, "Fixers", n, 15, -32, 2 , {"Fixer"}) end
-function spawnNPCDeck(front, back, n)           spawnDeck(front, back, "NPCs", n, 15, -35, 2 , {"Character"}) end
+function spawnNPCDeck(front, back, n)           spawnDeck(front, back, "NPCs", n, 15, -34, 2 , {"Character", "NPC"}) end
 
 function spawnDeck(front, back, name, n, deck_y, deck_z, s, tags)
   local url = "https://andymeneely.github.io/project-timber-wolf/"
@@ -246,7 +246,10 @@ function spawnDeck(front, back, name, n, deck_y, deck_z, s, tags)
       newObj.setTags(tags)
     end
   })
-  -- local num_h =  (n < 6) ? 1 : 5 -- squib bug workaround
+  -- if n < 6 then
+  --   local num_h = 1
+  -- else
+  -- end
   local num_h = 5
   obj.setCustomObject({
     face = url .. front .. random_url_arg,

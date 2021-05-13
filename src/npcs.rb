@@ -41,9 +41,9 @@ File.open('data/npcs.txt', 'w+') { |f| f.write data.to_pretty_text }
     save_png dir: 'rules', prefix: 'fig_npc', count_format:'', range: 0,
              trim: 37.5, trim_radius: 37.5
 
-    build :sheets do
+    # build :sheets do
       save_sheet prefix: "sheet_npcs_#{front_or_back}_", columns: 5, rows: 5
-    end
+    # end
   end
 end
 

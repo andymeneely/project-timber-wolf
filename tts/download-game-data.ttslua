@@ -34,3 +34,25 @@ function addEventDeckData(webReturn, deck, order_field)
     })
   end
 end
+
+function reloadItemDeck(deck_guid)
+  local deck = getObjectFromGUID(deck_guid)
+  WebRequest.get(
+    "https://andymeneely.github.io/project-timber-wolf/items.json",
+    |wr| addItemDeckData(wr, deck)
+  )
+end
+
+function addItemDeckData(webReturn, deck)
+  json = JSON.decode(webReturn.text)
+  local pos = deck.getPosition()
+  local n = #deck.getObjects()
+  for i=1,n do
+    local name = json["Name"][n + 1 - i]
+    local desc = "Availability: "..json["Location"][n + 1 - i]
+    deck.takeObject({
+      position={x=pos.x, y=3 + i, z=pos.z},
+      callback_function = |obj| { obj.setName(name); obj.setDescription(desc) }
+    })
+  end
+end
