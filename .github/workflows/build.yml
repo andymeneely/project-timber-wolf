@@ -55,7 +55,7 @@ jobs:
         cp _output/rivercity.pdf build/
         cp data/crises.json build/
         cp data/events.json build/
-        cp data/events.json build/
+        cp data/items.json build/
         cp rev.txt build/
     - name: Push to ghpages
       uses: JamesIves/github-pages-deploy-action@3.7.1

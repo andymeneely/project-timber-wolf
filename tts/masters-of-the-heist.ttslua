@@ -84,6 +84,7 @@ function drawSecurityChit(_pcolor, _hov_obj, world_position, _key_down_up)
 end
 
 
+
 -- Whenever a card leaves a deck, give it the same tags as that deck
 function onObjectLeaveContainer(container, leave_object)
   if container.type == "Deck" then

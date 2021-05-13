@@ -133,7 +133,6 @@ function spawnChit(front, back, name, tile_type, tint, s, r, tags, value)
     image = url .. front .. random_url_arg,
     image_bottom = url .. back .. random_url_arg,
     thickness = 0.15,
-    stackable = true,
   })
 end
 
@@ -228,7 +227,7 @@ end
 function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, "Events", n, deck_y, -10, 1, {"Event"}) end
 function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, "Crises", n, 15, -15, 0.72, {"Crisis"}) end
 function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, "Characters", n, 15, -20, 2, {"Character"}) end
-function spawnSkillDeck(front, back, n)         spawnDeck(front, back, "Skills", n, 15, -25, 1.72, {"Skill"}) end
+function spawnSkillDeck(front, back, n)         spawnDeck(front, back, "Skills", n, 15, -25, 1.38, {"Skill"}) end
 function spawnItemDeck(front, back, n)          spawnDeck(front, back, "Items", n, 15, -30, 1.72, {"Item"}) end
 function spawnFixerDeck(front, back, n)         spawnDeck(front, back, "Fixers", n, 15, -32, 2 , {"Fixer"}) end
 function spawnNPCDeck(front, back, n)           spawnDeck(front, back, "NPCs", n, 15, -35, 2 , {"Character"}) end
