@@ -324,10 +324,12 @@ function spawnNotecard(str)
 end
 
 function parseSecurityBag(save_string)
+  -- |0|0|0|0|0|0|0|0|0|0|250|200|1-24,Z1|100|250|A|GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP EM EM GP GP GP GP GP GP EM EM EM EM C2X GP EM EM EM EM EM GP C2X C2X C2X GP GP EM EM EM EM GP GP GP C2X C2X GP GP EM GP C2X GP C2X C2X C2X GP GP GP GP GP GP C2X GP C2X C2X GP GP GP GP GP GP C2X GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP
+  --                  |0|           0|       0|        0|      0|        0|      0|     0|0|0|250|200|1-24,Z1|100|250|A|GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP EM EM GP GP GP GP GP GP EM EM EM EM C2X GP EM EM EM EM EM GP C2X C2X C2X GP GP EM EM EM EM GP GP GP C2X C2X GP GP EM GP C2X GP C2X C2X C2X GP GP GP GP GP GP C2X GP C2X C2X GP GP GP GP GP GP C2X GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP GP
   local i = 1
-  local bag_chits = { guards=0, cameras=0, locks=0, jewel=0, keycard=0, dog=0,
-                      docs=0, usb=0, }
-  for w in save_string:gmatch("([^|]+)") do
+  padded_save_string = " "..save_string
+  local bag_chits = { guards=0, cameras=0, locks=0, jewel=0, keycard=0, dog=0, docs=0, usb=0, }
+  for w in padded_save_string:gmatch("([^|]+)") do
     if     i == 4 then bag_chits.guards = tonumber(w)
     elseif i == 5 then bag_chits.cameras = tonumber(w)
     elseif i == 6 then bag_chits.locks = tonumber(w)

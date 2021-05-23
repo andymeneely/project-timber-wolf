@@ -7,17 +7,19 @@
 </Defaults>
 
 <Button id="show-controls" onClick="toggleControls"
-  width="85" height="75" offsetXY="200 -2"
-  rectAlignment="UpperLeft"
-  tooltip="Masters of the Heist controls">
+  width="85" height="75"
+  offsetXY="0 200"
+  rectAlignment="MiddleRight"
+  tooltip="Masters of the Heist controls"
+  tooltipPosition="Above">
   <Image image="controls" width="100%"></Image>
 </Button>
 
 <Panel id="control-drawer"
   width="150" height="300"
   active="false"
-  rectAlignment="UpperLeft"
-  offsetXY="200 -75"
+  rectAlignment="MiddleRight"
+  offsetXY="-100 200"
   childForceExpandWidth="false"
   childForceExpandHeight="false"
   showAnimation="Grow"
@@ -32,17 +34,18 @@
 </Panel>
 
 <Button id="show-drawer" onClick="toggleDrawer"
-  width="85" height="75" offsetXY="300 -2"
-  rectAlignment="UpperLeft"
-  tooltip="Masters of the Heist Scenarios">
+  width="85" height="75" offsetXY="0 100"
+  rectAlignment="MiddleRight"
+  tooltip="Masters of the Heist Scenarios"
+  tooltipPosition="Below" >
   <Image image="scenario builder" width="100%"></Image>
 </Button>
 
 <Panel id="drawer"
   width="200" height="600"
   active="false"
-  rectAlignment="UpperLeft"
-  offsetXY="300 -75"
+  rectAlignment="MiddleRight"
+  offsetXY="-100 100"
   childForceExpandWidth="false"
   childForceExpandHeight="false"
   showAnimation="Grow"
@@ -86,7 +89,7 @@
                   onEndEdit="setCustomSaveString"
                   height="300"
                   width="300"
-                  offsetXY="250 0"
+                  offsetXY="-250 0"
                   placeholder="Paste TTS savestring from Scenario Designer here. Press enter when done."
                   lineType="MultiLineSubmit"></InputField>
     </Panel>

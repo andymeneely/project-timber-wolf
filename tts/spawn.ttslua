@@ -4,6 +4,7 @@ red =   { r=216/255, g=20/255,  b=20/255 }
 green = { r=20/255,  g=216/255, b=20/255  }
 blue =  { r=20/255,  g=20/255,  b=216/255  }
 purple ={ r=160/255, g=32/255, b=240/255  }
+gray ={ r=128/255, g=128/255, b=128/255  }
 
 -- These are convenience methods for running this in-game
 -- In the console, type:
@@ -228,7 +229,7 @@ function spawnEventDeck(front, back, n, deck_y) spawnDeck(front, back, "Events",
 function spawnCrisisDeck(front, back, n)        spawnDeck(front, back, "Crises", n, 15, -15, 0.72, {"Crisis"}) end
 function spawnCharacterDeck(front, back, n)     spawnDeck(front, back, "Characters", n, 15, -20, 2, {"Character"}) end
 function spawnSkillDeck(front, back, n)         spawnDeck(front, back, "Skills", n, 15, -25, 1.38, {"Skill"}) end
-function spawnItemDeck(front, back, n)          spawnDeck(front, back, "Items", n, 15, -30, 1.72, {"Item"}) end
+function spawnItemDeck(front, back, n)          spawnDeck(front, back, "Items", n, 15, -30, 1.38, {"Item"}) end
 function spawnFixerDeck(front, back, n)         spawnDeck(front, back, "Fixers", n, 15, -32, 2 , {"Fixer"}) end
 function spawnNPCDeck(front, back, n)           spawnDeck(front, back, "NPCs", n, 15, -34, 2 , {"Character", "NPC"}) end
 
@@ -262,3 +263,19 @@ function spawnDeck(front, back, name, n, deck_y, deck_z, s, tags)
   })
 end
 
+function respawnTips()
+  -- spawnTip("Use Controls to toggle tips", -30.12, -5.88)
+
+end
+
+function spawnTip(str, tip_x, tip_z)
+  local obj = spawnObject({
+    type = "3DText",
+    position = {x=tip_x, y=1.0, z=tip_z},
+    rotation = {x=90, y=0, z=0},
+    callback_function = function(newObj)
+      newObj.setValue("Tip: hello, world!")
+    end
+  })
+  obj.TextTool.setFontColor(gray)
+end

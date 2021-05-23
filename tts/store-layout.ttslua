@@ -1,0 +1,28 @@
+require("guids")
+
+-- Grab all the items, organize them into the store.
+function layoutStoreItems()
+  getObjectFromGUID("866c56").takeObject({
+    position = {x=38.00, y=5.0, z=-13.27},
+    callback_function = function(deck) dealItemDeck(deck) end
+  })
+end
+
+function dealItemDeck(deck)
+  local shop_i = 0
+  local card_positions = {}
+  local y_shift = 1
+  local z_shift = -1.15
+  for _, card in pairs(deck.getObjects()) do
+    if(card.description:find("shop")) then
+      card_positions[card.guid] = {
+        x = 38.00, y = shop_i * y_shift, z = shop_i * z_shift
+      }
+      shop_i = shop_i + 1
+    end
+  end
+  for guid, pos in pairs(card_positions) do
+    deck.takeObject({ position = pos, guid = guid })
+  end
+end
+
