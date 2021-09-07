@@ -3,7 +3,7 @@ require 'squib'
 require_relative 'util/helpers'
 
 data = Squib.xlsx(file: 'data/data.xlsx') do |col, item|
-  escape_emojis(newlineate(col, item))
+  escape_emojis(newlineate(col, item.to_s).to_s)
 end
 total = data['Name'].size
 
@@ -85,14 +85,14 @@ Squib::Deck.new(cards: total) do
   # end
 
   save_png range: 4, dir: 'rules', prefix: 'figure_setup_character_',
-           trim: 37.5, trim_radius: 37.5
+           trim: 37.5, trim_radius: 37.5, shadow_radius: 6
 
   build :rulebook_figures do
     %i(Level Memory Ideas Action1 Action2 Special Skill1 Skill2).each do |fig|
       text layout: "Figure#{fig}"
     end
     save_png range: 0, dir: 'rules', prefix: 'figure_character_',
-             trim: 37.5, trim_radius: 37.5
+             trim: 37.5, trim_radius: 37.5, shadow_radius: 6
     # showcase range: 0,
     #          dir: 'rules', file: 'character_example.png',
     #          trim: 37.5, fill_color: '#0000', scale: 0.9

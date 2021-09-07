@@ -44,7 +44,9 @@ Squib::Deck.new(cards: data['Name'].size) do
 
   build :color do
     save_png dir: 'rules', prefix: 'figure_event', count_format: '',
-             trim_radius: '0.125in', trim: '0.125in', range: 5
+             trim_radius: '0.125in', trim: '0.125in', range: 5,
+             shadow_radius: 6
+
   end
   save_sheet prefix: 'sheet_events_', columns: 5, rows: 5
 end

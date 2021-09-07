@@ -42,7 +42,8 @@ end
   save_png prefix: 'crisis_', suffix: '[face, 1]', rotate: :clockwise
 
   save_png dir: 'rules', prefix: 'figure_crisis', count_format: '',
-           trim_radius: '0.125in', trim: '0.125in', range: 0
+           trim_radius: '0.125in', trim: '0.125in', range: 0,
+           shadow_radius: 6
 
   build :sheets do
     save_sheet prefix: 'sheet_crises_', columns: 5, rows: 5

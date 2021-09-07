@@ -101,6 +101,11 @@ task :rules do
   `python src/weasybuild.py`
 end
 
+task :rules_pngs do
+  puts "Ghostscripting PDF to PNGs..."
+  `gswin64c -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
+end
+
 
 desc 'Build the scenarios PDF'
 task yourlastheist: ['yourlastheist:md_to_html','yourlastheist:html_to_pdf']

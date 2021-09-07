@@ -1,17 +1,15 @@
 ![title](../img/title.svg)
 {:.title-img}
 
-You are a uniquely skilled individual in a career of high-risk, high-reward thievery. You work with other skilled criminals to quietly traverse buildings, making friends along the way.
+You are a uniquely skilled individual in a career of high-risk, high-reward thievery.
 
 During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas💡 to get the actions you need, but don't spend too many... you'll need those Ideas💡 to escape, too!
 
 You will start as an Amateur criminal with Amateur skills who is new to River City.
 
-But over time, hopefully with a few good decisions along the way, you and your teammates will level up your characters and skills as you make your way through the city.
+But over time, hopefully with a few good decisions along the way, you and your crew will level up your characters and skills as you make your way through the city.
 
 Version ⏱
-
-Questions? Contact Andy Meneely at andy.meneely@gmail.com
 
 
 <div class="pagebreak"/>
@@ -62,7 +60,7 @@ Questions? Contact Andy Meneely at andy.meneely@gmail.com
 
 <div class="pagebreak"/>
 
-# Setting Up
+# The Setup
 
 **Step 1. As a team, decide your next heist.** Heists are available to you in the River City booklet. Each heist is labeled with a difficulty level based on your team's average level. New players are level 1.
 
@@ -122,7 +120,7 @@ If the hex has a shield, use the Security side of the tile. In all other cases u
 
 <div class="setup-spacing"/>
 
-![fixers](figure_fixer.png)
+![fixers](figure_fixer_friend.png)
 {:.med_fig .example-left .rotate-right}
 
 **Step 8. Get Your Fixers**. If this is your first heist, start with _Old Friend_. Otherwise, locate all of the Fixers you have unlocked from previous heists. Place them where everyone can read them.
@@ -435,6 +433,8 @@ A **named character** is a pairing of one character and two skill cards.
 For example, Josh has a character named *Cam* who is a *Tinkerer* with *Assault* and *Smash 'n' Grab*.
 {:.example}
 
+**No evil twins.** You may NOT create a new named character with exactly the same card combinations as another named character.
+
 **Peristent Statuses**. A named character's status, such as "Busted", persists between games. Individual scenarios may assign statuses to named characters based on the outcome of a heist attempt.
 
 For following the above example, suppose _Cam_ is Busted at the end of a heist, then anyone who wants to play Cam again must use the Busted status.
@@ -461,8 +461,6 @@ Any cash on a Character is added to the Team Cash tracker, as well as any loot. 
 **Players level up** as well as characters. Every human player starts at level 1 when they are new to this game. At the end of every heist, regardless of the objective outcome or character fate, every player levels up the named character they just played - even if they have no plans to play them ever again.
 
 **Characters Start at Player Level**. For the next heist, you may start with a character of the _your player level_ (or less). That character may be new or used previously.
-
-**No evil twins.** You may NOT create a new named character with exactly the same card combinations as another named character.
 
 _Example of player and character levels._ For example, this is Josh's third time playing this game, so he is Level 3. Last time, Josh's character *Cam* who is a *Tinkerer* with *Assault* and *Smash 'n' Grab* is Busted. Josh wants to build a new *Tinkerer* with *Assault* named _Iris_. He may not use *Smash 'n' Grab* as the other skill as that would be identical to Cam. _Iris_ will start at Level 3.
 {:.example}
@@ -537,7 +535,7 @@ For example, if a Guard Dog is added to a tile that does not already have a char
 ![reinforcements](fig_hex_reinforcements.png)
 {:.example-right .hexchit .rotate-right}
 
-**Problem for Later**. A hex with the reinforcements token on it is freely passable initially. However, a later Crisis card will cause an area effect centered on this token.
+**Problem for Later**. A hex with the reinforcements token on it is freely passable. However, a later Crisis card will cause an area effect centered on this token.
 
 ## Lockdown Gates
 
@@ -557,7 +555,7 @@ The event deck for the scenario will have Crisis cards and Event cards that will
 ![keycard lock](fig_hex_keycard-lock.png)
 {:.example-right .hexchit .rotate-right}
 
-**No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the Keycard Door, they may remove the Keycard Door token from the boad. The Keycard is a form of Loot.
+**No normal lock**. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the Keycard Door, they may remove the Keycard Door token from the board. The Keycard is a form of Loot.
 
 ![keycard](fig_chit_keycard.png)
 {:.example-left .chit .rotate-left}
@@ -592,7 +590,7 @@ When a scenario map shows Tunnel spaces, then you may add an Entrance token to o
 
 A **Non-Player Character** (NPC) is represented by a white pawn, a white die, and their NPC card. Your team will collaboratively decide on how the NPC spends their action each round. Follow any additional abilities or limitations described on the NPC card. NPCs do not need planning tokens and do not have Skills.
 
-**Inactive NPCs**. The NPCs Hostage and Prisoner do nothing until taken or freed (respectively). Immediately when they are freed or taken, take out the NPC card and roll a white die for the current round.
+**Inactive NPCs**. The NPCs Hostage and Prisoner do nothing until taken/freed (respectively). Immediately when they are  taken/freed, take out the NPC card and roll a white die for the current round.
 
 **Up Close And Personal**. To take a Hostage, a player character must be on the same tile as the hostage.
 
@@ -610,6 +608,12 @@ A **Non-Player Character** (NPC) is represented by a white pawn, a white die, an
 **Need the tools for the job.** You will need a special subaction to unlock a safe, called **crack** 🧩. The 🧩 is only found on Item cards, for example, _Safecracking Tools_ or _Plasma Torch_. You must be on the tile with the safe to use 🧩. Any character may 🧩.
 
 **Some safes are harder than others**. The scenario description will tell you how many 🧩 you need to unlock the safe. Each 🧩 is cumulative, even across rounds. Use leftover planning tokens on your character to mark your progress. When the safe is unlocked, replace the chit with its contents.
+
+# Credits
+
+Questions? Contact Andy Meneely at andy.meneely@gmail.com
+
+Special thanks to our playtesters: Tim "You Can't Spell Cooperative Without" Cooper Jacob Zukoski, Hillarie "Prisoner Originator" Shockley, Andy "The Generalist" Trahan, Derek Maurer, Phil Meneely, Kelly "Inventor of the Help Out Rule" Meneely, Deb Meneely, Mike "We Need a Breach" Premo, Chris "More Weaknesses!" Rericha, Brad "Pack o Nabs" Burr, Ethan Hackett, Ryan Krebs, Kurt "Two Cents" Mosiejczuk, Bennie McDonald, Chris Noel, Marc Priddy, Abigail Trahan, Gavin Trahan, Tina "Saved the Heist" Howard, John "Master Event Master" Renner, Karin "Blame the Germans For" Lehnigk, Derek "Ideation Exploitation" Erdmann, Kayla Davis, Chris "Can This Be a No-Noise Round" Bentivenga, Wade Mauger, Dylan "Noise Ain't So Bad" Vuz, Peyton Schmidt, Curtis Shea, Dan Gude, Mars Belentyne, Christian Newman, Alex McHugh, Will Coffey, Drew Heintz, Tanner Glantz, Josiah Meneely, Trista Zukoski, Bonnie Meneely, Josh Ostrander, Mark Gartland.
 
 
 <!-- ## TBD modules -->

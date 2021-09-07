@@ -82,5 +82,6 @@ Squib::Deck.new(cards: 4, width: 1125, height: 825) do
   save_png prefix: 'help_back_'
   save_png prefix: 'help_', suffix: '[back,4]', range: 0, rotate: :clockwise
   save_png dir: 'rules', prefix: 'fig_help', count_format: '',
-           trim_radius: '0.125in', trim: '0.125in', range: 0
+           trim_radius: '0.125in', trim: '0.125in', range: 0,
+           shadow_radius: 6
 end

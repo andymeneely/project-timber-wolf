@@ -41,7 +41,7 @@ Squib::Deck.new(cards: data.nrows, width: 1125, height: 825) do
   save_png prefix: 'item_', range: 0
 
   save_png dir: 'rules', prefix: 'fig_item', count_format:'', range: 0,
-           trim: 37.5, trim_radius: 37.5
+           trim: 37.5, trim_radius: 37.5, shadow_radius: 6
   save_sheet prefix: 'sheet_item_', columns: 5, rows: 5
 end
 
