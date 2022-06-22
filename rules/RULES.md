@@ -299,7 +299,11 @@ _Example of Special Rule_. Ordinarily, there is no maximum on the number of char
 
 ![flowchart](flowchart.svg){:.example-tight}
 
-All phases are **simultaneous play** in a series of phases. First, your team will plan out how you will execute the heist. You will being doing recon, spending money on Fixer abilities, buying Items at the Shop, and placing planning tokens to coordinate your efforts. Then, you will carry out that plan, or at least attempt to.
+The game takes place over a series of phases, and each phase has **simultaneous play**.
+
+First, your team will plan out how you will execute the heist. You will being doing recon, spending money on Fixer abilities, buying Items at the Shop, and placing planning tokens to coordinate your efforts.
+
+Then, you will carry out that plan... or at least attempt to.
 
 The majority of the time spent is in the **Action** phase, where you are executing your heist. The Planning phase typically takes a few minutes, and Escape is very short. The Event Phase is (mostly) mechanical and also brief.
 
@@ -357,7 +361,7 @@ Roll your die.
 *Example of Modify Roll*. Phil as the Angry Locksmith may always take Pick🔓🔊 or Walk🔊➜ regardless of what he rolled. Suppose he has the Wing It and Smash 'n' Grab Skills, and rolled a 1, then he also has Punch👊🔊🔊➜ and Discover🔍🔍 as options. If he spends an 💡, then he also has Smash📷🔊🔊➜, Grab💰🔊, Strongarm🔓👊🔊🔊➜, and Scamper🔊🔊🔊➜➜ available.
 {:.example}
 
-*Example of Interleaving & Undoing*. Jacob takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. Derek cannot undo his action. Fortunately, Kelly the Angry Locksmith is one space away and takes PICK with EFFICIENT PICKER (🔓🔊🔊➜), which lets her ➜ and then 🔓. Jacob continues with his other ➜➜. Increase 🔊 level by 4.
+*Example of Interleaving & Undoing*. Jacob takes the Sprint(🔊🔊➜➜➜) action but after his first ➜ he Auto-Reveals a Lock in his path. He cannot undo his action, since he revealed new information. Fortunately, Kelly the Angry Locksmith is one space away and takes PICK with EFFICIENT PICKER (🔓🔊🔊➜), which lets her ➜ and then 🔓. Jacob continues with his other ➜➜. Increase 🔊 level by 4.
 {:.example}
 
 ### Phase 3. Event

@@ -14,3 +14,11 @@ $ docker build . -t timber-wolf-runner
 ```
 $ docker-build.bat rake color
 ```
+
+## Installing fresh on mac
+
+```
+bundle install
+pip3 install weasyprint
+brew install ghostscript
+```

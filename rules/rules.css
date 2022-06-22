@@ -1,9 +1,9 @@
 
 body{
   font-family: 'Archivo Narrow', 'Segoe UI Symbol', 'Serif';
-  font-size: 14pt;
+  font-size: 11pt;
   /* font-size: 10pt;  */
-  /* text-rendering: optimizeLegibility; */
+  text-rendering: optimizeLegibility;
   line-height: 1.05;
   color: #130e04dd;
   margin: 0;

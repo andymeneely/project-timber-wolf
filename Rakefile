@@ -98,12 +98,13 @@ task :rules do
   puts "Converting markdown to html..."
   load 'src/rules_wikitext.rb'
   puts "Weasyprinting..."
-  `python src/weasybuild.py`
+  `python3 src/weasybuild.py`
 end
 
 task :rules_pngs do
   puts "Ghostscripting PDF to PNGs..."
-  `gswin64c -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
+  # `gswin64c -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
+  `gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`
 end
 
 
@@ -153,6 +154,6 @@ namespace :rivercity do
 
   task html_to_pdf: [:md_to_html] do
     puts "Weasyprinting..."
-    `python src/weasybuild_rivercity.py`
+    `python3 src/weasybuild_rivercity.py`
   end
 end
