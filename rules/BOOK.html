@@ -1,0 +1,1867 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="rules.css">
+    <style>
+        @page {
+
+            /* Vault Box size */
+            /* size: 5.75in 8.75in;  */
+            /*
+            padding: 0.40in;
+            padding-bottom: 0;
+            */
+
+            /* TGC Jumbo Coil Book */
+            /* size: 10.11in 10.75in; */
+
+            /* TGC Medium Coil Book*/
+            size: 5.25in 7.75in;
+            margin: 0;
+            margin-bottom: 0.30in;
+            padding: 0.25in;
+            padding-top: 0.25in;
+            padding-bottom: 0.25in;
+            /* background-image: url("../img/document-bg.svg"); */
+            /* background-repeat: no-repeat; */
+            /* background-size: auto auto; */
+
+            @bottom-center {
+                font-family: 'Archivo Black';
+                height: 0in;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 0.25in;
+                text-align: center;
+
+                font-size: 8pt;
+                font-weight: bold;
+                content: counter(page);
+            }
+        }
+        /* Binding gutters */
+        @page: left {
+            background-position: left top;
+            padding-right: 0.60in;
+        }
+        @page: right {
+            background-position: right top;
+            padding-left: 0.60in;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="title-img"><img src="../img/title.svg" alt="title" /></p>
+
+<p>You are a uniquely skilled individual in a career of high-risk, high-reward thievery.</p>
+
+<p>During each heist, you will collaborate using simultaneous gameplay. You will plan your heist, but you will also have to know when to abandon your plan. You use Ideas<img src="../img/emojis/idea.svg" class="emoji-svg" /> to get the actions you need, but don’t spend too many… you’ll need those Ideas<img src="../img/emojis/idea.svg" class="emoji-svg" /> to escape, too!</p>
+
+<p>You will start as an Amateur criminal with Amateur skills who is new to River City.</p>
+
+<p>But over time, hopefully with a few good decisions along the way, you and your crew will level up your characters and skills as you make your way through the city.</p>
+
+<p>Version 24.0</p>
+
+<div class="pagebreak"></div>
+
+<h1 id="table-of-contents">Table of Contents</h1>
+
+<ul id="markdown-toc">
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of Contents</a></li>
+  <li><a href="#the-pieces" id="markdown-toc-the-pieces">The Pieces</a></li>
+  <li><a href="#the-setup" id="markdown-toc-the-setup">The Setup</a></li>
+  <li><a href="#concepts" id="markdown-toc-concepts">Concepts</a>    <ul>
+      <li><a href="#the-board" id="markdown-toc-the-board">The Board</a></li>
+      <li><a href="#security-chits" id="markdown-toc-security-chits">Security Chits</a></li>
+      <li><a href="#actions--sub-actions" id="markdown-toc-actions--sub-actions">Actions &amp; Sub-Actions</a></li>
+      <li><a href="#characters" id="markdown-toc-characters">Characters</a></li>
+      <li><a href="#skills" id="markdown-toc-skills">Skills</a></li>
+      <li><a href="#events" id="markdown-toc-events">Events</a></li>
+      <li><a href="#crises" id="markdown-toc-crises">Crises</a></li>
+      <li><a href="#noise" id="markdown-toc-noise">Noise</a></li>
+      <li><a href="#loot--items" id="markdown-toc-loot--items">Loot &amp; Items</a></li>
+      <li><a href="#the-shop" id="markdown-toc-the-shop">The Shop</a></li>
+      <li><a href="#fixers" id="markdown-toc-fixers">Fixers</a></li>
+      <li><a href="#special-rules" id="markdown-toc-special-rules">Special Rules</a></li>
+    </ul>
+  </li>
+  <li><a href="#heist-gameplay" id="markdown-toc-heist-gameplay">Heist Gameplay</a>    <ul>
+      <li><a href="#part-i-the-plan" id="markdown-toc-part-i-the-plan">Part I: The Plan</a></li>
+      <li><a href="#part-ii-the-heist" id="markdown-toc-part-ii-the-heist">Part II: The Heist</a>        <ul>
+          <li><a href="#phase-1-roll" id="markdown-toc-phase-1-roll">Phase 1. Roll</a></li>
+          <li><a href="#phase-2-action" id="markdown-toc-phase-2-action">Phase 2. Action</a></li>
+          <li><a href="#phase-3-event" id="markdown-toc-phase-3-event">Phase 3. Event</a></li>
+          <li><a href="#phase-4-escape" id="markdown-toc-phase-4-escape">Phase 4. Escape</a></li>
+          <li><a href="#busted" id="markdown-toc-busted">Busted</a></li>
+        </ul>
+      </li>
+      <li><a href="#end-of-a-heist" id="markdown-toc-end-of-a-heist">End of a Heist</a></li>
+    </ul>
+  </li>
+  <li><a href="#campaign" id="markdown-toc-campaign">Campaign</a>    <ul>
+      <li><a href="#named-characters" id="markdown-toc-named-characters">Named Characters</a></li>
+      <li><a href="#losing-a-heist" id="markdown-toc-losing-a-heist">Losing a Heist</a></li>
+      <li><a href="#winning-a-heist" id="markdown-toc-winning-a-heist">Winning a Heist</a></li>
+      <li><a href="#level-up" id="markdown-toc-level-up">Level Up</a></li>
+    </ul>
+  </li>
+  <li><a href="#additional-modules" id="markdown-toc-additional-modules">Additional Modules</a>    <ul>
+      <li><a href="#remote-locks" id="markdown-toc-remote-locks">Remote Locks</a></li>
+      <li><a href="#guard-dogs" id="markdown-toc-guard-dogs">Guard Dogs</a></li>
+      <li><a href="#watchtower" id="markdown-toc-watchtower">Watchtower</a></li>
+      <li><a href="#reinforcements" id="markdown-toc-reinforcements">Reinforcements</a></li>
+      <li><a href="#lockdown-gates" id="markdown-toc-lockdown-gates">Lockdown Gates</a></li>
+      <li><a href="#keycard" id="markdown-toc-keycard">Keycard</a></li>
+      <li><a href="#usb-key" id="markdown-toc-usb-key">USB key</a></li>
+      <li><a href="#tunnels" id="markdown-toc-tunnels">Tunnels</a></li>
+      <li><a href="#non-player-characters" id="markdown-toc-non-player-characters">Non-Player Characters</a></li>
+      <li><a href="#safecracking" id="markdown-toc-safecracking">Safecracking</a></li>
+    </ul>
+  </li>
+  <li><a href="#credits" id="markdown-toc-credits">Credits</a></li>
+  <li><a href="#opportunities" id="markdown-toc-opportunities">Opportunities</a>    <ul>
+      <li><a href="#in-county" id="markdown-toc-in-county">In County</a></li>
+    </ul>
+  </li>
+  <li><a href="#where-to-next" id="markdown-toc-where-to-next">Where to Next?</a>    <ul>
+      <li><a href="#gold-rules" id="markdown-toc-gold-rules">Gold Rules</a></li>
+      <li><a href="#when-a-plan-comes-together" id="markdown-toc-when-a-plan-comes-together">When A Plan Comes Together</a></li>
+      <li><a href="#confidence" id="markdown-toc-confidence">Confidence</a></li>
+    </ul>
+  </li>
+  <li><a href="#pre-built-characters" id="markdown-toc-pre-built-characters">Pre-Built Characters</a></li>
+  <li><a href="#the-inclusion-job" id="markdown-toc-the-inclusion-job">The Inclusion Job</a></li>
+  <li><a href="#the-startup-job" id="markdown-toc-the-startup-job">The Startup Job</a></li>
+  <li><a href="#the-dark-horse-job" id="markdown-toc-the-dark-horse-job">The Dark Horse Job</a></li>
+  <li><a href="#the-greedy-prisoner" id="markdown-toc-the-greedy-prisoner">The Greedy Prisoner</a></li>
+  <li><a href="#the-blind-justice-job" id="markdown-toc-the-blind-justice-job">The Blind Justice Job</a></li>
+  <li><a href="#the-melee-job" id="markdown-toc-the-melee-job">The Melee Job</a></li>
+  <li><a href="#the-side-channel" id="markdown-toc-the-side-channel">The Side Channel</a></li>
+  <li><a href="#the-hospitality-job" id="markdown-toc-the-hospitality-job">The Hospitality Job</a></li>
+  <li><a href="#the-proving-grounds" id="markdown-toc-the-proving-grounds">The Proving Grounds</a></li>
+  <li><a href="#the-safehouse-rescue" id="markdown-toc-the-safehouse-rescue">The Safehouse Rescue</a></li>
+  <li><a href="#the-black-box" id="markdown-toc-the-black-box">The Black Box</a></li>
+  <li><a href="#the-marathon-job" id="markdown-toc-the-marathon-job">The Marathon Job</a></li>
+  <li><a href="#county-the-bricks" id="markdown-toc-county-the-bricks">County: The Bricks</a></li>
+  <li><a href="#county-the-river" id="markdown-toc-county-the-river">County: The River</a></li>
+  <li><a href="#county-the-hole" id="markdown-toc-county-the-hole">County: The Hole</a></li>
+  <li><a href="#the-final-score" id="markdown-toc-the-final-score">The Final Score</a>    <ul>
+      <li><a href="#part-1-the-secrets" id="markdown-toc-part-1-the-secrets">Part 1: The Secrets</a></li>
+      <li><a href="#part-2-a-new-acquaintance" id="markdown-toc-part-2-a-new-acquaintance">Part 2: A New Acquaintance</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-final-score-part-1" id="markdown-toc-the-final-score-part-1">The Final Score: Part 1</a></li>
+  <li><a href="#the-final-score-part-2" id="markdown-toc-the-final-score-part-2">The Final Score: Part 2</a></li>
+  <li><a href="#the-final-score-1" id="markdown-toc-the-final-score-1">The Final Score</a></li>
+  <li><a href="#achievements" id="markdown-toc-achievements">Achievements</a></li>
+</ul>
+
+<h1 id="the-pieces">The Pieces</h1>
+
+<ul class="parts-list">
+  <li><img src="fig_hex_tile_front.png" alt="oops" class="lg-part" /> 32 Security hex tiles</li>
+  <li><img src="fig_entrance.png" alt="oops" class="sm-part" /> 5 Entrance/Exits</li>
+  <li><img src="figure_setup_character_04.png" alt="oops" class="md-part" /> 24 Character cards</li>
+  <li><img src="fig_npc.png" alt="oops" class="md-part" /> 3 NPC cards</li>
+  <li><img src="figure_skill_00.png" alt="oops" class="lg-part" /> 14 Skill cards</li>
+  <li><img src="figure_event.png" alt="oops" class="md-part" /> 41 Event cards</li>
+  <li><img src="figure_crisis.png" alt="oops" class="lg-part" /> 12 Crisis cards</li>
+  <li><img src="figure_fixer.png" alt="oops" class="md-part" /> 15 Fixer cards</li>
+  <li><img src="fig_item.png" alt="oops" class="lg-part" /> 15 Item cards</li>
+  <li><img src="fig_help.png" alt="oops" class="lg-part" /> 4 Game Helps</li>
+  <li><img src="fig_noise.png" alt="oops" class="lg-part" /> 1 Tracker</li>
+  <li><img src="fig_npc_meeple.png" alt="oops" class="xs-part" /> 1 NPC token</li>
+  <li><img src="fig_meeples.png" alt="oops" class="md-part" /> 4 Player tokens</li>
+  <li><img src="fig_dice.png" alt="oops" class="md-part" /> 5 dice</li>
+  <li><img src="fig_planning.png" alt="oops" class="md-part" /> 48 Planning tokens</li>
+  <li><img src="fig_chit_locked.png" alt="oops" class="sm-part" /> 12 Lock chits</li>
+  <li><img src="fig_chit_camera.png" alt="oops" class="sm-part" /> 15 Camera chits</li>
+  <li><img src="fig_chit_guard.png" alt="oops" class="sm-part" /> 15 Guard chits</li>
+  <li><img src="fig_chit_guard-dog.png" alt="oops" class="sm-part" /> 8 Guard Dogs chits</li>
+  <li><img src="fig_chit_jewel.png" alt="oops" class="sm-part" /> 4 Jewels chits</li>
+  <li><img src="fig_hex_lockdown_A.png" alt="oops" class="md-part" /> 4 Lockdown Gates</li>
+  <li><img src="fig_hex_kennel.png" alt="oops" class="md-part" /> 1 Kennel token</li>
+  <li><img src="fig_hex_keycard-lock.png" alt="oops" class="md-part" /> 2 Keycard Locks</li>
+  <li><img src="fig_hex_reinforcements.png" alt="oops" class="md-part" /> 2 Reinforcements tokens</li>
+  <li><img src="fig_chit_keycard.png" alt="oops" class="sm-part" /> 2 Keycards chits</li>
+  <li><img src="fig_chit_usb-key.png" alt="oops" class="sm-part" /> 1 USB key chit</li>
+  <li><img src="fig_chit_folder.png" alt="oops" class="sm-part" /> 2 Document chits</li>
+  <li><img src="fig_chit_asterisk.png" alt="oops" class="sm-part" /> 2 Story chits</li>
+  <li><img src="fig_hex_watchtower.png" alt="oops" class="md-part" /> 2 Watchtower tokens</li>
+  <li><img src="fig_hex_server-x.png" alt="oops" class="md-part" /> 4 Servers tokens</li>
+  <li><img src="fig_hex_remote_lock_x.png" alt="oops" class="md-part" /> 4 Remote Locks</li>
+  <li><img src="fig_hex_safe.png" alt="oops" class="md-part" /> 4 Remote Lock tokens</li>
+  <li><img src="fig_hex_item.png" alt="oops" class="md-part" /> 1 Item chit</li>
+  <li><img src="fig_chit_idea.png" alt="oops" class="xs-part" /> 36 Idea tokens</li>
+  <li><img src="fig_chit_1k.png" alt="oops" class="sm-part" /> 12 Cash tokens</li>
+</ul>
+
+<div class="pagebreak"></div>
+
+<h1 id="the-setup">The Setup</h1>
+
+<p><strong>Step 1. As a team, decide your next heist.</strong> Heists are available to you in the River City booklet. Each heist is labeled with a difficulty level based on your team’s average level. New players are level 1.</p>
+
+<div class="setup-spacing"></div>
+
+<p class="med_fig example-left"><img src="fig_map.png" alt="map" /></p>
+
+<p><strong>Step 2. Set up the board</strong> in the middle of the table. Following the diagram for your heist, set up the hex tiles so that they match the picture.</p>
+
+<p>If the hex has a shield, use the Security side of the tile. In all other cases use the blank side and add the pieces neccessary to match the diagram.</p>
+
+<div class="setup-spacing"></div>
+
+<p class="large_fig example-right"><img src="fig_security_bag.png" alt="security bag" /></p>
+
+<p><strong>Step 3. Set up the security bag</strong>. The scenario indicates how many Guards, Locks, Cameras and other circle chits should go into the bag. Leave leftover circle chits by the board.</p>
+
+<div class="setup-spacing"></div>
+
+<p class="chit example-left"><img src="figure_character_00.png" alt="character" /></p>
+
+<p class="chit_h example-left"><img src="figure_setup_skill_04.png" alt="character" />
+<img src="figure_setup_skill_08.png" alt="character" /></p>
+
+<p><strong>Step 4. Build Characters.</strong> Every player gets one Character card and two Skill cards. New players start with Amateur cards.</p>
+
+<p class="tip numbered_fig">Tip: The scenario booklet has some pre-built character+skill pairings</p>
+
+<div class="setup-spacing"></div>
+
+<p class="chit example-right"><img src="fig_planning.png" alt="planning tokens" /></p>
+
+<p class="chit example-right rotate-left"><img src="fig_chit_idea.png" alt="planning tokens" /></p>
+
+<p><strong>Step 5. Distribute player tokens.</strong> These are: 6-sided die, meeple, planning tokens, and ideas <img src="../img/emojis/idea.svg" class="emoji-svg" />. Give ideas and planning tokens as indicated by the character card. <em>For example, the Angry Locksmith has a Planning Memory of 8</em>.</p>
+
+<div class="setup-spacing"></div>
+
+<p class="med_fig example-left rotate-left"><img src="fig_noise.png" alt="noise tracker" /></p>
+
+<p><strong>Step 6. Place Noise tracker</strong> in view of everyone and according to the number of players (3- or 4-player). Place the Noise Tracker marker on its starting place.</p>
+
+<div class="setup-spacing"></div>
+
+<p class="med_fig example-right"><img src="fig_event_setup.svg" alt="event deck" /></p>
+
+<p><strong>Step 7. Set up the Event Deck</strong> according to the scenario, using the numbered cards in the order indicated. The deck should be entirely face-up with the first card on the top and the last card on the bottom. It will consist of both Event and Crisis cards.</p>
+
+<div class="setup-spacing"></div>
+
+<p class="med_fig example-left rotate-right"><img src="figure_fixer_friend.png" alt="fixers" /></p>
+
+<p><strong>Step 8. Get Your Fixers</strong>. If this is your first heist, start with <em>Old Friend</em>. Otherwise, locate all of the Fixers you have unlocked from previous heists. Place them where everyone can read them.</p>
+
+<div class="pagebreak"></div>
+
+<h1 id="concepts">Concepts</h1>
+
+<h2 id="the-board">The Board</h2>
+
+<p>The board is a set of modular double-sided hex tiles. The rotational orientation does not matter. Each tile is Blank on one side, and is a Security tile on the other side. A <strong>Security tile</strong> represents an unknown Security Chit that will be drawn from the Security Bag.</p>
+
+<p class="example centered"><img src="../img/figure_board.svg" alt="board" class="br" /> <em>Blue is adjacent to a Camera, but not to a Guard</em></p>
+
+<p><strong>Adjacent</strong>. You are adjacent to something if you are on a tile that shares a border with another tile. Being on the same tile is <em>not</em> considered adjacent.</p>
+
+<p><strong>Entrances &amp; Exits</strong>. Each board has one or more entrances/exit tiles. If a character is on one of these spaces they are considered to be <strong>Outdoors</strong>, otherwise they are Indoors. The terms Entrance and Exit refer to the same tile and can be used interchangeably.</p>
+
+<p><strong>Limit 2 to Entrance During Planning</strong>. By default, unless the scenario specifies otherwise, Entrance/Exit tiles are limited to 2 characters at the beginning of the heist. This limit does not apply to the Escape phase, by default.</p>
+
+<p><strong>External</strong>. Some cards refer to “external sides”, which are a side of a hex tile that does not lead to a fully-enclosed space by hexes (see figure). An “external tile” is a tile with at least one external side.</p>
+
+<p><strong>Gaps</strong>. Some cards refer to a “non-tiled gap”, which is a hex-spaced area between two hex tiles that does <em>not</em> have a hex (see figure).</p>
+
+<hr />
+
+<h2 id="security-chits">Security Chits</h2>
+
+<p>Security Chits are obstacles your team will encounter. Some will be known when you set up the board, others will be unknown in the Security Bag.</p>
+
+<table class="security-table">
+  <thead>
+    <tr>
+      <th style="text-align: center">Name</th>
+      <th style="text-align: center">Active</th>
+      <th style="text-align: center">Inactive</th>
+      <th>Behavior</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Guard</td>
+      <td style="text-align: center"><img src="fig_chit_guard.png" alt="guard" /><br />Guard</td>
+      <td style="text-align: center"><img src="fig_chit_subdued.png" alt="subdued" /><br />Subdued</td>
+      <td><em>Slows you down</em>. If you share a space with a Guard, you may not leave the tile until he is Subdued. You may move into a space with a Guard.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Lock</td>
+      <td style="text-align: center"><img src="fig_chit_locked.png" alt="locked" /><br />Locked</td>
+      <td style="text-align: center"><img src="fig_chit_unlocked.png" alt="unlocked" /><br />Unlocked</td>
+      <td><em>Prevents passage.</em> You may not enter a Locked tile. You may exit a locked tile if it was re-locked while you were on it.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Camera</td>
+      <td style="text-align: center"><img src="fig_chit_camera.png" alt="live" /><br />Live</td>
+      <td style="text-align: center"><img src="fig_chit_disconnected.png" alt="disabled" /><br />Disabled</td>
+      <td><em>Increases Alerts.</em> You may enter a space with a Live Camera, but raise an Alert <img src="../img/emojis/alert.svg" class="emoji-svg" /> (i.e. discard the top Event card). If a Disabled camera is powered back on while a character is on it, discard one Event card per character.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>More chits in the back.</strong> Other chits that go into the security bag can be found in the back of the rulebook. Any circle-shaped chit may at some point go into the security bag.</p>
+
+<p><strong>Reveal and Auto-Reveal</strong>. During a heist, when a character is adjacent to an unknown Security tile (i.e. no Security chit placed yet), the chit is “auto-revealed” where you remove a random chit from the bag and place it on the tile in its Active state. A Security chit may also be placed with a <strong>Reveal</strong> (<img src="../img/emojis/reveal.svg" class="emoji-svg" />) sub-action (see below).</p>
+
+<h2 id="actions--sub-actions">Actions &amp; Sub-Actions</h2>
+
+<p>Skills and Characters allow you to take Actions. Most Actions are a grouping of Sub-Actions with a name (e.g. Punch <img src="../img/emojis/subdue.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" />). All sub-actions are optional, except for Noise and Alert. The Sub-Actions are:</p>
+
+<ul class="subactions">
+  <li><img src="../img/emojis/move.svg" class="emoji-svg" /> is  <strong>Move</strong> to an adjacent, planned, not locked tile</li>
+  <li><img src="../img/emojis/unlock.svg" class="emoji-svg" /> is <strong>Unlock</strong> 1 locked, adjacent tile</li>
+  <li><img src="../img/emojis/subdue.svg" class="emoji-svg" /> is <strong>Subdue</strong> 1 guard on or adjacent to your tile</li>
+  <li><img src="../img/emojis/disable.svg" class="emoji-svg" /> is <strong>Disable</strong> 1 camera on or adjacent to your tile</li>
+  <li><img src="../img/emojis/idea.svg" class="emoji-svg" /> is Add 1 <strong>Idea</strong> to your character</li>
+  <li><img src="../img/emojis/reveal.svg" class="emoji-svg" /> is <strong>Reveal</strong> 1 security token anywhere on the board. Remove from bag if all unknowns have been revealed.</li>
+  <li><img src="../img/emojis/loot.svg" class="emoji-svg" /> is <strong>Loot:</strong> Gain $1k from the supply as loot.</li>
+  <li><img src="../img/emojis/noise.svg" class="emoji-svg" /> is Increase the <strong>Noise</strong> level by 1 (Required)</li>
+  <li><img src="../img/emojis/alert.svg" class="emoji-svg" /> is  <strong>Alert</strong>. Discard the top Event card. (Required)</li>
+</ul>
+
+<h2 id="characters">Characters</h2>
+
+<p class="card-portrait card-right rotate-right"><img src="figure_character_00.png" alt="character figure" /></p>
+
+<p>Each Character card has:</p>
+
+<ul class="figure_list numbered_fig">
+  <li><strong>Level</strong>. Amateur or Pro</li>
+  <li><strong>Planning Memory</strong>. The number of planning tokens this character has. Represents the number of pre-planned hex tiles your character may move through during a heist.</li>
+  <li><strong>Initial Ideas</strong>. The number of Ideas <img src="../img/emojis/idea.svg" class="emoji-svg" /> you start with at the beginning of each heist.</li>
+  <li><strong>Default Actions</strong>. Actions that are available regardless of your die roll. Some Characters have two Default Actions, others have three.</li>
+  <li><strong>Ability</strong>. What the character can uniquely do.
+    <ul>
+      <li>Some abilities will have a “Use this action…” sentence referring to a Default Action space below. You must use your Action to make use of this ability.</li>
+      <li>Some abilities have a “Once per heist…” sentence.</li>
+      <li>Otherwise, the ability is a passive effect.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="skills">Skills</h2>
+
+<p class="card-landscape card-right rotate-left"><img src="figure_skill_00.png" alt="skill figure" /></p>
+
+<p class="numbered_fig">Each character gets two Skills. Each Skill has six Actions <em>①</em> that each correspond to a die roll <em>②</em>. During a heist, you will be rolling your die to determine which Actions are available to you. Every skill is either Amateur or Pro.</p>
+
+<p class="tip numbered_fig">Tip: When building a character, use Lacks <em>③</em> to see what the subactions are missing so you can find a good combination.</p>
+
+<hr />
+
+<h2 id="events">Events</h2>
+
+<p class="card-portrait card-right"><img src="figure_event.png" alt="event figure" /></p>
+
+<p>Events will impact your team each round.</p>
+
+<p><strong>One Event per round</strong>. You will be encountering <em>one</em> event each round. Which event happens will be determined by how many “Raise <img src="../img/emojis/alert.svg" class="emoji-svg" />” you encounter.</p>
+
+<p><strong>Raise Alert</strong>. Every time you are told to “Raise <img src="../img/emojis/alert.svg" class="emoji-svg" />”, remove the topmost Event card and discard it for the rest of the heist. The Event card that is at the top of the deck at the end of the Action phase is the one you will execute.</p>
+
+<p><strong>Plan ahead</strong>. You are welcome (encouraged!) to look ahead at potential upcoming events at any time. We recommend designating one person to keep track of the Event Deck and warn the group of potentially bad situations.</p>
+
+<h2 id="crises">Crises</h2>
+
+<p class="card-landscape card-right rotate-left"><img src="figure_crisis.png" alt="crisis figure" /></p>
+
+<p>Every Event Deck will have a few Crisis cards in them. These are particularly strong and can create big problems for any team of scoundrels.</p>
+
+<p><strong>All Crises will happen</strong>. Unlike Events, all Crises are guaranteed to happen in a heist. You will be doing all encountered Crisis cards <em>after</em> your round’s Event. (<em>See Phase 3. Event Phase for more details</em>).</p>
+
+<p><strong>Not an Alert</strong>. When a Crisis card is the top-most card in the Event Deck, immediately set it aside and continue dealing Event cards. Crisis cards are <em>not</em> removed because of “Raise <img src="../img/emojis/alert.svg" class="emoji-svg" />”.</p>
+
+<p>To summarize, you will be doing <em>one</em> Event per round, then zero or more Crises per round. A Crisis is not an Event.</p>
+
+<h2 id="noise">Noise</h2>
+
+<p class="xl_fig example-right"><img src="fig_noise.png" alt="noise tracker" /></p>
+
+<p><strong>Every action has a cost.</strong> For each <img src="../img/emojis/noise.svg" class="emoji-svg" /> your team incurs, increase the Noise tracker by one.</p>
+
+<p><strong>Raise Alert <img src="../img/emojis/alert.svg" class="emoji-svg" /></strong>. If the Noise tracker reaches a space with an Alert <img src="../img/emojis/alert.svg" class="emoji-svg" />, immediately Raise Alert <img src="../img/emojis/alert.svg" class="emoji-svg" />. When the Noise marker reaches to the final slot, each noise thereafter raises one Alert <img src="../img/emojis/alert.svg" class="emoji-svg" />.</p>
+
+<h2 id="loot--items">Loot &amp; Items</h2>
+
+<p class="chitlist chit"><img src="fig_chit_jewel.png" alt="jewel chit" />
+<img src="fig_chit_folder.png" alt="document chit" />
+<img src="fig_chit_keycard.png" alt="keycard chit" />
+<img src="fig_chit_usb-key.png" alt="usb chit" /></p>
+
+<p><strong>Pickup</strong>. When a character shares a tile with a Loot chit, you may immediately place the chit on their Character card.</p>
+
+<p><strong>Insta-transfer</strong>. A character may also “drop” loot on their current space for no cost, which means that two characters may effectively “insta-transfer” loot from one to another when sharing a space. This can be done at any time.</p>
+
+<p><strong>Deep Pockets</strong>. There is no limit to the amount of loot you can carry.</p>
+
+<p class="card-landscape card-right rotate-left"><img src="fig_item.png" alt="cheap picks card" /></p>
+
+<p><strong>Items are like transferrable skills</strong>. Item cards can have passive abilities and/or actions (like Character or Skill cards), except they can be transferred just like any other Loot.</p>
+
+<p><strong>Not Ours Until It’s Out</strong>. When a character with Loot gets Outdoors, the team has acquired that loot for the heist. For Cash, increase the Team Cash tracker accordingly.</p>
+
+<p class="chit example-right"><img src="fig_chit_1k.png" alt="1k loot" /></p>
+
+<p><strong>Cash is one item.</strong> Any amount of cash in one place is considered to be one piece of loot no matter how many chits it takes to represent it.</p>
+
+<h2 id="the-shop">The Shop</h2>
+
+<p>Between heists, your team may visit The Shop to purchase Item cards.</p>
+
+<p><strong>Shop grows with you.</strong> Initially, the only cards in the Shop are the ones with the Shop icon <img src="../img/shopping-cart.svg" alt="shopping cart" class="emoji-svg" />. However, once a a player discards a discovered item, that card is available for purchase in later planning phases.</p>
+
+<p><strong>Returning Items</strong>. You may sell items back to the shop for half of their price, rounded down.</p>
+
+<h2 id="fixers">Fixers</h2>
+
+<p class="card-portrait-small card-right rotate-right"><img src="figure_fixer.png" alt="fixer figure" /></p>
+
+<p><strong>Fixers help you plan.</strong> Completing heists give you access to additional Fixers. Fixers provide a variety of helpful bonuses to assist you in future heists. You may use as many Fixers as you have unlocked in a given heist.</p>
+
+<p><strong>Get the lay of the land</strong>. You are welcome (encouraged!) to read ahead and plan your path through River City to find the best Fixers for your team. There are no “spoilers” narrative-wise. Fortune favors the prepared.</p>
+
+<h2 id="special-rules">Special Rules</h2>
+
+<p><strong>Specific beats general.</strong> Scenarios and cards will sometimes have modifications to these rules. If there is a conflict, the scenario or card takes precedence over these rules.</p>
+
+<p class="example"><em>Example of Special Rule</em>. Ordinarily, there is no maximum on the number of characters that use an exit. But, in <em>County: The River</em>, the maximum number of characters that may use each exit is 1.</p>
+
+<h1 id="heist-gameplay">Heist Gameplay</h1>
+
+<p><img src="flowchart.svg" alt="flowchart" class="example-tight" /></p>
+
+<p>The game takes place over a series of phases, and each phase has <strong>simultaneous play</strong>.</p>
+
+<p>First, your team will plan out how you will execute the heist. You will being doing recon, spending money on Fixer abilities, buying Items at the Shop, and placing planning tokens to coordinate your efforts.</p>
+
+<p>Then, you will carry out that plan… or at least attempt to.</p>
+
+<p>The majority of the time spent is in the <strong>Action</strong> phase, where you are executing your heist. The Planning phase typically takes a few minutes, and Escape is very short. The Event Phase is (mostly) mechanical and also brief.</p>
+
+<h2 id="part-i-the-plan">Part I: The Plan</h2>
+
+<p><strong>Place Planning Tokens</strong>. Every time you do a Move<img src="../img/emojis/move.svg" class="emoji-svg" />, you <em>must</em> move onto a hex that you have <strong>Planned</strong> with a Planning Token of your color. Thus, mark every hex tile that you will be allowed to move on by placing a Plan token of your color on the hex tiles you will (probably) move onto. Entrance tiles do not need a token.</p>
+
+<p class="tip"><em>Note:</em> Unless a special ability allows you to re-plan mid-heist, you will not be able to change these planning tokens!</p>
+
+<p class="example centered"><img src="../img/figure_planning.svg" alt="planning" class="br" /> <em>Blue and Red place their planning tokens</em></p>
+
+<p><strong>Start on Entrances</strong>. Place your Character pawn on the Entrance tile where you will plan to start. The default limit character limit per Entrance in planning is 2, unlimited during Heist and Escape parts.</p>
+
+<p><strong>Use Your Fixers</strong>. Most Fixers provide a “During Planning…” ability that could potentially help your team.</p>
+
+<p><strong>No auto-reveals yet</strong>. Do not auto-reveal any hidden security chits you may be adjacent to until Heist phase.</p>
+
+<p><strong>Visit the Shop.</strong> Your heists will earn you money to purchase Items. Using team cash, you may purchase as many Item cards as are available.
+<em>Note: on your first heist, you have $0k team cash and therefore cannot purchase anything from the shop.</em></p>
+
+<h2 id="part-ii-the-heist">Part II: The Heist</h2>
+
+<p>For each Round, repeat Phase 1 through 3 until the Escape Phase.</p>
+
+<h3 id="phase-1-roll">Phase 1. Roll</h3>
+
+<p>Roll your die.</p>
+
+<h3 id="phase-2-action">Phase 2. Action</h3>
+
+<p><strong>Your die is your action</strong>. You have a minimum of four options: at least two Actions from your Character and one Action from each Skill. When you choose an Action, place your die on that Action to indicate your commitment.</p>
+
+<p><strong>Modify rolls</strong>. You may spend your Ideas<img src="../img/emojis/idea.svg" class="emoji-svg" /> to modify the die roll by +1 or -1 each. You may “wrap around”, that is, spend an <img src="../img/emojis/idea.svg" class="emoji-svg" /> to go from a 6 to a 1 and vice versa.</p>
+
+<p><strong>Interleaving Subactions</strong>. During the Action phase, everyone is working collaboratively and simultaneously. You may execute your sub-actions <strong>in any order</strong>. You may <strong>interleave</strong> your sub-actions with the sub-actions of other players. Doing this part effectively takes teamwork and is the key to victory!</p>
+
+<p><strong>Undoing</strong>. If unknown information is revealed after you commit to an Action, your Action cannot be undone, otherwise you may undo in good faith.</p>
+
+<p><strong>Required subactions</strong> The Noise(<img src="../img/emojis/noise.svg" class="emoji-svg" />) and the Alert(<img src="../img/emojis/alert.svg" class="emoji-svg" />) sub-actions are required, but all other sub-actions are not required. If any Crisis card ever appears on the top of the Event deck for any reason, immediately queue it.</p>
+
+<p><strong>No passing</strong>. You MUST choose an Action each round.</p>
+
+<p><strong>No alphas</strong>. You have the final say about your character.</p>
+
+<p><strong>Escape any time</strong>. You may opt to initiate Escape Phase at any time. You must still do the Event phase.</p>
+
+<p class="tip"><em>Tip: Wait to account for noise until the end of Action phase. Ask everyone to hold up a finger for the number of noises they incurred - which they can see from the die sitting on the action they took. By design, accounting for noise at the beginning or end of the phase makes no strategic difference.</em></p>
+
+<p class="example"><em>Example of Modify Roll</em>. Phil as the Angry Locksmith may always take Pick<img src="../img/emojis/unlock.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /> or Walk<img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" /> regardless of what he rolled. Suppose he has the Wing It and Smash ‘n’ Grab Skills, and rolled a 1, then he also has Punch<img src="../img/emojis/subdue.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" /> and Discover<img src="../img/emojis/reveal.svg" class="emoji-svg" /><img src="../img/emojis/reveal.svg" class="emoji-svg" /> as options. If he spends an <img src="../img/emojis/idea.svg" class="emoji-svg" />, then he also has Smash<img src="../img/emojis/disable.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" />, Grab<img src="../img/emojis/loot.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" />, Strongarm<img src="../img/emojis/unlock.svg" class="emoji-svg" /><img src="../img/emojis/subdue.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" />, and Scamper<img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" /> available.</p>
+
+<p class="example"><em>Example of Interleaving &amp; Undoing</em>. Jacob takes the Sprint(<img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" />) action but after his first <img src="../img/emojis/move.svg" class="emoji-svg" /> he Auto-Reveals a Lock in his path. He cannot undo his action, since he revealed new information. Fortunately, Kelly the Angry Locksmith is one space away and takes PICK with EFFICIENT PICKER (<img src="../img/emojis/unlock.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" />), which lets her <img src="../img/emojis/move.svg" class="emoji-svg" /> and then <img src="../img/emojis/unlock.svg" class="emoji-svg" />. Jacob continues with his other <img src="../img/emojis/move.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" />. Increase <img src="../img/emojis/noise.svg" class="emoji-svg" /> level by 4.</p>
+
+<h3 id="phase-3-event">Phase 3. Event</h3>
+
+<p>When all players have finished their Actions and all noise has been accounted for on the Noise Tracker, the team enters the Event phase.</p>
+
+<p><strong>One Event, Multiple Crises</strong>. In this phase, you will do exactly one Event, and then any Crises that have queued up.</p>
+
+<p><strong>Active Event</strong>. First, pick up the Event card that was on the top of the deck at the start of this phase. This is the Active Event. Read the text as instructed by the card. Some Events may incur more “Raise <img src="../img/emojis/alert.svg" class="emoji-svg" />”, in which you deal additional cards off the Event deck as you would during the Action phase, but the Active Event card does not change. If the Event deck was exhausted in the Action phase, the final Event card will be the Active Event. A Crisis card can even be queued during an Active Event.</p>
+
+<p><strong>Discard Active Event</strong>. When the Active Event is finished, discard it.</p>
+
+<p><strong>Events then Crisis Queue</strong>. Follow any Crisis cards you have set aside in the queue. Crises should be executed in the order they were encountered. Discard them after use.</p>
+
+<p><strong>No actions</strong>. Characters may not take actions or use abilities during this phase, unless the text on their card explicitly says so.</p>
+
+<p><strong>Take from supply</strong>. Whenever an Event or Crisis calls for new chits to be placed, take them from the <em>supply</em>, not the bag.</p>
+
+<p><strong>Sound the Alarm</strong>. If final Crisis is reached, enter the Escape Phase. Otherwise, proceed back to Roll.</p>
+
+<p class="example"><em>Example of Active Event</em>. It is the end of the first round of a 4-player game. The team generated <img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/noise.svg" class="emoji-svg" /> noise, meaning they raised one <img src="../img/emojis/alert.svg" class="emoji-svg" />. Thus, the Active Event in this case is event card 2 (<em>Get Outta My Way</em>). Following the card leads them to <img src="../img/emojis/alert.svg" class="emoji-svg" /><img src="../img/emojis/alert.svg" class="emoji-svg" />, so they discard Events 3 and 4 along with their Active Event card (event 2). After the 4th Event card is discarded, the topmost card is a Crisis card. This is immediately added to the queue. The team now enters the Crisis Queue and does the one crisis card, then discards that card too.</p>
+
+<p class="tip">Tip: Event effects are something you can potentially avoid with crafty noise management. Crises will always happen. Events and Crises never force you to take noise, but they can force more <img src="../img/emojis/alert.svg" class="emoji-svg" />.</p>
+
+<h3 id="phase-4-escape">Phase 4. Escape</h3>
+
+<p>When the Escape Phase starts, all Security chits are revealed. Then, in any order, each character who has not reached an Exit tile determines if they can reach it.</p>
+
+<p><strong>Escape Moves</strong>. Declare the number of Escape Moves you will take to an exit. Escape Moves are not the same as <img src="../img/emojis/move.svg" class="emoji-svg" />. Instead:</p>
+
+<ul>
+  <li>Ignore Planning tokens (Escape Moves need no planning)</li>
+  <li>Locked tiles are impassable by Escape Moves</li>
+  <li>You may Exit an Unsubdued Guard for one extra Escape Move per guard.</li>
+  <li>Cameras have no effect during Escape.</li>
+  <li>Each leftover <img src="../img/emojis/idea.svg" class="emoji-svg" /> you have may be used for 1 Escape Move.</li>
+</ul>
+
+<p><strong>Last Ditch Effort</strong>. After declaring your Escape Moves, you may roll your die. The number shown on the die is equal to the number of Escape Moves you may use to reach an Exit. If you still cannot reach, you are Busted.</p>
+
+<p><strong>No costly abilities</strong> You MAY NOT use abilities that cost <img src="../img/emojis/noise.svg" class="emoji-svg" /> or <img src="../img/emojis/alert.svg" class="emoji-svg" /> during Escape.</p>
+
+<p><strong>Insta-transfers</strong>. You MAY pick up or drop off loot during the Escape Phase, even during Last Ditch Effort.</p>
+
+<p class="example"><em>Last Ditch Effort example.</em> Mark the Mastermind has <img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" /> and escape is initiated. He calculates he needs 7 Escape Moves. He uses his <img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" /> and now he needs 4 Escape Moves. So, for his last ditch effort he rolls his die and gets a 3. He’s now Busted at the door with the loot, and the heist appears to be lost. BUT! Sally the Script Kiddie realizes she still has <img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" /> and decides to run in and get the loot from Mark. She gets the loot, and the heist succeeds with. Mark is still Busted, however.</p>
+
+<p class="example"><em>Costly abilities example:</em> VENT CRAWL is not allowed during Escape, but GREAT IN A PINCH is allowed</p>
+
+<p class="example"><img src="figure_escape.svg" class="img-right half" /> <em>Example of Escape Moves</em>. Blue needs 5 Moves to exit: one to enter the space with a Guard, two to exit the (unsubdued) Guard, and two more moves to reach the Exit. Using his last <img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" />, he now needs to roll a 3 or higher to get out. Red and Green are Busted.</p>
+
+<h3 id="busted">Busted</h3>
+
+<p>If you are Busted, you are out of gameplay for the rest of this Heist. All loot on your character is lost. Your Character is now in jail, and your team may choose to rescue this character in a future heist. Both you as a player and your character still level up (see <em>Level Up</em>).</p>
+
+<h2 id="end-of-a-heist">End of a Heist</h2>
+
+<p><strong>Ideas don’t carry over</strong>. Leftover <img src="../img/emojis/idea.svg" class="emoji-svg" /> are lost at the end of a heist.</p>
+
+<p><strong>Everyone Levels Up</strong>. At the end of every heist, every player levels up the character they just played (see <em>Level Up</em>)</p>
+
+<h1 id="campaign">Campaign</h1>
+
+<p><strong>Your box is your universe.</strong> Every time a new character is built, they must be named and their status tracked on their <strong>Character Sheet</strong>.</p>
+
+<h2 id="named-characters">Named Characters</h2>
+
+<p>A <strong>named character</strong> is a pairing of one character and two skill cards.</p>
+
+<p class="example">For example, Josh has a character named <em>Cam</em> who is a <em>Tinkerer</em> with <em>Assault</em> and <em>Smash ‘n’ Grab</em>.</p>
+
+<p><strong>No evil twins.</strong> You may NOT create a new named character with exactly the same card combinations as another named character.</p>
+
+<p><strong>Peristent Statuses</strong>. A named character’s status, such as “Busted”, persists between games. Individual scenarios may assign statuses to named characters based on the outcome of a heist attempt.</p>
+
+<p class="example">For following the above example, suppose <em>Cam</em> is Busted at the end of a heist, then anyone who wants to play Cam again must use the Busted status.</p>
+
+<p><strong>Loosely Affiliated</strong>. Players may freely come and go from the campaign. A player is not limited to always playing their original named character. All heists have 3- and 4-player options. You are welcome (encouraged!) to try out new characters.</p>
+
+<h2 id="losing-a-heist">Losing a Heist</h2>
+
+<p>If your team does not complete the heist objective, you do not gain the favor of the Fixer. You still keep any loot that was taken. All players level up after a heist (see Level Up).</p>
+
+<p><strong>Stashed away</strong>. Even if every team member is Busted, the Team Cash and known Fixers is available for the next crew.</p>
+
+<h2 id="winning-a-heist">Winning a Heist</h2>
+
+<p>If you have completed your objective, you have gained the favor of that Fixer. All players level up after a heist (see Level Up).</p>
+
+<p><strong>Sacrifices</strong>. An objective can still be fulfilled even if some characters get Busted.</p>
+
+<p>Any cash on a Character is added to the Team Cash tracker, as well as any loot. Be sure to note everything in your Campaign History.</p>
+
+<h2 id="level-up">Level Up</h2>
+
+<p><strong>Players level up</strong> as well as characters. Every human player starts at level 1 when they are new to this game. At the end of every heist, regardless of the objective outcome or character fate, every player levels up the named character they just played - even if they have no plans to play them ever again.</p>
+
+<p><strong>Characters Start at Player Level</strong>. For the next heist, you may start with a character of the <em>your player level</em> (or less). That character may be new or used previously.</p>
+
+<p class="example"><em>Example of player and character levels.</em> For example, this is Josh’s third time playing this game, so he is Level 3. Last time, Josh’s character <em>Cam</em> who is a <em>Tinkerer</em> with <em>Assault</em> and <em>Smash ‘n’ Grab</em> is Busted. Josh wants to build a new <em>Tinkerer</em> with <em>Assault</em> named <em>Iris</em>. He may not use <em>Smash ‘n’ Grab</em> as the other skill as that would be identical to Cam. <em>Iris</em> will start at Level 3.</p>
+
+<p><strong>Progression</strong>. At Level 2, upgrade one Skill card of your choice. At Level 3, upgrade your Character to a Pro version. At Level 4, upgrade your other Skill card. The maximum player and character level is 4 (both pro Skills and a pro Character).</p>
+
+<p>Each Amateur card is given two choices to level into, as indicated on the back of the card. Place your Amateur Character card in the box and choose one Pro card as your new character. Record your choice on your character sheet. Skill cards work the same way.</p>
+
+<p><strong>One Character Class Per Heist</strong>. A character class is the name of the amateur version of a character.</p>
+
+<p class="example">For example, a Grease Man and a Burglar cannot be in the same heist.</p>
+
+<p><strong>Conflicting Skills</strong>. Named characters are only compatible with each other if the components are available.</p>
+
+<p class="example">For example, the named characters Larry, Curly, and Moe all have <em>Wing It</em> as a skill, but the game has only two <em>Wing It</em> cards. A heist may only have two of those characters, though they all may exist in your universe.</p>
+
+<h1 id="additional-modules">Additional Modules</h1>
+
+<h2 id="remote-locks">Remote Locks</h2>
+
+<p class="example-right hexchit rotate-left"><img src="fig_hex_remote_lock_x.png" alt="remote lock" /></p>
+
+<p>You may not enter a tile with a Remote Lock chit on it.</p>
+
+<p><strong>Starting Imprisoned</strong>. If you are locked within a remote lock tile at the beginning of a heist, you may not <img src="../img/emojis/move.svg" class="emoji-svg" /><img src="../img/emojis/unlock.svg" class="emoji-svg" /><img src="../img/emojis/subdue.svg" class="emoji-svg" /><img src="../img/emojis/disable.svg" class="emoji-svg" />, but you may <img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/loot.svg" class="emoji-svg" /><img src="../img/emojis/reveal.svg" class="emoji-svg" /> if actions allow it and <img src="../img/emojis/noise.svg" class="emoji-svg" /><img src="../img/emojis/alert.svg" class="emoji-svg" />  are still required.</p>
+
+<p class="example-right hexchit rotate-right"><img src="fig_hex_server-x.png" alt="remote lock" /></p>
+
+<p>For each Remote Lock, a corresponding <strong>Server</strong> exists somewhere else on the board (e.g. x or y). If a character is standing on the Server, then all corresponding Remote Lock rings may be immediately removed.</p>
+
+<h2 id="guard-dogs">Guard Dogs</h2>
+
+<p class="example-right hexchit rotate-left"><img src="fig_chit_guard-dog.png" alt="guard dog" /></p>
+
+<p><strong>Guard Dogs are Guards.</strong></p>
+
+<p><strong>Chasers.</strong> Additionally, when a Guard Dog becomes adjacent to a Character, and is not already sharing a tile with a Character, then:</p>
+
+<ol>
+  <li>Move the Guard Dog onto that character, and</li>
+  <li>If the Dog came from the security bag, place a Blank token over the Shield to mark that space as already Revealed.</li>
+</ol>
+
+<p><strong>Indoor creatures</strong>. Guard Dogs do not move onto entrances/exits.</p>
+
+<p class="example-right hexchit rotate-right"><img src="fig_hex_kennel.png" alt="kennel" /></p>
+
+<p><strong>Kennel</strong>. The hex with a kennel can be freely moved on with no automatic effect. Dogs spawn here as a result of Events and Crises.</p>
+
+<p><strong>Team optimizes ambiguity</strong>. If ambiguity ever arises in the behavior of a Guard Dog, the team chooses.</p>
+
+<p class="example">For example, if a Guard Dog is added to a tile that does not already have a character and is adjacent to multiple characters, your team chooses which character the Dog jumps onto.</p>
+
+<p><strong>THERE ARE BETTER DOGS</strong>. Some characters have the ability to escape Guards without <img src="../img/emojis/subdue.svg" class="emoji-svg" />. If one of these characters shares a hex with a dog and their action puts one tile of separation between them and the dog (e.g. <img src="../img/emojis/move.svg" class="emoji-svg" /><img src="../img/emojis/move.svg" class="emoji-svg" />), the dog stays where it is instead of chasing.</p>
+
+<h2 id="watchtower">Watchtower</h2>
+
+<p class="example-right hexchit rotate-left"><img src="fig_hex_watchtower.png" alt="watchtower" /></p>
+
+<p><strong>Ranged Camera</strong>. The Watchtower is a thermal imaging system that can detect body movement across long distances. A series of Crisis cards will add Guards to locations along the path emanating from a Watchtower.</p>
+
+<p><strong>There must be some kind of way outta here</strong>. A Watchtower can be disabled when a character is on that tower when the <em>Watchtower Sweep</em> crisis occurs.  The Watchtower does nothing during Escape.</p>
+
+<h2 id="reinforcements">Reinforcements</h2>
+
+<p class="example-right hexchit rotate-right"><img src="fig_hex_reinforcements.png" alt="reinforcements" /></p>
+
+<p><strong>Problem for Later</strong>. A hex with the reinforcements token on it is freely passable. However, a later Crisis card will cause an area effect centered on this token.</p>
+
+<h2 id="lockdown-gates">Lockdown Gates</h2>
+
+<p class="example-right hexchit rotate-left"><img src="fig_hex_lockdown_A.png" alt="shut two gates" /></p>
+
+<p>There are four <strong>Lockdown Gate</strong> hex chits lettered A,B,C, and D. The hex is treated as normal (i.e. characters may enter or exit the tile freely unless something else prevents them).</p>
+
+<p>The event deck for the scenario will have Crisis cards and Event cards that will lock these down. This means that the entire hex tile underneath this chit is removed from the board, and that space is now considered a gap. Lockdown Gates are always removed in order: the A tile will be removed first, then B, and so on.</p>
+
+<p><strong>Don’t get locked down.</strong> Any character caught on a locked down hex is Busted. Any other pieces on the locked down hex is removed from the board. All Lockdown Gates are removed at the start of the Escape phase.</p>
+
+<p><strong>Auto-replan</strong>. Any planning tokens on a locked down hex may be immediately re-planned.</p>
+
+<h2 id="keycard">Keycard</h2>
+
+<p class="example-right hexchit rotate-right"><img src="fig_hex_keycard-lock.png" alt="keycard lock" /></p>
+
+<p><strong>No normal lock</strong>. Characters may not move onto a space with the Keycard Door, and only the keycard can open it. When a character who has the keycard is adjacent to the Keycard Door, they may remove the Keycard Door token from the board. The Keycard is a form of Loot.</p>
+
+<p class="example-left chit rotate-left"><img src="fig_chit_keycard.png" alt="keycard" /></p>
+
+<p class="example-left chit rotate-right"><img src="fig_chit_guard.png" alt="keycard" /></p>
+
+<p><strong>Held by a Guard</strong>. If this chit is pulled from the security bag, <strong>add a Guard to the hex</strong> from the supply.</p>
+
+<p><strong>This never works the first time</strong>. The Keycard can be used during Escape, but to open a Keycard Door it costs one Escape Move.</p>
+
+<h2 id="usb-key">USB key</h2>
+
+<p class="example-left chit"><img src="fig_chit_usb-key.png" alt="usb key" /></p>
+
+<p>A USB key is a loot item that can go into the security bag, meaning it must be revealed to discover its location.</p>
+
+<p><strong>Held by a Guard</strong>. If this chit is pulled from the security bag, <strong>add a Guard to the hex</strong> from the supply.</p>
+
+<h2 id="tunnels">Tunnels</h2>
+
+<p class="example-right hexchit"><img src="tunnel.svg" alt="tunnel" /></p>
+
+<p>When a scenario map shows Tunnel spaces, then you may add an Entrance token to one of those spaces during planning. If you are allowed more than one Entrance, they cannot physically overlap, i.e. they cannot share the same hex-shaped gap.</p>
+
+<h2 id="non-player-characters">Non-Player Characters</h2>
+
+<p class="example-right card-portrait rotate-right"><img src="fig_npc.png" alt="npc" /></p>
+
+<p>A <strong>Non-Player Character</strong> (NPC) is represented by a white pawn, a white die, and their NPC card. Your team will collaboratively decide on how the NPC spends their action each round. Follow any additional abilities or limitations described on the NPC card. NPCs do not need planning tokens and do not have Skills.</p>
+
+<p><strong>Inactive NPCs</strong>. The NPCs Hostage and Prisoner do nothing until taken/freed (respectively). Immediately when they are  taken/freed, take out the NPC card and roll a white die for the current round.</p>
+
+<p><strong>Up Close And Personal</strong>. To take a Hostage, a player character must be on the same tile as the hostage.</p>
+
+<p><strong>Freed</strong>. A Prisoner is freed when they have no movement impediments (e.g. remote locks, keycard doors, guards).</p>
+
+<p><strong>Panic Mode</strong>. Every NPC has a Panicked side, enabled by a Crisis.</p>
+
+<p><strong>Just a character</strong>. In every other way, treat an NPC like a regular character.</p>
+
+<h2 id="safecracking">Safecracking</h2>
+
+<p class="example-right hexchit rotate-left"><img src="fig_hex_safe.png" alt="safe" /></p>
+
+<p><strong>Need the tools for the job.</strong> You will need a special subaction to unlock a safe, called <strong>crack</strong> <img src="../img/emojis/crack.svg" class="emoji-svg" />. The <img src="../img/emojis/crack.svg" class="emoji-svg" /> is only found on Item cards, for example, <em>Safecracking Tools</em> or <em>Plasma Torch</em>. You must be on the tile with the safe to use <img src="../img/emojis/crack.svg" class="emoji-svg" />. Any character may <img src="../img/emojis/crack.svg" class="emoji-svg" />.</p>
+
+<p><strong>Some safes are harder than others</strong>. The scenario description will tell you how many <img src="../img/emojis/crack.svg" class="emoji-svg" /> you need to unlock the safe. Each <img src="../img/emojis/crack.svg" class="emoji-svg" /> is cumulative, even across rounds. Use leftover planning tokens on your character to mark your progress. When the safe is unlocked, replace the chit with its contents.</p>
+
+<h1 id="credits">Credits</h1>
+
+<p>Questions? Contact Andy Meneely at andy.meneely@gmail.com</p>
+
+<p>Special thanks to our playtesters: Tim “You Can’t Spell Cooperative Without” Cooper Jacob Zukoski, Hillarie “Prisoner Originator” Shockley, Andy “The Generalist” Trahan, Derek Maurer, Phil Meneely, Kelly “Inventor of the Help Out Rule” Meneely, Deb Meneely, Mike “We Need a Breach” Premo, Chris “More Weaknesses!” Rericha, Brad “Pack o Nabs” Burr, Ethan Hackett, Ryan Krebs, Kurt “Two Cents” Mosiejczuk, Bennie McDonald, Chris Noel, Marc Priddy, Abigail Trahan, Gavin Trahan, Tina “Saved the Heist” Howard, John “Master Event Master” Renner, Karin “Blame the Germans For” Lehnigk, Derek “Ideation Exploitation” Erdmann, Kayla Davis, Chris “Can This Be a No-Noise Round” Bentivenga, Wade Mauger, Dylan “Noise Ain’t So Bad” Vuz, Peyton Schmidt, Curtis Shea, Dan Gude, Mars Belentyne, Christian Newman, Alex McHugh, Will Coffey, Drew Heintz, Tanner Glantz, Josiah Meneely, Trista Zukoski, Bonnie Meneely, Josh Ostrander, Mark Gartland.</p>
+
+<!-- ## TBD modules -->
+
+<!-- These are in various states of playtesting -->
+
+<!-- * Inspiration Chits: 2-idea and 3-idea chits
+* Elite Security: Needs multiple subactions in one turn
+* TBD needs playtesting. Like an extra skill card that you carry -->
+
+<!-- # Index -->
+
+<!-- Haven't figured out a good way to do this - might be good for Ruby -->
+<div class="cover-title">
+  <p>River City</p>
+</div>
+
+<p>Your journey begins with some text messages from an old friend:</p>
+
+<blockquote class="text-message">
+  <p>Welcome back! Things around here haven’t changed since you left.</p>
+</blockquote>
+
+<blockquote class="text-message">
+  <p>I hear you have some new skills to try out?</p>
+</blockquote>
+
+<blockquote class="text-message">
+  <p>I can introduce you to some folks… but you and your friends will need prove yourselves before they provide their services.</p>
+</blockquote>
+
+<hr />
+
+<ul class="directions">
+  <li>Choose an entirely Amateur team.</li>
+  <li>Gain the <em>Old Friend</em> Fixer.</li>
+  <li>You have $0k team cash.</li>
+</ul>
+
+<hr />
+
+<p>Version 24.0</p>
+
+<h1 id="opportunities">Opportunities</h1>
+
+<table class="difficulty-table">
+  <thead>
+    <tr>
+      <th>Difficulty</th>
+      <th>Avg. Level</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amateur</td>
+      <td>&lt; 2</td>
+    </tr>
+    <tr>
+      <td>Semi-Pro</td>
+      <td>2-3</td>
+    </tr>
+    <tr>
+      <td>Pro</td>
+      <td>&gt; 3</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote class="text-message">
+  <p>Just name the fixer and I’ll arrange an introduction.</p>
+</blockquote>
+
+<table class="tabletoc">
+  <thead>
+    <tr>
+      <th style="text-align: left">Opportunity</th>
+      <th style="text-align: left">Location</th>
+      <th style="text-align: left">Difficulty</th>
+      <th>Unlocks Fixer</th>
+      <th>Page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">The Inclusion Job</td>
+      <td style="text-align: left">Delinquent Jeweler</td>
+      <td style="text-align: left">Amateur</td>
+      <td>Pawn Shop Owner</td>
+      <td><a href="#the-inclusion-job"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Startup Job</td>
+      <td style="text-align: left">Tech Lab</td>
+      <td style="text-align: left">Amateur</td>
+      <td>Visage</td>
+      <td><a href="#the-startup-job"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Dark Horse Job</td>
+      <td style="text-align: left">The Track</td>
+      <td style="text-align: left">Amateur</td>
+      <td>Bookie</td>
+      <td><a href="#the-dark-horse-job"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Greedy Prisoner</td>
+      <td style="text-align: left">Estate Basement</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td>The Connoisseur</td>
+      <td><a href="#the-greedy-prisoner"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Blind Justice Job</td>
+      <td style="text-align: left">Courthouse</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td>Beat Cop</td>
+      <td><a href="#the-blind-justice-job"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Melee Job</td>
+      <td style="text-align: left">Museum of Antiquity</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td>The Curator</td>
+      <td><a href="#the-melee-job"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Side Channel</td>
+      <td style="text-align: left">Server Farm</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td>Shell</td>
+      <td><a href="#the-side-channel"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Hospitality Job</td>
+      <td style="text-align: left">Hotel Basement</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td>Security Consultant</td>
+      <td><a href="#the-hospitality-job"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Proving Grounds</td>
+      <td style="text-align: left">Rival Headquarters</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td>The Machinist</td>
+      <td><a href="#the-proving-grounds"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Safehouse Rescue</td>
+      <td style="text-align: left">Parking Garage</td>
+      <td style="text-align: left">Pro</td>
+      <td>Retired Mastermind</td>
+      <td><a href="#the-safehouse-rescue"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Black Box</td>
+      <td style="text-align: left">The Lair</td>
+      <td style="text-align: left">Pro</td>
+      <td>The Architect</td>
+      <td><a href="#the-black-box"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Marathon Job</td>
+      <td style="text-align: left">The Vault</td>
+      <td style="text-align: left">Pro</td>
+      <td>Diversion Specialist</td>
+      <td><a href="#the-marathon-job"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Final Score</td>
+      <td style="text-align: left">Interior Ministry</td>
+      <td style="text-align: left">Pro</td>
+      <td>The Mayor</td>
+      <td><a href="#the-final-score"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="in-county">In County</h2>
+
+<blockquote class="text-message">
+  <p>Busted? Minor setback</p>
+</blockquote>
+
+<p>If you are busted, you may simply build a new character. Alternatively, your team may opt to rescue you. Even if the entire team is busted, you may opt for a breakout. Breakout jobs have some modified rules that change the gameplay significantly.</p>
+
+<hr />
+
+<table class="tabletoc">
+  <thead>
+    <tr>
+      <th style="text-align: left">Opportunity</th>
+      <th style="text-align: left">Difficulty</th>
+      <th style="text-align: center">Unlocks Fixer</th>
+      <th style="text-align: center">Team Reward</th>
+      <th>Page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">The Yard</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td style="text-align: center">Prison Guard</td>
+      <td style="text-align: center">$10k</td>
+      <td><a href="#county-the-yard"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Bricks</td>
+      <td style="text-align: left">Semi-Pro</td>
+      <td style="text-align: center">Prison Guard</td>
+      <td style="text-align: center">$12k</td>
+      <td><a href="#county-the-bricks"></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The Hole</td>
+      <td style="text-align: left">Pro</td>
+      <td style="text-align: center">Prison Guard</td>
+      <td style="text-align: center">$15k</td>
+      <td><a href="#county-the-hole"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="where-to-next">Where to Next?</h1>
+
+<p>River City is an <strong>open-ended</strong> campaign.
+All heists are available to any team in your universe, and can be attempted when you feel ready. You are welcome to <strong>explore this booklet</strong> without spoilers.</p>
+
+<p><strong>Players may come and go</strong>. Your party can change between heists as needed. You do not need to maintain the same party size, composition, or average level.</p>
+
+<p>During planning, you may visit the Shop to <strong>purchase Item cards</strong> with your team’s cash. Only Items with the <img src="../../img/shopping-cart.svg" alt="shop item" class="emoji-svg" /> icon may be purchased this way.</p>
+
+<p>Can’t decide on where to go next? These are some good threads:</p>
+
+<h3 id="gold-rules">Gold Rules</h3>
+<p><em>Big payouts, just know your limits</em></p>
+
+<ul class="heistthread">
+  <li>The Inclusion Job</li>
+  <li>The Greedy Prisoner</li>
+  <li>The Melee Job</li>
+  <li>The Marathon Job</li>
+  <li>The Final Score</li>
+</ul>
+
+<h3 id="when-a-plan-comes-together">When A Plan Comes Together</h3>
+<p><em>Intricate planning, satisfying results</em></p>
+
+<ul class="heistthread">
+  <li>The Startup Job</li>
+  <li>The Proving Grounds</li>
+  <li>The Side Channel</li>
+  <li>The Safehouse Rescue</li>
+  <li>The Final Score</li>
+</ul>
+
+<h3 id="confidence">Confidence</h3>
+<p><em>The risk is the reward</em></p>
+
+<ul class="heistthread">
+  <li>The Dark Horse Job</li>
+  <li>The Blind Justice Job</li>
+  <li>The Hospitality Job</li>
+  <li>The Black Box</li>
+  <li>The Final Score</li>
+</ul>
+
+<h1 id="pre-built-characters">Pre-Built Characters</h1>
+
+<table class="prebuilt">
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">Name</th>
+      <th style="text-align: center">Character &amp; Skills</th>
+      <th><img src="../img/emojis/idea.svg" class="emoji-svg" /></th>
+      <th><img src="../img/emojis/move.svg" class="emoji-svg" /></th>
+      <th><img src="../img/emojis/unlock.svg" class="emoji-svg" /></th>
+      <th><img src="../img/emojis/subdue.svg" class="emoji-svg" /></th>
+      <th><img src="../img/emojis/disable.svg" class="emoji-svg" /></th>
+      <th><img src="../img/emojis/reveal.svg" class="emoji-svg" /></th>
+      <th><img src="../img/emojis/noise.svg" class="emoji-svg" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/thug.svg" alt="thug shadow" class="s" /></td>
+      <td style="text-align: center">Tiny</td>
+      <td style="text-align: center"><strong>Thug</strong> <br /> Wing It, Hit ‘n’ Run</td>
+      <td> </td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/thug.svg" alt="thug shadow" class="s" /></td>
+      <td style="text-align: center">Jitters</td>
+      <td style="text-align: center"><strong>Thug</strong> <br /> Hurry, Linger</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/angry locksmith.svg" alt="angry locksmith shadow" class="s" /></td>
+      <td style="text-align: center">Karma</td>
+      <td style="text-align: center"><strong>Angry Locksmith</strong> <br /> Bypass, Wing It</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+      <td>∎∎∎∎∎ ∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/angry locksmith.svg" alt="angry locksmith shadow" class="s" /></td>
+      <td style="text-align: center">Swagger</td>
+      <td style="text-align: center"><strong>Angry Locksmith</strong> <br /> Hit ‘n’ Run, Linger</td>
+      <td> </td>
+      <td>∎∎∎∎∎ ∎∎</td>
+      <td>∎∎∎∎∎ ∎∎</td>
+      <td>∎∎∎∎∎ ∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/street urchin.svg" alt="street urchin shadow" class="s" /></td>
+      <td style="text-align: center">Enigma</td>
+      <td style="text-align: center"><strong>Street Urchin</strong> <br /> Hurry, Wing It</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/street urchin.svg" alt="street urchin shadow" class="s" /></td>
+      <td style="text-align: center">Iceheart</td>
+      <td style="text-align: center"><strong>Street Urchin</strong> <br /> Bypass, Yank Wires</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎</td>
+      <td>∎∎∎∎</td>
+      <td> </td>
+      <td>∎∎∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/script kiddie.svg" alt="script kiddie shadow" class="s" /></td>
+      <td style="text-align: center">Phobia</td>
+      <td style="text-align: center"><strong>Script Kiddie</strong> <br /> Bypass, Wing It</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+      <td>∎∎∎∎∎ ∎</td>
+      <td>∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/script kiddie.svg" alt="script kiddie shadow" class="s" /></td>
+      <td style="text-align: center">Null</td>
+      <td style="text-align: center"><strong>Script Kiddie</strong> <br /> Hurry, Yank Wires</td>
+      <td>∎∎∎∎∎ ∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎</td>
+      <td>∎</td>
+      <td> </td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/burglar.svg" alt="burglar shadow" class="s" /></td>
+      <td style="text-align: center">Showtime</td>
+      <td style="text-align: center"><strong>Burglar</strong> <br /> Linger, Wing It</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎</td>
+      <td>∎∎∎∎∎ ∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/burglar.svg" alt="burglar shadow" class="s" /></td>
+      <td style="text-align: center">Clutch</td>
+      <td style="text-align: center"><strong>Burglar</strong> <br /> Hit ‘n’ Run, Yank Wires</td>
+      <td>∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/lookout.svg" alt="lookout shadow" class="s" /></td>
+      <td style="text-align: center">Crazy Eyes</td>
+      <td style="text-align: center"><strong>Lookout</strong> <br /> Bypass, Linger</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/lookout.svg" alt="lookout shadow" class="s" /></td>
+      <td style="text-align: center">Smokes</td>
+      <td style="text-align: center"><strong>Lookout</strong> <br /> Smash ‘n’ Grab, Hurry</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎</td>
+      <td>∎</td>
+      <td>∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/pickpocket.svg" alt="pickpocket shadow" class="s" /></td>
+      <td style="text-align: center">Status</td>
+      <td style="text-align: center"><strong>Pickpocket</strong> <br /> Hurry, Yank Wires</td>
+      <td>∎∎∎∎∎ ∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎ ∎</td>
+      <td>∎</td>
+      <td>∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/pickpocket.svg" alt="pickpocket shadow" class="s" /></td>
+      <td style="text-align: center">Locket</td>
+      <td style="text-align: center"><strong>Pickpocket</strong> <br /> Hit ‘n’ Run, Smash ‘n’ Grab</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎ ∎∎</td>
+      <td>∎∎</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/shutter bug.svg" alt="shutter bug shadow" class="s" /></td>
+      <td style="text-align: center">F-Stop</td>
+      <td style="text-align: center"><strong>Shutter Bug</strong> <br /> Smash ‘n’ Grab, Bypass</td>
+      <td>∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="../../img/shadows/shutter bug.svg" alt="shutter bug shadow" class="s" /></td>
+      <td style="text-align: center">Stretch</td>
+      <td style="text-align: center"><strong>Shutter Bug</strong> <br /> Hurry, Hit ‘n’ Run</td>
+      <td>∎∎∎∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎</td>
+      <td>∎∎∎</td>
+      <td>∎∎∎∎∎</td>
+      <td>∎</td>
+      <td>∎</td>
+      <td>∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎∎∎∎ ∎∎</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="the-inclusion-job">The Inclusion Job</h1>
+
+<div class="map">
+  <p><img src="delinquent-jeweler.png" /></p>
+</div>
+
+<p>From the Pawn Shop Owner:</p>
+
+<blockquote class="text-message">
+  <p>Our friends down the road have decided to experiment with capitalism again. I need to show them the cost of leaving a cartel.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal all three jewels.</p>
+
+<p><strong>Special Rules:</strong></p>
+
+<ul>
+  <li>Lockdown Gates (see rules)</li>
+  <li>Reinforcements (see rules)</li>
+</ul>
+
+<p><strong>Success Unlocks:</strong> Pawn Shop Owner</p>
+
+<!-- http://localhost:3000/design/?savekey=Delinquent+Jeweler|5|265|5|6|4|0|0|0|0|0|5|140|1-8,G1,9-12,C3,13-14,G3,C3,15-21,C1,Z2|15|10|A|OIBQBKHpAkBMYYEYqsu64DKBhCfcxCM1xkwApAdTBwWIEEwBRAWRYFZU2IARIvMABCA0SRLVRxcACVmLdsy4kekQusGZSqSdNHlxWle0PbTzFIaA -->
+
+<h1 id="the-startup-job">The Startup Job</h1>
+
+<div class="map">
+  <p><img src="tech-lab.png" /></p>
+</div>
+
+<p>From Visage:</p>
+
+<blockquote class="text-message">
+  <p>Trade secrets are for cowards. Get me a copy of their code and I can help you out.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal the document from the vault.</p>
+
+<p><strong>Special Rules</strong></p>
+
+<ul>
+  <li>Keycard (see rules)</li>
+  <li>Watchtower (see rules)</li>
+</ul>
+
+<p><strong>Success Unlocks:</strong> Visage</p>
+
+<!-- http://localhost:3000/design/?savekey=Tech+Lab|110|5|3|6|6|0|0|0|0|0|15|220|1-12,C2,13-18,C2,19-24,Z1|190|245|A|OIBQBKYumz8QQaQMIBlGcqsASAzFggMopgoCyYp1ZATMBmnUeVWgPJgDqAKngEZawuKxo1RfEQkiVpg4RJnhcLcWXVgAolVF7wO1loBsrfZhNn4QA -->
+
+<h1 id="the-dark-horse-job">The Dark Horse Job</h1>
+
+<div class="map">
+  <p><img src="the-track.png" /></p>
+</div>
+
+<p>From The Bookie:</p>
+
+<blockquote class="text-message">
+  <p>Bosses over at the track are trying to pull a fast one on us freelancers. Steal their ledger.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal the documents</p>
+
+<p><strong>Item:</strong> Cheap Picks</p>
+
+<p><strong>Special Rules</strong> (see rules)</p>
+
+<ul>
+  <li>Remote locks</li>
+  <li>Guard Dogs</li>
+  <li>Item</li>
+</ul>
+
+<p><strong>Success Unlocks:</strong> Bookie</p>
+
+<!-- https://mastersoftheheist.com/design/?savekey=The+Track|190|240|5|3|5|0|0|1|0|0|20|110|1-7,D1,D2,D3,8-12,C6,13-24,Z1|25|230|A|OIBQBAogzGpgJDOBlAGmAIgeTAJgMIAyYASgJoazjL6QCyYNjtTuwxTwGXVvT2vOEPD4GwhLmal0yMn1rjx-HONFSlLTQhhMIY8OIgBGQQbO8IANlM3F5u7ftOgA -->
+
+<h1 id="the-greedy-prisoner">The Greedy Prisoner</h1>
+
+<div class="map">
+  <p><img src="estate-basement.png" /></p>
+</div>
+
+<p>From The Connoisseur:</p>
+
+<blockquote class="text-message">
+  <p>I… got distracted by their beauty. I also figured he’d free me eventually but it appears that I’m his new… prize.  Anyways I would greatly appreciate my freedom. The loot is my payment.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal at least two jewels and the NPC must escape.</p>
+
+<p><strong>Special Rules</strong>:</p>
+
+<ul>
+  <li>The NPC token is a Prisoner (see NPCs in rules)</li>
+  <li>Remote Locks (see rules)</li>
+  <li>Guard Dogs (see rules)</li>
+</ul>
+
+<p><strong>Success Unlocks:</strong> The Connoisseur</p>
+
+<!-- http://localhost:3000/design/?savekey=Estate+Basement|50|255|2|6|5|0|0|2|0|0|105|145|1-8,D1,9-15,C6,16-18,D2,C4,C5,A1,A4,19-20,21-24,Z1|90|210|S|OIBQBKHpAkDMVH0ZSBlAGmNBhMAlDAWTACkB1bPXbLVcGAJjABEB5RNATU73t7KV+6PtHA0aLANIEsFAjwl5GwUSjHqwKgDICawjSKpgAoiQObIZxCYCMlw49MA2IA -->
+
+<!-- Group feel bifurcated - the right hand side is clearly the objective side, but it doesn't help the other side. Can one side be more helpful? Or maybe the X remote lock should be on the tougher side? -->
+
+<h1 id="the-blind-justice-job">The Blind Justice Job</h1>
+
+<div class="map">
+  <p><img src="courthouse.png" /></p>
+</div>
+
+<p>From the Beat Cop:</p>
+
+<blockquote class="text-message">
+  <p>I need to know what they have on me. Get me the dossier at the courthouse, then we’ll talk.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal the document</p>
+
+<p><strong>Item:</strong> Lucky Penny</p>
+
+<p><strong>Special Rules:</strong></p>
+
+<ul>
+  <li>Lockdown Gates (see rules)</li>
+  <li>Remote Locks (see rules)</li>
+  <li>Reinforcements Locks (see rules)</li>
+</ul>
+
+<p><strong>Success Unlocks:</strong> Beat Cop</p>
+
+<!-- http://localhost:3000/design/?savekey=Courthouse|80|35|4|4|8|0|0|0|0|0|25|200|1-6,C3,7-12,G1,A2,16,G2,G3,19-21,C1,22-24,Z2|35|175|S|OIBQBKHpPXUNo+TIFEAsC0CYIEEwBlAYWXNLDQFkKyAZPAJQA0ARO4s1eSmrsPQDyAknko9OlJmmIsIeAJLlJwMv2EDgHVfAAkeYACEBElOZUX+uy+TQA2IA -->
+
+<h1 id="the-melee-job">The Melee Job</h1>
+
+<div class="map map-90">
+  <p><img src="museum-of-antiquity.png" /></p>
+</div>
+
+<p>You get a text from the Curator:</p>
+
+<blockquote class="text-message">
+  <p>It would appear that some of our guards have sticky fingers. Help me with some cleaning? Loot is payment.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal 3 jewels</p>
+
+<p><strong>Special Rules</strong>:</p>
+
+<ul>
+  <li>Safe requires 4x<img src="../img/emojis/crack.svg" class="emoji-svg" /> and contains a jewel</li>
+  <li>The item hex has <em>Safecracking Tools</em></li>
+  <li>HELD BY GUARDS. When you draw a jewel or keycard from the bag, add a Guard from the supply to that hex</li>
+  <li>HELP ME WITH SOME CLEANING. Guide NPC starts with <img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" /> and has FANCY CARD FLICK as their special. (See NPCs in rules)</li>
+  <li>FANCY CARD FLICK. Use this action to throw the keycard to any hex in a straight line not interrupted by a gap, (locked) Lock, or unknown security.</li>
+</ul>
+
+<p><strong>Success:</strong> Unlock the Curator</p>
+
+<!-- http://localhost:3000/design?savekey=Museum+of+Antiquity|40|-5|3|4|4|3|1|0|0|0|125|95|1-13,C5,14-24,C4,Z1|275|175|S|OIBQBAogzGq+c4QCzzRAsmATMAMmACQx7aRaILgDKAwmHQ-Y8AIwDS5aLVacPaWlgGUmYpFna0CASTBSCjEb0x9wtMqqFqGRTRXCqjAViA -->
+
+<h1 id="the-side-channel">The Side Channel</h1>
+
+<div class="map map-90">
+  <p><img src="server-farm.png" /></p>
+</div>
+
+<p>From Shell:</p>
+
+<blockquote class="text-message">
+  <p>Greatest cybersecurity in the world can’t beat a tunnel. Too bad I’m a bit claustrophobic.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal the documents inside remote lock Y.</p>
+
+<p><strong>Special Rules:</strong></p>
+
+<ul>
+  <li>TUNNEL. In planning, you place one Entrance one of the indicated spaces.</li>
+  <li>NO ENTRANCE LIMITS. Any number of player characters may start on an entrance.</li>
+  <li>Guide NPC (see rules) starts with <img src="../img/emojis/idea.svg" class="emoji-svg" /><img src="../img/emojis/idea.svg" class="emoji-svg" />.</li>
+  <li>Special ability for Guide is PAUSE <img src="../img/emojis/idea.svg" class="emoji-svg" />.</li>
+  <li>Shell also has CRACK CIPHER. Immediately when Shell has possession of the USB key, they open up the Y gate.</li>
+  <li>Watchtower (see rules)</li>
+</ul>
+
+<!-- https://mastersoftheheist.com/design/?savekey=Server+Farm|80|225|7|7|8|0|0|0|0|0|20|235|1-6,C2,7-10,A5,12-17,C2,C5,20,C1,21-24,Z1|155|245|S|OIBQBKYMoMJgUgdQuAKijl22nH+4AlATQBFM1dMBpIgUQx0kgBIBmCAJjEWz37Dpm4VtybgCVYRSoAZAPJhCDWd2nrwAVSgAhRnAVhassAFlkGmZboA2KyIf2KQA -->
+
+<h1 id="the-hospitality-job">The Hospitality Job</h1>
+
+<div class="map map-90">
+  <p><img src="hotel-basement.png" /></p>
+</div>
+
+<p>You receive a text message from the Security Consultant:</p>
+
+<blockquote class="text-message">
+  <p>A colleague of mine is in a bit of a jam. Can you deliver him?</p>
+</blockquote>
+
+<blockquote class="text-message">
+  <p>btw he won’t go willingly. thx!</p>
+</blockquote>
+
+<!-- http://localhost:3000/design?savekey=Hotel+Basement|10|260|4|5|3|0|1|0|0|0|45|25|1,A1,2,3,C2,4-11,C2,12-15,C2,A2,16-20,A3,C5,21-23,A4,24,Z1|30|225|S|OIBQBKHpCiDMVGWdVTwGkDCAZd+UDwASAJjC3OCrULvAGUswmKBZMbPNgdRf2IJgARgwtmPACriZ9fDA6tWOGkXxLmkDfPIKwerIuYGOeuedrgzltXJgA2dEA -->
+
+<p><strong>Objective:</strong> The hostage must escape.</p>
+
+<p><strong>Safe</strong> requires <img src="../img/emojis/crack.svg" class="emoji-svg" /> <img src="../img/emojis/crack.svg" class="emoji-svg" /> <img src="../img/emojis/crack.svg" class="emoji-svg" />, contains $5k and a jewel</p>
+
+<p><strong>Special Rules:</strong></p>
+
+<ul>
+  <li>NPC is a Hostage (see rules)</li>
+  <li>Keycard (see rules)</li>
+  <li>Watchtower (see rules)</li>
+  <li>Safe (see rules)</li>
+</ul>
+
+<p><strong>Upon Success:</strong> Unlock Security Consultant, gain $7k</p>
+
+<h1 id="the-proving-grounds">The Proving Grounds</h1>
+
+<div class="map">
+  <p><img src="rival-hq.png" /></p>
+</div>
+
+<p>You receive a text from The Machinist:</p>
+
+<blockquote class="text-message">
+  <p>I only work with those who appreciate precision.</p>
+</blockquote>
+
+<blockquote class="text-message">
+  <p>Pull this one off, then we’ll talk.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Crack the safe and steal the documents inside</p>
+
+<p><strong>Safe</strong> requires 5x<img src="../img/emojis/crack.svg" class="emoji-svg" /> and contains documents, $5k</p>
+
+<p><strong>Special Rules</strong></p>
+
+<ul>
+  <li>Lockdown Gates (see rules)</li>
+  <li>Guard Dogs (see rules)</li>
+  <li>Safes (see rules)</li>
+</ul>
+
+<p><strong>Success Unlocks</strong>: The Machinist</p>
+
+<!-- http://localhost:3000/design?savekey=Rival+HQ|10|245|3|6|6|0|0|2|0|0|15|-15|1-7,C3,D1,9-11,G1,D2,13-14,C3,15-20,21,D3,23-24,Z2|10|175|S|OIBQBKHpDKYCQEYECYrtgYTDbufaRHhIEbQCC5qZwAQmfsAKpiZoCiArOvqfgBEA0hDyFoE3mNqTiYDmmACpM6pACSEAUoituUIA -->
+
+<h1 id="the-safehouse-rescue">The Safehouse Rescue</h1>
+
+<div class="map">
+  <p><img src="parking-garage.png" /></p>
+</div>
+
+<p>From Old Friend:</p>
+
+<blockquote class="text-message">
+  <p>Found the safehouse where the feds keep my mentor. Let’s grab her in transit.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Rescue Prisoner before she reaches the van(*)</p>
+
+<p><strong>Success Unlocks:</strong> Retired Mastermind, Gain $10k</p>
+
+<p><strong>Special Rules:</strong></p>
+
+<ul>
+  <li>MOVING TARGET. At the end of each Event phase, move all guards and Captured Prisoner one hex in a straight line closer to the van.</li>
+  <li>GUARDS HAVE KEYS. Guards and Captured Prisoner move without restriction.</li>
+  <li>AMBUSH REQUIRED. All four Guards must be subdued <strong>in a single round</strong>. If one is subdued but not the others, activate the C1 crisis during Event phase early.</li>
+  <li>ABORT ABORT ABORT. Prisoner cannot be Freed during the Escape Phase (i.e. the NPC must be activated prior to escape).</li>
+</ul>
+
+<!-- http://localhost:3000/design/?savekey=Parking+Garage|0|60|0|10|6|0|0|0|0|0|10|170|1-3,5-13,16-18,A5,20-24,C1,Z1|50|220|P|OIBQBKHpCiBMYYFkquYgrKyPrgMoDCqR2eZFkAMgtbebhAuqa8aY40gOqIovEASjDCkAVJWYo2o9nMoNyhemBoL1kGR0Uad6TjoOIAjAqA -->
+
+<h1 id="the-black-box">The Black Box</h1>
+
+<div class="map map-90">
+  <p><img src="the-lair.png" /></p>
+</div>
+
+<blockquote class="text-message">
+  <p>They call it The Lair because it’s a security black box. Hopefully you’ll learn more as you plan. Just crack it from the inside.</p>
+</blockquote>
+
+<blockquote class="text-message">
+  <p>I can interpret schematics if you show me but I’m a bit… tied up at the moment.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> The Architect NPC must escape</p>
+
+<p><strong>Special Rules:</strong></p>
+
+<ul>
+  <li>HELD BY GUARD applies to USB key, Jewels, and Documents</li>
+  <li>Safe requires <img src="../img/emojis/crack.svg" class="emoji-svg" /><img src="../img/emojis/crack.svg" class="emoji-svg" /><img src="../img/emojis/crack.svg" class="emoji-svg" /> to open, contains <em>Safecracking Tools</em> and $5k.</li>
+  <li>TWO TUNNELS. You may add entrances to two different hex spaces indicated</li>
+  <li>CHECK THE LOGS. If a character posseses the USB key and is on the server space(*), they immediately may <img src="../img/emojis/reveal.svg" class="emoji-svg" /><img src="../img/emojis/reveal.svg" class="emoji-svg" />, and gain $3k.</li>
+  <li>NPC SPECIAL: STUDY SCHEMATICS. If the NPC possesses the Documents token, use this action to place $2k on the Kennel and Reinforcements hexes. Once per heist.</li>
+  <li>USB key, Documents, Tunnels, NPCs, Guard Dogs, and Reinforcements (see rules)</li>
+</ul>
+
+<p><strong>Upon Success:</strong> Unlock The Architect</p>
+
+<!-- https://mastersoftheheist.com/design/?savekey=The+Lair|220|35|4|4|6|2|0|4|1|1|255|180|1-7,10,C6,A1,11-13,D1,14-15,D3,C5,A3,16-20,C1,21-24,Z1|60|245|P|OIBQBKENIMIelEOfMARKYDKcfbgFSpKp56QAqYAogLL4MnnhV5WRbHjNitzvc4HXCJr0AStQZkhsVLAAyqSWK5raAdTAASAMxrFNAKxqSZlOfhA -->
+
+<h1 id="the-marathon-job">The Marathon Job</h1>
+
+<div class="map map-90">
+  <p><img src="the-vault.png" /></p>
+</div>
+
+<blockquote class="text-message">
+  <p>Take your time on this one.</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Steal the Documents from the Safe</p>
+
+<p><strong>Safe</strong> requires 6x<img src="../img/emojis/crack.svg" class="emoji-svg" /> to open and contains Documents</p>
+
+<p><strong>Special Rules:</strong></p>
+
+<ul>
+  <li>Jewels are HELD BY GUARD (see rules)</li>
+  <li>Lockdown Gates (see rules)</li>
+  <li>Keycard (see rules)</li>
+  <li>Safe (see rules)</li>
+  <li>Remote locks (see rules)</li>
+</ul>
+
+<p><strong>Upon Success:</strong> Gain $10k, unlock the Diversion Specialist</p>
+
+<!-- http://localhost:3000/?savekey=The+Vault|55|255|2|6|7|2|0|0|0|0|240|25|1-10,C3,A1,G1,11-13,G2,C3,A1,A2,14-18,G4,19-24,Z2|100|-5|P|OIBQBAygGmq+dEOWATAYQDJuNpl5D84BpLIlAJRmJQnVgBExNVIH7YBGEiwz4j1gAhImX4cG1AFLsJRBsQCC8zmsmqGAEjb4BKOAFEufWmEMA2CkA -->
+
+<h1 id="county-the-bricks">County: The Bricks</h1>
+
+<div class="map">
+  <p><img src="the-bricks.png" /></p>
+</div>
+
+<p><strong>Objective:</strong> At least one character reaches escape</p>
+
+<p><strong>Special Rules</strong></p>
+
+<ul>
+  <li>BREAKOUT. Every character must escape out of a different exit</li>
+  <li>BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.</li>
+</ul>
+
+<p><strong>Upon success</strong>. Any character who reaches an Escape is not Busted. Gain $10k and unlock the Prison Guard</p>
+
+<!-- https://mastersoftheheist.com/design/?savekey=The+Bricks|75|10|6|4|5|0|0|1|0|0|20|200|1-8,C2,G1,G2,G3,G4,C2,13-20,C2,21-24,C2,Z2|225|225|S|OIBQBAogzGq+dHggFnuxBVDDe20utOgMoDCY5sFVtFAIgPIbZVxsCCOsAQvpAFZSFQmzzsReMcO7B6lSdwDqAFVgAmMABlNdMOuAUdsvAFkl6c5YuFb4+ycd2nIIA -->
+
+<h1 id="county-the-river">County: The River</h1>
+
+<div class="map">
+  <p><img src="the-river.png" /></p>
+</div>
+
+<p><strong>Objective:</strong> At least one character reaches escape</p>
+
+<p><strong>Special Rules</strong></p>
+
+<ul>
+  <li>BREAKOUT. Every character must escape out of a different exit</li>
+  <li>BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.</li>
+</ul>
+
+<p><strong>Upon success</strong>. Any character who reaches an Escape is not Busted. Gain $12k and unlock the Prison Guard</p>
+
+<!-- http://localhost:3000/?savekey=The+River|0|255|2|8|5|0|0|3|0|0|15|70|1-10,D1,D2,D3,14-20,C1,21-22,C6,23-24,Z1|210|250|S|OIBQBKYKIExgSlMNgGEwGV0YBqfZIeEcsADITgAiA0vvVAKyUslZgCyA6q+OyQL4Fi4eAE0O9Qb3rcZ-ETMgKWcldOXp4OSW2FLF60Uhhkq0ZtNgQ47DGPpGDzjSCA -->
+
+<h1 id="county-the-hole">County: The Hole</h1>
+
+<div class="map">
+  <p><img src="the-hole.png" /></p>
+</div>
+
+<p><strong>Objective:</strong> At least one character reaches escape</p>
+
+<p><strong>Safe</strong> requires 4x<img src="../img/emojis/crack.svg" class="emoji-svg" /> and contains the keycard</p>
+
+<p><strong>Special Rules</strong></p>
+
+<ul>
+  <li>BREAKOUT. Every character must escape out of a different exit</li>
+  <li>BREAK IN TO BREAK OUT. Non-busted Characters must start on the outside, busted characters may start at any of the designated spots on the inside. Team chooses starting places.</li>
+</ul>
+
+<p><strong>Upon success</strong>. Any character who reaches an Escape is not Busted. Gain $15k and unlock the Prison Guard</p>
+
+<!-- http://localhost:3000/?savekey=The+Hole|180|255|9|8|4|0|0|0|0|0|205|0|1-24,Z1|125|15|P|KIZgBA4gCmwCyRtRLnIMoGExdU-K8eO2uGKAkicQNKYAyKZMuzxrpn1HsArNRmyCmQgsnoAmEdOQSGKALIB1FBIiNZ6xSrRiYy7cV1A -->
+
+<h1 id="the-final-score">The Final Score</h1>
+
+<p>From your old friend:</p>
+
+<blockquote class="text-message">
+  <p>So you’ve decided to hit the world’s largest gang huh? Nice.</p>
+</blockquote>
+
+<blockquote class="text-message">
+  <p>Lots of moving pieces on this one. Sorry but this one is out of my league.</p>
+</blockquote>
+
+<p>Your Old Friend Fixer <strong>is not available</strong> for either part of these heists, but other fixers may be used.</p>
+
+<h2 id="part-1-the-secrets">Part 1: The Secrets</h2>
+
+<blockquote class="text-message">
+  <p>Wait… you’re gonna STAY in there hidden with all those government secrets?</p>
+</blockquote>
+
+<p>You will be tunneling into a federal building to steal the government secrets from their vault, then hiding in the building itself. Once the alarm sounds for the first heist, your only escape locations are the hideouts (denoted by *).</p>
+
+<p>When this heist is finished, you may now rebuild the board for the second heist, keeping the hexes with players on them on the table. Rebuild the security bag according to the new security token distributions.</p>
+
+<h2 id="part-2-a-new-acquaintance">Part 2: A New Acquaintance</h2>
+
+<blockquote class="text-message">
+  <p>You never know who you are going to meet once inside</p>
+</blockquote>
+
+<p>For this heist, you will be taking The Mayor hostage and escaping out all different exits. Rebuild a new board, keeping the original characters on the same hiding places as in Part 1.</p>
+
+<p>Plan for the second heist by setting new planning tokens. You no longer need a planning token on your current location.</p>
+
+<h1 id="the-final-score-part-1">The Final Score: Part 1</h1>
+
+<div class="map map-90">
+  <p><img src="interior-ministry-south.png" /></p>
+</div>
+
+<!-- https://mastersoftheheist.com/design/?savekey=Interior+Ministry+South|40|210|2|6|5|0|0|2|0|0|235|225|1-8,D1,9-12,C1,13-18,D3,20,A3,A4,23,A1,A2,24,Z1|60|240|P|OIBQBKHpPXUNggVI8qmfgEgEwN2ABkwBlAYTGwEYzKARAaTQQonwCUBROlvXxuRJtIglmzZcArAWKtKpFpEIkkEypH5YENXrvVgVS+ABUwZi+atntt+HeOOHz+66cggA -->
+
+<p>From our insider contact:</p>
+
+<blockquote class="text-message">
+  <p>Loading dock is one entrypoint, then tunnel under the south wall.</p>
+</blockquote>
+
+<p><strong>Objectives:</strong></p>
+
+<ul>
+  <li>A character must have the Documents in a hideout(*) and the end of Escape</li>
+</ul>
+
+<p><strong>Special rules:</strong></p>
+
+<ul>
+  <li>TUNNEL. During planning, place an entrance in one of the indicated spaces.</li>
+  <li>HIDEOUTS. Characters must end on a Hideout (*) space, or are busted. Max 2 characters per hideout.</li>
+  <li>Safe requires 6x<img src="../img/emojis/crack.svg" class="emoji-svg" /> and contains the documents</li>
+  <li>Keycard (see rules)</li>
+  <li>Reinforcements (see rules)</li>
+  <li>Guard Dogs (see rules)</li>
+</ul>
+
+<h1 id="the-final-score-part-2">The Final Score: Part 2</h1>
+
+<div class="map">
+  <p><img src="interior-ministry-north.png" /></p>
+</div>
+
+<blockquote class="text-message">
+  <p>Our meal ticket is approaches. Why is the mayor in a federal building??</p>
+</blockquote>
+
+<p><strong>Objective:</strong> Escape with the Mayor as your hostage</p>
+
+<p><strong>Special Rules</strong></p>
+
+<ul>
+  <li>WHISPERS. During planning, players who share the same hideout hex may exchange Idea tokens.</li>
+  <li>RADIO SILENCE. You may not use Fixer abilities or visit the Store during this planning phase.</li>
+  <li>FRESH IDEAS. Your character starts with their normal amount of starter ideas, OR the number of ideas from Part 1.</li>
+  <li>BREAKOUT. No two player characters may escape out the same exit.</li>
+  <li>MEAL TICKET. At the end of each Event phase until captured, the Mayor NPC moves one hex to the right. Once captured, he is a Hostage (see rules).</li>
+  <li>TRUSTED MAYOR. Watchtower does not impact the Mayor, even as a hostage.</li>
+  <li>Reinforcements, Watchtower, Remote locks (see rules)</li>
+</ul>
+
+<!-- http://localhost:3000/design/?savekey=Interior+Ministry+North|40|10|4|6|5|0|0|0|0|0|235|220|1,G1,2-4,C2,5-10,G2,C2,13-14,C3,15,C5,A2,A3,20,C2,21-24,Z2|60|235|P|KIZgBA4gCpPbD5LjAygYQaRKdmACx4YIAyATGCagBpgBKAmogCIL13KQBCe6l5CKSxF4AWQDqkTCXLph1TBIAqVGZniCFGtDsiUuhuAEEwWhIrVVmRsACo8D289wu8bjyiA -->
+
+<p><strong>Upon Success:</strong> see next page.</p>
+
+<h1 id="the-final-score-1">The Final Score</h1>
+
+<p>The next morning, you receive a text from your Old Friend.</p>
+
+<blockquote class="text-message">
+  <p>I knew it. These documents show that the feds have dirt on the Mayor.</p>
+</blockquote>
+
+<blockquote class="text-message">
+  <p>I think we have a new friend.</p>
+</blockquote>
+
+<p class="space-break">Congratulations!</p>
+
+<ul>
+  <li><strong>Your final score</strong> is equal to the amount of team cash you have at the end of this job.</li>
+  <li><strong>Unlock the Mayor as a Fixer.</strong> The main questline of River City is complete. However, the rest of River City is still open to you.</li>
+  <li><strong>Achievements</strong>. Be sure to check the achievements page!</li>
+</ul>
+
+<h1 id="achievements">Achievements</h1>
+
+<table class="achievements">
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>On Fumes</strong>. Win a scenario where at least two characters have zero leftover ideas at the end.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Nothing Personal</strong>. Win a scenario but have at least one character Busted.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Of Course</strong>. Have a character end up Busted by needing at least 2 on their last ditch effort, and rolled a 1.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Jailbreak!</strong> Attempt a County Jail job with every team member starting on the inside.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Penny Pincher</strong>. Start a heist with $20k of unspent team cash.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Silence is Golden</strong>. Complete a round where every character produced no noise.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Minmaxer</strong>. Finish a scenario never having an Event card impact your team.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>The Real Achievement is the Friends We Made Along the Way</strong>. Finish a scenario having used the abilities of five or more different fixers.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>First of Many</strong>. Complete The Final Score</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Back For More</strong>. Complete The Final Score using the Mayor’s Fixer ability. (NPC token behaves the same.)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Completionist</strong>. Complete all scenarios in River City.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Amateur Bingo</strong>. Fill out the Amateur column in the table below</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Conventional Bingo</strong>. Fill out the Conventional Pro column in the table below</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Oddball Bingo</strong>. Fill out the Oddball Pro column in the table below</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Pro Bingo Blackout</strong>. Fill out the entire Character table below</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>True Mastermind</strong>. Create a board of your own and play it with other people.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="space-break">Check off if a player played this character in any heist:</p>
+
+<table class="achievements characters">
+  <thead>
+    <tr>
+      <th>Amateur</th>
+      <th>Conventional Pro</th>
+      <th>Oddball Pro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Angry Locksmith</td>
+      <td>Safecracker</td>
+      <td>Demolitions Guy</td>
+    </tr>
+    <tr>
+      <td>Thug</td>
+      <td>Bruiser</td>
+      <td>Operative</td>
+    </tr>
+    <tr>
+      <td>Street Urchin</td>
+      <td>Grifter</td>
+      <td>Mastermind</td>
+    </tr>
+    <tr>
+      <td>Script Kiddie</td>
+      <td>Black Hat</td>
+      <td>Hacktivist</td>
+    </tr>
+    <tr>
+      <td>Burglar</td>
+      <td>Ghost Runner</td>
+      <td>Grease Man</td>
+    </tr>
+    <tr>
+      <td>Lookout</td>
+      <td>Watchman</td>
+      <td>Sentinel</td>
+    </tr>
+    <tr>
+      <td>Pickpocket</td>
+      <td>Thief</td>
+      <td>Con Artist</td>
+    </tr>
+    <tr>
+      <td>Shutter Bug</td>
+      <td>Technician</td>
+      <td>Tinkerer</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Here are some random ones I'm saving for now:
+
+http://localhost:3000/design/?savekey=The+Ledger|105|5|3|8|5|0|1|0|3|0|210|195||35|215|A|OIBQBKYKIMwelEPFALPDkoFlPgCRwDKAwtLknhqWDTZfQcWXWQCIDytLPVkrYTmELcIbYG1GV+ZBrwDSJADJ9kGHKMYYQ4AFIB1KlACMqs9LUXzlm9dVA
+
+http://localhost:3000/design/?savekey=The+Track|190|240|5|3|5|0|0|1|0|0|20|110|1-7,D1,D2,D3,8-12,C6,13-20,C6,21-24,Z1|25|230|A|OIBQBAogzGpgJDOBlAGmAIgeTAJgMIAyYASgJoazjL6QCyYNjtTuwxTwGXVvT2vOEPD4GwhLmal0yMn1rjx-HONFSlLTQhhMIY8OIgBGQQbO8IANlM3F5u7ftOgA -->
+
+
+</body>
+
+</html>

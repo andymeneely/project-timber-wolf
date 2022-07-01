@@ -101,6 +101,19 @@ task :rules do
   `python3 src/weasybuild.py`
 end
 
+desc 'Build the full book PDF'
+task :book do
+  puts "Converting markdown to html..."
+  load 'src/book_wikitext.rb'
+  puts "Weasyprinting..."
+  `python3 src/weasybuild_book.py`
+end
+
+task :book_pngs do
+  puts "Ghostscripting PDF to PNGs..."
+  `gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/BOOK-%02d.png" _output/BOOK.pdf`
+end
+
 task :rules_pngs do
   puts "Ghostscripting PDF to PNGs..."
   # `gswin64c -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/RULES-%02d.png" _output/RULES.pdf`

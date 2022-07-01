@@ -29,7 +29,11 @@ body{
 #markdown-toc a::after {
   content: target-counter(attr(href), page);
   float: right;
-  margin-right: 6em;
+  margin-right: 8em;
+}
+
+#markdown-toc>ul>li:nth-child(2n){
+  background-color: lightgrey;
 }
 
 p{
@@ -143,20 +147,20 @@ ul.parts-list {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-items: center;
   align-content: stretch;
-  height: 6.5in;
+  height: 5.5in;
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 75%;
+  font-size: 65%;
+  line-height: 0.9;
   /* border: 1pt solid black; */
 }
 
 ul.parts-list li {
   text-align: center;
   /* border: 1pt solid black; */
-  font-style: italic;
   page-break-inside: avoid;
   margin-bottom: 1.0em;
 }

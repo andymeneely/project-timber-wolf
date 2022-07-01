@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="rules.css">
+    <style>
+        @page {
+
+            /* Vault Box size */
+            /* size: 5.75in 8.75in;  */
+            /*
+            padding: 0.40in;
+            padding-bottom: 0;
+            */
+
+            /* TGC Jumbo Coil Book */
+            /* size: 10.11in 10.75in; */
+
+            /* TGC Medium Coil Book*/
+            size: 5.25in 7.75in;
+            margin: 0;
+            margin-bottom: 0.30in;
+            padding: 0.25in;
+            padding-top: 0.25in;
+            padding-bottom: 0.25in;
+            /* background-image: url("../img/document-bg.svg"); */
+            /* background-repeat: no-repeat; */
+            /* background-size: auto auto; */
+
+            @bottom-center {
+                font-family: 'Archivo Black';
+                height: 0in;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 0.25in;
+                text-align: center;
+
+                font-size: 8pt;
+                font-weight: bold;
+                content: counter(page);
+            }
+        }
+        /* Binding gutters */
+        @page: left {
+            background-position: left top;
+            padding-right: 0.60in;
+        }
+        @page: right {
+            background-position: right top;
+            padding-left: 0.60in;
+        }
+    </style>
+</head>
+
+<body>
+
+    <%= yield %>
+
+</body>
+
+</html>
