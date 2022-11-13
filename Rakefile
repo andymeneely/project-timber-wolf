@@ -111,7 +111,7 @@ end
 
 task :book_pngs do
   puts "Ghostscripting PDF to PNGs..."
-  `gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/BOOK-%02d.png" _output/BOOK.pdf`
+  `gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r600 -dDownScaleFactor=2 -sOutputFile="_output/BOOK[%02d].png" _output/BOOK.pdf`
 end
 
 task :rules_pngs do
